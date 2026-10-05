@@ -1,0 +1,381 @@
+/* ===================================================
+   DIGITAL CERTIFICATE OF COMPLETION STYLES
+   Sertifikat Resmi Drilling TKA TJKT Pusmendik
+   Print & Mobile Optimized
+   =================================================== */
+
+.cert-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 23, 42, 0.75);
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.cert-modal-content {
+  background: #ffffff;
+  border-radius: var(--radius-md);
+  max-width: 860px;
+  width: 100%;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cert-modal-header {
+  padding: 12px 20px;
+  background: var(--pm-blue-dark);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cert-modal-header h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.cert-modal-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-print-cert {
+  background: var(--pm-gold);
+  color: #0f172a;
+  border: none;
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-print-cert:hover {
+  background: #f59e0b;
+}
+
+.btn-close-cert {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* Certificate Paper (A4 Landscape aspect ratio feel) */
+.cert-paper {
+  padding: 24px;
+  background: #fdfcf9;
+}
+
+.cert-border-outer {
+  border: 4px double #b45309;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.cert-border-inner {
+  border: 2px solid #d97706;
+  padding: 24px 28px;
+  text-align: center;
+  position: relative;
+  background: radial-gradient(circle at center, #ffffff 60%, #fffbeb 100%);
+}
+
+.cert-top-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.cert-logo-left {
+  width: 50px;
+  height: 50px;
+}
+
+.cert-svg-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.cert-header-titles {
+  text-align: left;
+}
+
+.cert-org {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #0f3d63;
+  letter-spacing: 0.5px;
+}
+
+.cert-suborg {
+  font-size: 0.75rem;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.cert-prog {
+  font-size: 0.72rem;
+  color: #d97706;
+  font-weight: 700;
+}
+
+.cert-main-title {
+  font-family: var(--font-heading);
+  font-size: 1.65rem;
+  font-weight: 900;
+  color: #0f3d63;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+}
+
+.cert-reg-no {
+  font-size: 0.78rem;
+  color: #64748b;
+  font-family: monospace;
+  margin-bottom: 12px;
+}
+
+.cert-body-text {
+  font-size: 0.9rem;
+  color: #475569;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.cert-student-name {
+  font-family: var(--font-heading);
+  font-size: 1.65rem;
+  font-weight: 900;
+  color: #0f172a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #b45309;
+  display: inline-block;
+  padding: 0 20px 4px 20px;
+  margin-bottom: 6px;
+}
+
+.cert-student-nisn {
+  font-size: 0.85rem;
+  color: #64748b;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.cert-statement {
+  font-size: 0.92rem;
+  color: #334155;
+  max-width: 620px;
+  margin: 0 auto 6px auto;
+  line-height: 1.5;
+}
+
+.cert-session-name {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #0f3d63;
+  margin-bottom: 20px;
+}
+
+.cert-score-seal-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 20px;
+}
+
+.cert-score-box {
+  background: #f8fafc;
+  border: 1.5px dashed #0284c7;
+  padding: 8px 18px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+}
+
+.cert-score-label {
+  font-size: 0.68rem;
+  color: #64748b;
+  font-weight: 700;
+}
+
+.cert-score-number {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #0284c7;
+  line-height: 1.1;
+}
+
+.cert-score-rating {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #d97706;
+}
+
+/* Gold Seal */
+.cert-gold-seal {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fde047 0%, #ca8a04 100%);
+  border: 3px dashed #78350f;
+  box-shadow: 0 4px 10px rgba(202, 138, 4, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.seal-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #78350f;
+  line-height: 1.1;
+}
+
+.seal-inner .seal-top {
+  font-size: 0.54rem;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.seal-inner .seal-mid {
+  font-size: 0.95rem;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin: 1px 0;
+}
+
+.seal-inner .seal-sub {
+  font-size: 0.55rem;
+  font-weight: 800;
+  color: #451a03;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
+
+/* Footer Signatures */
+.cert-footer-signatures {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+
+.cert-sig-left, .cert-sig-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Paraf Tanda Tangan Kaligrafi 'Pm' (Persis Foto Asli) */
+.sig-paraf-container {
+  width: 152px;
+  height: 68px;
+  margin-top: -6px;
+  margin-bottom: -18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.official-paraf-img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+  filter: contrast(1.04) drop-shadow(0 1px 1px rgba(12, 32, 68, 0.22));
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.sig-date {
+  font-size: 0.78rem;
+  color: #475569;
+}
+
+.sig-role {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.sig-qr-placeholder {
+  margin-top: 8px;
+  border: 1px dashed #94a3b8;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: #059669;
+  background: #ecfdf5;
+}
+
+.sig-line {
+  width: 140px;
+  height: 1px;
+  background: #334155;
+  margin: 10px 0 6px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.sig-name {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0f172a;
+  position: relative;
+  z-index: 2;
+}
+
+/* Print Stylesheet */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .cert-paper, .cert-paper * {
+    visibility: visible;
+  }
+  .cert-modal-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    background: transparent;
+  }
+  .cert-modal-header {
+    display: none;
+  }
+  .cert-paper {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

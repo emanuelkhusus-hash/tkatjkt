@@ -1,0 +1,1191 @@
+/* ===================================================
+   CBT EXAM ROOM & QUESTIONS PRESENTATION STYLES
+   Standar Pusmendik ANBK / TKA Ujian Berbasis Komputer
+   Mobile-First & Touch-Friendly
+   =================================================== */
+
+/* Header CBT Controls */
+.header-cbt-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Font Size Adjuster A- A A+ */
+.font-size-adjuster {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 3px 6px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.font-label {
+  font-size: 0.7rem;
+  color: #bae6fd;
+  margin-right: 4px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .font-label { display: inline-block; }
+}
+
+.btn-font-size {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  padding: 2px 7px;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  transition: background 0.15s;
+}
+
+.btn-font-size:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.btn-font-size.active {
+  background: #ffffff;
+  color: var(--pm-blue-dark);
+}
+
+/* Timer Display Box */
+.cbt-timer-box {
+  background: #ffffff;
+  color: var(--pm-blue-dark);
+  padding: 4px 12px;
+  border-radius: var(--radius-sm);
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid #cbd5e1;
+}
+
+.timer-label {
+  font-size: 0.58rem;
+  font-weight: 800;
+  color: #64748b;
+  letter-spacing: 0.5px;
+  line-height: 1;
+}
+
+.timer-countdown {
+  font-family: monospace;
+  font-size: 1.15rem;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #0f172a;
+}
+
+/* Timer warning states */
+.cbt-timer-box.timer-warning {
+  background: #fef3c7;
+  border-color: #f59e0b;
+}
+.cbt-timer-box.timer-warning .timer-countdown {
+  color: #b45309;
+}
+
+.cbt-timer-box.timer-danger {
+  background: #fee2e2;
+  border-color: #ef4444;
+  animation: pulseDanger 1s infinite alternate;
+}
+.cbt-timer-box.timer-danger .timer-countdown {
+  color: #b91c1c;
+}
+
+@keyframes pulseDanger {
+  from { transform: scale(1); }
+  to { transform: scale(1.04); }
+}
+
+/* Tombol Toggle Daftar Soal */
+.btn-toggle-daftar-soal {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--pm-gold);
+  color: #0f172a;
+  border: none;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-weight: 800;
+  font-size: 0.82rem;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn-toggle-daftar-soal:hover {
+  background: #f59e0b;
+}
+
+.btn-toggle-daftar-soal:active {
+  transform: scale(0.96);
+}
+
+/* ===================================================
+   CBT QUESTION LAYOUT
+   =================================================== */
+.cbt-layout {
+  max-width: 960px;
+  margin: 16px auto 30px auto;
+  padding: 0 14px;
+}
+
+.cbt-question-area {
+  background: #ffffff;
+  border: 1px solid var(--pm-gray-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 160px);
+}
+
+/* Question Meta Bar */
+.question-meta-bar {
+  background: #f1f5f9;
+  border-bottom: 1px solid var(--pm-gray-border);
+  padding: 10px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-number-badge {
+  font-size: 0.95rem;
+  color: var(--pm-blue-dark);
+}
+
+.question-number-badge strong {
+  color: var(--pm-blue-primary);
+  font-size: 1.1rem;
+}
+
+.question-type-pill {
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  border: 1px solid #bae6fd;
+}
+
+/* Question Body Box */
+.question-body-box {
+  padding: 22px 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.question-text {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #1e293b;
+  margin-bottom: 22px;
+}
+
+/* Code Snippet / Technical Box inside Question */
+.tech-snippet {
+  background: #0f172a;
+  color: #38bdf8;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  font-family: monospace;
+  font-size: 0.9rem;
+  margin: 10px 0;
+  overflow-x: auto;
+  border-left: 4px solid var(--pm-gold);
+}
+
+/* Question Scenario Stimulus Box */
+.stimulus-box {
+  background: #f8fafc;
+  border-left: 4px solid var(--pm-blue-primary);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+  color: #334155;
+  line-height: 1.55;
+}
+
+.stimulus-tag {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--pm-blue-primary);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+/* ===================================================
+   OPTIONS RENDERING
+   =================================================== */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Single Choice (Radio) & Multi Select (Checkbox) */
+.option-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1;
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.15s ease-in-out;
+}
+
+.option-item:hover {
+  background: #f8fafc;
+  border-color: var(--pm-blue-medium);
+}
+
+.option-item.selected {
+  background: #eff6ff;
+  border-color: var(--pm-blue-primary);
+  box-shadow: 0 0 0 1px var(--pm-blue-primary);
+}
+
+.option-letter-badge {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #f1f5f9;
+  border: 1.5px solid #94a3b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #475569;
+  transition: all 0.15s;
+}
+
+.option-item.selected .option-letter-badge {
+  background: var(--pm-blue-primary);
+  border-color: var(--pm-blue-primary);
+  color: #ffffff;
+}
+
+/* Checkbox specific badge (Square with rounded corners) */
+.option-item.is-checkbox .option-letter-badge {
+  border-radius: 6px;
+}
+
+.option-text-content {
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: #334155;
+  flex: 1;
+}
+
+/* Hidden native inputs */
+.option-item input[type="radio"],
+.option-item input[type="checkbox"] {
+  display: none;
+}
+
+/* Kategori Benar / Salah Table */
+.statement-table-wrapper {
+  overflow-x: auto;
+  border: 1px solid #cbd5e1;
+  border-radius: var(--radius-sm);
+  margin-top: 8px;
+}
+
+.statement-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+.statement-table th {
+  background: #f1f5f9;
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--pm-blue-dark);
+  text-align: left;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.statement-table th.col-choice {
+  text-align: center;
+  width: 80px;
+}
+
+.statement-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 0.92rem;
+}
+
+.statement-table tr:last-child td {
+  border-bottom: none;
+}
+
+.statement-table tr:hover {
+  background: #f8fafc;
+}
+
+.statement-table td.col-choice {
+  text-align: center;
+}
+
+.tf-radio-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #94a3b8;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.tf-radio-btn.selected-true {
+  background: var(--pm-blue-primary);
+  border-color: var(--pm-blue-primary);
+  box-shadow: inset 0 0 0 3px #ffffff;
+}
+
+.tf-radio-btn.selected-false {
+  background: #dc2626;
+  border-color: #dc2626;
+  box-shadow: inset 0 0 0 3px #ffffff;
+}
+
+/* ===================================================
+   CBT BOTTOM NAVIGATION BAR (PERSIS PUSMENDIK)
+   =================================================== */
+.cbt-bottom-bar {
+  background: #ffffff;
+  border-top: 1px solid var(--pm-gray-border);
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: all 0.15s;
+}
+
+/* Soal Sebelumnya: Biru Navy Gelap */
+.btn-prev {
+  background: var(--pm-blue-dark);
+  color: #ffffff;
+}
+
+.btn-prev:hover {
+  background: #092c48;
+}
+
+.btn-prev:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Tombol Ragu-ragu (Kuning Khas Pusmendik) */
+.btn-ragu-ragu {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--pm-yellow-ragu);
+  color: #78350f;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 800;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+
+.btn-ragu-ragu:hover {
+  background: #f59e0b;
+}
+
+.btn-ragu-ragu input[type="checkbox"] {
+  display: none;
+}
+
+.ragu-custom-box {
+  width: 18px;
+  height: 18px;
+  background: #ffffff;
+  border: 2px solid #b45309;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+
+.btn-ragu-ragu input:checked + .ragu-custom-box {
+  background: #78350f;
+  border-color: #78350f;
+}
+
+.btn-ragu-ragu input:checked + .ragu-custom-box::after {
+  content: "✓";
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 900;
+}
+
+/* Soal Berikutnya: Biru Terang */
+.btn-next {
+  background: var(--pm-blue-primary);
+  color: #ffffff;
+}
+
+.btn-next:hover {
+  background: var(--pm-blue-hover);
+}
+
+/* Tombol Selesai Ujian */
+.btn-finish-cbt {
+  background: #059669;
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(5, 150, 105, 0.35);
+  font-weight: 800;
+}
+
+.btn-finish-cbt:hover {
+  background: #047857;
+}
+
+/* ===================================================
+   MODAL KONFIRMASI SELESAI UJIAN (BEBAS BLOKIR POPUP)
+   =================================================== */
+.cbt-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(2px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.cbt-confirm-box {
+  background: #ffffff;
+  border-radius: var(--radius-md);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+  max-width: 520px;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--pm-gray-border);
+}
+
+.confirm-box-header {
+  background: var(--pm-blue-dark);
+  color: #ffffff;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid var(--pm-gold);
+}
+
+.confirm-box-header h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.btn-close-confirm {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1.6rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.confirm-box-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.confirm-lead-text {
+  font-size: 0.95rem;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.confirm-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.summary-box {
+  padding: 10px 8px;
+  border-radius: var(--radius-sm);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-answered { background: #eff6ff; border: 1px solid #bfdbfe; }
+.box-answered .sum-count { color: #1d4ed8; }
+.box-unanswered { background: #fef2f2; border: 1px solid #fecaca; }
+.box-unanswered .sum-count { color: #dc2626; }
+.box-doubt { background: #fffbeb; border: 1px solid #fde68a; }
+.box-doubt .sum-count { color: #d97706; }
+
+.sum-count {
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.sum-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #475569;
+}
+
+.confirm-warning-note {
+  background: #fffbeb;
+  border-left: 4px solid #f59e0b;
+  padding: 10px 12px;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 0.85rem;
+  color: #92400e;
+  line-height: 1.45;
+}
+
+.confirm-checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: #f8fafc;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.confirm-checkbox-label input {
+  margin-top: 3px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.confirm-box-footer {
+  padding: 14px 20px;
+  background: #f8fafc;
+  border-top: 1px solid var(--pm-gray-border);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.btn-confirm-cancel {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #475569;
+  padding: 9px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-confirm-cancel:hover {
+  background: #f1f5f9;
+}
+
+.btn-confirm-submit {
+  background: #059669;
+  color: #ffffff;
+  border: none;
+  padding: 9px 20px;
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(5, 150, 105, 0.3);
+  transition: background 0.15s, transform 0.1s;
+}
+
+.btn-confirm-submit:hover {
+  background: #047857;
+}
+
+.btn-confirm-submit:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* ===================================================
+   FLYOUT PANEL: DAFTAR SOAL (PUSMENDIK DRAWER)
+   =================================================== */
+.daftar-soal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 23, 42, 0.5);
+  z-index: 200;
+}
+
+.daftar-soal-overlay.active {
+  display: block;
+}
+
+.daftar-soal-drawer {
+  position: fixed;
+  top: 0;
+  right: -360px;
+  width: 340px;
+  max-width: 90vw;
+  height: 100vh;
+  background: #ffffff;
+  z-index: 210;
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.daftar-soal-drawer.open {
+  right: 0;
+}
+
+.drawer-header {
+  padding: 16px;
+  background: var(--pm-blue-dark);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drawer-title-group h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.drawer-sub {
+  font-size: 0.75rem;
+  color: #bae6fd;
+}
+
+.btn-close-drawer {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1.6rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.drawer-legend {
+  padding: 10px 16px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.legend-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.chip-box {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  border: 1px solid #94a3b8;
+}
+
+.chip-answered .chip-box { background: var(--pm-blue-dark); border-color: var(--pm-blue-dark); }
+.chip-doubtful .chip-box { background: var(--pm-yellow-ragu); border-color: #d97706; }
+.chip-unanswered .chip-box { background: #ffffff; border-color: #cbd5e1; }
+
+.question-number-grid {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.btn-grid-num {
+  aspect-ratio: 1;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid #cbd5e1;
+  background: #ffffff;
+  color: #1e293b;
+  font-weight: 800;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+  position: relative;
+}
+
+.btn-grid-num:hover {
+  border-color: var(--pm-blue-primary);
+}
+
+/* Grid States */
+.btn-grid-num.status-answered {
+  background: var(--pm-blue-dark);
+  color: #ffffff;
+  border-color: var(--pm-blue-dark);
+}
+
+.btn-grid-num.status-doubtful {
+  background: var(--pm-yellow-ragu);
+  color: #78350f;
+  border-color: #d97706;
+}
+
+.btn-grid-num.active-question {
+  box-shadow: 0 0 0 3px var(--pm-gold);
+}
+
+.drawer-footer {
+  padding: 14px 16px;
+  border-top: 1px solid #e2e8f0;
+  background: #f8fafc;
+}
+
+.btn-quick-submit {
+  width: 100%;
+  padding: 10px;
+  background: #059669;
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-weight: 800;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-quick-submit:hover {
+  background: #047857;
+}
+
+/* ===================================================
+   VIEW 4: HASIL SKOR & PEMBAHASAN LENGKAP
+   =================================================== */
+.result-container {
+  padding: 24px 16px 40px 16px;
+  max-width: 900px;
+}
+
+.result-summary-card {
+  background: #ffffff;
+  border: 1px solid var(--pm-gray-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  padding: 24px;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.result-badge-top {
+  display: inline-block;
+  background: var(--pm-blue-light);
+  color: var(--pm-blue-primary);
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  margin-bottom: 8px;
+}
+
+.result-summary-card h2 {
+  font-size: 1.35rem;
+  color: var(--pm-blue-dark);
+  margin-bottom: 4px;
+}
+
+.student-name-result {
+  font-size: 0.92rem;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.score-display-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 640px) {
+  .score-display-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    gap: 30px;
+  }
+}
+
+.score-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 8px solid var(--pm-blue-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.score-circle.circle-pass {
+  border-color: var(--pm-green-pass);
+}
+
+.score-circle.circle-fail {
+  border-color: var(--pm-red-fail);
+}
+
+.score-val {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #0f172a;
+  line-height: 1;
+}
+
+.score-max {
+  font-size: 0.78rem;
+  color: #64748b;
+  font-weight: 700;
+}
+
+.kkm-info {
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+.status-verdict {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 4px 0 10px 0;
+}
+
+.status-verdict.pass { color: #047857; }
+.status-verdict.fail { color: #b91c1c; }
+
+.score-stats-grid {
+  display: flex;
+  gap: 10px;
+}
+
+.stat-pill {
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.stat-correct { background: #dcfce7; color: #15803d; }
+.stat-wrong { background: #fee2e2; color: #b91c1c; }
+.stat-empty { background: #f1f5f9; color: #475569; }
+
+.result-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--pm-gray-border);
+}
+
+.btn-action-remedial {
+  background: #ea580c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  font-weight: 800;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-action-remedial:hover {
+  background: #c2410c;
+}
+
+.btn-action-cert {
+  background: #0284c7;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  font-weight: 800;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-action-cert:hover {
+  background: #0369a1;
+}
+
+.btn-action-next-session {
+  background: var(--pm-blue-primary);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  font-weight: 800;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.btn-action-home {
+  background: transparent;
+  border: 1px solid #cbd5e1;
+  color: #475569;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+
+/* ===================================================
+   PEMBAHASAN SOAL INTERAKTIF (REVIEW SECTION)
+   =================================================== */
+.review-pembahasan-section {
+  background: #ffffff;
+  border: 1px solid var(--pm-gray-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  padding: 24px;
+}
+
+.pembahasan-header {
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+}
+
+.title-with-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.title-with-badge h3 {
+  font-size: 1.15rem;
+  color: var(--pm-blue-dark);
+}
+
+.badge-edukasi {
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.pembahasan-header p {
+  font-size: 0.88rem;
+  color: #64748b;
+}
+
+.pembahasan-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.pembahasan-item {
+  border: 1px solid #cbd5e1;
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  background: #ffffff;
+}
+
+.pembahasan-item.status-is-correct {
+  border-left: 5px solid var(--pm-green-pass);
+}
+
+.pembahasan-item.status-is-wrong {
+  border-left: 5px solid var(--pm-red-fail);
+}
+
+.pembahasan-top-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pembahasan-num {
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--pm-blue-dark);
+}
+
+.pembahasan-status-tag {
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.pembahasan-status-tag.correct { background: #dcfce7; color: #166534; }
+.pembahasan-status-tag.wrong { background: #fee2e2; color: #991b1b; }
+
+.pembahasan-q-text {
+  font-size: 0.95rem;
+  color: #1e293b;
+  line-height: 1.55;
+  margin-bottom: 14px;
+}
+
+.comparison-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  font-size: 0.88rem;
+}
+
+.answer-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.answer-row:last-child {
+  margin-bottom: 0;
+}
+
+.answer-row .label {
+  font-weight: 700;
+  min-width: 140px;
+  color: #475569;
+}
+
+.answer-row.user-ans .val.val-correct { color: #15803d; font-weight: 700; }
+.answer-row.user-ans .val.val-wrong { color: #dc2626; font-weight: 700; text-decoration: line-through; }
+.answer-row.key-ans .val { color: #0284c7; font-weight: 700; }
+
+.explanation-box {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  font-size: 0.88rem;
+  color: #166534;
+  line-height: 1.5;
+}
+
+.explanation-title {
+  font-weight: 800;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.quick-tip-box {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: #92400e;
+}
+
+.quick-tip-title {
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+/* Mobile responsive CBT */
+@media (max-width: 640px) {
+  .cbt-bottom-bar {
+    padding: 10px;
+    gap: 6px;
+  }
+  .btn-nav span, .btn-ragu-ragu span.ragu-text {
+    font-size: 0.75rem;
+  }
+  .btn-nav, .btn-ragu-ragu {
+    padding: 8px 10px;
+  }
+  .cbt-layout {
+    margin: 8px auto;
+    padding: 0 8px;
+  }
+  .question-body-box {
+    padding: 14px;
+  }
+  .question-text {
+    font-size: 0.95rem;
+  }
+  .option-item {
+    padding: 10px 12px;
+    gap: 10px;
+  }
+}
