@@ -150,6 +150,8 @@ class CbtEngine {
     this.isExamActive = true;
     this.elHeaderControls.style.display = "flex";
     this.elUserInfo.style.display = "none";
+    const mainHeader = document.getElementById("mainHeader");
+    if (mainHeader) mainHeader.classList.add("header-cbt-mode");
 
     this.buildQuestionGrid();
     this.renderCurrentQuestion();
@@ -206,6 +208,8 @@ class CbtEngine {
     clearInterval(this.timerInterval);
     this.elHeaderControls.style.display = "none";
     this.elUserInfo.style.display = "flex";
+    const mainHeader = document.getElementById("mainHeader");
+    if (mainHeader) mainHeader.classList.remove("header-cbt-mode");
   }
 
   // ================= TIMER ENGINE =================

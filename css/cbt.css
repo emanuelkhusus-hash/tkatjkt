@@ -1162,30 +1162,369 @@
   margin-bottom: 2px;
 }
 
-/* Mobile responsive CBT */
-@media (max-width: 640px) {
-  .cbt-bottom-bar {
-    padding: 10px;
+/* Mobile responsive CBT & Results */
+@media (max-width: 768px) {
+  /* Header CBT Controls (stacked row, full width) */
+  .header-cbt-controls {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
     gap: 6px;
+    padding-top: 6px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 2px;
   }
-  .btn-nav span, .btn-ragu-ragu span.ragu-text {
+
+  .font-size-adjuster {
+    padding: 2px 4px;
+    gap: 2px;
+  }
+
+  .btn-font-size {
+    padding: 2px 5px;
     font-size: 0.75rem;
   }
-  .btn-nav, .btn-ragu-ragu {
-    padding: 8px 10px;
+
+  .cbt-timer-box {
+    padding: 3px 8px;
   }
+
+  .timer-label {
+    font-size: 0.52rem;
+  }
+
+  .timer-countdown {
+    font-size: 1rem;
+  }
+
+  .btn-toggle-daftar-soal {
+    padding: 5px 10px;
+    font-size: 0.78rem;
+    gap: 4px;
+    white-space: nowrap;
+  }
+
+  /* CBT Main Layout & Question */
   .cbt-layout {
-    margin: 8px auto;
+    margin: 8px auto 20px auto;
     padding: 0 8px;
   }
+
+  .cbt-question-area {
+    border-radius: var(--radius-sm);
+    min-height: calc(100vh - 170px);
+  }
+
+  .question-meta-bar {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+
+  .question-number-badge {
+    font-size: 0.82rem;
+  }
+
+  .question-type-pill {
+    font-size: 0.68rem;
+    padding: 2px 8px;
+    max-width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   .question-body-box {
-    padding: 14px;
+    padding: 12px;
   }
+
   .question-text {
-    font-size: 0.95rem;
+    font-size: 0.92rem;
+    line-height: 1.5;
   }
+
+  .stimulus-box {
+    padding: 10px 12px;
+    font-size: 0.88rem;
+    margin-bottom: 12px;
+  }
+
+  .code-stimulus {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+
+  .options-container {
+    gap: 8px;
+  }
+
   .option-item {
     padding: 10px 12px;
     gap: 10px;
+  }
+
+  .option-letter-badge {
+    width: 26px;
+    height: 26px;
+    font-size: 0.78rem;
+  }
+
+  .option-text-content {
+    font-size: 0.9rem;
+  }
+
+  /* Statement Benar / Salah Table */
+  .statement-table-wrapper {
+    margin-top: 6px;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .statement-table th, .statement-table td {
+    padding: 8px 10px;
+    font-size: 0.82rem;
+  }
+
+  .statement-table th.col-choice, .statement-table td.col-choice {
+    width: 55px;
+    min-width: 55px;
+  }
+
+  .tf-radio-btn {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* Touch-friendly CBT Bottom Bar (2 Rows) */
+  .cbt-bottom-bar {
+    display: grid;
+    grid-template-columns: 1fr 1.15fr 1fr;
+    grid-template-areas:
+      "prev ragu next"
+      "finish finish finish";
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .btn-prev {
+    grid-area: prev;
+    justify-content: center;
+    padding: 9px 4px;
+  }
+
+  .btn-ragu-ragu {
+    grid-area: ragu;
+    justify-content: center;
+    padding: 9px 4px;
+    font-size: 0.75rem;
+    gap: 4px;
+  }
+
+  .btn-ragu-ragu .ragu-custom-box {
+    width: 16px;
+    height: 16px;
+  }
+
+  .btn-next {
+    grid-area: next;
+    justify-content: center;
+    padding: 9px 4px;
+  }
+
+  .btn-finish-cbt {
+    grid-area: finish;
+    justify-content: center;
+    padding: 10px 12px;
+    font-size: 0.85rem;
+    width: 100%;
+  }
+
+  .btn-nav span, .btn-ragu-ragu span.ragu-text {
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
+  /* Daftar Soal Drawer on Mobile */
+  .daftar-soal-drawer {
+    width: 320px;
+    max-width: 88vw;
+    right: -340px;
+  }
+
+  .daftar-soal-drawer.open {
+    right: 0;
+  }
+
+  .drawer-header {
+    padding: 12px 14px;
+  }
+
+  .drawer-legend {
+    padding: 8px 12px;
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .question-number-grid {
+    padding: 10px;
+    gap: 6px;
+  }
+
+  .btn-grid-num {
+    font-size: 0.85rem;
+  }
+
+  .drawer-footer {
+    padding: 10px 12px;
+  }
+
+  .btn-quick-submit {
+    padding: 9px;
+    font-size: 0.85rem;
+  }
+
+  /* Modal Konfirmasi Selesai Ujian */
+  .cbt-modal-overlay {
+    padding: 12px;
+  }
+
+  .cbt-confirm-box {
+    max-width: 100%;
+  }
+
+  .confirm-box-header {
+    padding: 12px 16px;
+  }
+
+  .confirm-box-header h3 {
+    font-size: 1rem;
+  }
+
+  .confirm-box-body {
+    padding: 16px 14px;
+    gap: 12px;
+  }
+
+  .confirm-lead-text {
+    font-size: 0.88rem;
+  }
+
+  .confirm-summary-grid {
+    gap: 6px;
+  }
+
+  .summary-box {
+    padding: 8px 4px;
+  }
+
+  .sum-count {
+    font-size: 1.25rem;
+  }
+
+  .sum-label {
+    font-size: 0.65rem;
+  }
+
+  .confirm-warning-note {
+    font-size: 0.78rem;
+    padding: 8px 10px;
+  }
+
+  .confirm-checkbox-label {
+    font-size: 0.78rem;
+    padding: 8px 10px;
+  }
+
+  .confirm-box-footer {
+    padding: 12px 14px;
+    flex-direction: column-reverse;
+    gap: 8px;
+  }
+
+  .btn-confirm-submit, .btn-confirm-cancel {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  /* Result View & Pembahasan */
+  .result-container {
+    padding: 16px 10px 32px 10px;
+  }
+
+  .result-summary-card {
+    padding: 18px 14px;
+    margin-bottom: 20px;
+  }
+
+  .result-summary-card h2 {
+    font-size: 1.15rem;
+  }
+
+  .student-name-result {
+    font-size: 0.82rem;
+    margin-bottom: 14px;
+  }
+
+  .score-display-wrapper {
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+
+  .score-circle {
+    width: 110px;
+    height: 110px;
+    border-width: 6px;
+  }
+
+  .score-val {
+    font-size: 2.1rem;
+  }
+
+  .status-verdict {
+    font-size: 1rem;
+  }
+
+  .score-stats-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .stat-pill {
+    font-size: 0.75rem;
+    padding: 3px 8px;
+  }
+
+  .result-actions {
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 14px;
+  }
+
+  .result-actions button {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 14px;
+    font-size: 0.85rem;
+  }
+
+  .review-pembahasan-section {
+    padding: 16px 12px;
+  }
+
+  .pembahasan-header h3 {
+    font-size: 1.05rem;
+  }
+
+  .pembahasan-item {
+    padding: 12px;
+  }
+
+  .pembahasan-q-text {
+    font-size: 0.88rem;
   }
 }
