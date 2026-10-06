@@ -12,9 +12,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
   
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="css/pusmendik.css?v=2.0">
-  <link rel="stylesheet" href="css/cbt.css?v=2.0">
-  <link rel="stylesheet" href="css/certificate.css?v=2.0">
+  <link rel="stylesheet" href="css/pusmendik.css?v=20261006.1">
+  <link rel="stylesheet" href="css/cbt.css?v=20261006.1">
+  <link rel="stylesheet" href="css/certificate.css?v=20261006.1">
 </head>
 <body class="font-size-normal">
 
@@ -383,19 +383,24 @@
           <!-- Dynamic Action Buttons based on Passing -->
           <div class="result-actions">
             <!-- If Failed (< 70%) -->
-            <button class="btn-action-remedial" id="btnRemedial" style="display: none;">
+            <button type="button" class="btn-action-remedial" id="btnRemedial" style="display: none;">
               🔄 Kerjakan Ulang (Remedial Sesi Ini)
             </button>
 
+            <!-- Tombol Buka Pembahasan (Sangat mudah diakses di HP) -->
+            <button type="button" class="btn-action-jump-review" id="btnJumpToReview">
+              📖 Buka & Pelajari Pembahasan Soal
+            </button>
+
             <!-- If Passed (>= 70%) -->
-            <button class="btn-action-cert" id="btnOpenCert" style="display: none;">
+            <button type="button" class="btn-action-cert" id="btnOpenCert" style="display: none;">
               🎓 Lihat & Unduh Sertifikat Kelulusan
             </button>
-            <button class="btn-action-next-session" id="btnNextSession" style="display: none;">
+            <button type="button" class="btn-action-next-session" id="btnNextSession" style="display: none;">
               Lanjut ke Sesi Berikutnya ➔
             </button>
 
-            <button class="btn-action-home" id="btnReturnToHome">
+            <button type="button" class="btn-action-home" id="btnReturnToHome">
               Kembali ke Menu Utama
             </button>
           </div>
@@ -566,11 +571,11 @@
     </div>
   </div>
 
-  <!-- JavaScript Modules -->
-  <script src="js/data/sessions.js"></script>
-  <script src="js/data/questions.js"></script>
-  <script src="js/cbt-engine.js"></script>
-  <script src="js/certificate.js"></script>
-  <script src="js/app.js"></script>
+  <!-- JavaScript Modules (Cache Buster Version) -->
+  <script src="js/data/sessions.js?v=20261006.1"></script>
+  <script src="js/data/questions.js?v=20261006.1"></script>
+  <script src="js/cbt-engine.js?v=20261006.1"></script>
+  <script src="js/certificate.js?v=20261006.1"></script>
+  <script src="js/app.js?v=20261006.1"></script>
 </body>
 </html>

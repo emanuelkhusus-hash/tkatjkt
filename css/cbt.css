@@ -995,6 +995,22 @@
   cursor: pointer;
 }
 
+.btn-action-jump-review {
+  background: #059669;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  font-weight: 800;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-action-jump-review:hover {
+  background: #047857;
+}
+
 .btn-action-home {
   background: transparent;
   border: 1px solid #cbd5e1;

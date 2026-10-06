@@ -96,6 +96,7 @@ class AppController {
     this.filterCountCorrect = document.getElementById("filterCountCorrect");
     this.btnBottomReturnHome = document.getElementById("btnBottomReturnHome");
     this.btnScrollTopReview = document.getElementById("btnScrollTopReview");
+    this.btnJumpToReview = document.getElementById("btnJumpToReview");
   }
 
   bindEvents() {
@@ -171,6 +172,14 @@ class AppController {
     if (this.btnScrollTopReview) {
       this.btnScrollTopReview.addEventListener("click", () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    }
+    if (this.btnJumpToReview) {
+      this.btnJumpToReview.addEventListener("click", () => {
+        const section = document.getElementById("reviewPembahasanSection");
+        if (section && typeof section.scrollIntoView === "function") {
+          section.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
       });
     }
   }
@@ -304,7 +313,7 @@ class AppController {
     const historyItem = this.userHistory[session.id];
     const isCompleted = historyItem && historyItem.isPassed;
     const isLocked = this.checkIsSessionLocked(session);
-    const hasAttempted = historyItem && (historyItem.lastScore !== undefined || historyItem.bestScore !== undefined);
+    const hasAttempted = !!historyItem;
 
     let statusClass = "status-unlocked";
     if (isLocked) statusClass = "status-locked";
@@ -320,30 +329,31 @@ class AppController {
 
     let actionBtnHtml = "";
     if (isLocked) {
-      actionBtnHtml = `<button class="btn-session-action btn-locked" disabled>🔒 Selesaikan Sesi Sebelumnya</button>`;
+      actionBtnHtml = `<button type="button" class="btn-session-action btn-locked" disabled>🔒 Selesaikan Sesi Sebelumnya</button>`;
     } else if (isCompleted) {
       actionBtnHtml = `
         <div class="session-score-banner">Nilai Terbaik: ${historyItem.bestScore} / 100 ${starsHtml}</div>
         <div class="session-card-actions">
           <div class="session-card-btn-row">
-            <button class="btn-session-action btn-show-review" style="flex: 1.2;" title="Pelajari kembali soal, kunci jawaban & pembahasan materi">📖 Pembahasan</button>
-            <button class="btn-session-action btn-show-cert" style="flex: 1;" title="Lihat sertifikat kelulusan">🎓 Sertifikat</button>
+            <button type="button" class="btn-session-action btn-show-review" style="flex: 1.2;" title="Pelajari kembali soal, kunci jawaban & pembahasan materi">📖 Pembahasan</button>
+            <button type="button" class="btn-session-action btn-show-cert" style="flex: 1;" title="Lihat sertifikat kelulusan">🎓 Sertifikat</button>
           </div>
-          <button class="btn-session-action btn-retake">🔄 Ulangi Sesi</button>
+          <button type="button" class="btn-session-action btn-retake">🔄 Ulangi Sesi</button>
         </div>
       `;
     } else if (hasAttempted) {
+      const lastScoreVal = historyItem.lastScore !== undefined ? historyItem.lastScore : (historyItem.bestScore !== undefined ? historyItem.bestScore : 0);
       actionBtnHtml = `
-        <div class="session-score-banner" style="color: #dc2626;">Nilai Terakhir: ${historyItem.lastScore ?? historyItem.bestScore} / 100 (Remedial)</div>
+        <div class="session-score-banner" style="color: #dc2626;">Nilai Terakhir: ${lastScoreVal} / 100 (Remedial)</div>
         <div class="session-card-actions">
           <div class="session-card-btn-row">
-            <button class="btn-session-action btn-show-review" style="flex: 1.2;" title="Pelajari kunci jawaban & pembahasan sebelum mengulang ujian">📖 Pembahasan</button>
-            <button class="btn-session-action btn-start" style="flex: 1;">🔄 Remedial</button>
+            <button type="button" class="btn-session-action btn-show-review" style="flex: 1.2;" title="Pelajari kunci jawaban & pembahasan sebelum mengulang ujian">📖 Pembahasan</button>
+            <button type="button" class="btn-session-action btn-start" style="flex: 1;">🔄 Remedial</button>
           </div>
         </div>
       `;
     } else {
-      actionBtnHtml = `<button class="btn-session-action btn-start">🚀 Mulai Drilling Sesi Ini</button>`;
+      actionBtnHtml = `<button type="button" class="btn-session-action btn-start">🚀 Mulai Drilling Sesi Ini</button>`;
     }
 
     card.innerHTML = `
@@ -373,7 +383,10 @@ class AppController {
       const btnReview = card.querySelector(".btn-show-review");
       if (btnReview) {
         btnReview.addEventListener("click", (e) => {
-          e.stopPropagation();
+          if (e) {
+            e.preventDefault();
+            e.stopPropagation();
+          }
           this.openReviewForSession(session);
         });
       }
@@ -476,7 +489,11 @@ class AppController {
 
     questions.forEach((q) => {
       const userAns = userAnswers[q.id];
-      const isAnswered = this.cbtEngine.checkIsAnsweredForQuestion(q, userAns);
+      const isAnswered = (userAns !== undefined && userAns !== null) && (
+        (q.type === "pg" && typeof userAns === "string" && userAns.length > 0) ||
+        (q.type === "pgk_mcma" && Array.isArray(userAns) && userAns.length > 0) ||
+        (q.type === "pgk_tf" && typeof userAns === "object" && Object.keys(userAns).length === (q.statements ? q.statements.length : 0))
+      );
       let isCorrect = false;
 
       if (!isAnswered) {
@@ -527,6 +544,14 @@ class AppController {
       reviewItems: reviewItems,
       isReviewMode: true
     });
+
+    // Otomatis scroll langsung ke bagian pembahasan agar di layar HP langsung terlihat
+    setTimeout(() => {
+      const section = document.getElementById("reviewPembahasanSection");
+      if (section && typeof section.scrollIntoView === "function") {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 150);
   }
 
   // ================= TAMPILKAN HASIL & PEMBAHASAN LENGKAP =================
