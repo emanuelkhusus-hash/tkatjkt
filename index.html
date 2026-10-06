@@ -402,17 +402,39 @@
         </div>
 
         <!-- Section Pembahasan Soal Interaktif (Bahasa Sederhana & Edukatif) -->
-        <div class="review-pembahasan-section">
+        <div class="review-pembahasan-section" id="reviewPembahasanSection">
           <div class="pembahasan-header">
             <div class="title-with-badge">
               <h3>Pembahasan Soal Lengkap & Kunci Jawaban</h3>
-              <span class="badge-edukasi">Pelajari Kesalahan Anda</span>
+              <span class="badge-edukasi" id="badgeEdukasi">Pelajari Pembahasan Materi</span>
             </div>
-            <p>Gunakan waktu istirahat ini untuk memahami konsep di balik setiap soal yang belum tepat.</p>
+            <p>Pahami konsep, kunci jawaban resmi, dan tips cepat di bawah ini untuk memperdalam pemahaman materi.</p>
+            
+            <!-- Filter Kategori Soal Pembahasan -->
+            <div class="pembahasan-filter-bar">
+              <button class="btn-filter-pembahasan active" id="btnFilterAll" data-filter="all">
+                📋 Semua Soal (<span id="filterCountAll">30</span>)
+              </button>
+              <button class="btn-filter-pembahasan filter-wrong" id="btnFilterWrong" data-filter="wrong">
+                ❌ Soal Belum Tepat / Kosong (<span id="filterCountWrong">0</span>)
+              </button>
+              <button class="btn-filter-pembahasan filter-correct" id="btnFilterCorrect" data-filter="correct">
+                ✓ Soal Benar (<span id="filterCountCorrect">0</span>)
+              </button>
+            </div>
           </div>
 
           <div class="pembahasan-list" id="pembahasanListContainer">
             <!-- 30 Items rendered by JS with explanation and student answer comparison -->
+          </div>
+
+          <div class="pembahasan-bottom-nav">
+            <button class="btn-back-from-review" id="btnBottomReturnHome">
+              ⬅️ Selesai Belajar & Kembali ke Menu Utama
+            </button>
+            <button class="btn-scroll-top-review" id="btnScrollTopReview">
+              ⬆️ Kembali ke Atas
+            </button>
           </div>
         </div>
 

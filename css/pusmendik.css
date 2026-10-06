@@ -692,6 +692,38 @@ body.font-size-large { font-size: 18px; }
   cursor: not-allowed;
 }
 
+.btn-session-action.btn-show-review {
+  background: #059669;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-session-action.btn-show-review:hover {
+  background: #047857;
+}
+
+.btn-session-action.btn-show-cert {
+  background: #0284c7;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-session-action.btn-show-cert:hover {
+  background: #0369a1;
+}
+
+.session-card-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.session-card-btn-row {
+  display: flex;
+  gap: 6px;
+}
+
 /* ===================================================
    VIEW 2: KONFIRMASI DATA PESERTA (PUSMENDIK STYLE)
    =================================================== */

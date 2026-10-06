@@ -819,5 +819,7 @@ function getQuestionsForSession(sessionId) {
 
 if (typeof window !== "undefined") {
   window.TJKT_MASTER_QUESTIONS = TJKT_MASTER_QUESTIONS;
+  window.TJKT_MCMA_POOL = TJKT_MCMA_POOL;
+  window.TJKT_TF_POOL = TJKT_TF_POOL;
   window.getQuestionsForSession = getQuestionsForSession;
 }

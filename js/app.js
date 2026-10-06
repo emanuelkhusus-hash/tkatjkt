@@ -72,6 +72,7 @@ class AppController {
     this.btnStartCbt = document.getElementById("btnStartCbt");
 
     // Result Screen elements
+    this.elResultStatusBadge = document.getElementById("resultStatusBadge");
     this.elResultSessionTitle = document.getElementById("resultSessionTitle");
     this.elResultStudentName = document.getElementById("resultStudentName");
     this.elResultScoreValue = document.getElementById("resultScoreValue");
@@ -85,6 +86,16 @@ class AppController {
     this.btnNextSession = document.getElementById("btnNextSession");
     this.btnReturnToHome = document.getElementById("btnReturnToHome");
     this.elPembahasanList = document.getElementById("pembahasanListContainer");
+
+    // Filter Pembahasan elements
+    this.btnFilterAll = document.getElementById("btnFilterAll");
+    this.btnFilterWrong = document.getElementById("btnFilterWrong");
+    this.btnFilterCorrect = document.getElementById("btnFilterCorrect");
+    this.filterCountAll = document.getElementById("filterCountAll");
+    this.filterCountWrong = document.getElementById("filterCountWrong");
+    this.filterCountCorrect = document.getElementById("filterCountCorrect");
+    this.btnBottomReturnHome = document.getElementById("btnBottomReturnHome");
+    this.btnScrollTopReview = document.getElementById("btnScrollTopReview");
   }
 
   bindEvents() {
@@ -139,6 +150,29 @@ class AppController {
         }
       }
     });
+
+    // Event Listener Filter Pembahasan
+    if (this.btnFilterAll) {
+      this.btnFilterAll.addEventListener("click", () => this.setReviewFilter("all"));
+    }
+    if (this.btnFilterWrong) {
+      this.btnFilterWrong.addEventListener("click", () => this.setReviewFilter("wrong"));
+    }
+    if (this.btnFilterCorrect) {
+      this.btnFilterCorrect.addEventListener("click", () => this.setReviewFilter("correct"));
+    }
+    if (this.btnBottomReturnHome) {
+      this.btnBottomReturnHome.addEventListener("click", () => {
+        this.renderProfileUI();
+        this.renderSessionsRoadmap();
+        this.showView("viewPortal");
+      });
+    }
+    if (this.btnScrollTopReview) {
+      this.btnScrollTopReview.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    }
   }
 
   // ================= VIEW NAVIGATION =================
@@ -270,6 +304,7 @@ class AppController {
     const historyItem = this.userHistory[session.id];
     const isCompleted = historyItem && historyItem.isPassed;
     const isLocked = this.checkIsSessionLocked(session);
+    const hasAttempted = historyItem && (historyItem.lastScore !== undefined || historyItem.bestScore !== undefined);
 
     let statusClass = "status-unlocked";
     if (isLocked) statusClass = "status-locked";
@@ -289,9 +324,22 @@ class AppController {
     } else if (isCompleted) {
       actionBtnHtml = `
         <div class="session-score-banner">Nilai Terbaik: ${historyItem.bestScore} / 100 ${starsHtml}</div>
-        <div style="display: flex; gap: 8px;">
-          <button class="btn-session-action btn-retake" style="flex: 1;">🔄 Ulangi Sesi</button>
-          <button class="btn-session-action btn-show-cert" style="flex: 1; background: #0284c7; color: #ffffff; border: none;">🎓 Sertifikat</button>
+        <div class="session-card-actions">
+          <div class="session-card-btn-row">
+            <button class="btn-session-action btn-show-review" style="flex: 1.2;" title="Pelajari kembali soal, kunci jawaban & pembahasan materi">📖 Pembahasan</button>
+            <button class="btn-session-action btn-show-cert" style="flex: 1;" title="Lihat sertifikat kelulusan">🎓 Sertifikat</button>
+          </div>
+          <button class="btn-session-action btn-retake">🔄 Ulangi Sesi</button>
+        </div>
+      `;
+    } else if (hasAttempted) {
+      actionBtnHtml = `
+        <div class="session-score-banner" style="color: #dc2626;">Nilai Terakhir: ${historyItem.lastScore ?? historyItem.bestScore} / 100 (Remedial)</div>
+        <div class="session-card-actions">
+          <div class="session-card-btn-row">
+            <button class="btn-session-action btn-show-review" style="flex: 1.2;" title="Pelajari kunci jawaban & pembahasan sebelum mengulang ujian">📖 Pembahasan</button>
+            <button class="btn-session-action btn-start" style="flex: 1;">🔄 Remedial</button>
+          </div>
         </div>
       `;
     } else {
@@ -320,6 +368,14 @@ class AppController {
       const btnStartOrRetake = card.querySelector(".btn-start, .btn-retake");
       if (btnStartOrRetake) {
         btnStartOrRetake.addEventListener("click", () => this.openKonfirmasiForSession(session));
+      }
+
+      const btnReview = card.querySelector(".btn-show-review");
+      if (btnReview) {
+        btnReview.addEventListener("click", (e) => {
+          e.stopPropagation();
+          this.openReviewForSession(session);
+        });
       }
 
       const btnCert = card.querySelector(".btn-show-cert");
@@ -405,6 +461,74 @@ class AppController {
     this.cbtEngine.startExam(this.selectedSession, true);
   }
 
+  // ================= BUKA PEMBAHASAN UNTUK BELAJAR DARI BERANDA =================
+  openReviewForSession(session) {
+    this.userHistory = this.loadUserHistory();
+    const historyItem = this.userHistory[session.id] || {};
+    const questions = window.getQuestionsForSession(session.id);
+    const lastRes = historyItem.lastResult || {};
+    const userAnswers = lastRes.userAnswers || {};
+
+    let correctCount = 0;
+    let wrongCount = 0;
+    let emptyCount = 0;
+    const reviewItems = [];
+
+    questions.forEach((q) => {
+      const userAns = userAnswers[q.id];
+      const isAnswered = this.cbtEngine.checkIsAnsweredForQuestion(q, userAns);
+      let isCorrect = false;
+
+      if (!isAnswered) {
+        emptyCount++;
+        wrongCount++;
+      } else {
+        if (q.type === "pg") {
+          isCorrect = userAns === q.key;
+        } else if (q.type === "pgk_mcma") {
+          const sortedUser = Array.isArray(userAns) ? [...userAns].sort() : [];
+          const sortedKey = Array.isArray(q.key) ? [...q.key].sort() : [];
+          isCorrect = sortedUser.length === sortedKey.length && sortedUser.every((val, i) => val === sortedKey[i]);
+        } else if (q.type === "pgk_tf") {
+          isCorrect = typeof userAns === "object" && Array.isArray(q.statements) && q.statements.every(st => userAns[st.id] === st.correct);
+        }
+
+        if (isCorrect) correctCount++;
+        else wrongCount++;
+      }
+
+      reviewItems.push({
+        questionObj: q,
+        userAns: userAns,
+        isCorrect: isCorrect,
+        isAnswered: isAnswered
+      });
+    });
+
+    const score = lastRes.score !== undefined 
+      ? lastRes.score 
+      : (historyItem.bestScore !== undefined ? historyItem.bestScore : (historyItem.lastScore !== undefined ? historyItem.lastScore : 0));
+
+    if (lastRes.correctCount !== undefined) {
+      correctCount = lastRes.correctCount;
+      wrongCount = lastRes.wrongCount;
+      emptyCount = lastRes.emptyCount;
+    }
+
+    const isPassed = historyItem.isPassed !== undefined ? historyItem.isPassed : (score >= (session.passingGrade || 70));
+
+    this.showResultsView({
+      session: session,
+      score: score,
+      correctCount: correctCount,
+      wrongCount: wrongCount,
+      emptyCount: emptyCount,
+      isPassed: isPassed,
+      reviewItems: reviewItems,
+      isReviewMode: true
+    });
+  }
+
   // ================= TAMPILKAN HASIL & PEMBAHASAN LENGKAP =================
   showResultsView(resultData) {
     this.lastResultData = resultData;
@@ -413,8 +537,18 @@ class AppController {
     const session = resultData.session;
     const score = resultData.score;
     const isPassed = resultData.isPassed;
+    const isReviewMode = !!resultData.isReviewMode;
 
-    this.elResultSessionTitle.textContent = `Hasil Drilling: ${session.code} - ${session.title}`;
+    if (this.elResultStatusBadge) {
+      this.elResultStatusBadge.textContent = isReviewMode 
+        ? "📖 MODE BELAJAR & PEMBAHASAN MATERI" 
+        : "HASIL UJIAN SELESAI";
+    }
+
+    this.elResultSessionTitle.textContent = isReviewMode
+      ? `Pembahasan Drilling: ${session.code} - ${session.title}`
+      : `Hasil Drilling: ${session.code} - ${session.title}`;
+
     this.elResultStudentName.textContent = `Nama Siswa: ${(this.studentProfile.name || "Peserta Ujian").toUpperCase()} (NISN: ${this.studentProfile.nisn || "-"})`;
     this.elResultScoreValue.textContent = score;
 
@@ -432,25 +566,58 @@ class AppController {
       let stars = "⭐";
       if (score >= 90) stars = "⭐⭐⭐";
       else if (score >= 80) stars = "⭐⭐";
-      this.elResultVerdict.textContent = `SELAMAT, ANDA LOLOS KKM! ${stars}`;
+      this.elResultVerdict.textContent = isReviewMode 
+        ? `STATUS: LOLOS KKM (${score} / 100) ${stars}`
+        : `SELAMAT, ANDA LOLOS KKM! ${stars}`;
 
-      this.btnRemedial.style.display = "none";
+      this.btnRemedial.style.display = isReviewMode ? "inline-flex" : "none";
+      if (isReviewMode) {
+        this.btnRemedial.textContent = "🔄 Kerjakan Ulang Sesi Ini";
+      }
       this.btnOpenCert.style.display = "inline-flex";
-      this.btnNextSession.style.display = "inline-flex";
+      this.btnNextSession.style.display = isReviewMode ? "none" : "inline-flex";
     } else {
       this.elScoreCircle.classList.add("circle-fail");
       this.elResultVerdict.classList.add("fail");
       this.elResultVerdict.textContent = `NILAI BELUM MENCAPAI KKM 70% (REMEDIAL DIBUTUHKAN)`;
 
       this.btnRemedial.style.display = "inline-flex";
+      this.btnRemedial.textContent = "🔄 Kerjakan Ulang (Remedial Sesi Ini)";
       this.btnOpenCert.style.display = "none";
       this.btnNextSession.style.display = "none";
     }
 
+    // Update Counter Filter Pembahasan
+    if (this.filterCountAll) this.filterCountAll.textContent = resultData.reviewItems.length;
+    if (this.filterCountWrong) this.filterCountWrong.textContent = resultData.wrongCount;
+    if (this.filterCountCorrect) this.filterCountCorrect.textContent = resultData.correctCount;
+
     // Render Pembahasan Soal Lengkap
     this.renderReviewItems(resultData.reviewItems);
+    this.setReviewFilter("all");
 
     this.showView("viewResult");
+  }
+
+  setReviewFilter(filterType) {
+    this.currentReviewFilter = filterType;
+    const filterButtons = [this.btnFilterAll, this.btnFilterWrong, this.btnFilterCorrect];
+    filterButtons.forEach(btn => {
+      if (!btn) return;
+      btn.classList.toggle("active", btn.dataset.filter === filterType);
+    });
+
+    const items = this.elPembahasanList ? this.elPembahasanList.querySelectorAll(".pembahasan-item") : [];
+    items.forEach(item => {
+      const isCorrect = item.classList.contains("status-is-correct");
+      if (filterType === "all") {
+        item.style.display = "block";
+      } else if (filterType === "wrong") {
+        item.style.display = !isCorrect ? "block" : "none";
+      } else if (filterType === "correct") {
+        item.style.display = isCorrect ? "block" : "none";
+      }
+    });
   }
 
   renderReviewItems(items) {
@@ -481,23 +648,30 @@ class AppController {
             return o ? `[${o.id}]` : id;
           }).join(", ");
         }
-        keyAnsText = q.key.map(id => {
+        keyAnsText = Array.isArray(q.key) ? q.key.map(id => {
           const o = q.options.find(x => x.id === id);
           return o ? `[${o.id}]` : id;
-        }).join(", ");
+        }).join(", ") : q.key;
       } else if (q.type === "pgk_tf") {
-        if (isAnswered) {
+        if (isAnswered && typeof item.userAns === "object") {
           userAnsText = Object.entries(item.userAns).map(([stId, val]) => `${stId}: ${val === "B" ? "Benar" : "Salah"}`).join(" | ");
         }
-        keyAnsText = q.statements.map(st => `${st.id}: ${st.correct === "B" ? "Benar" : "Salah"}`).join(" | ");
+        keyAnsText = Array.isArray(q.statements) ? q.statements.map(st => `${st.id}: ${st.correct === "B" ? "Benar" : "Salah"}`).join(" | ") : "";
+      }
+
+      let statusBadgeHtml = "";
+      if (isCorrect) {
+        statusBadgeHtml = `<span class="pembahasan-status-tag correct">✓ JAWABAN BENAR</span>`;
+      } else if (isAnswered) {
+        statusBadgeHtml = `<span class="pembahasan-status-tag wrong">✗ BELUM TEPAT</span>`;
+      } else {
+        statusBadgeHtml = `<span class="pembahasan-status-tag wrong" style="background: #fef2f2; color: #b91c1c;">✗ TIDAK DIJAWAB</span>`;
       }
 
       card.innerHTML = `
         <div class="pembahasan-top-meta">
           <span class="pembahasan-num">Nomor ${idx + 1} (${q.type === "pg" ? "Pilihan Ganda" : q.type === "pgk_mcma" ? "Pilihan Ganda Kompleks" : "Kategori Benar/Salah"})</span>
-          <span class="pembahasan-status-tag ${isCorrect ? "correct" : "wrong"}">
-            ${isCorrect ? "✓ JAWABAN BENAR" : "✗ BELUM TEPAT"}
-          </span>
+          ${statusBadgeHtml}
         </div>
 
         <div class="pembahasan-q-text">
@@ -590,6 +764,10 @@ class AppController {
       alert("Seluruh progres berhasil di-reset ke awal.");
     }
   }
+}
+
+if (typeof window !== "undefined") {
+  window.AppController = AppController;
 }
 
 // Inisialisasi saat window dimuat

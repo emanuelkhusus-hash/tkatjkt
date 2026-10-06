@@ -122,7 +122,9 @@ class CbtEngine {
     document.body.classList.add(`font-size-${size}`);
     
     [this.btnFontSmall, this.btnFontNormal, this.btnFontLarge].forEach(btn => {
-      btn.classList.toggle("active", btn.dataset.size === size);
+      if (btn && btn.dataset && btn.classList) {
+        btn.classList.toggle("active", btn.dataset.size === size);
+      }
     });
 
     localStorage.setItem("TKA_FONT_PREFERENCE", size);
@@ -462,12 +464,15 @@ class CbtEngine {
   }
 
   checkIsAnswered(q) {
-    const ans = this.userAnswers[q.id];
-    if (!ans) return false;
+    return this.checkIsAnsweredForQuestion(q, this.userAnswers[q.id]);
+  }
+
+  checkIsAnsweredForQuestion(q, ans) {
+    if (ans === undefined || ans === null) return false;
     if (q.type === "pg") return typeof ans === "string" && ans.length > 0;
     if (q.type === "pgk_mcma") return Array.isArray(ans) && ans.length > 0;
     if (q.type === "pgk_tf") {
-      return typeof ans === "object" && Object.keys(ans).length === q.statements.length;
+      return typeof ans === "object" && Object.keys(ans).length === (q.statements ? q.statements.length : 0);
     }
     return false;
   }
@@ -564,8 +569,14 @@ class CbtEngine {
     const finalScore = Math.round(rawScore * 10) / 10;
     const isPassed = finalScore >= (this.currentSession.passingGrade || 70);
 
-    // Simpan ke riwayat lokal user
-    this.saveUserSessionResult(this.currentSession.id, finalScore, isPassed);
+    // Simpan ke riwayat lokal user (termasuk jawaban & statistik untuk sarana belajar pasca ujian)
+    this.saveUserSessionResult(this.currentSession.id, finalScore, isPassed, {
+      score: finalScore,
+      correctCount: correctCount,
+      wrongCount: wrongCount,
+      emptyCount: emptyCount,
+      userAnswers: JSON.parse(JSON.stringify(this.userAnswers))
+    });
 
     // Hapus sesi aktif
     this.clearActiveExamState();
@@ -584,7 +595,7 @@ class CbtEngine {
     }
   }
 
-  saveUserSessionResult(sessionId, score, isPassed) {
+  saveUserSessionResult(sessionId, score, isPassed, details = null) {
     let history = {};
     try {
       history = JSON.parse(localStorage.getItem(this.historyKey) || "{}");
@@ -609,7 +620,15 @@ class CbtEngine {
       bestScore: bestScore,
       isPassed: passedStatus,
       stars: stars,
-      lastCompletedAt: new Date().toISOString()
+      lastCompletedAt: new Date().toISOString(),
+      // Simpan jawaban siswa & statistik untuk keperluan belajar / review
+      lastResult: details ? {
+        score: score,
+        correctCount: details.correctCount,
+        wrongCount: details.wrongCount,
+        emptyCount: details.emptyCount,
+        userAnswers: details.userAnswers
+      } : (prevRecord && prevRecord.lastResult ? prevRecord.lastResult : null)
     };
 
     localStorage.setItem(this.historyKey, JSON.stringify(history));
