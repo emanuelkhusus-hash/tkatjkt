@@ -1,0 +1,952 @@
+[
+  {
+    "id": "s06_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Sebuah truk kontainer bertinggi 4,8 meter menabrak kabel drop optik udara yang melintang di jalan raya karena kabel kendur di bawah 4 meter.",
+    "question": "Penyebab utama kegagalan instalasi pada kasus tersebut berdasarkan standar konstruksi telekomunikasi adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel optik tidak dialiri tegangan listrik PLN"
+      },
+      {
+        "id": "B",
+        "text": "Kabel optik tidak dicat dengan warna merah menyala"
+      },
+      {
+        "id": "C",
+        "text": "Pelanggaran standar clearance height kabel menyeberang jalan raya yang seharusnya minimal 5,5 hingga 6 meter"
+      },
+      {
+        "id": "D",
+        "text": "Truk dilarang melintas di jalan raya manapun"
+      },
+      {
+        "id": "E",
+        "text": "Kabel optik seharusnya dipasang setinggi 50 meter"
+      }
+    ],
+    "key": "C",
+    "explanation": "Standar bentangan kabel di atas jalan raya umum wajib memiliki clearance minimal 5,5 - 6 meter agar tidak tersangkut kendaraan besar.",
+    "quickTip": "Clearance kabel jalan raya = Minimal 5,5 - 6 meter."
+  },
+  {
+    "id": "s06_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Di ruang data center tier-2, terjadi alarm asap dari dalam rak server. Teknisi melihat salah satu teknisi magang hendak menyiramkan air dari ember pembersih lantai.",
+    "question": "Tindakan mitigasi kritis yang harus segera dilakukan oleh supervisor adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menyuruh anak magang menuangkan minyak goreng"
+      },
+      {
+        "id": "B",
+        "text": "Membiarkan air disiramkan agar api cepat padam"
+      },
+      {
+        "id": "C",
+        "text": "Mengunci pintu data center dari luar"
+      },
+      {
+        "id": "D",
+        "text": "Menambahkan sabun cuci ke dalam ember air"
+      },
+      {
+        "id": "E",
+        "text": "Mencegah penyiraman air seketika, mengaktifkan APAR CO2/Clean Agent, dan mengevakuasi ruangan"
+      }
+    ],
+    "key": "E",
+    "explanation": "Air adalah konduktor listrik yang dapat memicu sengatan mematikan bagi penolong dan merusak total seluruh sirkuit server aktif.",
+    "quickTip": "Kebakaran sirkuit listrik aktif dilarang keras disiram air; gunakan APAR CO2/Gas."
+  },
+  {
+    "id": "s06_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Teknisi proyek instalasi FO di lapangan terlambat menyelesaikan target harian karena harus bolak-balik ke kantor mengambil tangga fiberglass yang tertinggal.",
+    "question": "Kelemahan alur manajemen kerja yang terjadi pada insiden tersebut terletak pada...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kecepatan mobil dinas yang terlalu lambat"
+      },
+      {
+        "id": "B",
+        "text": "Harga tangga yang terlalu mahal"
+      },
+      {
+        "id": "C",
+        "text": "Kondisi jalan raya yang terlalu mulus"
+      },
+      {
+        "id": "D",
+        "text": "Warna tangga yang kurang cerah"
+      },
+      {
+        "id": "E",
+        "text": "Ketiadaan checklist verifikasi logistik dan perkakas pra-keberangkatan kerja lapangan"
+      }
+    ],
+    "key": "E",
+    "explanation": "Checklist pra-keberangkatan menjamin seluruh perkakas kerja, APD, dan material telah lengkap di mobil sebelum tim meluncur ke lokasi.",
+    "quickTip": "Checklist perkakas pra-keberangkatan mencegah pemborosan waktu kerja."
+  },
+  {
+    "id": "s06_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Pelanggan korporat komplain keras karena jaringan internet kantornya mati selama 3 jam, melampaui batas SLA bulanan.",
+    "question": "Langkah etika bisnis dan pemulihan kepercayaan yang wajib ditempuh pihak ISP adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menolak memberikan penjelasan teknis"
+      },
+      {
+        "id": "B",
+        "text": "Memblokir nomor telepon pimpinan perusahaan pelanggan"
+      },
+      {
+        "id": "C",
+        "text": "Menerbitkan laporan Root Cause Analysis (RCA) resmi dan memberikan kompensasi kredit restitusi sesuai klausul SLA"
+      },
+      {
+        "id": "D",
+        "text": "Mengirimkan tagihan denda tambahan kepada pelanggan"
+      },
+      {
+        "id": "E",
+        "text": "Menyalahkan pelanggan karena menggunakan internet terlalu banyak"
+      }
+    ],
+    "key": "C",
+    "explanation": "Profesionalitas ISP diwujudkan dengan transparansi laporan RCA dan kepatuhan pembayaran restitusi pinalti SLA.",
+    "quickTip": "Pelanggaran SLA diselesaikan dengan laporan RCA transparan dan restitusi biaya."
+  },
+  {
+    "id": "s06_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Penyusunan kabel di laboratorium jaringan sekolah sangat semrawut, bercampur antara kabel LAN aktif, kabel adaptor putus, dan sampah bungkus makanan.",
+    "question": "Urutan langkah penataan yang benar berdasarkan kaidah 5R adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seiri (Singkirkan sampah & kabel rusak) -> Seiton (Tata kabel rapi & beri label) -> Seiso (Bersihkan ruangan) -> Seiketsu (Bakukan SOP) -> Shitsuke (Biasakan disiplin)"
+      },
+      {
+        "id": "B",
+        "text": "Langsung mengecat dinding tanpa membersihkan sampah"
+      },
+      {
+        "id": "C",
+        "text": "Shitsuke -> Seiso -> Seiton -> Seiri -> Seiketsu"
+      },
+      {
+        "id": "D",
+        "text": "Membakar seluruh laboratorium"
+      },
+      {
+        "id": "E",
+        "text": "Menutup semua kabel dengan terpal hitam"
+      }
+    ],
+    "key": "A",
+    "explanation": "Urutan 5R baku adalah 1. Ringkas (Seiri), 2. Rapi (Seiton), 3. Resik (Seiso), 4. Rawat (Seiketsu), 5. Rajin (Shitsuke).",
+    "quickTip": "Urutan 5R: Ringkas -> Rapi -> Resik -> Rawat -> Rajin."
+  },
+  {
+    "id": "s06_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Seorang teknisi tiang mengalami kecelakaan terpeleset dari tangga karena tangga disandarkan dengan sudut 45 derajat di atas tanah licin tanpa diikat.",
+    "question": "Faktor penyebab utama terjadinya kecelakaan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pelanggaran rasio sudut kemiringan tangga (seharusnya 4:1) dan kelalaian melakukan pengikatan (ladder tie-off)"
+      },
+      {
+        "id": "B",
+        "text": "Teknisi menggunakan sepatu keselamatan bersol karet"
+      },
+      {
+        "id": "C",
+        "text": "Tangga terbuat dari material yang terlalu kuat"
+      },
+      {
+        "id": "D",
+        "text": "Cuaca di lokasi terlalu cerah dan hangat"
+      },
+      {
+        "id": "E",
+        "text": "Tiang telepon terlalu tegak lurus"
+      }
+    ],
+    "key": "A",
+    "explanation": "Sudut 45 derajat terlalu landai sehingga pangkal tangga mudah meluncur ke belakang; tangga wajib rasio 4:1 dan diikat pada tiang.",
+    "quickTip": "Sudut tangga terlalu landai (< 4:1) dan tanpa tie-off memicu tangga meluncur jatuh."
+  },
+  {
+    "id": "s06_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Di ruang NOC, sistem NMS mendeteksi link backbone terputus pada pukul 02:00 dini hari. Petugas shift malam tertidur pulas dan baru merespons pada pukul 06:00 pagi.",
+    "question": "Pelanggaran etos kerja dan operasional yang terjadi pada kasus di atas adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Efisiensi pemakaian kuota data NMS"
+      },
+      {
+        "id": "B",
+        "text": "Kepatuhan terhadap jam istirahat normal"
+      },
+      {
+        "id": "C",
+        "text": "Penerapan jam tidur sehat karyawan"
+      },
+      {
+        "id": "D",
+        "text": "Penghematan daya listrik monitor NOC"
+      },
+      {
+        "id": "E",
+        "text": "Pelanggaran integritas tugas jaga 24/7 dan kegagalan respons time eskalasi insiden kritis"
+      }
+    ],
+    "key": "E",
+    "explanation": "Petugas jaga shift NOC wajib siaga memantau alarm 24/7; kelalaian merespons alarm melanggar SOP operasional industri.",
+    "quickTip": "NOC shift wajib siaga 24/7 memantau alarm dan merespons tiket seketika."
+  },
+  {
+    "id": "s06_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Sisa potongan serat optik berceceran di lantai laboratorium setelah ujian praktik dan ada siswa yang menginjaknya tanpa alas kaki.",
+    "question": "Koreksi prosedur K3 yang wajib diberlakukan di laboratorium adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wajib menggunakan wadah Fiber Trash Can tertutup dan mewajibkan seluruh siswa memakai sepatu tertutup di lab"
+      },
+      {
+        "id": "B",
+        "text": "Membiarkan siswa berjalan tanpa alas kaki"
+      },
+      {
+        "id": "C",
+        "text": "Menyiram lantai dengan air sabun"
+      },
+      {
+        "id": "D",
+        "text": "Meniup serpihan kaca ke sudut ruangan"
+      },
+      {
+        "id": "E",
+        "text": "Menyapu serpihan kaca dengan sapu lidi kasar"
+      }
+    ],
+    "key": "A",
+    "explanation": "Serat kaca mikroskopis wajib dibuang ke Fiber Trash Can dan lab mewajibkan sepatu pelindung tertutup.",
+    "quickTip": "Limbah serat kaca wajib dibuang ke Fiber Trash Can; dilarang tanpa alas kaki di lab."
+  },
+  {
+    "id": "s06_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Perusahaan merencanakan pemasangan link komunikasi antara kantor pusat dan gudang berjarak 300 meter tanpa halangan.",
+    "question": "Pilihan media transmisi kabel yang paling tepat, kebal induksi petir luar ruangan, dan mendukung kecepatan 10 Gbps adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel audio jack 3.5mm"
+      },
+      {
+        "id": "B",
+        "text": "Kabel antena televisi koaksial tua"
+      },
+      {
+        "id": "C",
+        "text": "Kabel UTP Cat5e tanpa pelindung"
+      },
+      {
+        "id": "D",
+        "text": "Kabel Serat Optik Single-Mode / Multi-Mode Outdoor"
+      },
+      {
+        "id": "E",
+        "text": "Kabel telepon tembaga 2 kawat"
+      }
+    ],
+    "key": "D",
+    "explanation": "Kabel UTP tembaga terbatas 100 meter dan rentan petir; jarak 300 meter outdoor wajib menggunakan Fiber Optic yang kebal petir.",
+    "quickTip": "Jarak > 100 meter antar-gedung wajib Fiber Optik (kebal induksi petir & loss rendah)."
+  },
+  {
+    "id": "s06_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Seorang konsultan IT diminta merancang sistem jaringan untuk UMKM dengan anggaran sangat terbatas namun membutuhkan koneksi andal.",
+    "question": "Prinsip etika profesional yang harus diterapkan konsultan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menyalin data bisnis klien dan menjualnya ke kompetitor"
+      },
+      {
+        "id": "B",
+        "text": "Mengharuskan klien membeli server mainframe miliaran rupiah"
+      },
+      {
+        "id": "C",
+        "text": "Menjual perangkat rongsokan yang rusak agar sering diservis"
+      },
+      {
+        "id": "D",
+        "text": "Menolak melayani klien yang memiliki modal kecil"
+      },
+      {
+        "id": "E",
+        "text": "Merancang solusi yang optimal sesuai skala anggaran dan kebutuhan riil tanpa memaksakan merk termahal demi keuntungan pribadi"
+      }
+    ],
+    "key": "E",
+    "explanation": "Konsultan beretika memberikan solusi yang tepat guna dan proporsional terhadap anggaran tanpa konflik kepentingan finansial.",
+    "quickTip": "Etika konsultan: Solusi tepat guna sesuai kebutuhan dan anggaran riil klien."
+  },
+  {
+    "id": "s06_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Saat menaiki tiang, teknisi merasakan tiang besi sedikit bergetar dan mengeluarkan percikan api kecil di dasar tanah akibat kebocoran arus tiang PJU.",
+    "question": "Tindakan K3 seketika yang wajib diambil sebelum memanjat adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengabaikan getaran dan tetap memanjat"
+      },
+      {
+        "id": "B",
+        "text": "Menguji tegangan tiang menggunakan tespen / voltage detector dan segera melaporkan ke pihak PLN"
+      },
+      {
+        "id": "C",
+        "text": "Menyiram tiang dengan air garam"
+      },
+      {
+        "id": "D",
+        "text": "Memeluk tiang besi dengan kedua tangan kosong"
+      },
+      {
+        "id": "E",
+        "text": "Menempelkan lidah ke tiang untuk mengetes listrik"
+      }
+    ],
+    "key": "B",
+    "explanation": "Tiang bersama sering kali teraliri arus bocor penerangan jalan (PJU); uji tegangan tiang adalah SOP mutlak sebelum disentuh.",
+    "quickTip": "Uji tegangan tiang dengan Voltage Detector sebelum memanjat untuk deteksi arus bocor."
+  },
+  {
+    "id": "s06_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Penyusunan laporan pekerjaan (Work Order Report) yang diserahkan ke pelanggan korporat harus memuat informasi teknis yang akurat.",
+    "question": "Informasi teknis yang wajib disertakan pada dokumen penutupan tiket instalasi jaringan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hasil pengujian performa (Throughput, Latency, Loss) dan tanda tangan serah terima kedua belah pihak"
+      },
+      {
+        "id": "B",
+        "text": "Nomor rekening bank pribadi teknisi"
+      },
+      {
+        "id": "C",
+        "text": "Surat izin sakit teknisi"
+      },
+      {
+        "id": "D",
+        "text": "Daftar film favorit supervisor"
+      },
+      {
+        "id": "E",
+        "text": "Foto makanan saat makan siang"
+      }
+    ],
+    "key": "A",
+    "explanation": "Dokumen serah terima memuat data hasil pengujian performa jaringan terukur dan otorisasi persetujuan pelanggan.",
+    "quickTip": "Dokumen penutupan tiket: Data uji performa jaringan & tanda tangan serah terima."
+  },
+  {
+    "id": "s06_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Di area lab komputer, seorang siswa menemukan kabel power monitor yang terkelupas tembaganya dan isolasinya meleleh.",
+    "question": "Sikap tanggap K3 yang benar dari siswa tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menyembunyikan kabel di dalam tas teman"
+      },
+      {
+        "id": "B",
+        "text": "Mencabut steker dari stop kontak secara hati-hati, melapor ke guru pembimbing, dan memberi tanda bahaya pada kabel"
+      },
+      {
+        "id": "C",
+        "text": "Menyentuh tembaga kabel untuk mengetes apakah ada listriknya"
+      },
+      {
+        "id": "D",
+        "text": "Mencolokkan kabel kembali ke stop kontak"
+      },
+      {
+        "id": "E",
+        "text": "Menutup kabel yang terkelupas dengan tisu basah"
+      }
+    ],
+    "key": "B",
+    "explanation": "Kabel isolasi rusak harus segera diputus sumber dayanya, diberi label isolasi bahaya, dan diganti baru.",
+    "quickTip": "Kabel terkelupas: Cabut dari stop kontak, beri penandaan bahaya, dan laporkan."
+  },
+  {
+    "id": "s06_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Seorang teknisi jaringan diminta atasan untuk memalsukan data pengukuran redaman kabel optik agar proyek dinyatakan lulus audit.",
+    "question": "Keputusan etika profesi yang benar dari teknisi tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menolak memalsukan data pengukuran secara tegas dan menyampaikan konsekuensi risiko teknis kerusakan jaringan di kemudian hari"
+      },
+      {
+        "id": "B",
+        "text": "Menghapus seluruh file hasil ukur dari memori alat OTDR"
+      },
+      {
+        "id": "C",
+        "text": "Menuruti perintah atasan dan mengubah angka hasil ukur di Excel"
+      },
+      {
+        "id": "D",
+        "text": "Menyalahkan alat ukur yang dianggap terlalu jujur"
+      },
+      {
+        "id": "E",
+        "text": "Meminta bayaran uang suap lebih besar untuk memalsukan data"
+      }
+    ],
+    "key": "A",
+    "explanation": "Integritas profesional melarang pemalsuan data teknis; data palsu dapat memicu kegagalan sistem dan tuntutan hukum perdata/pidana.",
+    "quickTip": "Integritas profesional: Menolak pemalsuan data uji secara tegas demi keandalan sistem."
+  },
+  {
+    "id": "s06_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Pekerjaan instalasi fiber optik di ketinggian tiang di depan pertokoan memicu keluhan dari pemilik toko karena menghalangi pintu masuk.",
+    "question": "Kecakapan komunikasi publik yang harus ditunjukkan oleh tim teknisi adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memarahi pemilik toko dan mengancam memutus jaringan teleponnya"
+      },
+      {
+        "id": "B",
+        "text": "Melempar material kotoran ke teras toko"
+      },
+      {
+        "id": "C",
+        "text": "Menyampaikan permohonan maaf dengan sopan, menjelaskan durasi estimasi pekerjaan, dan mengatur posisi tangga seminimal mungkin mengganggu"
+      },
+      {
+        "id": "D",
+        "text": "Memasang tiang tepat di tengah pintu masuk toko dengan sengaja"
+      },
+      {
+        "id": "E",
+        "text": "Mengabaikan pemilik toko dan menyalakan musik speaker kencang"
+      }
+    ],
+    "key": "C",
+    "explanation": "Teknisi lapangan mewakili citra perusahaan; komunikasi sopan dan tata letak yang memperhatikan kepentingan publik adalah etika dasar.",
+    "quickTip": "Komunikasi publik: Santun, empati, jelaskan durasi kerja, dan minimalkan gangguan akses."
+  },
+  {
+    "id": "s06_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Dalam sebuah tim proyek, terjadi perdebatan sengit mengenai metode penarikan kabel apakah manual atau menggunakan mesin winch.",
+    "question": "Cara penyelesaian konflik teknis yang paling konstruktif dalam tim kerja adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Melakukan musyawarah teknis berbasis standar batas kuat tarik kabel (Max Tensile Strength) yang tertera di datasheet pabrikan"
+      },
+      {
+        "id": "B",
+        "text": "Adu fisik antar anggota tim di lapangan"
+      },
+      {
+        "id": "C",
+        "text": "Membatalkan seluruh proyek seketika"
+      },
+      {
+        "id": "D",
+        "text": "Melakukan lempar koin secara acak"
+      },
+      {
+        "id": "E",
+        "text": "Memutuskan berdasarkan siapa yang memiliki suara paling keras"
+      }
+    ],
+    "key": "A",
+    "explanation": "Keputusan teknis harus disandarkan pada spesifikasi pabrikan (datasheet) untuk menjamin batas mekanis kabel tidak terlampaui.",
+    "quickTip": "Penyelesaian perbedaan teknis: Rujuk datasheet spesifikasi batas mekanis pabrikan."
+  },
+  {
+    "id": "s06_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Bekerja di dalam ruang tertutup manhole bawah tanah (Confined Space) untuk menyambung kabel fiber optik memiliki bahaya tersembunyi.",
+    "question": "Prosedur keselamatan K3 mutlak sebelum teknisi masuk ke dalam manhole bawah tanah adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menuangkan bensin ke dalam manhole"
+      },
+      {
+        "id": "B",
+        "text": "Menutup lubang manhole rapat-rapat saat ada orang di dalam"
+      },
+      {
+        "id": "C",
+        "text": "Melakukan pengujian gas berbahaya (H2S, CO, Methane) dengan Multi-Gas Detector dan melakukan ventilasi udara paksa (Blower)"
+      },
+      {
+        "id": "D",
+        "text": "Menyalakan korek api di dalam manhole untuk melihat isi ruangan"
+      },
+      {
+        "id": "E",
+        "text": "Langsung melompat ke dalam manhole tanpa penerangan"
+      }
+    ],
+    "key": "C",
+    "explanation": "Manhole dapat mengumpulkan gas beracun mematikan dan kekurangan oksigen; wajib uji gas detector dan ventilasi blower sebelum masuk.",
+    "quickTip": "Confined space / Manhole: Uji Multi-Gas Detector & pasang blower ventilasi udara."
+  },
+  {
+    "id": "s06_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Seorang teknisi ISP mendapati rekannya memanjat tiang setinggi 6 meter tanpa mengenakan Full Body Harness dan helm.",
+    "question": "Kewajiban keselamatan kerja yang harus diambil teknisi tersebut terhadap rekannya adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membiarkannya karena itu urusan pribadi masing-masing"
+      },
+      {
+        "id": "B",
+        "text": "Menyemangati rekannya untuk memanjat lebih tinggi lagi"
+      },
+      {
+        "id": "C",
+        "text": "Menghentikan rekan kerja tersebut (Stop Work Authority) dan memintanya memakai APD lengkap sebelum melanjutkan"
+      },
+      {
+        "id": "D",
+        "text": "Merekam video rekannya untuk ditertawakan di media sosial"
+      },
+      {
+        "id": "E",
+        "text": "Menggoyangkan tangga agar rekannya cepat selesai"
+      }
+    ],
+    "key": "C",
+    "explanation": "Prinsip Stop Work Authority memberikan hak dan kewajiban bagi setiap personil untuk menghentikan tindakan tidak aman (unsafe act).",
+    "quickTip": "Stop Work Authority: Wajib hentikan rekan yang bekerja tanpa APD demi keselamatan nyawa."
+  },
+  {
+    "id": "s06_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Dokumen serah terima instalasi ODP di tiang wajib melampirkan foto geotagging koordinat GPS lokasi fisik.",
+    "question": "Tujuan pencatatan titik koordinat GPS pada aset jaringan telekomunikasi adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memasukkan data aset ke sistem Geographic Information System (GIS) agar posisi ODP mudah dilacak saat pemeliharaan"
+      },
+      {
+        "id": "B",
+        "text": "Tidak memiliki fungsi teknis sama sekali"
+      },
+      {
+        "id": "C",
+        "text": "Sebagai syarat untuk menjual tiang ke pedagang barang bekas"
+      },
+      {
+        "id": "D",
+        "text": "Agar tiang bisa dipantau oleh teleskop antariksa"
+      },
+      {
+        "id": "E",
+        "text": "Agar tiang terlihat indah di layar peta game"
+      }
+    ],
+    "key": "A",
+    "explanation": "Data koordinat GPS diintegrasikan ke sistem inventaris GIS/OSS untuk memudahkan teknisi maintenance menemukan lokasi aset.",
+    "quickTip": "Koordinat GPS ODP diintegrasikan ke sistem GIS untuk memudahkan pemeliharaan."
+  },
+  {
+    "id": "s06_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Setelah jam kerja berakhir pada pukul 17:00, teknisi mendapati pintu kabinet ODC (Optical Distribution Cabinet) pinggir jalan lupa terkunci.",
+    "question": "Sikap tanggung jawab profesional yang wajib dilakukan teknisi tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Merusak kunci pintu dengan palu besi"
+      },
+      {
+        "id": "B",
+        "text": "Mengambil kabel di dalamnya untuk dibawa pulang"
+      },
+      {
+        "id": "C",
+        "text": "Membiarkan pintu terbuka agar terkena angin malam"
+      },
+      {
+        "id": "D",
+        "text": "Mengunci kembali pintu kabinet ODC secara rapat demi melindungi ratusan sambungan fiber optik di dalamnya dari sabotase/cuaca"
+      },
+      {
+        "id": "E",
+        "text": "Mengabaikannya karena jam kerja sudah selesai"
+      }
+    ],
+    "key": "D",
+    "explanation": "ODC memuat interkoneksi ratusan pelanggan; membiarkannya terbuka berisiko kemasukan air hujan, debu, atau perusakan vandalisme.",
+    "quickTip": "Integritas aset: Selalu pastikan kabinet ODC terkunci rapat terlindung dari cuaca."
+  },
+  {
+    "id": "s06_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Insiden kecelakaan kerja di tiang jalan raya sering diakibatkan oleh kombinasi berbagai faktor kegagalan K3.",
+    "question": "Faktor-faktor yang tergolong dalam tindakan tidak aman (Unsafe Action) pada pekerjaan tiang adalah... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memasang traffic cone dan barikade peringatan di sekitar tangga"
+      },
+      {
+        "id": "B",
+        "text": "Mengenakan helm keselamatan dengan chin strap terkunci rapat"
+      },
+      {
+        "id": "C",
+        "text": "Bekerja di atas tiang tanpa memasang pengait lanyard ke struktur tiang"
+      },
+      {
+        "id": "D",
+        "text": "Menggunakan tangga aluminium di dekat bentangan kabel tegangan tinggi PLN"
+      },
+      {
+        "id": "E",
+        "text": "Melemparkan perkakas tang dan palu ke teknisi yang berada di atas tiang"
+      }
+    ],
+    "key": [
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Bekerja tanpa lanyard, melempar alat, dan memakai tangga aluminium dekat listrik adalah contoh fatal Unsafe Action.",
+    "quickTip": "Unsafe Action: Tanpa lanyard, melempar perkakas, pakai tangga aluminium dekat listrik."
+  },
+  {
+    "id": "s06_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "SOP penanganan ruang tertutup bawah tanah (Manhole Fiber Optic) menuntut pengawasan ketat keselamatan.",
+    "question": "Prosedur keselamatan yang wajib diterapkan saat bekerja di dalam manhole kabel adalah... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menyalakan rokok di dalam manhole untuk menghangatkan badan"
+      },
+      {
+        "id": "B",
+        "text": "Menempatkan petugas pengawas (Standby Person) di bibir manhole sepanjang waktu pekerjaan"
+      },
+      {
+        "id": "C",
+        "text": "Memeriksa kadar gas beracun dan oksigen menggunakan Multi-Gas Detector"
+      },
+      {
+        "id": "D",
+        "text": "Memasang sistem ventilasi udara paksa (Blower) untuk sirkulasi oksigen segar"
+      },
+      {
+        "id": "E",
+        "text": "Mengunci penutup manhole dari luar saat teknisi masih bekerja di dalam"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Standar ruang tertutup: Deteksi gas, ventilasi blower udara, dan pengawas siaga di luar manhole.",
+    "quickTip": "SOP Manhole: Deteksi gas, blower ventilasi, dan standby person di luar lubang."
+  },
+  {
+    "id": "s06_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Penerapan etika profesi teknologi informasi memandu teknisi dalam bersikap di hadapan pelanggan dan rekan kerja.",
+    "question": "Prinsip etika profesi yang wajib dijunjung tinggi oleh teknisi jaringan meliputi... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menjaga kerahasiaan konfigurasi sistem dan data pribadi pengguna (Kerahasiaan/Confidentiality)"
+      },
+      {
+        "id": "B",
+        "text": "Menolak segala bentuk suap atau gratifikasi yang melanggar integritas (Anti-Korupsi)"
+      },
+      {
+        "id": "C",
+        "text": "Menyampaikan laporan hasil pengujian teknis secara jujur dan transparan (Integritas/Kejujuran)"
+      },
+      {
+        "id": "D",
+        "text": "Menjual password router pelanggan kepada pesaing bisnis"
+      },
+      {
+        "id": "E",
+        "text": "Memasang program virus perusak pada komputer klien"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Pilar etika profesi: Kerahasiaan data (confidentiality), integritas laporan teknis, dan integritas anti-gratifikasi.",
+    "quickTip": "Etika profesi IT: Kerahasiaan data, integritas laporan, dan anti-gratifikasi."
+  },
+  {
+    "id": "s06_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Peralatan keselamatan kerja di ketinggian harus diperiksa dan dirawat secara berkala agar tidak mengalami degradasi kualitas.",
+    "question": "Langkah pemeliharaan yang benar untuk Full Body Harness adalah... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membersihkan tali webbing menggunakan air sabun netral dan mengeringkannya di tempat teduh berangin"
+      },
+      {
+        "id": "B",
+        "text": "Menyimpan harness di tempat kering, bersih, dan terhindar dari paparan sinar UV matahari langsung"
+      },
+      {
+        "id": "C",
+        "text": "Melumuri webbing harness dengan cairan asam sulfat"
+      },
+      {
+        "id": "D",
+        "text": "Menjemur harness di atas api unggun agar cepat kering"
+      },
+      {
+        "id": "E",
+        "text": "Menjauhkan harness dari zat kimia asam baterai, minyak pelumas korosif, dan sumber panas api"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "E"
+    ],
+    "explanation": "Harness dirawat dengan air sabun netral, diangin-anginkan di tempat teduh, dan dijauhkan dari bahan kimia keras serta radiasi UV berlebih.",
+    "quickTip": "Perawatan harness: Sabun netral, keringkan di tempat teduh, jauhkan dari zat kimia asam."
+  },
+  {
+    "id": "s06_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Penyusunan rencana kerja penarikan kabel telekomunikasi membutuhkan koordinasi antardivisi yang solid.",
+    "question": "Dokumen teknis yang wajib disiapkan sebelum pelaksanaan konstruksi penggelaran kabel di lapangan adalah... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tiket nonton bioskop pimpinan proyek"
+      },
+      {
+        "id": "B",
+        "text": "Surat Perintah Kerja (SPK / Work Order) resmi dari manajemen proyek"
+      },
+      {
+        "id": "C",
+        "text": "Kuitansi pembelian pakaian santai akhir pekan"
+      },
+      {
+        "id": "D",
+        "text": "Izin kerja lingkungan / izin pemanfaatan jalur jalan dari instansi berwenang (RoW)"
+      },
+      {
+        "id": "E",
+        "text": "Gambar Rencana Desain Rute Kabel (Design Route Drawing) dan titik penempatan tiang"
+      }
+    ],
+    "key": [
+      "B",
+      "D",
+      "E"
+    ],
+    "explanation": "Konstruksi legal membutuhkan SPK resmi, gambar rencana rute desain, dan izin penggunaan ruang jalan (RoW).",
+    "quickTip": "Dokumen legal lapangan: SPK proyek, gambar rute desain, dan izin jalan (RoW)."
+  },
+  {
+    "id": "s06_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Bekerja di dekat bentangan kabel listrik PLN menuntut jarak bebas aman (Minimum Approach Distance).",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang keselamatan di dekat jaringan listrik!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Teknisi telekomunikasi dilarang mendekati kabel listrik tegangan menengah (TM 20 kV) dalam jarak kurang dari 2 meter.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Kabel udara telekomunikasi boleh dililitkan langsung pada kabel listrik telanjang PLN.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Tangga fiberglass merupakan standar wajib saat bekerja pada tiang yang berbagi jalur dengan jaringan listrik.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Jarak aman terhadap kabel TM 20 kV minimal 2 meter; kabel telekomunikasi dilarang kontak langsung dengan kabel listrik.",
+    "quickTip": "Jarak aman listrik TM 20 kV minimal 2 meter; tangga fiberglass isolator mutlak."
+  },
+  {
+    "id": "s06_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Etika penanganan komplain pelanggan menentukan reputasi penyedia jasa internet.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai komunikasi layanan pelanggan!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Teknisi harus memberikan penjelasan teknis dengan bahasa yang sopan dan mudah dipahami tanpa merendahkan pelanggan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Jika pelanggan mengeluh, teknisi boleh langsung mematikan sambungan telepon agar masalah dianggap selesai.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Teknisi wajib mengonfirmasi bahwa koneksi internet telah berfungsi normal kembali sebelum meninggalkan rumah pelanggan.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Pelayanan profesional mengedepankan kesantunan, komunikasi jelas, dan verifikasi kepuasan pelanggan sebelum berpamitan.",
+    "quickTip": "Pelayanan pelanggan: Santun, komunikatif, dan verifikasi fungsi sebelum berpamitan."
+  },
+  {
+    "id": "s06_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Manajemen waktu kerja teknisi menentukan ketercapaian target instalasi tepat waktu.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai faktor keterlambatan instalasi!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Menyiapkan dan mengisi daya baterai perkakas mesin fusion splicer pada malam hari mencegah kendala di lapangan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Tiba di lokasi instalasi tanpa mengonfirmasi keberadaan pelanggan di rumah sering memicu waktu tunggu sia-sia.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Tidak membawa cadangan konektor dan patch cord selalu mempercepat penyelesaian instalasi.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Konfirmasi janji temu dengan pelanggan dan kelengkapan material cadangan mencegah pemborosan waktu tunggu di lokasi.",
+    "quickTip": "Konfirmasi pelanggan & bawa material cadangan untuk mencegah keterlambatan tugas."
+  },
+  {
+    "id": "s06_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Prinsip Stop Work Authority memberikan hak keselamatan bagi seluruh personil di lapangan.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai penerapan Stop Work Authority!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Setiap pekerja berhak menghentikan pekerjaan jika melihat kondisi bahaya yang mengancam nyawa tanpa takut dihukum.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Pekerjaan hanya boleh dihentikan jika ada perintah tertulis resmi bermeterai dari menteri.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Setelah pekerjaan dihentikan, investigasi bahaya harus dilakukan dan dihilangkan sebelum pekerjaan dilanjutkan kembali.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Stop Work Authority adalah hak setiap pekerja untuk menghentikan bahaya seketika tanpa prosedur birokrasi berbelit.",
+    "quickTip": "Stop Work Authority: Hak setiap pekerja menghentikan pekerjaan bahaya seketika."
+  },
+  {
+    "id": "s06_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Pemeliharaan preventif (Preventive Maintenance) bertujuan mencegah timbulnya kerusakan tak terduga pada jaringan.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang pemeliharaan berkala infrastruktur jaringan!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Pembersihan debu pada kipas rak server secara berkala mencegah terjadinya panas berlebih (overheating).",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Pemeliharaan preventif hanya membuang-buang anggaran perusahaan dan tidak memiliki nilai guna.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Inspeksi visual kekencangan sabuk pengikat tiang ODP mencegah kotak distribusi jatuh ke jalan raya.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Preventive maintenance mencegah downtime mahal dan kecelakaan fatal pada fasilitas luar ruangan (ODP/tiang).",
+    "quickTip": "Preventive maintenance: Pembersihan debu & cek tiang mencegah kerusakan fatal sistem."
+  }
+]

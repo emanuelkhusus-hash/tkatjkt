@@ -5,8 +5,15 @@
 
 class AppController {
   constructor() {
+    this.systemVersionKey = "TKA_SYSTEM_VERSION";
+    this.currentSystemVersion = "2026.10.07_V2_900Q";
+    this.shouldShowUpdateModal = false;
+
     this.profileKey = "TKA_STUDENT_PROFILE";
     this.historyKey = "TKA_USER_HISTORY";
+
+    // Pemeriksaan versi & reset otomatis serempak jika ada pembaruan sistem besar
+    this.checkSystemUpdateAndReset();
 
     this.studentProfile = this.loadStudentProfile();
     this.userHistory = this.loadUserHistory();
@@ -30,6 +37,48 @@ class AppController {
     } else {
       this.showView("viewPortal");
     }
+
+    // Tampilkan popup pembaruan sistem jika sistem baru di-update
+    if (this.shouldShowUpdateModal) {
+      this.openSystemUpdateModal();
+    }
+  }
+
+  checkSystemUpdateAndReset() {
+    let savedVersion = "";
+    try {
+      savedVersion = localStorage.getItem(this.systemVersionKey) || "";
+    } catch (e) {}
+
+    if (savedVersion !== this.currentSystemVersion) {
+      try {
+        localStorage.removeItem(this.historyKey);
+        localStorage.removeItem("TKA_ACTIVE_EXAM_STATE");
+      } catch (e) {}
+      this.shouldShowUpdateModal = true;
+    }
+  }
+
+  openSystemUpdateModal() {
+    if (this.modalSystemUpdate) {
+      this.modalSystemUpdate.style.display = "flex";
+    }
+  }
+
+  acknowledgeSystemUpdate() {
+    try {
+      localStorage.setItem(this.systemVersionKey, this.currentSystemVersion);
+    } catch (e) {}
+    if (this.modalSystemUpdate) {
+      this.modalSystemUpdate.style.display = "none";
+    }
+    // Arahkan fokus ke Hari 1
+    setTimeout(() => {
+      const day1Card = document.querySelector(".day-card, .day-accordion-card");
+      if (day1Card && typeof day1Card.scrollIntoView === "function") {
+        day1Card.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 150);
   }
 
   initDom() {
@@ -57,6 +106,10 @@ class AppController {
     this.btnSaveProfileModal = document.getElementById("btnSaveProfileModal");
     this.modalInputName = document.getElementById("modalInputName");
     this.modalInputNisn = document.getElementById("modalInputNisn");
+
+    // Modal System Update
+    this.modalSystemUpdate = document.getElementById("systemUpdateModal");
+    this.btnAckSystemUpdate = document.getElementById("btnAckSystemUpdate");
 
     // Days Container
     this.daysContainer = document.getElementById("daysListContainer");
@@ -100,6 +153,11 @@ class AppController {
   }
 
   bindEvents() {
+    // System Update Modal Acknowledge
+    if (this.btnAckSystemUpdate) {
+      this.btnAckSystemUpdate.addEventListener("click", () => this.acknowledgeSystemUpdate());
+    }
+
     // Profile Modal
     this.btnEditProfile.addEventListener("click", () => this.openProfileModal());
     this.btnCloseProfileModal.addEventListener("click", () => this.closeProfileModal());

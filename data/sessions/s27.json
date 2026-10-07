@@ -1,0 +1,949 @@
+[
+  {
+    "id": "s27_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Seorang teknisi baru di ISP ditugaskan memelihara perangkat jaringan dan server, memantau utilisasi link, serta mengelola trouble ticket penanganan gangguan.",
+    "question": "Peran profesi kerja yang paling sesuai dengan ruang lingkup tugas tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Network Operation Center (NOC) Engineer"
+      },
+      {
+        "id": "B",
+        "text": "Staff Keuangan Payroll"
+      },
+      {
+        "id": "C",
+        "text": "Operator Perakitan Mesin"
+      },
+      {
+        "id": "D",
+        "text": "Digital Content Strategist"
+      },
+      {
+        "id": "E",
+        "text": "Frontend UI Designer"
+      }
+    ],
+    "key": "A",
+    "explanation": "NOC Engineer bertanggung jawab atas pemantauan link jaringan, analisis log perangkat, manajemen trouble ticket, dan eskalasi penanganan gangguan.",
+    "quickTip": "Memantau dashboard link jaringan dan trouble ticket = NOC Engineer."
+  },
+  {
+    "id": "s27_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Saat bekerja memasang kabel fiber optik udara di dekat kabel listrik tegangan menengah PLN pada ketinggian 6 meter.",
+    "question": "Alat Pelindung Diri (APD) dan peralatan kerja isolasi yang WAJIB digunakan teknisi untuk mencegah sengatan listrik adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sandal jepit santai dan sarung tangan kain basah"
+      },
+      {
+        "id": "B",
+        "text": "Full body harness dengan dual lanyard, safety helmet berisolasi listrik, safety shoes, dan tangga isolator berbahan fiberglass"
+      },
+      {
+        "id": "C",
+        "text": "Tali tambang rami pengikat tanpa tali pengaman"
+      },
+      {
+        "id": "D",
+        "text": "Jas hujan plastik tipis dan topi koboi kain"
+      },
+      {
+        "id": "E",
+        "text": "Tangga lipat aluminium tipis tanpa sepatu karet"
+      }
+    ],
+    "key": "B",
+    "explanation": "Di dekat kabel listrik, wajib menggunakan tangga fiberglass non-konduktif serta APD lengkap (body harness, helm bersertifikasi isolasi listrik, dan safety shoes).",
+    "quickTip": "Bekerja di dekat listrik: Gunakan tangga fiberglass dan APD isolasi listrik lengkap."
+  },
+  {
+    "id": "s27_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Kabel UTP Cat6 sepanjang 75 meter menghubungkan switch lantai ke komputer kasir. Saat diuji dengan kabel tester profesional, terukur atenuasi normal namun crosstalk tinggi (NEXT Fail).",
+    "question": "Tindakan perbaikan terminasi konektor RJ-45 yang paling tepat untuk mengatasi kegagalan uji tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memotong konektor lama dan memasang konektor baru dengan memastikan lilitan kawat diurai seminimal mungkin (di bawah 13 mm)"
+      },
+      {
+        "id": "B",
+        "text": "Mengganti seluruh kabel dengan kabel telepon 2-kawat"
+      },
+      {
+        "id": "C",
+        "text": "Mencuci kabel di dalam larutan air deterjen"
+      },
+      {
+        "id": "D",
+        "text": "Menarik kabel sekencang mungkin hingga kawat menegang"
+      },
+      {
+        "id": "E",
+        "text": "Menyambung kabel dengan cara diplintir isolasi kabel"
+      }
+    ],
+    "key": "A",
+    "explanation": "NEXT Fail disebabkan lilitan kawat diurai terlalu panjang saat crimping. Solusinya memasang ulang konektor dengan menjaga lilitan rapat hingga dekat pin.",
+    "quickTip": "Atasi NEXT Fail: Terminasi ulang konektor RJ-45 dengan lilitan seminimal mungkin (<13 mm)."
+  },
+  {
+    "id": "s27_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Kabel serat optik Single-Mode (ITU-T G.652D) memiliki koefisien redaman alami sebesar 0.35 dB/km pada panjang gelombang 1310 nm.",
+    "question": "Berapa perkiraan total redaman serat optik murni (fiber attenuation) untuk bentangan kabel sepanjang 20 kilometer tanpa memperhitungkan konektor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20,0 dB"
+      },
+      {
+        "id": "B",
+        "text": "14,0 dB"
+      },
+      {
+        "id": "C",
+        "text": "3,5 dB"
+      },
+      {
+        "id": "D",
+        "text": "7,0 dB (berasal dari 20 km x 0,35 dB/km)"
+      },
+      {
+        "id": "E",
+        "text": "0,7 dB"
+      }
+    ],
+    "key": "D",
+    "explanation": "Total redaman kabel = panjang (km) x koefisien redaman (dB/km) = 20 x 0.35 = 7.0 dB.",
+    "quickTip": "Redaman kabel optik 20 km pada 1310 nm = 20 x 0.35 = 7.0 dB."
+  },
+  {
+    "id": "s27_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Sebuah kantor memiliki alokasi blok IP 192.168.50.0/24 dan ingin membaginya ke dalam subnet yang masing-masing dapat menampung maksimal 14 unit komputer.",
+    "question": "Prefix subnet mask yang paling tepat dan hemat untuk kebutuhan 14 host per subnet tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "/27 (30 host usable)"
+      },
+      {
+        "id": "B",
+        "text": "/29 (6 host usable)"
+      },
+      {
+        "id": "C",
+        "text": "/26 (62 host usable)"
+      },
+      {
+        "id": "D",
+        "text": "/30 (2 host usable)"
+      },
+      {
+        "id": "E",
+        "text": "/28 (Subnet mask 255.255.255.240)"
+      }
+    ],
+    "key": "E",
+    "explanation": "/28 memiliki 4 bit host (2^4 - 2 = 14 usable host), sangat pas dan paling efisien untuk kebutuhan tepat 14 komputer.",
+    "quickTip": "14 host usable = Prefix /28 (2^4 - 2 = 14 host)."
+  },
+  {
+    "id": "s27_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Pada subnet 192.168.50.32/28, berapa alamat Broadcast ID untuk blok jaringan tersebut?",
+    "question": "Alamat broadcast yang benar untuk subnet 192.168.50.32/28 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "192.168.50.46"
+      },
+      {
+        "id": "B",
+        "text": "192.168.50.47"
+      },
+      {
+        "id": "C",
+        "text": "192.168.50.48"
+      },
+      {
+        "id": "D",
+        "text": "192.168.50.255"
+      },
+      {
+        "id": "E",
+        "text": "192.168.50.63"
+      }
+    ],
+    "key": "B",
+    "explanation": "Magic number /28 = 16. Subnet berikutnya adalah 192.168.50.48. Maka broadcast subnet sebelumnya adalah 192.168.50.47.",
+    "quickTip": "Broadcast ID /28 dari blok .32 adalah 32 + 16 - 1 = 47."
+  },
+  {
+    "id": "s27_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Di switch terkelola, port nomor 1 sampai 10 dimasukkan ke dalam VLAN 10 (Siswa) dan port 11 sampai 20 dimasukkan ke VLAN 20 (Guru).",
+    "question": "Jika komputer di port 1 mengirimkan frame broadcast ARP, port manakah yang akan menerima frame broadcast tersebut?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Frame broadcast langsung dikirim ke internet publik"
+      },
+      {
+        "id": "B",
+        "text": "Seluruh port 1 sampai 24 di switch tersebut"
+      },
+      {
+        "id": "C",
+        "text": "Hanya port 11 sampai 20 pada VLAN 20"
+      },
+      {
+        "id": "D",
+        "text": "Tidak ada port yang menerima sama sekali"
+      },
+      {
+        "id": "E",
+        "text": "Hanya port 2 sampai 10 yang berada dalam VLAN 10 yang sama"
+      }
+    ],
+    "key": "E",
+    "explanation": "VLAN mengisolasi broadcast domain. Frame broadcast dari anggota VLAN 10 hanya akan diteruskan ke port lain yang berada dalam VLAN 10.",
+    "quickTip": "Broadcast VLAN hanya disebarkan ke port dalam VLAN yang sama."
+  },
+  {
+    "id": "s27_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Untuk menghubungkan VLAN 10 dan VLAN 20 yang berada pada switch dengan satu router Cisco menggunakan konsep Router-on-a-Stick.",
+    "question": "Konfigurasi port switch yang terhubung langsung ke router tersebut harus disetel pada mode...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mode Loopback"
+      },
+      {
+        "id": "B",
+        "text": "Mode Console"
+      },
+      {
+        "id": "C",
+        "text": "Mode Shutdown"
+      },
+      {
+        "id": "D",
+        "text": "Mode Trunk (IEEE 802.1Q)"
+      },
+      {
+        "id": "E",
+        "text": "Mode Access"
+      }
+    ],
+    "key": "D",
+    "explanation": "Koneksi dari switch ke router pada Router-on-a-Stick wajib ber-mode Trunk agar mampu membawa frame dari multi-VLAN bertag 802.1Q.",
+    "quickTip": "Koneksi Router-on-a-Stick dari switch ke router = Port Mode Trunk."
+  },
+  {
+    "id": "s27_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Teknisi mengukur daya terima optik pada modem ONT pelanggan FTTH menggunakan OPM pada panjang gelombang 1490 nm dan terbaca nilai -21,5 dBm.",
+    "question": "Kesimpulan teknis mengenai status kualitas sinyal optik yang diterima pelanggan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perangkat OPM mengalami kerusakan internal"
+      },
+      {
+        "id": "B",
+        "text": "Sinyal terlalu lemah dan koneksi akan sering putus (LOS)"
+      },
+      {
+        "id": "C",
+        "text": "Sinyal terlalu kuat dan dapat membakar receiver ONT"
+      },
+      {
+        "id": "D",
+        "text": "Kualitas sinyal sangat baik dan normal (berada dalam standar optimal -15 dBm s.d. -24 dBm)"
+      },
+      {
+        "id": "E",
+        "text": "Kabel serat optik terputus di tengah jalan"
+      }
+    ],
+    "key": "D",
+    "explanation": "Nilai -21.5 dBm berada di tengah-tengah rentang ideal daya terima ONT GPON (-15 s.d. -24 dBm), menjamin kestabilan layanan internet.",
+    "quickTip": "Nilai -21.5 dBm adalah sinyal optik prima berstandar telko."
+  },
+  {
+    "id": "s27_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Saat melakukan pengujian kurva OTDR pada kabel sepanjang 10 km, teknisi melihat undakan penurunan garis sebesar 0,02 dB pada jarak 3,4 km tanpa adanya spike lonjakan pantulan.",
+    "question": "Kejadian fisik yang ditunjukkan oleh undakan penurunan non-reflektif tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel mengalami korsleting tegangan tinggi"
+      },
+      {
+        "id": "B",
+        "text": "Kabel ditarik melintasi medan magnet trafo"
+      },
+      {
+        "id": "C",
+        "text": "Konektor mekanik SC yang kotor berdebu"
+      },
+      {
+        "id": "D",
+        "text": "Sambungan peleburan Fusion Splice berkualitas prima"
+      },
+      {
+        "id": "E",
+        "text": "Ujung akhir kabel yang putus total"
+      }
+    ],
+    "key": "D",
+    "explanation": "Non-reflective event dengan loss sangat kecil (<0.05 dB, yaitu 0.02 dB) adalah ciri khas sambungan fusion splice yang dieksekusi dengan sempurna.",
+    "quickTip": "Undakan turun 0.02 dB tanpa spike pada OTDR = Sambungan Fusion Splice prima."
+  },
+  {
+    "id": "s27_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Administrator server Linux ingin mengubah hak akses berkas skrip `deploy.sh` agar pemilik dapat membaca, menulis, dan mengeksekusi, sedangkan grup dan pengguna lain hanya dapat membaca dan mengeksekusi.",
+    "question": "Perintah chmod dengan nilai oktal yang tepat untuk skenario tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "chmod 777 deploy.sh"
+      },
+      {
+        "id": "B",
+        "text": "chmod 644 deploy.sh"
+      },
+      {
+        "id": "C",
+        "text": "chmod 700 deploy.sh"
+      },
+      {
+        "id": "D",
+        "text": "chmod 600 deploy.sh"
+      },
+      {
+        "id": "E",
+        "text": "chmod 755 deploy.sh"
+      }
+    ],
+    "key": "E",
+    "explanation": "Owner (rwx=7), Group (r-x=5), Others (r-x=5). Perintahnya adalah `chmod 755 deploy.sh`.",
+    "quickTip": "Owner rwx (7), Group r-x (5), Others r-x (5) = chmod 755."
+  },
+  {
+    "id": "s27_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Pada virtualisasi server laboratorium, teknisi ingin membuat mesin virtual (VM) Debian Server yang dapat diakses langsung oleh seluruh komputer di jaringan LAN fisik sekolah seolah-olah server fisik terpisah.",
+    "question": "Mode adaptor jaringan VirtualBox yang harus dipilih untuk VM tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not Attached"
+      },
+      {
+        "id": "B",
+        "text": "Host-Only Adapter"
+      },
+      {
+        "id": "C",
+        "text": "Internal Network"
+      },
+      {
+        "id": "D",
+        "text": "NAT (Network Address Translation)"
+      },
+      {
+        "id": "E",
+        "text": "Bridged Adapter"
+      }
+    ],
+    "key": "E",
+    "explanation": "Bridged Adapter menjembatani antarmuka virtual VM ke switch fisik LAN sekolah sehingga VM mendapatkan IP satu segmen dan dapat diakses langsung.",
+    "quickTip": "VM dapat diakses dari jaringan fisik luar = Mode Bridged Adapter."
+  },
+  {
+    "id": "s27_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Teknisi jaringan mengonfigurasi rute statis pada router Cisco menuju jaringan 10.10.20.0/24 melalui alamat router tetangga 192.168.1.2.",
+    "question": "Perintah sintaks konfigurasi global yang tepat adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "ip route 10.10.20.0 255.255.255.0 192.168.1.2"
+      },
+      {
+        "id": "B",
+        "text": "router static 10.10.20.0/24 gateway 192.168.1.2"
+      },
+      {
+        "id": "C",
+        "text": "ip route 192.168.1.2 255.255.255.0 10.10.20.0"
+      },
+      {
+        "id": "D",
+        "text": "ip default-network 10.10.20.0 192.168.1.2"
+      },
+      {
+        "id": "E",
+        "text": "route add 10.10.20.0 mask 255.255.255.0 192.168.1.2"
+      }
+    ],
+    "key": "A",
+    "explanation": "Sintaks rute statis Cisco: `ip route <network-tujuan> <subnet-mask> <ip-next-hop>`.",
+    "quickTip": "Sintaks rute statis: ip route 10.10.20.0 255.255.255.0 192.168.1.2."
+  },
+  {
+    "id": "s27_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Dalam arsitektur model 7 lapis OSI, enkripsi data SSL/TLS, konversi format karakter ASCII, dan kompresi file dijalankan pada...",
+    "question": "Nama lapisan model OSI yang menangani pemformatan dan enkripsi tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Session Layer (Layer 5)"
+      },
+      {
+        "id": "B",
+        "text": "Network Layer (Layer 3)"
+      },
+      {
+        "id": "C",
+        "text": "Application Layer (Layer 7)"
+      },
+      {
+        "id": "D",
+        "text": "Presentation Layer (Layer 6)"
+      },
+      {
+        "id": "E",
+        "text": "Transport Layer (Layer 4)"
+      }
+    ],
+    "key": "D",
+    "explanation": "Presentation Layer (Layer 6) bertugas menangani sintaks, representasi format data, kompresi, dan enkripsi/dekripsi keamanan data.",
+    "quickTip": "Enkripsi SSL/TLS dan format representasi data = Presentation Layer (Layer 6)."
+  },
+  {
+    "id": "s27_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Dua switch lawas dihubungkan menggunakan dua kabel patch cord sekaligus tanpa mengaktifkan protokol STP (Spanning Tree Protocol).",
+    "question": "Akibat langsung yang terjadi pada jaringan switch tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bandwidth jaringan otomatis berlipat ganda 100 kali lipat"
+      },
+      {
+        "id": "B",
+        "text": "Komputer klien langsung berubah alamat menjadi IPv6"
+      },
+      {
+        "id": "C",
+        "text": "Switch otomatis mengunduh update software terbaru"
+      },
+      {
+        "id": "D",
+        "text": "Kabel patch cord otomatis meleleh terbakar api"
+      },
+      {
+        "id": "E",
+        "text": "Terjadi perputaran frame tanpa henti (Switching Loop) yang memicu Broadcast Storm dan melumpuhkan jaringan"
+      }
+    ],
+    "key": "E",
+    "explanation": "Loop fisik pada Layer 2 tanpa STP menyebabkan frame broadcast berputar tiada henti (broadcast storm), menghabiskan seluruh kapasitas switch.",
+    "quickTip": "Kabel ganda antar-switch tanpa STP memicu Broadcast Storm."
+  },
+  {
+    "id": "s27_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Penulisan penyingkatan alamat IPv6 resmi menurut standar RFC 5952 untuk alamat: `fe80:0000:0000:0000:020c:29ff:fe3d:12a4`.",
+    "question": "Bentuk penyingkatan yang paling tepat adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "fe80::20c:29ff:fe3d:12a4"
+      },
+      {
+        "id": "B",
+        "text": "fe80:::20c:29ff:fe3d:12a4"
+      },
+      {
+        "id": "C",
+        "text": "fe80:0:0:0:20c:29ff:fe3d:12a4"
+      },
+      {
+        "id": "D",
+        "text": "fe80::020c:29ff:fe3d:12a4"
+      },
+      {
+        "id": "E",
+        "text": "fe80::20c::fe3d:12a4"
+      }
+    ],
+    "key": "A",
+    "explanation": "Empat blok nol berurutan diganti '::', dan leading zero '020c' dihilangkan menjadi '20c'. Hasilnya: `fe80::20c:29ff:fe3d:12a4`.",
+    "quickTip": "Singkat IPv6: kompresi nol dengan '::' dan hapus leading zero."
+  },
+  {
+    "id": "s27_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "SOP penyambungan serat optik mengharuskan teknisi memasukkan Protection Sleeve pada serat.",
+    "question": "Kapan waktu yang paling tepat untuk memasukkan tabung Protection Sleeve tersebut?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dimasukkan setelah kabel ditarik melintasi jalan raya"
+      },
+      {
+        "id": "B",
+        "text": "Sebelum serat optik dikupas lapisan coating-nya dan dipotong di cleaver"
+      },
+      {
+        "id": "C",
+        "text": "Setelah kedua serat selesai dilebur menyatu di splicer"
+      },
+      {
+        "id": "D",
+        "text": "Setelah kabel dipasang di dinding rumah pelanggan"
+      },
+      {
+        "id": "E",
+        "text": "Protection sleeve tidak wajib dipasang jika kabel tebal"
+      }
+    ],
+    "key": "B",
+    "explanation": "Protection sleeve wajib diselipkan ke serat sebelum proses potong dan lebur; tidak bisa dimasukkan setelah kedua serat menyatu.",
+    "quickTip": "Selipkan protection sleeve SEBELUM memotong dan melebur serat."
+  },
+  {
+    "id": "s27_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Pada penataan ruang server data center, konsep pemisahan lorong rak server dingin dan lorong panas diterapkan untuk efisiensi pendinginan.",
+    "question": "Nama konsep manajemen tata udara server tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ceiling Fan Exhaust"
+      },
+      {
+        "id": "B",
+        "text": "Cross Flow Air Duct"
+      },
+      {
+        "id": "C",
+        "text": "Submerged Water Cooling"
+      },
+      {
+        "id": "D",
+        "text": "Hot Aisle / Cold Aisle Containment"
+      },
+      {
+        "id": "E",
+        "text": "Open Room Cooling"
+      }
+    ],
+    "key": "D",
+    "explanation": "Lorong dingin (Cold Aisle) memasok udara sejuk dari lantai ke bagian depan server, dan lorong panas (Hot Aisle) membuang panas dari belakang server ke pendingin.",
+    "quickTip": "Tata udara server data center = Hot Aisle / Cold Aisle."
+  },
+  {
+    "id": "s27_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Saat menguji kabel UTP straight-through dengan wiremap tester, lampu indikator remote menunjukkan urutan 1-8 menyala bergantian sinkron.",
+    "question": "Kesimpulan dari hasil pengujian kabel tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel dalam kondisi normal, kontinuitas pin 1 sampai 8 lurus sempurna"
+      },
+      {
+        "id": "B",
+        "text": "Kabel terputus di dalam konektor"
+      },
+      {
+        "id": "C",
+        "text": "Kabel salah standar pengkabelan"
+      },
+      {
+        "id": "D",
+        "text": "Kabel berjenis crossover silang"
+      },
+      {
+        "id": "E",
+        "text": "Kabel mengalami korsleting pada seluruh pin"
+      }
+    ],
+    "key": "A",
+    "explanation": "Nyala sinkron dan berurutan dari pin 1 sampai 8 membuktikan kabel straight-through terminasi dengan benar tanpa putus atau korslet.",
+    "quickTip": "LED 1-8 nyala berurutan bersamaan = Kabel normal straight-through."
+  },
+  {
+    "id": "s27_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Seorang administrator web server mendapati bahwa port 80 pada server Linux-nya tidak dapat dinyalakan karena muncul error 'Address already in use'.",
+    "question": "Perintah CLI Linux yang tepat untuk memeriksa proses atau layanan apa yang sedang menduduki port 80 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "sudo traceroute 80"
+      },
+      {
+        "id": "B",
+        "text": "sudo rm -rf /var/www"
+      },
+      {
+        "id": "C",
+        "text": "sudo ping localhost:80"
+      },
+      {
+        "id": "D",
+        "text": "sudo ss -tulnp | grep :80 (atau netstat -tulnp | grep :80)"
+      },
+      {
+        "id": "E",
+        "text": "sudo chmod 777 :80"
+      }
+    ],
+    "key": "D",
+    "explanation": "Perintah `ss -tulnp` (atau `netstat`) menampilkan daftar port yang sedang listening beserta Process ID (PID) dan nama program yang menggunakannya.",
+    "quickTip": "Melihat aplikasi yang menduduki port di Linux = ss -tulnp (atau netstat)."
+  },
+  {
+    "id": "s27_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Integrasi kompetensi media transmisi kabel tembaga dan serat optik.",
+    "question": "Manakah pernyataan yang BENAR mengenai perbedaan kabel UTP dan Fiber Optik? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fiber optik sepenuhnya kebal terhadap interferensi gelombang elektromagnetik (EMI) dan sambaran petir"
+      },
+      {
+        "id": "B",
+        "text": "Kabel fiber optik menghantarkan arus listrik DC untuk menyalakan komputer"
+      },
+      {
+        "id": "C",
+        "text": "Kabel UTP harus selalu disambung menggunakan mesin Fusion Splicer"
+      },
+      {
+        "id": "D",
+        "text": "Kabel UTP memiliki batas bentangan maksimal 100 meter, sedangkan Fiber Optik Single-Mode mampu menjangkau puluhan kilometer"
+      },
+      {
+        "id": "E",
+        "text": "Kabel UTP dapat menyalurkan sinyal cahaya laser berdaya tinggi"
+      }
+    ],
+    "key": [
+      "A",
+      "D"
+    ],
+    "explanation": "UTP dibatasi 100m, memakai sinyal listrik, dan rentan EMI. Fiber optik memakai cahaya silika, kebal EMI, dan mampu menempuh jarak puluhan km.",
+    "quickTip": "UTP maksimal 100m; Fiber optik kebal EMI dan jangkauan puluhan km."
+  },
+  {
+    "id": "s27_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Peralatan pengujian dan penyambungan serat optik standar industri.",
+    "question": "Manakah pasangan alat kerja optik dan fungsinya yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "One-Click Cleaner digunakan untuk memotong kabel fiber optik"
+      },
+      {
+        "id": "B",
+        "text": "Fusion Splicer digunakan untuk menjepit konektor RJ-45 tembaga"
+      },
+      {
+        "id": "C",
+        "text": "High Precision Fiber Cleaver memotong ujung kaca serat optik dengan sudut tegak lurus presisi"
+      },
+      {
+        "id": "D",
+        "text": "Optical Power Meter (OPM) mengukur kekuatan daya sinyal optik yang diterima dalam satuan dBm"
+      },
+      {
+        "id": "E",
+        "text": "Visual Fault Locator (VFL) melacak kontinuitas serat menggunakan laser merah tampak 650 nm"
+      }
+    ],
+    "key": [
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "VFL = laser merah pelacak kontinuitas; OPM = pengukur daya dBm; Fiber Cleaver = pemotong kaca sudut tegak lurus.",
+    "quickTip": "Alat optik: VFL (laser merah), OPM (daya dBm), Cleaver (potong tegak lurus)."
+  },
+  {
+    "id": "s27_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Arsitektur jaringan dan konfigurasi VLAN pada switch.",
+    "question": "Manakah ketentuan konfigurasi VLAN yang TEPAT? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Komputer beda VLAN dapat saling berkomunikasi langsung tanpa melewati perangkat Layer 3"
+      },
+      {
+        "id": "B",
+        "text": "Port Trunk membawa banyak VLAN bertag 802.1Q antar-switch atau switch ke router"
+      },
+      {
+        "id": "C",
+        "text": "Port Access membawa tepat 1 VLAN tanpa tag 802.1Q menuju perangkat akhir pengguna"
+      },
+      {
+        "id": "D",
+        "text": "VLAN ID valid berkisar antara 1 sampai 4094 menurut standar IEEE 802.1Q"
+      },
+      {
+        "id": "E",
+        "text": "Port Trunk hanya boleh digunakan untuk kabel telepon kabel tembaga analog"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Port Access membawa 1 VLAN untagged, Port Trunk membawa multi-VLAN tagged 802.1Q, rentang VID 1-4094. Komunikasi beda VLAN wajib lewat Layer 3.",
+    "quickTip": "Ketentuan VLAN: Access (1 VLAN untagged), Trunk (Multi-VLAN tagged 802.1Q, VID 1-4094)."
+  },
+  {
+    "id": "s27_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Pengalamatan IPv4 dan efisiensi alokasi subnetting.",
+    "question": "Manakah pernyataan yang BENAR mengenai subnetting IPv4? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alamat IP privat RFC 1918 dapat dirutekan langsung di internet tanpa bantuan NAT"
+      },
+      {
+        "id": "B",
+        "text": "Subnet mask /24 hanya dapat menampung maksimal 24 unit komputer"
+      },
+      {
+        "id": "C",
+        "text": "Alamat Network ID dan Broadcast ID dilarang dipasang pada kartu jaringan komputer pengguna"
+      },
+      {
+        "id": "D",
+        "text": "Subnet mask /30 (255.255.255.252) menyediakan tepat 2 alamat host usable untuk link Point-to-Point router"
+      },
+      {
+        "id": "E",
+        "text": "Alamat IP 127.0.0.1 adalah alamat publik router gateway internet dunia"
+      }
+    ],
+    "key": [
+      "C",
+      "D"
+    ],
+    "explanation": "Prefix /30 menyediakan 2 usable host untuk link point-to-point. Network ID dan Broadcast ID tidak boleh dipasang pada PC host.",
+    "quickTip": "Prefix /30 = 2 host link router; Network dan Broadcast ID dilarang dipasang ke PC."
+  },
+  {
+    "id": "s27_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Sistem operasi Linux Server dan manajemen layanan sistem.",
+    "question": "Manakah perintah administrasi Linux yang TEPAT fungsinya? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "`ip a` digunakan untuk menghapus seluruh hard disk server"
+      },
+      {
+        "id": "B",
+        "text": "`pwd` digunakan untuk mematikan komputer server seketika"
+      },
+      {
+        "id": "C",
+        "text": "`chmod 777` adalah pengaturan paling aman yang wajib dipasang di semua file server"
+      },
+      {
+        "id": "D",
+        "text": "`chown www-data:www-data /var/www/html` digunakan untuk mengubah pemilik direktori web ke user www-data"
+      },
+      {
+        "id": "E",
+        "text": "`systemctl restart bind9` digunakan untuk menjalankan ulang layanan DNS Server"
+      }
+    ],
+    "key": [
+      "D",
+      "E"
+    ],
+    "explanation": "`systemctl restart bind9` merestart DNS service, dan `chown` mengubah pemilik user/group file web. Izin 777 tidak aman, `pwd` melihat direktori, `ip a` melihat IP.",
+    "quickTip": "systemctl restart me-refresh service; chown mengubah kepemilikan file/folder."
+  },
+  {
+    "id": "s27_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Prinsip pemisahan domain collision dan broadcast.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai domain jaringan!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Setiap port pada switch jaringan memisahkan collision domain secara mandiri.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Router memisahkan broadcast domain sehingga paket broadcast tidak meluas ke jaringan luar.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Hub pasif mampu memisahkan broadcast domain menjadi 8 bagian berbeda.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Hub berada di Layer 1, seluruh portnya berbagi satu collision domain dan satu broadcast domain.",
+    "quickTip": "Switch memisahkan collision domain; Router memisahkan broadcast domain."
+  },
+  {
+    "id": "s27_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Karakteristik keselamatan kerja penanganan serat optik.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai K3 serat optik!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Menatap langsung ke ujung serat optik aktif dapat menyebabkan kerusakan permanen pada retina mata.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Limbah serpihan kaca serat optik wajib ditampung dalam wadah pembuangan tertutup khusus.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Serpihan kaca serat optik aman ditelan jika tercampur dengan makanan di ruang lab.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Serpihan kaca serat optik sangat berbahaya jika tertelan atau menusuk organ dalam tubuh; dilarang makan/minum di area kerja potong serat.",
+    "quickTip": "Patuhi K3 optik: Jangan menatap laser dan amankan limbah serpihan kaca tajam."
+  },
+  {
+    "id": "s27_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Perhitungan kalkulasi alokasi subnetting.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai kalkulasi subnetting!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Subnet mask 255.255.255.192 setara dengan notasi prefix CIDR /26.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Jumlah host usable pada subnet mask /26 adalah 62 host (berasal dari 64 dikurangi 2).",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Subnet mask /26 dapat menampung hingga 500 komputer pengguna.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Prefix /26 menyisakan 6 bit host, kapasitasnya maksimal 2^6 - 2 = 62 host, tidak bisa menampung 500 komputer.",
+    "quickTip": "/26 = mask 255.255.255.192 dengan kapasitas 62 host usable."
+  },
+  {
+    "id": "s27_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Mekanisme pengoperasian Virtual LAN (VLAN).",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai VLAN!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "VLAN membagi switch fisik menjadi beberapa jaringan logis yang terisolasi satu sama lain.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Komunikasi antar-VLAN yang berbeda memerlukan bantuan perutean dari Router atau Switch Layer 3.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "VLAN hanya bisa dibuat jika kabel yang digunakan adalah kabel listrik bertegangan 380 Volt.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "VLAN adalah fitur logis software switch pada kabel Ethernet data standar, bukan kabel listrik tegangan tinggi.",
+    "quickTip": "VLAN adalah segmentasi logis Layer 2 switch; komunikasi antar-VLAN butuh Layer 3."
+  },
+  {
+    "id": "s27_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Analisis grafik kurva hasil pengujian OTDR.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang pembacaan OTDR!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Sambungan fusion splice yang baik ditandai dengan undakan penurunan garis tanpa lonjakan spike pantulan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Konektor mekanik ditandai dengan adanya lonjakan spike tajam ke atas akibat pantulan Fresnel.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "OTDR bekerja dengan cara memancarkan gelombang suara ultrasonik ke dalam kabel pipa air.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "OTDR memancarkan pulsa laser optik ke dalam inti serat kaca silika, bukan gelombang suara ke pipa air.",
+    "quickTip": "OTDR menganalisis pulsa laser optik: Spike (Konektor), Undakan turun (Splice/Bending)."
+  }
+]

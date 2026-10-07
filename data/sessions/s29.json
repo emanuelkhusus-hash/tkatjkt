@@ -1,0 +1,949 @@
+[
+  {
+    "id": "s29_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Teknisi jaringan menangkap lalu lintas paket menggunakan software Wireshark pada saat komputer klien mencoba browsing ke website bank.",
+    "question": "Proses jabat tangan awal yang harus terlihat pada analisis paket TCP sebelum data HTTP/HTTPS mulai mengalir adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Paket ICMP Echo Request dan Echo Reply"
+      },
+      {
+        "id": "B",
+        "text": "Paket [FIN], [ACK], [RST]"
+      },
+      {
+        "id": "C",
+        "text": "Paket [SYN] dari klien, diikuti [SYN, ACK] dari server, dan diakhiri [ACK] dari klien (TCP Three-Way Handshake)"
+      },
+      {
+        "id": "D",
+        "text": "Paket DHCP Discover dan DHCP Offer"
+      },
+      {
+        "id": "E",
+        "text": "Paket ARP Request dan ARP Reply"
+      }
+    ],
+    "key": "C",
+    "explanation": "Setiap koneksi TCP diawali dengan Three-Way Handshake: SYN -> SYN/ACK -> ACK untuk menyinkronkan nomor urut (sequence number).",
+    "quickTip": "Koneksi TCP diawali: SYN -> SYN-ACK -> ACK (Three-Way Handshake)."
+  },
+  {
+    "id": "s29_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Saat menganalisis paket Wireshark pada jaringan yang lambat, teknisi melihat banyak paket berwarna hitam bertuliskan `[TCP Retransmission]` dan `[TCP Dup ACK]`.",
+    "question": "Arti dari indikator teknis paket tersebut dalam diagnosa performa jaringan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua server di internet sedang melakukan pencadangan data serentak"
+      },
+      {
+        "id": "B",
+        "text": "Kartu jaringan komputer pengirim menghasilkan energi listrik gratis"
+      },
+      {
+        "id": "C",
+        "text": "Kabel fiber optik diubah menjadi kabel tembaga secara otomatis"
+      },
+      {
+        "id": "D",
+        "text": "Terjadi kehilangan paket data (Packet Loss) atau kemacetan antrean (congestion) pada jalur jaringan sehingga pengirim harus mengirim ulang segmen data"
+      },
+      {
+        "id": "E",
+        "text": "Kecepatan jaringan sedang berada pada kondisi puncak maksimal"
+      }
+    ],
+    "key": "D",
+    "explanation": "TCP Retransmission terjadi ketika pengirim tidak menerima ACK tepat waktu (timeout) akibat paket drop di jalan, mengindikasikan packet loss atau kongesti link.",
+    "quickTip": "TCP Retransmission di Wireshark mengindikasikan adanya Packet Loss atau kongesti jaringan."
+  },
+  {
+    "id": "s29_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Seorang teknisi melakukan pengujian konektivitas menggunakan perintah `ping 192.168.1.1` dan menerima pesan respon: `Reply from 192.168.1.254: Destination host unreachable`.",
+    "question": "Arti teknis dari pesan respon 'Destination host unreachable' tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel listrik monitor komputer pengirim terlepas dari stopkontak"
+      },
+      {
+        "id": "B",
+        "text": "Router gateway perantara (192.168.1.254) tidak memiliki jalur rute atau gagal melakukan resolusi ARP ke alamat tujuan 192.168.1.1"
+      },
+      {
+        "id": "C",
+        "text": "Sistem operasi komputer tujuan sedang mengunduh video game"
+      },
+      {
+        "id": "D",
+        "text": "Komputer pengirim tidak memiliki kartu jaringan fisik"
+      },
+      {
+        "id": "E",
+        "text": "Paket berhasil sampai ke tujuan dan dibalas dalam 0 milidetik"
+      }
+    ],
+    "key": "B",
+    "explanation": "'Destination host unreachable' dikirimkan oleh router perantara yang memberitahukan bahwa ia tidak dapat menemukan jalur atau tidak ada respon ARP dari host tujuan di subnet lokal.",
+    "quickTip": "'Destination host unreachable' berarti router gateway tidak menemukan rute/host tujuan."
+  },
+  {
+    "id": "s29_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Berbeda dengan kasus sebelumnya, saat melakukan `ping 8.8.8.8` teknisi menerima pesan respon: `Request timed out (RTO)` sebanyak 4 kali.",
+    "question": "Penyebab paling mungkin dari respon 'Request timed out' pada pengujian ping adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Paket berhasil dikirim keluar namun tidak ada balasan dari tujuan dalam batas waktu tunggu (akibat firewall memblokir ICMP atau putus jalur di remote)"
+      },
+      {
+        "id": "B",
+        "text": "Komputer pengirim kehabisan memori RAM"
+      },
+      {
+        "id": "C",
+        "text": "Kabel LAN di komputer pengirim terlepas dari soket RJ-45"
+      },
+      {
+        "id": "D",
+        "text": "Layar monitor komputer pengirim mengalami mati lampu"
+      },
+      {
+        "id": "E",
+        "text": "Protokol TCP/IP lokal di komputer pengirim rusak total"
+      }
+    ],
+    "key": "A",
+    "explanation": "'Request timed out' berarti paket telah terkirim keluar, tetapi dalam batas waktu (default 4 detik) tidak ada balasan ICMP Echo Reply (sering kali diblokir firewall tujuan).",
+    "quickTip": "'Request timed out' berarti tidak ada paket balasan yang kembali dalam batas waktu tunggu."
+  },
+  {
+    "id": "s29_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Teknisi memasang Access Point Wi-Fi baru di kantor cabang. Klien dapat terhubung ke Wi-Fi dan mendapat IP, namun saat membuka website apapun muncul error browser: `DNS_PROBE_FINISHED_NXDOMAIN`.",
+    "question": "Penyebab dari pesan error tersebut dan langkah perbaikan yang tepat adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pengaturan DNS Server pada DHCP server salah atau tidak dapat dihubungi; solusinya mengonfigurasikan alamat DNS publik yang valid (seperti 8.8.8.8 atau 1.1.1.1)"
+      },
+      {
+        "id": "B",
+        "text": "Kabel serat optik bawah tanah mengalami patah total"
+      },
+      {
+        "id": "C",
+        "text": "Antena Access Point harus diarahkan menghadap ke arah kiblat"
+      },
+      {
+        "id": "D",
+        "text": "Kabel listrik Access Point terbalik kutub positif dan negatifnya"
+      },
+      {
+        "id": "E",
+        "text": "Pengguna harus menghapus seluruh file dokumen di komputer"
+      }
+    ],
+    "key": "A",
+    "explanation": "NXDOMAIN (Non-Existent Domain) menandakan query DNS gagal diselesaikan. Mengarahkan DNS ke server terpercaya (misal 8.8.8.8 atau 1.1.1.1) akan memulihkan resolusi nama.",
+    "quickTip": "Error NXDOMAIN = Masalah resolusi nama pada DNS Server."
+  },
+  {
+    "id": "s29_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Sebuah server database MySQL di kantor tiba-tiba tidak dapat diakses dari aplikasi web. Saat teknisi memeriksa port layanan di Linux menggunakan perintah `ss -tulnp`, tidak terlihat adanya proses yang mendengarkan port 3306.",
+    "question": "Langkah diagnosa dan perbaikan pertama yang harus dilakukan teknisi pada server Linux tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mematikan pasokan listrik seluruh gedung kantor"
+      },
+      {
+        "id": "B",
+        "text": "Mengganti seluruh kabel power supply genset gedung"
+      },
+      {
+        "id": "C",
+        "text": "Langsung memformat ulang seluruh hard disk server Linux"
+      },
+      {
+        "id": "D",
+        "text": "Membeli 10 unit server baru dari toko komputer"
+      },
+      {
+        "id": "E",
+        "text": "Memeriksa status layanan menggunakan `systemctl status mysql` dan menyalakan kembali layanan dengan `sudo systemctl start mysql`"
+      }
+    ],
+    "key": "E",
+    "explanation": "Jika port 3306 tidak listening, berarti service MySQL/MariaDB sedang mati (inactive/failed). Cek statusnya via `systemctl status` dan jalankan via `systemctl start`.",
+    "quickTip": "Service database tidak listening di port: Cek `systemctl status` dan jalankan via `systemctl start`."
+  },
+  {
+    "id": "s29_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Pengguna di kantor mengeluh bahwa setiap kali printer jaringan di lantai 2 dinyalakan, komputer staf administrasi tiba-tiba kehilangan koneksi internet dan muncul notifikasi: 'There is an IP address conflict with another system on the network'.",
+    "question": "Langkah mitigasi permanen yang paling tepat untuk mengatasi konflik IP tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mematikan komputer staf administrasi selamanya"
+      },
+      {
+        "id": "B",
+        "text": "Mengubah warna kertas printer menjadi merah"
+      },
+      {
+        "id": "C",
+        "text": "Mengganti kabel printer dengan kabel telepon tipis"
+      },
+      {
+        "id": "D",
+        "text": "Membuang printer jaringan ke tempat sampah"
+      },
+      {
+        "id": "E",
+        "text": "Memastikan printer menggunakan IP statis di luar rentang pool alokasi DHCP atau membuat DHCP Reservation khusus berdasarkan MAC address printer"
+      }
+    ],
+    "key": "E",
+    "explanation": "IP conflict terjadi saat perangkat ber-IP statis manual bertabrakan dengan IP yang dibagikan otomatis oleh DHCP server. Solusinya buat reservasi DHCP atau pisahkan range IP statis.",
+    "quickTip": "Atasi IP conflict printer: Beri IP di luar DHCP pool atau buat DHCP Reservation."
+  },
+  {
+    "id": "s29_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Teknisi melakukan pengetesan kabel UTP Cat6 sepanjang 60 meter menggunakan LAN cable tester LED sederhana. Lampu 1 sampai 8 menyala lurus normal. Namun saat dipasang ke port Gigabit switch, koneksi hanya terbaca '100 Mbps Fast Ethernet' dan tidak mau naik ke 1 Gbps.",
+    "question": "Penyebab paling mungkin mengapa kartu jaringan gagal bernegosiasi ke kecepatan 1 Gbps tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel UTP harus dibasahi dengan air sebelum dicolokkan"
+      },
+      {
+        "id": "B",
+        "text": "Warna konektor RJ-45 tidak cocok dengan warna casing switch"
+      },
+      {
+        "id": "C",
+        "text": "Panjang kabel 60 meter melebihi batas kabel tembaga 10 meter"
+      },
+      {
+        "id": "D",
+        "text": "Komputer pengguna kekurangan kapasitas memori hard disk"
+      },
+      {
+        "id": "E",
+        "text": "Salah satu pin antara pin 4, 5, 7, atau 8 memiliki kontak tembaga yang buruk (resistansi tinggi/longgar) sehingga switch turun otomatis ke mode 100 Mbps"
+      }
+    ],
+    "key": "E",
+    "explanation": "Fast Ethernet 100 Mbps hanya butuh pin 1,2,3,6. Gigabit Ethernet butuh seluruh 8 pin sehat. Jika pin 4,5,7,8 longgar/kontak buruk, link downspeed ke 100 Mbps.",
+    "quickTip": "Gigabit turun ke 100 Mbps = Masalah kontak pada pin 4, 5, 7, atau 8."
+  },
+  {
+    "id": "s29_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Pada router MikroTik kantor, administrator melihat lonjakan beban CPU hingga 100% dan grafik traffic interface WAN penuh dengan jutaan paket SYN kecil dari ribuan alamat IP acak menuju port 80 server web internal.",
+    "question": "Jenis insiden serangan siber yang sedang melanda router kantor tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Serangan Malware Ransomware enkripsi file"
+      },
+      {
+        "id": "B",
+        "text": "Serangan Phishing pencurian email"
+      },
+      {
+        "id": "C",
+        "text": "Kerusakan mekanis kabel serat optik bawah tanah"
+      },
+      {
+        "id": "D",
+        "text": "Serangan SYN Flood (DDoS - Distributed Denial of Service pada Layer 4 TCP)"
+      },
+      {
+        "id": "E",
+        "text": "Korsleting arus listrik pada baterai UPS"
+      }
+    ],
+    "key": "D",
+    "explanation": "SYN Flood membanjiri target dengan paket TCP SYN tanpa menyelesaikan 3-way handshake, menghabiskan memori tabel koneksi (connection tracking) dan membebani CPU router.",
+    "quickTip": "Jutaan paket TCP SYN membanjiri port hingga CPU 100% = Serangan SYN Flood DDoS."
+  },
+  {
+    "id": "s29_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Untuk memitigasi serangan SYN Flood pada firewall router, langkah penanganan yang dapat dikonfigurasikan adalah...",
+    "question": "Fitur keamanan firewall yang efektif meredam serangan SYN flood adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengaktifkan fitur SYN Cookies dan membatasi laju koneksi baru (Connection Rate Limit) pada firewall"
+      },
+      {
+        "id": "B",
+        "text": "Menghapus seluruh file sistem operasi router"
+      },
+      {
+        "id": "C",
+        "text": "Menurunkan kecepatan kipas casing server"
+      },
+      {
+        "id": "D",
+        "text": "Mengganti seluruh monitor komputer dengan layar sentuh"
+      },
+      {
+        "id": "E",
+        "text": "Mencabut seluruh kabel grounding penangkal petir"
+      }
+    ],
+    "key": "A",
+    "explanation": "SYN Cookies menunda alokasi memori tabel koneksi sampai paket ACK valid diterima, dan rate limiting membatasi frekuensi paket SYN per detik dari sumber.",
+    "quickTip": "Mitigasi SYN Flood: Aktifkan SYN Cookies dan batasi Connection Rate Limit di firewall."
+  },
+  {
+    "id": "s29_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Saat melakukan pengujian OTDR pada serat optik 12 core, core nomor 5 menunjukkan kurva yang jatuh ke noise floor pada jarak 850 meter, sementara core 1, 2, 3, dan 4 berjalan normal hingga 12 kilometer.",
+    "question": "Kesimpulan diagnosa teknis mengenai kondisi core nomor 5 tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Satelit di orbit luar angkasa mengalami gangguan cuaca"
+      },
+      {
+        "id": "B",
+        "text": "Panjang gelombang 1310 nm tidak bisa digunakan untuk core nomor 5"
+      },
+      {
+        "id": "C",
+        "text": "Instrumen OTDR mengalami kerusakan layar LCD"
+      },
+      {
+        "id": "D",
+        "text": "Hanya serat optik core nomor 5 yang putus/patah di titik 850 meter (Single Core Cut), sedangkan kabel multi-core utama masih utuh"
+      },
+      {
+        "id": "E",
+        "text": "Seluruh kabel 12 core terputus total ditebang orang di 850 meter"
+      }
+    ],
+    "key": "D",
+    "explanation": "Jika hanya satu core yang putus di 850m sementara core lain lolos normal ke 12 km, berarti terjadi kerusakan terlokalisir pada core tersebut (misal terjepit saat penataan di closure/tray).",
+    "quickTip": "Satu core putus di jarak dekat sementara core lain normal = Kerusakan lokal pada single core."
+  },
+  {
+    "id": "s29_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Seorang administrator memeriksa berkas log otentikasi Linux di `/var/log/auth.log` dan menemukan ribuan baris: `Failed password for invalid user admin from 203.0.113.88 port 48212 ssh2` setiap beberapa detik.",
+    "question": "Analisis keamanan mengenai log tersebut dan tindakan mitigasi terbaik adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Server sedang melakukan sinkronisasi jam otomatis NTP"
+      },
+      {
+        "id": "B",
+        "text": "Kabel keyboard komputer server sedang macet"
+      },
+      {
+        "id": "C",
+        "text": "Server sedang mengalami serangan SSH Brute Force login; mitigasinya adalah menginstal fail2ban, mengubah port default SSH, dan beralih ke autentikasi SSH Key"
+      },
+      {
+        "id": "D",
+        "text": "Sistem Linux sedang mengunduh pembaruan kernel resmi"
+      },
+      {
+        "id": "E",
+        "text": "Pengguna yang sah sedang lupa password laptop"
+      }
+    ],
+    "key": "C",
+    "explanation": "Pesan failed password berulang dari IP publik luar adalah ciri serangan brute force kamus SSH. Fail2ban otomatis memblokir IP penyerang setelah beberapa kali gagal.",
+    "quickTip": "Ribuan failed password di auth.log = Serangan SSH Brute Force; tangkal dengan Fail2ban & SSH Key."
+  },
+  {
+    "id": "s29_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Sebuah switch Cisco yang mengaktifkan Port Security pada port Fa0/5 tiba-tiba mematikan port tersebut (lampu LED menyala oranye padat) saat staf magang mencolokkan laptop pribadinya.",
+    "question": "Status antarmuka yang akan terlihat saat teknisi menjalankan perintah `show interface fa0/5` adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "FastEthernet0/5 is testing, line protocol is loopback"
+      },
+      {
+        "id": "B",
+        "text": "FastEthernet0/5 is up, line protocol is up"
+      },
+      {
+        "id": "C",
+        "text": "FastEthernet0/5 is down, line protocol is down (err-disabled)"
+      },
+      {
+        "id": "D",
+        "text": "FastEthernet0/5 is administratively down"
+      },
+      {
+        "id": "E",
+        "text": "FastEthernet0/5 is deleted"
+      }
+    ],
+    "key": "C",
+    "explanation": "Pelanggaran MAC pada port security mode shutdown menempatkan interface ke status `err-disabled`. Untuk memulihkannya, lakukan `shutdown` lalu `no shutdown` setelah perangkat asing dicabut.",
+    "quickTip": "Pelanggaran Port Security membuat interface berstatus err-disabled."
+  },
+  {
+    "id": "s29_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Untuk memulihkan port switch yang berstatus `err-disabled` setelah laptop asing dicabut pada kasus di atas.",
+    "question": "Kombinasi perintah konfigurasi antarmuka yang harus diketikkan teknisi pada port tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "enable, diikuti reload"
+      },
+      {
+        "id": "B",
+        "text": "shutdown, diikuti oleh no shutdown"
+      },
+      {
+        "id": "C",
+        "text": "no port-security, diikuti exit"
+      },
+      {
+        "id": "D",
+        "text": "write erase, diikuti reboot"
+      },
+      {
+        "id": "E",
+        "text": "ip address dhcp, diikuti no shut"
+      }
+    ],
+    "key": "B",
+    "explanation": "Siklus perintah `shutdown` lalu `no shutdown` me-reset state mesin port dari kondisi err-disabled kembali ke kondisi operasional aktif.",
+    "quickTip": "Memulihkan port err-disabled: Masuk interface lalu ketik shutdown kemudian no shutdown."
+  },
+  {
+    "id": "s29_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Karyawan di kantor cabang mengeluh tidak bisa mengakses internet. Teknisi menjalankan perintah `ip route` pada router cabang dan melihat tabel routing kosong tanpa rute `0.0.0.0/0`.",
+    "question": "Dampak dari hilangnya rute 0.0.0.0/0 pada router kantor cabang tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Router akan secara cerdas menebak jalur terbaik ke internet"
+      },
+      {
+        "id": "B",
+        "text": "Seluruh komputer karyawan otomatis mati listrik"
+      },
+      {
+        "id": "C",
+        "text": "Koneksi internet justru menjadi dua kali lipat lebih cepat"
+      },
+      {
+        "id": "D",
+        "text": "Router akan menyiarkan paket data melalui speaker audio"
+      },
+      {
+        "id": "E",
+        "text": "Router tidak tahu ke mana harus meneruskan paket data yang tujuannya ke internet sehingga semua paket internet di-drop seketika"
+      }
+    ],
+    "key": "E",
+    "explanation": "Default route (0.0.0.0/0) adalah gerbang penampung seluruh traffic ke internet (Gateway of Last Resort). Tanpa rute ini, router langsung membuang paket.",
+    "quickTip": "Tanpa Default Route (0.0.0.0/0), router membuang seluruh paket yang tujuannya ke internet."
+  },
+  {
+    "id": "s29_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Teknisi menguji sambungan kabel serat optik menggunakan OTDR. Hasil grafik menunjukkan nilai Insertion Loss sambungan sebesar 0.85 dB di titik fusion splice kilometer ke-2.",
+    "question": "Berdasarkan standar industri telekomunikasi (toleransi splice loss maksimal 0.05 dB), rekomendasi tindakan teknis yang harus diambil adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menambahkan lem alteco di luar kabel untuk menurunkan redaman"
+      },
+      {
+        "id": "B",
+        "text": "Mengganti seluruh kabel sepanjang 2 kilometer"
+      },
+      {
+        "id": "C",
+        "text": "Sambungan tersebut cacat (tidak memenuhi standar) dan harus dipotong lalu disambung ulang menggunakan fusion splicer"
+      },
+      {
+        "id": "D",
+        "text": "Sambungan tersebut sangat bagus dan harus dipertahankan selamanya"
+      },
+      {
+        "id": "E",
+        "text": "Mengabaikan hasil ukur karena 0.85 dB tidak berpengaruh apa-apa"
+      }
+    ],
+    "key": "C",
+    "explanation": "Nilai loss 0.85 dB pada fusion splice sangat buruk (standar < 0.05 dB), biasanya disebabkan kaca kotor, sudut cleave miring, atau misalignment.",
+    "quickTip": "Splice loss 0.85 dB melanggar standar (>0.05 dB); wajib dipotong dan disambung ulang."
+  },
+  {
+    "id": "s29_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Pada pengetesan jaringan Wi-Fi menggunakan aplikasi Wi-Fi Analyzer di ponsel, terdeteksi ada 8 Access Point tetangga yang seluruhnya menggunakan pita 2.4 GHz pada Kanal 6.",
+    "question": "Tindakan optimasi pengaturan radio yang paling tepat diambil administrator jaringan sekolah untuk Access Point-nya adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memindahkan kanal operasional AP sekolah ke Kanal 1 atau Kanal 11 yang bersih dari tumpang tindih"
+      },
+      {
+        "id": "B",
+        "text": "Membeli antena radio pemancar FM komersial"
+      },
+      {
+        "id": "C",
+        "text": "Ikut menyetel AP sekolah pada Kanal 6 agar kompak dengan tetangga"
+      },
+      {
+        "id": "D",
+        "text": "Menyetel AP sekolah pada Kanal 5 atau Kanal 7"
+      },
+      {
+        "id": "E",
+        "text": "Mematikan password keamanan Wi-Fi sekolah"
+      }
+    ],
+    "key": "A",
+    "explanation": "Menghindari Kanal 6 yang padat dan berpindah ke kanal non-overlapping lain yang bersih (Kanal 1 atau 11) akan melipatgandakan throughput dan mengeliminasi Co-Channel Interference.",
+    "quickTip": "Kanal 6 padat: Pindahkan AP ke Kanal 1 atau Kanal 11 yang lebih bersih."
+  },
+  {
+    "id": "s29_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Sebuah server web Apache di Linux gagal start saat dijalankan dengan perintah `systemctl start apache2`. Di terminal muncul pesan: `Job for apache2.service failed because the control process exited with error code. See 'systemctl status apache2.service' and 'journalctl -xeu apache2.service' for details`.",
+    "question": "Perintah diagnosa cepat khusus sintaks konfigurasi Apache yang dapat langsung menunjukkan baris file konfigurasi yang salah ketik (syntax error) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "apache2ctl configtest (atau apachectl -t)"
+      },
+      {
+        "id": "B",
+        "text": "rm -rf /etc/apache2"
+      },
+      {
+        "id": "C",
+        "text": "ping apache2"
+      },
+      {
+        "id": "D",
+        "text": "cat /etc/passwd"
+      },
+      {
+        "id": "E",
+        "text": "chmod 777 /var/log"
+      }
+    ],
+    "key": "A",
+    "explanation": "`apache2ctl configtest` (atau `apachectl -t`) memeriksa seluruh file konfigurasi Apache dan melaporkan baris persis di mana terjadi kesalahan sintaks.",
+    "quickTip": "Uji sintaks konfigurasi Apache = apache2ctl configtest."
+  },
+  {
+    "id": "s29_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Komputer klien Windows tidak dapat mengakses internet. Saat teknisi memeriksa dengan perintah `ipconfig`, IP yang tertera adalah `169.254.45.10` dengan subnet mask `255.255.0.0` dan Default Gateway kosong.",
+    "question": "Berdasarkan alamat IP tersebut, akar permasalahan konektivitas yang dialami komputer klien adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Komputer berhasil mendapatkan IP publik super cepat dari ISP"
+      },
+      {
+        "id": "B",
+        "text": "Kartu grafis VGA komputer mengalami kehabisan memori"
+      },
+      {
+        "id": "C",
+        "text": "Komputer gagal berkomunikasi dengan DHCP Server (mendapatkan alamat darurat APIPA)"
+      },
+      {
+        "id": "D",
+        "text": "Sistem operasi Windows sedang terkunci oleh ransomware"
+      },
+      {
+        "id": "E",
+        "text": "Kabel serat optik di motherboard komputer mengalami kebocoran laser"
+      }
+    ],
+    "key": "C",
+    "explanation": "Alamat 169.254.x.x adalah APIPA (Automatic Private IP Addressing) yang diberikan Windows saat permintaan DHCP Discover tidak mendapat respon dari DHCP Server.",
+    "quickTip": "IP 169.254.x.x (APIPA) = Komputer gagal terhubung ke DHCP Server."
+  },
+  {
+    "id": "s29_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Teknisi ingin memeriksa tabel pemetaan alamat IP ke MAC Address yang sedang aktif disimpan di memori komputer Windows untuk mendeteksi potensi duplikasi IP.",
+    "question": "Perintah Command Prompt (CMD) yang digunakan untuk melihat tabel ARP cache lokal tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "nslookup local"
+      },
+      {
+        "id": "B",
+        "text": "route print"
+      },
+      {
+        "id": "C",
+        "text": "arp -a"
+      },
+      {
+        "id": "D",
+        "text": "ipconfig /all"
+      },
+      {
+        "id": "E",
+        "text": "netstat -r"
+      }
+    ],
+    "key": "C",
+    "explanation": "Perintah `arp -a` menampilkan seluruh entri tabel ARP (pemetaan IP address ke MAC address fisik) yang sedang tersimpan di cache komputer.",
+    "quickTip": "Melihat tabel ARP di komputer = arp -a."
+  },
+  {
+    "id": "s29_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Analisis paket dan troubleshooting menggunakan Wireshark.",
+    "question": "Manakah gejala gangguan jaringan yang DAPAT DITUNJUKKAN melalui analisis paket Wireshark? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tingginya persentase TCP Retransmission yang menandakan adanya packet loss pada link jaringan"
+      },
+      {
+        "id": "B",
+        "text": "Banyaknya paket broadcast ARP Request berulang tanpa adanya jawaban ARP Reply (host mati/salah IP)"
+      },
+      {
+        "id": "C",
+        "text": "Suhu udara ruangan server terlalu dingin di bawah standar"
+      },
+      {
+        "id": "D",
+        "text": "Kabel tembaga di dalam dinding kekurangan tegangan oli pelumas"
+      },
+      {
+        "id": "E",
+        "text": "Adanya banjir frame broadcast secara simultan yang mengindikasikan Switching Loop (Broadcast Storm)"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "E"
+    ],
+    "explanation": "Wireshark mendeteksi retransmisi paket (loss), kegagalan ARP (host mati), dan badai broadcast (switching loop). Wireshark tidak mengukur oli atau suhu fisik ruangan.",
+    "quickTip": "Wireshark mendeteksi: TCP Retransmission (packet loss), kegagalan ARP, dan badai broadcast loop."
+  },
+  {
+    "id": "s29_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Troubleshooting kegagalan resolusi nama Domain Name System (DNS).",
+    "question": "Manakah langkah diagnosa dan perbaikan yang TEPAT saat komputer tidak bisa membuka situs web via nama domain? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengganti monitor komputer dengan layar proyektor bioskop"
+      },
+      {
+        "id": "B",
+        "text": "Melakukan pengujian resolusi nama domain menggunakan utilitas `nslookup <nama_domain>`"
+      },
+      {
+        "id": "C",
+        "text": "Menghapus seluruh file sistem di direktori C:\\Windows\\System32"
+      },
+      {
+        "id": "D",
+        "text": "Mematikan sambungan kabel LAN dari komputer"
+      },
+      {
+        "id": "E",
+        "text": "Memeriksa konfigurasi DNS Server di kartu jaringan atau mengganti DNS ke resolver publik (8.8.8.8 / 1.1.1.1)"
+      }
+    ],
+    "key": [
+      "B",
+      "E"
+    ],
+    "explanation": "Diagnosa DNS dilakukan dengan `nslookup` dan memeriksa atau mengganti IP DNS server pada pengaturan TCP/IP.",
+    "quickTip": "Troubleshooting DNS: Gunakan nslookup dan cek/ganti IP resolver DNS."
+  },
+  {
+    "id": "s29_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Penanganan insiden keamanan jaringan dan serangan Denial of Service (DoS).",
+    "question": "Manakah tindakan teknis yang EFEKTIF untuk meredam serangan banjir traffic (Flooding Attack) pada router? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membagikan akun username dan password router ke forum terbuka"
+      },
+      {
+        "id": "B",
+        "text": "Menonaktifkan seluruh sistem pengamanan firewall router"
+      },
+      {
+        "id": "C",
+        "text": "Menerapkan aturan Rate Limiting pada firewall untuk membatasi jumlah koneksi baru per detik"
+      },
+      {
+        "id": "D",
+        "text": "Mengaktifkan fitur SYN Cookies untuk menangkal serangan TCP SYN Flood"
+      },
+      {
+        "id": "E",
+        "text": "Memblokir (Drop/Blackhole) alamat IP sumber penyerang yang teridentifikasi di firewall filter"
+      }
+    ],
+    "key": [
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Mitigasi DoS/DDoS pada router: Rate limiting, SYN cookies, dan pemblokiran IP penyerang di firewall filter.",
+    "quickTip": "Meredam DoS: Rate limiting, SYN cookies, dan blokir IP penyerang di firewall."
+  },
+  {
+    "id": "s29_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Troubleshooting kecepatan tautan kabel tembaga (Gigabit turun ke Fast Ethernet).",
+    "question": "Manakah faktor yang MENYEBABKAN koneksi kabel LAN Cat6 turun otomatis dari 1 Gbps menjadi 100 Mbps? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port switch atau kartu jaringan diatur secara manual (hard-coded) pada mode 100 Mbps Full Duplex"
+      },
+      {
+        "id": "B",
+        "text": "Kabel UTP ditarik di dalam pipa konduit PVC tertutup"
+      },
+      {
+        "id": "C",
+        "text": "Warna jaket pelindung kabel UTP berwarna abu-abu"
+      },
+      {
+        "id": "D",
+        "text": "Kabel LAN dicolokkan ke stopkontak listrik PLN 220 Volt"
+      },
+      {
+        "id": "E",
+        "text": "Terjadi masalah kontak elektrik (longgar atau putus) pada salah satu kawat pin 4, 5, 7, atau 8 pada konektor RJ-45"
+      }
+    ],
+    "key": [
+      "A",
+      "E"
+    ],
+    "explanation": "Gigabit butuh seluruh 8 pin sehat. Jika pin 4,5,7,8 longgar/putus, atau auto-negotiation dimatikan ke 100 Mbps, link akan turun ke 100 Mbps.",
+    "quickTip": "Link turun ke 100 Mbps: Kontak pin 4,5,7,8 buruk atau pengaturan port dipaksa 100 Mbps."
+  },
+  {
+    "id": "s29_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Pengoperasian dan pemeriksaan kesehatan layanan di Linux Server.",
+    "question": "Manakah perintah Linux CLI yang DIGUNAKAN untuk memeriksa status dan port layanan jaringan? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "`systemctl status <service>` untuk memeriksa apakah layanan sedang aktif (active/running) atau mati"
+      },
+      {
+        "id": "B",
+        "text": "`shutdown -h now` untuk mempercepat pemrosesan data paket"
+      },
+      {
+        "id": "C",
+        "text": "`ss -tulnp` untuk memeriksa daftar nomor port yang sedang aktif mendengarkan koneksi (Listening Ports)"
+      },
+      {
+        "id": "D",
+        "text": "`cat /dev/null` untuk menambah kapasitas bandwidth internet provider"
+      },
+      {
+        "id": "E",
+        "text": "`rm -rf *` untuk menghitung jumlah port jaringan yang terbuka"
+      }
+    ],
+    "key": [
+      "A",
+      "C"
+    ],
+    "explanation": "`systemctl status` memeriksa hidup/matinya service, dan `ss -tulnp` memeriksa port listening dan PID program terkait.",
+    "quickTip": "Pemeriksaan layanan Linux: `systemctl status` dan `ss -tulnp` (cek port)."
+  },
+  {
+    "id": "s29_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Perbedaan respon pengujian ping: Unreachable vs Timed Out.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai pengujian ping!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "'Destination host unreachable' menandakan router pengirim/perantara tidak menemukan jalur rute ke alamat tujuan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "'Request timed out' menandakan paket terkirim keluar namun tidak ada paket balasan yang diterima kembali dalam batas waktu.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "'Request timed out' membuktikan bahwa seluruh jaringan internet dunia sedang kiamat.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "RTO sering kali hanya karena firewall memblokir ICMP atau host tujuan sibuk/putus lokal, bukan kiamat internet global.",
+    "quickTip": "Unreachable = Rute tidak ada; Timed Out = Tidak ada balasan dalam batas waktu."
+  },
+  {
+    "id": "s29_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Mekanisme terjadinya konflik IP address di jaringan lokal.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai IP Conflict!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "IP Conflict terjadi jika dua perangkat di jaringan lokal yang sama dikonfigurasi dengan alamat IP yang identik.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Membuat DHCP Reservation pada server DHCP dapat mencegah terjadinya konflik IP pada perangkat penting.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Dua komputer dengan IP yang sama persis dapat browsing internet bersamaan dengan kecepatan dua kali lipat.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Konflik IP menyebabkan koneksi kedua komputer macet/terputus-putus akibat tabrakan tabel ARP di switch dan router.",
+    "quickTip": "Konflik IP menyebabkan koneksi macet; cegah dengan DHCP Reservation."
+  },
+  {
+    "id": "s29_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Analisis log keamanan pada sistem operasi Linux Server.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang log keamanan Linux!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Berkas `/var/log/auth.log` mencatat riwayat upaya autentikasi login pengguna di sistem Linux.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Banyaknya kegagalan login SSH dari alamat IP asing mengindikasikan adanya serangan brute force password.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Sistem Linux akan meledak jika ada pengguna yang salah mengetikkan password 3 kali.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Linux hanya mencatat kegagalan di auth.log dan menolak login; alat seperti fail2ban dapat dikonfigurasikan untuk memblokir IP tersebut.",
+    "quickTip": "auth.log merekam upaya login; serangan brute force ditandai ribuan failed login."
+  },
+  {
+    "id": "s29_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Karakteristik status port switch 'err-disabled'.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang status err-disabled!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Port switch berstatus 'err-disabled' menandakan port dinonaktifkan otomatis oleh fitur keamanan seperti Port Security.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Untuk mengaktifkan kembali port err-disabled, teknisi dapat mengetikkan perintah `shutdown` lalu `no shutdown`.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Port berstatus err-disabled dapat diperbaiki dengan cara memukul switch menggunakan palu besi.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Memukul switch akan merusak perangkat keras; pemulihan err-disabled dilakukan melalui perintah CLI `shutdown` lalu `no shutdown`.",
+    "quickTip": "Pulihkan err-disabled via CLI: shutdown lalu no shutdown."
+  },
+  {
+    "id": "s29_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Penyebab alamat IP darurat APIPA (169.254.x.x).",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang alamat APIPA!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Komputer Windows otomatis mengalokasikan alamat APIPA 169.254.x.x jika gagal berkomunikasi dengan DHCP Server.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Komputer dengan alamat IP APIPA tidak memiliki Default Gateway sehingga tidak dapat mengakses internet.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Alamat APIPA 169.254.x.x adalah alamat IP publik berkecepatan tinggi yang diberikan gratis oleh Google.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "APIPA adalah alamat link-local darurat otomatis komputer Windows saat DHCP gagal, bukan IP publik dari Google.",
+    "quickTip": "APIPA 169.254.x.x adalah alamat darurat kegagalan DHCP tanpa akses gateway internet."
+  }
+]

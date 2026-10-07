@@ -1,0 +1,957 @@
+[
+  {
+    "id": "s04_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Di ruang data center, terdapat instalasi rak server dengan konsumsi daya listrik tinggi dan pendinginan udara presisi.",
+    "question": "Tindakan pencegahan bahaya listrik yang paling mendasar sesuai standar K3LH di ruang server adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menyambung kabel listrik basah tanpa isolator"
+      },
+      {
+        "id": "B",
+        "text": "Menggunakan sekring yang diganti kawat tembaga tebal sembarangan"
+      },
+      {
+        "id": "C",
+        "text": "Memastikan seluruh rak server dan perangkat aktif terhubung ke sistem pentanahan (grounding) dengan resistansi rendah (< 1 ohm)"
+      },
+      {
+        "id": "D",
+        "text": "Mematikan grounding agar tegangan listrik lebih hemat"
+      },
+      {
+        "id": "E",
+        "text": "Menumpuk kabel listrik telanjang di atas saluran air AC"
+      }
+    ],
+    "key": "C",
+    "explanation": "Sistem grounding yang baik membuang arus bocor dan lonjakan induksi ke bumi guna melindungi nyawa teknisi dan peralatan elektronik.",
+    "quickTip": "Pencegahan sengatan listrik di data center = Grounding rak server yang andal (< 1 ohm)."
+  },
+  {
+    "id": "s04_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Sistem sirkulasi pendingin ruangan data center modern diatur menggunakan tata letak lorong panas dan lorong dingin.",
+    "question": "Prinsip tata letak lorong dingin (Cold Aisle) dan lorong panas (Hot Aisle) dirancang dengan tujuan...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mencampur udara panas dan dingin di dalam satu ruangan terbuka"
+      },
+      {
+        "id": "B",
+        "text": "Meniupkan udara panas langsung ke arah prosesor server"
+      },
+      {
+        "id": "C",
+        "text": "Mengarahkan udara dingin ke bagian depan server (intake) dan membuang udara panas dari bagian belakang server (exhaust)"
+      },
+      {
+        "id": "D",
+        "text": "Mendinginkan lantai koridor luar gedung perkantoran"
+      },
+      {
+        "id": "E",
+        "text": "Menutup rapat ventilasi server menggunakan plastik perekat"
+      }
+    ],
+    "key": "C",
+    "explanation": "Hot Aisle / Cold Aisle memisahkan intake udara dingin (depan rak) dan exhaust udara panas (belakang rak) untuk efisiensi pendinginan optimal.",
+    "quickTip": "Hot/Cold Aisle: Udara dingin masuk depan rak (intake), udara panas keluar belakang (exhaust)."
+  },
+  {
+    "id": "s04_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Percikan api terjadi pada stop kontak PDU (Power Distribution Unit) di dalam rak server yang berisi komponen sirkuit elektronik sensitif.",
+    "question": "Jenis Alat Pemadam Api Ringan (APAR) yang paling tepat dan tidak meninggalkan residu perusak sirkuit adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ember Berisi Lumpur dan Air Kotor"
+      },
+      {
+        "id": "B",
+        "text": "APAR Busa Kimia Basah (Foam)"
+      },
+      {
+        "id": "C",
+        "text": "APAR Karbon Dioksida (CO2) atau Clean Agent Gas (FM-200 / Novec)"
+      },
+      {
+        "id": "D",
+        "text": "APAR Air Bertekanan (Water)"
+      },
+      {
+        "id": "E",
+        "text": "Karung Goni Basah Berlumpur"
+      }
+    ],
+    "key": "C",
+    "explanation": "APAR CO2 dan Clean Agent tidak menghantarkan arus listrik (non-conductive) dan tidak meninggalkan residu debu yang merusak komponen elektronik.",
+    "quickTip": "Kebakaran server/listrik = Gunakan APAR CO2 atau Clean Agent Gas (bebas residu)."
+  },
+  {
+    "id": "s04_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Teknisi sedang melakukan pengupasan kabel serat optik untuk penyambungan fusi di atas meja kerja laboratorium.",
+    "question": "Bahaya fisik paling berbahaya dari sisa potongan ujung core serat optik (fiber shards) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pecahan kaca mikroskopis yang sangat tajam dapat menembus kulit, masuk ke pembuluh darah, atau terhirup ke paru-paru"
+      },
+      {
+        "id": "B",
+        "text": "Mengeluarkan racun gas sianida cair"
+      },
+      {
+        "id": "C",
+        "text": "Mengandung aliran radiasi nuklir radioaktif"
+      },
+      {
+        "id": "D",
+        "text": "Dapat meledak jika terkena sinar matahari"
+      },
+      {
+        "id": "E",
+        "text": "Dapat menarik sambaran petir di dalam ruangan"
+      }
+    ],
+    "key": "A",
+    "explanation": "Pecahan inti serat optik adalah kaca silika murni yang sangat tipis dan tak kasat mata; jika menusuk kulit dapat masuk ke aliran darah.",
+    "quickTip": "Pecahan kaca fiber optik sangat tajam, berbahaya bagi kulit dan mata."
+  },
+  {
+    "id": "s04_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Saat bekerja dengan kabel serat optik yang terhubung ke perangkat pemancar optik (OLT / Transceiver SFP).",
+    "question": "Tindakan keselamatan K3 mutlak yang wajib dipatuhi oleh seluruh teknisi adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wajib melihat ujung serat dari jarak 1 cm untuk mengecek cahaya"
+      },
+      {
+        "id": "B",
+        "text": "Meniup ujung konektor dengan hembusan nafas basah"
+      },
+      {
+        "id": "C",
+        "text": "Dilarang keras menatap langsung lubang konektor atau ujung serat optik dengan mata telanjang"
+      },
+      {
+        "id": "D",
+        "text": "Menerangi ujung serat menggunakan api korek gas"
+      },
+      {
+        "id": "E",
+        "text": "Mencelupkan ujung kabel ke dalam air mineral"
+      }
+    ],
+    "key": "C",
+    "explanation": "Sinar laser inframerah (1310/1550nm) tidak kasat mata oleh mata manusia, namun energinya dapat membakar retina secara permanen tanpa rasa sakit.",
+    "quickTip": "Dilarang menatap ujung serat optik aktif; laser inframerah merusak retina."
+  },
+  {
+    "id": "s04_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Di lorong antar-rak server, teknisi sering kali menarik kabel patch cord sementara yang melintang di lantai jalan lintas orang.",
+    "question": "Bahaya K3 yang paling sering timbul akibat kabel berserakan di lantai lintasan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bahaya tersandung (trip hazard) yang berisiko mencederai orang dan mencabut kabel koneksi aktif"
+      },
+      {
+        "id": "B",
+        "text": "Lantai akan meleleh menjadi cairan panas"
+      },
+      {
+        "id": "C",
+        "text": "Kabel akan berubah menjadi kawat berduri"
+      },
+      {
+        "id": "D",
+        "text": "Suhu ruangan seketika turun menjadi minus 50 derajat"
+      },
+      {
+        "id": "E",
+        "text": "Kabel akan memancarkan gelombang suara bising"
+      }
+    ],
+    "key": "A",
+    "explanation": "Kabel berserakan menimbulkan risiko trip and fall (tersandung) bagi personil dan merusak konektor perangkat saat terinjak/tertarik.",
+    "quickTip": "Kabel berserakan di lantai menimbulkan bahaya tersandung (trip hazard)."
+  },
+  {
+    "id": "s04_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Suhu standar operasional yang direkomendasikan oleh ASHRAE untuk ruang data center kelas enterprise berada pada kisaran...",
+    "question": "Berapakah rentang suhu udara intake server yang ideal untuk efisiensi dan keandalan perangkat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suhu mendidih 100°C"
+      },
+      {
+        "id": "B",
+        "text": "Di atas 45°C hingga 60°C"
+      },
+      {
+        "id": "C",
+        "text": "Sekitar 18°C hingga 27°C dengan kelembaban relatif 40% - 60%"
+      },
+      {
+        "id": "D",
+        "text": "Bebas berapapun suhunya tanpa pendingin"
+      },
+      {
+        "id": "E",
+        "text": "Minus 10°C hingga 0°C"
+      }
+    ],
+    "key": "C",
+    "explanation": "Standar ASHRAE merekomendasikan suhu intake data center antara 18°C - 27°C guna mencegah overheating dan kelembaban kondensasi.",
+    "quickTip": "Suhu ideal data center: 18°C - 27°C dengan kelembaban 40-60%."
+  },
+  {
+    "id": "s04_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Seorang administrator sistem menghabiskan waktu 8 jam di depan komputer untuk melakukan monitoring dan konfigurasi perangkat.",
+    "question": "Penerapan prinsip ergonomi kerja yang benar untuk mencegah gangguan otot dan tulang belakang (Musculoskeletal Disorders) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menempatkan monitor di lantai sehingga leher menunduk tajam"
+      },
+      {
+        "id": "B",
+        "text": "Bekerja sambil tengkurap di lantai tanpa alas"
+      },
+      {
+        "id": "C",
+        "text": "Duduk membungkuk tanpa sandaran kursi selama 8 jam nonstop"
+      },
+      {
+        "id": "D",
+        "text": "Mengetik dengan posisi pergelangan tangan tertekuk ekstrem"
+      },
+      {
+        "id": "E",
+        "text": "Mengatur posisi monitor sejajar pandangan mata, kursi menopang punggung tegak, dan beristirahat peregangan berkala"
+      }
+    ],
+    "key": "E",
+    "explanation": "Ergonomi kerja komputer meliputi posisi monitor sejajar mata, sandaran punggung ergonomis, kaki menapak rata, dan micro-breaks.",
+    "quickTip": "Ergonomi komputer: Monitor sejajar mata, punggung ditopang tegak, peregangan teratur."
+  },
+  {
+    "id": "s04_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Ketika alarm kebakaran gedung data center berbunyi dan sistem pemadam otomatis gas clean agent mulai menghitung mundur aktivasi.",
+    "question": "Langkah evakuasi darurat yang wajib dilakukan oleh seluruh teknisi di dalam ruangan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mencari laptop pribadi yang tertinggal di bawah meja"
+      },
+      {
+        "id": "B",
+        "text": "Mengunci diri di dalam lemari rak server"
+      },
+      {
+        "id": "C",
+        "text": "Merekam video kebakaran untuk diunggah ke media sosial"
+      },
+      {
+        "id": "D",
+        "text": "Segera keluar melalui pintu darurat menuju titik kumpul (assembly point) sebelum pelepasan gas pemadam berlangsung"
+      },
+      {
+        "id": "E",
+        "text": "Menghirup gas pemadam secara sengaja"
+      }
+    ],
+    "key": "D",
+    "explanation": "Prosedur evakuasi darurat mewajibkan evakuasi cepat ke assembly point untuk mencegah sesak nafas akibat penurunan oksigen saat gas discharge.",
+    "quickTip": "Alarm kebakaran berbunyi = Segera evakuasi keluar menuju Assembly Point."
+  },
+  {
+    "id": "s04_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Dalam kotak P3K di laboratorium jaringan, terdapat peralatan medis pertolongan pertama dasar.",
+    "question": "Peralatan medis yang wajib tersedia untuk menangani luka sayat kecil akibat pengupasan kabel atau serpihan kaca serat adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cat minyak warna-warni"
+      },
+      {
+        "id": "B",
+        "text": "Gunting pemotong dahan pohon"
+      },
+      {
+        "id": "C",
+        "text": "Povidone iodine (antiseptik), perban steril, plester cepat, dan pinset penjepit medis"
+      },
+      {
+        "id": "D",
+        "text": "Palu godam pemecah batu"
+      },
+      {
+        "id": "E",
+        "text": "Gergaji besi mesin"
+      }
+    ],
+    "key": "C",
+    "explanation": "Pertolongan pertama luka sayatan memerlukan pinset steril (mengambil serpihan), antiseptik pembersih kuman, dan plester/perban steril.",
+    "quickTip": "Kotak P3K untuk luka sayat: Antiseptik, plester, perban steril, dan pinset."
+  },
+  {
+    "id": "s04_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Seorang rekan teknisi tersengat aliran listrik AC dari casing server yang mengalami kebocoran fasa dan korban masih menempel pada sumber listrik.",
+    "question": "Tindakan penyelamatan pertama yang paling aman dan tepat sebelum menyentuh korban adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menarik korban dengan tangan telanjang yang basah berkeringat"
+      },
+      {
+        "id": "B",
+        "text": "Memeluk korban agar aliran listrik terbagi dua"
+      },
+      {
+        "id": "C",
+        "text": "Menyiram korban dengan seember air garam"
+      },
+      {
+        "id": "D",
+        "text": "Menunggu hingga korban terlepas dengan sendirinya"
+      },
+      {
+        "id": "E",
+        "text": "Memutus sakelar daya utama (MCB/PDU) atau melepaskan korban menggunakan benda isolator kering (kayu/plastik)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Menyentuh korban tersetrum dengan tangan telanjang dapat menyebabkan penolong ikut tersetrum; putus sumber daya atau gunakan isolator.",
+    "quickTip": "Penyelamatan korban tersetrum = Matikan MCB utama atau gunakan tongkat isolator kering."
+  },
+  {
+    "id": "s04_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Limbah sisa potongan serat optik harus dibuang ke wadah khusus bertutup rapat yang memiliki label peringatan.",
+    "question": "Nama wadah pembuangan sisa pecahan kaca serat optik yang sesuai standar industri adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Laci meja belajar siswa"
+      },
+      {
+        "id": "B",
+        "text": "Fiber Disposal Unit / Fiber Trash Can bertutup pengaman"
+      },
+      {
+        "id": "C",
+        "text": "Kotak bekal makan siang karyawan"
+      },
+      {
+        "id": "D",
+        "text": "Kantong plastik belanjaan tipis terbuka"
+      },
+      {
+        "id": "E",
+        "text": "Wadah tempat sendok garpu kantin"
+      }
+    ],
+    "key": "B",
+    "explanation": "Fiber Trash Can dirancang khusus dengan lubang masuk berpengaman agar serpihan kaca tidak berhamburan ke udara atau tersentuh.",
+    "quickTip": "Wadah pembuangan sisa serat kaca = Fiber Trash Can bertutup pengaman."
+  },
+  {
+    "id": "s04_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Kabel instalasi jaringan yang melintasi area plafon gedung wajib dipasang menggunakan pipa pelindung atau cable tray gantung.",
+    "question": "Tujuan pemasangan pipa pelindung (conduit) pada kabel instalasi plafon adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menambah beban bobot plafon agar cepat runtuh"
+      },
+      {
+        "id": "B",
+        "text": "Melindungi kabel dari gigitan hama tikus, gesekan tajam rangka plafon, dan mencegah rambatan api"
+      },
+      {
+        "id": "C",
+        "text": "Membuat kabel tidak bisa dialiri sinyal data"
+      },
+      {
+        "id": "D",
+        "text": "Sebagai tempat sarang burung di plafon"
+      },
+      {
+        "id": "E",
+        "text": "Menghangatkan kabel agar cepat panas"
+      }
+    ],
+    "key": "B",
+    "explanation": "Pipa conduit melindungi integritas fisik kabel dari gigitan tikus (rodent), gesekan seng tajam, serta memberikan proteksi kebakaran.",
+    "quickTip": "Fungsi conduit di plafon: Melindungi kabel dari gigitan tikus & gesekan tajam."
+  },
+  {
+    "id": "s04_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Penggunaan cairan kimia pembersih alkohol pada proses penyambungan serat optik memerlukan penanganan K3LH yang benar.",
+    "question": "Tingkat kemurnian alkohol yang diwajibkan untuk membersihkan core serat optik adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Air sabun deterjen berbusa"
+      },
+      {
+        "id": "B",
+        "text": "Alkohol Isopropil (IPA) dengan kemurnian 99% atau lebih tinggi"
+      },
+      {
+        "id": "C",
+        "text": "Alkohol medis 70% yang mengandung banyak kadar air"
+      },
+      {
+        "id": "D",
+        "text": "Minyak goreng kelapa sawit"
+      },
+      {
+        "id": "E",
+        "text": "Cairan pembersih lantai beraroma wangi"
+      }
+    ],
+    "key": "B",
+    "explanation": "Alkohol 99% (IPA) cepat menguap tanpa meninggalkan residu air atau minyak pada permukaan kaca silika sebelum fusi.",
+    "quickTip": "Pembersih serat optik = Alkohol Isopropil (IPA) 99% tanpa residu."
+  },
+  {
+    "id": "s04_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Di ruang baterai UPS data center, terdapat puluhan aki basah / VRLA berkapasitas besar yang menyuplai daya cadangan.",
+    "question": "Risiko bahaya kimia dan gas yang wajib diwaspadai di ruang baterai UPS adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gas helium yang membuat suara melengking"
+      },
+      {
+        "id": "B",
+        "text": "Pancaran gelombang radio FM komersial"
+      },
+      {
+        "id": "C",
+        "text": "Potensi pelepasan gas hidrogen yang mudah terbakar dan tumpahan asam sulfat korosif"
+      },
+      {
+        "id": "D",
+        "text": "Udara membeku menjadi es kristal"
+      },
+      {
+        "id": "E",
+        "text": "Tumpahan air sirup manis mengundang semut"
+      }
+    ],
+    "key": "C",
+    "explanation": "Proses pengisian aki melepaskan gas hidrogen mudah meledak dan mengandung asam sulfat yang sangat korosif pada kulit.",
+    "quickTip": "Bahaya ruang baterai UPS: Gas hidrogen mudah meledak & cairan asam korosif."
+  },
+  {
+    "id": "s04_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Sebelum menyalakan server baru berdaya 1500 Watt, teknisi wajib menghitung beban total pada rangkaian stop kontak.",
+    "question": "Bahaya utama yang terjadi jika terlalu banyak stop kontak dipasang bertumpuk (overload) pada satu jalur kabel listrik adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kecepatan transfer data internet meningkat 10 kali lipat"
+      },
+      {
+        "id": "B",
+        "text": "Tagihan listrik otomatis menjadi gratis"
+      },
+      {
+        "id": "C",
+        "text": "Lampu indikator server berubah menjadi warna pelangi"
+      },
+      {
+        "id": "D",
+        "text": "Kabel mengalami panas berlebih (overheating), isolasi meleleh, dan memicu kebakaran listrik"
+      },
+      {
+        "id": "E",
+        "text": "Server menjadi kebal terhadap virus komputer"
+      }
+    ],
+    "key": "D",
+    "explanation": "Beban listrik melebihi kapasitas arus kabel (ampacity) menimbulkan panas tinggi yang melelehkan PVC dan memicu korsleting api.",
+    "quickTip": "Beban stop kontak bertumpuk memicu panas berlebih (overheating) & kebakaran."
+  },
+  {
+    "id": "s04_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "SOP di laboratorium jaringan SMK mewajibkan setiap praktikan mengenakan sepatu kerja tertutup dengan sol karet tebal.",
+    "question": "Fungsi utama dari sepatu bersol karet dalam lingkungan praktikum jaringan dan kelistrikan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membuat kaki terasa dingin di lantai"
+      },
+      {
+        "id": "B",
+        "text": "Sebagai hiasan mode pakaian sekolah"
+      },
+      {
+        "id": "C",
+        "text": "Sebagai bahan isolator penahan arus listrik dan pelindung kaki dari kejatuhan perkakas berat"
+      },
+      {
+        "id": "D",
+        "text": "Menghasilkan suara langkah kaki yang nyaring"
+      },
+      {
+        "id": "E",
+        "text": "Agar bisa berlari kencang saat jam istirahat"
+      }
+    ],
+    "key": "C",
+    "explanation": "Sol karet bersifat dielektrik (isolator listrik) yang mencegah tubuh menjadi jalur arus ke bumi saat kontak tak sengaja.",
+    "quickTip": "Sepatu sol karet = Isolator pencegah sengatan listrik & pelindung benturan."
+  },
+  {
+    "id": "s04_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Manajemen kabel (Cable Management) di bagian belakang rak server harus dipasang dengan pemisahan jarak antara jalur daya AC dan jalur kabel UTP.",
+    "question": "Alasan teknis pemisahan jalur kabel data UTP dari kabel daya listrik AC 220V adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel data bisa menyedot daya listrik menjadi nol"
+      },
+      {
+        "id": "B",
+        "text": "Agar teknisi mudah mengingat warna kabel saja"
+      },
+      {
+        "id": "C",
+        "text": "Mencegah terjadinya induksi interferensi elektromagnetik (EMI) yang merusak kualitas transmisi data"
+      },
+      {
+        "id": "D",
+        "text": "Kabel listrik bisa menyerap kuota internet kabel data"
+      },
+      {
+        "id": "E",
+        "text": "Agar kabel data tidak merasa kepanasan oleh kabel listrik"
+      }
+    ],
+    "key": "C",
+    "explanation": "Arus bolak-balik (AC) menghasilkan medan magnet yang dapat menginduksi derau (noise EMI) pada sinyal data bertegangan rendah.",
+    "quickTip": "Pisahkan kabel data dan listrik untuk menghindari interferensi elektromagnetik (EMI)."
+  },
+  {
+    "id": "s04_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Saat melakukan maintenance perangkat router inti pada rak tertinggi (ketinggian 2 meter di atas lantai data center).",
+    "question": "Alat bantu panjat yang paling aman dan stabil digunakan di dalam lorong data center adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menumpuk kardus bekas komputer setinggi 2 meter"
+      },
+      {
+        "id": "B",
+        "text": "Menginjak kabel bundel yang menjuntai"
+      },
+      {
+        "id": "C",
+        "text": "Berdiri di atas kursi putar beroda licin"
+      },
+      {
+        "id": "D",
+        "text": "Tangga lipat dua sisi (step ladder) berkaki karet anti-selip dengan kapasitas beban memadai"
+      },
+      {
+        "id": "E",
+        "text": "Memanjat pintu rak server yang tipis"
+      }
+    ],
+    "key": "D",
+    "explanation": "Menggunakan kursi beroda atau tumpukan kardus adalah penyebab utama kecelakaan jatuh; gunakan step ladder bersertifikasi anti-selip.",
+    "quickTip": "Alat panjat rak server: Tangga lipat step ladder dengan kaki karet anti-selip."
+  },
+  {
+    "id": "s04_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Setiap kecelakaan kerja atau nyaris celaka (Near Miss) di bengkel jaringan wajib dicatat dalam lembar laporan insiden.",
+    "question": "Tujuan utama pencatatan insiden Near Miss (nyaris celaka) dalam manajemen K3LH adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bahan untuk menghentikan seluruh kegiatan belajar selamanya"
+      },
+      {
+        "id": "B",
+        "text": "Mempermalukan korban di hadapan teman sekelasnya"
+      },
+      {
+        "id": "C",
+        "text": "Menambah koleksi tumpukan kertas laporan tak terbaca"
+      },
+      {
+        "id": "D",
+        "text": "Mencari siswa yang bersalah untuk diberi hukuman fisik"
+      },
+      {
+        "id": "E",
+        "text": "Mengevaluasi bahaya laten dan mengambil tindakan pencegahan sebelum terjadi kecelakaan fatal sesungguhnya"
+      }
+    ],
+    "key": "E",
+    "explanation": "Prinsip Heinrich Triangle: Mencatat dan memperbaiki kondisi near miss secara efektif mencegah terjadinya insiden fatal di masa depan.",
+    "quickTip": "Tujuan lapor Near Miss: Evaluasi bahaya laten sebelum menjadi kecelakaan fatal."
+  },
+  {
+    "id": "s04_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Pencegahan bahaya kebakaran di fasilitas pusat data (Data Center) menuntut pemilihan sistem pemadam yang tepat dan aman bagi perangkat elektronik.",
+    "question": "Manakah jenis media pemadam api yang aman digunakan pada ruang server bertegangan listrik aktif tanpa merusak sirkuit? (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "APAR Gas Karbon Dioksida (CO2)"
+      },
+      {
+        "id": "B",
+        "text": "APAR Cairan Busa Basah Kimia (Foam)"
+      },
+      {
+        "id": "C",
+        "text": "APAR Gas Halotron I"
+      },
+      {
+        "id": "D",
+        "text": "Sistem Gas Bersih (Clean Agent / FM-200 / Novec 1230)"
+      },
+      {
+        "id": "E",
+        "text": "Selang Air Hidran Bertekanan Tinggi"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "CO2, FM-200/Novec, dan Halotron adalah media pemadam non-konduktif dan bebas residu yang aman bagi perangkat elektronik.",
+    "quickTip": "Pemadam aman server: CO2, Clean Agent (FM-200/Novec), dan Halotron."
+  },
+  {
+    "id": "s04_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Penanganan sisa limbah pengupasan dan pemotongan serat optik membutuhkan kepatuhan K3LH yang sangat ketat.",
+    "question": "Perlengkapan Alat Pelindung Diri (APD) dan perkakas wajib yang digunakan saat menangani serat optik telanjang adalah... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pelampung rompi penyelamat air laut"
+      },
+      {
+        "id": "B",
+        "text": "Sarung tangan wol berbulu tebal yang mudah tersangkut serat"
+      },
+      {
+        "id": "C",
+        "text": "Kacamata pelindung keselamatan (Safety Glasses) dengan pelindung samping"
+      },
+      {
+        "id": "D",
+        "text": "Pinset penjepit medis untuk mengambil serpihan serat kaca"
+      },
+      {
+        "id": "E",
+        "text": "Wadah pembuangan sisa serat khusus bertutup rapat (Fiber Trash Can)"
+      }
+    ],
+    "key": [
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Safety glasses, pinset penjepit, dan fiber trash can adalah perlengkapan K3 mutlak saat terminasi fiber optik.",
+    "quickTip": "APD & alat terminasi optik: Kacamata safety, pinset medis, dan fiber trash can."
+  },
+  {
+    "id": "s04_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Bahaya listrik di laboratorium komputer dapat dicegah melalui pemenuhan standarisasi infrastruktur daya.",
+    "question": "Standar keselamatan kelistrikan yang wajib dipenuhi pada ruang laboratorium jaringan meliputi... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pemasangan sistem pentanahan (Grounding) dengan nilai tahanan tanah yang memenuhi syarat"
+      },
+      {
+        "id": "B",
+        "text": "Pemberian tanda bahaya dan pengunci (Lockout / Tagout) pada panel distribusi utama"
+      },
+      {
+        "id": "C",
+        "text": "Penggunaan pemutus sirkuit Residual Current Circuit Breaker (RCCB / ELCB) untuk proteksi arus bocor"
+      },
+      {
+        "id": "D",
+        "text": "Menghubungkan kabel ground langsung ke pipa gas elpiji dapur"
+      },
+      {
+        "id": "E",
+        "text": "Mengganti sakelar otomatis MCB dengan paku besi berkarat"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Standar proteksi listrik: Grounding terukur, ELCB/RCCB pendeteksi arus bocor, dan prosedur LOTO pada panel distribusi.",
+    "quickTip": "Proteksi listrik lab: Grounding terukur, RCCB/ELCB, dan Lockout/Tagout (LOTO)."
+  },
+  {
+    "id": "s04_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Bekerja di lingkungan data center yang bising akibat ratusan kipas server berkecepatan tinggi memerlukan perlindungan pendengaran.",
+    "question": "Bahaya lingkungan kerja fisik di ruang data center yang wajib dimitigasi oleh teknisi meliputi... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suhu udara dingin ekstrem pada lorong dingin (Cold Aisle) jika terpapar lama"
+      },
+      {
+        "id": "B",
+        "text": "Gelombang pasang tsunami di dalam rak server tertutup"
+      },
+      {
+        "id": "C",
+        "text": "Bahaya radiasi laser tak kasat mata dari port modul optik aktif"
+      },
+      {
+        "id": "D",
+        "text": "Tingkat kebisingan akustik tinggi (Noise) dari deru kipas pendingin server"
+      },
+      {
+        "id": "E",
+        "text": "Serangan binatang buas harimau di dalam ruang tertutup"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "Bahaya data center: Kebisingan kipas (butuh earplug), hawa dingin lorong intake, dan radiasi laser serat optik.",
+    "quickTip": "Bahaya data center: Kebisingan akustik, suhu dingin lorong, dan laser tak kasat mata."
+  },
+  {
+    "id": "s04_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Penyusunan tata letak kabel (Cable Management) di dalam rak server harus mempertimbangkan faktor keamanan dan kemudahan pemeliharaan.",
+    "question": "Manfaat langsung dari penerapan manajemen kabel yang rapi di rak server adalah... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menjaga kelancaran aliran sirkulasi udara pendingin melalui celah server"
+      },
+      {
+        "id": "B",
+        "text": "Mengubah kabel tembaga biasa menjadi kabel emas murni secara kimiawi"
+      },
+      {
+        "id": "C",
+        "text": "Membuat seluruh server tidak memerlukan daya listrik sama sekali"
+      },
+      {
+        "id": "D",
+        "text": "Mempercepat proses pelacakan dan penggantian kabel saat terjadi gangguan"
+      },
+      {
+        "id": "E",
+        "text": "Mencegah beban tarik mekanik berlebih yang dapat merusak port konektor RJ-45/SFP"
+      }
+    ],
+    "key": [
+      "A",
+      "D",
+      "E"
+    ],
+    "explanation": "Manajemen kabel rapi menjaga airflow pendingin, mempercepat troubleshooting kabel, dan mencegah kerusakan port fisik.",
+    "quickTip": "Manfaat cable management: Airflow lancar, lacak gangguan cepat, cegah kerusakan port."
+  },
+  {
+    "id": "s04_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Sinar laser pada jaringan komunikasi serat optik bekerja pada spektrum cahaya inframerah tak kasat mata.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang keselamatan bahaya radiasi optik!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Mata manusia tidak dapat melihat sinar laser 1310nm atau 1550nm sehingga refleks pupil mata tidak aktif saat terpapar.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Melihat langsung ke dalam serat optik aktif selama beberapa detik sangat aman dan menyehatkan mata.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Kamera sensor digital ponsel kadang dapat mendeteksi pendar cahaya inframerah sebagai alat bantu visual tak langsung.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Laser inframerah tidak terlihat oleh mata telanjang sehingga tidak memicu refleks mengedip; paparan langsung membakar retina.",
+    "quickTip": "Laser optik inframerah tidak terlihat mata manusia, sangat berbahaya bagi retina."
+  },
+  {
+    "id": "s04_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Sistem grounding pada rak server berfungsi sebagai pelindung utama dari tegangan sentuh berbahaya.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai sistem pentanahan (grounding) data center!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Nilai resistansi pembumian grounding yang disyaratkan untuk fasilitas komputasi idealnya di bawah 1 ohm.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Kabel grounding boleh dipotong dan disambungkan ke rangka kayu kusen pintu ruangan.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Grounding yang baik melindungi komponen mikroelektronika server dari kerusakan akibat lonjakan elektrostatis (ESD).",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Grounding harus terhubung ke batang tembaga bumi dengan resistansi < 1 ohm, bukan ke kayu isolator.",
+    "quickTip": "Grounding data center: Hambatan < 1 ohm, lindungi peralatan dari ESD & arus bocor."
+  },
+  {
+    "id": "s04_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Penyusunan prosedur keselamatan kerja di laboratorium komputer dirancang untuk melindungi manusia, alat, dan lingkungan.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang budaya keselamatan kerja!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Makan dan minum diperbolehkan di atas keyboard server yang sedang beroperasi penuh.",
+        "correct": "S"
+      },
+      {
+        "id": "st2",
+        "text": "Setiap tumpahan cairan di dekat perangkat kelistrikan harus segera dimatikan dayanya dan dibersihkan.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Peralatan perkakas yang memiliki isolasi pegangan rusak atau retak harus segera ditarik dari penggunaan.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Makan/minum di dekat server dilarang keras karena risiko tumpahan cairan memicu korsleting fatal.",
+    "quickTip": "Dilarang makan/minum di area server; tarik perkakas isolasi retak dari lab."
+  },
+  {
+    "id": "s04_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Penggunaan tangga step ladder di lorong rak server memerlukan kehati-hatian tinggi.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai penggunaan tangga kerja di ruang server!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Teknisi dilarang berdiri di anak tangga paling atas (top step) pada tangga lipat portabel.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Tangga harus diletakkan pada permukaan lantai yang rata, bersih dari oli/air, dan memiliki sepatu karet utuh.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Diperbolehkan melompat dari atas tangga ke lantai untuk menghemat waktu kerja.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Berdiri di top step menghilangkan tumpuan keseimbangan tubuh; melompat dari tangga sangat berbahaya.",
+    "quickTip": "Aturan tangga: Jangan berdiri di anak tangga paling atas, pastikan kaki karet anti-selip."
+  },
+  {
+    "id": "s04_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Penanganan kecelakaan kerja memerlukan ketenangan dan tindakan yang tepat sesuai protokol medis darurat.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai pertolongan pertama pada kecelakaan kerja!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Korban sengatan listrik yang tidak bernafas harus segera diberikan tindakan Resusitasi Jantung Paru (RJP/CPR) oleh personil terlatih.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Sebelum menolong korban, penolong harus memastikan situasi di sekeliling korban telah aman dari sumber bahaya listrik aktif.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Jika terjadi luka bakar akibat listrik, luka tersebut harus segera diolesi dengan pasta gigi tebal dan kecap.",
+        "correct": "S"
+      },
+      {
+        "id": "st4",
+        "text": "Mengoleskan pasta gigi pada luka bakar adalah mitos berbahaya yang dapat memicu infeksi jaringan kulit.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Amankan lokasi terlebih dahulu sebelum menolong; jangan oleskan pasta gigi/kecap pada luka bakar listrik.",
+    "quickTip": "Pertolongan listrik: Amankan area, lakukan CPR jika terlatih, jangan beri pasta gigi pada luka."
+  }
+]

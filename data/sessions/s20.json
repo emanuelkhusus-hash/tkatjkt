@@ -1,0 +1,950 @@
+[
+  {
+    "id": "s20_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Perangkat Router beroperasi pada Network Layer (Layer 3) dengan tugas pokok menghubungkan jaringan-jaringan yang berbeda.",
+    "question": "Dua fungsi utama yang dijalankan oleh router dalam jaringan komputer adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengukur redaman kabel serat optik dalam dBm"
+      },
+      {
+        "id": "B",
+        "text": "Menentukan jalur terbaik (Path Determination) dan meneruskan paket data antar-jaringan (Packet Forwarding)"
+      },
+      {
+        "id": "C",
+        "text": "Menghubungkan kabel monitor dan keyboard komputer"
+      },
+      {
+        "id": "D",
+        "text": "Menjepit konektor RJ-45 dan mengupas kabel UTP"
+      },
+      {
+        "id": "E",
+        "text": "Mendinginkan suhu ruangan laboratorium komputer"
+      }
+    ],
+    "key": "B",
+    "explanation": "Fungsi utama router adalah Path Determination (menentukan rute terbaik menuju tujuan berdasarkan tabel routing) dan Forwarding (meneruskan paket ke antarmuka berikutnya).",
+    "quickTip": "Fungsi utama router = Menentukan rute terbaik (Path Determination) dan meneruskan paket (Forwarding)."
+  },
+  {
+    "id": "s20_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Router mengambil keputusan penerusan paket berdasarkan informasi yang tersimpan di dalam memori internalnya.",
+    "question": "Daftar pemetaan jaringan tujuan, alamat gateway berikutnya (next-hop), dan antarmuka keluar pada router disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "DNS Cache"
+      },
+      {
+        "id": "B",
+        "text": "Routing Table (Tabel Routing)"
+      },
+      {
+        "id": "C",
+        "text": "MAC Address Table"
+      },
+      {
+        "id": "D",
+        "text": "DHCP Lease Table"
+      },
+      {
+        "id": "E",
+        "text": "ARP Table"
+      }
+    ],
+    "key": "B",
+    "explanation": "Routing Table berisi daftar jaringan tujuan (destination network), subnet mask, next-hop gateway IP, exit interface, dan nilai metrik rute.",
+    "quickTip": "Basis data rute tujuan pada router = Routing Table."
+  },
+  {
+    "id": "s20_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Nilai tingkat keterpercayaan sumber rute yang digunakan router untuk memilih rute terbaik jika terdapat beberapa protokol yang menawarkan rute ke tujuan yang sama disebut...",
+    "question": "Parameter prioritas keterpercayaan rute tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hop Count"
+      },
+      {
+        "id": "B",
+        "text": "Maximum Transmission Unit (MTU)"
+      },
+      {
+        "id": "C",
+        "text": "Metric Cost"
+      },
+      {
+        "id": "D",
+        "text": "Administrative Distance (AD)"
+      },
+      {
+        "id": "E",
+        "text": "Bandwidth Delay"
+      }
+    ],
+    "key": "D",
+    "explanation": "Administrative Distance (AD) menentukan prioritas protokol: semakin kecil nilai AD, semakin dipercaya rute tersebut (Connected=0, Static=1, OSPF=110, RIP=120).",
+    "quickTip": "Tingkat kepercayaan sumber rute = Administrative Distance (semakin kecil semakin diprioritaskan)."
+  },
+  {
+    "id": "s20_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Nilai Administrative Distance (AD) standar pada router Cisco untuk rute yang terhubung langsung (Directly Connected Network) adalah...",
+    "question": "Berapakah nilai AD untuk interface yang connected langsung tersebut?",
+    "options": [
+      {
+        "id": "A",
+        "text": "120"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "110"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      },
+      {
+        "id": "E",
+        "text": "90"
+      }
+    ],
+    "key": "B",
+    "explanation": "Directly Connected memiliki AD paling terpercaya, yaitu bernilai 0.",
+    "quickTip": "AD Directly Connected = 0."
+  },
+  {
+    "id": "s20_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Administrator jaringan menambahkan rute manual pada router Cisco menggunakan perintah `ip route`.",
+    "question": "Nilai default Administrative Distance (AD) untuk rute statis (Static Route) pada router Cisco adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "120"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      },
+      {
+        "id": "E",
+        "text": "110"
+      }
+    ],
+    "key": "D",
+    "explanation": "Static route memiliki nilai default AD sebesar 1, menjadikannya rute yang sangat dipercaya di atas protokol routing dinamis.",
+    "quickTip": "AD Static Route = 1."
+  },
+  {
+    "id": "s20_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Sebuah rute statis cadangan (Floating Static Route) dikonfigurasi agar hanya aktif jika rute utama (misal OSPF dengan AD 110) mengalami kegagalan.",
+    "question": "Nilai Administrative Distance yang tepat dikonfigurasikan pada rute statis cadangan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tepat bernilai 1"
+      },
+      {
+        "id": "B",
+        "text": "Lebih kecil dari 90"
+      },
+      {
+        "id": "C",
+        "text": "Bernilai 0"
+      },
+      {
+        "id": "D",
+        "text": "Bernilai minus (-10)"
+      },
+      {
+        "id": "E",
+        "text": "Lebih besar dari 110 (misalnya AD disetel bernilai 120 atau 130)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Floating Static Route diberikan nilai AD lebih tinggi dari rute utama (misal AD 130 > OSPF 110). Rute ini akan 'mengapung' pasif dan otomatis muncul di tabel saat rute OSPF mati.",
+    "quickTip": "Floating Static Route dikonfigurasi dengan nilai AD lebih tinggi dari rute utama."
+  },
+  {
+    "id": "s20_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Sebuah router kantor cabang perlu meneruskan seluruh paket internet yang tujuannya tidak terdaftar di tabel routing menuju router pusat ISP.",
+    "question": "Sintaks perintah CLI router Cisco untuk membuat Default Route (Gateway of Last Resort) menuju next-hop 192.168.1.1 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "ip route 255.255.255.255 255.255.255.255 192.168.1.1"
+      },
+      {
+        "id": "B",
+        "text": "ip route 0.0.0.0 0.0.0.0 192.168.1.1"
+      },
+      {
+        "id": "C",
+        "text": "router rip network 0.0.0.0"
+      },
+      {
+        "id": "D",
+        "text": "ip default-gateway 0.0.0.0"
+      },
+      {
+        "id": "E",
+        "text": "route add internet 192.168.1.1"
+      }
+    ],
+    "key": "B",
+    "explanation": "Format rute statis: `ip route <network-tujuan> <subnet-mask> <ip-next-hop>`. Default route ditulis `0.0.0.0 0.0.0.0`.",
+    "quickTip": "Default Route = ip route 0.0.0.0 0.0.0.0 <next-hop>."
+  },
+  {
+    "id": "s20_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Protokol routing dinamis dikelompokkan menjadi Interior Gateway Protocol (IGP) dan Exterior Gateway Protocol (EGP).",
+    "question": "Protokol routing standar industri yang digunakan untuk bertukar rute antar-Autonomous System (AS) di seluruh dunia internet publik adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "OSPF (Open Shortest Path First)"
+      },
+      {
+        "id": "B",
+        "text": "BGP (Border Gateway Protocol)"
+      },
+      {
+        "id": "C",
+        "text": "EIGRP (Enhanced Interior Gateway Routing Protocol)"
+      },
+      {
+        "id": "D",
+        "text": "RIP (Routing Information Protocol)"
+      },
+      {
+        "id": "E",
+        "text": "IS-IS (Intermediate System to Intermediate System)"
+      }
+    ],
+    "key": "B",
+    "explanation": "BGP adalah protokol EGP standar de facto yang menghubungkan ribuan Autonomous System penyedia layanan internet (ISP) di seluruh dunia.",
+    "quickTip": "Routing antar-AS skala internet global = BGP (Border Gateway Protocol)."
+  },
+  {
+    "id": "s20_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Protokol routing dinamis OSPF (Open Shortest Path First) mengandalkan algoritma pencarian jalur terpendek.",
+    "question": "Nama algoritma matematis pohon pencarian jalur yang digunakan oleh OSPF adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Algoritma Bellman-Ford"
+      },
+      {
+        "id": "B",
+        "text": "Algoritma DUAL Diffusing Update"
+      },
+      {
+        "id": "C",
+        "text": "Algoritma Brute Force"
+      },
+      {
+        "id": "D",
+        "text": "Algoritma Bubble Sort"
+      },
+      {
+        "id": "E",
+        "text": "Algoritma Dijkstra (Shortest Path First / SPF)"
+      }
+    ],
+    "key": "E",
+    "explanation": "OSPF adalah protokol Link-State yang menggunakan algoritma Dijkstra SPF untuk menghitung rute bebas loop dengan biaya terendah ke setiap node.",
+    "quickTip": "Algoritma OSPF = Dijkstra (Shortest Path First / SPF)."
+  },
+  {
+    "id": "s20_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Parameter metrik yang digunakan oleh OSPF untuk menentukan rute terbaik didasarkan pada karakteristik link antarmuka.",
+    "question": "Metrik utama yang digunakan oleh OSPF adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hop Count (Jumlah lompatan router)"
+      },
+      {
+        "id": "B",
+        "text": "Beban traffic (Load) antarmuka"
+      },
+      {
+        "id": "C",
+        "text": "Delay propagasi kabel"
+      },
+      {
+        "id": "D",
+        "text": "Reliability persentase kegagalan"
+      },
+      {
+        "id": "E",
+        "text": "Cost (berbanding terbalik dengan Bandwidth tautan: 10^8 / Bandwidth)"
+      }
+    ],
+    "key": "E",
+    "explanation": "OSPF menghitung Metric Cost berdasarkan bandwidth antarmuka. Semakin besar bandwidth, semakin kecil nilai Cost-nya, dan semakin diprioritaskan jalurnya.",
+    "quickTip": "Metrik OSPF = Cost (dihitung dari Bandwidth antarmuka)."
+  },
+  {
+    "id": "s20_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Dalam hierarki desain multi-area OSPF, seluruh area non-backbone wajib terhubung langsung ke satu area pusat utama.",
+    "question": "Nama dan nomor identitas area pusat tulang punggung (Backbone Area) pada OSPF adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Area 100 (Core Area)"
+      },
+      {
+        "id": "B",
+        "text": "Area 10 (Distribution Area)"
+      },
+      {
+        "id": "C",
+        "text": "Area 255 (Global Area)"
+      },
+      {
+        "id": "D",
+        "text": "Area 1 (Access Area)"
+      },
+      {
+        "id": "E",
+        "text": "Area 0 (Backbone Area)"
+      }
+    ],
+    "key": "E",
+    "explanation": "OSPF mewajibkan adanya Area 0 (Backbone Area). Semua area OSPF lainnya (Area 1, Area 2, dst.) harus menempel langsung ke Area 0.",
+    "quickTip": "Area tulang punggung OSPF wajib ada = Area 0 (Backbone Area)."
+  },
+  {
+    "id": "s20_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Router OSPF saling bertukar paket berkala untuk mendeteksi keberadaan tetangga (neighbor) dan memastikan link tetap hidup.",
+    "question": "Nama paket berkala yang dikirimkan setiap 10 detik sekali oleh router OSPF pada jaringan broadcast adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "DBD (Database Description)"
+      },
+      {
+        "id": "B",
+        "text": "Hello Packet"
+      },
+      {
+        "id": "C",
+        "text": "LSU (Link State Update)"
+      },
+      {
+        "id": "D",
+        "text": "LSR (Link State Request)"
+      },
+      {
+        "id": "E",
+        "text": "LSA (Link State Advertisement)"
+      }
+    ],
+    "key": "B",
+    "explanation": "OSPF Hello packet dikirim setiap 10 detik untuk membentuk relasi tetangga (adjacency) dan memeriksa status liveness tetangga.",
+    "quickTip": "Paket berkala pembentuk tetangga OSPF = Hello Packet."
+  },
+  {
+    "id": "s20_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Protokol routing dinamis klasik RIP (Routing Information Protocol) menggunakan algoritma Distance Vector.",
+    "question": "Metrik yang digunakan oleh RIP untuk menentukan jalur terbaik menuju jaringan tujuan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "MTU ukuran paket"
+      },
+      {
+        "id": "B",
+        "text": "Cost nilai rupiah lisensi"
+      },
+      {
+        "id": "C",
+        "text": "Bandwidth link kabel"
+      },
+      {
+        "id": "D",
+        "text": "Delay waktu tempuh milidetik"
+      },
+      {
+        "id": "E",
+        "text": "Hop Count (Jumlah router perantara yang dilompati)"
+      }
+    ],
+    "key": "E",
+    "explanation": "RIP hanya menghitung berapa banyak router (hop) yang dilalui. Jalur dengan jumlah hop paling sedikit akan dipilih sebagai rute terbaik.",
+    "quickTip": "Metrik protokol RIP = Hop Count (jumlah lompatan router)."
+  },
+  {
+    "id": "s20_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Protokol RIP memiliki batasan jumlah maksimal router yang dapat dilalui sebelum suatu jaringan dinyatakan tidak dapat dijangkau (unreachable).",
+    "question": "Batas maksimal hop count pada protokol RIP dan nilai hop yang menyatakan tujuan unreachable adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maksimal 255 hop, dan 256 unreachable"
+      },
+      {
+        "id": "B",
+        "text": "Maksimal 5 hop, dan 6 unreachable"
+      },
+      {
+        "id": "C",
+        "text": "Tidak ada batasan hop count"
+      },
+      {
+        "id": "D",
+        "text": "Maksimal 15 hop, dan nilai 16 hop dianggap tak terjangkau (unreachable)"
+      },
+      {
+        "id": "E",
+        "text": "Maksimal 100 hop, dan 101 unreachable"
+      }
+    ],
+    "key": "D",
+    "explanation": "Batas maksimal RIP adalah 15 hop untuk mencegah perputaran paket tanpa akhir (count-to-infinity). Hop ke-16 dianggap tidak terjangkau (infinity).",
+    "quickTip": "Batas maksimal RIP = 15 Hop (16 Hop = Unreachable)."
+  },
+  {
+    "id": "s20_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Teknologi Network Address Translation (NAT) jenis Masquerade sangat populer digunakan pada router MikroTik dan Linux kantor.",
+    "question": "Karakteristik teknis dari NAT Masquerade (Port Address Translation) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya dapat bekerja jika internet menggunakan kabel telepon"
+      },
+      {
+        "id": "B",
+        "text": "Mematikan fungsi firewall router secara total"
+      },
+      {
+        "id": "C",
+        "text": "Membutuhkan 100 alamat IP publik statis untuk setiap komputer"
+      },
+      {
+        "id": "D",
+        "text": "Mengubah data menjadi format gambar"
+      },
+      {
+        "id": "E",
+        "text": "Otomatis menggunakan alamat IP publik yang sedang aktif terpasang pada interface keluar tanpa perlu memasukkan IP publik secara statis"
+      }
+    ],
+    "key": "E",
+    "explanation": "Action `masquerade` adalah varian PAT khusus untuk koneksi yang IP publiknya dinamis (seperti PPPoE/DHCP ISP): router otomatis meminjam IP interface keluar.",
+    "quickTip": "Masquerade = PAT dinamis yang otomatis memakai IP interface publik keluar."
+  },
+  {
+    "id": "s20_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Sebuah server web lokal kantor memiliki alamat privat 192.168.1.100. Perusahaan ingin agar web server tersebut dapat diakses oleh publik internet melalui IP Publik 203.0.113.5 pada port 80.",
+    "question": "Fitur NAT yang memetakan port publik tertentu langsung ke IP privat dan port server internal disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "IPsec Tunnel"
+      },
+      {
+        "id": "B",
+        "text": "Port Forwarding (Destination NAT / D-NAT)"
+      },
+      {
+        "id": "C",
+        "text": "Source NAT (S-NAT)"
+      },
+      {
+        "id": "D",
+        "text": "VLAN Access Port"
+      },
+      {
+        "id": "E",
+        "text": "Masquerade NAT"
+      }
+    ],
+    "key": "B",
+    "explanation": "Port Forwarding (Destination NAT) mengubah alamat IP dan port tujuan dari paket luar yang masuk menuju ke IP server privat lokal.",
+    "quickTip": "Membuka akses server lokal agar bisa diakses dari internet = Port Forwarding (Dst-NAT)."
+  },
+  {
+    "id": "s20_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Teknisi ingin memeriksa tabel routing aktif pada router Cisco melalui antarmuka CLI.",
+    "question": "Perintah privileged mode yang tepat untuk menampilkan seluruh daftar rute pada router Cisco adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "show ip interface brief"
+      },
+      {
+        "id": "B",
+        "text": "show ip route"
+      },
+      {
+        "id": "C",
+        "text": "show arp"
+      },
+      {
+        "id": "D",
+        "text": "show running-config router"
+      },
+      {
+        "id": "E",
+        "text": "show mac address-table"
+      }
+    ],
+    "key": "B",
+    "explanation": "Perintah `show ip route` menampilkan tabel perutean lengkap, termasuk kode sumber rute: C (Connected), S (Static), O (OSPF), R (RIP), D (EIGRP).",
+    "quickTip": "Melihat tabel routing di router Cisco = show ip route."
+  },
+  {
+    "id": "s20_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Pada tabel routing sebuah router, di samping sebuah baris rute terdapat kode huruf penanda '[110/65]'.",
+    "question": "Arti dari angka 110 dan 65 pada penanda '[110/65]' tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "110 adalah kecepatan internet Mbps dan 65 adalah suhu derajat Celcius"
+      },
+      {
+        "id": "B",
+        "text": "110 adalah IP gateway dan 65 adalah detik sewa DHCP"
+      },
+      {
+        "id": "C",
+        "text": "110 adalah nomor port switch dan 65 adalah persentase CPU"
+      },
+      {
+        "id": "D",
+        "text": "110 adalah nomor VLAN dan 65 adalah jumlah komputer"
+      },
+      {
+        "id": "E",
+        "text": "110 adalah nilai Administrative Distance (OSPF) dan 65 adalah nilai Metrik Cost"
+      }
+    ],
+    "key": "E",
+    "explanation": "Format penulisan rute Cisco: `[Administrative Distance / Metric]`. 110 adalah AD standar OSPF dan 65 adalah total akumulasi cost ke tujuan.",
+    "quickTip": "Notasi [AD/Metrik]: [110/65] = AD 110 (OSPF) dan Metrik Cost 65."
+  },
+  {
+    "id": "s20_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Teknisi ingin melihat status ringkas kondisi port interface (status Up/Down dan alamat IP yang terpasang) pada router Cisco.",
+    "question": "Perintah CLI paling populer dan efisien untuk memeriksa status antarmuka tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "show ip interface brief"
+      },
+      {
+        "id": "B",
+        "text": "show ip route"
+      },
+      {
+        "id": "C",
+        "text": "show arp"
+      },
+      {
+        "id": "D",
+        "text": "show controllers serial"
+      },
+      {
+        "id": "E",
+        "text": "show running-config"
+      }
+    ],
+    "key": "A",
+    "explanation": "Perintah `show ip interface brief` memberikan tabel rangkuman: nama interface, IP address, status status layer 1 (Status: Up/Down), dan layer 2 (Protocol: Up/Down).",
+    "quickTip": "Cek ringkasan IP dan status port router = show ip interface brief."
+  },
+  {
+    "id": "s20_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Sebelum sebuah antarmuka fisik router Cisco dapat mulai aktif mengalirkan sinyal data, port harus dinyalakan dari status default shutdown pabrik.",
+    "question": "Perintah antarmuka wajib untuk mengaktifkan port router Cisco adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "active all"
+      },
+      {
+        "id": "B",
+        "text": "start link"
+      },
+      {
+        "id": "C",
+        "text": "no shutdown"
+      },
+      {
+        "id": "D",
+        "text": "enable port"
+      },
+      {
+        "id": "E",
+        "text": "turn on interface"
+      }
+    ],
+    "key": "C",
+    "explanation": "Secara default seluruh port interface router Cisco berada dalam kondisi `administratively down (shutdown)`. Perintah `no shutdown` membatalkannya dan mengaktifkan port.",
+    "quickTip": "Menyalakan port interface router Cisco = no shutdown."
+  },
+  {
+    "id": "s20_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Perbandingan karakteristik antara Routing Statis dan Routing Dinamis.",
+    "question": "Manakah pernyataan yang BENAR mengenai kelebihan Routing Statis? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tidak membutuhkan administrator jaringan sama sekali"
+      },
+      {
+        "id": "B",
+        "text": "Lebih aman karena jalur ditentukan secara manual dan tidak memancarkan pesan iklan rute (routing update) ke jaringan"
+      },
+      {
+        "id": "C",
+        "text": "Dapat melakukan pengalihan jalur otomatis secara instan saat kabel utama putus tanpa konfigurasi tambahan"
+      },
+      {
+        "id": "D",
+        "text": "Sangat cocok untuk jaringan internet berskala raksasa dengan ribuan router"
+      },
+      {
+        "id": "E",
+        "text": "Beban kerja prosesor (CPU) dan memori router sangat ringan karena tidak ada proses kalkulasi algoritma periodik"
+      }
+    ],
+    "key": [
+      "B",
+      "E"
+    ],
+    "explanation": "Routing statis hemat CPU/memori dan lebih aman dari spoofing rute, namun kelemahannya tidak otomatis dan sulit dikelola di jaringan besar.",
+    "quickTip": "Kelebihan Routing Statis: Hemat beban CPU & aman tanpa routing update."
+  },
+  {
+    "id": "s20_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Nilai Administrative Distance (AD) standar pada sistem operasi router.",
+    "question": "Manakah pasangan antara sumber rute dan nilai AD standar yang BENAR pada router Cisco? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Directly Connected = AD 120"
+      },
+      {
+        "id": "B",
+        "text": "OSPF = AD 110"
+      },
+      {
+        "id": "C",
+        "text": "RIP = AD 1"
+      },
+      {
+        "id": "D",
+        "text": "Directly Connected = AD 0"
+      },
+      {
+        "id": "E",
+        "text": "Static Route = AD 1"
+      }
+    ],
+    "key": [
+      "B",
+      "D",
+      "E"
+    ],
+    "explanation": "Connected = 0, Static = 1, EIGRP = 90, OSPF = 110, RIP = 120.",
+    "quickTip": "AD: Connected=0, Static=1, OSPF=110, RIP=120."
+  },
+  {
+    "id": "s20_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Protokol routing dinamis OSPF (Open Shortest Path First).",
+    "question": "Manakah karakteristik dari protokol routing OSPF? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metrik perutean didasarkan pada Cost (akumulasi bandwidth link)"
+      },
+      {
+        "id": "B",
+        "text": "Membatasi ukuran jaringan maksimal hanya 15 router saja"
+      },
+      {
+        "id": "C",
+        "text": "Mendukung desain jaringan hierarkis multi-area dengan Area 0 sebagai backbone"
+      },
+      {
+        "id": "D",
+        "text": "Menggunakan algoritma Link-State Dijkstra (Shortest Path First)"
+      },
+      {
+        "id": "E",
+        "text": "Hanya mengirimkan update rute setiap 30 menit sekali secara lambat"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "OSPF adalah link-state ber-algoritma Dijkstra, metrik Cost, dan desain multi-area (Area 0). Batas 15 hop adalah milik RIP.",
+    "quickTip": "Karakteristik OSPF: Link-State Dijkstra, metrik Cost, dan Area 0 Backbone."
+  },
+  {
+    "id": "s20_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Implementasi teknologi Network Address Translation (NAT).",
+    "question": "Manakah tipe implementasi NAT yang umum digunakan dalam jaringan? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "PAT (Port Address Translation / NAT Overload / Masquerade) memetakan banyak IP privat ke satu IP publik"
+      },
+      {
+        "id": "B",
+        "text": "Destination NAT (Port Forwarding) memetakan port IP publik ke server lokal privat"
+      },
+      {
+        "id": "C",
+        "text": "Battery Charging NAT untuk mengisi daya ponsel"
+      },
+      {
+        "id": "D",
+        "text": "Laser Splicing NAT untuk menyambung serat kaca"
+      },
+      {
+        "id": "E",
+        "text": "Radio Frequency NAT untuk memodulasi gelombang suara"
+      }
+    ],
+    "key": [
+      "A",
+      "B"
+    ],
+    "explanation": "Dua implementasi NAT esensial adalah PAT (Source NAT overload untuk outbound internet) dan Port Forwarding (Destination NAT untuk inbound server).",
+    "quickTip": "Dua tipe NAT utama: PAT/Masquerade (Outbound) dan Port Forwarding/Dst-NAT (Inbound)."
+  },
+  {
+    "id": "s20_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Tugas dan fungsi perangkat Router dalam jaringan telekomunikasi.",
+    "question": "Manakah yang MERUPAKAN fungsi dari perangkat Router Layer 3? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengubah dokumen Microsoft Word menjadi video"
+      },
+      {
+        "id": "B",
+        "text": "Memisahkan Broadcast Domain sehingga paket broadcast tidak meluas ke jaringan lain"
+      },
+      {
+        "id": "C",
+        "text": "Menentukan jalur terbaik meneruskan paket berdasarkan tabel routing"
+      },
+      {
+        "id": "D",
+        "text": "Mencegah korsleting listrik pada instalasi genset kantor"
+      },
+      {
+        "id": "E",
+        "text": "Menghubungkan jaringan-jaringan yang memiliki Network ID (subnet) berbeda"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "E"
+    ],
+    "explanation": "Router memisahkan broadcast domain, menghubungkan subnet berbeda, dan merutekan paket berdasarkan rute terbaik.",
+    "quickTip": "Fungsi Router: Memisahkan broadcast domain, interkoneksi subnet, dan path determination."
+  },
+  {
+    "id": "s20_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Pemisahan domain broadcast oleh perangkat Router.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai Router dan Broadcast Domain!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Setiap antarmuka (interface) aktif pada router memisahkan broadcast domain secara mandiri.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Secara default, router tidak meneruskan paket broadcast layer 2/3 melintasi antarmukanya.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Router akan menyebarkan badai broadcast dari satu ruangan ke seluruh internet dunia.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Router bertindak sebagai pembatas broadcast (broadcast boundary); paket broadcast tidak diteruskan melintasi router.",
+    "quickTip": "Router memblokir dan menghentikan broadcast agar tidak menyebar ke jaringan lain."
+  },
+  {
+    "id": "s20_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Prinsip nilai Administrative Distance (AD).",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang Administrative Distance!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Semakin kecil nilai Administrative Distance, maka sumber rute tersebut semakin dipercaya oleh router.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Rute yang terhubung langsung (Directly Connected) memiliki nilai AD 0 (paling terpercaya).",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Rute dengan nilai AD 255 adalah rute paling sempurna dan paling diprioritaskan oleh router.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Nilai AD 255 menandakan rute tidak dipercaya sama sekali dan tidak akan pernah dimasukkan ke dalam tabel routing.",
+    "quickTip": "AD semakin kecil semakin dipercaya (AD 0 terbaik; AD 255 tidak dipercaya)."
+  },
+  {
+    "id": "s20_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Default Route (0.0.0.0/0) pada router.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang Default Route!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Default Route digunakan untuk meneruskan paket yang alamat tujuannya tidak cocok dengan baris rute lain di tabel routing.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Pada router Cisco, default route dikonfigurasi dengan perintah: ip route 0.0.0.0 0.0.0.0 <next-hop>.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Router yang tidak memiliki default route dan tidak mengenal tujuan paket akan menyimpan paket tersebut selamanya di hard disk.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Jika tujuan tidak ada di routing table dan tidak ada default route, router akan langsung membuang paket (packet dropped) dan mengirim pesan ICMP Destination Unreachable.",
+    "quickTip": "Paket tanpa rute dan tanpa default route akan langsung di-drop."
+  },
+  {
+    "id": "s20_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Karakteristik protokol OSPF vs RIP.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang OSPF dan RIP!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "OSPF memiliki waktu konvergensi yang jauh lebih cepat dibanding RIP.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Protokol RIP dibatasi maksimal hanya 15 hop dan tidak cocok untuk jaringan berskala besar.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "OSPF menghitung jalur terbaik hanya berdasarkan jumlah hop lompatan kabel tanpa peduli kecepatan bandwidth.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "OSPF memperhitungkan kecepatan bandwidth (Cost), bukan hop count. Yang hanya melihat hop count adalah RIP.",
+    "quickTip": "OSPF peduli bandwidth (Cost); RIP hanya menghitung lompatan router (Hop Count)."
+  },
+  {
+    "id": "s20_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Fungsi Port Forwarding (Destination NAT).",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai Port Forwarding!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Port Forwarding memungkinkan server web di jaringan lokal privat dapat diakses dari internet publik.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Port Forwarding mengubah alamat IP dan port tujuan dari paket luar yang masuk.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Port Forwarding hanya dapat dijalankan jika komputer server dimatikan total.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Port Forwarding membutuhkan server internal dalam kondisi hidup dan layanannya (web/database/ssh) aktif mendengarkan port.",
+    "quickTip": "Port Forwarding mengarahkan traffic luar ke server lokal yang sedang aktif."
+  }
+]

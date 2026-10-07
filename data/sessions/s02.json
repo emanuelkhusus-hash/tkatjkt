@@ -1,0 +1,952 @@
+[
+  {
+    "id": "s02_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Penyedia Jasa Internet (ISP) menjanjikan Service Level Agreement (SLA) jaringan sebesar 99,9% dalam 1 bulan kalender (30 hari = 43.200 menit).",
+    "question": "Berapa lama batas waktu toleransi akumulasi gangguan (downtime) maksimal yang diperbolehkan dalam sebulan tersebut?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maksimal 10 jam kerja"
+      },
+      {
+        "id": "B",
+        "text": "Maksimal 7 hari kalender"
+      },
+      {
+        "id": "C",
+        "text": "Maksimal 120 detik saja"
+      },
+      {
+        "id": "D",
+        "text": "Maksimal 24 jam penuh"
+      },
+      {
+        "id": "E",
+        "text": "Maksimal sekitar 43,2 menit"
+      }
+    ],
+    "key": "E",
+    "explanation": "Toleransi downtime 0,1% = 0,001 x 43.200 menit = 43,2 menit per bulan.",
+    "quickTip": "SLA 99,9% = downtime maksimal ~43,2 menit dalam 30 hari."
+  },
+  {
+    "id": "s02_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Tahapan penggelaran proyek jaringan diawali dengan survei lapangan, perhitungan link budget, dan penentuan rute kabel optik sebelum dilakukan penarikan fisik.",
+    "question": "Tahapan krusial pra-konstruksi tersebut dalam siklus proyek telekomunikasi dinamakan...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tahap Audit Pajak"
+      },
+      {
+        "id": "B",
+        "text": "Tahap Pemusnahan Aset"
+      },
+      {
+        "id": "C",
+        "text": "Tahap Penagihan Invoice"
+      },
+      {
+        "id": "D",
+        "text": "Tahap Decommissioning"
+      },
+      {
+        "id": "E",
+        "text": "Tahap Perencanaan (Planning & Site Survey)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Tahap Perencanaan mencakup survei lapangan, feasibility study, dan desain teknis sebelum pengerjaan konstruksi.",
+    "quickTip": "Survei & perhitungan teknis sebelum pasang kabel = Tahap Perencanaan."
+  },
+  {
+    "id": "s02_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Setelah teknisi selesai menggelar kabel fiber optik, dilakukan pengukuran redaman dan penyerahan dokumentasi rute fisik aktual kepada perusahaan.",
+    "question": "Dokumen gambar teknis yang memuat jalur kabel aktual hasil pemasangan di lapangan disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kuitansi Pembelian BBM"
+      },
+      {
+        "id": "B",
+        "text": "Surat Izin Mengemudi"
+      },
+      {
+        "id": "C",
+        "text": "As-Built Drawing (Gambar Rekaman Akhir)"
+      },
+      {
+        "id": "D",
+        "text": "Brosur Penawaran Sales"
+      },
+      {
+        "id": "E",
+        "text": "Katalog Produk Toko"
+      }
+    ],
+    "key": "C",
+    "explanation": "As-Built Drawing adalah gambar rekaman teknis aktual yang mencerminkan instalasi nyata di lapangan sebagai dasar pemeliharaan.",
+    "quickTip": "Gambar teknis rute aktual pasca-pemasangan = As-Built Drawing."
+  },
+  {
+    "id": "s02_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Dalam metriks evaluasi pemeliharaan jaringan, waktu rata-rata yang dibutuhkan tim teknisi untuk memulihkan sistem yang rusak kembali normal diukur dengan sebuah indikator standar.",
+    "question": "Indikator kinerja waktu pemulihan gangguan tersebut dikenal dengan istilah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Return on Investment (ROI)"
+      },
+      {
+        "id": "B",
+        "text": "Mean Time to Repair (MTTR)"
+      },
+      {
+        "id": "C",
+        "text": "Mean Time Between Failures (MTBF)"
+      },
+      {
+        "id": "D",
+        "text": "Gross Domestic Product (GDP)"
+      },
+      {
+        "id": "E",
+        "text": "Net Present Value (NPV)"
+      }
+    ],
+    "key": "B",
+    "explanation": "MTTR (Mean Time to Repair) mengukur rata-rata waktu yang dibutuhkan untuk memperbaiki dan memulihkan sistem dari gangguan.",
+    "quickTip": "Rata-rata waktu perbaikan sistem = MTTR."
+  },
+  {
+    "id": "s02_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Evolusi teknologi seluler telah melompat dari 3G (WCDMA), 4G (LTE), hingga generasi kelima (5G NR).",
+    "question": "Karakteristik keunggulan utama teknologi 5G dibandingkan 4G adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya bisa mentransfer pesan teks SMS"
+      },
+      {
+        "id": "B",
+        "text": "Memerlukan antena pemancar sebesar lapangan bola"
+      },
+      {
+        "id": "C",
+        "text": "Latensi amat rendah (ultra-low latency ~1ms) dan throughput data gigabit per detik"
+      },
+      {
+        "id": "D",
+        "text": "Menggunakan kabel tembaga analog"
+      },
+      {
+        "id": "E",
+        "text": "Jarak jangkau satu antena mencapai seluruh benua"
+      }
+    ],
+    "key": "C",
+    "explanation": "5G menawarkan tiga pilar utama: eMBB (throughput tinggi), URLLC (ultra-low latency <1ms), dan mMTC (konektivitas IoT masif).",
+    "quickTip": "Keunggulan 5G: Ultra-low latency (~1ms) & throughput gigabit."
+  },
+  {
+    "id": "s02_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Untuk mengatasi keterbatasan alokasi alamat IPv4 yang telah habis di tingkat global, dunia industri mempercepat migrasi pengalamatan jaringan.",
+    "question": "Standar protokol pengalamatan internet modern yang memiliki panjang 128-bit dan ruang alamat hampir tak terbatas adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "IPv6 (Internet Protocol Version 6)"
+      },
+      {
+        "id": "B",
+        "text": "NetBEUI Microsoft"
+      },
+      {
+        "id": "C",
+        "text": "AppleTalk Phase 2"
+      },
+      {
+        "id": "D",
+        "text": "IPv4 Class D"
+      },
+      {
+        "id": "E",
+        "text": "IPX/SPX Novell"
+      }
+    ],
+    "key": "A",
+    "explanation": "IPv6 menyediakan ruang alamat 128-bit heksadesimal yang mampu menampung miliaran perangkat internet modern.",
+    "quickTip": "Protokol 128-bit pengganti keterbatasan IPv4 = IPv6."
+  },
+  {
+    "id": "s02_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Jaringan telekomunikasi modern memanfaatkan konsep pemisahan antara bidang kendali (Control Plane) dan bidang penerusan data (Data Plane) menggunakan perangkat lunak terpusat.",
+    "question": "Paradigma arsitektur jaringan berbasis perangkat lunak tersebut dikenal sebagai...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dial-Up Networking"
+      },
+      {
+        "id": "B",
+        "text": "Coaxial Bus Architecture"
+      },
+      {
+        "id": "C",
+        "text": "Software-Defined Networking (SDN)"
+      },
+      {
+        "id": "D",
+        "text": "Token Ring Topology"
+      },
+      {
+        "id": "E",
+        "text": "Manual Hub Switching"
+      }
+    ],
+    "key": "C",
+    "explanation": "SDN memisahkan control plane dan data plane serta memungkinkan manajemen jaringan terprogram secara terpusat.",
+    "quickTip": "Pemisahan control plane & data plane terpusat = SDN."
+  },
+  {
+    "id": "s02_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Perangkat sensor suhu, kamera pintar, dan aktuator di rumah dapat saling terhubung ke internet dan mengirimkan data secara otomatis tanpa intervensi manusia.",
+    "question": "Konsep ekosistem perangkat pintar yang saling bertukar data melalui jaringan internet tersebut dinamakan...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Telegraf Sandi Morse"
+      },
+      {
+        "id": "B",
+        "text": "Internet of Things (IoT)"
+      },
+      {
+        "id": "C",
+        "text": "Paging System Konvensional"
+      },
+      {
+        "id": "D",
+        "text": "Radio Antar Penduduk"
+      },
+      {
+        "id": "E",
+        "text": "Mesin Fax Kantor"
+      }
+    ],
+    "key": "B",
+    "explanation": "Internet of Things (IoT) menghubungkan berbagai objek fisik berbasis sensor ke internet untuk pengumpulan dan otomasi data.",
+    "quickTip": "Perangkat fisik berinterkoneksi mengirim data mandiri = Internet of Things (IoT)."
+  },
+  {
+    "id": "s02_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Perusahaan menyewa infrastruktur komputasi berupa virtual machine, penyimpanan, dan jaringan dari penyedia seperti AWS atau Google Cloud tanpa membeli server fisik sendiri.",
+    "question": "Model layanan cloud computing yang menyediakan komponen infrastruktur dasar tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desktop as a Service (DaaS)"
+      },
+      {
+        "id": "B",
+        "text": "Software as a Service (SaaS)"
+      },
+      {
+        "id": "C",
+        "text": "Network as a Cable (NaaC)"
+      },
+      {
+        "id": "D",
+        "text": "Platform as a Service (PaaS)"
+      },
+      {
+        "id": "E",
+        "text": "Infrastructure as a Service (IaaS)"
+      }
+    ],
+    "key": "E",
+    "explanation": "IaaS menyediakan sumber daya komputasi mendasar seperti server virtual, network, dan storage yang dapat dikonfigurasi penyewa.",
+    "quickTip": "Sewa infrastruktur server virtual & jaringan = IaaS."
+  },
+  {
+    "id": "s02_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Dalam prinsip keamanan siber kontemporer, sistem tidak boleh secara otomatis mempercayai siapapun di dalam maupun di luar jaringan sebelum dilakukan verifikasi ketat.",
+    "question": "Prinsip arsitektur keamanan siber yang menerapkan kaidah 'never trust, always verify' disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zero Trust Architecture"
+      },
+      {
+        "id": "B",
+        "text": "Free For All Network"
+      },
+      {
+        "id": "C",
+        "text": "Static Perimeter Only"
+      },
+      {
+        "id": "D",
+        "text": "Open Door Policy"
+      },
+      {
+        "id": "E",
+        "text": "Blind Faith Security"
+      }
+    ],
+    "key": "A",
+    "explanation": "Zero Trust mewajibkan verifikasi identitas dan hak akses secara terus-menerus tanpa mengasumsikan zona aman.",
+    "quickTip": "'Never trust, always verify' = Zero Trust Architecture."
+  },
+  {
+    "id": "s02_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Proses bisnis penyedia jasa internet diatur oleh peraturan pemerintah Republik Indonesia mengenai perlindungan data pribadi pengguna.",
+    "question": "Undang-Undang di Indonesia yang secara resmi mengatur perlindungan data pribadi dan privasi digital pelanggan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "UU Pertambangan Batu Bara"
+      },
+      {
+        "id": "B",
+        "text": "UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)"
+      },
+      {
+        "id": "C",
+        "text": "UU Hak Cipta Musik Tradisional"
+      },
+      {
+        "id": "D",
+        "text": "UU Kepabeanan Barang Impor"
+      },
+      {
+        "id": "E",
+        "text": "UU Lalu Lintas Jalan Raya"
+      }
+    ],
+    "key": "B",
+    "explanation": "UU PDP No. 27/2022 menjadi landasan hukum perlindungan hak privasi dan pengolahan data konsumen di Indonesia.",
+    "quickTip": "Regulasi pelindungan data pribadi di Indonesia = UU PDP (No. 27/2022)."
+  },
+  {
+    "id": "s02_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Ketika ada laporan gangguan dari pelanggan bisnis (Corporate Client), sistem penanganan tiket di ISP mencatat status 'Open', 'In Progress', 'Resolved', hingga 'Closed'.",
+    "question": "Aktivitas meneruskan tiket ke level pimpinan atau tim spesialis jika waktu penanganan melampaui batas toleransi disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pemblokiran Nomor Pelanggan"
+      },
+      {
+        "id": "B",
+        "text": "Eskalasi Tiket (Ticket Escalation)"
+      },
+      {
+        "id": "C",
+        "text": "Penundaan Pekerjaan Otomatis"
+      },
+      {
+        "id": "D",
+        "text": "Penghapusan Tiket Permanen"
+      },
+      {
+        "id": "E",
+        "text": "Pengabaian Keluhan Klien"
+      }
+    ],
+    "key": "B",
+    "explanation": "Eskalasi tiket dilakukan untuk melibatkan personel yang lebih berkompeten jika penanganan melebihi batas waktu (SLA threshold).",
+    "quickTip": "Penerusan tiket gangguan ke level lebih tinggi = Eskalasi Tiket."
+  },
+  {
+    "id": "s02_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Untuk menghubungkan lokasi terpencil dengan pemrosesan latensi rendah, data diproses dekat dengan sumber perangkat bukan dikirim ke cloud terpusat di benua lain.",
+    "question": "Model komputasi terdistribusi yang memproses data di dekat tepi jaringan tersebut dinamakan...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Batch Punch Card"
+      },
+      {
+        "id": "B",
+        "text": "Edge Computing"
+      },
+      {
+        "id": "C",
+        "text": "Centralized Mainframe 1970"
+      },
+      {
+        "id": "D",
+        "text": "Single Core Computing"
+      },
+      {
+        "id": "E",
+        "text": "Floppy Disk Sharing"
+      }
+    ],
+    "key": "B",
+    "explanation": "Edge Computing memproses daya komputasi di dekat sumber data (tepi jaringan) guna mengurangi latensi dan menghemat bandwidth.",
+    "quickTip": "Komputasi di dekat sumber data lokal = Edge Computing."
+  },
+  {
+    "id": "s02_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Penyedia layanan internet membeli kapasitas bandwidth internasional dari operator tier-1 untuk disalurkan kembali kepada pelanggan retail.",
+    "question": "Koneksi interkoneksi bandwidth internet skala besar antar-operator penyedia jasa jaringan tersebut disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel Audio Aux"
+      },
+      {
+        "id": "B",
+        "text": "Tethering Ponsel Pribadi"
+      },
+      {
+        "id": "C",
+        "text": "Bluetooth File Sharing"
+      },
+      {
+        "id": "D",
+        "text": "Voucher Wi-Fi Warnet"
+      },
+      {
+        "id": "E",
+        "text": "IP Transit & Peering"
+      }
+    ],
+    "key": "E",
+    "explanation": "IP Transit dan Peering adalah mekanisme interkoneksi lalu lintas internet antar-penyedia layanan jaringan di Internet Exchange Point (IXP).",
+    "quickTip": "Interkoneksi bandwidth antar-operator ISP = IP Transit & Peering."
+  },
+  {
+    "id": "s02_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Sebuah perusahaan ISP ingin mengukur kepuasan pelanggan terhadap kualitas layanan teknisi pasang baru yang datang ke rumah mereka.",
+    "question": "Metrik survei standar industri untuk mengukur kepuasan pelanggan secara kuantitatif adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Customer Satisfaction Score (CSAT) / Net Promoter Score (NPS)"
+      },
+      {
+        "id": "B",
+        "text": "Berat Kabel Tembaga"
+      },
+      {
+        "id": "C",
+        "text": "Ketinggian Tiang Listrik"
+      },
+      {
+        "id": "D",
+        "text": "Kecepatan Putaran Harddisk"
+      },
+      {
+        "id": "E",
+        "text": "Voltase Arus Petir"
+      }
+    ],
+    "key": "A",
+    "explanation": "CSAT dan NPS adalah metrik baku bisnis untuk menilai kepuasan dan loyalitas pelanggan terhadap kualitas layanan.",
+    "quickTip": "Metrik kepuasan pelanggan = CSAT / NPS."
+  },
+  {
+    "id": "s02_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Pemasangan kabel serat optik bawah tanah di kawasan jalan perkotaan wajib mengantongi izin pemanfaatan ruang milik jalan dari dinas terkait.",
+    "question": "Perizinan pemanfaatan jalur publik jalan untuk infrastruktur utilitas telekomunikasi dikenal sebagai izin...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Right of Way (RoW) / Izin Pemanfaatan Jalur Jalan"
+      },
+      {
+        "id": "B",
+        "text": "Izin Usaha Restoran Cepat Saji"
+      },
+      {
+        "id": "C",
+        "text": "Izin Trayek Bus Kota"
+      },
+      {
+        "id": "D",
+        "text": "Sertifikat Tanah Pertanian"
+      },
+      {
+        "id": "E",
+        "text": "Surat Izin Menembak"
+      }
+    ],
+    "key": "A",
+    "explanation": "Right of Way (RoW) adalah hak dan izin hukum penggunaan lahan publik/jalur jalan untuk menempatkan kabel dan utilitas.",
+    "quickTip": "Izin penempatan kabel di ruang milik jalan = Right of Way (RoW)."
+  },
+  {
+    "id": "s02_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Perangkat jaringan generasi lama masih menggunakan enkripsi transmisi data berbasis teks terbuka (cleartext).",
+    "question": "Protokol manajemen jarak jauh yang telah ditinggalkan karena tidak aman dan digantikan oleh SSH (Secure Shell) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "SFTP (Port 22)"
+      },
+      {
+        "id": "B",
+        "text": "Telnet (Port 23)"
+      },
+      {
+        "id": "C",
+        "text": "SNMPv3"
+      },
+      {
+        "id": "D",
+        "text": "HTTPS (Port 443)"
+      },
+      {
+        "id": "E",
+        "text": "IPsec"
+      }
+    ],
+    "key": "B",
+    "explanation": "Telnet mengirimkan password dan data dalam format teks mentah tanpa enkripsi sehingga sangat rentan terhadap sniffing.",
+    "quickTip": "Remote teks tanpa enkripsi yang digantikan SSH = Telnet."
+  },
+  {
+    "id": "s02_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Di era jaringan terkonvergensi, suara panggilan telepon dialirkan melalui paket protokol internet menggantikan kabel tembaga PSTN konvensional.",
+    "question": "Teknologi transmisi suara berbasis paket IP tersebut dikenal dengan...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Morse Code Audio"
+      },
+      {
+        "id": "B",
+        "text": "Short Message Service (SMS)"
+      },
+      {
+        "id": "C",
+        "text": "AM Radio Broadcast"
+      },
+      {
+        "id": "D",
+        "text": "Gramophone Recording"
+      },
+      {
+        "id": "E",
+        "text": "Voice over IP (VoIP)"
+      }
+    ],
+    "key": "E",
+    "explanation": "VoIP (Voice over IP) mentransmisikan sinyal suara digital dalam bentuk paket data IP melalui jaringan internet.",
+    "quickTip": "Panggilan suara lewat jaringan internet = VoIP."
+  },
+  {
+    "id": "s02_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Untuk menjamin kelangsungan bisnis (Business Continuity) saat terjadi bencana gempa di data center utama, perusahaan menyiapkan fasilitas replikasi sekunder.",
+    "question": "Pusat data cadangan yang siap mengambil alih operasional jika pusat data utama lumpuh disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tempat Parkir Bawah Tanah"
+      },
+      {
+        "id": "B",
+        "text": "Disaster Recovery Center (DRC)"
+      },
+      {
+        "id": "C",
+        "text": "Gudang Kardus Bekas"
+      },
+      {
+        "id": "D",
+        "text": "Pusat Kebugaran Karyawan"
+      },
+      {
+        "id": "E",
+        "text": "Kantin Bersama Lantai 1"
+      }
+    ],
+    "key": "B",
+    "explanation": "DRC (Disaster Recovery Center) adalah fasilitas pusat data sekunder untuk menjamin kelangsungan operasional sistem saat bencana.",
+    "quickTip": "Pusat data cadangan pemulihan bencana = DRC (Disaster Recovery Center)."
+  },
+  {
+    "id": "s02_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Sebuah aplikasi layanan video streaming membutuhkan latensi yang stabil dan jitter rendah agar gambar tidak terputus-putus saat ditonton pengguna.",
+    "question": "Mekanisme pengelolaan prioritas lalu lintas paket data pada router/switch untuk menjamin performa layanan kritis disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Domain Name System (DNS)"
+      },
+      {
+        "id": "B",
+        "text": "Dynamic Host Configuration (DHCP)"
+      },
+      {
+        "id": "C",
+        "text": "Quality of Service (QoS)"
+      },
+      {
+        "id": "D",
+        "text": "Network Time Protocol (NTP)"
+      },
+      {
+        "id": "E",
+        "text": "Address Resolution Protocol (ARP)"
+      }
+    ],
+    "key": "C",
+    "explanation": "QoS (Quality of Service) mengatur alokasi bandwidth, antrean paket, dan prioritas trafik sensitif waktu (video/voice).",
+    "quickTip": "Mekanisme prioritas lalu lintas bandwidth = Quality of Service (QoS)."
+  },
+  {
+    "id": "s02_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Dalam siklus manajemen layanan telekomunikasi, perjanjian tingkat layanan (SLA) mencakup beberapa parameter kuantitatif performa jaringan.",
+    "question": "Manakah parameter teknis di bawah ini yang umumnya diukur dalam kontrak SLA penyedia layanan internet? (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Warna casing luar router pelanggan"
+      },
+      {
+        "id": "B",
+        "text": "Batas maksimal latensi (Round Trip Delay / RTT)"
+      },
+      {
+        "id": "C",
+        "text": "Toleransi tingkat paket hilang (Packet Loss %)"
+      },
+      {
+        "id": "D",
+        "text": "Tingkat ketersediaan jaringan (Network Availability %)"
+      },
+      {
+        "id": "E",
+        "text": "Merk sepatu yang dipakai direktur ISP"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Parameter SLA standar meliputi Availability (%), Latency (ms), Jitter, dan Packet Loss (%).",
+    "quickTip": "Parameter SLA: Availability, Latency, dan Packet Loss."
+  },
+  {
+    "id": "s02_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Teknologi jaringan nirkabel seluler terus berevolusi untuk mendukung kebutuhan interkoneksi data kecepatan tinggi.",
+    "question": "Manakah fitur utama yang diperkenalkan dalam standar jaringan 5G dibandingkan generasi sebelumnya? (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ultra-Reliable Low-Latency Communication (URLLC) untuk respon instan"
+      },
+      {
+        "id": "B",
+        "text": "Hanya mendukung komunikasi teks hitam putih"
+      },
+      {
+        "id": "C",
+        "text": "Enhanced Mobile Broadband (eMBB) untuk kecepatan data multi-gigabit"
+      },
+      {
+        "id": "D",
+        "text": "Wajib menggunakan kabel koaksial analog tebal ke ponsel"
+      },
+      {
+        "id": "E",
+        "text": "Massive Machine Type Communication (mMTC) untuk jutaan sensor IoT"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explanation": "Tiga pilar resmi 5G adalah eMBB, URLLC, dan mMTC.",
+    "quickTip": "Tiga pilar 5G: eMBB, URLLC, dan mMTC."
+  },
+  {
+    "id": "s02_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Penyusunan dokumen teknis As-Built Drawing dilakukan setelah instalasi selesai untuk keperluan audit dan pemeliharaan.",
+    "question": "Komponen informasi penting yang wajib dicantumkan dalam dokumen As-Built Drawing penggelaran fiber optik meliputi... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Daftar menu makanan favorit teknisi selama proyek"
+      },
+      {
+        "id": "B",
+        "text": "Hasil pengukuran redaman aktual (dB) tiap titik sambungan"
+      },
+      {
+        "id": "C",
+        "text": "Koleksi foto selfie pribadi tanpa kaitan teknis"
+      },
+      {
+        "id": "D",
+        "text": "Peta rute riil bentangan kabel dan titik koordinat tiang/manhole"
+      },
+      {
+        "id": "E",
+        "text": "Posisi penempatan ODC, ODP, dan kapasitas core yang digunakan"
+      }
+    ],
+    "key": [
+      "B",
+      "D",
+      "E"
+    ],
+    "explanation": "As-Built Drawing memuat rute kabel aktual, posisi ODC/ODP, alokasi core, dan data redaman terukur.",
+    "quickTip": "Isi As-Built Drawing: Rute aktual, posisi ODC/ODP, dan redaman terukur."
+  },
+  {
+    "id": "s02_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Sistem komputasi awan (Cloud Computing) menawarkan berbagai model penyampaian layanan sesuai kebutuhan arsitektur bisnis.",
+    "question": "Manakah yang merupakan model layanan resmi komputasi awan (Cloud Computing)? (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Software as a Service (SaaS)"
+      },
+      {
+        "id": "B",
+        "text": "Cable as a Service (CaaS Hardware Tembaga)"
+      },
+      {
+        "id": "C",
+        "text": "Platform as a Service (PaaS)"
+      },
+      {
+        "id": "D",
+        "text": "Infrastructure as a Service (IaaS)"
+      },
+      {
+        "id": "E",
+        "text": "Electricity as a Service (EaaS Trafo Gardu)"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "Tiga model standar cloud computing adalah IaaS (infrastruktur), PaaS (platform pengembang), dan SaaS (perangkat lunak siap pakai).",
+    "quickTip": "3 Model Cloud: IaaS, PaaS, dan SaaS."
+  },
+  {
+    "id": "s02_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Manajemen trouble ticket di pusat operasi jaringan (NOC) mengikuti alur terstandarisasi untuk mencegah pelanggaran SLA.",
+    "question": "Langkah-langkah baku yang terdapat dalam penanganan tiket gangguan jaringan adalah... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Verifikasi penyelesaian masalah bersama pelanggan sebelum status tiket ditutup (Closed)"
+      },
+      {
+        "id": "B",
+        "text": "Pencatatan nomor tiket dan identifikasi tingkat keparahan (Severity Level)"
+      },
+      {
+        "id": "C",
+        "text": "Menghapus riwayat tiket dari database untuk menyembunyikan keterlambatan"
+      },
+      {
+        "id": "D",
+        "text": "Eskalasi ke tim teknisi bidang terkait bila tidak tuntas pada batas waktu tertentu"
+      },
+      {
+        "id": "E",
+        "text": "Mematikan sambungan telepon pelanggan yang mengajukan komplain"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "SOP penanganan tiket: Pencatatan & klasifikasi severity, eskalasi tepat waktu, dan konfirmasi pemulihan sebelum tiket di-close.",
+    "quickTip": "Alur tiket: Registrasi severity -> Eskalasi -> Verifikasi & Close."
+  },
+  {
+    "id": "s02_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Perjanjian Service Level Agreement (SLA) memiliki konsekuensi pinalti finansial bagi ISP jika target ketersediaan gagal tercapai.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai penerapan SLA industri telekomunikasi!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Jika downtime melebihi toleransi kontrak SLA, ISP wajib memberikan kompensasi atau pengembalian biaya kepada pelanggan bisnis.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Perhitungan persentase SLA tidak memperhitungkan durasi waktu gangguan sama sekali.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Layanan internet korporat (Dedicated) umumnya memiliki jaminan SLA yang lebih tinggi daripada internet retail rumahan (Best Effort).",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Internet dedicated memiliki SLA ketat dengan kompensasi pinalti bila downtime melebihi batas waktu.",
+    "quickTip": "Dedicated = SLA tinggi + pinalti finansial jika terjadi wanprestasi."
+  },
+  {
+    "id": "s02_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Dalam proses penggelaran jaringan telekomunikasi, tahapan perencanaan menentukan efisiensi anggaran dan keberhasilan konstruksi fisik.",
+    "question": "Tentukan kebenaran dari pernyataan berikut terkait alur kerja proyek jaringan!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Penghitungan Optical Link Budget wajib diselesaikan pada tahap perencanaan sebelum kabel dibeli dan digelar.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Tahap serah terima (handover) dilakukan tanpa perlu menyerahkan dokumen hasil uji redaman.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Izin Right of Way (RoW) dari pemerintah daerah wajib diperoleh sebelum menggali jalur utilitas kabel bawah tanah.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Link budget dan izin RoW mutlak di tahap awal; serah terima proyek wajib melampirkan hasil uji redaman valid.",
+    "quickTip": "Link budget & izin RoW wajib di awal; serah terima wajib bukti uji redaman."
+  },
+  {
+    "id": "s02_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Konsep Zero Trust Architecture merevolusi cara pandang pengamanan infrastruktur jaringan komputer modern.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai prinsip Zero Trust!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Zero Trust menganggap semua lalu lintas data berpotensi berbahaya meskipun berasal dari dalam jaringan kantor sendiri.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Dengan sistem Zero Trust, pengguna hanya perlu login sekali seumur hidup tanpa verifikasi lanjutan.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Otentikasi multi-faktor (MFA) dan inspeksi hak akses berkelanjutan merupakan komponen penting Zero Trust.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Zero Trust tidak mempercayai internal network secara buta dan mewajibkan verifikasi ketat berkelanjutan (MFA/least privilege).",
+    "quickTip": "Zero Trust: Selalu verifikasi (MFA), tidak percaya zona internal otomatis."
+  },
+  {
+    "id": "s02_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "IPv6 diciptakan untuk menggantikan ruang alamat IPv4 yang telah habis di seluruh dunia.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai karakteristik protokol IPv6!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Panjang alamat IPv6 adalah 128-bit yang ditulis dalam format 8 kelompok bilangan heksadesimal.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "IPv6 menggunakan mekanisme broadcast sama persis seperti pada IPv4 untuk mencari alamat MAC.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Metode Dual-Stack memungkinkan perangkat menjalankan protokol IPv4 dan IPv6 secara bersamaan dalam satu kartu jaringan.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "IPv6 menggantikan broadcast dengan multicast (Neighbor Discovery Protocol) dan berukuran 128-bit.",
+    "quickTip": "IPv6 = 128-bit heksadesimal, tanpa broadcast (pakai multicast), mendukung Dual-Stack."
+  },
+  {
+    "id": "s02_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Teknologi Internet of Things (IoT) menghubungkan berbagai perangkat sensor cerdas ke cloud melalui jaringan telekomunikasi.",
+    "question": "Tentukan kebenaran dari pernyataan berikut terkait pemanfaatan IoT di bidang TJKT!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Perangkat IoT memanfaatkan protokol komunikasi ringan seperti MQTT untuk menghemat konsumsi bandwidth dan daya baterai.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Perangkat sensor IoT tidak memerlukan alamat IP sama sekali untuk mengirimkan data ke server internet.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Konektivitas IoT dapat menggunakan teknologi nirkabel berdaya rendah seperti LoRaWAN dan NB-IoT.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Sensor IoT terhubung ke IP network via gateway dan menggunakan protokol efisien seperti MQTT / LoRaWAN.",
+    "quickTip": "IoT: Protokol MQTT efisien, konektivitas LoRaWAN/NB-IoT, terhubung ke internet."
+  }
+]

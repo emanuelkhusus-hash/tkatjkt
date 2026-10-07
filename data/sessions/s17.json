@@ -1,0 +1,950 @@
+[
+  {
+    "id": "s17_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Protokol IPv6 dikembangkan oleh IETF untuk mengatasi masalah habisnya persediaan alamat IPv4 di seluruh dunia.",
+    "question": "Panjang total format bit biner dan representasi penulisan standar pada alamat IPv6 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "32 bit yang ditulis dalam 4 oktet desimal dipisahkan tanda titik"
+      },
+      {
+        "id": "B",
+        "text": "64 bit yang ditulis dalam 8 grup biner dipisahkan tanda koma"
+      },
+      {
+        "id": "C",
+        "text": "128 bit yang ditulis dalam 8 grup heksadesimal 16-bit (hextet) dipisahkan tanda titik dua (:)"
+      },
+      {
+        "id": "D",
+        "text": "256 bit yang ditulis dalam 16 karakter alfabet"
+      },
+      {
+        "id": "E",
+        "text": "1024 bit yang ditulis dalam satu baris teks tanpa spasi"
+      }
+    ],
+    "key": "C",
+    "explanation": "IPv6 memiliki panjang 128 bit, direpresentasikan dalam 8 hextet heksadesimal 16-bit (masing-masing 4 digit heksadesimal 0-F) dipisahkan tanda colon (:).",
+    "quickTip": "Format IPv6 = 128 bit, 8 grup heksadesimal dipisahkan tanda titik dua (:)."
+  },
+  {
+    "id": "s17_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Standar RFC 5952 menetapkan aturan resmi untuk menyingkat penulisan alamat IPv6 agar lebih ringkas dan mudah dibaca.",
+    "question": "Dua aturan utama yang diperbolehkan dalam penyingkatan alamat IPv6 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menggunakan tanda double colon (::) sebanyak mungkin di setiap blok nol"
+      },
+      {
+        "id": "B",
+        "text": "Mengganti tanda titik dua menjadi tanda titik seperti IPv4"
+      },
+      {
+        "id": "C",
+        "text": "Menghapus seluruh angka ganjil dan mengganti semua huruf menjadi huruf besar"
+      },
+      {
+        "id": "D",
+        "text": "Menghapus 4 blok pertama dan hanya menulis 4 blok terakhir"
+      },
+      {
+        "id": "E",
+        "text": "Menghilangkan angka nol di depan (leading zeros) dan mengganti rangkaian blok nol berurutan dengan tanda double colon (::) satu kali saja"
+      }
+    ],
+    "key": "E",
+    "explanation": "Aturan RFC 5952: 1. Hilangkan leading zeros dalam tiap hextet (misal 0042 -> 42), 2. Ganti blok nol berurutan terpanjang dengan '::' (hanya boleh digunakan tepat SATU KALI dalam satu alamat).",
+    "quickTip": "Singkat IPv6: Hapus leading zeros & pakai double colon (::) maksimal 1 kali."
+  },
+  {
+    "id": "s17_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Diberikan sebuah alamat IPv6 lengkap: 2001:0db8:0000:0000:0000:0000:1428:57ab.",
+    "question": "Bentuk penyingkatan yang paling tepat dan sah menurut standar RFC 5952 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "2001::db8::1428:57ab"
+      },
+      {
+        "id": "B",
+        "text": "2001:db8:0::1428:57ab"
+      },
+      {
+        "id": "C",
+        "text": "2001:db8::1428:57ab"
+      },
+      {
+        "id": "D",
+        "text": "2001:db8:0:0:0:0:1428:57ab"
+      },
+      {
+        "id": "E",
+        "text": "2001:0db8::1428:57ab"
+      }
+    ],
+    "key": "C",
+    "explanation": "Leading zero pada '0db8' dihilangkan menjadi 'db8'. Rangkaian 4 blok '0000:0000:0000:0000' dikompresi menjadi '::'. Hasilnya: 2001:db8::1428:57ab.",
+    "quickTip": "2001:0db8:0000:0000:0000:0000:1428:57ab disingkat menjadi 2001:db8::1428:57ab."
+  },
+  {
+    "id": "s17_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Alamat IPv6 publik yang dapat dirutekan secara global di jaringan internet (padanan IP Publik IPv4) disebut Global Unicast Address (GUA).",
+    "question": "Prefix rentang alamat IPv6 Global Unicast Address (GUA) yang dialokasikan oleh IANA saat ini adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "fe80::/10"
+      },
+      {
+        "id": "B",
+        "text": "2000::/3 (rentang heksadesimal 2000:: hingga 3fff::)"
+      },
+      {
+        "id": "C",
+        "text": "ff00::/8"
+      },
+      {
+        "id": "D",
+        "text": "fc00::/7"
+      },
+      {
+        "id": "E",
+        "text": "::1/128"
+      }
+    ],
+    "key": "B",
+    "explanation": "GUA dialokasikan dari blok 2000::/3 (tiga bit pertama '001'), yang mencakup seluruh alamat publik dari 2000:: hingga 3FFF:FFFF:... di internet.",
+    "quickTip": "IPv6 Publik Global (GUA) = Prefix 2000::/3 (diawali angka 2 atau 3)."
+  },
+  {
+    "id": "s17_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Setiap antarmuka perangkat yang mengaktifkan protokol IPv6 secara otomatis menghasilkan sebuah alamat lokal untuk komunikasi dalam satu segmen jaringan fisik.",
+    "question": "Nama tipe alamat IPv6 lokal otomatis tersebut beserta prefix standarnya adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Loopback Address dengan prefix ::1/128"
+      },
+      {
+        "id": "B",
+        "text": "Multicast Address dengan prefix ff00::/8"
+      },
+      {
+        "id": "C",
+        "text": "Global Unicast Address (GUA) dengan prefix 2000::/3"
+      },
+      {
+        "id": "D",
+        "text": "Link-Local Address (LLA) dengan prefix fe80::/10"
+      },
+      {
+        "id": "E",
+        "text": "Unique Local Address (ULA) dengan prefix fc00::/7"
+      }
+    ],
+    "key": "D",
+    "explanation": "Link-Local Address (fe80::/10, rentang fe80:: hingga febf::) wajib ada di setiap antarmuka IPv6 untuk pertukaran paket router discovery dan tetangga lokal (NDP).",
+    "quickTip": "IPv6 Link-Local Address = diawali fe80:: (prefix fe80::/10)."
+  },
+  {
+    "id": "s17_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Alamat IPv6 yang setara dengan alamat IP Privat RFC 1918 pada IPv4 (digunakan di jaringan lokal perusahaan tanpa rute internet publik) adalah...",
+    "question": "Nama tipe alamat IPv6 privat lokal tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unique Local Address (ULA) dengan prefix fc00::/7 (umumnya fd00::/8)"
+      },
+      {
+        "id": "B",
+        "text": "Broadcast Address"
+      },
+      {
+        "id": "C",
+        "text": "Global Unicast Address (GUA)"
+      },
+      {
+        "id": "D",
+        "text": "Anycast Address"
+      },
+      {
+        "id": "E",
+        "text": "Link-Local Address (LLA)"
+      }
+    ],
+    "key": "A",
+    "explanation": "Unique Local Address (ULA) memiliki prefix fc00::/7 (kebanyakan implementasi menggunakan fd00::/8), bertindak sebagai alamat privat internal perusahaan.",
+    "quickTip": "Padanan IP Privat di IPv6 = Unique Local Address (ULA / fd00::/8)."
+  },
+  {
+    "id": "s17_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Pengujian internal terhadap software stack IPv6 pada komputer lokal menggunakan alamat loopback khusus.",
+    "question": "Penulisan alamat Loopback standar pada protokol IPv6 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "fe80::1"
+      },
+      {
+        "id": "B",
+        "text": "2001::1"
+      },
+      {
+        "id": "C",
+        "text": "::1 (atau ::1/128)"
+      },
+      {
+        "id": "D",
+        "text": "127.0.0.1"
+      },
+      {
+        "id": "E",
+        "text": "::0/128"
+      }
+    ],
+    "key": "C",
+    "explanation": "Di IPv6, alamat loopback ditulis sebagai 0000:0000:0000:0000:0000:0000:0000:0001, disingkat menjadi ::1 (padanan 127.0.0.1 pada IPv4).",
+    "quickTip": "Loopback IPv6 = ::1 (atau ::1/128)."
+  },
+  {
+    "id": "s17_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Alamat default route atau rute penampung yang mewakili seluruh alamat internet (padanan 0.0.0.0/0 pada IPv4) dalam format IPv6 adalah...",
+    "question": "Penulisan Default Route pada tabel routing IPv6 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "2000::/0"
+      },
+      {
+        "id": "B",
+        "text": "::/0"
+      },
+      {
+        "id": "C",
+        "text": "::1/128"
+      },
+      {
+        "id": "D",
+        "text": "ffff::/0"
+      },
+      {
+        "id": "E",
+        "text": "fe80::/0"
+      }
+    ],
+    "key": "B",
+    "explanation": "::/0 (unspecified address dengan prefix 0 bit) merepresentasikan seluruh jaringan di tabel routing IPv6 (Gateway of Last Resort).",
+    "quickTip": "Default Route IPv6 = ::/0."
+  },
+  {
+    "id": "s17_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Pada arsitektur IPv6, salah satu jenis komunikasi transmisi paket tradisional telah dihapuskan secara permanen.",
+    "question": "Tipe transmisi paket pada IPv4 yang TIDAK LAGI ADA di dalam protokol IPv6 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Broadcast"
+      },
+      {
+        "id": "B",
+        "text": "Multicast"
+      },
+      {
+        "id": "C",
+        "text": "Point-to-Point"
+      },
+      {
+        "id": "D",
+        "text": "Anycast"
+      },
+      {
+        "id": "E",
+        "text": "Unicast"
+      }
+    ],
+    "key": "A",
+    "explanation": "IPv6 meniadakan Broadcast untuk menghindari pemborosan bandwidth dan gangguan interupsi pada host. Fungsi broadcast digantikan sepenuhnya oleh Multicast dan Anycast.",
+    "quickTip": "IPv6 TIDAK MEMILIKI Broadcast; digantikan oleh Multicast dan Anycast."
+  },
+  {
+    "id": "s17_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Paket IPv6 yang dikirimkan ke satu alamat namun diteruskan oleh jaringan menuju ke antarmuka perangkat terdekat (nearest) yang memiliki alamat tersebut dinamakan...",
+    "question": "Nama tipe alamat IPv6 tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Link-Local Address"
+      },
+      {
+        "id": "B",
+        "text": "APIPA Address"
+      },
+      {
+        "id": "C",
+        "text": "Anycast Address"
+      },
+      {
+        "id": "D",
+        "text": "Loopback Address"
+      },
+      {
+        "id": "E",
+        "text": "Broadcast Address"
+      }
+    ],
+    "key": "C",
+    "explanation": "Anycast menetapkan satu alamat IP yang sama ke beberapa server/router berbeda di berbagai lokasi geografis; paket akan dirutekan ke lokasi terdekat menurut metrik routing.",
+    "quickTip": "Kirim paket ke server terdekat dengan alamat sama = Anycast Address."
+  },
+  {
+    "id": "s17_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Seluruh alamat Multicast pada IPv6 memiliki tanda pengenal blok prefix khusus.",
+    "question": "Prefix standar untuk seluruh alamat Multicast pada protokol IPv6 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "2000::/3"
+      },
+      {
+        "id": "B",
+        "text": "ff00::/8"
+      },
+      {
+        "id": "C",
+        "text": "fe80::/10"
+      },
+      {
+        "id": "D",
+        "text": "::1/128"
+      },
+      {
+        "id": "E",
+        "text": "fc00::/7"
+      }
+    ],
+    "key": "B",
+    "explanation": "Alamat IPv6 yang diawali dengan 'ff' (prefix ff00::/8) adalah alamat Multicast (contoh: ff02::1 untuk all-nodes, ff02::2 untuk all-routers).",
+    "quickTip": "IPv6 Multicast selalu diawali 'ff' (prefix ff00::/8)."
+  },
+  {
+    "id": "s17_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Alamat Multicast IPv6 khusus yang dikirimkan untuk mencapai seluruh perangkat (all nodes) dalam satu link lokal adalah...",
+    "question": "Alamat IPv6 all-nodes multicast tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "ff02::2 (All Routers)"
+      },
+      {
+        "id": "B",
+        "text": "::1"
+      },
+      {
+        "id": "C",
+        "text": "fe80::1"
+      },
+      {
+        "id": "D",
+        "text": "ff02::1"
+      },
+      {
+        "id": "E",
+        "text": "ff02::5 (OSPF Routers)"
+      }
+    ],
+    "key": "D",
+    "explanation": "ff02::1 adalah alamat multicast untuk seluruh node/host di link lokal (padanan lokal dari 255.255.255.255).",
+    "quickTip": "Multicast ke seluruh perangkat lokal (all-nodes) = ff02::1."
+  },
+  {
+    "id": "s17_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Metode otomatis di mana antarmuka membuat alamat IPv6 Link-Local 64-bit Interface ID dari 48-bit MAC Address fisik perangkat dinamakan...",
+    "question": "Nama metode standar IEEE pembuatan Interface ID tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metode DHCPv4 Relay"
+      },
+      {
+        "id": "B",
+        "text": "Metode OSPF Neighbor"
+      },
+      {
+        "id": "C",
+        "text": "Metode NAT Masquerade"
+      },
+      {
+        "id": "D",
+        "text": "Metode EUI-64 (Extended Unique Identifier 64-bit)"
+      },
+      {
+        "id": "E",
+        "text": "Metode CSMA/CD"
+      }
+    ],
+    "key": "D",
+    "explanation": "EUI-64 menyisipkan 16-bit nilai heksadesimal 'FFFE' di tengah 48-bit MAC Address (antara byte ke-3 dan ke-4) dan membalik bit Universal/Local ke-7.",
+    "quickTip": "Membuat Interface ID dari MAC address dengan menyisipkan FFFE = Metode EUI-64."
+  },
+  {
+    "id": "s17_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Pada proses pembentukan Interface ID menggunakan metode EUI-64, nilai heksadesimal 16-bit yang disisipkan di tengah-tengah alamat MAC adalah...",
+    "question": "Nilai heksadesimal sisipan standar EUI-64 tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "0000"
+      },
+      {
+        "id": "B",
+        "text": "FFFF"
+      },
+      {
+        "id": "C",
+        "text": "FFFE (atau FF:FE)"
+      },
+      {
+        "id": "D",
+        "text": "AAAA"
+      },
+      {
+        "id": "E",
+        "text": "1234"
+      }
+    ],
+    "key": "C",
+    "explanation": "EUI-64 menyisipkan FFFE di tengah 48-bit MAC address (misal MAC 00:11:22:33:44:55 menjadi 00:11:22:FF:FE:33:44:55).",
+    "quickTip": "Nilai yang disisipkan pada EUI-64 selalu FFFE."
+  },
+  {
+    "id": "s17_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Pada masa transisi dari IPv4 ke IPv6, terdapat metode di mana perangkat router dan server menjalankan tumpukan protokol IPv4 dan IPv6 secara bersamaan di antarmuka yang sama.",
+    "question": "Nama strategi transisi berdampingan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dual Stack"
+      },
+      {
+        "id": "B",
+        "text": "Tunneling 6to4"
+      },
+      {
+        "id": "C",
+        "text": "Header Stripping"
+      },
+      {
+        "id": "D",
+        "text": "NAT64 / DNS64"
+      },
+      {
+        "id": "E",
+        "text": "Classful Proxy"
+      }
+    ],
+    "key": "A",
+    "explanation": "Dual Stack mengaktifkan stack IPv4 dan IPv6 secara independen dan simultan pada satu perangkat antarmuka, memungkinkan komunikasi lancar ke kedua jenis jaringan.",
+    "quickTip": "Menjalankan IPv4 dan IPv6 bersamaan di satu perangkat = Dual Stack."
+  },
+  {
+    "id": "s17_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Metode transisi di mana paket data IPv6 dibungkus (dienkapsulasi) di dalam paket IPv4 agar dapat melewati jaringan infrastruktur internet lama yang masih berbasis IPv4 disebut...",
+    "question": "Nama metode pembungkusan paket lintas generasi tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tunneling (seperti 6in4, 6to4, atau Teredo)"
+      },
+      {
+        "id": "B",
+        "text": "NAT64"
+      },
+      {
+        "id": "C",
+        "text": "Subnetting VLSM"
+      },
+      {
+        "id": "D",
+        "text": "Dual Stack"
+      },
+      {
+        "id": "E",
+        "text": "MAC Learning"
+      }
+    ],
+    "key": "A",
+    "explanation": "Tunneling membungkus payload paket IPv6 ke dalam header paket IPv4 sehingga router perantara IPv4 dapat meneruskannya sebagai paket IPv4 biasa.",
+    "quickTip": "Paket IPv6 dibungkus di dalam IPv4 melewati jaringan lama = Tunneling."
+  },
+  {
+    "id": "s17_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Metode transisi yang memungkinkan klien murni IPv6 dapat berkomunikasi langsung dengan server yang hanya mendukung IPv4 adalah...",
+    "question": "Nama teknologi translasi protokol antargenerasi tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dual Stack"
+      },
+      {
+        "id": "B",
+        "text": "EUI-64"
+      },
+      {
+        "id": "C",
+        "text": "NAT64 dan DNS64"
+      },
+      {
+        "id": "D",
+        "text": "Spanning Tree"
+      },
+      {
+        "id": "E",
+        "text": "EtherChannel"
+      }
+    ],
+    "key": "C",
+    "explanation": "NAT64 menerjemahkan header IPv6 menjadi IPv4 (dan sebaliknya), bekerja sama dengan DNS64 yang mensintesis rekaman AAAA dari rekaman A IPv4.",
+    "quickTip": "Translasi klien IPv6 ke server IPv4 = NAT64 / DNS64."
+  },
+  {
+    "id": "s17_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Protokol pada IPv6 yang menggantikan fungsi ARP (Address Resolution Protocol) pada IPv4 untuk menemukan MAC Address tetangga dalam satu segmen jaringan adalah...",
+    "question": "Nama protokol penemu tetangga pada IPv6 tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "DHCPv4 Snooping"
+      },
+      {
+        "id": "B",
+        "text": "RARP (Reverse ARP)"
+      },
+      {
+        "id": "C",
+        "text": "NDP (Neighbor Discovery Protocol) berbasis pesan ICMPv6"
+      },
+      {
+        "id": "D",
+        "text": "IGMP Snooping"
+      },
+      {
+        "id": "E",
+        "text": "RIPv2 Routing"
+      }
+    ],
+    "key": "C",
+    "explanation": "NDP memanfaatkan pesan ICMPv6 Neighbor Solicitation (NS) dan Neighbor Advertisement (NA) untuk memetakan alamat link-layer tanpa menggunakan broadcast.",
+    "quickTip": "Pengganti ARP di IPv6 = NDP (Neighbor Discovery Protocol berbasis ICMPv6)."
+  },
+  {
+    "id": "s17_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Fitur pada IPv6 yang memungkinkan perangkat klien mendapatkan alamat IPv6 secara otomatis dari router lokal tanpa membutuhkan server DHCP disebut...",
+    "question": "Nama fitur konfigurasi mandiri tanpa server tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "SLAAC (Stateless Address Autoconfiguration)"
+      },
+      {
+        "id": "B",
+        "text": "Static Manual Assignment"
+      },
+      {
+        "id": "C",
+        "text": "APIPA Fallback"
+      },
+      {
+        "id": "D",
+        "text": "Stateful DHCPv6"
+      },
+      {
+        "id": "E",
+        "text": "WPS Push Button"
+      }
+    ],
+    "key": "A",
+    "explanation": "SLAAC mendengarkan pesan Router Advertisement (RA) dari router lokal untuk memperoleh prefix jaringan, lalu klien membuat Interface ID-nya sendiri secara mandiri.",
+    "quickTip": "Konfigurasi otomatis IPv6 tanpa server DHCP = SLAAC (Stateless Autoconfig)."
+  },
+  {
+    "id": "s17_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Ukuran Minimum Transmission Unit (MTU) terkecil yang diwajibkan oleh standar spesifikasi IPv6 agar paket tidak dipecah sembarangan adalah...",
+    "question": "Batas ukuran MTU minimum wajib pada seluruh link jaringan IPv6 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.280 byte"
+      },
+      {
+        "id": "B",
+        "text": "64 byte"
+      },
+      {
+        "id": "C",
+        "text": "9.000 byte"
+      },
+      {
+        "id": "D",
+        "text": "1.500 byte"
+      },
+      {
+        "id": "E",
+        "text": "576 byte"
+      }
+    ],
+    "key": "A",
+    "explanation": "Spesifikasi IPv6 (RFC 8200) mewajibkan setiap link mendukung MTU minimal 1.280 byte. Router di jalur perantara dilarang melakukan fragmentasi paket (fragmentasi hanya boleh di sisi pengirim).",
+    "quickTip": "MTU minimum wajib pada link IPv6 = 1.280 byte."
+  },
+  {
+    "id": "s17_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Struktur dan format pengalamatan IPv6.",
+    "question": "Manakah pernyataan yang BENAR mengenai karakteristik alamat IPv6? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alamat IPv6 harus selalu ditulis menggunakan huruf kapital saja"
+      },
+      {
+        "id": "B",
+        "text": "Setiap blok hextet pada IPv6 bernilai desimal antara 0 sampai 255"
+      },
+      {
+        "id": "C",
+        "text": "IPv6 memiliki panjang total 128 bit yang terbagi menjadi 8 blok heksadesimal"
+      },
+      {
+        "id": "D",
+        "text": "IPv6 tidak mengenal lagi konsep transmisi paket Broadcast"
+      },
+      {
+        "id": "E",
+        "text": "Tanda double colon (::) hanya boleh digunakan tepat satu kali dalam satu alamat IPv6"
+      }
+    ],
+    "key": [
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "IPv6 memiliki 128 bit, '::' maksimal 1 kali, dan tidak memiliki broadcast. Nilai per hextet adalah 16-bit heksadesimal (0000-FFFF, bukan desimal 0-255). Huruf bisa besar atau kecil (RFC 5952 menyarankan huruf kecil).",
+    "quickTip": "IPv6: 128 bit, 8 hextet, '::' hanya 1 kali, tanpa broadcast."
+  },
+  {
+    "id": "s17_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Klasifikasi tipe alamat IPv6 berdasarkan fungsinya.",
+    "question": "Manakah pasangan antara prefix IPv6 dan fungsinya yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "2000::/3 adalah Global Unicast Address (GUA untuk internet publik)"
+      },
+      {
+        "id": "B",
+        "text": "::1/128 adalah alamat gateway default internet"
+      },
+      {
+        "id": "C",
+        "text": "fc00::/7 adalah Global Broadcast Internet"
+      },
+      {
+        "id": "D",
+        "text": "ff00::/8 adalah Multicast Address"
+      },
+      {
+        "id": "E",
+        "text": "fe80::/10 adalah Link-Local Address (LLA untuk komunikasi satu segmen)"
+      }
+    ],
+    "key": [
+      "A",
+      "D",
+      "E"
+    ],
+    "explanation": "2000::/3 = GUA (publik); fe80::/10 = LLA (lokal); ff00::/8 = Multicast. fc00::/7 adalah Unique Local (privat). ::1/128 adalah Loopback.",
+    "quickTip": "2000::/3 (GUA), fe80::/10 (LLA), ff00::/8 (Multicast)."
+  },
+  {
+    "id": "s17_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Strategi transisi dari jaringan IPv4 menuju jaringan IPv6.",
+    "question": "Manakah metode transisi IPv4 ke IPv6 yang diakui standar industri? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pemotongan kabel fisik menjadi separuh panjang"
+      },
+      {
+        "id": "B",
+        "text": "Tunneling (membungkus paket IPv6 di dalam payload paket IPv4)"
+      },
+      {
+        "id": "C",
+        "text": "Dual Stack (menjalankan IPv4 dan IPv6 secara paralel pada perangkat)"
+      },
+      {
+        "id": "D",
+        "text": "Translation / NAT64 (menerjemahkan header paket IPv6 ke IPv4)"
+      },
+      {
+        "id": "E",
+        "text": "Modulasi Gelombang AM / FM Radio"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Tiga pilar transisi IPv6 adalah Dual Stack, Tunneling (6to4, 6in4, Teredo), dan Translation (NAT64/DNS64).",
+    "quickTip": "Tiga teknik transisi IPv6: Dual Stack, Tunneling, dan Translation (NAT64)."
+  },
+  {
+    "id": "s17_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Penyingkatan alamat IPv6 sesuai standar resmi RFC 5952.",
+    "question": "Manakah contoh penyingkatan alamat IPv6 yang SAH dan benar? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "fe80:0000:0000:0001 disingkat menjadi fe80:1"
+      },
+      {
+        "id": "B",
+        "text": "0000:0000:0000:0000:0000:0000:0000:0000 disingkat menjadi 0"
+      },
+      {
+        "id": "C",
+        "text": "2001:0db8:0000:0000:0001:0000:0000:0001 disingkat menjadi 2001:db8::1::1 (menggunakan dua kali ::)"
+      },
+      {
+        "id": "D",
+        "text": "2001:0db8:0000:0000:0001:0000:0000:0001 disingkat menjadi 2001:db8::1:0:0:1"
+      },
+      {
+        "id": "E",
+        "text": "fe80:0000:0000:0000:0000:0000:0000:0001 disingkat menjadi fe80::1"
+      }
+    ],
+    "key": [
+      "D",
+      "E"
+    ],
+    "explanation": "Tanda '::' hanya boleh dipakai satu kali. Penggunaan '::' dua kali dalam satu alamat adalah kesalahan fatal karena ambigu.",
+    "quickTip": "Dilarang memakai tanda '::' lebih dari satu kali dalam satu alamat IPv6."
+  },
+  {
+    "id": "s17_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Protokol Neighbor Discovery Protocol (NDP) pada IPv6.",
+    "question": "Manakah fungsi yang dijalankan oleh protokol NDP pada IPv6? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menghitung kecepatan putaran hard disk"
+      },
+      {
+        "id": "B",
+        "text": "Menghapus virus di sistem operasi komputer"
+      },
+      {
+        "id": "C",
+        "text": "Menemukan MAC Address tetangga (menggantikan fungsi ARP IPv4)"
+      },
+      {
+        "id": "D",
+        "text": "Membeli paket kuota internet provider secara otomatis"
+      },
+      {
+        "id": "E",
+        "text": "Menemukan router lokal dan memperoleh parameter jaringan (Router Discovery / SLAAC)"
+      }
+    ],
+    "key": [
+      "C",
+      "E"
+    ],
+    "explanation": "NDP bertugas melakukan resolusi alamat MAC tetangga (menggantikan ARP) dan menemukan router default lokal (Router Solicitation / Advertisement).",
+    "quickTip": "NDP menggantikan fungsi ARP dan menangani Router Discovery / SLAAC."
+  },
+  {
+    "id": "s17_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Format dan panjang alamat IPv6.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang IPv6!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "IPv6 memiliki ruang alamat sebesar 128 bit, jauh melampaui kapasitas 32 bit IPv4.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Tanda double colon (::) hanya boleh ditulis maksimal satu kali dalam sebuah alamat IPv6.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Alamat IPv6 ditulis menggunakan angka desimal dari 0 sampai 999.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "IPv6 ditulis dalam format heksadesimal (0 sampai F), bukan desimal.",
+    "quickTip": "IPv6 memakai heksadesimal (0-F) sepanjang 128 bit."
+  },
+  {
+    "id": "s17_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Ketiadaan pesan Broadcast di IPv6.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai tipe transmisi IPv6!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Protokol IPv6 tidak memiliki konsep pengiriman pesan Broadcast.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Fungsi pemanggilan ke seluruh perangkat di IPv6 digantikan oleh mekanisme Multicast all-nodes (ff02::1).",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Alamat broadcast pada IPv6 ditulis dengan notasi ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Tidak ada alamat broadcast di IPv6 sama sekali; ffff:... bukan alamat broadcast.",
+    "quickTip": "IPv6 bebas broadcast; digantikan oleh Multicast."
+  },
+  {
+    "id": "s17_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Penggunaan alamat Link-Local (fe80::/10).",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang Link-Local Address!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Alamat Link-Local selalu diawali dengan prefix fe80::/10.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Alamat Link-Local hanya berlaku dalam satu segmen jaringan lokal dan tidak diteruskan oleh router.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Alamat Link-Local fe80:: dapat digunakan untuk mengakses server Google langsung di internet.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Link-Local tidak dapat dirutekan melintasi router dan tidak bisa digunakan untuk internet publik.",
+    "quickTip": "Link-Local (fe80::) hanya untuk komunikasi lokal satu segmen link."
+  },
+  {
+    "id": "s17_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Metode pembentukan Interface ID menggunakan EUI-64.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang EUI-64!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Metode EUI-64 menyisipkan nilai FFFE di tengah-tengah alamat MAC fisik 48-bit.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Bit ke-7 (Universal/Local bit) dibalik statusnya pada pembentukan EUI-64.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Metode EUI-64 mewajibkan teknisi mengetik password Wi-Fi secara manual.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "EUI-64 adalah algoritma matematis otomatis pembentukan Interface ID dari MAC address hardware.",
+    "quickTip": "EUI-64 otomatis menyisipkan FFFE dan membalik bit ke-7 MAC address."
+  },
+  {
+    "id": "s17_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Strategi transisi Dual Stack IPv4 dan IPv6.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang Dual Stack!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Pada mode Dual Stack, kartu jaringan komputer memiliki konfigurasi alamat IPv4 dan alamat IPv6 sekaligus.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Perangkat Dual Stack dapat berkomunikasi dengan host IPv4 murni maupun host IPv6 murni tanpa konversi header.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Mengaktifkan Dual Stack akan menyebabkan komputer meledak karena korsleting protokol.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Dual Stack adalah metode transisi resmi yang aman dan paling umum diterapkan oleh ISP dan korporasi modern.",
+    "quickTip": "Dual Stack mengoperasikan IPv4 dan IPv6 secara berdampingan tanpa masalah."
+  }
+]

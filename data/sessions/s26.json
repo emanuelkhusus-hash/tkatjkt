@@ -1,0 +1,949 @@
+[
+  {
+    "id": "s26_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Optical Time Domain Reflectometer (OTDR) adalah instrumen pengujian optik paling komprehensif yang digunakan untuk mengaudit dan melacak karakteristik kabel serat optik sepanjang puluhan kilometer.",
+    "question": "Prinsip kerja dasar dari instrumen OTDR dalam menganalisis kabel serat optik adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memanaskan kabel optik dengan oven hingga suhu mendidih"
+      },
+      {
+        "id": "B",
+        "text": "Merekam suara percakapan telepon yang lewat di kabel"
+      },
+      {
+        "id": "C",
+        "text": "Memancarkan pulsa cahaya laser pendek ke dalam serat dan menangkap kembali sinyal hamburan balik (Rayleigh Backscattering) dan pantulan Fresnel terhadap waktu tempuh"
+      },
+      {
+        "id": "D",
+        "text": "Menghubungkan kabel ke sumber listrik arus bolak-balik 220V"
+      },
+      {
+        "id": "E",
+        "text": "Mengukur berat fisik kabel optik menggunakan neraca pegas"
+      }
+    ],
+    "key": "C",
+    "explanation": "OTDR seperti radar optik: mengirim pulsa laser dan menganalisis intensitas cahaya pantul balik (Backscattering & Fresnel reflection) terhadap waktu tempuh untuk memetakan jarak dan redaman.",
+    "quickTip": "Prinsip OTDR = Radar optik berbasis Rayleigh Backscattering dan Fresnel Reflection."
+  },
+  {
+    "id": "s26_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Hamburan balik alami yang terjadi di sepanjang silika serat optik akibat ketidakhomogenan mikroskopis kerapatan molekul kaca disebut...",
+    "question": "Nama fenomena hamburan cahaya yang menjadi dasar pembentukan garis kurva landai pada grafik OTDR adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pantulan Cermin Datar"
+      },
+      {
+        "id": "B",
+        "text": "Hamburan Rayleigh (Rayleigh Backscattering)"
+      },
+      {
+        "id": "C",
+        "text": "Efek Doppler Bunyi"
+      },
+      {
+        "id": "D",
+        "text": "Radiasi Benda Hitam"
+      },
+      {
+        "id": "E",
+        "text": "Induksi Elektromagnetik"
+      }
+    ],
+    "key": "B",
+    "explanation": "Rayleigh Backscattering adalah pantulan balik kontinu dari molekul silika yang membentuk garis miring menurun (atenuasi kontinu) pada grafik jejak OTDR.",
+    "quickTip": "Garis landai kurva OTDR terbentuk dari Hamburan Rayleigh (Rayleigh Backscattering)."
+  },
+  {
+    "id": "s26_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Pantulan cahaya balik yang sangat kuat yang terjadi pada batas pertemuan antara kaca dan medium dengan indeks bias berbeda (seperti konektor mekanik atau ujung kabel terbuka berhadapan dengan udara) disebut...",
+    "question": "Nama jenis pantulan tajam tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dispersi Kromatik"
+      },
+      {
+        "id": "B",
+        "text": "Hamburan Rayleigh"
+      },
+      {
+        "id": "C",
+        "text": "Pantulan Fresnel (Fresnel Reflection)"
+      },
+      {
+        "id": "D",
+        "text": "Atenuasi Macrobending"
+      },
+      {
+        "id": "E",
+        "text": "Absorption Loss"
+      }
+    ],
+    "key": "C",
+    "explanation": "Fresnel Reflection terjadi akibat perbedaan indeks bias drastis (kaca n~1.47 vs udara n=1.0), menghasilkan lonjakan spike tajam ke atas pada grafik kurva OTDR.",
+    "quickTip": "Lonjakan tajam (spike) pada kurva OTDR berasal dari Pantulan Fresnel (Fresnel Reflection)."
+  },
+  {
+    "id": "s26_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Pada kurva pengujian OTDR, terdapat area 'zona buta' di awal kabel tepat setelah konektor peluncur di mana OTDR belum dapat mendeteksi kejadian lain di dekatnya.",
+    "question": "Istilah teknis untuk zona buta pengukuran awal pada instrumen OTDR tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Latency Delay"
+      },
+      {
+        "id": "B",
+        "text": "Active Zone"
+      },
+      {
+        "id": "C",
+        "text": "Dead Zone (Zona Mati)"
+      },
+      {
+        "id": "D",
+        "text": "Collision Domain"
+      },
+      {
+        "id": "E",
+        "text": "Bandwidth Gap"
+      }
+    ],
+    "key": "C",
+    "explanation": "Dead Zone adalah jarak di mana detektor penerima OTDR jenuh (tersilaukan) oleh pantulan Fresnel konektor awal dan membutuhkan waktu untuk pulih.",
+    "quickTip": "Area zona buta pengukuran di awal peluncuran OTDR = Dead Zone."
+  },
+  {
+    "id": "s26_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Dead Zone pada OTDR dibagi menjadi dua jenis spesifikasi: Event Dead Zone (EDZ) dan Attenuation Dead Zone (ADZ).",
+    "question": "Definisi dari Event Dead Zone (EDZ) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Waktu yang dibutuhkan teknisi untuk menyalakan OTDR"
+      },
+      {
+        "id": "B",
+        "text": "Jarak maksimum kabel optik bisa dipasang di dalam tanah"
+      },
+      {
+        "id": "C",
+        "text": "Batas kedalaman galian tanah kabel bawah tanah"
+      },
+      {
+        "id": "D",
+        "text": "Jarak minimum di mana dua kejadian reflektif yang berdekatan masih dapat dideteksi dan dibedakan sebagai dua titik terpisah"
+      },
+      {
+        "id": "E",
+        "text": "Jarak antara tiang telepon pertama ke kantor pusat"
+      }
+    ],
+    "key": "D",
+    "explanation": "Event Dead Zone (EDZ) mengukur resolusi jarak terdekat antara dua event pantulan konektor agar tidak terbaca sebagai satu titik tumpang tindih.",
+    "quickTip": "Event Dead Zone (EDZ) = Jarak minimum untuk membedakan 2 kejadian reflektif berdekatan."
+  },
+  {
+    "id": "s26_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Definisi dari Attenuation Dead Zone (ADZ) pada parameter teknis OTDR adalah...",
+    "question": "Karakteristik yang diukur oleh Attenuation Dead Zone (ADZ) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Daya baterai OTDR saat digunakan di lapangan"
+      },
+      {
+        "id": "B",
+        "text": "Panjang maksimal kabel patch cord di ruang server"
+      },
+      {
+        "id": "C",
+        "text": "Jumlah sambungan yang diizinkan dalam 1 kilometer"
+      },
+      {
+        "id": "D",
+        "text": "Jarak minimum setelah titik reflektif hingga kurva kembali stabil sehingga pengukuran redaman event berikutnya dapat diukur secara akurat"
+      },
+      {
+        "id": "E",
+        "text": "Jarak kabel yang rusak terbakar petir"
+      }
+    ],
+    "key": "D",
+    "explanation": "Attenuation Dead Zone (ADZ) selalu lebih panjang dari EDZ, mengukur kapan kurva pantulan telah kembali turun ke batas garis Rayleigh (biasanya pada titik 0.5 dB) untuk pengukuran loss akurat.",
+    "quickTip": "Attenuation Dead Zone (ADZ) = Jarak hingga kurva stabil untuk mengukur loss secara akurat."
+  },
+  {
+    "id": "s26_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Untuk mengatasi masalah Event Dead Zone pada konektor pertama di ODF saat pengujian awal kabel, teknisi menambahkan gulungan kabel serat optik panjang di antara OTDR dan kabel uji.",
+    "question": "Nama kabel serat optik pengantar (panjang 500m hingga 1 km) yang digunakan sebagai kabel pancingan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel Coaxial RG-6"
+      },
+      {
+        "id": "B",
+        "text": "Launch Cable (Dummy Fiber Box / Kabel Peluncur)"
+      },
+      {
+        "id": "C",
+        "text": "Kabel Listrik Rol Steker"
+      },
+      {
+        "id": "D",
+        "text": "Patch Cord Simplex 1 Meter"
+      },
+      {
+        "id": "E",
+        "text": "Drop Cable FTTH 1-Core"
+      }
+    ],
+    "key": "B",
+    "explanation": "Launch Cable (Dummy Fiber) menempatkan dead zone konektor awal di dalam kotak dummy fiber, sehingga konektor pertama ODF kabel uji dapat terukur karakteristik dan redamannya secara utuh.",
+    "quickTip": "Mengatasi dead zone konektor awal = Menggunakan Launch Cable (Dummy Fiber)."
+  },
+  {
+    "id": "s26_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Saat mengatur parameter OTDR sebelum pengujian, parameter 'Pulse Width' (Lebar Pulsa Laser, diukur dalam satuan nanodetik / mikrodetik) harus disesuaikan.",
+    "question": "Pengaruh penggunaan parameter Pulse Width yang pendek (misalnya 5 ns atau 10 ns) pada hasil pengukuran OTDR adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menghilangkan semua data di memori internal alat"
+      },
+      {
+        "id": "B",
+        "text": "Menghasilkan resolusi pembacaan yang sangat tinggi dengan Dead Zone yang sempit, namun daya jangkau jarak pengukuran menjadi pendek"
+      },
+      {
+        "id": "C",
+        "text": "Membuat layar OTDR menjadi mati seketika"
+      },
+      {
+        "id": "D",
+        "text": "Mengubah kabel single-mode menjadi kabel multi-mode"
+      },
+      {
+        "id": "E",
+        "text": "Menghasilkan jangkauan jarak sangat jauh hingga 200 km"
+      }
+    ],
+    "key": "B",
+    "explanation": "Pulsa pendek menyuntikkan energi sedikit (jarak pendek), namun menghasilkan dead zone sangat sempit dan resolusi detail tinggi untuk mendeteksi event jarak dekat.",
+    "quickTip": "Pulse Width pendek = Resolusi tinggi, dead zone sempit, jarak jangkau pendek."
+  },
+  {
+    "id": "s26_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Jika teknisi ingin menguji kabel backbone antar-kota yang panjangnya mencapai 80 kilometer menggunakan OTDR.",
+    "question": "Pengaturan Pulse Width yang paling tepat dipilih untuk menembus jarak sangat jauh tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pulse Width lebar (misalnya 1.000 ns hingga 10.000 ns / 10 µs)"
+      },
+      {
+        "id": "B",
+        "text": "Pulse Width paling pendek 3 ns"
+      },
+      {
+        "id": "C",
+        "text": "Menyalakan mode VFL senter"
+      },
+      {
+        "id": "D",
+        "text": "Pulse Width 0 ns"
+      },
+      {
+        "id": "E",
+        "text": "Tidak menyetel pulse width sama sekali"
+      }
+    ],
+    "key": "A",
+    "explanation": "Pulsa lebar menginjeksikan energi foton yang masif ke dalam serat sehingga sinyal hamburan balik mampu mencapai jarak puluhan kilometer, meski konsekuensinya dead zone melebar.",
+    "quickTip": "Jarak jauh puluhan km = Pulse Width lebar (1.000 - 10.000 ns)."
+  },
+  {
+    "id": "s26_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Pada grafik kurva (trace) OTDR, terlihat lonjakan spike tajam ke atas yang diikuti penurunan garis kontinu ke arah bawah.",
+    "question": "Jenis kejadian (event) pada jalur serat optik yang diwakili oleh lonjakan spike tajam tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pengisian Daya Baterai"
+      },
+      {
+        "id": "B",
+        "text": "Non-Reflective Event (Sambungan Fusion Splice sempurna)"
+      },
+      {
+        "id": "C",
+        "text": "Atenuasi Alami Kaca Serat Optik"
+      },
+      {
+        "id": "D",
+        "text": "Reflective Event (seperti Konektor Mekanik, Sambungan Mekanik, atau Patch Panel)"
+      },
+      {
+        "id": "E",
+        "text": "Hubung Singkat Arus Listrik"
+      }
+    ],
+    "key": "D",
+    "explanation": "Reflective event timbul karena pantulan Fresnel pada sambungan konektor mekanik (SC/LC/FC), ditandai dengan spike tajam pada kurva.",
+    "quickTip": "Lonjakan spike ke atas pada kurva OTDR = Reflective Event (Konektor Mekanik)."
+  },
+  {
+    "id": "s26_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Pada grafik kurva OTDR, terlihat adanya penurunan garis secara tiba-tiba (seperti anak tangga turun) tanpa adanya lonjakan spike pantulan ke atas sama sekali.",
+    "question": "Jenis kejadian (event) pada serat optik yang ditunjukkan oleh undakan turun tanpa spike tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kecepatan Internet Meningkat"
+      },
+      {
+        "id": "B",
+        "text": "Adaptor Power Supply Rusak"
+      },
+      {
+        "id": "C",
+        "text": "Non-Reflective Event (seperti Sambungan Fusion Splice atau Tekukan Macrobending)"
+      },
+      {
+        "id": "D",
+        "text": "Konektor Mekanik SC yang terlepas"
+      },
+      {
+        "id": "E",
+        "text": "Ujung Terbuka Serat Optik (Fiber End)"
+      }
+    ],
+    "key": "C",
+    "explanation": "Sambungan fusion splice yang dilebur menyatu atau tekukan macrobending menimbulkan redaman (loss) tanpa memantulkan cahaya balik (non-reflective event), terlihat sebagai undakan turun.",
+    "quickTip": "Undakan turun tanpa spike pada kurva OTDR = Non-Reflective Event (Fusion Splice / Bending)."
+  },
+  {
+    "id": "s26_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Di bagian paling ujung kanan grafik kurva OTDR, terlihat lonjakan spike reflektif terakhir yang kemudian garisnya jatuh curam ke bawah menyentuh batas dasar derau (Noise Floor).",
+    "question": "Kejadian fisik pada kabel yang diidentifikasi oleh akhir kurva tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Modul SFP Pemancar Aktif"
+      },
+      {
+        "id": "B",
+        "text": "Fiber End (Ujung Akhir Kabel atau Titik Putus Kabel Total)"
+      },
+      {
+        "id": "C",
+        "text": "Konektor Patch Panel Pertama"
+      },
+      {
+        "id": "D",
+        "text": "Kabel Grounding Tanah"
+      },
+      {
+        "id": "E",
+        "text": "Sambungan Fusion Splice Pertama"
+      }
+    ],
+    "key": "B",
+    "explanation": "Ujung akhir kabel yang berhadapan dengan udara menghasilkan pantulan Fresnel besar terakhir (4% refleksi), menandai total panjang bentangan kabel atau lokasi titik kabel putus.",
+    "quickTip": "Spike terakhir yang jatuh ke noise floor = Fiber End (Ujung kabel atau titik kabel putus)."
+  },
+  {
+    "id": "s26_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Untuk membedakan apakah sebuah non-reflective event pada kurva OTDR disebabkan oleh sambungan fusion splice atau oleh tekukan kabel (macrobending).",
+    "question": "Metode pengujian cerdas yang dilakukan teknisi dengan memanfaatkan dua panjang gelombang adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membandingkan kurva pada panjang gelombang 1310 nm dan 1550 nm; jika redaman melonjak drastis pada 1550 nm maka itu adalah Macrobending"
+      },
+      {
+        "id": "B",
+        "text": "Mencuci kabel optik dengan air panas"
+      },
+      {
+        "id": "C",
+        "text": "Mengganti kabel serat optik dengan kabel tembaga"
+      },
+      {
+        "id": "D",
+        "text": "Mematikan OTDR dan meniup kabel optik"
+      },
+      {
+        "id": "E",
+        "text": "Menghubungkan kabel ke soket stopkontak listrik"
+      }
+    ],
+    "key": "A",
+    "explanation": "Panjang gelombang 1550 nm jauh lebih sensitif terhadap tekukan dibanding 1310 nm. Jika redaman di titik yang sama bernilai 0.05 dB pada 1310 nm tetapi melonjak jadi 2.5 dB pada 1550 nm, itu dipastikan Macrobending.",
+    "quickTip": "Mendeteksi Bending: Bandingkan 1310 vs 1550 nm; redaman pada 1550 nm akan melonjak drastis."
+  },
+  {
+    "id": "s26_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Pada pengukuran OTDR, terkadang di titik sambungan fusion grafik justru tampak 'naik' ke atas (terlihat seolah-olah terjadi penguatan daya atau Gain).",
+    "question": "Penyebab fenomena 'Virtual Gainer' yang tampak aneh pada kurva OTDR tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Terdapat penguat amplifier tenaga nuklir di dalam kabel"
+      },
+      {
+        "id": "B",
+        "text": "Kabel terkena sambaran petir saat diuji"
+      },
+      {
+        "id": "C",
+        "text": "Mesin splicer menambahkan daya baterai ke dalam kaca"
+      },
+      {
+        "id": "D",
+        "text": "Penyambungan dua kabel serat optik yang memiliki koefisien hamburan balik (Backscatter Coefficient) berbeda"
+      },
+      {
+        "id": "E",
+        "text": "Cahaya laser memantul kembali dari masa depan"
+      }
+    ],
+    "key": "D",
+    "explanation": "Jika serat kedua memiliki koefisien hamburan balik lebih besar daripada serat pertama, sinyal pantul yang kembali ke OTDR meningkat, menghasilkan ilusi 'gainer'.",
+    "quickTip": "Fenomena Gainer (kurva tampak naik) timbul karena perbedaan koefisien hamburan balik dua serat."
+  },
+  {
+    "id": "s26_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Untuk menghilangkan kesalahan pembacaan fenomena 'Gainer' dan memperoleh nilai redaman sambungan yang sebenarnya.",
+    "question": "Metode pengukuran OTDR standar yang wajib dilakukan teknisi adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Melakukan pengujian dua arah (Bi-Directional Testing) dari kedua ujung kabel lalu merata-ratakan nilai redamannya"
+      },
+      {
+        "id": "B",
+        "text": "Mengganti OTDR dengan LAN tester baterai 9V"
+      },
+      {
+        "id": "C",
+        "text": "Mengurangi nilai pembacaan dengan angka 100 secara acak"
+      },
+      {
+        "id": "D",
+        "text": "Menonaktifkan layar monitor OTDR"
+      },
+      {
+        "id": "E",
+        "text": "Memotong kabel di titik gainer dan membuangnya"
+      }
+    ],
+    "key": "A",
+    "explanation": "Bi-directional measurement menguji dari Titik A ke B (misal terbaca -0.1 dB gainer) dan dari Titik B ke A (terbaca +0.3 dB loss). Nilai riil = (-0.1 + 0.3)/2 = +0.1 dB loss sejati.",
+    "quickTip": "Mengatasi fenomena Gainer = Pengujian dua arah (Bi-Directional Average)."
+  },
+  {
+    "id": "s26_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Indeks Bias Inti (Index of Refraction / IOR atau Group Index) merupakan parameter penting yang harus dimasukkan ke dalam pengaturan OTDR sebelum pengetesan.",
+    "question": "Akibat yang terjadi jika teknisi salah memasukkan nilai IOR pada pengaturan instrumen OTDR adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Panjang gelombang laser otomatis berubah menjadi sinar rontgen"
+      },
+      {
+        "id": "B",
+        "text": "Perhitungan jarak lokasi kejadian (Distance Measurement) pada kabel menjadi tidak akurat (terjadi pergeseran meter/kilometer)"
+      },
+      {
+        "id": "C",
+        "text": "Kabel serat optik akan meleleh terbakar"
+      },
+      {
+        "id": "D",
+        "text": "Baterai OTDR akan habis dalam hitungan detik"
+      },
+      {
+        "id": "E",
+        "text": "OTDR tidak dapat memancarkan cahaya laser sama sekali"
+      }
+    ],
+    "key": "B",
+    "explanation": "Jarak pada OTDR dihitung dari rumus d = (c * t) / (2 * IOR). Jika IOR salah, perhitungan jarak lokasi event/kabel putus akan meleset dari lokasi riil di lapangan.",
+    "quickTip": "Nilai IOR yang salah menyebabkan perhitungan jarak meter/kilometer meleset."
+  },
+  {
+    "id": "s26_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Nilai standar Indeks Bias (IOR) untuk serat optik Single-Mode silika (ITU-T G.652D) pada panjang gelombang 1310 nm biasanya bernilai sekitar...",
+    "question": "Nilai tipikal parameter IOR untuk serat optik silika standar adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "1,0000 (Indeks bias ruang hampa)"
+      },
+      {
+        "id": "B",
+        "text": "2,4200 (Indeks bias intan berlian)"
+      },
+      {
+        "id": "C",
+        "text": "10,500"
+      },
+      {
+        "id": "D",
+        "text": "Sekitar 1,4670 hingga 1,4685"
+      },
+      {
+        "id": "E",
+        "text": "0,5000"
+      }
+    ],
+    "key": "D",
+    "explanation": "Indeks bias silika kaca serat optik Single-Mode standar berkisar di angka 1.467 pada 1310 nm dan 1.468 pada 1550 nm.",
+    "quickTip": "Nilai tipikal IOR kaca serat optik = sekitar 1.468."
+  },
+  {
+    "id": "s26_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Sebuah link kabel optik yang diuji dengan OTDR menunjukkan bahwa dari total panjang 15 kilometer, pada jarak meter ke-4.250 terdapat lonjakan reflektif tajam diikuti noise floor.",
+    "question": "Tindakan perbaikan di lapangan yang harus dilakukan tim pemeliharaan jaringan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengubah konfigurasi alamat IP router menjadi IPv6"
+      },
+      {
+        "id": "B",
+        "text": "Mengganti server komputer pelanggan"
+      },
+      {
+        "id": "C",
+        "text": "Menyalakan AC pendingin di ruang sentral lebih dingin"
+      },
+      {
+        "id": "D",
+        "text": "Mengarahkan tim teknisi lapangan menuju titik fisik koordinat 4,25 km dari sentral untuk memperbaiki kabel yang putus (Fiber Cut)"
+      },
+      {
+        "id": "E",
+        "text": "Mengganti seluruh kabel dari kilometer 0 hingga kilometer 15"
+      }
+    ],
+    "key": "D",
+    "explanation": "OTDR secara presisi menunjukkan bahwa kabel terputus (fiber cut) di jarak 4.250 meter, sehingga tim teknisi lapangan cukup mencari titik galian/tiang di jarak tersebut untuk disambung ulang.",
+    "quickTip": "OTDR menuntun teknisi tepat ke titik lokasi kabel putus di lapangan."
+  },
+  {
+    "id": "s26_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Tingkat kemiringan garis kurva kontinu Rayleigh pada grafik OTDR menggambarkan besarnya koefisien redaman kabel per kilometer.",
+    "question": "Kemiringan garis kurva kabel Single-Mode yang normal dan sehat pada pengujian panjang gelombang 1310 nm adalah sekitar...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menurun sekitar 0,33 sampai 0,35 dB per kilometer"
+      },
+      {
+        "id": "B",
+        "text": "Menurun 20,0 dB per kilometer"
+      },
+      {
+        "id": "C",
+        "text": "Garis mendatar lurus sempurna tanpa penurunan (0 dB/km)"
+      },
+      {
+        "id": "D",
+        "text": "Menurun 5,0 dB per kilometer"
+      },
+      {
+        "id": "E",
+        "text": "Garis menanjak naik ke atas"
+      }
+    ],
+    "key": "A",
+    "explanation": "Koefisien redaman alami silika G.652D pada 1310 nm adalah ~0.35 dB/km, terlihat sebagai garis miring menurun perlahan pada grafik OTDR.",
+    "quickTip": "Kemiringan kurva normal SMF pada 1310 nm = sekitar 0.35 dB/km."
+  },
+  {
+    "id": "s26_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Teknisi ingin menyimpan dan mencetak laporan pengujian kurva OTDR untuk diserahkan sebagai dokumen As-Built Drawing kepada pemilik proyek.",
+    "question": "Format file standar internasional yang digunakan secara universal untuk menyimpan rekaman data jejak kurva OTDR adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Format Audio Lagu (.MP3)"
+      },
+      {
+        "id": "B",
+        "text": "Format Gambar JPEG (.JPG)"
+      },
+      {
+        "id": "C",
+        "text": "Format File Telcordia/Bellcore (.SOR)"
+      },
+      {
+        "id": "D",
+        "text": "Format Eksekusi Aplikasi (.EXE)"
+      },
+      {
+        "id": "E",
+        "text": "Format Dokumen Teks (.TXT)"
+      }
+    ],
+    "key": "C",
+    "explanation": "Standar Bellcore/Telcordia SR-4731 mendefinisikan format file data jejak optik universal `.SOR` (Standard Optical Record) yang dapat dibuka di semua software analisa OTDR.",
+    "quickTip": "Format file standar industri kurva jejak OTDR = .SOR (Bellcore/Telcordia)."
+  },
+  {
+    "id": "s26_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Prinsip pemantulan dan hamburan cahaya yang menjadi dasar pembacaan instrumen OTDR.",
+    "question": "Manakah dua fenomena fisis yang dianalisis oleh OTDR untuk membentuk kurva grafik? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pantulan Fresnel (Fresnel Reflection) yang membentuk lonjakan spike pada konektor dan ujung kabel"
+      },
+      {
+        "id": "B",
+        "text": "Induksi Gelombang Radio FM"
+      },
+      {
+        "id": "C",
+        "text": "Radiasi Nuklir Peluruhan Uranium"
+      },
+      {
+        "id": "D",
+        "text": "Hamburan Rayleigh (Rayleigh Backscattering) yang membentuk garis landai atenuasi kontinu"
+      },
+      {
+        "id": "E",
+        "text": "Pemanasan Termal Gesekan Angin"
+      }
+    ],
+    "key": [
+      "A",
+      "D"
+    ],
+    "explanation": "OTDR menganalisis Rayleigh Backscattering (hamburan balik molekuler kontinu) dan Fresnel Reflection (pantulan bidang batas indeks bias).",
+    "quickTip": "Dua pilar sinyal OTDR: Rayleigh Backscattering dan Fresnel Reflection."
+  },
+  {
+    "id": "s26_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Jenis-jenis kejadian (Events) yang teridentifikasi pada kurva jejak OTDR.",
+    "question": "Manakah pasangan antara tampilan grafik kurva OTDR dan jenis kejadiannya yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Layar berkedip warna warni = Virus komputer sedang menyerang"
+      },
+      {
+        "id": "B",
+        "text": "Spike tajam terakhir yang jatuh curam ke noise floor = Fiber End (ujung kabel atau kabel putus)"
+      },
+      {
+        "id": "C",
+        "text": "Garis landai menurun = Tabrakan paket data Layer 2"
+      },
+      {
+        "id": "D",
+        "text": "Undakan turun tanpa lonjakan spike = Non-Reflective Event (fusion splice atau macrobending)"
+      },
+      {
+        "id": "E",
+        "text": "Lonjakan spike tajam ke atas = Reflective Event (konektor mekanik atau mechanical splice)"
+      }
+    ],
+    "key": [
+      "B",
+      "D",
+      "E"
+    ],
+    "explanation": "Reflective = spike konektor; Non-reflective = undakan splice/bending; Fiber end = akhir bentangan kabel.",
+    "quickTip": "Kurva OTDR: Spike (Konektor), Undakan turun (Splice/Bending), Jatuh curam (Fiber End)."
+  },
+  {
+    "id": "s26_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Parameter konfigurasi utama pada instrumen OTDR yang harus diatur sebelum memulai pengujian.",
+    "question": "Manakah parameter yang HARUS DIATUR teknisi pada menu instrumen OTDR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jarak Rentang Pengukuran (Range / Distance Range)"
+      },
+      {
+        "id": "B",
+        "text": "Lebar Pulsa (Pulse Width, misal 10 ns hingga 10 µs)"
+      },
+      {
+        "id": "C",
+        "text": "Kecepatan Mengetik Keyboard"
+      },
+      {
+        "id": "D",
+        "text": "Tinggi Badan Teknisi Penguji"
+      },
+      {
+        "id": "E",
+        "text": "Panjang Gelombang (Wavelength, misal 1310 nm atau 1550 nm)"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "E"
+    ],
+    "explanation": "Parameter utama setup OTDR: Wavelength (1310/1550nm), Pulse Width (durasi pulsa laser), Range (jarak ukur), IOR (indeks bias), dan Averaging Time.",
+    "quickTip": "Parameter setup OTDR: Wavelength, Pulse Width, Range, IOR, dan Waktu Ukur."
+  },
+  {
+    "id": "s26_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Fungsi dan peran penggunaan Launch Cable (Dummy Fiber Box) pada pengukuran OTDR.",
+    "question": "Manakah manfaat dari penggunaan Launch Cable pada pengujian OTDR? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menghilangkan kebutuhan baterai pada OTDR"
+      },
+      {
+        "id": "B",
+        "text": "Mengeliminasi dampak Event Dead Zone pada konektor pertama sehingga konektor awal kabel uji dapat diukur utuh"
+      },
+      {
+        "id": "C",
+        "text": "Mengubah kabel single-mode menjadi kabel tembaga LAN"
+      },
+      {
+        "id": "D",
+        "text": "Menambah kecepatan internet pelanggan menjadi tidak terbatas"
+      },
+      {
+        "id": "E",
+        "text": "Memungkinkan pengukuran kualitas dan nilai redaman insertion loss konektor input ODF"
+      }
+    ],
+    "key": [
+      "B",
+      "E"
+    ],
+    "explanation": "Launch cable (500m-1km) merelokasi dead zone OTDR ke dalam kotak peluncur sehingga konektor pertama kabel uji dapat dianalisis secara akurat.",
+    "quickTip": "Launch Cable mengatasi dead zone awal dan mengukur konektor pertama ODF."
+  },
+  {
+    "id": "s26_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Metode pembedaan antara cacat sambungan Fusion Splice dengan cacat Tekukan Macrobending menggunakan OTDR.",
+    "question": "Manakah pernyataan yang BENAR mengenai analisis bending pada OTDR? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tekukan macrobending tidak akan terdeteksi sama sekali pada panjang gelombang 1550 nm"
+      },
+      {
+        "id": "B",
+        "text": "Pengujian dilakukan dengan membandingkan kurva pada dua panjang gelombang: 1310 nm dan 1550 nm"
+      },
+      {
+        "id": "C",
+        "text": "Sambungan fusion splice normal akan selalu menghasilkan redaman 50 dB pada 1310 nm"
+      },
+      {
+        "id": "D",
+        "text": "Cahaya 1550 nm kebal terhadap semua jenis tekukan kabel"
+      },
+      {
+        "id": "E",
+        "text": "Jika pada titik yang sama redaman melonjak jauh lebih besar pada 1550 nm dibanding pada 1310 nm, maka kejadian tersebut adalah Macrobending"
+      }
+    ],
+    "key": [
+      "B",
+      "E"
+    ],
+    "explanation": "Macrobending sangat sensitif terhadap panjang gelombang yang lebih panjang (1550 nm). Perbedaan redaman drastis antara 1310 nm dan 1550 nm memastikan adanya tekukan kabel.",
+    "quickTip": "Identifikasi Macrobending: Redaman pada 1550 nm jauh lebih besar daripada 1310 nm."
+  },
+  {
+    "id": "s26_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Prinsip kerja radar optik pada instrumen OTDR.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai OTDR!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "OTDR memetakan jalur kabel optik berdasarkan analisis waktu tempuh pulsa laser pantul balik.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "OTDR dapat menunjukkan jarak presisi lokasi kabel yang putus dari sentral pengujian.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "OTDR bekerja dengan cara memancarkan gelombang suara ultrasonik ke dalam kabel tembaga.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "OTDR adalah instrumen optik berbasis pulsa cahaya laser ke dalam serat kaca, bukan gelombang ultrasonik tembaga.",
+    "quickTip": "OTDR adalah instrumen radar pulsa laser optik ke dalam serat kaca."
+  },
+  {
+    "id": "s26_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Konsep Dead Zone pada pembacaan instrumen OTDR.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang Dead Zone!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Event Dead Zone adalah jarak minimum untuk membedakan dua pantulan reflektif berdekatan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Penggunaan Launch Cable (Dummy Fiber) dapat membantu mengatasi dead zone pada konektor awal kabel uji.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Semakin lebar Pulse Width yang digunakan, maka Dead Zone pada OTDR akan menjadi semakin sempit.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Semakin LEBAR pulse width, maka Dead Zone akan semakin LEBAR (panjang). Untuk mempersempit dead zone, gunakan pulse width pendek.",
+    "quickTip": "Pulse width lebar membuat dead zone semakin lebar; pulse width pendek mempersempit dead zone."
+  },
+  {
+    "id": "s26_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Analisis bentuk grafik kurva (trace) pada OTDR.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang kurva OTDR!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Konektor mekanik ditandai dengan lonjakan spike reflektif tajam ke atas pada kurva.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Sambungan fusion splice yang baik ditandai dengan undakan penurunan garis tanpa spike pantulan.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Ujung akhir kabel yang putus ditandai dengan kurva yang terus menanjak naik ke atas tanpa henti.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Ujung kabel yang putus ditandai dengan spike reflektif terakhir yang langsung jatuh curam ke bawah menyentuh noise floor.",
+    "quickTip": "Ujung kabel putus ditandai kurva yang jatuh curam menyentuh noise floor."
+  },
+  {
+    "id": "s26_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Fenomena Virtual Gainer pada pengukuran sambungan serat optik.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang fenomena Gainer!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Fenomena Gainer terjadi saat dua serat yang memiliki koefisien backscattering berbeda disambungkan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Pengujian dua arah (Bi-Directional Testing) dan merata-ratakan nilai redaman adalah solusi standar untuk mengatasi gainer.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Fenomena Gainer membuktikan bahwa kabel serat optik dapat menghasilkan energi listrik gratis.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Gainer hanyalah ilusi optik pembacaan instrumen akibat perbedaan kerapatan molekul hamburan silika dua pabrikan serat.",
+    "quickTip": "Gainer adalah efek perbedaan hamburan silika; diatasi dengan pengukuran dua arah (bi-directional)."
+  },
+  {
+    "id": "s26_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Pengaruh pengaturan parameter Indeks Bias (IOR).",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai IOR pada OTDR!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Nilai parameter IOR yang tepat diperlukan agar perhitungan jarak meter lokasi kejadian akurat.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Format file standar internasional untuk menyimpan rekaman kurva jejak OTDR adalah format .SOR.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Mengubah nilai IOR pada menu OTDR akan merubah panjang fisik kabel di lapangan secara otomatis.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Panjang fisik kabel nyata tidak berubah; yang berubah hanyalah hasil perhitungan kalkulasi jarak pada software OTDR.",
+    "quickTip": "Pengaturan IOR mengatur akurasi kalkulasi jarak software OTDR, bukan mengubah fisik kabel."
+  }
+]

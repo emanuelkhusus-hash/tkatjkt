@@ -1,0 +1,950 @@
+[
+  {
+    "id": "s28_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Penyedia layanan internet (ISP) terikat kontrak Service Level Agreement (SLA) 99.5% ketersediaan layanan jaringan per bulan dengan klien perbankan.",
+    "question": "Jika dalam satu bulan (720 jam) terjadi gangguan total selama 8 jam, apakah SLA 99.5% tersebut tercapai?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tidak tercapai, karena toleransi downtime maksimal pada SLA 99.5% adalah 3.6 jam per bulan (ketersediaan riil hanya 98.88%)"
+      },
+      {
+        "id": "B",
+        "text": "Tercapai, asalkan teknisi meminta maaf secara tertulis"
+      },
+      {
+        "id": "C",
+        "text": "Tercapai, karena 8 jam masih di bawah batas toleransi 24 jam"
+      },
+      {
+        "id": "D",
+        "text": "SLA tidak ada hubungannya dengan durasi waktu gangguan"
+      },
+      {
+        "id": "E",
+        "text": "Tercapai, karena gangguan terjadi di malam hari"
+      }
+    ],
+    "key": "A",
+    "explanation": "Downtime maksimal pada SLA 99.5% per bulan (720 jam) adalah (100% - 99.5%) x 720 jam = 0.005 x 720 = 3.6 jam. Downtime 8 jam melanggar batas SLA.",
+    "quickTip": "SLA 99.5% batas downtime maksimal hanya 3.6 jam per bulan."
+  },
+  {
+    "id": "s28_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Dua teknisi tower sedang melakukan instalasi antena radio Point-to-Point di puncak menara SST setinggi 45 meter. Tiba-tiba terdengar suara gemuruh petir dan mendung hitam pekat mendekat.",
+    "question": "Tindakan K3 yang PALING TEPAT dan wajib segera diambil oleh teknisi di ketinggian adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Terus melanjutkan pekerjaan hingga antena terpasang selesai"
+      },
+      {
+        "id": "B",
+        "text": "Membuka seluruh pakaian dan helm pengaman"
+      },
+      {
+        "id": "C",
+        "text": "Segera menghentikan seluruh pekerjaan dan turun dari menara menuju tempat perlindungan yang aman di darat sebelum hujan dan petir melanda"
+      },
+      {
+        "id": "D",
+        "text": "Berlindung di bawah payung besi di atas puncak menara"
+      },
+      {
+        "id": "E",
+        "text": "Berpegangan erat pada ujung tiang penangkal petir menara"
+      }
+    ],
+    "key": "C",
+    "explanation": "SOP K3 Ketinggian mewajibkan evakuasi turun seketika saat cuaca buruk (hujan/petir/angin kencang) karena menara baja adalah sasaran utama sambaran petir.",
+    "quickTip": "Cuaca buruk/petir mendekat saat di tower: Segera hentikan pekerjaan dan turun evakuasi!"
+  },
+  {
+    "id": "s28_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Sebuah link radio nirkabel Point-to-Point 5 GHz antar-gedung berjarak 3 km yang semula memiliki throughput 150 Mbps tiba-tiba anjlok menjadi 10 Mbps saat jam kerja sibuk, dengan sinyal RSSI tetap kuat (-55 dBm).",
+    "question": "Penyebab paling mungkin dari penurunan drastis performa nirkabel tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Komputer klien terlalu banyak membuka file Microsoft Excel"
+      },
+      {
+        "id": "B",
+        "text": "Terjadi Co-Channel Interference yang parah akibat adanya pemancar radio lain di sekitar lokasi yang menggunakan frekuensi kanal yang sama persis"
+      },
+      {
+        "id": "C",
+        "text": "Warna cat antena radio pudar terkena sinar matahari"
+      },
+      {
+        "id": "D",
+        "text": "Ketinggian menara radio berkurang akibat gravitasi bumi"
+      },
+      {
+        "id": "E",
+        "text": "Kabel listrik PLN di gedung mengalami kenaikan voltase"
+      }
+    ],
+    "key": "B",
+    "explanation": "Sinyal RSSI kuat namun throughput anjlok dan noise tinggi adalah gejala klasik interferensi kanal (Co-Channel Interference). Solusinya adalah memindai frekuensi (frequency scan) dan berpindah ke kanal bersih.",
+    "quickTip": "Sinyal kuat tapi throughput anjlok drastis = Interferensi kanal frekuensi yang bertumpuk."
+  },
+  {
+    "id": "s28_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Pada penarikan kabel drop optik FTTH ke rumah pelanggan sepanjang 120 meter, setelah selesai dipasang lampu LOS pada modem ONT berkedip merah. Pengukuran OPM di roset terbaca -34 dBm, padahal di port ODP tiang terukur -19 dBm.",
+    "question": "Perbedaan redaman sebesar 15 dB pada kabel drop 120 meter tersebut kemungkinan besar disebabkan oleh...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Warna jaket hitam kabel drop menyerap terlalu banyak panas"
+      },
+      {
+        "id": "B",
+        "text": "Kabel drop mengalami tekukan tajam (macrobending) saat diikat kencang pada tiang atau terjepit sudut kusen pintu"
+      },
+      {
+        "id": "C",
+        "text": "Modem ONT pelanggan belum dibayar biaya langganannya"
+      },
+      {
+        "id": "D",
+        "text": "Panjang kabel 120 meter terlalu panjang melebihi kapasitas optik"
+      },
+      {
+        "id": "E",
+        "text": "Kabel drop terkena hembusan angin sepoi-sepoi di tiang"
+      }
+    ],
+    "key": "B",
+    "explanation": "Kabel sepanjang 120m seharusnya hanya memiliki loss kabel ~0.04 dB. Selisih 15 dB membuktikan terjadi macrobending ekstrem (terjepit/tertekuk tajam) atau sambungan konektor rusak.",
+    "quickTip": "Redaman drop cable melonjak 15 dB menandakan kabel tertekuk tajam (macrobending) atau terjepit."
+  },
+  {
+    "id": "s28_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Laboratorium komputer sekolah mengalami insiden di mana semua komputer tiba-tiba kehilangan koneksi internet dan mendapatkan alamat IP aneh `192.168.100.x` dengan gateway `192.168.100.1`, padahal server sekolah menggunakan segmen `10.10.1.x`.",
+    "question": "Penyebab insiden jaringan tersebut dan langkah pencegahan teknis yang paling tepat pada switch adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sistem operasi Windows kadaluarsa; solusinya menginstal ulang semua PC"
+      },
+      {
+        "id": "B",
+        "text": "Konektor RJ-45 kotor; solusinya mencuci switch dengan air sabun"
+      },
+      {
+        "id": "C",
+        "text": "Ada siswa yang mencolokkan router Wi-Fi pribadi (Rogue DHCP Server); mitigasinya adalah mengaktifkan fitur DHCP Snooping pada switch"
+      },
+      {
+        "id": "D",
+        "text": "Server Linux sekolah terkena petir; solusinya mematikan genset"
+      },
+      {
+        "id": "E",
+        "text": "Kabel backbone fiber optik putus; solusinya mengganti kabel dengan tembaga"
+      }
+    ],
+    "key": "C",
+    "explanation": "Insiden Rogue DHCP Server terjadi ketika ada DHCP server liar membagikan IP salah ke klien. Solusinya mengaktifkan DHCP Snooping di switch untuk memblokir DHCP offer liar.",
+    "quickTip": "Klien dapat IP salah dari router liar = Rogue DHCP; atasi dengan DHCP Snooping di switch."
+  },
+  {
+    "id": "s28_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Sebuah gedung perkantoran 4 lantai memiliki 200 karyawan yang terbagi dalam 4 departemen: Keuangan (30 host), Pemasaran (50 host), IT (20 host), dan Tamu (60 host). Perusahaan memiliki blok IP 192.168.1.0/24.",
+    "question": "Metode perancangan alokasi pengalamatan IP yang paling efisien agar tidak terjadi pemborosan alamat dan setiap departemen terisolasi keamanannya adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menghubungkan seluruh 200 komputer menggunakan satu kabel coaxial bus"
+      },
+      {
+        "id": "B",
+        "text": "Menerapkan Variable Length Subnet Masking (VLSM) yang dipadukan dengan segmentasi Virtual LAN (VLAN)"
+      },
+      {
+        "id": "C",
+        "text": "Menggunakan 4 switch unmanaged tanpa pembagian subnet dan tanpa router"
+      },
+      {
+        "id": "D",
+        "text": "Mematikan seluruh komputer karyawan dan beralih ke mesin tik manual"
+      },
+      {
+        "id": "E",
+        "text": "Memberikan seluruh karyawan hak akses IP publik statis dari provider"
+      }
+    ],
+    "key": "B",
+    "explanation": "Kombinasi VLSM (menyesuaikan ukuran subnet sesuai kebutuhan departemen) dan VLAN (mengisolasi traffic per departemen di switch) adalah solusi arsitektur terbaik.",
+    "quickTip": "Segmentasi departemen efisien = Kombinasi VLSM dan VLAN."
+  },
+  {
+    "id": "s28_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Saat menghubungkan switch Core ke switch Distribution di ruang server, teknisi mengaktifkan protokol RSTP (Rapid Spanning Tree Protocol).",
+    "question": "Keuntungan utama menggunakan RSTP dibandingkan STP klasik (802.1D) saat salah satu kabel penghubung putus adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "RSTP tidak membutuhkan daya listrik untuk beroperasi"
+      },
+      {
+        "id": "B",
+        "text": "RSTP menghilangkan kebutuhan alamat IP pada router"
+      },
+      {
+        "id": "C",
+        "text": "Kecepatan transfer data switch otomatis naik menjadi 1 Terabits"
+      },
+      {
+        "id": "D",
+        "text": "Kabel yang putus otomatis menyambung kembali secara fisik"
+      },
+      {
+        "id": "E",
+        "text": "Waktu pemulihan jalur cadangan (konvergensi failover) berlangsung sangat cepat di bawah 1 hingga 2 detik"
+      }
+    ],
+    "key": "E",
+    "explanation": "RSTP (802.1w) memangkas waktu konvergensi dari 30-50 detik pada STP klasik menjadi kurang dari 1-2 detik berkat mekanisme handshake proposal-agreement.",
+    "quickTip": "Keunggulan RSTP = Konvergensi failover super cepat di bawah 2 detik."
+  },
+  {
+    "id": "s28_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Teknisi melakukan pengujian pada sambungan kabel drop FTTH menggunakan VFL (senter laser merah). Saat laser dinyalakan di ujung konektor SC, terlihat pendaran cahaya merah terang memancar menembus jaket hitam kabel pada jarak 5 cm dari konektor.",
+    "question": "Kesimpulan diagnosa fisik yang dapat dipastikan dari pendaran cahaya merah tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel optik bekerja dengan performa transfer data 100% sempurna"
+      },
+      {
+        "id": "B",
+        "text": "Cahaya laser sedang mengisi daya baterai modem ONT"
+      },
+      {
+        "id": "C",
+        "text": "Kabel optik terlindung dari gangguan elektromagnetik"
+      },
+      {
+        "id": "D",
+        "text": "Serat kaca di dalam kabel mengalami retak atau patah fisik tepat pada titik 5 cm tersebut"
+      },
+      {
+        "id": "E",
+        "text": "Konektor optik sedang melakukan negosiasi kecepatan link"
+      }
+    ],
+    "key": "D",
+    "explanation": "Cahaya VFL yang berpendar menembus jaket menandakan inti kaca retak atau patah total sehingga berkas sinar bocor keluar dari serat.",
+    "quickTip": "Pendaran laser merah menembus jaket kabel = Serat kaca patah / retak fisik."
+  },
+  {
+    "id": "s28_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Di ruang data center, suhu lorong dingin (cold aisle) terukur 21°C sementara suhu lorong panas (hot aisle) terukur 34°C. Server rackmount terpasang rapi dengan blanking panel pada slot kosong.",
+    "question": "Tujuan pemasangan penutup slot kosong (Blanking Panel) pada rak server data center adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mencegah teknisi melihat isi komponen di dalam server"
+      },
+      {
+        "id": "B",
+        "text": "Mencegah udara panas dari belakang server berputar kembali masuk ke bagian depan server (resirkulasi udara panas)"
+      },
+      {
+        "id": "C",
+        "text": "Menambah berat rak server agar tidak terbang tertiup angin"
+      },
+      {
+        "id": "D",
+        "text": "Menyerap radiasi suara bising kipas pendingin"
+      },
+      {
+        "id": "E",
+        "text": "Sebagai tempat menempelkan stiker hiasan dinding"
+      }
+    ],
+    "key": "B",
+    "explanation": "Blanking panel menutup celah kosong pada rak server untuk mencegah udara buangan panas (hot exhaust) memutar balik ke saluran hisap dingin (cold intake).",
+    "quickTip": "Blanking panel rak server mencegah resirkulasi udara panas ke lorong dingin."
+  },
+  {
+    "id": "s28_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Sebuah kantor mengalami masalah di mana koneksi internet sering putus-nyambung setiap beberapa menit. Saat teknisi memeriksa log router, ditemukan ribuan entri: `ARP collision detected: IP 192.168.1.1 is claimed by MAC a4:b2:c1:00:11:22 and MAC 00:15:5d:aa:bb:cc`.",
+    "question": "Jenis insiden jaringan yang sedang terjadi berdasarkan pesan log tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel fiber optik bawah tanah dimakan tikus"
+      },
+      {
+        "id": "B",
+        "text": "Sistem operasi komputer klien meminta ganti password"
+      },
+      {
+        "id": "C",
+        "text": "Suhu processor router terlalu dingin di bawah 0°C"
+      },
+      {
+        "id": "D",
+        "text": "Lampu indikator power switch mati total"
+      },
+      {
+        "id": "E",
+        "text": "Terjadi IP Conflict pada alamat Default Gateway (atau ada serangan ARP Spoofing / Poisoning)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Dua MAC address berbeda yang mengklaim IP yang sama (terutama IP gateway) menandakan konflik IP statis atau adanya indikasi serangan Man-in-the-Middle (ARP Spoofing).",
+    "quickTip": "Log ARP collision pada IP gateway = Indikasi IP Conflict atau serangan ARP Spoofing."
+  },
+  {
+    "id": "s28_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Perusahaan menghubungkan kantor pusat dan gudang logistik yang berjarak 500 meter menggunakan kabel UTP Cat6 yang ditarik menyeberangi lapangan terbuka di atas tiang tanpa pelindung petir.",
+    "question": "Risiko teknis terbesar yang mengancam perangkat switch di kedua ujung kabel akibat pemasangan tersebut saat musim hujan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kerusakan port switch terbakar akibat induksi tegangan tinggi sambaran petir tidak langsung (Lightning Surge Induction)"
+      },
+      {
+        "id": "B",
+        "text": "Komputer server akan otomatis menginstal aplikasi game"
+      },
+      {
+        "id": "C",
+        "text": "Kabel UTP akan berubah warna menjadi kuning keemasan"
+      },
+      {
+        "id": "D",
+        "text": "Kecepatan transfer data otomatis turun menjadi 1 bit per detik"
+      },
+      {
+        "id": "E",
+        "text": "Data internet akan mengalir terlalu cepat hingga meledak"
+      }
+    ],
+    "key": "A",
+    "explanation": "Bentangan kabel tembaga outdoor tanpa pelindung bertindak sebagai antena penangkap induksi petir, merusak sirkuit elektronik switch. Solusi ideal antar-gedung adalah kabel fiber optik dielektrik.",
+    "quickTip": "Bentangan kabel tembaga outdoor antar-gedung rawan rusak induksi petir; gunakan Fiber Optik!"
+  },
+  {
+    "id": "s28_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Dua router dihubungkan melalui tautan serial kabel Point-to-Point. Teknisi mengalokasikan subnet 10.0.0.0/30.",
+    "question": "Jika Router A menggunakan alamat IP 10.0.0.1/30, maka alamat IP yang WAJIB dipasang pada port Router B yang terhubung langsung adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "10.0.0.4/30 (Subnet berikutnya)"
+      },
+      {
+        "id": "B",
+        "text": "10.0.0.1/30 (Konflik IP sama)"
+      },
+      {
+        "id": "C",
+        "text": "10.0.0.3/30 (Alamat Broadcast)"
+      },
+      {
+        "id": "D",
+        "text": "10.0.0.0/30 (Alamat Network)"
+      },
+      {
+        "id": "E",
+        "text": "10.0.0.2/30"
+      }
+    ],
+    "key": "E",
+    "explanation": "Subnet 10.0.0.0/30 hanya memiliki dua IP usable: 10.0.0.1 (Router A) dan 10.0.0.2 (Router B). 10.0.0.0 adalah Network ID dan 10.0.0.3 adalah Broadcast ID.",
+    "quickTip": "Pasangan link /30: Jika satu ujung .1, maka ujung pasangannya wajib .2."
+  },
+  {
+    "id": "s28_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Seorang teknisi memeriksa konektor fiber optik SC/UPC baru menggunakan mikroskop video serat optik sebelum menancapkannya ke port ODF.",
+    "question": "Jika di layar mikroskop terlihat lingkaran core di tengah bersih mulus tanpa noda, namun di area luar cladding terdapat sedikit bintik debu.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Konektor harus langsung dibuang ke tempat sampah karena sudah cacat"
+      },
+      {
+        "id": "B",
+        "text": "Tetap wajib dibersihkan menggunakan pembersih optik (One-Click cleaner) hingga seluruh permukaan ferrule bersih sebelum dicolokkan"
+      },
+      {
+        "id": "C",
+        "text": "Ujung konektor harus dijilat dengan air liur"
+      },
+      {
+        "id": "D",
+        "text": "Ferrule harus diamplas dengan amplas besi kasar"
+      },
+      {
+        "id": "E",
+        "text": "Boleh langsung dicolokkan tanpa dibersihkan karena core masih bersih"
+      }
+    ],
+    "key": "B",
+    "explanation": "Debu di area cladding dapat berpindah ke core saat konektor ditancapkan dan ditekan di dalam adapter mating sleeve, memicu redaman atau goresan permanen.",
+    "quickTip": "Prinsip IEC 61300-3-35: Seluruh permukaan ferrule harus bersih sebelum ditancapkan."
+  },
+  {
+    "id": "s28_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Di sebuah switch Cisco, teknisi menjalankan perintah `show interfaces trunk` dan mendapati baris: `Port Fa0/24 Mode: on Encapsulation: 802.1q Status: trunking Native VLAN: 1`.",
+    "question": "Arti dari informasi status tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port FastEthernet 0/24 rusak dan mati total"
+      },
+      {
+        "id": "B",
+        "text": "Port FastEthernet 0/24 hanya bisa digunakan oleh 1 unit komputer saja"
+      },
+      {
+        "id": "C",
+        "text": "Port FastEthernet 0/24 aktif sebagai port trunk IEEE 802.1Q yang membawa banyak VLAN dengan Native VLAN nomor 1"
+      },
+      {
+        "id": "D",
+        "text": "Port FastEthernet 0/24 sedang terserang virus trojan"
+      },
+      {
+        "id": "E",
+        "text": "Port FastEthernet 0/24 menolak seluruh paket internet"
+      }
+    ],
+    "key": "C",
+    "explanation": "Output tersebut menunjukkan port Fa0/24 sukses dikonfigurasi sebagai port Trunk 802.1Q aktif dengan Native VLAN default 1.",
+    "quickTip": "show interfaces trunk memverifikasi port trunk 802.1Q yang aktif dan Native VLAN-nya."
+  },
+  {
+    "id": "s28_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Dalam pengoperasian jaringan Linux Server, administrator ingin memastikan bahwa hanya port 22 (SSH), port 80 (HTTP), dan port 443 (HTTPS) saja yang terbuka ke publik internet.",
+    "question": "Perangkat lunak firewall bawaan Linux yang paling umum dikonfigurasi untuk menyaring dan membatasi port lalu lintas paket tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "OpenSSH Client"
+      },
+      {
+        "id": "B",
+        "text": "Apache2 Web Server"
+      },
+      {
+        "id": "C",
+        "text": "Samba File Share"
+      },
+      {
+        "id": "D",
+        "text": "iptables / UFW (Uncomplicated Firewall) atau nftables"
+      },
+      {
+        "id": "E",
+        "text": "BIND9 DNS Daemon"
+      }
+    ],
+    "key": "D",
+    "explanation": "UFW (Uncomplicated Firewall) atau iptables/nftables adalah subsistem penyaring paket (packet filtering firewall) standar pada kernel Linux.",
+    "quickTip": "Pengelola firewall port di Linux = UFW / iptables / nftables."
+  },
+  {
+    "id": "s28_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Teknisi melakukan sambungan fusion splice antara serat optik pabrikan A dan serat optik pabrikan B. Saat diuji dengan OTDR dari sisi A ke B, grafik menunjukkan undakan 'naik' sebesar -0,08 dB (Gainer).",
+    "question": "Langkah verifikasi mutlak yang harus dilakukan teknisi untuk membuktikan nilai redaman sejati dari sambungan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menulis di laporan bahwa kabel memiliki daya tak terbatas"
+      },
+      {
+        "id": "B",
+        "text": "Melakukan pengujian balik dari sisi B ke A, lalu merata-ratakan kedua nilai pengukuran (Bi-Directional Measurement)"
+      },
+      {
+        "id": "C",
+        "text": "Mematikan mesin OTDR dan menggantinya dengan tespen"
+      },
+      {
+        "id": "D",
+        "text": "Memotong kabel dan membuangnya ke sungai"
+      },
+      {
+        "id": "E",
+        "text": "Menganggap kabel tersebut menghasilkan energi listrik gratis"
+      }
+    ],
+    "key": "B",
+    "explanation": "Virtual Gainer terjadi karena perbedaan koefisien backscatter. Pengukuran dua arah (Bi-Directional) dan menghitung nilai rata-rata adalah satu-satunya metode valid standar ITU-T.",
+    "quickTip": "Gainer pada OTDR wajib diverifikasi dengan pengukuran dua arah (Bi-Directional Average)."
+  },
+  {
+    "id": "s28_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Pada sebuah router kantor, pengguna mengeluh tidak bisa mengakses website tertentu melalui nama domain (misal `www.smk.id`), namun jika mengetikkan alamat IP `103.150.10.5` di browser, website terbuka lancar.",
+    "question": "Analisis teknis yang paling tepat mengenai penyebab gangguan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seluruh jaringan internet dunia sedang padam"
+      },
+      {
+        "id": "B",
+        "text": "Kabel LAN di komputer pengguna putus total"
+      },
+      {
+        "id": "C",
+        "text": "Router gateway kantor mati kehabisan daya listrik"
+      },
+      {
+        "id": "D",
+        "text": "Kartu jaringan komputer pengguna rusak terbakar"
+      },
+      {
+        "id": "E",
+        "text": "Terjadi kegagalan konfigurasi atau gangguan pada DNS Server (Name Resolution Failure)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Bisa akses via IP namun gagal via nama domain adalah indikasi pasti masalah DNS (Domain Name System). Solusinya memeriksa IP DNS server di komputer/DHCP.",
+    "quickTip": "Bisa buka IP tapi tidak bisa buka nama domain = Masalah pada DNS Server."
+  },
+  {
+    "id": "s28_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Saat bekerja di tiang kabel udara FTTH, seorang teknisi mendapati kabel drop optik terkelupas jaket luarnya akibat gesekan dahan pohon yang bergoyang tertiup angin.",
+    "question": "Tindakan preventif terbaik saat perbaikan kabel udara yang melintasi pepohonan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menebang seluruh hutan kota tanpa izin dinas lingkungan"
+      },
+      {
+        "id": "B",
+        "text": "Melapisi kabel dengan lem kertas kantor"
+      },
+      {
+        "id": "C",
+        "text": "Membiarkan kabel tetap bergesekan hingga putus dengan sendirinya"
+      },
+      {
+        "id": "D",
+        "text": "Memangkas dahan pohon yang bergesekan dan memasang pipa pelindung spiral (Spiral Wrap / Protection Tube) pada kabel di area gesekan"
+      },
+      {
+        "id": "E",
+        "text": "Mengikat kabel drop optik ke kabel listrik PLN telanjang"
+      }
+    ],
+    "key": "D",
+    "explanation": "SOP pemeliharaan kabel udara mensyaratkan pemasangan spiral wrapping/pelindung gesekan pada area rintangan pohon serta pemangkasan dahan pengganggu.",
+    "quickTip": "Cegah gesekan kabel di pohon: Pasang spiral wrapping pelindung dan pangkas dahan."
+  },
+  {
+    "id": "s28_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Teknisi menggunakan perintah `traceroute` (atau `tracert` di Windows) untuk melacak rute paket dari komputer sekolah menuju server pusat Ujian Nasional.",
+    "question": "Mekanisme kerja protokol jaringan yang dimanfaatkan oleh utilitas traceroute untuk mendeteksi setiap hop router di sepanjang jalur adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memanipulasi nilai TTL (Time to Live) paket IP secara bertahap (mulai dari TTL=1, 2, 3...) dan mendengarkan pesan balasan ICMP Time Exceeded"
+      },
+      {
+        "id": "B",
+        "text": "Membaca nomor seri kartu garansi router"
+      },
+      {
+        "id": "C",
+        "text": "Mengukur arus listrik kabel menggunakan multimeter"
+      },
+      {
+        "id": "D",
+        "text": "Mengirimkan virus perusak ke setiap router"
+      },
+      {
+        "id": "E",
+        "text": "Menyalakan kamera CCTV di setiap persimpangan jalan"
+      }
+    ],
+    "key": "A",
+    "explanation": "Traceroute menaikkan nilai TTL dari 1 ke atas. Setiap router mengurangi TTL sebesar 1; saat TTL=0 router membuang paket dan mengirim ICMP Time Exceeded (Tipe 11).",
+    "quickTip": "Traceroute bekerja dengan memanipulasi nilai TTL (Time to Live) dan balasan ICMP Time Exceeded."
+  },
+  {
+    "id": "s28_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Sebelum menandatangani berita acara serah terima pekerjaan instalasi jaringan LAN gedung 3 lantai, pengawas proyek meminta bukti uji kelayakan kabel terstruktur.",
+    "question": "Dokumen resmi standar yang harus dilampirkan teknisi sebagai bukti bahwa seluruh titik kabel UTP lolos uji sertifikasi parameter NEXT, Return Loss, dan Insertion Loss adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kwitansi pembayaran makan siang tim teknisi"
+      },
+      {
+        "id": "B",
+        "text": "Struk nota pembelian konektor RJ-45 dari toko material"
+      },
+      {
+        "id": "C",
+        "text": "Daftar nomor telepon seluruh karyawan gedung"
+      },
+      {
+        "id": "D",
+        "text": "Foto selfie teknisi memegang tang crimping di depan rak"
+      },
+      {
+        "id": "E",
+        "text": "Laporan Hasil Uji Sertifikasi Fluke CableAnalyzer (Certificate of Compliance / Test Report Sheet)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Sertifikasi kabel gedung terstruktur dibuktikan dengan laporan uji digital alat ukur level sertifikasi (seperti Fluke DSX CableAnalyzer) per titik kabel.",
+    "quickTip": "Bukti uji kelayakan instalasi kabel gedung = Laporan Uji Fluke Cable Analyzer."
+  },
+  {
+    "id": "s28_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Evaluasi penerapan K3 dan budaya kerja 5R di laboratorium jaringan komputer.",
+    "question": "Manakah tindakan di laboratorium jaringan yang MENCERMINKAN budaya kerja industri 5R dan K3? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menyingkirkan perangkat rusak yang tidak terpakai dari meja kerja ke gudang penyimpanan (Ringkas / Seiri)"
+      },
+      {
+        "id": "B",
+        "text": "Mengumpulkan serpihan kaca serat optik sisa potongan ke dalam wadah khusus limbah tajam (Resik & K3)"
+      },
+      {
+        "id": "C",
+        "text": "Menata kabel di rak server menggunakan manajemen kabel horizontal (Cable Management) dan labeling rapi (Rapi / Seiton)"
+      },
+      {
+        "id": "D",
+        "text": "Membiarkan kabel power 220V berserakan melintang di lantai koridor pintu lab"
+      },
+      {
+        "id": "E",
+        "text": "Menaruh cangkir kopi panas di atas switch core yang sedang menyala"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Penerapan 5R: Ringkas (singkirkan yang tidak perlu), Rapi (manajemen kabel & labeling), Resik (bersihkan limbah serpihan kaca). Menaruh kopi di atas switch atau kabel melintang melanggar K3.",
+    "quickTip": "Penerapan 5R & K3: Labeling rapi, buang limbah kaca ke wadah khusus, dan singkirkan barang rusak."
+  },
+  {
+    "id": "s28_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Troubleshooting konektivitas jaringan komputer menggunakan utilitas CLI.",
+    "question": "Manakah utilitas perintah diagnosa jaringan dan fungsi utamanya yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "`ping` digunakan untuk menguji keterjangkauan host dan mengukur waktu latensi bolak-balik (RTT)"
+      },
+      {
+        "id": "B",
+        "text": "`traceroute` (atau `tracert`) digunakan untuk melacak jalur rute lompatan router menuju tujuan"
+      },
+      {
+        "id": "C",
+        "text": "`format c:` digunakan untuk mempercepat koneksi Wi-Fi"
+      },
+      {
+        "id": "D",
+        "text": "`cd` digunakan untuk mengukur daya laser optik dalam dBm"
+      },
+      {
+        "id": "E",
+        "text": "`nslookup` (atau `dig`) digunakan untuk menguji query resolusi nama domain DNS Server"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "E"
+    ],
+    "explanation": "Ping (uji konektivitas RTT), Traceroute (lacak hop router), Nslookup/Dig (uji DNS).",
+    "quickTip": "Utilitas diagnosa: Ping (konektivitas), Traceroute (jalur hop), Nslookup (DNS)."
+  },
+  {
+    "id": "s28_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Parameter keselamatan kerja bekerja di ketinggian (Working at Heights) pada tiang FTTH.",
+    "question": "Manakah ketentuan K3 bekerja di ketinggian yang WAJIB dipatuhi teknisi? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Boleh memanjat tiang tanpa helm keselamatan jika cuaca sedang panas terik"
+      },
+      {
+        "id": "B",
+        "text": "Dianjurkan melepas tali harness saat berada di puncak tiang agar lebih leluasa bergerak"
+      },
+      {
+        "id": "C",
+        "text": "Memanjat tiang diperbolehkan saat terjadi badai petir lebat"
+      },
+      {
+        "id": "D",
+        "text": "Wajib menggunakan Full Body Harness dengan tali ganda pengait (Dual Lanyard) yang dikaitkan ke titik angkur kokoh"
+      },
+      {
+        "id": "E",
+        "text": "Memasang rambu peringatan kerja dan safety cone di area bawah tiang pinggir jalan raya"
+      }
+    ],
+    "key": [
+      "D",
+      "E"
+    ],
+    "explanation": "SOP K3 ketinggian: Full body harness dengan dual lanyard wajib terpasang 100% tie-off, dan pasang safety cone di zona bawah kerja.",
+    "quickTip": "K3 Ketinggian: Full Body Harness dual lanyard dan safety cone di area kerja jalan."
+  },
+  {
+    "id": "s28_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Analisis kejadian (Event) pada kurva pembacaan instrumen OTDR.",
+    "question": "Manakah karakteristik kejadian kurva OTDR yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ujung kabel putus ditandai dengan penurunan curam kurva menyentuh batas noise floor (Fiber End)"
+      },
+      {
+        "id": "B",
+        "text": "Tekukan kabel macrobending menghasilkan lonjakan kenaikan daya sebesar +50 dBm"
+      },
+      {
+        "id": "C",
+        "text": "Kurva OTDR yang lurus mendatar menandakan kabel serat optik putus total"
+      },
+      {
+        "id": "D",
+        "text": "Sambungan peleburan fusion splice menghasilkan undakan penurunan loss tanpa spike (Non-Reflective Event)"
+      },
+      {
+        "id": "E",
+        "text": "Konektor mekanik menghasilkan spike pantulan Fresnel tajam (Reflective Event)"
+      }
+    ],
+    "key": [
+      "A",
+      "D",
+      "E"
+    ],
+    "explanation": "Spike = Reflective (konektor); Undakan turun = Non-Reflective (splice); Jatuh ke noise floor = Fiber End.",
+    "quickTip": "Kurva OTDR: Spike (Konektor), Undakan turun (Splice), Jatuh ke dasar (Ujung kabel/Putus)."
+  },
+  {
+    "id": "s28_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Konfigurasi keamanan port dan layanan server jaringan.",
+    "question": "Manakah langkah pengamanan infrastruktur jaringan yang TEPAT? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menggunakan otentikasi SSH Key pair dan menonaktifkan permit root login pada server Linux"
+      },
+      {
+        "id": "B",
+        "text": "Mengaktifkan fitur DHCP Snooping pada switch untuk mencegah peredaran IP dari Rogue DHCP Server"
+      },
+      {
+        "id": "C",
+        "text": "Memberikan izin `chmod 777` pada seluruh file dan folder server produksi"
+      },
+      {
+        "id": "D",
+        "text": "Menggunakan kata sandi 'admin' untuk akun root semua router"
+      },
+      {
+        "id": "E",
+        "text": "Mematikan fungsi Spanning Tree Protocol pada seluruh switch terkelola"
+      }
+    ],
+    "key": [
+      "A",
+      "B"
+    ],
+    "explanation": "Praktik keamanan esensial: DHCP Snooping di switch dan SSH key-based authentication tanpa direct root login di Linux.",
+    "quickTip": "Amankan jaringan: Aktifkan DHCP Snooping dan gunakan SSH Key pair tanpa direct root."
+  },
+  {
+    "id": "s28_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Perhitungan Service Level Agreement (SLA) jaringan.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai SLA!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "SLA adalah dokumen komitmen resmi tingkat ketersediaan dan kualitas layanan antara ISP dan pelanggan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Downtime selama 10 jam dalam satu bulan melanggar batas toleransi SLA 99.5%.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "SLA 100% menjamin bahwa petir tidak akan pernah menyambar menara telekomunikasi.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Petir adalah bencana alam (force majeure); SLA adalah komitmen waktu operasional sistem dan kompensasi penanganan insiden.",
+    "quickTip": "SLA mengatur komitmen uptime operasional dan batas toleransi downtime layanan."
+  },
+  {
+    "id": "s28_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Penanganan interferensi frekuensi radio nirkabel.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai link radio!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Kanal frekuensi 2.4 GHz lebih rentan terhadap interferensi kepadatan sinyal dibanding pita 5 GHz.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Pemindaian spektrum frekuensi (Spectrum Analyzer) membantu teknisi menemukan kanal frekuensi yang bersih bebas derau.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Interferensi gelombang radio nirkabel dapat diatasi dengan cara mengecat antena radio dengan cat minyak.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Mengecat antena tidak menghilangkan interferensi radio elektromagnetik; solusinya adalah berpindah ke kanal frekuensi yang bersih.",
+    "quickTip": "Interferensi radio diatasi dengan mengganti kanal frekuensi ke saluran yang bersih."
+  },
+  {
+    "id": "s28_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Pengaruh tekukan macrobending pada serat optik.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang Macrobending!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Tekukan tajam pada kabel drop fiber optik dapat menyebabkan lonjakan redaman hingga puluhan desibel.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Redaman akibat macrobending jauh lebih besar terukur pada panjang gelombang 1550 nm dibanding pada 1310 nm.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Kabel serat optik Single-Mode dianjurkan ditekuk patah 90 derajat agar sinyal cahaya berputar lebih cepat.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Menekuk kabel serat optik secara tajam merusak sudut pantulan total dan menyebabkan kebocoran sinyal cahaya yang parah.",
+    "quickTip": "Dilarang menekuk kabel serat optik secara tajam (cegah macrobending loss)."
+  },
+  {
+    "id": "s28_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Mekanisme perlindungan loop Layer 2 dengan RSTP.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai protokol RSTP!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "RSTP (IEEE 802.1w) memiliki waktu konvergensi jauh lebih cepat dibanding STP standar 802.1D.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "RSTP mencegah terjadinya badai broadcast (broadcast storm) pada topologi switch dengan link redundan.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "RSTP berfungsi memberikan alamat IP secara otomatis ke printer kantor.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Pemberian IP otomatis adalah fungsi DHCP Server, bukan Rapid Spanning Tree Protocol (RSTP).",
+    "quickTip": "RSTP mencegah switching loop dan broadcast storm dengan konvergensi cepat."
+  },
+  {
+    "id": "s28_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Prinsip pengujian rute dengan utilitas Traceroute.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang Traceroute!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Traceroute memanfaatkan pengurangan nilai Time to Live (TTL) paket IP di setiap router perantara.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Pesan balasan ICMP Time Exceeded digunakan untuk mengidentifikasi alamat IP dari router yang dilintasi.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Traceroute hanya dapat berjalan jika seluruh kabel jaringan di dunia dilepas.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Traceroute mutlak membutuhkan koneksi jaringan aktif untuk mengirimkan probe paket ke router-router perantara.",
+    "quickTip": "Traceroute melacak rute via manipulasi TTL dan pesan ICMP Time Exceeded."
+  }
+]

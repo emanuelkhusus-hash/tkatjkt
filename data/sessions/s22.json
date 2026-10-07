@@ -1,0 +1,950 @@
+[
+  {
+    "id": "s22_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Virtualisasi memungkinkan beberapa sistem operasi (Virtual Machine / VM) berjalan secara bersamaan di atas satu mesin perangkat keras fisik tunggal.",
+    "question": "Lapisan software pengelola virtualisasi yang mengalokasikan sumber daya fisik (CPU, RAM, Storage) ke masing-masing VM disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Compiler Assembler"
+      },
+      {
+        "id": "B",
+        "text": "Cable Certifier"
+      },
+      {
+        "id": "C",
+        "text": "Hypervisor (Virtual Machine Monitor / VMM)"
+      },
+      {
+        "id": "D",
+        "text": "Database Engine"
+      },
+      {
+        "id": "E",
+        "text": "Web Server Daemon"
+      }
+    ],
+    "key": "C",
+    "explanation": "Hypervisor (VMM) adalah software atau firmware yang mengabstraksi perangkat keras fisik dan mengatur eksekusi beberapa mesin virtual secara terisolasi.",
+    "quickTip": "Pengelola mesin virtual di atas hardware = Hypervisor (VMM)."
+  },
+  {
+    "id": "s22_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Hypervisor dikelompokkan menjadi dua arsitektur utama: Type 1 dan Type 2.",
+    "question": "Karakteristik arsitektur dari Hypervisor Type 1 (Bare-Metal Hypervisor) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya bisa dijalankan di smartphone ponsel genggam"
+      },
+      {
+        "id": "B",
+        "text": "Membutuhkan kabel tembaga coaxial untuk menyalakannya"
+      },
+      {
+        "id": "C",
+        "text": "Berjalan langsung di atas perangkat keras fisik server tanpa membutuhkan sistem operasi perantara (host OS)"
+      },
+      {
+        "id": "D",
+        "text": "Berjalan sebagai program aplikasi di dalam sistem operasi Windows Desktop"
+      },
+      {
+        "id": "E",
+        "text": "Hanya dapat digunakan untuk bermain video game online"
+      }
+    ],
+    "key": "C",
+    "explanation": "Hypervisor Type 1 (contoh: Proxmox VE, VMware ESXi, Microsoft Hyper-V Server) diinstal langsung di atas bare-metal hardware tanpa OS perantara untuk efisiensi data center.",
+    "quickTip": "Hypervisor Type 1 (Bare-Metal) = Berjalan langsung di atas hardware tanpa OS inang."
+  },
+  {
+    "id": "s22_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Hypervisor Type 2 (Hosted Hypervisor) banyak digunakan oleh siswa di laboratorium sekolah untuk simulasi belajar.",
+    "question": "Contoh software Hypervisor Type 2 yang berjalan di atas sistem operasi host desktop (seperti Windows 10/11 atau macOS) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "KVM RedHat Enterprise Bare-Metal"
+      },
+      {
+        "id": "B",
+        "text": "Proxmox VE Enterprise"
+      },
+      {
+        "id": "C",
+        "text": "Oracle VM VirtualBox dan VMware Workstation"
+      },
+      {
+        "id": "D",
+        "text": "Citrix Hypervisor XenServer"
+      },
+      {
+        "id": "E",
+        "text": "VMware ESXi Bare-Metal"
+      }
+    ],
+    "key": "C",
+    "explanation": "Oracle VirtualBox dan VMware Workstation berjalan sebagai aplikasi di dalam OS host desktop (Type 2 / Hosted).",
+    "quickTip": "Contoh Hypervisor Type 2 = VirtualBox dan VMware Workstation."
+  },
+  {
+    "id": "s22_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Saat membuat Virtual Hard Disk baru di VirtualBox, pengguna diberikan pilihan antara 'Dynamically Allocated' dan 'Fixed Size'.",
+    "question": "Kelebihan utama memilih tipe disk 'Dynamically Allocated' adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya menggunakan ruang penyimpanan hard disk fisik secara bertahap sesuai data riil yang terisi di dalam VM"
+      },
+      {
+        "id": "B",
+        "text": "Dapat berjalan tanpa memerlukan memori RAM"
+      },
+      {
+        "id": "C",
+        "text": "Membuat kecepatan transfer data lebih cepat daripada kecepatan cahaya"
+      },
+      {
+        "id": "D",
+        "text": "Langsung memotong ruang hard disk fisik sebesar 100 GB seketika"
+      },
+      {
+        "id": "E",
+        "text": "Membuat mesin virtual kebal terhadap serangan virus selamanya"
+      }
+    ],
+    "key": "A",
+    "explanation": "Dynamically allocated disk awalnya berukuran sangat kecil pada host dan hanya akan membesar secara fleksibel seiring bertambahnya data di dalam VM.",
+    "quickTip": "Dynamically Allocated = Disk bertambah besar sesuai isi data riil di dalam VM."
+  },
+  {
+    "id": "s22_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Saat mencoba menyalakan mesin virtual 64-bit di VirtualBox, muncul pesan error 'VT-x / AMD-V is not available in your system'.",
+    "question": "Langkah perbaikan yang harus dilakukan teknisi untuk mengatasi masalah tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menghapus seluruh file Windows di drive C:"
+      },
+      {
+        "id": "B",
+        "text": "Menambah panjang kabel LAN komputer menjadi 50 meter"
+      },
+      {
+        "id": "C",
+        "text": "Membersihkan keyboard komputer menggunakan kuas"
+      },
+      {
+        "id": "D",
+        "text": "Mengganti kabel monitor komputer dengan kabel HDMI baru"
+      },
+      {
+        "id": "E",
+        "text": "Masuk ke menu BIOS/UEFI komputer fisik host dan mengaktifkan (Enable) fitur Intel Virtualization Technology (VT-x) atau AMD-V"
+      }
+    ],
+    "key": "E",
+    "explanation": "Virtualisasi hardware 64-bit membutuhkan instruksi VT-x (Intel) atau AMD-V (AMD) yang harus diaktifkan pada pengaturan BIOS/UEFI motherboard host.",
+    "quickTip": "Error VT-x / AMD-V = Aktifkan Intel Virtualization / AMD-V di BIOS/UEFI host."
+  },
+  {
+    "id": "s22_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Pada pengaturan jaringan VirtualBox, mode 'Bridged Adapter' menghubungkan kartu jaringan virtual VM langsung ke kartu jaringan fisik host.",
+    "question": "Karakteristik konektivitas mesin virtual saat menggunakan mode 'Bridged Adapter' adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "VM tidak membutuhkan kartu jaringan virtual"
+      },
+      {
+        "id": "B",
+        "text": "IP address VM otomatis sama persis dengan IP komputer host sehingga terjadi konflik"
+      },
+      {
+        "id": "C",
+        "text": "VM terisolasi total dan tidak dapat mengakses perangkat apapun di dunia"
+      },
+      {
+        "id": "D",
+        "text": "VM seolah-olah menjadi perangkat komputer nyata yang menancap langsung di switch fisik yang sama dan mendapatkan IP dari DHCP jaringan lokal"
+      },
+      {
+        "id": "E",
+        "text": "VM hanya bisa berkomunikasi dengan komputer host saja"
+      }
+    ],
+    "key": "D",
+    "explanation": "Bridged Adapter menjembatani VM langsung ke jaringan fisik, memungkinkan perangkat luar di LAN mengakses VM selayaknya PC fisik mandiri.",
+    "quickTip": "Mode Bridged Adapter = VM menjadi perangkat mandiri satu segmen dengan LAN fisik."
+  },
+  {
+    "id": "s22_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Mode jaringan VirtualBox di mana VM dapat mengakses internet keluar melalui IP host tetapi perangkat luar dari LAN tidak dapat mengakses ke dalam VM secara langsung adalah...",
+    "question": "Nama mode jaringan bawaan (default) VirtualBox tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mode NAT (Network Address Translation)"
+      },
+      {
+        "id": "B",
+        "text": "Mode Generic Driver"
+      },
+      {
+        "id": "C",
+        "text": "Mode Host-Only Adapter"
+      },
+      {
+        "id": "D",
+        "text": "Mode Internal Network"
+      },
+      {
+        "id": "E",
+        "text": "Mode Bridged Adapter"
+      }
+    ],
+    "key": "A",
+    "explanation": "Mode default NAT mengisolasi VM di balik router virtual VirtualBox (biasanya ber-IP 10.0.2.15), mengizinkan akses keluar ke internet via koneksi host.",
+    "quickTip": "Mode default VirtualBox (VM dapat internet, aman terisolasi dari luar) = Mode NAT."
+  },
+  {
+    "id": "s22_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Dalam praktikum laboratorium, siswa ingin menghubungkan 3 mesin virtual Linux dalam satu jaringan terisolasi tertutup tanpa akses dari luar dan tanpa akses ke internet.",
+    "question": "Mode jaringan VirtualBox yang paling tepat untuk skenario laboratorium terisolasi tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mode NAT"
+      },
+      {
+        "id": "B",
+        "text": "Mode Bridged Adapter"
+      },
+      {
+        "id": "C",
+        "text": "Mode Promiscuous Unrestricted"
+      },
+      {
+        "id": "D",
+        "text": "Mode Cloud Network"
+      },
+      {
+        "id": "E",
+        "text": "Mode Internal Network"
+      }
+    ],
+    "key": "E",
+    "explanation": "Mode Internal Network menciptakan switch virtual internal yang menghubungkan VM satu sama lain di host yang sama tanpa koneksi ke fisik luar atau internet.",
+    "quickTip": "Komunikasi murni antar-VM terisolasi total dari luar = Mode Internal Network."
+  },
+  {
+    "id": "s22_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Layanan Dynamic Host Configuration Protocol (DHCP) Server bertugas mengalokasikan alamat IP otomatis ke perangkat klien.",
+    "question": "Empat tahapan proses negosiasi pemberian alamat IP antara klien dan DHCP Server (dikenal dengan singkatan DORA) secara berurutan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Drop -> Over -> Reset -> Allow"
+      },
+      {
+        "id": "B",
+        "text": "Discover -> Offer -> Request -> Acknowledge"
+      },
+      {
+        "id": "C",
+        "text": "Download -> Output -> Read -> Apply"
+      },
+      {
+        "id": "D",
+        "text": "Demand -> Order -> Receive -> Accept"
+      },
+      {
+        "id": "E",
+        "text": "Detect -> Open -> Route -> Allocate"
+      }
+    ],
+    "key": "B",
+    "explanation": "Proses DORA: 1. DHCP Discover (klien mencari server via broadcast), 2. DHCP Offer (server menawarkan IP), 3. DHCP Request (klien meminta IP tersebut), 4. DHCP Ack (server mengonfirmasi sewa IP).",
+    "quickTip": "Tahapan negosiasi DHCP = DORA (Discover, Offer, Request, Acknowledge)."
+  },
+  {
+    "id": "s22_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Pada tahap awal proses DORA, komputer klien yang baru menyala dan belum memiliki alamat IP mengirimkan pesan pencarian DHCP Server ke jaringan.",
+    "question": "Pesan pencarian awal dari klien tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "DHCP Request"
+      },
+      {
+        "id": "B",
+        "text": "DHCP Discover (dikirim secara broadcast ke 255.255.255.255)"
+      },
+      {
+        "id": "C",
+        "text": "DHCP Offer"
+      },
+      {
+        "id": "D",
+        "text": "DHCP Release"
+      },
+      {
+        "id": "E",
+        "text": "DHCP Acknowledge"
+      }
+    ],
+    "key": "B",
+    "explanation": "Klien yang belum punya IP memancarkan paket broadcast DHCP Discover (source 0.0.0.0, dest 255.255.255.255) untuk menemukan DHCP server di jaringan.",
+    "quickTip": "Pesan pertama klien mencari server DHCP = DHCP Discover (Broadcast)."
+  },
+  {
+    "id": "s22_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Nomor port protokol UDP standar yang digunakan dalam komunikasi layanan DHCP pada tumpukan protokol TCP/IP adalah...",
+    "question": "Port server dan port klien untuk DHCPv4 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port TCP 80 dan TCP 443"
+      },
+      {
+        "id": "B",
+        "text": "Port TCP 25 dan TCP 110"
+      },
+      {
+        "id": "C",
+        "text": "Port TCP 21 dan TCP 20"
+      },
+      {
+        "id": "D",
+        "text": "Port UDP 67 (DHCP Server) dan Port UDP 68 (DHCP Client)"
+      },
+      {
+        "id": "E",
+        "text": "Port UDP 53 dan TCP 53"
+      }
+    ],
+    "key": "D",
+    "explanation": "DHCP Server mendengarkan query pada port UDP 67, dan klien menerima balasan pada port UDP 68.",
+    "quickTip": "Port DHCP: Server = UDP 67; Klien = UDP 68."
+  },
+  {
+    "id": "s22_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Pada server Linux Debian, paket perangkat lunak standar yang paling banyak digunakan untuk menyediakan layanan DHCP Server tradisional adalah...",
+    "question": "Nama paket software DHCP server resmi tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "samba-common"
+      },
+      {
+        "id": "B",
+        "text": "bind9-dns"
+      },
+      {
+        "id": "C",
+        "text": "isc-dhcp-server"
+      },
+      {
+        "id": "D",
+        "text": "openssh-server"
+      },
+      {
+        "id": "E",
+        "text": "apache2-server"
+      }
+    ],
+    "key": "C",
+    "explanation": "`isc-dhcp-server` (Internet Systems Consortium) adalah daemon DHCP server standar industri di Debian/Ubuntu dengan file konfigurasi `/etc/dhcp/dhcpd.conf`.",
+    "quickTip": "Paket DHCP server di Linux Debian = isc-dhcp-server."
+  },
+  {
+    "id": "s22_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Layanan Domain Name System (DNS) menggunakan berbagai tipe rekaman (Resource Records) untuk memetakan nama domain ke alamat tertentu.",
+    "question": "Tipe rekaman DNS (DNS Record) standar yang memetakan nama host domain ke alamat IPv4 32-bit adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "MX Record (Mail Exchange)"
+      },
+      {
+        "id": "B",
+        "text": "AAAA Record (IPv6 Record)"
+      },
+      {
+        "id": "C",
+        "text": "CNAME Record (Canonical Name / Alias)"
+      },
+      {
+        "id": "D",
+        "text": "A Record (Address Record)"
+      },
+      {
+        "id": "E",
+        "text": "PTR Record (Pointer Reverse)"
+      }
+    ],
+    "key": "D",
+    "explanation": "Rekaman 'A' memetakan nama domain ke alamat IPv4 (contoh: `portal.smk.id. IN A 192.168.1.10`).",
+    "quickTip": "DNS memetakan domain ke IPv4 = A Record; ke IPv6 = AAAA Record."
+  },
+  {
+    "id": "s22_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Tipe rekaman DNS yang memetakan nama domain ke alamat IPv6 128-bit adalah...",
+    "question": "Nama tipe rekaman DNS untuk IPv6 tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "SOA Record"
+      },
+      {
+        "id": "B",
+        "text": "AAAA Record (Quad-A Record)"
+      },
+      {
+        "id": "C",
+        "text": "TXT Record"
+      },
+      {
+        "id": "D",
+        "text": "NS Record"
+      },
+      {
+        "id": "E",
+        "text": "A Record"
+      }
+    ],
+    "key": "B",
+    "explanation": "Rekaman 'AAAA' (Quad-A) menyimpan alamat IPv6 128-bit untuk sebuah nama domain.",
+    "quickTip": "Pemetaan domain ke alamat IPv6 = AAAA Record (Quad-A)."
+  },
+  {
+    "id": "s22_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Sebuah institusi ingin membuat nama alias (nama panggilan alternatif) untuk server web mereka, misalnya `www.sekolah.sch.id` merujuk ke nama utama `sekolah.sch.id`.",
+    "question": "Tipe rekaman DNS yang digunakan untuk membuat nama alias tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "MX Record"
+      },
+      {
+        "id": "B",
+        "text": "A Record"
+      },
+      {
+        "id": "C",
+        "text": "NS Record"
+      },
+      {
+        "id": "D",
+        "text": "PTR Record"
+      },
+      {
+        "id": "E",
+        "text": "CNAME Record (Canonical Name)"
+      }
+    ],
+    "key": "E",
+    "explanation": "CNAME (Canonical Name) membuat alias yang mengarahkan satu nama domain ke nama domain kanonikal lainnya.",
+    "quickTip": "Nama alias pada DNS = CNAME Record (Canonical Name)."
+  },
+  {
+    "id": "s22_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Tipe rekaman DNS yang menentukan server pengelola surat elektronik (email server) yang bertanggung jawab menerima email untuk sebuah domain adalah...",
+    "question": "Nama tipe rekaman DNS email tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "MX Record (Mail Exchange)"
+      },
+      {
+        "id": "B",
+        "text": "SOA Record"
+      },
+      {
+        "id": "C",
+        "text": "PTR Record"
+      },
+      {
+        "id": "D",
+        "text": "A Record"
+      },
+      {
+        "id": "E",
+        "text": "SRV Record"
+      }
+    ],
+    "key": "A",
+    "explanation": "MX Record (Mail Exchange) mengarahkan pengiriman email ke mail server resmi domain beserta nilai prioritasnya.",
+    "quickTip": "Pengarah server email domain = MX Record (Mail Exchange)."
+  },
+  {
+    "id": "s22_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Proses resolusi kebalikan di mana sistem mencari nama domain berdasarkan alamat IP yang diketahui (Reverse Lookup) menggunakan tipe rekaman...",
+    "question": "Nama tipe rekaman pencarian balik tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "TXT Record"
+      },
+      {
+        "id": "B",
+        "text": "PTR Record (Pointer Record)"
+      },
+      {
+        "id": "C",
+        "text": "A Record"
+      },
+      {
+        "id": "D",
+        "text": "CNAME Record"
+      },
+      {
+        "id": "E",
+        "text": "MX Record"
+      }
+    ],
+    "key": "B",
+    "explanation": "PTR Record (Pointer) digunakan pada zona reverse DNS (`in-addr.arpa`) untuk menerjemahkan IP address kembali menjadi nama host domain.",
+    "quickTip": "Reverse DNS lookup (IP ke nama domain) = PTR Record."
+  },
+  {
+    "id": "s22_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Paket perangkat lunak server DNS paling populer dan menjadi standar industri di sistem operasi Linux adalah...",
+    "question": "Nama paket software server DNS tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "BIND9 (Berkeley Internet Name Domain version 9)"
+      },
+      {
+        "id": "B",
+        "text": "ProFTPD Server"
+      },
+      {
+        "id": "C",
+        "text": "MySQL Database"
+      },
+      {
+        "id": "D",
+        "text": "Nginx Engine"
+      },
+      {
+        "id": "E",
+        "text": "Apache HTTP Server"
+      }
+    ],
+    "key": "A",
+    "explanation": "BIND9 adalah implementasi software DNS Server terlengkap dan paling banyak digunakan di Linux (konfigurasi utama di `/etc/bind/named.conf`).",
+    "quickTip": "Software DNS server standar di Linux = BIND9."
+  },
+  {
+    "id": "s22_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Pada server web Apache2 di Linux Debian/Ubuntu, direktori sistem default tempat menyimpan berkas-berkas halaman web (HTML/PHP) adalah...",
+    "question": "Lokasi direktori document root default web server tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "/var/www/html/"
+      },
+      {
+        "id": "B",
+        "text": "/root/public_html/"
+      },
+      {
+        "id": "C",
+        "text": "/usr/bin/web/"
+      },
+      {
+        "id": "D",
+        "text": "/etc/apache2/"
+      },
+      {
+        "id": "E",
+        "text": "/home/desktop/"
+      }
+    ],
+    "key": "A",
+    "explanation": "Secara default konfigurasi Apache (`000-default.conf`) menempatkan document root di folder `/var/www/html/`.",
+    "quickTip": "Direktori file web default Apache = /var/www/html/."
+  },
+  {
+    "id": "s22_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Fitur pada web server Apache atau Nginx yang memungkinkan satu mesin server fisik tunggal menjalankan beberapa website dengan nama domain berbeda sekaligus adalah...",
+    "question": "Nama teknologi pengelolaan multi-domain pada satu server tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Virtual Host (VHost)"
+      },
+      {
+        "id": "B",
+        "text": "Virtual Private Network (VPN)"
+      },
+      {
+        "id": "C",
+        "text": "Virtual Desktop"
+      },
+      {
+        "id": "D",
+        "text": "Virtual Memory"
+      },
+      {
+        "id": "E",
+        "text": "Virtual LAN (VLAN)"
+      }
+    ],
+    "key": "A",
+    "explanation": "Virtual Host (VHost) memungkinkan server web membedakan permintaan situs berdasarkan header `Host:` HTTP, melayani website berbeda (misal `smk.id` dan `osis.smk.id`) pada 1 server.",
+    "quickTip": "Menjalankan banyak website beda domain di 1 server = Virtual Host (VHost)."
+  },
+  {
+    "id": "s22_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Klasifikasi Hypervisor Type 1 (Bare-Metal) vs Type 2 (Hosted).",
+    "question": "Manakah pernyataan yang BENAR mengenai arsitektur Hypervisor? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "VirtualBox adalah contoh Hypervisor Type 1 Bare-Metal yang tidak membutuhkan OS Windows/Linux"
+      },
+      {
+        "id": "B",
+        "text": "Hypervisor Type 1 memiliki efisiensi performa dan kestabilan yang lebih tinggi untuk level data center"
+      },
+      {
+        "id": "C",
+        "text": "Hypervisor Type 2 berjalan sebagai aplikasi di atas sistem operasi host desktop (contoh: VirtualBox dan VMware Workstation)"
+      },
+      {
+        "id": "D",
+        "text": "Hypervisor Type 1 hanya bisa digunakan jika server dimatikan total"
+      },
+      {
+        "id": "E",
+        "text": "Hypervisor Type 1 berjalan langsung di atas hardware tanpa sistem operasi host (contoh: Proxmox VE dan VMware ESXi)"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "E"
+    ],
+    "explanation": "Type 1 (Bare-metal): Proxmox, ESXi, Hyper-V Server. Type 2 (Hosted): VirtualBox, Workstation. Type 1 lebih efisien untuk server data center.",
+    "quickTip": "Type 1 = Bare-metal (Proxmox/ESXi); Type 2 = Hosted di atas OS desktop (VirtualBox)."
+  },
+  {
+    "id": "s22_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Mode adaptor jaringan virtual pada Oracle VM VirtualBox.",
+    "question": "Manakah pasangan mode jaringan VirtualBox dan karakteristiknya yang BENAR? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Internal Network: VM terhubung ke switch virtual tertutup hanya antar-VM di host yang sama tanpa akses luar"
+      },
+      {
+        "id": "B",
+        "text": "Bridged Adapter: VM terhubung langsung ke switch LAN fisik dan memperoleh IP satu segmen dengan host"
+      },
+      {
+        "id": "C",
+        "text": "Mode NAT: membuat VM otomatis terbakar jika terhubung ke internet"
+      },
+      {
+        "id": "D",
+        "text": "Internal Network: menghubungkan VM ke jaringan satelit luar angkasa NASA"
+      },
+      {
+        "id": "E",
+        "text": "Bridged Adapter: memutus seluruh kabel fisik di gedung kantor"
+      }
+    ],
+    "key": [
+      "A",
+      "B"
+    ],
+    "explanation": "Bridged Adapter menjembatani VM ke LAN fisik nyata. Internal Network mengisolasi komunikasi tertutup antar-VM di host lokal.",
+    "quickTip": "Bridged Adapter = Satu segmen dengan LAN fisik; Internal Network = Komunikasi antar-VM tertutup."
+  },
+  {
+    "id": "s22_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Empat tahapan proses negosiasi IP pada protokol DHCP (DORA).",
+    "question": "Manakah paket yang TERLIBAT dalam proses negosiasi DORA DHCP? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "DHCP Splicing (melebur kabel fiber optik)"
+      },
+      {
+        "id": "B",
+        "text": "DHCP Offer (server menawarkan alamat IP dan parameter jaringan)"
+      },
+      {
+        "id": "C",
+        "text": "DHCP Discover (klien memancarkan broadcast mencari DHCP server)"
+      },
+      {
+        "id": "D",
+        "text": "DHCP Request (klien mengajukan permintaan sewa IP yang ditawarkan)"
+      },
+      {
+        "id": "E",
+        "text": "DHCP Overload (router meledak karena kelebihan paket)"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "DORA terdiri dari: Discover (klien), Offer (server), Request (klien), dan Acknowledge (server).",
+    "quickTip": "Empat tahap DHCP: Discover, Offer, Request, Acknowledge."
+  },
+  {
+    "id": "s22_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Tipe rekaman Resource Record pada server DNS BIND9.",
+    "question": "Manakah pasangan tipe DNS Record dan fungsinya yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "MX Record menentukan server email (Mail Exchange) untuk pengiriman surat"
+      },
+      {
+        "id": "B",
+        "text": "CNAME Record mematikan seluruh koneksi internet"
+      },
+      {
+        "id": "C",
+        "text": "A Record memetakan nama domain ke alamat IPv4 32-bit"
+      },
+      {
+        "id": "D",
+        "text": "AAAA Record memetakan nama domain ke alamat IPv6 128-bit"
+      },
+      {
+        "id": "E",
+        "text": "PTR Record digunakan untuk mencetak dokumen di printer"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "A = IPv4, AAAA = IPv6, MX = Mail server, CNAME = Alias, PTR = Reverse lookup IP to domain.",
+    "quickTip": "DNS Records: A (IPv4), AAAA (IPv6), MX (Email), CNAME (Alias), PTR (Reverse)."
+  },
+  {
+    "id": "s22_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Layanan server web Apache2 dan Nginx pada infrastruktur Linux.",
+    "question": "Manakah konfigurasi standar yang TEPAT pada server web berbasis Linux? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port HTTPS standar berjalan pada port UDP 53"
+      },
+      {
+        "id": "B",
+        "text": "Server web tidak membutuhkan sistem operasi apapun untuk bekerja"
+      },
+      {
+        "id": "C",
+        "text": "Virtual Host digunakan untuk menjalankan beberapa domain website berbeda pada satu server yang sama"
+      },
+      {
+        "id": "D",
+        "text": "Layanan web standar mendengarkan port TCP 80 (HTTP) dan port TCP 443 (HTTPS terenkripsi)"
+      },
+      {
+        "id": "E",
+        "text": "Berkas HTML web wajib ditaruh di dalam direktori tempat sampah recycle bin"
+      }
+    ],
+    "key": [
+      "C",
+      "D"
+    ],
+    "explanation": "Web server beroperasi di TCP 80 (HTTP) dan TCP 443 (HTTPS), serta memanfaatkan Virtual Host untuk multi-domain.",
+    "quickTip": "Web server: Port 80 (HTTP) / 443 (HTTPS) dan fitur Virtual Host."
+  },
+  {
+    "id": "s22_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Perbedaan arsitektur Hypervisor Type 1 dan Type 2.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai virtualisasi!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Hypervisor Type 1 diinstal langsung di atas hardware bare-metal tanpa sistem operasi perantara.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Oracle VM VirtualBox adalah contoh Hypervisor Type 2 yang berjalan di atas OS host Windows atau Linux.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Hypervisor Type 1 hanya bisa menjalankan satu mesin virtual saja seumur hidup.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Hypervisor Type 1 (seperti Proxmox atau ESXi) dirancang untuk menjalankan puluhan hingga ratusan VM secara bersamaan di server enterprise.",
+    "quickTip": "Hypervisor Type 1 bare-metal melayani banyak VM sekaligus di data center."
+  },
+  {
+    "id": "s22_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Pengaturan fitur Virtualisasi Hardware di BIOS host.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang VT-x dan AMD-V!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Fitur Intel VT-x atau AMD-V harus diaktifkan pada pengaturan BIOS/UEFI motherboard host untuk mendukung VM 64-bit.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Jika fitur virtualisasi di BIOS dinonaktifkan, VirtualBox tidak dapat menjalankan sistem operasi tamu 64-bit.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Mengaktifkan VT-x di BIOS akan menyebabkan processor meleleh dan hang permanen.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "VT-x / AMD-V adalah instruksi perangkat keras resmi processor Intel dan AMD untuk akselerasi virtualisasi yang aman dan efisien.",
+    "quickTip": "Aktifkan VT-x/AMD-V di BIOS untuk mengizinkan akselerasi mesin virtual 64-bit."
+  },
+  {
+    "id": "s22_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Mode jaringan Bridged Adapter pada mesin virtual.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang Bridged Adapter!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Dengan Bridged Adapter, mesin virtual mendapatkan alamat IP dari DHCP server yang sama dengan komputer host fisiknya.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Komputer lain di jaringan LAN fisik dapat mengakses layanan web server di dalam VM ber-mode Bridged secara langsung.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Mode Bridged Adapter memutuskan sambungan kartu jaringan fisik dari kabel LAN.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Bridged Adapter menunggangi kartu jaringan fisik untuk menjembatani lalu lintas VM ke kabel LAN.",
+    "quickTip": "Bridged Adapter menempatkan VM setara dengan PC fisik di switch jaringan."
+  },
+  {
+    "id": "s22_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Proses DORA pada layanan DHCP Server.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai alur kerja DHCP!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Pesan DHCP Discover dikirimkan oleh klien ke alamat broadcast jaringan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Pesan DHCP Acknowledge (ACK) adalah konfirmasi final dari server bahwa alamat IP telah resmi disewakan kepada klien.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "DHCP Server menggunakan protokol TCP port 80 untuk menyewakan alamat IP.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "DHCP beroperasi menggunakan protokol UDP (port 67 server dan port 68 client), bukan TCP 80.",
+    "quickTip": "DHCP memakai UDP port 67/68, dengan konfirmasi akhir di DHCP Ack."
+  },
+  {
+    "id": "s22_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Fungsi rekaman A Record dan AAAA Record pada DNS Server.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai rekaman DNS!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "A Record memetakan nama domain ke alamat IPv4 (contoh: 192.168.1.1).",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "AAAA Record memetakan nama domain ke alamat IPv6 (contoh: 2001:db8::1).",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "DNS Server bertugas mengompresi ukuran hard disk komputer pengguna secara online.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "DNS bertugas menerjemahkan nama domain ke alamat IP (resolusi nama), bukan mengompresi hard disk.",
+    "quickTip": "A = IPv4; AAAA = IPv6. DNS adalah layanan penerjemah nama domain."
+  }
+]

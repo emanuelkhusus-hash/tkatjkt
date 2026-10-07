@@ -1,0 +1,950 @@
+[
+  {
+    "id": "s15_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Pengalamatan IPv4 merupakan protokol jaringan layer 3 yang paling banyak digunakan dalam arsitektur TCP/IP saat ini.",
+    "question": "Panjang total format bit biner dan pembagian oktet desimal bertitik (dotted decimal) pada alamat IPv4 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 bit yang terbagi menjadi 2 blok"
+      },
+      {
+        "id": "B",
+        "text": "64 bit yang terbagi menjadi 8 oktet"
+      },
+      {
+        "id": "C",
+        "text": "128 bit yang terbagi menjadi 16 heksadesimal"
+      },
+      {
+        "id": "D",
+        "text": "256 bit yang terbagi menjadi 32 byte"
+      },
+      {
+        "id": "E",
+        "text": "32 bit yang terbagi menjadi 4 oktet (masing-masing 8 bit)"
+      }
+    ],
+    "key": "E",
+    "explanation": "IPv4 memiliki panjang 32 bit, dikelompokkan menjadi 4 oktet (masing-masing 8 bit bernilai desimal 0 hingga 255) dipisahkan tanda titik.",
+    "quickTip": "Format IPv4 = 32 bit, 4 oktet bernilai 0-255."
+  },
+  {
+    "id": "s15_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Pada sistem pengalamatan kelas tradisional (Classful Addressing), alamat IP dikelompokkan berdasarkan rentang oktet pertama.",
+    "question": "Rentang desimal pada oktet pertama untuk alamat IPv4 Kelas A adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "192 sampai 223"
+      },
+      {
+        "id": "B",
+        "text": "1 sampai 126"
+      },
+      {
+        "id": "C",
+        "text": "224 sampai 239"
+      },
+      {
+        "id": "D",
+        "text": "128 sampai 191"
+      },
+      {
+        "id": "E",
+        "text": "240 sampai 255"
+      }
+    ],
+    "key": "B",
+    "explanation": "Kelas A memiliki bit pertama '0', mencakup rentang 1 hingga 126 pada oktet pertama, dengan default subnet mask 255.0.0.0 (/8).",
+    "quickTip": "Oktet pertama IPv4: Kelas A = 1-126; Kelas B = 128-191; Kelas C = 192-223."
+  },
+  {
+    "id": "s15_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Alamat IPv4 Kelas B dirancang untuk jaringan berskala menengah hingga besar dengan kapasitas hingga 65.534 host.",
+    "question": "Rentang desimal pada oktet pertama untuk alamat IPv4 Kelas B adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "127 sampai 128"
+      },
+      {
+        "id": "B",
+        "text": "128 sampai 191"
+      },
+      {
+        "id": "C",
+        "text": "192 sampai 223"
+      },
+      {
+        "id": "D",
+        "text": "1 sampai 126"
+      },
+      {
+        "id": "E",
+        "text": "224 sampai 239"
+      }
+    ],
+    "key": "B",
+    "explanation": "Kelas B diawali dengan bit biner '10', mencakup 128 hingga 191, dengan default subnet mask 255.255.0.0 (/16).",
+    "quickTip": "Kelas B = 128 sampai 191 pada oktet pertama."
+  },
+  {
+    "id": "s15_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Alamat IPv4 Kelas C sangat umum digunakan pada jaringan skala kecil seperti laboratorium sekolah atau perkantoran.",
+    "question": "Rentang desimal pada oktet pertama dan default subnet mask untuk alamat IPv4 Kelas C adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 sampai 126 dengan subnet mask 255.0.0.0"
+      },
+      {
+        "id": "B",
+        "text": "240 sampai 255 dengan subnet mask 0.0.0.0"
+      },
+      {
+        "id": "C",
+        "text": "128 sampai 191 dengan subnet mask 255.255.0.0"
+      },
+      {
+        "id": "D",
+        "text": "192 sampai 223 dengan default subnet mask 255.255.255.0 (/24)"
+      },
+      {
+        "id": "E",
+        "text": "224 sampai 239 dengan subnet mask 255.255.255.255"
+      }
+    ],
+    "key": "D",
+    "explanation": "Kelas C diawali bit '110', rentang oktet 192-223, default mask 255.255.255.0 (/24) melayani hingga 254 host per jaringan.",
+    "quickTip": "Kelas C = 192 sampai 223 (mask /24)."
+  },
+  {
+    "id": "s15_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Alamat IPv4 Kelas D (rentang oktet pertama 224 sampai 239) dialokasikan secara khusus oleh IANA untuk fungsi tertentu.",
+    "question": "Tujuan pemanfaatan khusus dari blok alamat IPv4 Kelas D adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Komunikasi Multicast (pengiriman paket satu ke kelompok tertentu)"
+      },
+      {
+        "id": "B",
+        "text": "Alamat loopback pengujian internal kartu jaringan"
+      },
+      {
+        "id": "C",
+        "text": "Eksperimen riset dan penelitian militer di masa depan"
+      },
+      {
+        "id": "D",
+        "text": "Alamat kartu Wi-Fi laptop secara otomatis"
+      },
+      {
+        "id": "E",
+        "text": "Host komputer pengguna jaringan rumahan"
+      }
+    ],
+    "key": "A",
+    "explanation": "Kelas D (224.0.0.0 hingga 239.255.255.255) digunakan untuk traffic Multicast seperti protokol routing OSPF (224.0.0.5) dan streaming video.",
+    "quickTip": "Kelas D (224-239) = Khusus komunikasi Multicast."
+  },
+  {
+    "id": "s15_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Standar RFC 1918 menetapkan rentang alamat IP Privat yang tidak dapat dirutekan secara langsung di internet publik (Non-Routable).",
+    "question": "Rentang alamat IP Privat yang dialokasikan untuk Kelas C menurut RFC 1918 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "192.168.0.0 sampai 192.168.255.255 (prefix /16)"
+      },
+      {
+        "id": "B",
+        "text": "172.16.0.0 sampai 172.31.255.255"
+      },
+      {
+        "id": "C",
+        "text": "169.254.0.0 sampai 169.254.255.255"
+      },
+      {
+        "id": "D",
+        "text": "127.0.0.0 sampai 127.255.255.255"
+      },
+      {
+        "id": "E",
+        "text": "10.0.0.0 sampai 10.255.255.255"
+      }
+    ],
+    "key": "A",
+    "explanation": "Rentang IP Privat Kelas C adalah 192.168.0.0/16 (mencakup 256 blok subnet kelas C dari 192.168.0.x hingga 192.168.255.x).",
+    "quickTip": "IP Privat Kelas C = 192.168.0.0 s.d. 192.168.255.255."
+  },
+  {
+    "id": "s15_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Sebuah perusahaan skala enterprise membutuhkan alamat IP Privat Kelas A untuk menampung ratusan ribu workstation di seluruh cabangnya.",
+    "question": "Rentang blok alamat IP Privat Kelas A yang didefinisikan dalam RFC 1918 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "172.16.0.0 sampai 172.31.255.255"
+      },
+      {
+        "id": "B",
+        "text": "11.0.0.0 sampai 11.255.255.255"
+      },
+      {
+        "id": "C",
+        "text": "10.0.0.0 sampai 10.255.255.255 (prefix /8)"
+      },
+      {
+        "id": "D",
+        "text": "1.0.0.0 sampai 1.255.255.255"
+      },
+      {
+        "id": "E",
+        "text": "192.168.0.0 sampai 192.168.255.255"
+      }
+    ],
+    "key": "C",
+    "explanation": "Blok IP Privat Kelas A adalah 10.0.0.0/8, menyediakan 16.777.214 host privat yang bebas digunakan di jaringan lokal.",
+    "quickTip": "IP Privat Kelas A = 10.0.0.0/8 (10.0.0.0 s.d. 10.255.255.255)."
+  },
+  {
+    "id": "s15_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Rentang alamat IP Privat Kelas B sering digunakan pada institusi pendidikan dan kantor menengah.",
+    "question": "Rentang blok alamat IP Privat Kelas B menurut RFC 1918 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "172.16.0.0 sampai 172.31.255.255 (prefix /12, total 16 blok kelas B)"
+      },
+      {
+        "id": "B",
+        "text": "172.16.0.0 sampai 172.16.255.255 saja"
+      },
+      {
+        "id": "C",
+        "text": "10.16.0.0 sampai 10.31.255.255"
+      },
+      {
+        "id": "D",
+        "text": "192.168.16.0 sampai 192.168.31.255"
+      },
+      {
+        "id": "E",
+        "text": "172.0.0.0 sampai 172.255.255.255"
+      }
+    ],
+    "key": "A",
+    "explanation": "IP Privat Kelas B mencakup 16 blok kontigu dari 172.16.0.0 hingga 172.31.255.255 (prefix 172.16.0.0/12).",
+    "quickTip": "IP Privat Kelas B = 172.16.0.0 s.d. 172.31.255.255."
+  },
+  {
+    "id": "s15_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Seorang teknisi melakukan pengujian internal stack protokol TCP/IP pada komputer tanpa menghubungkan kabel LAN atau Wi-Fi.",
+    "question": "Alamat IP Loopback standar yang digunakan untuk menguji fungsionalitas software stack TCP/IP lokal pada komputer adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.0.0.0"
+      },
+      {
+        "id": "B",
+        "text": "255.255.255.255"
+      },
+      {
+        "id": "C",
+        "text": "192.168.1.1"
+      },
+      {
+        "id": "D",
+        "text": "127.0.0.1 (blok 127.0.0.0/8)"
+      },
+      {
+        "id": "E",
+        "text": "10.0.0.1"
+      }
+    ],
+    "key": "D",
+    "explanation": "Blok 127.0.0.0/8 (paling umum 127.0.0.1 atau localhost) adalah alamat loopback untuk memverifikasi bahwa tumpukan protokol TCP/IP lokal berfungsi normal.",
+    "quickTip": "Tes internal TCP/IP lokal komputer = Ping 127.0.0.1 (Loopback Address)."
+  },
+  {
+    "id": "s15_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Sebuah komputer laptop yang disetel mode otomatis (DHCP) gagal menerima respon penawaran IP dari server DHCP di jaringan.",
+    "question": "Sistem operasi Windows akan memberikan alamat darurat otomatis dari rentang APIPA (Automatic Private IP Addressing), yaitu...",
+    "options": [
+      {
+        "id": "A",
+        "text": "10.10.10.1 sampai 10.10.10.254"
+      },
+      {
+        "id": "B",
+        "text": "224.0.0.1 sampai 224.0.0.254"
+      },
+      {
+        "id": "C",
+        "text": "169.254.0.1 sampai 169.254.255.254 (blok 169.254.0.0/16)"
+      },
+      {
+        "id": "D",
+        "text": "127.0.0.1 sampai 127.0.0.254"
+      },
+      {
+        "id": "E",
+        "text": "192.168.1.100 sampai 192.168.1.200"
+      }
+    ],
+    "key": "C",
+    "explanation": "Jika DHCP server tidak merespon, sistem operasi otomatis mengalokasikan alamat Link-Local APIPA dari blok 169.254.0.0/16 (indikasi bahwa DHCP server gagal/mati).",
+    "quickTip": "IP berawalan 169.254.x.x menandakan gagal mendapat IP dari DHCP (APIPA)."
+  },
+  {
+    "id": "s15_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Pada tabel routing sebuah router gateway, terdapat rute penampung yang mengarahkan semua lalu lintas yang tidak dikenal menuju ke internet.",
+    "question": "Notasi alamat IP dan subnet mask untuk Default Route (Gateway of Last Resort) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "127.0.0.1/8"
+      },
+      {
+        "id": "B",
+        "text": "255.255.255.255/32"
+      },
+      {
+        "id": "C",
+        "text": "10.0.0.0/8"
+      },
+      {
+        "id": "D",
+        "text": "0.0.0.0/0 (IP 0.0.0.0 dengan Netmask 0.0.0.0)"
+      },
+      {
+        "id": "E",
+        "text": "192.168.1.1/24"
+      }
+    ],
+    "key": "D",
+    "explanation": "Default Route direpresentasikan dengan 0.0.0.0/0 (seluruh bit nol), yang mencakup semua kemungkinan tujuan paket data.",
+    "quickTip": "Default route = 0.0.0.0/0 (Gateway of Last Resort)."
+  },
+  {
+    "id": "s15_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Paket data yang ditujukan ke seluruh host yang berada di segmen jaringan lokal yang sama tanpa diteruskan melintasi router.",
+    "question": "Alamat Limited Broadcast (Local Broadcast) standar yang digunakan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "127.0.0.1"
+      },
+      {
+        "id": "B",
+        "text": "255.255.255.255"
+      },
+      {
+        "id": "C",
+        "text": "0.0.0.0"
+      },
+      {
+        "id": "D",
+        "text": "192.168.1.0"
+      },
+      {
+        "id": "E",
+        "text": "224.0.0.1"
+      }
+    ],
+    "key": "B",
+    "explanation": "Alamat 255.255.255.255 adalah broadcast terbatas lokal (limited broadcast) yang diterima semua host di broadcast domain lokal dan dihentikan oleh router.",
+    "quickTip": "Alamat broadcast lokal seluruh segmen = 255.255.255.255."
+  },
+  {
+    "id": "s15_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Sebuah alamat IPv4 terdiri dari dua bagian logis pembagian bit.",
+    "question": "Dua bagian pembentuk identitas dalam sebuah alamat IP adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "User ID dan Password ID"
+      },
+      {
+        "id": "B",
+        "text": "Domain ID dan Web ID"
+      },
+      {
+        "id": "C",
+        "text": "Network ID (Porsi Jaringan) dan Host ID (Porsi Perangkat)"
+      },
+      {
+        "id": "D",
+        "text": "Port ID dan Socket ID"
+      },
+      {
+        "id": "E",
+        "text": "MAC ID dan Serial ID"
+      }
+    ],
+    "key": "C",
+    "explanation": "Subnet mask memisahkan alamat IP menjadi Network ID (menentukan di jaringan mana host berada) dan Host ID (identitas unik host di jaringan tersebut).",
+    "quickTip": "Alamat IP terbagi menjadi Network ID dan Host ID."
+  },
+  {
+    "id": "s15_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Dua komputer pada jaringan lokal dikonfigurasi dengan alamat IP: Komputer A = 192.168.1.10/24 dan Komputer B = 192.168.2.10/24.",
+    "question": "Apakah kedua komputer tersebut dapat saling berkomunikasi secara langsung tanpa melalui perangkat Router Layer 3?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bisa, asalkan kedua komputer dinyalakan serempak"
+      },
+      {
+        "id": "B",
+        "text": "Tidak bisa, karena keduanya berada pada Network ID yang berbeda (192.168.1.0 vs 192.168.2.0)"
+      },
+      {
+        "id": "C",
+        "text": "Bisa, karena sama-sama menggunakan kabel UTP Cat6"
+      },
+      {
+        "id": "D",
+        "text": "Bisa, karena nomor host keduanya sama-sama 10"
+      },
+      {
+        "id": "E",
+        "text": "Bisa, karena subnet mask keduanya sama-sama /24"
+      }
+    ],
+    "key": "B",
+    "explanation": "Karena prefix /24 mencakup 3 oktet pertama, Network ID Komputer A adalah 192.168.1.0 sedangkan Komputer B adalah 192.168.2.0. Perbedaan Network ID mewajibkan adanya Router.",
+    "quickTip": "Beda Network ID membutuhkan Router untuk saling berkomunikasi."
+  },
+  {
+    "id": "s15_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Teknologi penerjemahan alamat jaringan (Network Address Translation / NAT) banyak diimplementasikan pada router penghubung internet kantor.",
+    "question": "Fungsi utama dari teknologi NAT pada router adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengganti sistem operasi Linux menjadi Windows"
+      },
+      {
+        "id": "B",
+        "text": "Menerjemahkan banyak alamat IP Privat lokal menjadi satu atau beberapa alamat IP Publik yang terdaftar resmi di internet"
+      },
+      {
+        "id": "C",
+        "text": "Mempercepat putaran kipas pendingin casing server"
+      },
+      {
+        "id": "D",
+        "text": "Mematikan virus komputer di hard disk pengguna"
+      },
+      {
+        "id": "E",
+        "text": "Mengubah data teks menjadi gelombang radio FM"
+      }
+    ],
+    "key": "B",
+    "explanation": "NAT memungkinkan ribuan perangkat ber-IP privat di jaringan lokal dapat mengakses internet secara bersamaan menggunakan satu IP publik provider.",
+    "quickTip": "NAT menerjemahkan IP Privat lokal menjadi IP Publik internet."
+  },
+  {
+    "id": "s15_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Salah satu varian NAT yang paling populer memetakan ribuan IP Privat ke satu IP Publik tunggal dengan memanfaatkan nomor port layer 4.",
+    "question": "Nama teknologi varian NAT berbasis pemetaan port tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dynamic NAT Pool"
+      },
+      {
+        "id": "B",
+        "text": "Split Horizon"
+      },
+      {
+        "id": "C",
+        "text": "PAT (Port Address Translation) / NAT Overload"
+      },
+      {
+        "id": "D",
+        "text": "VLAN Trunking"
+      },
+      {
+        "id": "E",
+        "text": "Static NAT 1-to-1"
+      }
+    ],
+    "key": "C",
+    "explanation": "PAT (sering disebut NAT Overload atau Masquerade) membedakan koneksi ribuan host privat berdasarkan nomor source port unik pada satu IP publik.",
+    "quickTip": "Banyak IP privat ke 1 IP publik via nomor port = PAT / NAT Overload (Masquerade)."
+  },
+  {
+    "id": "s15_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Organisasi nirlaba internasional yang bertanggung jawab mengoordinasikan alokasi global alamat IP dan sistem nomor otonom (AS Number) adalah...",
+    "question": "Nama badan pengelola sumber daya penomoran internet global tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "ISO (International Organization for Standardization)"
+      },
+      {
+        "id": "B",
+        "text": "IANA (Internet Assigned Numbers Authority) di bawah ICANN"
+      },
+      {
+        "id": "C",
+        "text": "IEEE (Institute of Electrical and Electronics Engineers)"
+      },
+      {
+        "id": "D",
+        "text": "TIA (Telecommunications Industry Association)"
+      },
+      {
+        "id": "E",
+        "text": "FCC (Federal Communications Commission)"
+      }
+    ],
+    "key": "B",
+    "explanation": "IANA bertanggung jawab atas alokasi global blok alamat IP dan mendelegasikannya ke Regional Internet Registries (RIR, seperti APNIC untuk Asia Pasifik).",
+    "quickTip": "Pengelola alokasi global alamat IP sedunia = IANA / ICANN."
+  },
+  {
+    "id": "s15_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Untuk wilayah Asia Pasifik (termasuk Indonesia), registri regional yang mendistribusikan blok alamat IP publik ke ISP lokal adalah...",
+    "question": "Nama Regional Internet Registry (RIR) wilayah Asia Pasifik adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "LACNIC (Amerika Latin)"
+      },
+      {
+        "id": "B",
+        "text": "RIPE NCC (Eropa & Timur Tengah)"
+      },
+      {
+        "id": "C",
+        "text": "AFRINIC (Afrika)"
+      },
+      {
+        "id": "D",
+        "text": "ARIN (Amerika Utara)"
+      },
+      {
+        "id": "E",
+        "text": "APNIC (Asia-Pacific Network Information Centre)"
+      }
+    ],
+    "key": "E",
+    "explanation": "APNIC melayani kawasan Asia Pasifik. Di Indonesia, ISP memperoleh IP publik melalui APNIC atau IDNIC (APJII).",
+    "quickTip": "Registri IP wilayah Asia Pasifik = APNIC."
+  },
+  {
+    "id": "s15_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Alamat IP publik yang diberikan ISP kepada pelanggan korporasi yang nilainya tetap dan tidak pernah berubah setiap kali router restart disebut...",
+    "question": "Tipe alokasi alamat IP publik permanen tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "IP Statis (Static IP)"
+      },
+      {
+        "id": "B",
+        "text": "IP Loopback"
+      },
+      {
+        "id": "C",
+        "text": "IP APIPA"
+      },
+      {
+        "id": "D",
+        "text": "IP Anycast"
+      },
+      {
+        "id": "E",
+        "text": "IP Dinamis (Dynamic IP)"
+      }
+    ],
+    "key": "A",
+    "explanation": "IP Statis diatur secara manual dan tidak berubah, sangat dibutuhkan untuk server web, server email, CCTV online, atau VPN kantor.",
+    "quickTip": "Alamat IP permanen yang tidak berubah saat restart = IP Statis."
+  },
+  {
+    "id": "s15_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Alamat IP publik yang diberikan ISP kepada pelanggan perumahan di mana alamat dapat berganti secara otomatis saat koneksi modem terputus dan tersambung kembali disebut...",
+    "question": "Tipe alokasi alamat IP yang berubah secara periodik tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "IP Multicast"
+      },
+      {
+        "id": "B",
+        "text": "IP Dinamis (Dynamic IP)"
+      },
+      {
+        "id": "C",
+        "text": "IP Gateway"
+      },
+      {
+        "id": "D",
+        "text": "IP Broadcast"
+      },
+      {
+        "id": "E",
+        "text": "IP Statis"
+      }
+    ],
+    "key": "B",
+    "explanation": "IP Dinamis dialokasikan secara sementara dari pool penyedia ISP menggunakan protokol DHCP/PPPoE untuk menghemat alokasi persediaan IPv4.",
+    "quickTip": "Alamat IP yang berubah berganti secara otomatis = IP Dinamis."
+  },
+  {
+    "id": "s15_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Standar RFC 1918 menetapkan 3 blok rentang alamat IPv4 Privat untuk penggunaan jaringan lokal.",
+    "question": "Manakah yang TERMASUK blok alamat IPv4 Privat menurut standar RFC 1918? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.1.1.0 s.d. 1.1.1.255 (DNS Cloudflare Publik)"
+      },
+      {
+        "id": "B",
+        "text": "172.16.0.0 s.d. 172.31.255.255 (Blok /12)"
+      },
+      {
+        "id": "C",
+        "text": "192.168.0.0 s.d. 192.168.255.255 (Blok /16)"
+      },
+      {
+        "id": "D",
+        "text": "10.0.0.0 s.d. 10.255.255.255 (Blok /8)"
+      },
+      {
+        "id": "E",
+        "text": "8.8.8.0 s.d. 8.8.8.255 (DNS Google Publik)"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Tiga rentang IP privat resmi RFC 1918 adalah 10.0.0.0/8, 172.16.0.0/12, dan 192.168.0.0/16. Alamat 8.8.8.8 dan 1.1.1.1 adalah IP publik internet.",
+    "quickTip": "Tiga blok IP Privat RFC 1918: 10.x.x.x, 172.16-31.x.x, dan 192.168.x.x."
+  },
+  {
+    "id": "s15_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Alamat IPv4 memiliki beberapa alamat khusus yang dicadangkan untuk fungsi tertentu.",
+    "question": "Manakah pasangan alamat IP dan fungsi khusus yang BENAR? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "127.0.0.1 berfungsi sebagai alamat Loopback lokal pengujian software stack TCP/IP"
+      },
+      {
+        "id": "B",
+        "text": "169.254.x.x berfungsi sebagai alamat darurat APIPA saat klien gagal menghubungi DHCP"
+      },
+      {
+        "id": "C",
+        "text": "255.255.255.255 berfungsi sebagai alamat web server rahasia"
+      },
+      {
+        "id": "D",
+        "text": "192.168.1.1 wajib selalu menjadi alamat satu-satunya di internet"
+      },
+      {
+        "id": "E",
+        "text": "0.0.0.0 berfungsi sebagai alamat kartu Wi-Fi tercepat di dunia"
+      }
+    ],
+    "key": [
+      "A",
+      "B"
+    ],
+    "explanation": "127.0.0.1 adalah loopback adapter internal; 169.254.x.x adalah APIPA saat DHCP gagal.",
+    "quickTip": "127.0.0.1 = Loopback test internal; 169.254.x.x = APIPA gagal DHCP."
+  },
+  {
+    "id": "s15_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Klasifikasi kelas IPv4 tradisional (Classful) membagi alamat berdasarkan nilai oktet pertamanya.",
+    "question": "Manakah klasifikasi kelas alamat IPv4 yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kelas C: Oktet pertama 192 s.d. 223 (Default mask /24)"
+      },
+      {
+        "id": "B",
+        "text": "Kelas D: Oktet pertama 1 s.d. 50"
+      },
+      {
+        "id": "C",
+        "text": "Kelas B: Oktet pertama 128 s.d. 191 (Default mask /16)"
+      },
+      {
+        "id": "D",
+        "text": "Kelas E: Oktet pertama 51 s.d. 100"
+      },
+      {
+        "id": "E",
+        "text": "Kelas A: Oktet pertama 1 s.d. 126 (Default mask /8)"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explanation": "Kelas A = 1-126, Kelas B = 128-191, Kelas C = 192-223, Kelas D = 224-239 (multicast), Kelas E = 240-255 (eksperimen).",
+    "quickTip": "Kelas A (1-126), Kelas B (128-191), Kelas C (192-223)."
+  },
+  {
+    "id": "s15_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Dalam sebuah subnet jaringan IPv4, ada dua alamat yang TIDAK BOLEH dikonfigurasikan ke perangkat komputer pengguna.",
+    "question": "Dua alamat yang dicadangkan dan tidak boleh dipakai oleh host komputer adalah... (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alamat Default Gateway (biasanya IP pertama atau terakhir yang usable)"
+      },
+      {
+        "id": "B",
+        "text": "Alamat DNS Server lokal"
+      },
+      {
+        "id": "C",
+        "text": "Alamat Broadcast ID (seluruh bit host bernilai biner 1)"
+      },
+      {
+        "id": "D",
+        "text": "Alamat Network ID (seluruh bit host bernilai biner 0)"
+      },
+      {
+        "id": "E",
+        "text": "Alamat Host Pertama (seluruh bit host bernilai biner 00000001)"
+      }
+    ],
+    "key": [
+      "C",
+      "D"
+    ],
+    "explanation": "Network ID digunakan untuk mewakili identitas subnet, sedangkan Broadcast ID digunakan untuk memanggil seluruh host dalam subnet. Keduanya tidak boleh dipasang pada PC.",
+    "quickTip": "Dua alamat yang tidak boleh dipakai host: Network ID dan Broadcast ID."
+  },
+  {
+    "id": "s15_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Penerapan NAT (Network Address Translation) memiliki dampak positif dan batasan fungsionalitas.",
+    "question": "Manakah manfaat dari penerapan teknologi NAT pada router gateway? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meningkatkan keamanan internal jaringan karena IP privat tidak terekspos langsung ke internet"
+      },
+      {
+        "id": "B",
+        "text": "Memungkinkan ribuan komputer lokal berbagi satu koneksi internet publik ISP"
+      },
+      {
+        "id": "C",
+        "text": "Menghemat ketersediaan alamat IPv4 publik yang sangat terbatas di dunia"
+      },
+      {
+        "id": "D",
+        "text": "Membuat kabel LAN yang putus bisa tersambung otomatis secara nirkabel"
+      },
+      {
+        "id": "E",
+        "text": "Menghilangkan kebutuhan kartu jaringan fisik pada komputer"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "NAT menghemat IPv4 publik, menyembunyikan topologi IP internal (keamanan terselubung), dan memungkinkan pemakaian bersama IP publik ISP.",
+    "quickTip": "Manfaat NAT: Menghemat IP publik, keamanan internal, dan sharing koneksi internet."
+  },
+  {
+    "id": "s15_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Struktur dan panjang format alamat IPv4.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai alamat IPv4!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Alamat IPv4 memiliki panjang total 32 bit yang dipisahkan menjadi 4 oktet desimal bertitik.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Nilai desimal terbesar yang mungkin ada pada satu oktet IPv4 adalah 255 (berasal dari 8 bit angka biner 1).",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Alamat IP seperti 192.168.1.300 adalah contoh alamat IPv4 yang valid dan benar.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Nilai maksimal tiap oktet adalah 255 (karena 8 bit biner). Angka 300 tidak valid pada alamat IPv4.",
+    "quickTip": "Oktet IPv4 maksimal bernilai 255; angka di atas 255 adalah alamat tidak valid."
+  },
+  {
+    "id": "s15_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Karakteristik perutean IP Publik vs IP Privat.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang IP Publik dan IP Privat!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Alamat IP Privat dapat digunakan secara bebas di jaringan lokal tanpa perlu mendaftar ke badan internet IANA.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Alamat IP Privat tidak dapat dirutekan (non-routable) langsung di jaringan internet publik.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Router backbone internet di seluruh dunia akan dengan senang hati meneruskan paket dengan tujuan 192.168.1.1 ke seluruh benua.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Router penyedia internet publik (ISP) akan membuang (drop) paket dengan alamat tujuan IP privat RFC 1918.",
+    "quickTip": "IP Privat di-drop oleh router internet publik; butuh NAT untuk online."
+  },
+  {
+    "id": "s15_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Fungsi alamat Loopback dan APIPA.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai alamat khusus!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Perintah 'ping 127.0.0.1' dapat berhasil meskipun kabel jaringan LAN dicabut dari komputer.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Komputer yang memperoleh IP 169.254.x.x menandakan komputer gagal berkomunikasi dengan server DHCP.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Alamat APIPA 169.254.x.x dapat digunakan langsung untuk browsing internet membuka Google.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "APIPA hanya memungkinkan komunikasi darurat antar-host dalam satu link lokal tanpa akses gateway internet.",
+    "quickTip": "APIPA tidak punya gateway; tidak bisa digunakan untuk internetan."
+  },
+  {
+    "id": "s15_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Peran Subnet Mask dalam membedakan Network ID dan Host ID.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang subnet mask!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Subnet mask digunakan oleh perangkat untuk memisahkan porsi Network ID dan porsi Host ID.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Komputer dengan IP 192.168.1.5/24 dan 192.168.1.20/24 berada pada satu Network ID yang sama (192.168.1.0).",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Komputer dengan Network ID yang berbeda dapat saling bertukar data langsung tanpa membutuhkan Router.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Komputer pada Network ID yang berbeda mutlak membutuhkan Router Layer 3 untuk merutekan paket antar-jaringan.",
+    "quickTip": "Komunikasi antar-Network ID yang berbeda wajib melalui Router."
+  },
+  {
+    "id": "s15_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Fungsi dan cara kerja Network Address Translation (NAT).",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang NAT!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "NAT Overload (PAT) menggunakan nomor port layer 4 untuk melacak koneksi dari ribuan klien internal.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "NAT memungkinkan satu kantor dengan ratusan karyawan cukup berlangganan 1 alamat IP Publik dari ISP.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "NAT adalah teknologi pengganti kabel fiber optik untuk memperkuat sinyal cahaya.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "NAT adalah fitur software perutean Layer 3/4 router, bukan media kabel transmisi fisik.",
+    "quickTip": "NAT adalah mekanisme translasi IP logis pada router, bukan media fisik kabel."
+  }
+]

@@ -1,0 +1,950 @@
+[
+  {
+    "id": "s11_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Standar Wireless LAN (WLAN) IEEE 802.11 telah mengalami evolusi generasi untuk meningkatkan kecepatan dan efisiensi transmisi data.",
+    "question": "Standar Wi-Fi generasi ke-6 yang beroperasi pada pita frekuensi 2.4 GHz dan 5 GHz (serta 6 GHz pada Wi-Fi 6E) dengan teknologi OFDMA adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "IEEE 802.11ax (Wi-Fi 6)"
+      },
+      {
+        "id": "B",
+        "text": "IEEE 802.11ac (Wi-Fi 5)"
+      },
+      {
+        "id": "C",
+        "text": "IEEE 802.11b (Wi-Fi 1)"
+      },
+      {
+        "id": "D",
+        "text": "IEEE 802.11g (Wi-Fi 3)"
+      },
+      {
+        "id": "E",
+        "text": "IEEE 802.11n (Wi-Fi 4)"
+      }
+    ],
+    "key": "A",
+    "explanation": "Wi-Fi 6 mengacu pada standar IEEE 802.11ax yang memperkenalkan Orthogonal Frequency Division Multiple Access (OFDMA) dan Target Wake Time (TWT) untuk efisiensi perangkat padat.",
+    "quickTip": "IEEE 802.11ax = Wi-Fi 6 (teknologi OFDMA & efisiensi tinggi)."
+  },
+  {
+    "id": "s11_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Pada pita frekuensi 2.4 GHz, spektrum frekuensi dibagi menjadi beberapa saluran (channel) dengan lebar kanal standar 20 MHz.",
+    "question": "Kombinasi tiga kanal non-overlapping (tidak saling tumpang tindih) yang umum digunakan pada pita 2.4 GHz agar bebas interferensi adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kanal 1, Kanal 6, dan Kanal 11"
+      },
+      {
+        "id": "B",
+        "text": "Kanal 5, Kanal 10, dan Kanal 15"
+      },
+      {
+        "id": "C",
+        "text": "Kanal 3, Kanal 7, dan Kanal 12"
+      },
+      {
+        "id": "D",
+        "text": "Kanal 2, Kanal 4, dan Kanal 6"
+      },
+      {
+        "id": "E",
+        "text": "Kanal 1, Kanal 2, dan Kanal 3"
+      }
+    ],
+    "key": "A",
+    "explanation": "Pada pita 2.4 GHz, hanya ada 3 kanal dengan jarak pemisah 25 MHz yang tidak saling bersinggungan secara spektral, yaitu kanal 1, 6, dan 11.",
+    "quickTip": "Tiga kanal 2.4 GHz bebas interferensi = Kanal 1, 6, dan 11."
+  },
+  {
+    "id": "s11_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Gelombang radio pada pita 2.4 GHz dan pita 5 GHz memiliki karakteristik fisis perambatan yang berbeda terhadap halangan fisik dinding.",
+    "question": "Kelebihan utama frekuensi nirkabel 2.4 GHz dibandingkan frekuensi 5 GHz dalam instalasi rumahan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memiliki jumlah kanal bebas tumpang tindih sebanyak 24 kanal"
+      },
+      {
+        "id": "B",
+        "text": "Bebas total dari gangguan gelombang mikro dan microwave oven"
+      },
+      {
+        "id": "C",
+        "text": "Tidak membutuhkan antena pemancar sama sekali"
+      },
+      {
+        "id": "D",
+        "text": "Memiliki daya tembus dinding dan jangkauan area cakupan yang lebih luas"
+      },
+      {
+        "id": "E",
+        "text": "Memiliki kecepatan bandwidth data jauh lebih tinggi"
+      }
+    ],
+    "key": "D",
+    "explanation": "Frekuensi yang lebih rendah (2.4 GHz) memiliki panjang gelombang lebih panjang sehingga daya tembus terhadap partisi/dinding lebih baik dan jangkauan lebih luas dibanding 5 GHz.",
+    "quickTip": "Frekuensi 2.4 GHz: Jangkauan lebih jauh & tembus dinding lebih baik; 5 GHz: Kecepatan lebih tinggi."
+  },
+  {
+    "id": "s11_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Nama jaringan nirkabel yang dipancarkan oleh Access Point (AP) agar dapat dikenali dan dipilih oleh pengguna di perangkat laptop/ponsel disebut...",
+    "question": "Istilah untuk identitas nama jaringan nirkabel yang disiarkan (broadcast) tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "BSSID (Basic Service Set Identifier)"
+      },
+      {
+        "id": "B",
+        "text": "Default Gateway"
+      },
+      {
+        "id": "C",
+        "text": "MAC Address"
+      },
+      {
+        "id": "D",
+        "text": "SSID (Service Set Identifier)"
+      },
+      {
+        "id": "E",
+        "text": "IP Address"
+      }
+    ],
+    "key": "D",
+    "explanation": "SSID adalah label nama teks (hingga 32 karakter) yang mengidentifikasi jaringan nirkabel bagi klien pengguna.",
+    "quickTip": "Nama tampilan jaringan Wi-Fi = SSID."
+  },
+  {
+    "id": "s11_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Alamat fisik unik 48-bit (MAC Address) dari antarmuka radio kartu Access Point nirkabel yang memancarkan sinyal disebut...",
+    "question": "Istilah teknis identitas alamat fisik perangkat pemancar nirkabel tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Subnet Mask"
+      },
+      {
+        "id": "B",
+        "text": "BSSID (Basic Service Set Identifier)"
+      },
+      {
+        "id": "C",
+        "text": "ESSID"
+      },
+      {
+        "id": "D",
+        "text": "WPA Key"
+      },
+      {
+        "id": "E",
+        "text": "SSID"
+      }
+    ],
+    "key": "B",
+    "explanation": "BSSID adalah alamat MAC dari modul radio nirkabel pada Access Point yang melayani sel jaringan BSS.",
+    "quickTip": "Alamat fisik MAC radio Access Point = BSSID."
+  },
+  {
+    "id": "s11_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Protokol enkripsi keamanan Wi-Fi generasi awal (Wired Equivalent Privacy / WEP) saat ini telah ditinggalkan dan dilarang digunakan.",
+    "question": "Alasan utama protokol keamanan WEP tidak boleh digunakan lagi pada jaringan Wi-Fi modern adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memiliki kelemahan algoritma IV (Initialization Vector) yang dapat diretas dengan mudah dalam hitungan menit menggunakan tools analisis paket"
+      },
+      {
+        "id": "B",
+        "text": "Membutuhkan kabel tembaga tambahan untuk mengaktifkannya"
+      },
+      {
+        "id": "C",
+        "text": "Tidak bisa dijalankan pada sistem operasi Windows 10"
+      },
+      {
+        "id": "D",
+        "text": "Menyebabkan perangkat laptop menjadi cepat panas"
+      },
+      {
+        "id": "E",
+        "text": "Hanya mendukung kecepatan internet maksimal 1 Kbps"
+      }
+    ],
+    "key": "A",
+    "explanation": "WEP menggunakan algoritma RC4 dengan IV 24-bit yang rentan terhadap serangan pengumpulan paket (aircrack-ng) dan dapat dipecahkan dalam beberapa menit.",
+    "quickTip": "WEP dilarang karena memiliki celah keamanan fatal pada Initialization Vector (IV)."
+  },
+  {
+    "id": "s11_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Standar pengamanan Wi-Fi modern WPA3 memperkenalkan metode otentikasi baru untuk jaringan personal guna menggantikan PSK rentan kamus.",
+    "question": "Nama mekanisme pertukaran kunci yang aman terhadap serangan offline dictionary attack pada WPA3-Personal adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "SAE (Simultaneous Authentication of Equals)"
+      },
+      {
+        "id": "B",
+        "text": "MD5 Hashing Algorithm"
+      },
+      {
+        "id": "C",
+        "text": "Telnet Plaintext Auth"
+      },
+      {
+        "id": "D",
+        "text": "WEP 64-bit Shared Key"
+      },
+      {
+        "id": "E",
+        "text": "DES (Data Encryption Standard)"
+      }
+    ],
+    "key": "A",
+    "explanation": "SAE (berdasarkan protokol Dragonfly key exchange) mencegah penyerang melakukan serangan kamus pasif (offline dictionary attack) terhadap handshake Wi-Fi.",
+    "quickTip": "Otentikasi WPA3-Personal yang kebal serangan kamus = SAE (Simultaneous Authentication of Equals)."
+  },
+  {
+    "id": "s11_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Untuk autentikasi pengguna pada jaringan Wi-Fi kantor skala enterprise, setiap karyawan menggunakan username dan password masing-masing secara terpusat.",
+    "question": "Protokol keamanan Wi-Fi yang memanfaatkan server autentikasi terpusat (seperti RADIUS Server berbasis 802.1X) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "WPA2 / WPA3 Enterprise"
+      },
+      {
+        "id": "B",
+        "text": "Open System Authentication"
+      },
+      {
+        "id": "C",
+        "text": "Wired Equivalent Privacy (WEP)"
+      },
+      {
+        "id": "D",
+        "text": "WPA-Personal (Pre-Shared Key)"
+      },
+      {
+        "id": "E",
+        "text": "WPS (Wi-Fi Protected Setup) PIN"
+      }
+    ],
+    "key": "A",
+    "explanation": "WPA-Enterprise mengarahkan autentikasi ke server RADIUS (IEEE 802.1X/EAP), memungkinkan pengelolaan akun individual dan pencabutan hak akses terpusat.",
+    "quickTip": "Autentikasi Wi-Fi terpusat dengan RADIUS/802.1X = WPA-Enterprise."
+  },
+  {
+    "id": "s11_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Fitur pada router Wi-Fi rumahan yang memungkinkan koneksi mudah dengan menekan satu tombol fisik di perangkat, namun memiliki celah kerentanan brute-force PIN.",
+    "question": "Nama fitur kemudahan koneksi nirkabel yang sering direkomendasikan untuk dinonaktifkan demi keamanan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "DHCP Server"
+      },
+      {
+        "id": "B",
+        "text": "DNS Relay"
+      },
+      {
+        "id": "C",
+        "text": "SSID Broadcast"
+      },
+      {
+        "id": "D",
+        "text": "NAT Masquerade"
+      },
+      {
+        "id": "E",
+        "text": "WPS (Wi-Fi Protected Setup)"
+      }
+    ],
+    "key": "E",
+    "explanation": "WPS memiliki PIN 8-digit yang dapat ditembus dengan serangan brute-force (menggunakan tool Reaver) dalam beberapa jam karena verifikasi dibagi menjadi dua bagian 4-digit.",
+    "quickTip": "Fitur tombol koneksi mudah yang rentan dibobol PIN = WPS (Wi-Fi Protected Setup)."
+  },
+  {
+    "id": "s11_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Kekuatan sinyal penerimaan nirkabel pada perangkat klien diukur dalam satuan dBm dengan nilai logaritmik negatif.",
+    "question": "Nilai RSSI (Received Signal Strength Indicator) yang menunjukkan kualitas sinyal Wi-Fi yang sangat kuat dan optimal untuk streaming video definisi tinggi adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "-110 dBm hingga -120 dBm"
+      },
+      {
+        "id": "B",
+        "text": "+50 dBm hingga +100 dBm"
+      },
+      {
+        "id": "C",
+        "text": "-50 dBm hingga -60 dBm"
+      },
+      {
+        "id": "D",
+        "text": "-85 dBm hingga -95 dBm"
+      },
+      {
+        "id": "E",
+        "text": "0 dBm tepat tanpa sinyal"
+      }
+    ],
+    "key": "C",
+    "explanation": "Kekuatan sinyal Wi-Fi diukur dalam dBm negatif. -50 dBm sangat kuat, -67 dBm batas minimum untuk VoIP/video, sedangkan di bawah -80 dBm sinyal sangat lemah dan putus-putus.",
+    "quickTip": "Sinyal Wi-Fi bagus = -50 dBm s.d. -65 dBm (semakin mendekati 0 semakin kuat)."
+  },
+  {
+    "id": "s11_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Teknologi antena pada standar 802.11n ke atas yang menggunakan banyak antena pemancar dan penerima untuk meningkatkan throughput data disebut...",
+    "question": "Nama teknologi antena spasial ganda tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "FM (Frequency Modulation)"
+      },
+      {
+        "id": "B",
+        "text": "BNC (Bayonet Coupling)"
+      },
+      {
+        "id": "C",
+        "text": "AM (Amplitude Modulation)"
+      },
+      {
+        "id": "D",
+        "text": "SISO (Single-Input Single-Output)"
+      },
+      {
+        "id": "E",
+        "text": "MIMO (Multiple-Input Multiple-Output)"
+      }
+    ],
+    "key": "E",
+    "explanation": "MIMO memanfaatkan multi-stream spasial dengan beberapa antena TX/RX secara serentak untuk melipatgandakan laju transfer data tanpa memperlebar spektrum frekuensi.",
+    "quickTip": "Teknologi banyak antena pemancar & penerima = MIMO."
+  },
+  {
+    "id": "s11_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Pada Wi-Fi 5 (802.11ac Wave 2) dan Wi-Fi 6 (802.11ax), Access Point dapat mentransmisikan data ke beberapa perangkat klien nirkabel secara bersamaan.",
+    "question": "Nama pengembangan teknologi transmisi paralel multi-pengguna tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Frequency Hopping Spread Spectrum"
+      },
+      {
+        "id": "B",
+        "text": "MU-MIMO (Multi-User Multiple-Input Multiple-Output)"
+      },
+      {
+        "id": "C",
+        "text": "Half Duplex Time Slicing"
+      },
+      {
+        "id": "D",
+        "text": "Carrier Sense Multiple Access"
+      },
+      {
+        "id": "E",
+        "text": "Single Carrier Modulation"
+      }
+    ],
+    "key": "B",
+    "explanation": "MU-MIMO memungkinkan Access Point berkomunikasi secara bersamaan dengan beberapa klien tanpa harus bergantian antre waktu (time slicing).",
+    "quickTip": "Transmisi nirkabel serentak ke banyak pengguna = MU-MIMO."
+  },
+  {
+    "id": "s11_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Metode kendali akses media yang digunakan pada jaringan Wireless LAN (IEEE 802.11) untuk menghindari tabrakan data (collision) di udara adalah...",
+    "question": "Protokol transmisi nirkabel yang mendengarkan sebelum memancar dan menggunakan mekanisme RTS/CTS adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Token Passing Protocol"
+      },
+      {
+        "id": "B",
+        "text": "CSMA/CD (Collision Detection)"
+      },
+      {
+        "id": "C",
+        "text": "Polling Master-Slave"
+      },
+      {
+        "id": "D",
+        "text": "Slotted Aloha"
+      },
+      {
+        "id": "E",
+        "text": "CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Karena transceiver radio nirkabel tidak dapat mendeteksi tabrakan saat memancar (half-duplex), 802.11 menggunakan CSMA/CA (Collision Avoidance) dengan sinyal acknowledge (ACK).",
+    "quickTip": "Wi-Fi menggunakan CSMA/CA (Avoidance); Kabel Ethernet menggunakan CSMA/CD (Detection)."
+  },
+  {
+    "id": "s11_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Sebuah Access Point difungsikan untuk menerima sinyal Wi-Fi dari Access Point utama yang posisinya jauh, lalu memancarkannya kembali ke area blind spot.",
+    "question": "Mode operasional perangkat nirkabel yang bertindak memperluas jangkauan sinyal tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Range Extender / Repeater Mode"
+      },
+      {
+        "id": "B",
+        "text": "DHCP Relay Mode"
+      },
+      {
+        "id": "C",
+        "text": "Client Station Mode Murni"
+      },
+      {
+        "id": "D",
+        "text": "Router Gateway Mode"
+      },
+      {
+        "id": "E",
+        "text": "Bridge Mode Point-to-Point"
+      }
+    ],
+    "key": "A",
+    "explanation": "Mode Repeater / Range Extender menangkap sinyal nirkabel yang sudah ada lalu memperkuat dan memancarkannya kembali ke area yang belum terjangkau.",
+    "quickTip": "Memperluas jangkauan sinyal nirkabel = Mode Repeater / Range Extender."
+  },
+  {
+    "id": "s11_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Dua kantor cabang yang terpisah jarak 2 kilometer tanpa halangan gedung dihubungkan menggunakan dua perangkat radio nirkabel outdoor berantena directional.",
+    "question": "Konfigurasi jaringan nirkabel yang menghubungkan tepat dua titik lokasi tetap secara langsung disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "WPS Push Pairing"
+      },
+      {
+        "id": "B",
+        "text": "Point-to-Multipoint (PTMP)"
+      },
+      {
+        "id": "C",
+        "text": "Broadcasting Area"
+      },
+      {
+        "id": "D",
+        "text": "Point-to-Point (PTP)"
+      },
+      {
+        "id": "E",
+        "text": "Ad-Hoc Mesh Peer"
+      }
+    ],
+    "key": "D",
+    "explanation": "Koneksi Point-to-Point (PTP) menghubungkan dua lokasi tunggal menggunakan antena terarah dengan fokus gain tinggi.",
+    "quickTip": "Koneksi nirkabel langsung antara 2 lokasi = Point-to-Point (PTP)."
+  },
+  {
+    "id": "s11_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Sebuah menara BTS pemancar internet nirkabel (WISP) melayani puluhan antena radio di rumah-rumah pelanggan di sekitarnya.",
+    "question": "Topologi nirkabel di mana satu Access Point pusat melayani banyak stasiun radio klien disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Simplex Transmission"
+      },
+      {
+        "id": "B",
+        "text": "Point-to-Multipoint (PTMP)"
+      },
+      {
+        "id": "C",
+        "text": "Loopback Connection"
+      },
+      {
+        "id": "D",
+        "text": "Single-Mode Linking"
+      },
+      {
+        "id": "E",
+        "text": "Point-to-Point (PTP)"
+      }
+    ],
+    "key": "B",
+    "explanation": "Point-to-Multipoint (PTMP) menggunakan antena sektoral atau omnidirectional pada stasiun pusat untuk memancarkan sinyal ke berbagai stasiun klien terarah.",
+    "quickTip": "Satu pemancar melayani banyak klien = Point-to-Multipoint (PTMP)."
+  },
+  {
+    "id": "s11_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Jenis antena nirkabel yang memancarkan energi gelombang radio ke segala arah secara merata 360 derajat pada bidang horizontal adalah...",
+    "question": "Nama tipe antena penyebar sinyal segala arah tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antena Solid Dish"
+      },
+      {
+        "id": "B",
+        "text": "Antena Omnidirectional"
+      },
+      {
+        "id": "C",
+        "text": "Antena Yagi-Uda"
+      },
+      {
+        "id": "D",
+        "text": "Antena Horn Feeder"
+      },
+      {
+        "id": "E",
+        "text": "Antena Parabolik Grid"
+      }
+    ],
+    "key": "B",
+    "explanation": "Antena Omnidirectional memiliki pola radiasi 360 derajat horizontal menyerupai bentuk kue donat (toroid), cocok untuk area ruangan terpusat.",
+    "quickTip": "Pancaran sinyal merata 360 derajat = Antena Omnidirectional."
+  },
+  {
+    "id": "s11_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Untuk menjangkau jarak nirkabel belasan kilometer pada koneksi Point-to-Point, dibutuhkan antena dengan penguatan fokus (gain) sangat tinggi dan sudut pancar sempit.",
+    "question": "Tipe antena yang paling efektif untuk koneksi terarah jarak jauh tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antena Grid / Solid Dish Parabolic"
+      },
+      {
+        "id": "B",
+        "text": "Antena Dipole Lipat Televisi"
+      },
+      {
+        "id": "C",
+        "text": "Antena Omnidirectional 2 dBi"
+      },
+      {
+        "id": "D",
+        "text": "Antena Tongkat Monopole Mobil"
+      },
+      {
+        "id": "E",
+        "text": "Antena Rubber Duck bawaan laptop"
+      }
+    ],
+    "key": "A",
+    "explanation": "Antena piringan parabola (Dish/Grid) memfokuskan energi gelombang elektromagnetik ke satu berkas sempit dengan gain sangat tinggi (24 - 34 dBi) untuk jarak puluhan km.",
+    "quickTip": "Koneksi nirkabel jarak jauh berfokus tajam = Antena Dish / Grid Parabolik."
+  },
+  {
+    "id": "s11_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Teknisi melakukan survei sinyal Wi-Fi di area kantor untuk memetakan kekuatan sinyal, interferensi, dan area blank spot (dead zone).",
+    "question": "Kegiatan pengukuran dan pemetaan sebaran sinyal nirkabel di gedung tersebut dinamakan...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Electrical Voltage Auditing"
+      },
+      {
+        "id": "B",
+        "text": "Fusion Splicing Alignment"
+      },
+      {
+        "id": "C",
+        "text": "Penetration Testing Brute Force"
+      },
+      {
+        "id": "D",
+        "text": "Cable Certifying TIA-568"
+      },
+      {
+        "id": "E",
+        "text": "Wireless Site Survey (Heatmap Analysis)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Wireless Site Survey (menggunakan tools seperti NetSpot, Ekahau, atau Wi-Fi Analyzer) menghasilkan peta panas (heatmap) kekuatan sinyal dan rasio SNR.",
+    "quickTip": "Pemetaan cakupan dan kekuatan sinyal Wi-Fi di gedung = Wireless Site Survey."
+  },
+  {
+    "id": "s11_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Tingkat perbandingan antara kekuatan sinyal yang diinginkan (signal) terhadap derau kebisingan lingkungan (noise) dinyatakan dalam satuan dB.",
+    "question": "Parameter kualitas jaringan nirkabel yang menunjukkan rasio sinyal terhadap derau tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "QoS (Quality of Service)"
+      },
+      {
+        "id": "B",
+        "text": "SSID (Service Set Identifier)"
+      },
+      {
+        "id": "C",
+        "text": "MTU (Maximum Transmission Unit)"
+      },
+      {
+        "id": "D",
+        "text": "SNR (Signal-to-Noise Ratio)"
+      },
+      {
+        "id": "E",
+        "text": "TTL (Time to Live)"
+      }
+    ],
+    "key": "D",
+    "explanation": "SNR mengukur seberapa jauh sinyal data lebih kuat daripada derau lingkungan (noise floor). Nilai SNR di atas 25-30 dB menandakan kualitas koneksi yang sangat baik.",
+    "quickTip": "Rasio kekuatan sinyal terhadap gangguan derau = SNR (Signal-to-Noise Ratio)."
+  },
+  {
+    "id": "s11_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Standar Wireless LAN IEEE 802.11 mengalami peningkatan kapasitas dari generasi ke generasi.",
+    "question": "Manakah pasangan antara standar 802.11 dan nama generasinya yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "IEEE 802.11a = Wi-Fi 7"
+      },
+      {
+        "id": "B",
+        "text": "IEEE 802.11ax = Wi-Fi 6"
+      },
+      {
+        "id": "C",
+        "text": "IEEE 802.11ac = Wi-Fi 5"
+      },
+      {
+        "id": "D",
+        "text": "IEEE 802.11n = Wi-Fi 4"
+      },
+      {
+        "id": "E",
+        "text": "IEEE 802.11b = Wi-Fi 6E"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Asosiasi Wi-Fi Alliance menetapkan penamaan generasi: 802.11n = Wi-Fi 4, 802.11ac = Wi-Fi 5, 802.11ax = Wi-Fi 6. 802.11b dan 802.11a adalah standar generasi awal.",
+    "quickTip": "Generasi Wi-Fi: 802.11n (Wi-Fi 4), 802.11ac (Wi-Fi 5), 802.11ax (Wi-Fi 6)."
+  },
+  {
+    "id": "s11_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Frekuensi 2.4 GHz dan 5 GHz memiliki perbedaan karakteristik penting yang harus dipertimbangkan saat mendesain jaringan Wi-Fi.",
+    "question": "Manakah pernyataan yang BENAR mengenai perbandingan frekuensi 2.4 GHz dan 5 GHz? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Frekuensi 5 GHz memiliki jangkauan jarak tembus fisik dinding beton yang jauh lebih baik daripada 2.4 GHz"
+      },
+      {
+        "id": "B",
+        "text": "Frekuensi 2.4 GHz memiliki jangkauan lebih luas dan kemampuan menembus dinding lebih baik dibanding 5 GHz"
+      },
+      {
+        "id": "C",
+        "text": "Frekuensi 5 GHz menawarkan throughput bandwidth lebih tinggi dan memiliki lebih banyak saluran bebas interferensi"
+      },
+      {
+        "id": "D",
+        "text": "Kanal 2.4 GHz memiliki total 25 saluran yang seluruhnya tidak saling tumpang tindih"
+      },
+      {
+        "id": "E",
+        "text": "Frekuensi 2.4 GHz sama sekali tidak terpengaruh oleh gelombang microwave oven atau perangkat Bluetooth"
+      }
+    ],
+    "key": [
+      "B",
+      "C"
+    ],
+    "explanation": "2.4 GHz unggul dalam jangkauan dan penetrasi dinding; 5 GHz unggul dalam kecepatan dan ketersediaan kanal bersih bebas derau.",
+    "quickTip": "2.4 GHz: jangkauan luas; 5 GHz: bandwidth kencang & kanal bersih."
+  },
+  {
+    "id": "s11_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Pengamanan jaringan nirkabel membutuhkan konfigurasi enkripsi dan autentikasi yang kuat.",
+    "question": "Manakah metode pengamanan Wi-Fi yang DIANGGAP AMAN dan direkomendasikan untuk digunakan saat ini? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "WPA2-PSK dengan algoritma enkripsi AES (CCMP)"
+      },
+      {
+        "id": "B",
+        "text": "WPS (Wi-Fi Protected Setup) menggunakan PIN standar pabrik"
+      },
+      {
+        "id": "C",
+        "text": "WEP 64-bit dengan kunci heksadesimal statis"
+      },
+      {
+        "id": "D",
+        "text": "WPA3-Personal dengan protokol autentikasi SAE (Simultaneous Authentication of Equals)"
+      },
+      {
+        "id": "E",
+        "text": "Open Authentication tanpa password sama sekali"
+      }
+    ],
+    "key": [
+      "A",
+      "D"
+    ],
+    "explanation": "WPA2-AES dan WPA3-SAE adalah standar keamanan modern yang tangguh. WEP, WPS PIN, dan Open Network sangat rentan terhadap penyusupan.",
+    "quickTip": "Gunakan minimal WPA2-AES atau WPA3-SAE untuk keamanan Wi-Fi yang kuat."
+  },
+  {
+    "id": "s11_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Antena nirkabel memiliki pola pancaran (radiation pattern) yang disesuaikan dengan kebutuhan area layanan.",
+    "question": "Manakah jenis antena directional (terarah) yang umum digunakan untuk transmisi Point-to-Point jarak jauh? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antena Karet Monopole Omnidirectional"
+      },
+      {
+        "id": "B",
+        "text": "Antena Grid Parabolik"
+      },
+      {
+        "id": "C",
+        "text": "Antena BNC Coaxial Loop"
+      },
+      {
+        "id": "D",
+        "text": "Antena Solid Dish Parabolik"
+      },
+      {
+        "id": "E",
+        "text": "Antena Yagi-Uda"
+      }
+    ],
+    "key": [
+      "B",
+      "D",
+      "E"
+    ],
+    "explanation": "Grid, Solid Dish, dan Yagi adalah antena directional yang memfokuskan energi ke satu arah tertentu untuk jarak jauh. Antena Omnidirectional memancar ke segala arah.",
+    "quickTip": "Antena directional terarah: Grid, Dish Parabolik, dan Yagi."
+  },
+  {
+    "id": "s11_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Masalah koneksi lambat pada jaringan Wi-Fi di kantor dapat disebabkan oleh berbagai faktor lingkungan gelombang radio.",
+    "question": "Manakah faktor yang DAPAT MENURUNKAN performa sinyal Wi-Fi di dalam gedung? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Penggunaan kabel UTP Cat6 berkualitas baik dari switch ke Access Point"
+      },
+      {
+        "id": "B",
+        "text": "Interferensi antar-Access Point yang menggunakan kanal frekuensi bertumpuk (Co-Channel Interference)"
+      },
+      {
+        "id": "C",
+        "text": "Peredaman sinyal akibat partisi dinding beton tebal, kaca film, dan struktur logam"
+      },
+      {
+        "id": "D",
+        "text": "Penempatan Access Point di plafon tengah ruangan tanpa halangan"
+      },
+      {
+        "id": "E",
+        "text": "Jumlah perangkat klien aktif yang terlalu padat pada satu Access Point melebihi kapasitas radio"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "E"
+    ],
+    "explanation": "Performa Wi-Fi turun akibat interferensi kanal tumpang tindih, redaman material padat/logam, dan kelebihan beban klien (overload). Kabel Cat6 dan pemasangan di plafon justru meningkatkan performa.",
+    "quickTip": "Faktor penurunan Wi-Fi: Interferensi kanal, dinding tebal/logam, dan beban klien berlebih."
+  },
+  {
+    "id": "s11_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Kanal frekuensi pada pita Wi-Fi 2.4 GHz.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai pembagian kanal 2.4 GHz!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Kanal 1, 6, dan 11 adalah tiga kanal pada pita 2.4 GHz yang tidak saling tumpang tindih spektrumnya.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Jika dua Access Point berdekatan diatur pada kanal 1 dan kanal 2, akan terjadi interferensi adjacent-channel yang parah.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Pita frekuensi 2.4 GHz memiliki 50 saluran bebas interferensi yang dapat digunakan serentak.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Pada pita 2.4 GHz hanya ada 3 kanal non-overlapping (1, 6, 11). Menempatkan AP di kanal 1 dan 2 akan menimbulkan tabrakan interferensi parah.",
+    "quickTip": "Hanya ada 3 kanal non-overlapping di 2.4 GHz: Kanal 1, 6, dan 11."
+  },
+  {
+    "id": "s11_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Protokol kendali media CSMA/CA pada Wireless LAN.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang mekanisme CSMA/CA!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Perangkat nirkabel 802.11 beroperasi secara half-duplex karena tidak dapat memancar dan mendengar tabrakan pada frekuensi yang sama secara bersamaan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "CSMA/CA menggunakan mekanisme pengiriman frame ACK untuk memastikan paket data diterima utuh oleh penerima.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "CSMA/CA bekerja dengan mendeteksi tabrakan tabrakan listrik di kawat tembaga secara instan seperti CSMA/CD kabel LAN.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "CSMA/CA menghindari tabrakan (avoidance) di udara nirkabel, bukan mendeteksi tabrakan kawat listrik (CSMA/CD pada kabel Ethernet).",
+    "quickTip": "Nirkabel memakai CSMA/CA karena radio beroperasi secara half-duplex."
+  },
+  {
+    "id": "s11_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Keamanan jaringan Wi-Fi modern dan protokol enkripsi.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai keamanan Wi-Fi!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Protokol WPA3-Personal menggunakan mekanisme Simultaneous Authentication of Equals (SAE) untuk menolak serangan brute-force kamus.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Protokol WEP dianggap usang dan tidak aman karena kunci enkripsinya mudah dibongkar dalam waktu singkat.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Menyembunyikan SSID (Hidden SSID) adalah metode keamanan mutlak yang membuat jaringan 100% tidak bisa dilacak oleh siapapun.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Hidden SSID tetap memancarkan frame probe response dan beacon yang dengan mudah dapat dianalisis oleh tool scanner seperti Wireshark atau airodump-ng.",
+    "quickTip": "Hidden SSID bukan fitur keamanan; sinyal tetap mudah dideteksi packet sniffer."
+  },
+  {
+    "id": "s11_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Teknologi MIMO dan antena nirkabel modern.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang teknologi MIMO!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "MIMO memanfaatkan beberapa antena pemancar dan penerima untuk mengirim beberapa aliran data spasial secara simultan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "MU-MIMO memungkinkan Access Point melayani komunikasi beberapa klien secara bersamaan.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Teknologi MIMO hanya dapat berjalan jika kabel serat optik ditancapkan langsung ke badan antena klien.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "MIMO adalah teknologi transmisi gelombang radio nirkabel spasial melalui udara, bukan teknologi kabel serat optik.",
+    "quickTip": "MIMO memproses gelombang radio spasial nirkabel multi-antena."
+  },
+  {
+    "id": "s11_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Indikator kekuatan sinyal RSSI dan rasio SNR.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai pembacaan sinyal nirkabel!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Nilai RSSI sebesar -55 dBm jauh lebih kuat dan lebih stabil dibandingkan nilai RSSI sebesar -88 dBm.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Nilai SNR yang semakin besar menunjukkan kualitas sinyal yang semakin bersih dari gangguan derau lingkungan.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Nilai RSSI sebesar -95 dBm adalah sinyal sempurna dengan kecepatan data maksimal.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "-95 dBm berada di dekat batas noise floor di mana sinyal hampir tidak terbaca dan menyebabkan koneksi terputus total.",
+    "quickTip": "-55 dBm sinyal sangat bagus; -95 dBm sinyal hampir hilang / putus."
+  }
+]

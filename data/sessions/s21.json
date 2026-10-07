@@ -1,0 +1,950 @@
+[
+  {
+    "id": "s21_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Sistem operasi server berbasis Linux (seperti Debian, Ubuntu Server, atau Rocky Linux) mendominasi infrastruktur data center dunia.",
+    "question": "Ciri utama dari distribusi Linux Server edisi murni jika dibandingkan dengan edisi Desktop adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Secara default tidak menginstal antarmuka grafis (GUI) melainkan beroperasi penuh melalui Command Line Interface (CLI) untuk efisiensi sumber daya"
+      },
+      {
+        "id": "B",
+        "text": "Mengharuskan pengguna membayar biaya lisensi per jam"
+      },
+      {
+        "id": "C",
+        "text": "Hanya bisa dioperasikan menggunakan joystick game"
+      },
+      {
+        "id": "D",
+        "text": "Tidak bisa dihubungkan ke kabel jaringan internet sama sekali"
+      },
+      {
+        "id": "E",
+        "text": "Wajib menggunakan monitor layar sentuh berukuran raksasa"
+      }
+    ],
+    "key": "A",
+    "explanation": "Linux Server beroperasi secara headless via CLI teks tanpa GUI desktop environment (GNOME/KDE) demi memaksimalkan alokasi CPU dan RAM untuk layanan server.",
+    "quickTip": "Linux Server beroperasi via CLI tanpa GUI desktop untuk efisiensi performa."
+  },
+  {
+    "id": "s21_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Pengguna tertinggi yang memiliki hak akses mutlak tanpa batas (Superuser) pada sistem operasi Linux adalah...",
+    "question": "Nama akun administrator tertinggi pada sistem Linux tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "supervisor (dengan simbol prompt @)"
+      },
+      {
+        "id": "B",
+        "text": "guest (dengan simbol prompt ?)"
+      },
+      {
+        "id": "C",
+        "text": "Administrator (dengan simbol prompt C:\\>)"
+      },
+      {
+        "id": "D",
+        "text": "operator (dengan simbol prompt $)"
+      },
+      {
+        "id": "E",
+        "text": "root (dengan simbol prompt tanda pagar #)"
+      }
+    ],
+    "key": "E",
+    "explanation": "User `root` adalah superuser Linux dengan UID 0 dan simbol prompt `#`. Pengguna biasa memiliki simbol prompt `$`.",
+    "quickTip": "Superuser Linux = root (simbol prompt #); User biasa bersimbol $."
+  },
+  {
+    "id": "s21_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Untuk menjalankan perintah administratif dengan hak istimewa superuser sementara waktu dari akun pengguna biasa, digunakan perintah awalan...",
+    "question": "Perintah awalan eskalasi hak istimewa tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "runas"
+      },
+      {
+        "id": "B",
+        "text": "sudo (Superuser Do)"
+      },
+      {
+        "id": "C",
+        "text": "login"
+      },
+      {
+        "id": "D",
+        "text": "admin"
+      },
+      {
+        "id": "E",
+        "text": "execute"
+      }
+    ],
+    "key": "B",
+    "explanation": "Perintah `sudo` (Superuser Do) memungkinkan pengguna yang terdaftar di file `/etc/sudoers` menjalankan perintah istimewa dengan aman.",
+    "quickTip": "Menjalankan perintah superuser dari user biasa = sudo."
+  },
+  {
+    "id": "s21_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Perintah dasar Linux CLI yang digunakan untuk menampilkan direktori kerja tempat pengguna saat ini berada adalah...",
+    "question": "Perintah pengecekan direktori kerja aktif tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "whoami"
+      },
+      {
+        "id": "B",
+        "text": "cd (change directory)"
+      },
+      {
+        "id": "C",
+        "text": "pwd (print working directory)"
+      },
+      {
+        "id": "D",
+        "text": "mkdir (make directory)"
+      },
+      {
+        "id": "E",
+        "text": "ls (list directory)"
+      }
+    ],
+    "key": "C",
+    "explanation": "`pwd` singkatan dari Print Working Directory, mencetak path lengkap direktori yang sedang aktif di terminal.",
+    "quickTip": "Menampilkan lokasi direktori saat ini = pwd."
+  },
+  {
+    "id": "s21_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Perintah Linux untuk berpindah ke direktori lain atau kembali ke direktori home pengguna adalah...",
+    "question": "Perintah navigasi pindah folder tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "rmdir"
+      },
+      {
+        "id": "B",
+        "text": "pwd"
+      },
+      {
+        "id": "C",
+        "text": "mv"
+      },
+      {
+        "id": "D",
+        "text": "cp"
+      },
+      {
+        "id": "E",
+        "text": "cd (change directory)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Perintah `cd <nama_folder>` digunakan untuk berpindah direktori. Mengetik `cd ..` berpindah ke satu tingkat direktori di atasnya.",
+    "quickTip": "Pindah direktori = cd; naik satu level = cd .."
+  },
+  {
+    "id": "s21_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Perintah untuk menampilkan daftar seluruh berkas dan folder di dalam sebuah direktori, termasuk berkas tersembunyi (hidden file diawali titik .), dengan format rincian lengkap adalah...",
+    "question": "Kombinasi perintah dan opsi parameter yang tepat adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "cat -hidden"
+      },
+      {
+        "id": "B",
+        "text": "show files all"
+      },
+      {
+        "id": "C",
+        "text": "tree -delete"
+      },
+      {
+        "id": "D",
+        "text": "dir /w"
+      },
+      {
+        "id": "E",
+        "text": "ls -la (atau ls -al)"
+      }
+    ],
+    "key": "E",
+    "explanation": "`ls -l` menampilkan format panjang (permissions, owner, size, date), dan `-a` menampilkan semua berkas termasuk file tersembunyi (`.bashrc`, dll.).",
+    "quickTip": "Melihat semua file detail termasuk file tersembunyi = ls -la."
+  },
+  {
+    "id": "s21_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Perintah Linux untuk membuat direktori (folder) baru sekaligus beserta sub-direktori di dalamnya secara bertingkat adalah...",
+    "question": "Sintaks perintah pembuatan folder bertingkat tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "rmdir -new"
+      },
+      {
+        "id": "B",
+        "text": "mkdir -p (contoh: mkdir -p data/server/web)"
+      },
+      {
+        "id": "C",
+        "text": "create folder"
+      },
+      {
+        "id": "D",
+        "text": "touch -all"
+      },
+      {
+        "id": "E",
+        "text": "md /tree"
+      }
+    ],
+    "key": "B",
+    "explanation": "`mkdir -p` (parents) membuat direktori induk secara otomatis jika belum ada tanpa menghasilkan pesan error.",
+    "quickTip": "Membuat folder bertingkat = mkdir -p."
+  },
+  {
+    "id": "s21_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Perintah Linux untuk menyalin (copy) sebuah direktori beserta seluruh isi berkas di dalamnya ke lokasi lain adalah...",
+    "question": "Perintah salin direktori rekursif yang tepat adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "duplicate -dir"
+      },
+      {
+        "id": "B",
+        "text": "cp -r (atau cp -R)"
+      },
+      {
+        "id": "C",
+        "text": "mv -r"
+      },
+      {
+        "id": "D",
+        "text": "clone -folder"
+      },
+      {
+        "id": "E",
+        "text": "copy -all"
+      }
+    ],
+    "key": "B",
+    "explanation": "`cp -r` (recursive) menyalin seluruh pohon direktori beserta sub-folder dan berkas di dalamnya.",
+    "quickTip": "Menyalin folder beserta isinya = cp -r."
+  },
+  {
+    "id": "s21_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Perintah Linux untuk menghapus sebuah direktori dan seluruh isinya secara paksa tanpa meminta konfirmasi berulang adalah...",
+    "question": "Perintah penghapusan berkas rekursif paksa tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "trash -clean"
+      },
+      {
+        "id": "B",
+        "text": "erase -all"
+      },
+      {
+        "id": "C",
+        "text": "rmdir -empty"
+      },
+      {
+        "id": "D",
+        "text": "del /s /q"
+      },
+      {
+        "id": "E",
+        "text": "rm -rf (remove recursive force)"
+      }
+    ],
+    "key": "E",
+    "explanation": "`rm -r` menghapus secara rekursif dan `-f` (force) mengabaikan prompt konfirmasi. Perintah ini harus digunakan sangat hati-hati oleh root.",
+    "quickTip": "Menghapus folder dan isinya secara paksa = rm -rf."
+  },
+  {
+    "id": "s21_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Editor teks berbasis antarmuka baris perintah (CLI) yang ramah bagi pemula dan bawaan pada sistem Debian/Ubuntu adalah...",
+    "question": "Nama program text editor CLI tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adobe Acrobat"
+      },
+      {
+        "id": "B",
+        "text": "nano"
+      },
+      {
+        "id": "C",
+        "text": "Microsoft Word"
+      },
+      {
+        "id": "D",
+        "text": "Google Docs"
+      },
+      {
+        "id": "E",
+        "text": "Notepad.exe"
+      }
+    ],
+    "key": "B",
+    "explanation": "`nano` adalah editor teks CLI sederhana dengan petunjuk tombol pintas (seperti Ctrl+O untuk menyimpan dan Ctrl+X untuk keluar) di bagian bawah layar.",
+    "quickTip": "Editor teks CLI ramah pemula di Linux = nano."
+  },
+  {
+    "id": "s21_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Sistem inisialisasi dan pengelola layanan (service manager) standar pada sistem Linux modern saat ini adalah `systemd`.",
+    "question": "Perintah utama yang digunakan untuk mengelola status, menyalakan, mematikan, dan merestart service pada Linux berbasis systemd adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "systemctl"
+      },
+      {
+        "id": "B",
+        "text": "init.d-control"
+      },
+      {
+        "id": "C",
+        "text": "service-manager"
+      },
+      {
+        "id": "D",
+        "text": "taskmgr"
+      },
+      {
+        "id": "E",
+        "text": "app-manager"
+      }
+    ],
+    "key": "A",
+    "explanation": "`systemctl` digunakan untuk mengontrol service systemd (contoh: `systemctl start nginx`, `systemctl status bind9`, `systemctl enable ssh`).",
+    "quickTip": "Perintah pengelola service di Linux modern = systemctl."
+  },
+  {
+    "id": "s21_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Teknisi selesai mengedit konfigurasi web server Apache dan ingin menerapkan perubahannya dengan menjalankan ulang layanan tersebut.",
+    "question": "Perintah systemctl yang tepat untuk merestart layanan Apache2 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "sudo systemctl restart apache2"
+      },
+      {
+        "id": "B",
+        "text": "sudo systemctl delete apache2"
+      },
+      {
+        "id": "C",
+        "text": "sudo systemctl kill apache2"
+      },
+      {
+        "id": "D",
+        "text": "sudo reboot apache2"
+      },
+      {
+        "id": "E",
+        "text": "sudo systemctl off apache2"
+      }
+    ],
+    "key": "A",
+    "explanation": "Perintah `systemctl restart <nama-service>` mematikan dan langsung menyalakan kembali layanan terkait.",
+    "quickTip": "Merestart layanan server = systemctl restart <nama-service>."
+  },
+  {
+    "id": "s21_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Agar sebuah layanan (misalnya SSH atau Web Server) otomatis berjalan saat server pertama kali booting atau restart dinyalakan.",
+    "question": "Perintah systemctl yang tepat untuk mengaktifkan autostart layanan saat booting adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "sudo systemctl on <nama-service>"
+      },
+      {
+        "id": "B",
+        "text": "sudo systemctl boot <nama-service>"
+      },
+      {
+        "id": "C",
+        "text": "sudo systemctl autostart <nama-service>"
+      },
+      {
+        "id": "D",
+        "text": "sudo systemctl run <nama-service>"
+      },
+      {
+        "id": "E",
+        "text": "sudo systemctl enable <nama-service>"
+      }
+    ],
+    "key": "E",
+    "explanation": "Perintah `systemctl enable` membuat symlink di direktori systemd target sehingga service otomatis dijalankan saat proses boot sistem.",
+    "quickTip": "Mengaktifkan service otomatis saat booting = systemctl enable."
+  },
+  {
+    "id": "s21_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Pada sistem izin akses berkas Linux (File Permissions), hak akses dibagi menjadi 3 kategori entitas.",
+    "question": "Tiga kategori pengguna pemilik hak akses berkas dalam notasi ugo adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Owner (User / u), Group (g), dan Others (o)"
+      },
+      {
+        "id": "B",
+        "text": "Public, Private, dan Protected"
+      },
+      {
+        "id": "C",
+        "text": "Root, Admin, dan Guest"
+      },
+      {
+        "id": "D",
+        "text": "Read, Write, dan Execute"
+      },
+      {
+        "id": "E",
+        "text": "Client, Server, dan Gateway"
+      }
+    ],
+    "key": "A",
+    "explanation": "Hak akses berkas Linux dikelompokkan untuk: Owner/User (pemilik berkas), Group (anggota grup pemilik), dan Others (semua pengguna lain di sistem).",
+    "quickTip": "Tiga entitas izin Linux: Owner (u), Group (g), Others (o)."
+  },
+  {
+    "id": "s21_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Tiga jenis hak akses dasar pada sistem berkas Linux memiliki representasi nilai numerik oktal.",
+    "question": "Nilai angka bobot oktal untuk hak akses Read (baca), Write (tulis), dan Execute (eksekusi) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Read = 1, Write = 2, Execute = 4"
+      },
+      {
+        "id": "B",
+        "text": "Read = 3, Write = 2, Execute = 1"
+      },
+      {
+        "id": "C",
+        "text": "Read = 8, Write = 4, Execute = 2"
+      },
+      {
+        "id": "D",
+        "text": "Read = 10, Write = 20, Execute = 30"
+      },
+      {
+        "id": "E",
+        "text": "Read = 4, Write = 2, Execute = 1"
+      }
+    ],
+    "key": "E",
+    "explanation": "Sistem izin Linux menggunakan basis biner 3-bit: r=4 (bit 100), w=2 (bit 010), x=1 (bit 001). Total hak akses penuh rwx bernilai 4+2+1 = 7.",
+    "quickTip": "Nilai izin Linux: Read (4), Write (2), Execute (1)."
+  },
+  {
+    "id": "s21_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Sebuah berkas skrip shell `backup.sh` memiliki izin akses `-rwxr-xr-x`.",
+    "question": "Nilai numerik oktal dari izin akses `-rwxr-xr-x` tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "755"
+      },
+      {
+        "id": "B",
+        "text": "700"
+      },
+      {
+        "id": "C",
+        "text": "777"
+      },
+      {
+        "id": "D",
+        "text": "600"
+      },
+      {
+        "id": "E",
+        "text": "644"
+      }
+    ],
+    "key": "A",
+    "explanation": "Owner `rwx` = 4+2+1 = 7; Group `r-x` = 4+0+1 = 5; Others `r-x` = 4+0+1 = 5. Nilainya adalah 755.",
+    "quickTip": "rwxr-xr-x = 755 (Owner bebas ubah/jalankan; orang lain hanya boleh baca & jalankan)."
+  },
+  {
+    "id": "s21_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Sebuah berkas konfigurasi sensitif ingin diatur agar hanya pemiliknya (owner) saja yang bisa membaca dan menulis, sedangkan pengguna lain sama sekali tidak memiliki akses.",
+    "question": "Perintah chmod dengan nilai oktet yang tepat untuk skenario keamanan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "chmod 000 <nama-file>"
+      },
+      {
+        "id": "B",
+        "text": "chmod 755 <nama-file>"
+      },
+      {
+        "id": "C",
+        "text": "chmod 777 <nama-file>"
+      },
+      {
+        "id": "D",
+        "text": "chmod 644 <nama-file>"
+      },
+      {
+        "id": "E",
+        "text": "chmod 600 <nama-file>"
+      }
+    ],
+    "key": "E",
+    "explanation": "Owner `rw-` = 4+2+0 = 6; Group `---` = 0; Others `---` = 0. Nilai 600 mengunci file agar hanya pemilik yang bisa mengaksesnya (standar kunci privat SSH `id_rsa`).",
+    "quickTip": "Izin privat hanya untuk pemilik = chmod 600."
+  },
+  {
+    "id": "s21_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Pemberian izin `chmod 777` pada sebuah folder web server sering dianggap sebagai kesalahan fatal keamanan (security risk).",
+    "question": "Alasan mengapa `chmod 777` sangat berbahaya diterapkan pada server produksi adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membuat ukuran hard disk menyusut menjadi 0 byte"
+      },
+      {
+        "id": "B",
+        "text": "Memberikan izin penuh (baca, tulis, eksekusi) kepada siapa saja termasuk penyusup atau malware dari luar untuk memodifikasi atau menghapus berkas"
+      },
+      {
+        "id": "C",
+        "text": "Membatalkan lisensi sistem operasi Linux"
+      },
+      {
+        "id": "D",
+        "text": "Menghilangkan koneksi internet dari modem ISP"
+      },
+      {
+        "id": "E",
+        "text": "Membuat kabel LAN terbakar karena kelebihan beban arus"
+      }
+    ],
+    "key": "B",
+    "explanation": "Nilai 777 berarti `rwxrwxrwx` (semua orang bisa menulis/mengubah/menghapus/mengeksekusi), membuka celah eksploitasi web shell berbahaya.",
+    "quickTip": "Jangan gunakan chmod 777 di produksi; siapa pun bisa mengubah dan menghapus berkas!"
+  },
+  {
+    "id": "s21_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Perintah Linux yang digunakan untuk mengubah kepemilikan pengguna (user owner) dan grup (group owner) dari suatu berkas atau direktori adalah...",
+    "question": "Perintah manajemen kepemilikan berkas tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "chown (change owner, contoh: chown www-data:www-data /var/www)"
+      },
+      {
+        "id": "B",
+        "text": "chmod (change mode / permissions)"
+      },
+      {
+        "id": "C",
+        "text": "passwd (change password)"
+      },
+      {
+        "id": "D",
+        "text": "whoami"
+      },
+      {
+        "id": "E",
+        "text": "usermod (modify user account)"
+      }
+    ],
+    "key": "A",
+    "explanation": "`chown` mengubah pemilik berkas (user dan group). `chmod` digunakan untuk mengubah hak akses izin berkas (permissions).",
+    "quickTip": "Ubah pemilik berkas = chown; Ubah hak akses izin = chmod."
+  },
+  {
+    "id": "s21_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Teknisi ingin memeriksa alamat IP yang terpasang pada seluruh antarmuka jaringan di sistem Linux Debian modern melalui terminal CLI.",
+    "question": "Perintah CLI standar modern pada paket iproute2 untuk melihat daftar antarmuka dan IP address adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "show ip route"
+      },
+      {
+        "id": "B",
+        "text": "ip a (atau ip address show)"
+      },
+      {
+        "id": "C",
+        "text": "netstat -ip"
+      },
+      {
+        "id": "D",
+        "text": "ipconfig /all (perintah Windows CMD)"
+      },
+      {
+        "id": "E",
+        "text": "ping localhost"
+      }
+    ],
+    "key": "B",
+    "explanation": "Perintah `ip a` (ip address) adalah utilitas modern pengganti perintah usang `ifconfig` pada sistem operasi Linux.",
+    "quickTip": "Melihat IP antarmuka di Linux modern = ip a."
+  },
+  {
+    "id": "s21_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Perintah dasar pengelolaan berkas dan navigasi di terminal Linux CLI.",
+    "question": "Manakah pasangan antara perintah CLI Linux dan fungsinya yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "cd = berpindah antar-direktori (change directory)"
+      },
+      {
+        "id": "B",
+        "text": "mkdir -p = membuat direktori baru beserta sub-direktorinya secara bertingkat"
+      },
+      {
+        "id": "C",
+        "text": "cp = menghapus seluruh partisi hard disk"
+      },
+      {
+        "id": "D",
+        "text": "rmdir = menyalin berkas ke hard disk eksternal"
+      },
+      {
+        "id": "E",
+        "text": "pwd = menampilkan path direktori aktif saat ini (print working directory)"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "E"
+    ],
+    "explanation": "`pwd` menampilkan direktori kerja, `cd` berpindah direktori, dan `mkdir -p` membuat folder bertingkat.",
+    "quickTip": "pwd = lokasi direktori; cd = pindah folder; mkdir -p = buat folder bertingkat."
+  },
+  {
+    "id": "s21_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Pengelolaan service pada Linux modern berbasis Systemd.",
+    "question": "Manakah perintah pengelolaan service yang VALID menggunakan perintah `systemctl`? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "systemctl download <service> (membeli lisensi software di internet)"
+      },
+      {
+        "id": "B",
+        "text": "systemctl status <service> (memeriksa kondisi hidup/matinya layanan)"
+      },
+      {
+        "id": "C",
+        "text": "systemctl enable <service> (mengaktifkan layanan otomatis saat boot)"
+      },
+      {
+        "id": "D",
+        "text": "systemctl restart <service> (menjalankan ulang layanan)"
+      },
+      {
+        "id": "E",
+        "text": "systemctl paint <service> (mengubah warna tampilan tombol keyboard)"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Perintah systemctl standar: `status`, `start`, `stop`, `restart`, `enable`, `disable`.",
+    "quickTip": "Operasi systemctl: status, restart, enable, start, stop."
+  },
+  {
+    "id": "s21_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Sistem izin berkas oktal Linux (File Permissions).",
+    "question": "Manakah pernyataan yang BENAR mengenai perhitungan nilai izin berkas Linux? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nilai izin maksimal sebuah berkas adalah 999"
+      },
+      {
+        "id": "B",
+        "text": "Nilai bobot oktal dasar adalah Read = 4, Write = 2, dan Execute = 1"
+      },
+      {
+        "id": "C",
+        "text": "Izin akses 644 memungkinkan semua orang di internet mengubah isi berkas"
+      },
+      {
+        "id": "D",
+        "text": "Nilai Read bernilai 10 dan Write bernilai 20"
+      },
+      {
+        "id": "E",
+        "text": "Izin akses 755 berarti Owner memiliki akses 7 (rwx), Group 5 (r-x), dan Others 5 (r-x)"
+      }
+    ],
+    "key": [
+      "B",
+      "E"
+    ],
+    "explanation": "Oktal Linux berbasis r=4, w=2, x=1 (maksimal 7 per entitas). Izin 755 = rwxr-xr-x. Izin 644 hanya membolehkan owner menulis.",
+    "quickTip": "Read=4, Write=2, Execute=1. Total maksimal per entitas adalah 7 (rwx)."
+  },
+  {
+    "id": "s21_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Perintah pengujian dan monitoring jaringan pada Linux.",
+    "question": "Manakah utilitas perintah CLI Linux yang digunakan untuk diagnosa jaringan? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "ip a (memeriksa konfigurasi antarmuka dan IP address)"
+      },
+      {
+        "id": "B",
+        "text": "ss -tuln (melihat daftar port layanan yang sedang mendengarkan/listening)"
+      },
+      {
+        "id": "C",
+        "text": "ping (menguji konektivitas dan latensi respon paket ICMP)"
+      },
+      {
+        "id": "D",
+        "text": "calc.exe (kalkulator)"
+      },
+      {
+        "id": "E",
+        "text": "format c: /q (memformat disk)"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "`ip a`, `ping`, dan `ss -tuln` (atau `netstat`) adalah utilitas diagnosa jaringan utama di Linux.",
+    "quickTip": "Alat jaringan Linux: ip a, ping, ss/netstat, dan traceroute."
+  },
+  {
+    "id": "s21_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Manajemen pengguna dan keamanan sistem operasi Linux.",
+    "question": "Manakah praktik keamanan akun Linux server yang DIANJURKAN? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menyetel password akun root menjadi '123456' agar mudah diingat"
+      },
+      {
+        "id": "B",
+        "text": "Menggunakan autentikasi berbasis kunci SSH (SSH Key-based authentication) dibanding password biasa"
+      },
+      {
+        "id": "C",
+        "text": "Membagikan username dan password root ke seluruh media sosial"
+      },
+      {
+        "id": "D",
+        "text": "Menonaktifkan login langsung root via SSH (PermitRootLogin no) dan menggunakan user biasa dengan sudo"
+      },
+      {
+        "id": "E",
+        "text": "Memberikan hak chmod 777 ke seluruh direktori root sistem (/)"
+      }
+    ],
+    "key": [
+      "B",
+      "D"
+    ],
+    "explanation": "Best practice keamanan Linux Server: Nonaktifkan login langsung root di SSH, gunakan otentikasi SSH Key pair, dan batasi izin sudo.",
+    "quickTip": "Amankan Linux: Matikan login SSH root langsung & gunakan autentikasi SSH Key."
+  },
+  {
+    "id": "s21_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Karakteristik Linux Server tanpa antarmuka grafis (Headless Server).",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai Linux Server!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Sebagian besar sistem operasi Linux server beroperasi murni melalui CLI tanpa GUI untuk menghemat konsumsi memori dan CPU.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Pengelolaan Linux server jarak jauh umumnya dilakukan melalui koneksi remote SSH port 22.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Linux server tidak dapat berfungsi sama sekali jika tidak dipasangi mouse kabel USB.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Linux server headless beroperasi tanpa mouse, keyboard fisik, atau monitor langsung, dikelola lewat terminal SSH.",
+    "quickTip": "Linux server beroperasi headless via SSH tanpa butuh mouse atau GUI."
+  },
+  {
+    "id": "s21_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Peran pengguna 'root' pada sistem operasi Linux.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang user root!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Pengguna root memiliki hak akses tak terbatas untuk mengubah dan menghapus berkas apapun di sistem Linux.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Perintah `sudo` digunakan oleh pengguna biasa untuk mengeksekusi instruksi administratif.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Sistem Linux akan selalu menolak perintah root jika perintah tersebut dapat merusak sistem.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Linux akan mengeksekusi perintah root tanpa ragu (termasuk perintah fatal seperti `rm -rf /`), itulah mengapa akses root harus sangat hati-hati.",
+    "quickTip": "Root memiliki kekuasaan mutlak di Linux; perintah salah dapat langsung merusak sistem."
+  },
+  {
+    "id": "s21_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Aturan izin berkas Linux dan nilai oktal.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai izin berkas Linux!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Nilai izin numerik oktal dihitung dari penjumlahan: Read (4), Write (2), dan Execute (1).",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Izin akses 644 berarti pemilik (owner) dapat membaca dan menulis (rw-), sedangkan orang lain hanya dapat membaca (r--).",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Izin akses 777 adalah pengaturan paling aman yang sangat direkomendasikan untuk seluruh file website.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Izin 777 adalah celah bahaya besar yang dilarang pada server produksi karena memberi izin ubah ke semua orang.",
+    "quickTip": "644 standar file aman; 777 sangat tidak aman."
+  },
+  {
+    "id": "s21_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Perintah manajemen berkas dan folder Linux.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang perintah Linux!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Perintah `cp -r` digunakan untuk menyalin direktori beserta seluruh sub-direktorinya secara rekursif.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Perintah `nano` adalah program editor teks berbasis terminal yang digunakan untuk menyunting konfigurasi.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Perintah `rm -rf` digunakan untuk mengunduh film dari internet ke dalam server.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "`rm -rf` adalah perintah menghapus berkas/folder secara paksa dan permanen, bukan perintah unduh.",
+    "quickTip": "rm -rf menghapus berkas secara paksa, bukan mengunduh data."
+  },
+  {
+    "id": "s21_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Pengendalian service dengan systemctl.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang systemctl!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Perintah `systemctl restart nginx` akan mematikan lalu menyalakan kembali service Nginx.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Perintah `systemctl enable ssh` memastikan service SSH otomatis berjalan saat server pertama kali dinyalakan.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Service di Linux hanya bisa dimatikan dengan mencabut kabel listrik server langsung dari stopkontak dinding.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Layanan dapat dimatikan dengan aman melalui perintah `systemctl stop <service>` tanpa harus mencabut kabel listrik.",
+    "quickTip": "Matikan service secara aman via perintah: systemctl stop <service>."
+  }
+]

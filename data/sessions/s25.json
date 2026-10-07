@@ -1,0 +1,950 @@
+[
+  {
+    "id": "s25_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Fusion Splicer adalah instrumen berteknologi tinggi yang digunakan teknisi jaringan untuk menyambung dua ujung serat optik secara permanen.",
+    "question": "Prinsip kerja dasar dari mesin Fusion Splicer dalam menyatukan dua inti kaca serat optik adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengikat kedua serat kaca menggunakan benang nilon aramid"
+      },
+      {
+        "id": "B",
+        "text": "Meleburkan kedua ujung inti kaca menggunakan loncatan bunga api listrik (electric arc discharge) pada suhu ribuan derajat Celsius"
+      },
+      {
+        "id": "C",
+        "text": "Memanaskan kabel menggunakan korek api gas manual"
+      },
+      {
+        "id": "D",
+        "text": "Menjepit kedua serat menggunakan tang buaya bertekanan tinggi"
+      },
+      {
+        "id": "E",
+        "text": "Merekatkan kedua ujung kaca menggunakan lem super glue silikon"
+      }
+    ],
+    "key": "B",
+    "explanation": "Fusion Splicer menggunakan loncatan busur api listrik tegangan tinggi antar dua elektroda untuk melebur kaca silika pada suhu ~2000°C sehingga menyatu mulus.",
+    "quickTip": "Fusion Splicer menyatukan inti kaca serat optik menggunakan busur api listrik (electric arc)."
+  },
+  {
+    "id": "s25_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Mesin Fusion Splicer modern kelas atas menggunakan sistem penataan posisi serat berbasis sumbu inti kaca.",
+    "question": "Dua metode penjajaran (alignment) yang digunakan pada teknologi mesin Fusion Splicer adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Core Alignment (penjajaran sumbu inti kaca) dan Cladding Alignment (penjajaran lapisan kulit kaca)"
+      },
+      {
+        "id": "B",
+        "text": "Analog Alignment dan Digital Alignment"
+      },
+      {
+        "id": "C",
+        "text": "Jacket Alignment dan Buffer Alignment"
+      },
+      {
+        "id": "D",
+        "text": "Laser Alignment dan LED Alignment"
+      },
+      {
+        "id": "E",
+        "text": "USB Alignment dan Serial Alignment"
+      }
+    ],
+    "key": "A",
+    "explanation": "Core Alignment menata serat berdasarkan sumbu inti kaca (paling presisi, redaman <0.02 dB), sedangkan Cladding Alignment menata berdasarkan kulit luar cladding 125 µm.",
+    "quickTip": "Dua metode alignment Fusion Splicer: Core Alignment (terbaik) dan Cladding Alignment."
+  },
+  {
+    "id": "s25_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Tang pengupas serat optik profesional (Fiber Optic Stripper) memiliki tiga lubang berdiameter berbeda pada mata pisaunya.",
+    "question": "Fungsi dari lubang paling kecil (lubang ke-3) pada Fiber Stripper 3-lubang adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengupas selongsong pipa loose tube plastik"
+      },
+      {
+        "id": "B",
+        "text": "Menjepit pin konektor tembaga RJ-45"
+      },
+      {
+        "id": "C",
+        "text": "Mengupas lapisan pelindung primer (Primary Coating 250 µm) hingga menyisakan kaca telanjang (Cladding 125 µm)"
+      },
+      {
+        "id": "D",
+        "text": "Memotong kawat baja penggantung messenger wire"
+      },
+      {
+        "id": "E",
+        "text": "Mengupas kulit jaket luar kabel hitam tebal (2-3 mm)"
+      }
+    ],
+    "key": "C",
+    "explanation": "Lubang terbesar mengupas jaket luar kabel (2-3mm), lubang tengah mengupas buffer (900µm), dan lubang terkecil mengupas coating 250µm hingga tersisa kaca murni 125µm.",
+    "quickTip": "Lubang terkecil stripper optik = Mengupas coating 250 µm menjadi bare fiber 125 µm."
+  },
+  {
+    "id": "s25_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Setelah lapisan coating serat optik dikupas dengan stripper, permukaan kaca bare fiber harus segera dibersihkan dari sisa gel dan partikel debu.",
+    "question": "Cairan kimia standar industri yang wajib digunakan untuk membersihkan kaca serat optik sebelum pemotongan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Air mineral kemasan biasa"
+      },
+      {
+        "id": "B",
+        "text": "Alkohol Isopropil dengan kemurnian 99% (IPA - Isopropyl Alcohol)"
+      },
+      {
+        "id": "C",
+        "text": "Minyak goreng kelapa sawit"
+      },
+      {
+        "id": "D",
+        "text": "Bensin pertalite atau solar"
+      },
+      {
+        "id": "E",
+        "text": "Cairan pembersih lantai beraroma wangi"
+      }
+    ],
+    "key": "B",
+    "explanation": "Alkohol isopropil 99% murni cepat menguap tanpa meninggalkan residu air, minyak, atau kotoran pada permukaan kaca serat optik.",
+    "quickTip": "Pembersih kaca serat optik = Alkohol Isopropil 99% (IPA) dan kain lint-free."
+  },
+  {
+    "id": "s25_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Kain atau tisu yang digunakan bersama alkohol isopropil untuk menyeka kaca serat optik harus memenuhi syarat bebas partikel debu.",
+    "question": "Nama jenis tisu atau kain pembersih khusus tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tisu toilet kamar mandi"
+      },
+      {
+        "id": "B",
+        "text": "Lint-Free Wipes (Tisu Bebas Serat / Kimwipes)"
+      },
+      {
+        "id": "C",
+        "text": "Kertas koran bekas"
+      },
+      {
+        "id": "D",
+        "text": "Kain lap pel basah"
+      },
+      {
+        "id": "E",
+        "text": "Kertas amplas kayu kasar"
+      }
+    ],
+    "key": "B",
+    "explanation": "Tisu biasa meninggalkan serpihan serat kayu mikroskopis pada kaca yang dapat terbakar menjadi jelaga saat proses fusion arc, memicu redaman tinggi.",
+    "quickTip": "Menyeka kaca optik wajib memakai tisu bebas serat (Lint-Free Wipes / Kimwipes)."
+  },
+  {
+    "id": "s25_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Alat presisi tinggi yang digunakan untuk memotong ujung kaca serat optik dengan sudut potongan tegak lurus sempurna sebelum ditaruh di splicer adalah...",
+    "question": "Nama alat pemotong kaca presisi tinggi tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gergaji besi mini"
+      },
+      {
+        "id": "B",
+        "text": "Gunting kawat seng"
+      },
+      {
+        "id": "C",
+        "text": "Tang potong tembaga diagonal"
+      },
+      {
+        "id": "D",
+        "text": "High Precision Fiber Cleaver"
+      },
+      {
+        "id": "E",
+        "text": "Pisau cutter bangunan"
+      }
+    ],
+    "key": "D",
+    "explanation": "Fiber Cleaver menggunakan mata pisau tungsten/diamond berputar untuk menggores kaca dan mematahkannya secara presisi dengan sudut tegak lurus (< 1 derajat).",
+    "quickTip": "Memotong kaca serat optik dengan sudut tegak lurus presisi = Fiber Cleaver."
+  },
+  {
+    "id": "s25_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Sudut potongan ujung kaca (cleave angle) yang dihasilkan oleh fiber cleaver harus sangat mendekati tegak lurus sempurna.",
+    "question": "Batas toleransi sudut pemotongan maksimal yang dipersyaratkan oleh mesin Fusion Splicer agar proses penyambungan diizinkan berjalan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sudut kemiringan 45 derajat"
+      },
+      {
+        "id": "B",
+        "text": "Sudut kemiringan maksimal di bawah 1,0 derajat (idealnya di bawah 0,5 derajat)"
+      },
+      {
+        "id": "C",
+        "text": "Tidak ada batas toleransi sudut potongan"
+      },
+      {
+        "id": "D",
+        "text": "Sudut kemiringan 90 derajat miring"
+      },
+      {
+        "id": "E",
+        "text": "Sudut kemiringan 15 derajat"
+      }
+    ],
+    "key": "B",
+    "explanation": "Jika sudut potong di atas 1-2 derajat, mesin splicer akan menolak proses peleburan (muncul error: 'Cleave angle too large') karena akan menghasilkan redaman besar.",
+    "quickTip": "Sudut potong cleaver wajib tegak lurus: Maksimal di bawah 1 derajat."
+  },
+  {
+    "id": "s25_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Komponen tabung pelindung sambungan serat optik yang terdiri dari selongsong panas-susut dan batang penguat baja tahan karat disebut...",
+    "question": "Nama komponen pelindung sambungan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Boot Connector Karet"
+      },
+      {
+        "id": "B",
+        "text": "Spiral Wrapping Band"
+      },
+      {
+        "id": "C",
+        "text": "Keystone Modular Jack"
+      },
+      {
+        "id": "D",
+        "text": "Cable Tie Nilon"
+      },
+      {
+        "id": "E",
+        "text": "Protection Sleeve (Heat Shrink Splice Protector Sleeve)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Protection Sleeve melindungi titik leburan kaca yang rapuh dari patah fisik dan kelembapan setelah dipanaskan di oven pemanas splicer.",
+    "quickTip": "Pelindung sambungan leburan kaca serat = Protection Sleeve (Sleeve Protector)."
+  },
+  {
+    "id": "s25_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Urutan langkah kerja (SOP) pemasangan Protection Sleeve pada proses penyambungan serat optik memiliki aturan mutlak yang tidak boleh terlewat.",
+    "question": "Kapan Protection Sleeve WAJIB dimasukkan ke dalam sehelai kabel serat optik?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wajib dimasukkan ke serat SEBELUM proses pengupasan, pemotongan, dan penyambungan dilakukan"
+      },
+      {
+        "id": "B",
+        "text": "Dimasukkan setelah kedua serat selesai dilebur menyatu"
+      },
+      {
+        "id": "C",
+        "text": "Hanya dimasukkan jika hasil sambungan jelek"
+      },
+      {
+        "id": "D",
+        "text": "Protection sleeve tidak perlu dimasukkan sama sekali"
+      },
+      {
+        "id": "E",
+        "text": "Dimasukkan setelah kabel dipasang di rumah pelanggan"
+      }
+    ],
+    "key": "A",
+    "explanation": "Jika kedua serat sudah tersambung di mesin splicer, Protection Sleeve tidak akan bisa lagi dimasukkan kecuali sambungan dipotong ulang dari awal.",
+    "quickTip": "Ingat SOP: Masukkan Protection Sleeve sebelum mengupas dan memotong serat!"
+  },
+  {
+    "id": "s25_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Setelah kedua serat selesai dilebur oleh busur api listrik, Protection Sleeve digeser menutupi titik sambungan lalu dimasukkan ke bagian pemanas splicer.",
+    "question": "Nama komponen pemanas pada mesin Fusion Splicer yang memanaskan sleeve agar menyusut rapat adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wind Protector Cover"
+      },
+      {
+        "id": "B",
+        "text": "V-Groove Holder"
+      },
+      {
+        "id": "C",
+        "text": "Mikroskop Kamera Lensa"
+      },
+      {
+        "id": "D",
+        "text": "Electrode Spark Gap"
+      },
+      {
+        "id": "E",
+        "text": "Heater Oven (Pemanas Tabung Shrink Sleeve)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Heater oven memanaskan protection sleeve pada suhu ~180-200°C selama 15-30 detik hingga selongsong plastik menyusut rapat membungkus batang baja penguat.",
+    "quickTip": "Pemanas sleeve pada mesin splicer = Heater Oven."
+  },
+  {
+    "id": "s25_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Bagian pada mesin Fusion Splicer berupa bantalan logam berlekuk presisi tinggi berbentuk huruf V tempat meletakkan serat kaca disebut...",
+    "question": "Nama komponen landasan penjajaran serat tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stripper Notch"
+      },
+      {
+        "id": "B",
+        "text": "Cleaver Blade"
+      },
+      {
+        "id": "C",
+        "text": "Battery Pack"
+      },
+      {
+        "id": "D",
+        "text": "Oven Heater"
+      },
+      {
+        "id": "E",
+        "text": "V-Groove (Alur V)"
+      }
+    ],
+    "key": "E",
+    "explanation": "V-Groove menahan dan menyejajarkan serat 125 mikron secara mekanis agar berada pada sumbu lurus sejajar elektroda.",
+    "quickTip": "Landasan presisi dudukan serat kaca di mesin splicer = V-Groove (Alur V)."
+  },
+  {
+    "id": "s25_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Jika alur V-groove kotor terkena debu atau serpihan coating, posisi serat akan miring dan motor alignment splicer gagal menyejajarkan core.",
+    "question": "Alat bantu yang aman digunakan untuk membersihkan kotoran mikro pada alur V-Groove splicer adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obeng minus tajam"
+      },
+      {
+        "id": "B",
+        "text": "Sikat kawat baja"
+      },
+      {
+        "id": "C",
+        "text": "Jarum peniti besi berkarat"
+      },
+      {
+        "id": "D",
+        "text": "Cotton bud (kapas pentol) yang dibasahi sedikit alkohol isopropil 99%"
+      },
+      {
+        "id": "E",
+        "text": "Ampelas besi kasar"
+      }
+    ],
+    "key": "D",
+    "explanation": "V-groove adalah komponen optomekanik presisi; mengikisnya dengan logam tajam akan menggores alur V secara permanen. Gunakan cotton bud lembut beralkohol IPA.",
+    "quickTip": "Bersihkan V-Groove hanya dengan cotton bud beralkohol isopropil 99%."
+  },
+  {
+    "id": "s25_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Dua batang jarum runcing di dalam ruang peleburan splicer yang menghasilkan percikan bunga api listrik bertegangan tinggi disebut...",
+    "question": "Nama komponen penghasil bunga api listrik tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lensa Kamera CMOS"
+      },
+      {
+        "id": "B",
+        "text": "Laser Diode Module"
+      },
+      {
+        "id": "C",
+        "text": "Heater Element"
+      },
+      {
+        "id": "D",
+        "text": "Mata Pisau Cleaver"
+      },
+      {
+        "id": "E",
+        "text": "Elektroda Pelebur (Arc Electrodes)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Elektroda (terbuat dari tungsten berkemurnian tinggi) menghasilkan loncatan percikan plasma api listrik untuk menyatukan kaca.",
+    "quickTip": "Batang jarum pelebur serat optik di mesin splicer = Elektroda (Arc Electrodes)."
+  },
+  {
+    "id": "s25_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Setelah ratusan kali proses penyambungan (biasanya sekitar 1.000 hingga 3.000 kali sambungan), elektroda splicer mengalami keausan dan oksidasi.",
+    "question": "Tindakan perawatan berkala yang harus dilakukan teknisi terhadap elektroda yang aus tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengasah elektroda menggunakan batu asah kasar"
+      },
+      {
+        "id": "B",
+        "text": "Melakukan proses Electrode Stabilization / Conditioning dan mengganti elektroda baru jika sudah mencapai batas siklus"
+      },
+      {
+        "id": "C",
+        "text": "Mencuci elektroda dengan air sabun di bawah kran"
+      },
+      {
+        "id": "D",
+        "text": "Menempelkan lem alteco pada ujung jarum elektroda"
+      },
+      {
+        "id": "E",
+        "text": "Membiarkan elektroda terus dipakai selamanya"
+      }
+    ],
+    "key": "B",
+    "explanation": "Menu mesin splicer menyediakan fitur 'Stabilize Electrodes' dan indikator penghitung pemakaian (arc counter) yang memberi tahu kapan elektroda wajib diganti baru.",
+    "quickTip": "Elektroda wajib distabilisasi berkala dan diganti baru setelah ribuan kali penyambungan."
+  },
+  {
+    "id": "s25_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Standar industri telekomunikasi (seperti Telkom Indonesia atau ITU-T) menetapkan batas maksimal nilai redaman sebuah sambungan fusion splice yang baik.",
+    "question": "Nilai redaman sambungan (Splice Loss) maksimal yang dapat diterima pada serat optik Single-Mode standar adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maksimal 10,0 dB per sambungan"
+      },
+      {
+        "id": "B",
+        "text": "Harus tepat bernilai 0,0000 dB tanpa rugi sama sekali"
+      },
+      {
+        "id": "C",
+        "text": "Maksimal di bawah 0,05 dB (rata-rata sambungan berkualitas prima bernilai 0,01 - 0,02 dB)"
+      },
+      {
+        "id": "D",
+        "text": "Maksimal 3,50 dB per sambungan"
+      },
+      {
+        "id": "E",
+        "text": "Maksimal 50,0 dB per sambungan"
+      }
+    ],
+    "key": "C",
+    "explanation": "Batas toleransi standar telko adalah < 0.05 dB per sambungan fusion splice (banyak teknisi menargetkan < 0.02 dB untuk link backbone prima).",
+    "quickTip": "Standar redaman sambungan fusion splice yang baik = di bawah 0.05 dB (rata-rata 0.02 dB)."
+  },
+  {
+    "id": "s25_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Setelah proses peleburan busur api selesai, mesin Fusion Splicer secara otomatis melakukan uji mekanik dengan menarik kedua serat ke arah berlawanan.",
+    "question": "Nama pengujian tarikan fisik otomatis pada serat sambungan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bending Radius Test"
+      },
+      {
+        "id": "B",
+        "text": "Optical Reflection Test"
+      },
+      {
+        "id": "C",
+        "text": "Voltage Drop Test"
+      },
+      {
+        "id": "D",
+        "text": "Thermal Burn Test"
+      },
+      {
+        "id": "E",
+        "text": "Tension Test (Uji Beban Tarik, umumnya sebesar 2 Newton / 200 gram)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Tension test otomatis menarik serat sebesar ~2 N (sekitar 200 gram) untuk memastikan sambungan kaca kokoh dan tidak rapuh sebelum diangkat ke oven heater.",
+    "quickTip": "Uji tarikan otomatis setelah penyambungan di splicer = Tension Test (2 Newton)."
+  },
+  {
+    "id": "s25_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Di layar monitor Fusion Splicer, teknisi dapat melihat tampilan gambar pembesaran serat optik secara vertikal dan horizontal melalui kamera mikroskopik.",
+    "question": "Dua sumbu pandangan kamera optik pada layar monitor splicer dikenal dengan nama...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sumbu Utara dan Sumbu Selatan"
+      },
+      {
+        "id": "B",
+        "text": "Sumbu Frekuensi dan Sumbu Amplitudo"
+      },
+      {
+        "id": "C",
+        "text": "Sumbu Positif dan Sumbu Negatif"
+      },
+      {
+        "id": "D",
+        "text": "Sumbu Alpha dan Sumbu Beta"
+      },
+      {
+        "id": "E",
+        "text": "Sumbu X dan Sumbu Y (Tampilan X-View dan Y-View)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Dua kamera mikroskop internal memproyeksikan citra serat dari sudut 90 derajat berbeda (sumbu X dan sumbu Y) untuk verifikasi penjajaran core.",
+    "quickTip": "Tampilan monitor kamera splicer = Sumbu X dan Sumbu Y (X/Y View)."
+  },
+  {
+    "id": "s25_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Jika setelah proses penyambungan di layar monitor splicer terlihat gelembung udara (bubble) atau garis hitam tebal di titik leburan.",
+    "question": "Penyebab paling mungkin terjadinya cacat sambungan gelembung udara tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Permukaan ujung kaca kotor atau sudut potongan cleaver miring/retak sebelum dilebur"
+      },
+      {
+        "id": "B",
+        "text": "Tegangan listrik baterai laptop teknisi terlalu tinggi"
+      },
+      {
+        "id": "C",
+        "text": "Warna cat jaket kabel yang disambung berbeda"
+      },
+      {
+        "id": "D",
+        "text": "Kecepatan kipas angin di ruangan terlalu pelan"
+      },
+      {
+        "id": "E",
+        "text": "Kabel fiber optik ditarik di bawah sinar matahari"
+      }
+    ],
+    "key": "A",
+    "explanation": "Kotoran debu yang tersisa atau permukaan potong yang bergerigi/miring menyebabkan udara terjebak saat busur api menyala, menghasilkan bubble dan redaman tinggi.",
+    "quickTip": "Gelembung udara pada leburan splice disebabkan oleh kaca kotor atau potongan cleaver cacat."
+  },
+  {
+    "id": "s25_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Kotak tempat menata kelebihan panjang lingkaran serat optik (looping slack) dan menyimpan sambungan protection sleeve di dalam tiang atau ODP disebut...",
+    "question": "Nama nampan tempat penataan sambungan serat optik tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Splice Tray (Kaset Baki Sambungan Serat)"
+      },
+      {
+        "id": "B",
+        "text": "Cable Trunking Duct"
+      },
+      {
+        "id": "C",
+        "text": "Distribution Transformer"
+      },
+      {
+        "id": "D",
+        "text": "Patch Panel RJ-45"
+      },
+      {
+        "id": "E",
+        "text": "Server Rack Rail"
+      }
+    ],
+    "key": "A",
+    "explanation": "Splice Tray menata loop cadangan serat dengan menjaga batas kelengkungan (bending radius) aman dan menyediakan slot klem penahan protection sleeve.",
+    "quickTip": "Baki tempat menata sambungan dan loop serat optik = Splice Tray."
+  },
+  {
+    "id": "s25_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Saat menata kelebihan serat optik (slack) ke dalam Splice Tray, teknisi melingkarkan serat membentuk lingkaran oval dengan radius tertentu.",
+    "question": "Alasan teknis mengapa serat optik harus dilingkarkan dengan radius lengkung minimal 30 mm di dalam Splice Tray adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menaikkan kecepatan transmisi laser menjadi dua kali lipat"
+      },
+      {
+        "id": "B",
+        "text": "Membuat kabel terlihat rapi seperti obat nyamuk bakar"
+      },
+      {
+        "id": "C",
+        "text": "Mencegah kabel dimakan serangga rayap"
+      },
+      {
+        "id": "D",
+        "text": "Mengurangi pemakaian arus listrik baterai splicer"
+      },
+      {
+        "id": "E",
+        "text": "Mencegah terjadinya rugi-rugi redaman macrobending dan menghindari risiko serat kaca patah akibat tekukan berlebih"
+      }
+    ],
+    "key": "E",
+    "explanation": "Melipat serat melebihi batas kelengkungan aman (>30 mm radius) akan memicu macrobending loss dan risiko retak fatik pada kaca silika.",
+    "quickTip": "Looping di Splice Tray wajib menjaga radius lengkung aman (minimal 30 mm)."
+  },
+  {
+    "id": "s25_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Perlengkapan dan alat bantu yang WAJIB disiapkan sebelum melakukan penyambungan menggunakan Fusion Splicer.",
+    "question": "Manakah perkakas yang DIBUTUHKAN dalam proses persiapan penyambungan fiber optik? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tang Crimping RJ-45 tembaga"
+      },
+      {
+        "id": "B",
+        "text": "Fiber Stripper 3-lubang (mengupas jaket, buffer, dan coating)"
+      },
+      {
+        "id": "C",
+        "text": "High Precision Fiber Cleaver (memotong ujung kaca serat tegak lurus)"
+      },
+      {
+        "id": "D",
+        "text": "Alkohol Isopropil 99% dan Tisu Lint-Free (membersihkan kaca sebelum dipotong)"
+      },
+      {
+        "id": "E",
+        "text": "Gergaji besi pemotong pipa paralon"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Alat persiapan penyambungan optik: Fiber Stripper 3-lubang, Alkohol IPA 99%, Tisu Lint-free, Fiber Cleaver, dan Protection Sleeve.",
+    "quickTip": "Peralatan persiapan splicing: Stripper, Alkohol IPA 99%, Tisu Lint-Free, dan Cleaver."
+  },
+  {
+    "id": "s25_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Komponen utama yang terdapat pada mesin Fusion Splicer.",
+    "question": "Manakah komponen internal yang MERUPAKAN bagian dari mesin Fusion Splicer? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "V-Groove (landasan presisi penahan serat optik)"
+      },
+      {
+        "id": "B",
+        "text": "Kipas radiator pendingin mesin mobil"
+      },
+      {
+        "id": "C",
+        "text": "Heater Oven (pemanas tabung pelindung protection sleeve)"
+      },
+      {
+        "id": "D",
+        "text": "Port RJ-11 kabel telepon analog"
+      },
+      {
+        "id": "E",
+        "text": "Arc Electrodes (elektroda penghasil bunga api listrik pelebur kaca)"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explanation": "Komponen splicer: V-Groove, Elektroda pelebur, Heater oven, Kamera mikroskop X/Y, dan motor penjajaran servo.",
+    "quickTip": "Bagian splicer: V-Groove, Elektroda, Heater Oven, dan Monitor X/Y."
+  },
+  {
+    "id": "s25_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Standar mutu dan indikator keberhasilan proses sambungan serat optik.",
+    "question": "Manakah indikasi hasil sambungan fusion splice yang DIANGGAP BAIK menurut standar telko? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Serat optik langsung patah saat mesin melakukan tension test otomatis"
+      },
+      {
+        "id": "B",
+        "text": "Garis sambungan terlihat rata, mulus, dan bebas dari gelembung udara pada monitor X/Y"
+      },
+      {
+        "id": "C",
+        "text": "Protection sleeve meleleh hangus terbakar di dalam oven pemanas"
+      },
+      {
+        "id": "D",
+        "text": "Estimasi splice loss bernilai 15.0 dB dengan garis hitam tebal di tengah leburan"
+      },
+      {
+        "id": "E",
+        "text": "Estimasi redaman splice loss pada layar splicer di bawah 0.05 dB (misal 0.01 - 0.02 dB)"
+      }
+    ],
+    "key": [
+      "B",
+      "E"
+    ],
+    "explanation": "Sambungan fusion berkualitas: loss < 0.05 dB, hasil leburan mulus tanpa gelembung/cacat, dan lolos uji tarikan (tension test).",
+    "quickTip": "Sambungan baik: Loss < 0.05 dB, leburan mulus tanpa cacat, lolos tension test."
+  },
+  {
+    "id": "s25_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "SOP penanganan dan fungsi Protection Sleeve pada sambungan optik.",
+    "question": "Manakah pernyataan yang BENAR mengenai Protection Sleeve? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Protection sleeve wajib dimasukkan ke serat sebelum serat dikupas dan dipotong"
+      },
+      {
+        "id": "B",
+        "text": "Di dalam protection sleeve terdapat batang baja tahan karat (strength rod) untuk menahan tekukan mekanis"
+      },
+      {
+        "id": "C",
+        "text": "Protection sleeve boleh dihilangkan dan diganti dengan lakban kertas biasa"
+      },
+      {
+        "id": "D",
+        "text": "Protection sleeve terbuat dari kaca silika murni yang mudah pecah"
+      },
+      {
+        "id": "E",
+        "text": "Protection sleeve hanya boleh dipanaskan menggunakan korek api gas manual"
+      }
+    ],
+    "key": [
+      "A",
+      "B"
+    ],
+    "explanation": "Protection sleeve wajib dimasukkan sebelum memotong kabel, memiliki batang penguat baja di dalamnya, dan dipanaskan aman di heater oven splicer.",
+    "quickTip": "Protection sleeve punya batang penguat baja & wajib dipasang sebelum proses potong."
+  },
+  {
+    "id": "s25_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Faktor-faktor yang dapat menyebabkan kegagalan proses penyambungan pada Fusion Splicer.",
+    "question": "Manakah faktor penyebab error penyambungan pada mesin splicer? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menggunakan alkohol isopropil berkemurnian tinggi 99%"
+      },
+      {
+        "id": "B",
+        "text": "Teknisi mengenakan kacamata pelindung keselamatan kerja"
+      },
+      {
+        "id": "C",
+        "text": "Sudut pemotongan cleaver terlalu miring melebihi batas toleransi 1-2 derajat (Cleave Angle Error)"
+      },
+      {
+        "id": "D",
+        "text": "Alur V-Groove kotor oleh debu atau serpihan coating sehingga posisi serat tidak sejajar"
+      },
+      {
+        "id": "E",
+        "text": "Elektroda kotor atau aus akibat telah melewati batas masa pakai ribuan kali sambungan"
+      }
+    ],
+    "key": [
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Penyebab error splicing: sudut potong miring (>1°), V-groove kotor, elektroda aus, atau serat berdebu.",
+    "quickTip": "Penyebab error splicer: Potongan cleaver miring, V-groove kotor, dan elektroda aus."
+  },
+  {
+    "id": "s25_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Prinsip kerja peleburan kaca pada Fusion Splicer.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai Fusion Splicer!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Fusion Splicer menyatukan inti kaca serat optik menggunakan loncatan bunga api listrik busur plasma.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Metode Core Alignment memiliki tingkat presisi dan nilai redaman yang lebih baik dibanding Cladding Alignment.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Dua serat optik dapat disambung permanen hanya dengan cara diikat simpul mati menggunakan tangan.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Serat kaca tidak bisa diikat simpul manual; kaca akan patah jika disimpul dan membutuhkan peleburan busur api presisi mikroskopis.",
+    "quickTip": "Serat kaca silika disambung permanen via peleburan busur api listrik mikroskopis."
+  },
+  {
+    "id": "s25_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "SOP penggunaan alat potong High Precision Fiber Cleaver.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai Fiber Cleaver!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Fiber Cleaver menghasilkan sudut pemotongan kaca yang sangat tegak lurus (di bawah 1 derajat).",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Kaca serat optik harus dibersihkan dengan alkohol IPA 99% terlebih dahulu sebelum dipotong di cleaver.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Fiber Cleaver dapat digantikan fungsinya dengan gunting kuku biasa tanpa mempengaruhi hasil redaman.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Gunting kuku akan meremukkan kaca silika menjadi serpihan hancur yang mustahil disambung di mesin splicer.",
+    "quickTip": "Hanya Fiber Cleaver yang mampu memotong kaca dengan sudut presisi tegak lurus."
+  },
+  {
+    "id": "s25_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Prosedur pemasangan Protection Sleeve.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang Protection Sleeve!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Protection Sleeve wajib dimasukkan ke dalam kabel sebelum proses pengupasan dan pemotongan serat dilakukan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Heater oven pada splicer memanaskan sleeve agar selongsong plastik menyusut membungkus titik sambungan secara rapat.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Protection Sleeve dapat dimasukkan dengan mudah setelah kedua ujung serat dilebur menyatu di splicer.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Setelah kedua serat tersambung di kedua sisinya, tabung sleeve tidak akan bisa diselipkan lagi tanpa memutus kembali serat tersebut.",
+    "quickTip": "Selongsong Protection Sleeve wajib dipasang sebelum proses potong dan sambung."
+  },
+  {
+    "id": "s25_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Standar nilai redaman sambungan (Splice Loss).",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai Splice Loss!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Batas toleransi maksimal redaman sambungan fusion splice standar industri telekomunikasi adalah di bawah 0.05 dB.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Hasil sambungan yang sangat baik di lapangan umumnya memiliki nilai redaman sekitar 0.01 hingga 0.02 dB.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Nilai redaman sambungan sebesar 5.0 dB adalah hasil yang sangat sempurna dan harus dipertahankan.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Redaman 5.0 dB adalah sambungan yang sangat buruk/rusak (seratus kali lebih buruk dari standar toleransi 0.05 dB) dan wajib dipotong sambung ulang.",
+    "quickTip": "Redaman 5.0 dB sangat buruk; sambungan wajib < 0.05 dB."
+  },
+  {
+    "id": "s25_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Perawatan alur V-groove dan elektroda mesin splicer.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang perawatan splicer!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Alur V-groove yang kotor harus dibersihkan lembut menggunakan cotton bud beralkohol isopropil 99%.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Elektroda pelebur wajib diganti baru setelah mencapai batas siklus pembakaran (arc count) rekomendasi pabrikan.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Alur V-groove dianjurkan dikerik menggunakan ujung pisau cutter besi tajam setiap pagi.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Mengerik V-groove dengan pisau logam akan menggores permukaan presisi alur V secara permanen dan merusak splicer.",
+    "quickTip": "Dilarang mengerik V-groove dengan benda logam tajam; gunakan cotton bud lembut."
+  }
+]

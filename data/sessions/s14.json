@@ -1,0 +1,949 @@
+[
+  {
+    "id": "s14_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Sebuah kampus universitas merencanakan interkoneksi jaringan antara Gedung Rektorat dan Gedung Fakultas baru yang berjarak 3.5 kilometer melintasi jalan raya kota.",
+    "question": "Solusi media transmisi yang paling handal dengan kapasitas bandwidth gigabit jangka panjang dan bebas interferensi cuaca untuk kasus tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel coaxial RG-59 TV kabel lama"
+      },
+      {
+        "id": "B",
+        "text": "Kabel audio speaker stereo fleksibel"
+      },
+      {
+        "id": "C",
+        "text": "Kabel tembaga UTP Cat6 disambung berantai dengan puluhan switch di jalan"
+      },
+      {
+        "id": "D",
+        "text": "Kabel Serat Optik Single-Mode (SMF) dengan jalur udara ADSS atau tanam duct sub-terrestrial"
+      },
+      {
+        "id": "E",
+        "text": "Kabel telepon 2-kawat tembaga telanjang"
+      }
+    ],
+    "key": "D",
+    "explanation": "Jarak 3.5 km melampaui batas kabel tembaga (100 m). Kabel fiber optik Single-Mode adalah pilihan standar industri terbaik untuk jangkauan multi-kilometer berkecepatan tinggi.",
+    "quickTip": "Interkoneksi antar-gedung jarak 3.5 km = Fiber Optik Single-Mode (SMF)."
+  },
+  {
+    "id": "s14_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Sebuah perusahaan tambang di pedalaman Kalimantan yang belum memiliki jalur kabel optik dan BTS seluler membutuhkan akses internet untuk operasional kantor.",
+    "question": "Media transmisi telekomunikasi yang paling realistis dan cepat diimplementasikan untuk menyediakan koneksi di daerah terpencil tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menarik kabel LAN UTP Cat5e melintasi hutan sejauh 500 km"
+      },
+      {
+        "id": "B",
+        "text": "Menggunakan pemancar Wi-Fi rumahan 2.4 GHz tanpa antena luar"
+      },
+      {
+        "id": "C",
+        "text": "Menunggu jaringan kabel telepon tembaga analog dipasang"
+      },
+      {
+        "id": "D",
+        "text": "Sistem Komunikasi Satelit VSAT (C-Band atau Ku-Band)"
+      },
+      {
+        "id": "E",
+        "text": "Menggunakan kabel HDMI panjang dari kota terdekat"
+      }
+    ],
+    "key": "D",
+    "explanation": "Wilayah terpencil (blank spot 3T) yang belum terjangkau infrastruktur terestrial hanya dapat dihubungkan menggunakan stasiun bumi satelit VSAT.",
+    "quickTip": "Koneksi internet wilayah terpencil / blank spot = Satelit VSAT."
+  },
+  {
+    "id": "s14_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Laboratorium komputer sekolah mengalami penurunan kecepatan internet drastis saat seluruh 40 siswa serentak menonton video edukasi melalui satu Access Point 2.4 GHz.",
+    "question": "Langkah optimalisasi arsitektur nirkabel yang paling tepat untuk mengatasi kepadatan klien (high density) di laboratorium tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mewajibkan siswa membuka casing laptop saat belajar"
+      },
+      {
+        "id": "B",
+        "text": "Mematikan fungsi password Wi-Fi agar koneksi menjadi lebih cepat"
+      },
+      {
+        "id": "C",
+        "text": "Mengganti antena Access Point dengan kawat jemuran besi"
+      },
+      {
+        "id": "D",
+        "text": "Menggunakan Access Point Dual-Band (2.4 GHz dan 5 GHz) berstandar Wi-Fi 6 (802.11ax) serta mengaktifkan fitur Band Steering"
+      },
+      {
+        "id": "E",
+        "text": "Menurunkan kecepatan internet provider menjadi paket paling lambat"
+      }
+    ],
+    "key": "D",
+    "explanation": "Band steering mengarahkan perangkat modern ke pita 5 GHz yang bersih dan luas, sementara Wi-Fi 6 memanfaatkan OFDMA untuk melayani banyak klien secara serempak.",
+    "quickTip": "Mengatasi kepadatan klien Wi-Fi lab = AP Dual-Band Wi-Fi 6 dan fitur Band Steering."
+  },
+  {
+    "id": "s14_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Teknisi mendapati lampu indikator semua port pada sebuah switch unmanaged berkedip sangat cepat secara serentak, dan seluruh jaringan lumpuh.",
+    "question": "Penyebab paling mungkin dari insiden Broadcast Storm yang melumpuhkan switch tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lampu penerangan ruangan lab dinyalakan bersamaan"
+      },
+      {
+        "id": "B",
+        "text": "Terjadi switching loop akibat seorang pengguna menancapkan kedua ujung satu kabel patch cord ke dua port pada switch yang sama"
+      },
+      {
+        "id": "C",
+        "text": "Kecepatan mouse komputer disetel terlalu tinggi"
+      },
+      {
+        "id": "D",
+        "text": "Suhu AC ruangan lab disetel pada 24 derajat Celsius"
+      },
+      {
+        "id": "E",
+        "text": "Kabel listrik stopkontak dinding terpasang longgar"
+      }
+    ],
+    "key": "B",
+    "explanation": "Switch unmanaged tanpa Spanning Tree Protocol (STP) jika portnya terhubung loop (satu kabel dicolok ke dua port switch) akan langsung mengalami badai broadcast.",
+    "quickTip": "Lampu port switch kedip serentak dan jaringan hang = Switching Loop (Broadcast Storm)."
+  },
+  {
+    "id": "s14_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Sebuah link radio nirkabel Point-to-Point 5 GHz antar-gedung yang semula berjalan lancar tiba-tiba mengalami lonjakan packet loss parah setelah 6 bulan beroperasi.",
+    "question": "Faktor lingkungan alami yang paling sering menjadi penyebab terganggunya link radio LoS seiring berjalannya waktu adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cat tembok gedung diganti dengan warna biru muda"
+      },
+      {
+        "id": "B",
+        "text": "Tekanan udara atmosfer turun 1 milibar"
+      },
+      {
+        "id": "C",
+        "text": "Arah tiupan angin laut berubah arah"
+      },
+      {
+        "id": "D",
+        "text": "Tumbuhnya dahan pepohonan rimbun yang mulai masuk menutupi clearance Zona Fresnel pertama"
+      },
+      {
+        "id": "E",
+        "text": "Bumi berputar mengelilingi matahari lebih cepat"
+      }
+    ],
+    "key": "D",
+    "explanation": "Pertumbuhan pohon sering kali tanpa disadari memotong elipsoid Zona Fresnel pertama, menyebabkan difraksi dan pelemahan sinyal yang memicu packet loss.",
+    "quickTip": "Link radio antar-gedung tiba-tiba drop setelah berbulan-bulan = Pohon menembus Zona Fresnel."
+  },
+  {
+    "id": "s14_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Pada gedung perkantoran 8 lantai, teknisi merencanakan perkabelan terstruktur untuk menghubungkan switch distribusi tiap lantai ke ruang server pusat di lantai 1.",
+    "question": "Pemilihan media transmisi yang paling tepat untuk jalur vertikal backbone (riser) gedung tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel patch cord fleksibel tipis disambung selotip"
+      },
+      {
+        "id": "B",
+        "text": "Kabel UTP Cat3 kecepatan 10 Mbps"
+      },
+      {
+        "id": "C",
+        "text": "Kabel Serat Optik Multi-Mode (OM3/OM4) atau Single-Mode dengan kecepatan 10G/40G"
+      },
+      {
+        "id": "D",
+        "text": "Kabel coaxial tebal 10BASE5 lama"
+      },
+      {
+        "id": "E",
+        "text": "Kabel telepon 2-kawat tembaga"
+      }
+    ],
+    "key": "C",
+    "explanation": "Backbone vertikal antar-lantai menampung agregasi lalu lintas seluruh pengguna gedung sehingga membutuhkan bandwidth besar dan kekebalan derau serat optik (OM3/OM4/SMF).",
+    "quickTip": "Backbone vertikal antar-lantai gedung bertingkat = Kabel Serat Optik (10G/40G)."
+  },
+  {
+    "id": "s14_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Pengujian kabel LAN Cat6 sepanjang 80 meter menggunakan tester profesional menunjukkan kegagalan pada parameter Near-End Crosstalk (NEXT Fail).",
+    "question": "Kesalahan teknis saat terminasi konektor RJ-45 yang paling berpotensi menyebabkan kegagalan parameter NEXT tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jaket luar kabel dibersihkan dengan kain bersih"
+      },
+      {
+        "id": "B",
+        "text": "Teknisi memotong kabel menggunakan gunting tajam"
+      },
+      {
+        "id": "C",
+        "text": "Kabel ditarik lurus di dalam pipa konduit"
+      },
+      {
+        "id": "D",
+        "text": "Warna konektor RJ-45 transparan bening"
+      },
+      {
+        "id": "E",
+        "text": "Teknisi mengurai lilitan kawat (untwist) terlalu panjang melebihi batas 1.3 cm sebelum memasukkannya ke pin konektor"
+      }
+    ],
+    "key": "E",
+    "explanation": "Pemelintiran kawat berfungsi mereduksi crosstalk. Mengurai lilitan kawat terlalu panjang saat memasang jack RJ-45 akan merusak efek pembatalan derau dan memicu NEXT Fail.",
+    "quickTip": "Penyebab kegagalan uji crosstalk (NEXT Fail) = Mengurai lilitan kawat terlalu panjang."
+  },
+  {
+    "id": "s14_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Sebuah kantor instansi pemerintah ingin menghubungkan 4 gedung dalam satu kawasan kompleks dengan persyaratan tidak boleh ada satu titik kegagalan (no single point of failure).",
+    "question": "Topologi jaringan antar-gedung yang paling tepat memenuhi kriteria toleransi kesalahan tinggi tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Topologi Daisy Chain berderet satu arah"
+      },
+      {
+        "id": "B",
+        "text": "Topologi Star tanpa switch cadangan"
+      },
+      {
+        "id": "C",
+        "text": "Topologi Point-to-Point tunggal tanpa cadangan"
+      },
+      {
+        "id": "D",
+        "text": "Topologi Mesh (Full Mesh atau Partial Mesh dengan redundansi link)"
+      },
+      {
+        "id": "E",
+        "text": "Topologi Bus Linier dengan kabel coaxial tunggal"
+      }
+    ],
+    "key": "D",
+    "explanation": "Topologi Mesh menyediakan jalur koneksi alternatif langsung. Jika salah satu link antar-gedung terputus (misal terkena galian tanah), traffic otomatis dialihkan lewat gedung lain.",
+    "quickTip": "Koneksi antar-gedung tanpa single point of failure = Topologi Mesh redundan."
+  },
+  {
+    "id": "s14_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Teknisi memasang kabel serat optik patch cord Single-Mode dari ODF ke port transceiver switch, namun lampu indikator link tidak menyala sama sekali.",
+    "question": "Pemeriksaan dasar yang paling pertama harus dilakukan teknisi pada kabel patch cord tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mencuci kabel di dalam ember air sabun"
+      },
+      {
+        "id": "B",
+        "text": "Menghapus seluruh file dokumen di komputer server"
+      },
+      {
+        "id": "C",
+        "text": "Mengganti seluruh kabel power listrik gedung"
+      },
+      {
+        "id": "D",
+        "text": "Memutar posisi antena router Wi-Fi 90 derajat"
+      },
+      {
+        "id": "E",
+        "text": "Memastikan jalur serat Transmit (TX) dan Receive (RX) tidak tertukar (polaritas terbalik) pada konektor duplex"
+      }
+    ],
+    "key": "E",
+    "explanation": "Pada patch cord optik duplex, port TX di pemancar harus terhubung ke port RX di penerima. Jika TX terhubung ke TX dan RX ke RX, link optik tidak akan pernah UP.",
+    "quickTip": "Link optik mati padahal kabel utuh = Periksa polaritas TX dan RX (jangan sampai tertukar)."
+  },
+  {
+    "id": "s14_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Sebuah link antena VSAT Ku-Band di kantor cabang mengalami putus koneksi (link down) setiap kali turun hujan deras selama 30 menit, lalu kembali normal saat hujan reda.",
+    "question": "Analisis teknis yang paling tepat mengenai penyebab gangguan berkala tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Satelit di orbit luar angkasa basah kuyup terkena hujan bumi"
+      },
+      {
+        "id": "B",
+        "text": "Terjadi fenomena Rain Fade yang menyerap gelombang mikro frekuensi tinggi Ku-Band saat hujan lebat"
+      },
+      {
+        "id": "C",
+        "text": "Listrik genset kantor cabang padam karena tersambar petir"
+      },
+      {
+        "id": "D",
+        "text": "Kabel modem di dalam ruangan terendam banjir setinggi 2 meter"
+      },
+      {
+        "id": "E",
+        "text": "Pengguna membuka situs web terlarang di komputer"
+      }
+    ],
+    "key": "B",
+    "explanation": "Frekuensi Ku-Band (12-14 GHz) mengalami redaman drastis akibat tetesan air hujan (rain fade). Solusinya adalah menaikkan power margin, memperbesar dish, atau beralih ke C-Band.",
+    "quickTip": "Koneksi VSAT Ku-Band putus saat hujan lebat = Fenomena Rain Fade."
+  },
+  {
+    "id": "s14_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Di lingkungan bengkel mesin industri otomotif dengan banyak mesin las listrik dan motor induksi berkekuatan besar, kabel jaringan UTP biasa sering mengalami kerusakan data paket (CRC Error).",
+    "question": "Solusi penggantian media transmisi kabel tembaga yang paling tepat untuk mengatasi gangguan interferensi industri berat tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengganti kabel dengan kawat jemuran aluminium telanjang"
+      },
+      {
+        "id": "B",
+        "text": "Memasang magnet kulkas di sepanjang kabel LAN"
+      },
+      {
+        "id": "C",
+        "text": "Menambah panjang kabel UTP hingga 200 meter"
+      },
+      {
+        "id": "D",
+        "text": "Mengganti kabel dengan jenis STP / S-FTP berpelindung logam dan memastikan sistem grounding terpasang sempurna"
+      },
+      {
+        "id": "E",
+        "text": "Mengupas kulit jaket kabel UTP agar hawa panas keluar"
+      }
+    ],
+    "key": "D",
+    "explanation": "Kabel S/FTP memiliki pelindung aluminium foil per pair dan anyaman tembaga terluar yang jika digrounding dengan baik akan memblokir interferensi elektromagnetik (EMI) mesin industri.",
+    "quickTip": "Area gangguan derau mesin pabrik = Kabel S/FTP (Shielded) dengan grounding baik."
+  },
+  {
+    "id": "s14_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Sebuah stasiun radio komunikasi Point-to-Point 2.4 GHz di area perumahan padat sering mengalami packet loss tinggi meskipun kekuatan sinyal terukur kuat (-58 dBm).",
+    "question": "Penyebab paling mungkin dari gangguan koneksi pada sinyal kuat tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel fiber optik di dalam tanah mengalami kebekuan"
+      },
+      {
+        "id": "B",
+        "text": "Tingginya tingkat kebisingan derau interferensi lingkungan (Noise Floor tinggi akibat kepadatan Wi-Fi perumahan)"
+      },
+      {
+        "id": "C",
+        "text": "Frekuensi gelombang radio terserap oleh lantai keramik"
+      },
+      {
+        "id": "D",
+        "text": "Antena radio terpasang terlalu tinggi di awan"
+      },
+      {
+        "id": "E",
+        "text": "Kekuatan baterai laptop teknisi melebihi 100%"
+      }
+    ],
+    "key": "B",
+    "explanation": "Meskipun RSSI kuat (-58 dBm), jika noise floor lingkungan sangat tinggi (-65 dBm akibat ratusan AP tetangga di 2.4 GHz), maka nilai SNR menjadi sangat rendah (<10 dB), memicu packet loss parah.",
+    "quickTip": "Sinyal kuat tapi packet loss tinggi = Derau lingkungan (Noise Floor) tinggi (SNR rendah)."
+  },
+  {
+    "id": "s14_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Teknisi memasang kabel drop optik FTTH ke rumah pelanggan dan melakukan penarikan dengan cara ditekuk patah mengitari sudut runcing kusen jendela.",
+    "question": "Dampak langsung yang terukur pada Optical Power Meter (OPM) di sisi pelanggan akibat tekukan tajam tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel mengeluarkan percikan api dan membakar kusen kayu"
+      },
+      {
+        "id": "B",
+        "text": "Daya optik otomatis naik menjadi sepuluh kali lipat lebih kuat"
+      },
+      {
+        "id": "C",
+        "text": "Terjadi lonjakan redaman macrobending yang membuat daya terima sinyal optik drop di bawah batas sensitivitas ONT"
+      },
+      {
+        "id": "D",
+        "text": "Warna jaket kabel berubah warna menjadi hijau menyala"
+      },
+      {
+        "id": "E",
+        "text": "Sinyal optik berubah menjadi sinyal gelombang radio FM"
+      }
+    ],
+    "key": "C",
+    "explanation": "Sudut tekukan tajam (macrobending) membuat berkas cahaya membias keluar menembus cladding, menimbulkan redaman sangat tinggi (bisa lebih dari 10 dB).",
+    "quickTip": "Tekukan tajam kabel optik di sudut kusen = Lonjakan redaman Macrobending."
+  },
+  {
+    "id": "s14_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Sebuah perusahaan memiliki dua switch core yang dihubungkan dengan 4 kabel UTP Cat6 sekaligus untuk menambah kapasitas bandwidth, namun switch sering hang dan macet.",
+    "question": "Konfigurasi yang WAJIB diaktifkan pada port-port penghubung switch tersebut agar ke-4 kabel bekerja sebagai satu jalur agregasi tanpa memicu loop adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengatur IP Address yang sama pada setiap port"
+      },
+      {
+        "id": "B",
+        "text": "Memasang konektor crossover di salah satu ujung saja"
+      },
+      {
+        "id": "C",
+        "text": "Menonaktifkan seluruh port switch"
+      },
+      {
+        "id": "D",
+        "text": "Mengaktifkan DHCP Server di ke-4 port"
+      },
+      {
+        "id": "E",
+        "text": "Mengaktifkan Link Aggregation Control Protocol (LACP / EtherChannel)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Menghubungkan 4 kabel antar-switch tanpa LACP akan memicu switching loop jika STP mati, atau 3 kabel akan diblokir jika STP aktif. LACP menggabungkan ke-4 kabel menjadi satu pipa besar 4 Gbps.",
+    "quickTip": "4 kabel antar-switch agar tidak loop dan bandwidth berlipat = Konfigurasi LACP (EtherChannel)."
+  },
+  {
+    "id": "s14_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Pada arsitektur jaringan sekolah, teknisi ingin memisahkan lalu lintas jaringan ruang guru, ruang laboratorium, dan jaringan tamu umum tanpa menambah switch fisik baru.",
+    "question": "Teknologi segmentasi jaringan logis yang paling tepat diterapkan pada switch yang sama adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dynamic DNS Update"
+      },
+      {
+        "id": "B",
+        "text": "Virtual Local Area Network (VLAN IEEE 802.1Q)"
+      },
+      {
+        "id": "C",
+        "text": "Network Address Translation (NAT)"
+      },
+      {
+        "id": "D",
+        "text": "Power over Ethernet (PoE)"
+      },
+      {
+        "id": "E",
+        "text": "Spanning Tree PortFast"
+      }
+    ],
+    "key": "B",
+    "explanation": "VLAN memungkinkan pemisahan domain broadcast secara logis pada satu switch fisik yang sama, meningkatkan keamanan dan efisiensi jaringan.",
+    "quickTip": "Memisahkan jaringan beda fungsi pada 1 switch fisik = Virtual LAN (VLAN)."
+  },
+  {
+    "id": "s14_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Saat menghubungkan switch lantai 1 ke switch lantai 2 yang membawa beberapa data VLAN berbeda (VLAN Guru dan VLAN Siswa) melalui satu kabel penghubung tunggal.",
+    "question": "Tipe mode port switch yang harus dikonfigurasikan pada kabel penghubung antar-switch tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mode Loopback Interface"
+      },
+      {
+        "id": "B",
+        "text": "Mode Access Port tunggal"
+      },
+      {
+        "id": "C",
+        "text": "Mode Console Auxiliary"
+      },
+      {
+        "id": "D",
+        "text": "Mode Half Duplex Hub"
+      },
+      {
+        "id": "E",
+        "text": "Mode Trunk (Trunking Port IEEE 802.1Q)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Port Trunk membawa frame dari banyak VLAN dengan menyematkan tag identitas VLAN ID (802.1Q) di header paket saat melintasi kabel antar-switch.",
+    "quickTip": "Kabel antar-switch yang membawa banyak VLAN = Port Mode Trunk."
+  },
+  {
+    "id": "s14_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Kabel jaringan horizontal UTP yang ditarik melewati plafon ruangan pabrik ternyata diletakkan menempel sejajar persis dengan kabel transmisi listrik 380V motor mesin selama 40 meter.",
+    "question": "Masalah transmisi data yang timbul akibat pemasangan yang melanggar SOP jarak pemisah kabel tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kecepatan transfer data bertambah cepat seiring tingginya tegangan"
+      },
+      {
+        "id": "B",
+        "text": "Warna jaket kabel data akan menyatu dengan kabel listrik"
+      },
+      {
+        "id": "C",
+        "text": "Induksi interferensi elektromagnetik (EMI) dari kabel listrik merusak sinyal data, memicu tingginya frame corrupt dan drop packet"
+      },
+      {
+        "id": "D",
+        "text": "Kabel data akan menyedot arus listrik dan meledakkan komputer"
+      },
+      {
+        "id": "E",
+        "text": "Kabel listrik akan otomatis terputus aliran dayanya"
+      }
+    ],
+    "key": "C",
+    "explanation": "Arus bolak-balik (AC) tegangan tinggi memancarkan medan elektromagnetik kuat yang menginduksi tegangan liar ke kabel UTP, merusak frame data Ethernet.",
+    "quickTip": "Kabel UTP menempel kabel listrik industri = Gangguan induksi elektromagnetik (EMI) parah."
+  },
+  {
+    "id": "s14_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Untuk menjamin kelangsungan koneksi internet kantor pusat perbankan (High Availability), perusahaan berlangganan dua ISP berbeda melalui dua media fisik terpisah.",
+    "question": "Kombinasi dua media fisik transmisi yang paling ideal untuk redundansi jalur (Failover) di kantor pusat perbankan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menggunakan dua kabel LAN UTP yang diikat lakban menjadi satu"
+      },
+      {
+        "id": "B",
+        "text": "Jalur utama dan cadangan ditarik dalam satu pipa paralon kecil yang sama"
+      },
+      {
+        "id": "C",
+        "text": "Keduanya menggunakan kabel telepon tembaga dari tiang yang sama"
+      },
+      {
+        "id": "D",
+        "text": "Jalur utama menggunakan Kabel Fiber Optik Bawah Tanah (Duct) dan jalur cadangan menggunakan Radio Microwave / Satelit Nirkabel"
+      },
+      {
+        "id": "E",
+        "text": "Menggunakan dua kabel USB flashdisk yang dicolokkan berdampingan"
+      }
+    ],
+    "key": "D",
+    "explanation": "Prinsip diverse routing mensyaratkan media dan jalur fisik yang berbeda total. Jika kabel optik putus terkena galian alat berat, jalur radio nirkabel di udara tetap beroperasi normal.",
+    "quickTip": "Redundansi internet ideal = Jalur utama Fiber Optik bawah tanah + Jalur cadangan Radio nirkabel."
+  },
+  {
+    "id": "s14_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Pada pengukuran kualitas sambungan serat optik menggunakan OTDR, grafik menunjukkan penurunan garis yang sangat curam di satu titik tanpa adanya lonjakan refleksi.",
+    "question": "Jenis kejadian (event) pada kabel serat optik yang ditunjukkan oleh grafik penurunan curam tanpa refleksi tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ujung Terbuka Kabel Putus (Fiber End)"
+      },
+      {
+        "id": "B",
+        "text": "Non-Reflective Event (seperti Sambungan Fusion Splice atau Tekukan Macrobending)"
+      },
+      {
+        "id": "C",
+        "text": "Hubung Singkat Arus Listrik"
+      },
+      {
+        "id": "D",
+        "text": "Tabrakan Paket Data (Collision)"
+      },
+      {
+        "id": "E",
+        "text": "Reflective Event (Konektor Mekanik)"
+      }
+    ],
+    "key": "B",
+    "explanation": "Fusion splice yang sempurna atau macrobending menyebabkan redaman (penurunan dB) tanpa memantulkan cahaya balik (non-reflective event), terlihat sebagai undakan turun pada OTDR.",
+    "quickTip": "Undakan turun tanpa lonjakan spike pada OTDR = Non-Reflective Event (Splice / Bending)."
+  },
+  {
+    "id": "s14_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Seorang administrator jaringan menemukan bahwa pengguna di meja kerja nomor 12 tidak dapat terhubung ke server internal, sedangkan pengguna di meja nomor 11 dan 13 lancar.",
+    "question": "Urutan langkah isolasi troubleshooting yang paling efektif dan sistematis menurut metodologi Top-Down / Bottom-Up adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mematikan pasokan listrik seluruh gedung kantor"
+      },
+      {
+        "id": "B",
+        "text": "Membeli 50 unit router baru tanpa melakukan pengecekan kabel"
+      },
+      {
+        "id": "C",
+        "text": "Melaporkan kerusakan satelit ke lembaga antariksa"
+      },
+      {
+        "id": "D",
+        "text": "Memeriksa status fisik koneksi (kabel patch cord, lampu link LED LAN tester), lalu konfigurasi IP address meja 12, sebelum memeriksa server pusat"
+      },
+      {
+        "id": "E",
+        "text": "Langsung memformat ulang seluruh server database utama"
+      }
+    ],
+    "key": "D",
+    "explanation": "Troubleshooting terstruktur mengisolasi masalah dari layer fisik paling dekat dengan pengguna terdampak (kabel patch cord meja 12, link LED, IP configuration) sebelum mencurigai perangkat pusat.",
+    "quickTip": "Troubleshooting lokal: Cek fisik kabel & IP client meja terdampak terlebih dahulu."
+  },
+  {
+    "id": "s14_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Pemilihan media transmisi data jaringan bergantung pada jarak, lingkungan instalasi, dan kebutuhan bandwidth.",
+    "question": "Manakah skenario pemilihan media transmisi yang TEPAT dan efisien secara teknis? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Koneksi dari Wallplate ke PC pengguna di ruangan kantor menggunakan kabel UTP Cat6 (jarak < 5 meter)"
+      },
+      {
+        "id": "B",
+        "text": "Koneksi interkoneksi backbone data center 40 Gbps menggunakan kabel telepon 2-kawat RJ-11"
+      },
+      {
+        "id": "C",
+        "text": "Koneksi ke pos pantau hutan terpencil tanpa jalur kabel menggunakan sistem Satelit VSAT"
+      },
+      {
+        "id": "D",
+        "text": "Koneksi antar-pulau terpisah 100 km menggunakan kabel UTP Cat5e tanpa repeater"
+      },
+      {
+        "id": "E",
+        "text": "Koneksi antar-gedung terpisah 4 km menggunakan kabel Fiber Optik Single-Mode"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explanation": "UTP Cat6 ideal untuk koneksi lokal meja kerja (<100m). Fiber SMF ideal untuk jarak kilometer. VSAT ideal untuk wilayah terpencil tanpa kabel. UTP tidak dapat menempuh 100 km dan RJ-11 tidak mendukung 40 Gbps.",
+    "quickTip": "Pilih media sesuai jarak: Meja = UTP; Antar-gedung km = Fiber Optik; Terpencil = Satelit."
+  },
+  {
+    "id": "s14_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Penanganan insiden jaringan lumpuh akibat Broadcast Storm memerlukan tindakan cepat teknisi.",
+    "question": "Manakah tindakan teknis yang EFEKTIF untuk menghentikan dan mencegah Broadcast Storm di jaringan switch? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mencabut sementara kabel loop yang menghubungkan dua port pada switch yang sama"
+      },
+      {
+        "id": "B",
+        "text": "Mengganti seluruh monitor komputer siswa dengan layar sentuh"
+      },
+      {
+        "id": "C",
+        "text": "Mengaktifkan protokol Spanning Tree Protocol (STP / RSTP) pada semua switch terkelola (managed switch)"
+      },
+      {
+        "id": "D",
+        "text": "Mengaktifkan fitur Storm Control pada port switch untuk membatasi ambang batas traffic broadcast"
+      },
+      {
+        "id": "E",
+        "text": "Membiarkan kabel loop terpasang dan menunggu switch terbakar habis"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "Solusi broadcast storm: cabut kabel fisik loop, aktifkan STP/RSTP agar switch otomatis memblokir loop, dan terapkan Storm Control pada port.",
+    "quickTip": "Atasi Broadcast Storm: Cabut kabel loop, aktifkan STP, dan pasang Storm Control."
+  },
+  {
+    "id": "s14_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Dalam arsitektur jaringan berkinerja tinggi, redundansi jalur kabel antar-switch harus dirancang tanpa menimbulkan tabrakan paket.",
+    "question": "Manakah teknologi yang digunakan untuk meningkatkan throughput sekaligus menyediakan failover antar-switch? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Link Aggregation Control Protocol (LACP IEEE 802.3ad / EtherChannel)"
+      },
+      {
+        "id": "B",
+        "text": "Memotong kabel cadangan dengan gergaji besi"
+      },
+      {
+        "id": "C",
+        "text": "Rapid Spanning Tree Protocol (RSTP IEEE 802.1w)"
+      },
+      {
+        "id": "D",
+        "text": "Mengatur switch beroperasi pada mode Hub setengah dupleks"
+      },
+      {
+        "id": "E",
+        "text": "Menonaktifkan semua fungsi keamanan port switch"
+      }
+    ],
+    "key": [
+      "A",
+      "C"
+    ],
+    "explanation": "LACP menggabungkan kapasitas multi-link menjadi satu jalur besar ber-failover instan, sedangkan RSTP mencegah loop jika multi-link digunakan secara non-agregasi.",
+    "quickTip": "Redundansi dan agregasi link switch: LACP dan RSTP."
+  },
+  {
+    "id": "s14_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Gejala penurunan kualitas sinyal Wi-Fi di area perkantoran bertingkat sering kali disebabkan oleh kesalahan penempatan Access Point.",
+    "question": "Manakah praktik penempatan dan konfigurasi Access Point yang SALAH (buruk) yang harus dihindari teknisi? (Pilihlah DUA tindakan yang salah!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengatur semua Access Point yang berdekatan pada kanal frekuensi 2.4 GHz yang sama (Co-Channel Interference parah)"
+      },
+      {
+        "id": "B",
+        "text": "Memasang Access Point di plafon tengah koridor ruangan yang terbuka"
+      },
+      {
+        "id": "C",
+        "text": "Menggunakan frekuensi 5 GHz untuk area ruangan yang membutuhkan bandwidth tinggi"
+      },
+      {
+        "id": "D",
+        "text": "Menempatkan Access Point di dalam lemari brankas logam tertutup rapat"
+      },
+      {
+        "id": "E",
+        "text": "Melakukan wireless site survey pemetaan sinyal sebelum pemasangan permanen"
+      }
+    ],
+    "key": [
+      "A",
+      "D"
+    ],
+    "explanation": "Menaruh AP di dalam kotak logam memblokir gelombang radio, dan menyetel semua AP pada kanal yang sama menciptakan interferensi saluran (CCI) yang merusak performa.",
+    "quickTip": "Hindari kurungan logam dan penggunaan kanal frekuensi yang bertumpuk pada AP berdekatan."
+  },
+  {
+    "id": "s14_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Troubleshooting kabel jaringan terstruktur gedung memerlukan pemahaman parameter pengukuran yang akurat.",
+    "question": "Manakah parameter hasil uji kabel LAN Cat6 yang mengindikasikan bahwa kabel dalam kondisi BAIK dan layak pakai? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hasil pengujian menunjukkan terjadi Split Pair pada pasangan kawat 3 dan 6"
+      },
+      {
+        "id": "B",
+        "text": "Nilai Return Loss bernilai 0 dB (seluruh energi sinyal memantul balik)"
+      },
+      {
+        "id": "C",
+        "text": "Wiremap test menunjukkan pemetaan pin 1 sampai 8 lurus sempurna (Straight Pin-to-Pin Match)"
+      },
+      {
+        "id": "D",
+        "text": "Lampu LED indikator nomor 2 dan 7 mati total saat pengujian wiremap"
+      },
+      {
+        "id": "E",
+        "text": "Panjang kabel terukur 45 meter (masih di bawah batas maksimal 90 meter)"
+      }
+    ],
+    "key": [
+      "C",
+      "E"
+    ],
+    "explanation": "Kabel yang baik memiliki wiremap lurus 1-8 utuh, panjang di bawah batas 90m permanent link, bebas split pair, dan return loss yang tinggi (dB besar menandakan pantulan kecil).",
+    "quickTip": "Kabel LAN prima: Wiremap lurus sempurna dan panjang dalam batas standar (<90m)."
+  },
+  {
+    "id": "s14_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Analisis pemilihan media transmisi terestrial vs satelit.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai pemilihan media jaringan!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Kabel serat optik menawarkan kapasitas bandwidth dan latensi yang jauh lebih unggul daripada transmisi satelit GEO.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Sistem satelit VSAT sangat cocok dijadikan solusi utama untuk lokasi pulau terpencil di mana penarikan kabel laut tidak memungkinkan.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Kabel UTP Cat6 dapat digunakan untuk menghubungkan dua kantor antar-pulau terpisah 50 km tanpa penguat sinyal.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Kabel UTP tembaga memiliki batas fisik mutlak 100 meter, tidak mungkin digunakan untuk jarak 50 kilometer.",
+    "quickTip": "Fiber optik unggul kecepatan dan latensi; VSAT solusi wilayah terpencil; UTP maksimal 100m."
+  },
+  {
+    "id": "s14_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Penanganan insiden Broadcast Storm pada switch jaringan.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang Broadcast Storm!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Menghubungkan dua port pada switch unmanaged dengan satu kabel patch cord dapat memicu terjadinya badai broadcast.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Spanning Tree Protocol (STP) berfungsi mendeteksi loop Layer 2 dan otomatis memblokir port yang menyebabkan perputaran paket.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Broadcast storm hanya terjadi pada jaringan nirkabel satelit dan tidak pernah bisa terjadi pada kabel LAN.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Broadcast storm adalah fenomena klasik pada jaringan switch kabel Ethernet (Layer 2) ketika terjadi topologi tertutup tanpa STP.",
+    "quickTip": "Switching loop pada kabel Ethernet memicu broadcast storm yang melumpuhkan jaringan."
+  },
+  {
+    "id": "s14_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Penyebab tingginya redaman pada sambungan serat optik.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai penanganan fiber optik!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Menekuk kabel fiber optik secara tajam melampaui batas bending radius akan menimbulkan lonjakan redaman macrobending.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Debu mikro yang menempel pada ujung keramik ferrule konektor dapat memicu redaman insertion loss tinggi dan goresan fisik.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Membersihkan ujung konektor fiber optik dengan kain basah berminyak dan air sabun adalah SOP yang dianjurkan industri.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Konektor serat optik hanya boleh dibersihkan menggunakan cairan khusus pembersih optik (alkohol isopropil 99%) dan kain pembersih optik bebas serat (lint-free wipe).",
+    "quickTip": "Pembersihan konektor optik wajib memakai alkohol isopropil 99% dan kain lint-free."
+  },
+  {
+    "id": "s14_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Konfigurasi port Access dan port Trunk pada switch VLAN.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang VLAN dan port trunk!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Port Access biasanya dihubungkan ke perangkat akhir (PC, laptop, printer) dan hanya membawa satu VLAN saja.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Port Trunk digunakan untuk menghubungkan switch ke switch lain dan membawa lalu lintas dari banyak VLAN sekaligus menggunakan tag 802.1Q.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Port Trunk sama sekali tidak dapat dilewati oleh data VLAN lain selain VLAN 1 saja.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Fungsi utama port Trunk adalah membawa (multiplexing) seluruh lalu lintas VLAN yang diizinkan (allowed VLANs) menggunakan penandaan tag IEEE 802.1Q.",
+    "quickTip": "Port Access membawa 1 VLAN ke end-user; Port Trunk membawa banyak VLAN antar-switch."
+  },
+  {
+    "id": "s14_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "SOP penanganan insiden link radio Point-to-Point terputus.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai troubleshooting radio link!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Langkah awal saat link radio down adalah memeriksa ketersediaan daya listrik PoE injector dan lampu indikator perangkat radio.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Pergeseran fisik arah antena akibat tiupan badai angin kencang dapat menyebabkan misalignment dan hilangnya sinyal.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Jika link radio terputus, teknisi disarankan langsung menebang semua tiang pemancar tanpa melakukan diagnosa log perangkat.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "SOP teknis mengharuskan diagnosa log, pengecekan daya PoE, dan verifikasi fisik alignment sebelum mengambil tindakan mekanis.",
+    "quickTip": "Troubleshooting radio: Periksa daya PoE, alignment arah antena, dan log perangkat."
+  }
+]

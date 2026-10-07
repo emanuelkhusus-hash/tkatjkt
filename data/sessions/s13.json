@@ -1,0 +1,950 @@
+[
+  {
+    "id": "s13_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Dalam arsitektur jaringan komputer, bentuk penataan fisik perkabelan dan alur perpindahan data memiliki pembedaan konsep.",
+    "question": "Pembedaan antara tata letak penempatan fisik kabel/perangkat dengan cara data mengalir di dalam jaringan disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Topologi Analog dan Topologi Digital"
+      },
+      {
+        "id": "B",
+        "text": "Topologi Primer dan Topologi Sekunder"
+      },
+      {
+        "id": "C",
+        "text": "Topologi Kabel dan Topologi Nirkabel"
+      },
+      {
+        "id": "D",
+        "text": "Topologi Statis dan Topologi Dinamis"
+      },
+      {
+        "id": "E",
+        "text": "Topologi Fisik (Physical Topology) dan Topologi Logik (Logical Topology)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Topologi Fisik menggambarkan penempatan nyata kabel dan perangkat, sedangkan Topologi Logik menggambarkan bagaimana frame data dikirim dan melintas di media.",
+    "quickTip": "Fisik = Jalur kabel nyata; Logik = Alur aliran data melintas."
+  },
+  {
+    "id": "s13_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Topologi jaringan yang paling dominan digunakan pada instalasi Local Area Network (LAN) modern menggunakan switch sentral.",
+    "question": "Topologi di mana setiap komputer kerja terhubung secara mandiri ke satu perangkat pusat (Switch) disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Topologi Star (Bintang)"
+      },
+      {
+        "id": "B",
+        "text": "Topologi Mesh Penuh"
+      },
+      {
+        "id": "C",
+        "text": "Topologi Linier Rantai"
+      },
+      {
+        "id": "D",
+        "text": "Topologi Ring"
+      },
+      {
+        "id": "E",
+        "text": "Topologi Bus"
+      }
+    ],
+    "key": "A",
+    "explanation": "Topologi Star menghubungkan semua host langsung ke titik konsentrator pusat (Switch). Jika satu kabel putus, hanya komputer itu yang terputus tanpa mengganggu yang lain.",
+    "quickTip": "Semua komputer terhubung ke satu Switch sentral = Topologi Star."
+  },
+  {
+    "id": "s13_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Pada topologi jaringan Bus lawas yang menggunakan kabel coaxial tunggal, kedua ujung kabel utama wajib dipasang komponen khusus.",
+    "question": "Nama komponen penutup ujung kabel coaxial yang berfungsi menyerap pantulan sinyal (impedansi 50 Ohm) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Splitter Optik"
+      },
+      {
+        "id": "B",
+        "text": "Injektor PoE"
+      },
+      {
+        "id": "C",
+        "text": "Protector Sleeve"
+      },
+      {
+        "id": "D",
+        "text": "Konektor RJ-45"
+      },
+      {
+        "id": "E",
+        "text": "Terminator 50 Ohm"
+      }
+    ],
+    "key": "E",
+    "explanation": "Terminator di kedua ujung kabel bus mencegah terjadinya pantulan gelombang sinyal (signal bounce) yang dapat merusak transmisi frame data lain.",
+    "quickTip": "Penyerap pantulan sinyal di ujung kabel Bus = Terminator 50 Ohm."
+  },
+  {
+    "id": "s13_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Topologi di mana setiap perangkat komputer terhubung ke dua perangkat tetangga membentuk jalur lingkaran tertutup searah disebut...",
+    "question": "Nama topologi lingkaran beranting tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Topologi Bus"
+      },
+      {
+        "id": "B",
+        "text": "Topologi Mesh"
+      },
+      {
+        "id": "C",
+        "text": "Topologi Star"
+      },
+      {
+        "id": "D",
+        "text": "Topologi Ring (Cincin)"
+      },
+      {
+        "id": "E",
+        "text": "Topologi Tree"
+      }
+    ],
+    "key": "D",
+    "explanation": "Topologi Ring menghubungkan node dalam pola lingkaran tertutup, di mana data berputar melintasi tiap node (sering memanfaatkan mekanisme Token Passing).",
+    "quickTip": "Koneksi node membentuk lingkaran tertutup = Topologi Ring."
+  },
+  {
+    "id": "s13_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Topologi jaringan yang memberikan tingkat keandalan tertinggi (fault tolerance) di mana setiap perangkat terhubung langsung ke semua perangkat lainnya.",
+    "question": "Nama topologi berkeandalan maksimal tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Topologi Star"
+      },
+      {
+        "id": "B",
+        "text": "Topologi Bus"
+      },
+      {
+        "id": "C",
+        "text": "Topologi Linier"
+      },
+      {
+        "id": "D",
+        "text": "Topologi Tree"
+      },
+      {
+        "id": "E",
+        "text": "Topologi Full Mesh"
+      }
+    ],
+    "key": "E",
+    "explanation": "Full Mesh memiliki tautan redundan langsung ke setiap simpul, sehingga jika ada tautan putus, lalu lintas langsung dialihkan lewat jalur alternatif tanpa downtime.",
+    "quickTip": "Setiap perangkat terhubung ke seluruh perangkat lain = Topologi Full Mesh."
+  },
+  {
+    "id": "s13_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Untuk menghitung jumlah tautan kabel (links) yang dibutuhkan pada jaringan Full Mesh dengan n buah perangkat router.",
+    "question": "Rumus matematis untuk menghitung jumlah sambungan fisik pada topologi Full Mesh adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "n * (n - 1) / 2"
+      },
+      {
+        "id": "B",
+        "text": "n * (n + 1)"
+      },
+      {
+        "id": "C",
+        "text": "2 pangkat n (2^n)"
+      },
+      {
+        "id": "D",
+        "text": "n kuadrat (n^2)"
+      },
+      {
+        "id": "E",
+        "text": "n * 2"
+      }
+    ],
+    "key": "A",
+    "explanation": "Rumus tautan kabel Full Mesh adalah N(N-1)/2. Contoh: untuk 6 router dibutuhkan 6*(5)/2 = 15 tautan kabel langsung.",
+    "quickTip": "Rumus jumlah kabel Full Mesh = n * (n - 1) / 2."
+  },
+  {
+    "id": "s13_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Sebuah perusahaan memiliki 8 kantor cabang utama yang akan dihubungkan secara Full Mesh langsung antar-router.",
+    "question": "Berapa jumlah saluran tautan fisik langsung (links) yang harus disediakan oleh penyedia jasa jaringan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 tautan link"
+      },
+      {
+        "id": "B",
+        "text": "16 tautan link"
+      },
+      {
+        "id": "C",
+        "text": "64 tautan link"
+      },
+      {
+        "id": "D",
+        "text": "56 tautan link"
+      },
+      {
+        "id": "E",
+        "text": "28 tautan link"
+      }
+    ],
+    "key": "E",
+    "explanation": "Menggunakan rumus: 8 * (8 - 1) / 2 = 8 * 7 / 2 = 28 tautan link.",
+    "quickTip": "8 simpul Full Mesh = 8 * 7 / 2 = 28 link."
+  },
+  {
+    "id": "s13_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Model desain jaringan hirarkis 3-lapisan (Three-Tier Hierarchical Network Design) Cisco membagi jaringan menjadi Core, Distribution, dan Access.",
+    "question": "Fungsi utama dari lapisan Core Layer pada arsitektur hierarkis tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengatur tata letak kabel patch cord di meja kerja"
+      },
+      {
+        "id": "B",
+        "text": "Menyediakan pengalihan data berkecepatan tinggi (high-speed switching) tanpa melakukan penyaringan paket rumit"
+      },
+      {
+        "id": "C",
+        "text": "Mengatur pembatasan kecepatan bandwidth per siswa"
+      },
+      {
+        "id": "D",
+        "text": "Menghubungkan langsung laptop dan printer karyawan"
+      },
+      {
+        "id": "E",
+        "text": "Menjadi tempat pemasangan stopkontak listrik UPS"
+      }
+    ],
+    "key": "B",
+    "explanation": "Core Layer bertindak sebagai tulang punggung (backbone) super cepat, bertugas meneruskan traffic secepat mungkin tanpa dibebani proses filtering/ACL.",
+    "quickTip": "Core Layer = Backbone cepat tanpa pemfilteran kompleks (High-Speed Transport)."
+  },
+  {
+    "id": "s13_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Pada arsitektur jaringan hierarkis 3-lapisan, lapisan yang bertanggung jawab mengimplementasikan routing antar-VLAN, Access Control List (ACL), dan kebijakan keamanan adalah...",
+    "question": "Nama lapisan pemroses kebijakan jaringan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Core Layer"
+      },
+      {
+        "id": "B",
+        "text": "Edge Internet Layer"
+      },
+      {
+        "id": "C",
+        "text": "Physical Layer"
+      },
+      {
+        "id": "D",
+        "text": "Access Layer"
+      },
+      {
+        "id": "E",
+        "text": "Distribution Layer (Aggregation Layer)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Distribution Layer menghubungkan Access Layer ke Core Layer serta mengeksekusi routing antar-VLAN, filtering keamanan (ACL), QoS, dan aggregasi link.",
+    "quickTip": "Routing antar-VLAN dan filter kebijakan keamanan = Distribution Layer."
+  },
+  {
+    "id": "s13_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Lapisan pada model hierarkis jaringan yang berhadapan langsung dengan komputer pengguna, IP phone, printer, dan Access Point nirkabel adalah...",
+    "question": "Nama lapisan terluar tempat perangkat akhir tersambung adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Access Layer"
+      },
+      {
+        "id": "B",
+        "text": "Distribution Layer"
+      },
+      {
+        "id": "C",
+        "text": "Core Layer"
+      },
+      {
+        "id": "D",
+        "text": "Backbone Layer"
+      },
+      {
+        "id": "E",
+        "text": "Data Center Fabric"
+      }
+    ],
+    "key": "A",
+    "explanation": "Access Layer terdiri dari switch layer 2 yang menyediakan port koneksi langsung ke workstation pengguna, kontrol port security, dan segmentasi VLAN.",
+    "quickTip": "Port penghubung langsung ke komputer pengguna = Access Layer."
+  },
+  {
+    "id": "s13_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Pada gedung bertingkat, kabel vertikal yang menghubungkan ruang server utama di lantai 1 dengan lemari rack distribusi di tiap lantai atas disebut...",
+    "question": "Nama subsistem perkabelan vertikal antar-lantai dalam sistem terstruktur gedung adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Campus Patching"
+      },
+      {
+        "id": "B",
+        "text": "Console Interconnect"
+      },
+      {
+        "id": "C",
+        "text": "Work Area Cabling"
+      },
+      {
+        "id": "D",
+        "text": "Horizontal Cabling"
+      },
+      {
+        "id": "E",
+        "text": "Backbone Cabling (Riser Subsystem)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Backbone (Riser) cabling menghubungkan ruang telekomunikasi (TR) antar-lantai ke ruang peralatan utama (MDF), umumnya menggunakan kabel serat optik kecepatan tinggi.",
+    "quickTip": "Kabel vertikal penghubung antar-lantai gedung = Backbone / Riser Cabling."
+  },
+  {
+    "id": "s13_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Kabel jaringan mendatar yang dipasang dari lemari distribusi (Patch Panel) menuju stopkontak dinding (Wallplate) meja kerja pengguna disebut...",
+    "question": "Nama subsistem perkabelan mendatar di lantai gedung tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Backbone Cabling"
+      },
+      {
+        "id": "B",
+        "text": "Main Cross-Connect"
+      },
+      {
+        "id": "C",
+        "text": "Horizontal Cabling"
+      },
+      {
+        "id": "D",
+        "text": "Entrance Facility"
+      },
+      {
+        "id": "E",
+        "text": "Undersea Cabling"
+      }
+    ],
+    "key": "C",
+    "explanation": "Horizontal Cabling membentang dari ruang telekomunikasi lantai ke area kerja pengguna di lantai yang sama (panjang maks permanen 90m).",
+    "quickTip": "Kabel mendatar dari rack lantai ke stopkontak meja = Horizontal Cabling."
+  },
+  {
+    "id": "s13_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Jika terdapat dua jalur kabel yang menghubungkan dua switch secara bersamaan tanpa konfigurasi khusus, dapat terjadi perputaran paket tiada henti (switching loop).",
+    "question": "Bencana jaringan di mana frame broadcast berputar terus-menerus hingga melumpuhkan seluruh bandwidth switch dinamakan...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data Encryption"
+      },
+      {
+        "id": "B",
+        "text": "Network Segmentation"
+      },
+      {
+        "id": "C",
+        "text": "Broadcast Storm"
+      },
+      {
+        "id": "D",
+        "text": "DHCP Snooping"
+      },
+      {
+        "id": "E",
+        "text": "Default Routing"
+      }
+    ],
+    "key": "C",
+    "explanation": "Looping fisik layer 2 menyebabkan frame broadcast digandakan dan berputar terus di jaringan (karena tidak ada TTL di frame Ethernet), memicu Broadcast Storm.",
+    "quickTip": "Loop kabel pada switch memicu badai paket = Broadcast Storm."
+  },
+  {
+    "id": "s13_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Protokol standar industri (IEEE 802.1D) yang diciptakan untuk mencegah loop fisik pada topologi switch dengan cara memblokir port cadangan secara otomatis adalah...",
+    "question": "Nama protokol pencegah loop layer 2 tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "STP (Spanning Tree Protocol)"
+      },
+      {
+        "id": "B",
+        "text": "RIP (Routing Information Protocol)"
+      },
+      {
+        "id": "C",
+        "text": "DNS (Domain Name System)"
+      },
+      {
+        "id": "D",
+        "text": "OSPF (Open Shortest Path First)"
+      },
+      {
+        "id": "E",
+        "text": "BGP (Border Gateway Protocol)"
+      }
+    ],
+    "key": "A",
+    "explanation": "STP memonitor topologi mesh pada switch dan secara cerdas memblokir port redundan (blocking state) untuk mencegah loop, dan otomatis membukanya jika link utama putus.",
+    "quickTip": "Protokol pencegah switching loop = STP (Spanning Tree Protocol)."
+  },
+  {
+    "id": "s13_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Pengembangan protokol STP yang mampu mempercepat waktu konvergensi jaringan dari 30-50 detik menjadi kurang dari 1-2 detik saat terjadi perubahan topologi adalah...",
+    "question": "Nama standar IEEE 802.1w protokol Spanning Tree berkecepatan tinggi tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Classic STP 802.1D"
+      },
+      {
+        "id": "B",
+        "text": "Frame Relay"
+      },
+      {
+        "id": "C",
+        "text": "HDLC Protocol"
+      },
+      {
+        "id": "D",
+        "text": "RSTP (Rapid Spanning Tree Protocol)"
+      },
+      {
+        "id": "E",
+        "text": "PPP Multilink"
+      }
+    ],
+    "key": "D",
+    "explanation": "RSTP (IEEE 802.1w) mengurangi waktu konvergensi secara dramatis menggunakan mekanisme handshake proposal-agreement tanpa harus menunggu timer listening/learning lama.",
+    "quickTip": "Spanning Tree berkonvergensi cepat (<2 detik) = RSTP (Rapid STP / 802.1w)."
+  },
+  {
+    "id": "s13_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Teknologi penggabungan beberapa port fisik switch menjadi satu tautan logis berkapasitas besar sekaligus menyediakan redundansi otomatis (IEEE 802.3ad) adalah...",
+    "question": "Nama protokol standar agregasi port jaringan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "DHCP Option 82"
+      },
+      {
+        "id": "B",
+        "text": "VTP (VLAN Trunking)"
+      },
+      {
+        "id": "C",
+        "text": "LACP (Link Aggregation Control Protocol / EtherChannel)"
+      },
+      {
+        "id": "D",
+        "text": "SNMP v3 Monitor"
+      },
+      {
+        "id": "E",
+        "text": "ICMP Echo Protocol"
+      }
+    ],
+    "key": "C",
+    "explanation": "LACP menggabungkan hingga 8 port fisik menjadi satu bundel logis (EtherChannel/Trunk) untuk melipatgandakan bandwidth dan memberikan failover instan.",
+    "quickTip": "Menggabungkan beberapa port switch menjadi 1 link besar = LACP (Link Aggregation)."
+  },
+  {
+    "id": "s13_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Topologi jaringan di mana cabang-cabang kantor kecil (Spoke) seluruhnya terhubung secara terpusat ke kantor pusat utama (Hub) dinamakan...",
+    "question": "Model arsitektur jaringan WAN tersebut dikenal dengan nama...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Topologi Peer-to-Peer"
+      },
+      {
+        "id": "B",
+        "text": "Topologi Daisy Chain"
+      },
+      {
+        "id": "C",
+        "text": "Topologi Bus Coaxial"
+      },
+      {
+        "id": "D",
+        "text": "Topologi Full Mesh"
+      },
+      {
+        "id": "E",
+        "text": "Topologi Hub-and-Spoke"
+      }
+    ],
+    "key": "E",
+    "explanation": "Hub-and-Spoke menempatkan satu situs pusat (Hub) yang melayani lalu lintas komunikasi dari seluruh kantor cabang terpencil (Spokes), sangat efisien biaya dibanding Full Mesh.",
+    "quickTip": "Kantor cabang terhubung terpusat ke satu kantor utama = Topologi Hub-and-Spoke."
+  },
+  {
+    "id": "s13_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Pada topologi fisik Ring, jika salah satu kabel lingkaran putus maka seluruh jaringan dapat terhenti.",
+    "question": "Solusi arsitektur redundansi pada jaringan Ring modern (seperti FDDI atau SONET/SDH) untuk mencegah putusnya layanan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengganti kabel serat optik dengan tali rami"
+      },
+      {
+        "id": "B",
+        "text": "Menghilangkan semua komputer cadangan"
+      },
+      {
+        "id": "C",
+        "text": "Menyambungkan seluruh kabel ke soket stopkontak"
+      },
+      {
+        "id": "D",
+        "text": "Menggunakan Dual-Ring (Dua Jalur Cincin Berlawanan Arah / Counter-Rotating)"
+      },
+      {
+        "id": "E",
+        "text": "Mematikan daya seluruh perangkat setiap jam"
+      }
+    ],
+    "key": "D",
+    "explanation": "Dual-Ring memiliki cincin primer dan sekunder berlawanan arah. Jika ada titik putus, cincin sekunder otomatis berputar balik (self-healing wrap) mengisolasi kerusakan.",
+    "quickTip": "Arsitektur Ring anti-putus = Dual-Ring (Counter-Rotating Ring)."
+  },
+  {
+    "id": "s13_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Topologi jaringan Tree (Pohon / Hierarkis) pada dasarnya merupakan integrasi dan perluasan dari gabungan dua topologi dasar.",
+    "question": "Dua topologi dasar yang membentuk topologi Tree adalah gabungan antara...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Topologi Fisik dan Topologi Logik"
+      },
+      {
+        "id": "B",
+        "text": "Topologi Star dan Topologi Bus"
+      },
+      {
+        "id": "C",
+        "text": "Topologi Coaxial dan Topologi Nirkabel"
+      },
+      {
+        "id": "D",
+        "text": "Topologi Simplex dan Topologi Duplex"
+      },
+      {
+        "id": "E",
+        "text": "Topologi Ring dan Topologi Mesh"
+      }
+    ],
+    "key": "B",
+    "explanation": "Topologi Tree menggabungkan beberapa jaringan Star yang saling dihubungkan melalui kabel backbone utama (seperti topologi Bus).",
+    "quickTip": "Topologi Tree = Gabungan beberapa Topologi Star pada kabel tulang punggung (Bus)."
+  },
+  {
+    "id": "s13_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Dalam ruang data center, topologi interkoneksi modern yang menghubungkan setiap switch akses rak (Leaf) ke seluruh switch backbone utama (Spine) disebut...",
+    "question": "Nama arsitektur topologi data center generasi baru tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Topologi Dial-Up Point"
+      },
+      {
+        "id": "B",
+        "text": "Topologi Spine-and-Leaf Fabric"
+      },
+      {
+        "id": "C",
+        "text": "Topologi Token Ring"
+      },
+      {
+        "id": "D",
+        "text": "Topologi Linier Paralel"
+      },
+      {
+        "id": "E",
+        "text": "Topologi Bus Coaxial"
+      }
+    ],
+    "key": "B",
+    "explanation": "Spine-Leaf menjamin bahwa setiap server hanya berjarak tepat 1 hop dari server lainnya di data center, sangat optimal untuk lalu lintas traffic horizontal (East-West).",
+    "quickTip": "Topologi modern data center antar-rak server = Spine-and-Leaf Architecture."
+  },
+  {
+    "id": "s13_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Setiap topologi jaringan memiliki kelebihan dan kekurangan karakteristik fisik.",
+    "question": "Manakah pernyataan yang BENAR mengenai kelebihan dan karakteristik Topologi Star? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jika konsentrator pusat (Switch) mati, seluruh komputer tetap dapat saling berkomunikasi normal"
+      },
+      {
+        "id": "B",
+        "text": "Kemudahan isolasi gangguan: jika satu kabel komputer putus, komputer lain tidak terganggu"
+      },
+      {
+        "id": "C",
+        "text": "Kebutuhan panjang kabel sangat sedikit dibanding topologi Bus"
+      },
+      {
+        "id": "D",
+        "text": "Pengelolaan dan penambahan node baru sangat mudah dilakukan cukup dengan menancapkan kabel ke switch"
+      },
+      {
+        "id": "E",
+        "text": "Wajib menggunakan terminator 50 Ohm di setiap ujung kartu jaringan komputer"
+      }
+    ],
+    "key": [
+      "B",
+      "D"
+    ],
+    "explanation": "Topologi Star mudah dikelola dan gangguan lokal tidak memutus jaringan lain. Kelemahannya adalah ketergantungan pada switch pusat (single point of failure) dan kebutuhan kabel banyak.",
+    "quickTip": "Topologi Star: Mudah diisolasi & mudah dikembangkan; titik kritis ada di Switch pusat."
+  },
+  {
+    "id": "s13_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Tiga tingkatan arsitektur hierarkis jaringan (Three-Tier Cisco Hierarchical Model) memiliki pembagian tugas terstruktur.",
+    "question": "Manakah pasangan nama lapisan dan fungsi utamanya yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Distribution Layer bertugas mengelola routing antar-VLAN, filtering ACL, dan QoS"
+      },
+      {
+        "id": "B",
+        "text": "Core Layer bertugas meneruskan traffic data backbone secepat mungkin (Fast Transport)"
+      },
+      {
+        "id": "C",
+        "text": "Core Layer bertugas membatasi hak akses port switch ke printer pengguna"
+      },
+      {
+        "id": "D",
+        "text": "Access Layer bertugas merutekan paket antar-kantor cabang lintas benua"
+      },
+      {
+        "id": "E",
+        "text": "Access Layer bertugas menyediakan port akses fisik bagi perangkat akhir pengguna (End Devices)"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "E"
+    ],
+    "explanation": "Core: fast backbone transport; Distribution: policy/routing/security; Access: konektivitas langsung ke PC/user.",
+    "quickTip": "Hierarki 3-Tier: Core (Cepat), Distribution (Kebijakan & Routing), Access (Koneksi Pengguna)."
+  },
+  {
+    "id": "s13_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Topologi Mesh sering digunakan pada jaringan backbone antar-kantor pusat bank atau penyedia internet.",
+    "question": "Manakah karakteristik dari topologi Full Mesh? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya dapat menghubungkan maksimal 3 unit perangkat saja"
+      },
+      {
+        "id": "B",
+        "text": "Biaya instalasi perkabelan dan jumlah interface port router sangat tinggi seiring bertambahnya node"
+      },
+      {
+        "id": "C",
+        "text": "Jika satu kabel putus, seluruh kantor cabang langsung lumpuh total"
+      },
+      {
+        "id": "D",
+        "text": "Hanya membutuhkan tepat 1 kabel utama untuk seluruh kantor di dunia"
+      },
+      {
+        "id": "E",
+        "text": "Memiliki toleransi kesalahan (fault tolerance) dan redundansi jalur paling tinggi"
+      }
+    ],
+    "key": [
+      "B",
+      "E"
+    ],
+    "explanation": "Full Mesh sangat andal karena memiliki jalur redundan langsung ke setiap simpul, namun biayanya sangat tinggi karena banyaknya kabel n*(n-1)/2 yang harus digelar.",
+    "quickTip": "Full Mesh: Redundansi tertinggi dan paling tahan putus, namun biaya paling mahal."
+  },
+  {
+    "id": "s13_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Looping pada jaringan switch dapat berakibat fatal bagi kelangsungan operasional komunikasi data.",
+    "question": "Manakah dampak buruk yang terjadi jika timbul Switching Loop pada jaringan Layer 2 tanpa STP? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Penggandaan transmisi frame ganda (Multiple Frame Transmission) yang membebani host"
+      },
+      {
+        "id": "B",
+        "text": "Ketidakstabilan tabel MAC Address (MAC Database Instability / MAC Flapping)"
+      },
+      {
+        "id": "C",
+        "text": "Broadcast Storm (badai broadcast) yang membanjiri dan menghabiskan bandwidth jaringan"
+      },
+      {
+        "id": "D",
+        "text": "Komputer pengguna langsung terformat sistem operasinya secara otomatis"
+      },
+      {
+        "id": "E",
+        "text": "Router otomatis merubah alamat IP menjadi sistem IPv6"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Loop Layer 2 menyebabkan: 1. Broadcast storm, 2. Frame ganda, 3. MAC table flapping pada switch. Tidak ada pengaruh terhadap format OS komputer.",
+    "quickTip": "Dampak loop switch: Broadcast Storm, Frame ganda, dan MAC table flapping."
+  },
+  {
+    "id": "s13_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Subsistem pengkabelan terstruktur gedung (Structured Cabling System) menurut standar ANSI/TIA-568.",
+    "question": "Manakah subsistem yang TERMASUK dalam standar arsitektur perkabelan terstruktur gedung? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Work Area (komponen kabel patch cord dan faceplate di meja pengguna)"
+      },
+      {
+        "id": "B",
+        "text": "High Voltage Transmission Subsystem (kabel transmisi listrik gardu induk PLN)"
+      },
+      {
+        "id": "C",
+        "text": "Submarine International Cable (kabel bawah laut benua)"
+      },
+      {
+        "id": "D",
+        "text": "Horizontal Cabling (kabel mendatar dari ruang telekomunikasi ke meja kerja)"
+      },
+      {
+        "id": "E",
+        "text": "Backbone Cabling / Riser (kabel vertikal penghubung antar-lantai atau antar-gedung)"
+      }
+    ],
+    "key": [
+      "A",
+      "D",
+      "E"
+    ],
+    "explanation": "Standar ANSI/TIA-568 mendefinisikan subsistem gedung: Horizontal Cabling, Backbone Cabling, Work Area, Telecommunications Room, Equipment Room, dan Entrance Facility.",
+    "quickTip": "Subsistem perkabelan gedung: Horizontal, Backbone/Riser, Work Area, dan TR."
+  },
+  {
+    "id": "s13_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Perbedaan Topologi Fisik dan Topologi Logik.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai topologi fisik vs logik!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Topologi Fisik menjelaskan penataan tata letak fisik kabel dan perangkat secara nyata di ruangan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Sebuah jaringan dapat memiliki topologi fisik Star namun secara logik beroperasi seperti topologi Bus atau Ring.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Topologi Fisik dan Topologi Logik selalu wajib identik persis bentuknya dalam setiap implementasi jaringan.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Sebagai contoh: jaringan dengan Hub fisik berbentuk Star, namun sinyalnya di broadcast ke semua port secara logik Bus.",
+    "quickTip": "Topologi fisik dan logik bisa berbeda (contoh: fisik Star, logik Bus/Ring)."
+  },
+  {
+    "id": "s13_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Pencegahan looping switch menggunakan Spanning Tree Protocol (STP).",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai protokol STP!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "STP (IEEE 802.1D) mencegah terjadinya broadcast storm dengan memblokir port cadangan redundan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "RSTP (IEEE 802.1w) memiliki waktu konvergensi yang jauh lebih cepat dibanding STP tradisional.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "STP adalah protokol yang digunakan untuk mengatur pemberian alamat IP otomatis ke laptop klien.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Pemberian IP otomatis ke klien adalah tugas DHCP Server, bukan Spanning Tree Protocol.",
+    "quickTip": "STP mencegah loop Layer 2 switch; pemberian IP adalah tugas DHCP."
+  },
+  {
+    "id": "s13_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Arsitektur desain jaringan hierarkis 3-lapisan (Core, Distribution, Access).",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai model hierarki Cisco!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Access Layer adalah lapisan switch tempat komputer pengguna dan printer langsung terhubung.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Core Layer dirancang untuk mengalirkan traffic secepat mungkin tanpa dibebani proses filtering yang rumit.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Pada model hierarkis, seluruh komputer pengguna harus dicolokkan langsung ke port switch Core Layer.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Komputer pengguna dilarang dicolok langsung ke Core Layer demi menjaga stabilitas dan performa kecepatan backbone switch.",
+    "quickTip": "Komputer pengguna tersambung ke Access Layer, bukan ke Core Layer."
+  },
+  {
+    "id": "s13_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Perhitungan jumlah sambungan pada topologi Full Mesh.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang perhitungan jaringan Mesh!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Rumus matematis untuk menentukan jumlah link fisik pada topologi Full Mesh adalah n * (n - 1) / 2.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Untuk menghubungkan 5 router secara Full Mesh, dibutuhkan tepat 10 tautan kabel langsung.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Topologi Full Mesh hanya memerlukan tepat 1 kabel untuk menghubungkan 100 router di seluruh dunia.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Untuk 5 router: 5 * 4 / 2 = 10 link. Untuk 100 router Full Mesh dibutuhkan 100*99/2 = 4.950 link kabel.",
+    "quickTip": "5 simpul Full Mesh = 5 * 4 / 2 = 10 tautan."
+  },
+  {
+    "id": "s13_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Teknologi agregasi tautan LACP (Link Aggregation Control Protocol).",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang LACP!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "LACP menggabungkan beberapa link kabel fisik menjadi satu tautan logis berkapasitas gabungan yang lebih besar.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Jika salah satu kabel pada bundel LACP putus, koneksi tidak putus dan data tetap mengalir melalui kabel sisanya.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "LACP hanya bisa digunakan jika kabel yang dipakai adalah kabel listrik PLN 220 Volt.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "LACP adalah protokol agregasi antarmuka Ethernet telekomunikasi (IEEE 802.3ad/802.1AX), bukan sistem perkabelan listrik PLN.",
+    "quickTip": "LACP menggabungkan beberapa link Ethernet untuk memperbesar bandwidth dan redundansi."
+  }
+]

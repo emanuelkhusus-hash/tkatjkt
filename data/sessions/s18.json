@@ -1,0 +1,950 @@
+[
+  {
+    "id": "s18_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Model referensi Open Systems Interconnection (OSI) yang dirumuskan oleh ISO membagi komunikasi jaringan menjadi 7 lapisan terstruktur.",
+    "question": "Urutan 7 lapisan OSI Model dari lapisan paling bawah (Layer 1) hingga lapisan paling atas (Layer 7) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Physical, Data Link, Network, Transport, Session, Presentation, Application"
+      },
+      {
+        "id": "B",
+        "text": "Data Link, Physical, Network, Transport, Application, Presentation, Session"
+      },
+      {
+        "id": "C",
+        "text": "Application, Presentation, Session, Transport, Network, Data Link, Physical"
+      },
+      {
+        "id": "D",
+        "text": "Physical, Network, Data Link, Transport, Session, Presentation, Application"
+      },
+      {
+        "id": "E",
+        "text": "Physical, Data Link, Transport, Network, Session, Presentation, Application"
+      }
+    ],
+    "key": "A",
+    "explanation": "Urutan dari Layer 1 ke 7: Physical (1), Data Link (2), Network (3), Transport (4), Session (5), Presentation (6), Application (7). Jembatan keledai: Please Do Not Throw Sausage Pizza Away.",
+    "quickTip": "OSI Layer 1-7: Physical, Data Link, Network, Transport, Session, Presentation, Application."
+  },
+  {
+    "id": "s18_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Model arsitektur protokol internet TCP/IP (sering disebut DoD Model) memiliki jumlah lapisan yang lebih ringkas dibanding model OSI.",
+    "question": "Empat lapisan pada model TCP/IP dari lapisan bawah ke atas adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Network Access, Internet, Transport, Application"
+      },
+      {
+        "id": "B",
+        "text": "Hardware, Software, Interface, User"
+      },
+      {
+        "id": "C",
+        "text": "Link, IP, TCP, Web"
+      },
+      {
+        "id": "D",
+        "text": "Physical, Data Link, Network, Application"
+      },
+      {
+        "id": "E",
+        "text": "Media, Routing, Protocol, Service"
+      }
+    ],
+    "key": "A",
+    "explanation": "Model 4-Layer TCP/IP memadatkan Physical dan Data Link menjadi Network Access Layer, Network menjadi Internet Layer, Transport tetap Transport, serta Session-Presentation-Application dipadatkan menjadi Application Layer.",
+    "quickTip": "4 Layer TCP/IP: Network Access, Internet, Transport, Application."
+  },
+  {
+    "id": "s18_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Proses penambahan informasi header pada tiap lapisan saat data menuruni tumpukan protokol dari aplikasi ke media kabel disebut...",
+    "question": "Istilah untuk pembungkusan data bertingkat tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Modulasi (Modulation)"
+      },
+      {
+        "id": "B",
+        "text": "Kompresi (Compression)"
+      },
+      {
+        "id": "C",
+        "text": "Fragmentasi (Fragmentation)"
+      },
+      {
+        "id": "D",
+        "text": "Enkapsulasi (Encapsulation)"
+      },
+      {
+        "id": "E",
+        "text": "Dekapsulasi (Decapsulation)"
+      }
+    ],
+    "key": "D",
+    "explanation": "Enkapsulasi membungkus data dengan header di setiap layer: Data -> Segment (Transport) -> Packet (Network) -> Frame (Data Link) -> Bits (Physical).",
+    "quickTip": "Pembungkusan data saat dikirim = Enkapsulasi; Pembongkaran saat diterima = Dekapsulasi."
+  },
+  {
+    "id": "s18_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Setiap lapisan dalam model jaringan memiliki sebutan unit data protokol (Protocol Data Unit / PDU) masing-masing.",
+    "question": "Nama unit PDU yang digunakan pada Transport Layer (Layer 4) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Raw Data (Application Layer)"
+      },
+      {
+        "id": "B",
+        "text": "Bits (Physical Layer)"
+      },
+      {
+        "id": "C",
+        "text": "Packet (Network Layer)"
+      },
+      {
+        "id": "D",
+        "text": "Segment (atau Datagram pada UDP)"
+      },
+      {
+        "id": "E",
+        "text": "Frame (Data Link Layer)"
+      }
+    ],
+    "key": "D",
+    "explanation": "PDU per layer: Layer 4 = Segment, Layer 3 = Packet, Layer 2 = Frame, Layer 1 = Bits.",
+    "quickTip": "PDU Layer 4 = Segment; Layer 3 = Packet; Layer 2 = Frame; Layer 1 = Bits."
+  },
+  {
+    "id": "s18_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Lapisan yang bertanggung jawab mengatur transmisi bit biner mentah melalui media fisik kabel tembaga, fiber optik, atau gelombang radio adalah...",
+    "question": "Nama lapisan terendah (Layer 1) pada model OSI tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Application Layer"
+      },
+      {
+        "id": "B",
+        "text": "Network Layer"
+      },
+      {
+        "id": "C",
+        "text": "Transport Layer"
+      },
+      {
+        "id": "D",
+        "text": "Data Link Layer"
+      },
+      {
+        "id": "E",
+        "text": "Physical Layer"
+      }
+    ],
+    "key": "E",
+    "explanation": "Physical Layer (Layer 1) menangani tegangan listrik, sinyal optik, pulsa radio, konektor (RJ-45), jenis kabel, dan laju bit transmisi data.",
+    "quickTip": "Kabel, tegangan listrik, dan bit biner mentah = Physical Layer (Layer 1)."
+  },
+  {
+    "id": "s18_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Perangkat switch jaringan standar beroperasi pada lapisan yang memanfaatkan alamat fisik MAC Address 48-bit dan pengecekan kesalahan CRC.",
+    "question": "Lapisan model OSI tempat switch beroperasi mengelola frame data tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Network Layer (Layer 3)"
+      },
+      {
+        "id": "B",
+        "text": "Data Link Layer (Layer 2)"
+      },
+      {
+        "id": "C",
+        "text": "Transport Layer (Layer 4)"
+      },
+      {
+        "id": "D",
+        "text": "Session Layer (Layer 5)"
+      },
+      {
+        "id": "E",
+        "text": "Physical Layer (Layer 1)"
+      }
+    ],
+    "key": "B",
+    "explanation": "Data Link Layer (Layer 2) bertanggung jawab atas pengalamatan fisik (MAC Address), pembentukan Frame, kendali akses media (MAC), dan deteksi error (FCS/CRC).",
+    "quickTip": "MAC Address, Frame, dan Switch = Data Link Layer (Layer 2)."
+  },
+  {
+    "id": "s18_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Alamat fisik kartu jaringan (MAC Address) terdiri dari format bilangan heksadesimal dengan panjang bit tertentu.",
+    "question": "Panjang bit dan struktur penulisan dari MAC Address (Media Access Control) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "128 bit (16 byte)"
+      },
+      {
+        "id": "B",
+        "text": "64 bit (8 byte)"
+      },
+      {
+        "id": "C",
+        "text": "32 bit (4 byte)"
+      },
+      {
+        "id": "D",
+        "text": "16 bit (2 byte)"
+      },
+      {
+        "id": "E",
+        "text": "48 bit (6 byte heksadesimal, misal 00:1A:2B:3C:4D:5E)"
+      }
+    ],
+    "key": "E",
+    "explanation": "MAC Address memiliki panjang 48 bit: 24 bit pertama adalah kode pabrikan (OUI - Organizationally Unique Identifier), dan 24 bit terakhir adalah nomor seri kartu antarmuka jaringan.",
+    "quickTip": "MAC Address = 48 bit (6 pasang heksadesimal)."
+  },
+  {
+    "id": "s18_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Pada Data Link Layer, di akhir setiap frame Ethernet disematkan kode Frame Check Sequence (FCS) untuk memeriksa apakah data rusak selama transmisi.",
+    "question": "Algoritma matematis yang digunakan untuk menghitung nilai pemeriksaan integritas frame tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "AES 256-bit"
+      },
+      {
+        "id": "B",
+        "text": "MD5 Hashing"
+      },
+      {
+        "id": "C",
+        "text": "CRC (Cyclic Redundancy Check)"
+      },
+      {
+        "id": "D",
+        "text": "SHA-1 Checksum"
+      },
+      {
+        "id": "E",
+        "text": "RSA 2048-bit"
+      }
+    ],
+    "key": "C",
+    "explanation": "Pengirim menghitung nilai CRC dari bit frame dan menaruhnya di FCS. Penerima menghitung ulang CRC; jika tidak cocok, frame dibuang karena korup.",
+    "quickTip": "Deteksi kerusakan frame pada Data Link Layer = CRC (Cyclic Redundancy Check)."
+  },
+  {
+    "id": "s18_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Lapisan pada model OSI yang bertanggung jawab atas pengalamatan logis (IP Address) dan penentuan rute terbaik (Path Determination / Routing) adalah...",
+    "question": "Nama lapisan tempat router bekerja tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Transport Layer"
+      },
+      {
+        "id": "B",
+        "text": "Network Layer (Layer 3)"
+      },
+      {
+        "id": "C",
+        "text": "Presentation Layer"
+      },
+      {
+        "id": "D",
+        "text": "Data Link Layer"
+      },
+      {
+        "id": "E",
+        "text": "Session Layer"
+      }
+    ],
+    "key": "B",
+    "explanation": "Network Layer (Layer 3) menangani pengalamatan logis (IPv4/IPv6), perutean paket melintasi multi-jaringan (Router), dan protokol kendali ICMP/ARP.",
+    "quickTip": "IP Address, Paket, dan Router = Network Layer (Layer 3)."
+  },
+  {
+    "id": "s18_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Pada Transport Layer (Layer 4), terdapat dua protokol utama yang memiliki karakteristik keandalan yang sangat bertolak belakang.",
+    "question": "Dua protokol utama pada Transport Layer tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "TCP (Transmission Control Protocol) dan UDP (User Datagram Protocol)"
+      },
+      {
+        "id": "B",
+        "text": "ARP dan RARP"
+      },
+      {
+        "id": "C",
+        "text": "HTTP dan HTTPS"
+      },
+      {
+        "id": "D",
+        "text": "Ethernet dan Wi-Fi"
+      },
+      {
+        "id": "E",
+        "text": "IP dan ICMP"
+      }
+    ],
+    "key": "A",
+    "explanation": "TCP (connection-oriented, andal, berurutan) dan UDP (connectionless, cepat, tanpa jaminan) adalah dua protokol dominan di Transport Layer.",
+    "quickTip": "Dua protokol utama Layer 4 = TCP dan UDP."
+  },
+  {
+    "id": "s18_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Protokol TCP memastikan keandalan transmisi dengan melakukan negosiasi tiga langkah sebelum data mulai dikirimkan.",
+    "question": "Nama proses negosiasi pembukaan koneksi tiga langkah pada TCP tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Three-Way Handshake (SYN -> SYN-ACK -> ACK)"
+      },
+      {
+        "id": "B",
+        "text": "DORA DHCP Negotiation"
+      },
+      {
+        "id": "C",
+        "text": "Four-Way Termination (FIN-ACK)"
+      },
+      {
+        "id": "D",
+        "text": "ICMP Echo Request-Reply"
+      },
+      {
+        "id": "E",
+        "text": "CSMA/CA RTS-CTS"
+      }
+    ],
+    "key": "A",
+    "explanation": "TCP Three-Way Handshake: Klien mengirim SYN (Synchronize), Server membalas SYN-ACK, Klien mengonfirmasi dengan ACK (Acknowledge) sebelum data dialirkan.",
+    "quickTip": "Pembukaan koneksi andal TCP = Three-Way Handshake (SYN, SYN-ACK, ACK)."
+  },
+  {
+    "id": "s18_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Aplikasi percakapan suara (VoIP), siaran langsung video (live streaming), dan game online memilih menggunakan protokol UDP dibanding TCP.",
+    "question": "Alasan utama aplikasi real-time lebih menyukai UDP daripada TCP adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "UDP memiliki overhead header sangat kecil dan tidak melakukan retransmisi paket yang hilang sehingga latensinya sangat rendah"
+      },
+      {
+        "id": "B",
+        "text": "UDP hanya bisa berjalan di kabel fiber optik"
+      },
+      {
+        "id": "C",
+        "text": "UDP secara otomatis mengenkripsi data dengan standar militer"
+      },
+      {
+        "id": "D",
+        "text": "UDP menjamin 100% tidak ada paket yang hilang di jalan"
+      },
+      {
+        "id": "E",
+        "text": "UDP menghasilkan kualitas gambar video 4K secara ajaib"
+      }
+    ],
+    "key": "A",
+    "explanation": "UDP bersifat connectionless tanpa overhead acknowledgement dan tanpa retransmisi. Keterlambatan akibat retransmisi TCP justru akan merusak kelancaran streaming real-time.",
+    "quickTip": "UDP dipilih untuk live streaming/game karena cepat dan minim latensi (tanpa retransmisi)."
+  },
+  {
+    "id": "s18_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Transport Layer menggunakan nomor Port (Port Numbers) 16-bit untuk mengarahkan data ke aplikasi yang tepat di dalam komputer.",
+    "question": "Nomor port standar yang digunakan oleh protokol transfer web aman HTTPS (Hypertext Transfer Protocol Secure) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port 443"
+      },
+      {
+        "id": "B",
+        "text": "Port 80 (HTTP biasa)"
+      },
+      {
+        "id": "C",
+        "text": "Port 21 (FTP)"
+      },
+      {
+        "id": "D",
+        "text": "Port 22 (SSH)"
+      },
+      {
+        "id": "E",
+        "text": "Port 53 (DNS)"
+      }
+    ],
+    "key": "A",
+    "explanation": "Port 443 adalah port standar untuk koneksi web terenkripsi SSL/TLS (HTTPS). Port 80 adalah HTTP tanpa enkripsi.",
+    "quickTip": "HTTPS = Port 443; HTTP = Port 80."
+  },
+  {
+    "id": "s18_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Protokol komunikasi remote console aman terenkripsi yang menggantikan Telnet tanpa enkripsi beroperasi pada port standar...",
+    "question": "Nomor port default untuk layanan SSH (Secure Shell) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port 25 (SMTP)"
+      },
+      {
+        "id": "B",
+        "text": "Port 22"
+      },
+      {
+        "id": "C",
+        "text": "Port 110 (POP3)"
+      },
+      {
+        "id": "D",
+        "text": "Port 23 (Telnet)"
+      },
+      {
+        "id": "E",
+        "text": "Port 3389 (RDP)"
+      }
+    ],
+    "key": "B",
+    "explanation": "SSH berjalan pada port 22 secara terenkripsi, menggantikan protokol Telnet (port 23) yang rentan penyadapan karena mengirim teks polos.",
+    "quickTip": "SSH = Port 22; Telnet = Port 23."
+  },
+  {
+    "id": "s18_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Layanan sistem penamaan domain (Domain Name System / DNS) bertugas menerjemahkan nama domain (seperti www.smk.sch.id) menjadi alamat IP.",
+    "question": "Nomor port standar yang digunakan oleh protokol DNS adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port 68"
+      },
+      {
+        "id": "B",
+        "text": "Port 53 (UDP dan TCP)"
+      },
+      {
+        "id": "C",
+        "text": "Port 443"
+      },
+      {
+        "id": "D",
+        "text": "Port 67"
+      },
+      {
+        "id": "E",
+        "text": "Port 80"
+      }
+    ],
+    "key": "B",
+    "explanation": "DNS beroperasi pada port 53 (kebanyakan query cepat menggunakan UDP 53, sedangkan transfer zona menggunakan TCP 53).",
+    "quickTip": "DNS = Port 53."
+  },
+  {
+    "id": "s18_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Lapisan pada model OSI yang bertanggung jawab mengatur, mempertahankan, dan menyinkronkan dialog sesi komunikasi antar-aplikasi adalah...",
+    "question": "Nama lapisan ke-5 (Layer 5) pada model OSI tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Presentation Layer"
+      },
+      {
+        "id": "B",
+        "text": "Session Layer"
+      },
+      {
+        "id": "C",
+        "text": "Application Layer"
+      },
+      {
+        "id": "D",
+        "text": "Transport Layer"
+      },
+      {
+        "id": "E",
+        "text": "Network Layer"
+      }
+    ],
+    "key": "B",
+    "explanation": "Session Layer (Layer 5) mengelola pendirian, penjagaan dialog, token checkpointing, dan penutupan sesi komunikasi antar-aplikasi.",
+    "quickTip": "Pengelola pembukaan dan penutupan dialog sesi = Session Layer (Layer 5)."
+  },
+  {
+    "id": "s18_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Lapisan model OSI yang menangani pemformatan representasi data (seperti konversi ASCII, kompresi JPEG/MP3, dan enkripsi SSL/TLS) adalah...",
+    "question": "Nama lapisan ke-6 (Layer 6) pada model OSI tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Physical Layer"
+      },
+      {
+        "id": "B",
+        "text": "Presentation Layer"
+      },
+      {
+        "id": "C",
+        "text": "Application Layer"
+      },
+      {
+        "id": "D",
+        "text": "Transport Layer"
+      },
+      {
+        "id": "E",
+        "text": "Session Layer"
+      }
+    ],
+    "key": "B",
+    "explanation": "Presentation Layer (Layer 6) bertindak sebagai penerjemah data jaringan, menangani sintaks, kompresi data, serta enkripsi/dekripsi keamanan (TLS/SSL).",
+    "quickTip": "Enkripsi, kompresi, dan format representasi data = Presentation Layer (Layer 6)."
+  },
+  {
+    "id": "s18_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Lapisan tertinggi (Layer 7) pada model OSI yang menyediakan antarmuka langsung bagi program aplikasi pengguna (seperti web browser, email client) adalah...",
+    "question": "Nama lapisan ke-7 model OSI tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Application Layer"
+      },
+      {
+        "id": "B",
+        "text": "Session Layer"
+      },
+      {
+        "id": "C",
+        "text": "User Interface Layer"
+      },
+      {
+        "id": "D",
+        "text": "Transport Layer"
+      },
+      {
+        "id": "E",
+        "text": "Presentation Layer"
+      }
+    ],
+    "key": "A",
+    "explanation": "Application Layer (Layer 7) berisi protokol-protokol layanan jaringan tingkat tinggi seperti HTTP, HTTPS, FTP, DNS, DHCP, dan SMTP.",
+    "quickTip": "Protokol layanan tingkat pengguna (HTTP, DNS, DHCP, FTP) = Application Layer (Layer 7)."
+  },
+  {
+    "id": "s18_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Protokol Address Resolution Protocol (ARP) beroperasi di antara Layer 2 dan Layer 3 untuk memetakan alamat jaringan.",
+    "question": "Fungsi utama dari protokol ARP pada jaringan lokal adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengukur kecepatan koneksi internet provider"
+      },
+      {
+        "id": "B",
+        "text": "Mengubah kabel tembaga menjadi kabel serat optik"
+      },
+      {
+        "id": "C",
+        "text": "Mengetahui nama domain dari sebuah alamat IP publik"
+      },
+      {
+        "id": "D",
+        "text": "Mengetahui alamat fisik MAC Address dari sebuah host yang diketahui alamat IP-nya"
+      },
+      {
+        "id": "E",
+        "text": "Mematikan daya listrik komputer yang tidak aktif"
+      }
+    ],
+    "key": "D",
+    "explanation": "Sebelum mengirim frame ke tujuan lokal, host mengirim ARP Request broadcast: 'Siapa pemilik IP ini? Beritahu MAC address-mu ke saya'.",
+    "quickTip": "ARP mencari MAC Address berdasarkan IP Address yang diketahui."
+  },
+  {
+    "id": "s18_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Perintah diagnosa jaringan 'ping' dan 'traceroute' memanfaatkan pesan kendali pada Network Layer.",
+    "question": "Protokol pelaporan kendali dan pesan kesalahan (error reporting) tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "ICMP (Internet Control Message Protocol)"
+      },
+      {
+        "id": "B",
+        "text": "SMTP (Simple Mail Transfer Protocol)"
+      },
+      {
+        "id": "C",
+        "text": "BGP (Border Gateway Protocol)"
+      },
+      {
+        "id": "D",
+        "text": "IGMP (Internet Group Management Protocol)"
+      },
+      {
+        "id": "E",
+        "text": "SNMP (Simple Network Management Protocol)"
+      }
+    ],
+    "key": "A",
+    "explanation": "ICMP (RFC 792) bertugas melaporkan masalah rute dan mengirim pesan Echo Request / Echo Reply yang digunakan oleh utilitas ping.",
+    "quickTip": "Perintah ping memanfaatkan protokol ICMP (Echo Request & Reply)."
+  },
+  {
+    "id": "s18_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Model 7 Lapisan OSI membagi fungsi jaringan secara spesifik.",
+    "question": "Manakah pasangan antara nomor layer OSI, nama layer, dan fungsinya yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Layer 4 = Application Layer (antarmuka penampil video)"
+      },
+      {
+        "id": "B",
+        "text": "Layer 2 = Data Link Layer (pengalamatan MAC Address dan pembentukan Frame)"
+      },
+      {
+        "id": "C",
+        "text": "Layer 1 = Physical Layer (transmisi bit biner mentah melalui sinyal kabel/radio)"
+      },
+      {
+        "id": "D",
+        "text": "Layer 7 = Physical Layer (colokan konektor listrik)"
+      },
+      {
+        "id": "E",
+        "text": "Layer 3 = Network Layer (pengalamatan logis IP Address dan perutean Paket)"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "E"
+    ],
+    "explanation": "Layer 1 = Physical, Layer 2 = Data Link, Layer 3 = Network, Layer 4 = Transport, Layer 7 = Application.",
+    "quickTip": "Layer 1=Physical, Layer 2=Data Link, Layer 3=Network, Layer 4=Transport, Layer 7=Application."
+  },
+  {
+    "id": "s18_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Perbandingan karakteristik protokol Transport Layer: TCP vs UDP.",
+    "question": "Manakah pernyataan yang BENAR mengenai perbedaan TCP dan UDP? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "TCP bersifat Connection-Oriented dan menjamin pengiriman paket secara andal (reliable)"
+      },
+      {
+        "id": "B",
+        "text": "UDP bersifat Connectionless, tidak melakukan retransmisi, sehingga cocok untuk video streaming dan VoIP"
+      },
+      {
+        "id": "C",
+        "text": "TCP sama sekali tidak memiliki mekanisme pengecekan paket yang hilang"
+      },
+      {
+        "id": "D",
+        "text": "UDP selalu melakukan proses Three-Way Handshake sebelum mengirimkan paket data"
+      },
+      {
+        "id": "E",
+        "text": "UDP hanya bisa digunakan pada koneksi internet kabel serat optik"
+      }
+    ],
+    "key": [
+      "A",
+      "B"
+    ],
+    "explanation": "TCP connection-oriented ber-handshake dan ber-retransmisi. UDP connectionless tanpa handshake dan tanpa retransmisi sehingga berlatensi sangat rendah.",
+    "quickTip": "TCP: connection-oriented & andal; UDP: connectionless & cepat."
+  },
+  {
+    "id": "s18_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Nomor port layanan aplikasi populer pada tumpukan protokol TCP/IP.",
+    "question": "Manakah pasangan nama protokol dan nomor port standarnya yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "DNS = Port 8080"
+      },
+      {
+        "id": "B",
+        "text": "FTP = Port 443"
+      },
+      {
+        "id": "C",
+        "text": "HTTP = Port 80"
+      },
+      {
+        "id": "D",
+        "text": "HTTPS = Port 443"
+      },
+      {
+        "id": "E",
+        "text": "SSH = Port 22"
+      }
+    ],
+    "key": [
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "HTTP = 80, HTTPS = 443, SSH = 22. DNS adalah port 53 (bukan 8080), FTP adalah port 20/21 (bukan 443).",
+    "quickTip": "HTTP=80, HTTPS=443, SSH=22, DNS=53."
+  },
+  {
+    "id": "s18_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Sebutan Protocol Data Unit (PDU) pada proses enkapsulasi bertingkat.",
+    "question": "Manakah pasangan nama lapisan dan sebutan PDU yang BENAR? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Network Layer = Packet"
+      },
+      {
+        "id": "B",
+        "text": "Physical Layer = Segment"
+      },
+      {
+        "id": "C",
+        "text": "Data Link Layer = Frame"
+      },
+      {
+        "id": "D",
+        "text": "Transport Layer = Bits"
+      },
+      {
+        "id": "E",
+        "text": "Application Layer = Frame"
+      }
+    ],
+    "key": [
+      "A",
+      "C"
+    ],
+    "explanation": "PDU Layer 2 = Frame; Layer 3 = Packet; Layer 4 = Segment; Layer 1 = Bits.",
+    "quickTip": "Layer 2 = Frame; Layer 3 = Packet; Layer 4 = Segment; Layer 1 = Bits."
+  },
+  {
+    "id": "s18_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Tugas dan fungsi penting yang dijalankan pada Data Link Layer (Layer 2).",
+    "question": "Manakah fungsi yang MERUPAKAN tanggung jawab Data Link Layer? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pendeteksian kesalahan frame menggunakan kode CRC / Frame Check Sequence (FCS)"
+      },
+      {
+        "id": "B",
+        "text": "Penyematan alamat fisik MAC Address pengirim dan penerima"
+      },
+      {
+        "id": "C",
+        "text": "Penentuan rute routing melintasi banyak ISP dunia"
+      },
+      {
+        "id": "D",
+        "text": "Kendali akses media transmisi bersama (Media Access Control)"
+      },
+      {
+        "id": "E",
+        "text": "Penerjemahan nama domain website menjadi IP Address"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Layer 2 bertanggung jawab atas MAC address, framing, deteksi error (CRC), dan kendali akses media (CSMA/CD). Routing adalah tugas Layer 3, dan DNS adalah tugas Layer 7.",
+    "quickTip": "Fungsi Layer 2: MAC Address, deteksi error CRC, dan kendali akses media."
+  },
+  {
+    "id": "s18_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Urutan 7 Lapisan pada Model Referensi OSI.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai lapisan OSI!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Physical Layer adalah Layer 1 (lapisan terbawah) dan Application Layer adalah Layer 7 (lapisan teratas).",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Switch Layer 2 beroperasi di Data Link Layer, sedangkan Router beroperasi di Network Layer.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Kabel UTP dan konektor RJ-45 beroperasi pada Application Layer (Layer 7).",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Kabel dan konektor fisik adalah komponen Physical Layer (Layer 1), bukan Application Layer.",
+    "quickTip": "Kabel dan konektor berada di Physical Layer (Layer 1)."
+  },
+  {
+    "id": "s18_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Perbedaan protokol TCP dan UDP pada Transport Layer.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai TCP dan UDP!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "TCP menjamin pengiriman paket data menggunakan nomor urut (sequence number) dan acknowledgement.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "UDP tidak melakukan retransmisi paket data yang hilang di jalan.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Aplikasi download file penting seperti software installer sebaiknya menggunakan UDP tanpa pengecekan kesalahan.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Download file penting mutlak membutuhkan TCP agar file yang diunduh tidak korup jika ada paket yang hilang.",
+    "quickTip": "Download file butuh keandalan TCP; streaming real-time memakai UDP."
+  },
+  {
+    "id": "s18_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Proses enkapsulasi dan dekapsulasi data jaringan.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang perpindahan data antar-layer!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Saat data dikirim, data menuruni layer dari Application menuju Physical dengan penambahan header (Enkapsulasi).",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Saat data diterima, penerima melepas header satu per satu dari Physical naik ke Application (Dekapsulasi).",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Paket data bergerak langsung dari browser pengirim ke browser penerima secara gaib tanpa melewati kabel fisik.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Data wajib melalui tumpukan layer hingga menjadi sinyal fisik (bits) di Layer 1 sebelum dapat merambat ke penerima.",
+    "quickTip": "Pengiriman data menuruni layer (Enkapsulasi); penerimaan data menaiki layer (Dekapsulasi)."
+  },
+  {
+    "id": "s18_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Fungsi protokol Address Resolution Protocol (ARP).",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang protokol ARP!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "ARP digunakan untuk mencari MAC Address perangkat tujuan berdasarkan IP Address yang diketahui.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Pesan ARP Request dikirimkan secara broadcast ke seluruh perangkat dalam segmen jaringan lokal.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "ARP digunakan untuk mengubah kata sandi Wi-Fi secara otomatis.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "ARP adalah protokol resolusi alamat hardware, bukan alat pengubah sandi Wi-Fi.",
+    "quickTip": "ARP memetakan IP Address ke MAC Address melalui ARP Request broadcast."
+  },
+  {
+    "id": "s18_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Nomor port standar protokol jaringan pada Transport Layer.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai nomor port layanan!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Layanan web tanpa enkripsi HTTP standar menggunakan port 80.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Layanan web terenkripsi HTTPS standar menggunakan port 443.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Layanan remote console aman SSH standar menggunakan port 80.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "SSH menggunakan port 22. Port 80 adalah untuk HTTP web server.",
+    "quickTip": "HTTP = Port 80; HTTPS = Port 443; SSH = Port 22."
+  }
+]

@@ -1,0 +1,950 @@
+[
+  {
+    "id": "s10_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Dalam jaringan telekomunikasi, serat optik diklasifikasikan menjadi dua jenis utama berdasarkan jalur perambatan cahayanya.",
+    "question": "Dua jenis utama kabel serat optik tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unshielded Fiber dan Shielded Fiber"
+      },
+      {
+        "id": "B",
+        "text": "Coaxial Fiber dan Twisted Fiber"
+      },
+      {
+        "id": "C",
+        "text": "Digital Fiber dan Analog Fiber"
+      },
+      {
+        "id": "D",
+        "text": "Category 5e Fiber dan Category 6 Fiber"
+      },
+      {
+        "id": "E",
+        "text": "Single-Mode Fiber (SMF) dan Multi-Mode Fiber (MMF)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Serat optik diklasifikasikan menjadi Single-Mode (merambatkan satu mode berkas cahaya sejajar sumbu) dan Multi-Mode (merambatkan banyak mode berkas cahaya).",
+    "quickTip": "Dua tipe utama serat optik = Single-Mode Fiber (SMF) dan Multi-Mode Fiber (MMF)."
+  },
+  {
+    "id": "s10_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Single-Mode Fiber (SMF) memiliki ukuran inti kaca yang sangat kecil dibanding Multi-Mode Fiber.",
+    "question": "Ukuran diameter inti (core) standar pada kabel Single-Mode Fiber (ITU-T G.652) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "50 mikrometer (µm)"
+      },
+      {
+        "id": "B",
+        "text": "62.5 mikrometer (µm)"
+      },
+      {
+        "id": "C",
+        "text": "250 mikrometer (µm)"
+      },
+      {
+        "id": "D",
+        "text": "125 mikrometer (µm)"
+      },
+      {
+        "id": "E",
+        "text": "Sekitar 8 hingga 10 mikrometer (standar umum 9 µm)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Core SMF berdiameter sekitar 9 µm dengan cladding 125 µm (notasi 9/125 µm), memungkinkan hanya satu gelombang cahaya merambat lurus tanpa dispersi modal.",
+    "quickTip": "Diameter Core Single-Mode (SMF) = 9 µm (notasi 9/125 µm)."
+  },
+  {
+    "id": "s10_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Multi-Mode Fiber (MMF) memiliki diameter core yang jauh lebih besar sehingga dapat dilalui banyak lintasan berkas cahaya secara bersamaan.",
+    "question": "Dua ukuran diameter inti (core) yang umum digunakan pada kabel Multi-Mode Fiber tipe OM1 hingga OM4 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "50 mikrometer (µm) dan 62.5 mikrometer (µm)"
+      },
+      {
+        "id": "B",
+        "text": "1 mikrometer dan 2 mikrometer"
+      },
+      {
+        "id": "C",
+        "text": "5 mikrometer dan 10 mikrometer"
+      },
+      {
+        "id": "D",
+        "text": "100 mikrometer dan 200 mikrometer"
+      },
+      {
+        "id": "E",
+        "text": "9 mikrometer dan 125 mikrometer"
+      }
+    ],
+    "key": "A",
+    "explanation": "MMF menggunakan core berdiameter 62.5 µm (OM1) atau 50 µm (OM2, OM3, OM4) dengan cladding 125 µm (notasi 50/125 atau 62.5/125 µm).",
+    "quickTip": "Diameter Core Multi-Mode (MMF) = 50 µm atau 62.5 µm."
+  },
+  {
+    "id": "s10_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Untuk membedakan jenis kabel patch cord fiber optik di lapangan, pabrikan menerapkan standarisasi warna jaket pelindung luar (jacket color code).",
+    "question": "Warna standar jaket pelindung pada kabel patch cord Single-Mode Fiber (SMF) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oranye (Orange)"
+      },
+      {
+        "id": "B",
+        "text": "Aqua / Biru Laut (Toska)"
+      },
+      {
+        "id": "C",
+        "text": "Abu-abu Gelap (Dark Grey)"
+      },
+      {
+        "id": "D",
+        "text": "Hitam Pekat (Jet Black)"
+      },
+      {
+        "id": "E",
+        "text": "Kuning (Yellow)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Kabel patch cord Single-Mode selalu menggunakan warna jaket kuning. MMF OM1/OM2 berwarna oranye, sedangkan MMF OM3/OM4 berwarna aqua/toska.",
+    "quickTip": "Kabel patch cord Single-Mode (SMF) berwarna Kuning."
+  },
+  {
+    "id": "s10_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Kabel patch cord Multi-Mode Fiber standar laser-optimized (OM3 dan OM4) yang banyak digunakan di data center memiliki warna khas.",
+    "question": "Warna standar jaket pelindung kabel patch cord Multi-Mode tipe OM3 dan OM4 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aqua / Hijau Kebiruan (Toska)"
+      },
+      {
+        "id": "B",
+        "text": "Oranye Klasik"
+      },
+      {
+        "id": "C",
+        "text": "Putih Bersih"
+      },
+      {
+        "id": "D",
+        "text": "Merah Marun"
+      },
+      {
+        "id": "E",
+        "text": "Kuning Terang"
+      }
+    ],
+    "key": "A",
+    "explanation": "OM3 dan OM4 menggunakan warna Aqua (toska) untuk menandakan kabel MMF berkecepatan 10G/40G/100G berbasis laser VCSEL 850 nm.",
+    "quickTip": "Kabel patch cord MMF OM3/OM4 berwarna Aqua / Toska."
+  },
+  {
+    "id": "s10_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Sumber cahaya yang digunakan untuk mentransmisikan data pada kabel Single-Mode Fiber membutuhkan presisi dan daya tembus jarak jauh.",
+    "question": "Jenis sumber pemancar optik yang digunakan pada sistem transmisi Single-Mode Fiber adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Laser Dioda (Laser Diode / LD)"
+      },
+      {
+        "id": "B",
+        "text": "LED Biasa (Light Emitting Diode)"
+      },
+      {
+        "id": "C",
+        "text": "Lampu Pijar Wolfram"
+      },
+      {
+        "id": "D",
+        "text": "Lampu Neon Fluorescent"
+      },
+      {
+        "id": "E",
+        "text": "Lilin Parafin Inframerah"
+      }
+    ],
+    "key": "A",
+    "explanation": "SMF membutuhkan sinar laser koheren berdaya tinggi (Laser Diode) dengan spektrum sempit agar dapat masuk ke dalam core kecil 9 µm dan menempuh jarak jauh.",
+    "quickTip": "Sumber cahaya Single-Mode = Laser Dioda (LD)."
+  },
+  {
+    "id": "s10_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Jaringan serat optik Multi-Mode biasanya digunakan untuk kebutuhan jaringan jarak pendek seperti interkoneksi server di data center atau kampus.",
+    "question": "Jarak jangkau transmisi efektif maksimal kabel Multi-Mode Fiber tanpa pengulang sinyal (repeater) umumnya dibatasi hingga...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya 10 meter saja"
+      },
+      {
+        "id": "B",
+        "text": "Maksimal 40 kilometer"
+      },
+      {
+        "id": "C",
+        "text": "Maksimal sekitar 300 hingga 550 meter (di bawah 2 kilometer)"
+      },
+      {
+        "id": "D",
+        "text": "Bisa mencapai 1.000 kilometer melintasi benua"
+      },
+      {
+        "id": "E",
+        "text": "Maksimal 100 kilometer"
+      }
+    ],
+    "key": "C",
+    "explanation": "Akibat dispersi modal yang tinggi pada core lebar, sinyal MMF mengalami pelebaran pulsa sehingga jaraknya terbatas di bawah 550 meter pada Gigabit/10G.",
+    "quickTip": "Jarak efektif Multi-Mode (MMF) terbatas di bawah 550 meter (area lokal/data center)."
+  },
+  {
+    "id": "s10_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Untuk menghubungkan kota-kota antar-provinsi atau jaringan backbone antar-negara, operator telekomunikasi selalu memilih kabel Single-Mode Fiber.",
+    "question": "Jarak jangkau transmisi optik Single-Mode Fiber (SMF) dapat mencapai jarak puluhan kilometer tanpa repeater karena...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Core kabel dilapisi cermin perak murni"
+      },
+      {
+        "id": "B",
+        "text": "Kabelnya dialiri arus listrik penguat 10.000 Volt"
+      },
+      {
+        "id": "C",
+        "text": "Tidak memiliki dispersi modal dan memiliki koefisien atenuasi redaman yang sangat rendah"
+      },
+      {
+        "id": "D",
+        "text": "Cahayanya tidak pernah memantul sama sekali"
+      },
+      {
+        "id": "E",
+        "text": "Menggunakan kawat tembaga cadangan di dalamnya"
+      }
+    ],
+    "key": "C",
+    "explanation": "Karena hanya ada satu mode sinar (single-mode), dispersi modal bernilai nol. Redaman silika pada 1550 nm sangat rendah (~0.2 dB/km), memungkinkan jarak 40-80 km.",
+    "quickTip": "SMF dipakai jarak jauh (puluhan km) karena bebas dispersi modal & redaman sangat kecil."
+  },
+  {
+    "id": "s10_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Tingkat redaman (atenuasi) pada serat optik diukur dalam satuan decibel per kilometer (dB/km).",
+    "question": "Nilai rata-rata redaman kabel Single-Mode Fiber pada panjang gelombang 1550 nm adalah sekitar...",
+    "options": [
+      {
+        "id": "A",
+        "text": "3,0 dB/km"
+      },
+      {
+        "id": "B",
+        "text": "25,0 dB/km"
+      },
+      {
+        "id": "C",
+        "text": "10,0 dB/km"
+      },
+      {
+        "id": "D",
+        "text": "0,20 dB/km"
+      },
+      {
+        "id": "E",
+        "text": "0,0001 dB/km"
+      }
+    ],
+    "key": "D",
+    "explanation": "Pada jendela ketiga 1550 nm, redaman silika berada pada titik terendah teoritisnya, yaitu sekitar 0.18 hingga 0.22 dB/km.",
+    "quickTip": "Redaman SMF pada 1550 nm = sekitar 0.20 dB/km (redaman paling minimal)."
+  },
+  {
+    "id": "s10_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Pada panjang gelombang 1310 nm, kabel Single-Mode Fiber memiliki nilai redaman sedikit lebih tinggi dibanding pada 1550 nm.",
+    "question": "Nilai rata-rata redaman kabel Single-Mode Fiber pada panjang gelombang 1310 nm adalah sekitar...",
+    "options": [
+      {
+        "id": "A",
+        "text": "0,05 dB/km"
+      },
+      {
+        "id": "B",
+        "text": "0,35 dB/km"
+      },
+      {
+        "id": "C",
+        "text": "5,00 dB/km"
+      },
+      {
+        "id": "D",
+        "text": "12,0 dB/km"
+      },
+      {
+        "id": "E",
+        "text": "2,50 dB/km"
+      }
+    ],
+    "key": "B",
+    "explanation": "Pada jendela kedua 1310 nm, redaman rata-rata SMF adalah sekitar 0.33 hingga 0.38 dB/km, dengan keunggulan dispersi kromatik mendekati nol.",
+    "quickTip": "Redaman SMF pada 1310 nm = sekitar 0.35 dB/km."
+  },
+  {
+    "id": "s10_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Konektor fiber optik jenis SC (Subscriber Connector / Standard Connector) banyak digunakan pada perangkat ODF dan OLT jaringan FTTH.",
+    "question": "Karakteristik mekanisme penguncian dan bentuk fisik konektor SC adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bentuk penampang persegi (kotak) dengan mekanisme dorong-tarik (push-pull lock)"
+      },
+      {
+        "id": "B",
+        "text": "Bentuk pipih segitiga dengan klip penjepit"
+      },
+      {
+        "id": "C",
+        "text": "Bentuk silinder bundar dengan sistem ulir putar baut"
+      },
+      {
+        "id": "D",
+        "text": "Bentuk bayonet putar setengah lingkaran mirip konektor BNC"
+      },
+      {
+        "id": "E",
+        "text": "Bentuk kecil persegi panjang mirip soket USB flashdisk"
+      }
+    ],
+    "key": "A",
+    "explanation": "Konektor SC memiliki housing plastik persegi berukuran 2.5 mm ferrule dengan mekanisme push-pull yang cepat dan presisi saat dicolokkan.",
+    "quickTip": "Konektor SC = Berbentuk kotak / persegi, mekanisme push-pull."
+  },
+  {
+    "id": "s10_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Konektor optik LC (Lucent Connector) berukuran kecil (Small Form Factor) sangat mendominasi perangkat switch data center dan modul transceiver SFP/SFP+.",
+    "question": "Karakteristik fisik dari konektor fiber optik tipe LC adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menggunakan sistem pengunci baut ulir logam 5 mm"
+      },
+      {
+        "id": "B",
+        "text": "Ukuran ferrule kecil 1,25 mm dengan klip pengunci mirip konektor RJ-45"
+      },
+      {
+        "id": "C",
+        "text": "Memiliki pengait bayonet putar setengah putaran"
+      },
+      {
+        "id": "D",
+        "text": "Bentuk bulat besar dengan ferrule keramik 3 mm"
+      },
+      {
+        "id": "E",
+        "text": "Hanya dapat digunakan untuk kabel tembaga"
+      }
+    ],
+    "key": "B",
+    "explanation": "Konektor LC dirancang dengan ferrule kompak 1.25 mm dan tab kait penekan pengunci mirip RJ-45, sangat hemat ruang pada panel switch berdensitas tinggi.",
+    "quickTip": "Konektor LC = Ukuran mini (1.25 mm ferrule), ada klip pengait mirip RJ-45 (pada modul SFP)."
+  },
+  {
+    "id": "s10_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Konektor tipe FC (Ferrule Connector / Fiber Channel) sering ditemukan pada instrumen alat ukur OTDR dan OPM laboratorium.",
+    "question": "Karakteristik mekanisme penguncian konektor optik tipe FC adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bodi logam bundar dengan sistem pengencang ulir putar (screw-on threaded metal body)"
+      },
+      {
+        "id": "B",
+        "text": "Pengikat kawat solder permanen"
+      },
+      {
+        "id": "C",
+        "text": "Klip plastik fleksibel kecil"
+      },
+      {
+        "id": "D",
+        "text": "Plastik kotak dengan sistem dorong tarik"
+      },
+      {
+        "id": "E",
+        "text": "Magnet tempel tanpa kunci mekanik"
+      }
+    ],
+    "key": "A",
+    "explanation": "Konektor FC memiliki bodi logam silindris yang dikencangkan dengan cara diputar (screw threaded), sangat kokoh dan stabil terhadap getaran.",
+    "quickTip": "Konektor FC = Bodi logam bulat dengan pengunci ulir putar (screw thread)."
+  },
+  {
+    "id": "s10_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Konektor ST (Straight Tip) adalah salah satu jenis konektor optik generasi awal yang banyak digunakan pada instalasi jaringan kampus lawas.",
+    "question": "Mekanisme penguncian khas yang digunakan oleh konektor ST adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mekanisme push-pull kotak"
+      },
+      {
+        "id": "B",
+        "text": "Mekanisme ulir baut panjang"
+      },
+      {
+        "id": "C",
+        "text": "Mekanisme magnetik snap"
+      },
+      {
+        "id": "D",
+        "text": "Mekanisme kait geser ganda"
+      },
+      {
+        "id": "E",
+        "text": "Mekanisme bayonet putar setengah lingkaran (twist-lock bayonet mount)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Konektor ST berbentuk silinder dengan mekanisme kunci bayonet BNC-style (dorong lalu putar seperempat putaran untuk mengunci).",
+    "quickTip": "Konektor ST = Bulat dengan pengunci bayonet putar (BNC style)."
+  },
+  {
+    "id": "s10_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Ujung keramik (ferrule) konektor serat optik dipoles dengan tingkat kelengkungan dan sudut tertentu untuk meminimalkan pantulan cahaya balik (back reflection).",
+    "question": "Dua tipe pemolesan ferrule yang paling umum digunakan pada jaringan FTTH dan telekomunikasi adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "STP (Shielded Twisted) dan UTP (Unshielded Twisted)"
+      },
+      {
+        "id": "B",
+        "text": "BNC (Bayonet Neill) dan SMA (SubMiniature A)"
+      },
+      {
+        "id": "C",
+        "text": "VGA (Video Graphics) dan HDMI (High Definition)"
+      },
+      {
+        "id": "D",
+        "text": "UPC (Ultra Physical Contact) dan APC (Angled Physical Contact)"
+      },
+      {
+        "id": "E",
+        "text": "FTP (Foiled Twisted) dan HTTP (Hypertext Transfer)"
+      }
+    ],
+    "key": "D",
+    "explanation": "UPC memiliki ujung ferrule bulat rata dengan return loss -50 dB. APC dipoles miring dengan sudut 8 derajat dengan return loss luar biasa -60 dB.",
+    "quickTip": "Dua tipe polesan ferrule konektor: UPC (rata/biru) dan APC (miring/hijau)."
+  },
+  {
+    "id": "s10_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Warna bodi konektor optik menjadi penanda visual internasional untuk membedakan tipe pemolesan ferrule.",
+    "question": "Warna standar pada bodi konektor dan boot untuk tipe pemolesan UPC (Ultra Physical Contact) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kuning (Yellow)"
+      },
+      {
+        "id": "B",
+        "text": "Merah (Red)"
+      },
+      {
+        "id": "C",
+        "text": "Hijau (Green)"
+      },
+      {
+        "id": "D",
+        "text": "Hitam (Black)"
+      },
+      {
+        "id": "E",
+        "text": "Biru (Blue)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Konektor UPC (Ultra Physical Contact) ditandai dengan bodi berwarna biru (contoh: SC/UPC, LC/UPC).",
+    "quickTip": "Konektor tipe UPC berwarna Biru."
+  },
+  {
+    "id": "s10_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Konektor dengan tipe pemolesan APC (Angled Physical Contact) memiliki sudut kemiringan 8 derajat pada permukaan ferrule-nya.",
+    "question": "Warna standar internasional untuk konektor tipe pemolesan APC adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oranye (Orange)"
+      },
+      {
+        "id": "B",
+        "text": "Putih (White)"
+      },
+      {
+        "id": "C",
+        "text": "Hijau (Green)"
+      },
+      {
+        "id": "D",
+        "text": "Kuning (Yellow)"
+      },
+      {
+        "id": "E",
+        "text": "Biru (Blue)"
+      }
+    ],
+    "key": "C",
+    "explanation": "Konektor APC selalu berwarna hijau (contoh: SC/APC pada drop cable dan ODP FTTH) untuk mencegah tertukar dengan konektor UPC.",
+    "quickTip": "Konektor tipe APC berwarna Hijau."
+  },
+  {
+    "id": "s10_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Konektor APC (Angled Physical Contact) memiliki ujung ferrule miring 8 derajat yang memantulkan cahaya pantul keluar ke arah cladding.",
+    "question": "Keunggulan utama pemolesan APC dibandingkan UPC yang membuatnya wajib digunakan pada sinyal RF Video TV Kabel dan sistem GPON adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nilai Optical Return Loss (ORL) yang jauh lebih baik (mencapai -60 dB atau lebih tinggi), sehingga hampir tidak ada pantulan balik ke pemancar"
+      },
+      {
+        "id": "B",
+        "text": "Bisa langsung dihubungkan ke soket listrik stopkontak dinding"
+      },
+      {
+        "id": "C",
+        "text": "Harganya seratus kali lebih murah daripada konektor biasa"
+      },
+      {
+        "id": "D",
+        "text": "Kabel tidak perlu disambung menggunakan alat las optik"
+      },
+      {
+        "id": "E",
+        "text": "Menghilangkan kebutuhan kabel pelindung luar"
+      }
+    ],
+    "key": "A",
+    "explanation": "Sudut 8 derajat pada APC mengarahkan pantulan cahaya langsung ke dinding cladding sehingga tidak kembali memantul ke pemancar laser (Return Loss > 60 dB).",
+    "quickTip": "Konektor APC (Hijau) unggul dalam meminimalkan pantulan balik (Return Loss > 60 dB)."
+  },
+  {
+    "id": "s10_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Seorang teknisi pemula mencoba menancapkan konektor patch cord SC/APC (hijau) langsung ke port adapter SC/UPC (biru) pada perangkat converter.",
+    "question": "Konsekuensi teknis yang terjadi jika konektor APC dihubungkan paksa dengan konektor UPC adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Terjadi celah udara (air gap) yang menimbulkan redaman insertion loss sangat tinggi dan berisiko menggores merusak permukaan ferrule"
+      },
+      {
+        "id": "B",
+        "text": "Tidak ada dampak sama sekali karena semua konektor optik identik"
+      },
+      {
+        "id": "C",
+        "text": "Konektor akan langsung menyatu meleleh menjadi satu bagian"
+      },
+      {
+        "id": "D",
+        "text": "Perangkat converter langsung terbakar mengeluarkan asap"
+      },
+      {
+        "id": "E",
+        "text": "Sinyal internet akan otomatis naik menjadi dua kali lipat"
+      }
+    ],
+    "key": "A",
+    "explanation": "Permukaan ferrule miring 8 derajat (APC) jika bertemu permukaan bulat rata (UPC) tidak akan menempel presisi, menyebabkan air gap, redaman tinggi, dan kerusakan fisik ferrule.",
+    "quickTip": "Jangan mencampur konektor Hijau (APC) dan Biru (UPC); redaman tinggi dan ferrule rusak!"
+  },
+  {
+    "id": "s10_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Dalam terminologi kabel patch cord fiber optik, terdapat notasi seperti SC-LC SMF Duplex 3M.",
+    "question": "Arti dari istilah Duplex pada spesifikasi kabel patch cord tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel terdiri dari dua utas serat optik terpisah (satu jalur transmit / TX dan satu jalur receive / RX)"
+      },
+      {
+        "id": "B",
+        "text": "Kabel memiliki dua lapis pelindung baja tahan peluru"
+      },
+      {
+        "id": "C",
+        "text": "Kabel hanya memiliki satu helai serat optik tunggal"
+      },
+      {
+        "id": "D",
+        "text": "Kabel dapat digunakan dua kali saja lalu harus dibuang"
+      },
+      {
+        "id": "E",
+        "text": "Kabel memiliki panjang ganda melebihi standar"
+      }
+    ],
+    "key": "A",
+    "explanation": "Patch cord Duplex terdiri dari sepasang kabel optik yang digabung berdampingan (zipcord) untuk menyediakan jalur komunikasi dua arah simultan (TX dan RX).",
+    "quickTip": "Simplex = 1 helai kabel; Duplex = 2 helai kabel (jalur TX dan RX)."
+  },
+  {
+    "id": "s10_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Karakteristik antara Single-Mode Fiber (SMF) dan Multi-Mode Fiber (MMF) memiliki perbedaan mendasar.",
+    "question": "Manakah pernyataan yang BENAR mengenai perbandingan karakteristik SMF dan MMF? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diameter core SMF (sekitar 9 µm) jauh lebih kecil daripada diameter core MMF (50/62.5 µm)"
+      },
+      {
+        "id": "B",
+        "text": "Jaket patch cord kabel SMF standar berwarna oranye terang"
+      },
+      {
+        "id": "C",
+        "text": "SMF dirancang untuk transmisi jarak jauh puluhan kilometer karena tidak mengalami dispersi modal"
+      },
+      {
+        "id": "D",
+        "text": "MMF memiliki jarak jangkau hingga 100 kilometer tanpa menggunakan repeater"
+      },
+      {
+        "id": "E",
+        "text": "SMF menggunakan sumber cahaya Laser Dioda, sedangkan MMF umumnya menggunakan LED atau VCSEL"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explanation": "SMF memiliki core kecil (9 µm), memakai laser, dan bebas dispersi modal untuk jarak jauh. Jaket SMF berwarna kuning (bukan oranye). Jarak MMF terbatas di bawah 550m.",
+    "quickTip": "SMF: Core 9 µm, sumber laser, jarak jauh, jaket kuning."
+  },
+  {
+    "id": "s10_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Teknisi jaringan harus mampu mengenali berbagai jenis konektor serat optik di ruang data center.",
+    "question": "Manakah yang TERMASUK jenis konektor fisik kabel serat optik berstandar industri? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "LC (Lucent Connector - bentuk mini untuk port SFP)"
+      },
+      {
+        "id": "B",
+        "text": "FC (Fiber Connector - bentuk silinder logam berulir)"
+      },
+      {
+        "id": "C",
+        "text": "SC (Subscriber Connector - bentuk kotak dorong-tarik)"
+      },
+      {
+        "id": "D",
+        "text": "RJ-45 (Registered Jack 8P8C untuk kabel tembaga LAN)"
+      },
+      {
+        "id": "E",
+        "text": "BNC 50 Ohm (Bayonet Neill-Concelman untuk kabel coaxial)"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "SC, LC, dan FC adalah konektor standar fiber optik. RJ-45 adalah konektor kabel tembaga UTP, dan BNC adalah konektor kabel coaxial.",
+    "quickTip": "Konektor optik utama: SC, LC, FC, ST."
+  },
+  {
+    "id": "s10_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Tipe pemolesan ferrule konektor optik menentukan besarnya daya pantulan cahaya balik (optical return loss).",
+    "question": "Manakah pernyataan yang BENAR mengenai konektor UPC dan APC? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Konektor APC selalu berwarna oranye dan hanya digunakan pada kabel multi-mode"
+      },
+      {
+        "id": "B",
+        "text": "Konektor tipe APC memiliki sudut ferrule miring 8 derajat dan ditandai bodi berwarna hijau"
+      },
+      {
+        "id": "C",
+        "text": "Konektor UPC dan APC boleh ditancapkan langsung satu sama lain tanpa adaptor khusus"
+      },
+      {
+        "id": "D",
+        "text": "Konektor tipe UPC ditandai dengan bodi berwarna biru"
+      },
+      {
+        "id": "E",
+        "text": "Konektor APC memiliki tingkat pantulan balik (return loss) yang jauh lebih buruk daripada UPC"
+      }
+    ],
+    "key": [
+      "B",
+      "D"
+    ],
+    "explanation": "UPC berwarna biru dengan ferrule bulat rata. APC berwarna hijau dengan ferrule miring 8 derajat yang menghasilkan return loss sangat baik (> 60 dB). Keduanya tidak boleh digabung langsung.",
+    "quickTip": "UPC = Biru (rata); APC = Hijau (miring 8 derajat)."
+  },
+  {
+    "id": "s10_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Parameter atenuasi (redaman) serat optik bervariasi bergantung pada panjang gelombang operasional transmisi.",
+    "question": "Manakah nilai atenuasi serat optik Single-Mode standar yang TEPAT di lapangan? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Redaman pada panjang gelombang 1310 nm adalah sekitar 0.35 dB/km"
+      },
+      {
+        "id": "B",
+        "text": "Redaman pada panjang gelombang 1550 nm mencapai 15 dB per meter"
+      },
+      {
+        "id": "C",
+        "text": "Redaman kabel fiber optik semakin mengecil jika kabel ditekuk patah"
+      },
+      {
+        "id": "D",
+        "text": "Redaman pada panjang gelombang 1550 nm adalah sekitar 0.20 dB/km (paling rendah)"
+      },
+      {
+        "id": "E",
+        "text": "Redaman serat optik Single-Mode selalu bernilai tepat 0 dB/km (tanpa rugi daya)"
+      }
+    ],
+    "key": [
+      "A",
+      "D"
+    ],
+    "explanation": "Atenuasi standar SMF (G.652D) adalah ~0.35 dB/km pada 1310 nm dan ~0.20 dB/km pada 1550 nm.",
+    "quickTip": "Redaman SMF: 1310 nm = 0.35 dB/km; 1550 nm = 0.20 dB/km."
+  },
+  {
+    "id": "s10_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Pada perancangan jaringan serat optik FTTH (Fiber To The Home), pemilihan komponen pasif sangat menentukan performa redaman total.",
+    "question": "Manakah komponen dan konfigurasi yang TEPAT digunakan pada instalasi FTTH modern? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menggunakan konektor SC/APC (hijau) pada port ODP dan roset pelanggan"
+      },
+      {
+        "id": "B",
+        "text": "Menghitung total optical link budget agar daya terima (Rx Power) di ONT berada dalam batas aman"
+      },
+      {
+        "id": "C",
+        "text": "Menggunakan kabel drop fiber optik jenis Single-Mode (G.657 tahan tekukan)"
+      },
+      {
+        "id": "D",
+        "text": "Menggunakan kabel UTP Cat5e untuk bentangan outdoor antar-tiang sejauh 20 kilometer"
+      },
+      {
+        "id": "E",
+        "text": "Memasang konektor SC/UPC (biru) langsung ke adapter SC/APC (hijau) tanpa konverter"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "FTTH memanfaatkan kabel Single-Mode G.657 bend-insensitive, konektor SC/APC hijau (return loss tinggi untuk video/RF), dan perhitungan optical link budget yang cermat.",
+    "quickTip": "FTTH memakai SMF G.657, konektor SC/APC (hijau), dan perhitungan link budget teliti."
+  },
+  {
+    "id": "s10_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Karakteristik fisik kabel serat optik Single-Mode vs Multi-Mode.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai SMF dan MMF!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Single-Mode Fiber memiliki diameter inti (core) lebih kecil dibanding Multi-Mode Fiber.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Kabel patch cord Single-Mode standar dapat dibedakan secara visual dari jaketnya yang berwarna kuning.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Multi-Mode Fiber memiliki jarak jangkau transmisi yang lebih jauh daripada Single-Mode Fiber.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Single-Mode Fiber memiliki jarak jangkau puluhan kilometer, jauh melampaui Multi-Mode Fiber yang terbatas hanya beberapa ratus meter.",
+    "quickTip": "SMF memiliki jarak jangkau jauh (puluhan km); MMF hanya untuk jarak pendek (<550m)."
+  },
+  {
+    "id": "s10_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Karakteristik panjang gelombang dan atenuasi pada serat optik.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang redaman optik!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Redaman pada panjang gelombang 1550 nm lebih rendah daripada redaman pada 1310 nm.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Pada serat optik silika, jendela 1550 nm sangat ideal digunakan untuk transmisi jaringan backbone jarak jauh.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Nilai redaman kabel serat optik dinyatakan dalam satuan Megawatt per meter persegi.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Nilai redaman (atenuasi) kabel serat optik dinyatakan dalam satuan decibel per kilometer (dB/km).",
+    "quickTip": "Satuan redaman fiber optik adalah dB/km."
+  },
+  {
+    "id": "s10_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Konektor serat optik tipe SC dan LC pada perangkat jaringan.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang konektor optik!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Konektor tipe SC memiliki bentuk bodi persegi (kotak) dengan sistem pengunci push-pull.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Konektor tipe LC berukuran kecil dan banyak digunakan pada modul transceiver SFP switch.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Konektor LC dan SC memiliki ukuran ferrule keramik yang sama persis sehingga dapat saling bertukar tanpa adapter.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Konektor SC memiliki ferrule 2.5 mm, sedangkan LC memiliki ferrule 1.25 mm. Keduanya tidak dapat saling ditancapkan tanpa adapter konverter.",
+    "quickTip": "Ferrule SC = 2.5 mm; Ferrule LC = 1.25 mm (berbeda ukuran)."
+  },
+  {
+    "id": "s10_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Pembedaan konektor tipe pemolesan UPC dan APC.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai kode warna ferrule!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Konektor tipe UPC diberi kode warna biru pada bodinya.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Konektor tipe APC diberi kode warna hijau dan memiliki ujung ferrule dengan sudut kemiringan 8 derajat.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Konektor APC dan UPC dapat ditancapkan bersamaan tanpa menimbulkan redaman tambahan.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Menyambungkan konektor APC dan UPC menimbulkan air gap besar yang menghasilkan redaman sangat tinggi dan dapat merusak permukaan ferrule.",
+    "quickTip": "Konektor Biru (UPC) dan Hijau (APC) tidak boleh dipasangkan langsung."
+  },
+  {
+    "id": "s10_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Penggunaan serat optik pada infrastruktur data center modern.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang instalasi data center!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Kabel Multi-Mode tipe OM3 dan OM4 berjaket warna Aqua banyak digunakan untuk interkoneksi 10G/40G jarak pendek antar-rak server.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Patch cord Duplex memiliki dua helai serat optik yang dipadukan untuk transmisi data kirim (TX) dan terima (RX).",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Data center skala besar saat ini sudah meninggalkan fiber optik dan beralih sepenuhnya ke kabel telepon tembaga RJ-11.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Data center modern sangat bergantung pada fiber optik berkecepatan tinggi (10G, 40G, 100G, 400G); kabel RJ-11 adalah kabel telepon analog lawas.",
+    "quickTip": "Data center memanfaatkan fiber optik OM3/OM4/Single-Mode berdensitas tinggi."
+  }
+]

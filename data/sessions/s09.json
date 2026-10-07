@@ -1,0 +1,951 @@
+[
+  {
+    "id": "s09_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Prinsip dasar transmisi cahaya di dalam inti kaca serat optik mengandalkan sifat pembiasan dan pemantulan gelombang elektromagnetik.",
+    "question": "Prinsip fisika optik yang mendasari perambatan cahaya di dalam core kabel fiber optik tanpa bocor keluar adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Induksi Medan Magnetik Faraday"
+      },
+      {
+        "id": "B",
+        "text": "Pemantulan Internal Total (Total Internal Reflection)"
+      },
+      {
+        "id": "C",
+        "text": "Efek Fotolistrik Einstein"
+      },
+      {
+        "id": "D",
+        "text": "Difraksi Celah Tunggal"
+      },
+      {
+        "id": "E",
+        "text": "Polarisasi Cahaya Terbuka"
+      }
+    ],
+    "key": "B",
+    "explanation": "Total Internal Reflection terjadi ketika cahaya merambat dari medium lebih rapat (core) menuju medium kurang rapat (cladding) dengan sudut datang melebihi sudut kritis.",
+    "quickTip": "Cahaya merambat di dalam fiber optik karena Pemantulan Internal Total."
+  },
+  {
+    "id": "s09_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Agar fenomena pemantulan internal total dapat berlangsung sempurna di dalam serat optik, terdapat syarat indeks bias antara lapisan core dan cladding.",
+    "question": "Hubungan indeks bias yang mutlak harus dipenuhi pada struktur serat optik adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indeks bias cladding harus bernilai negatif"
+      },
+      {
+        "id": "B",
+        "text": "Indeks bias core (n1) harus selalu lebih kecil daripada indeks bias cladding (n2)"
+      },
+      {
+        "id": "C",
+        "text": "Indeks bias core harus bernilai 0 (ruang hampa udara)"
+      },
+      {
+        "id": "D",
+        "text": "Indeks bias core dan cladding harus sama persis nilainya (n1 = n2)"
+      },
+      {
+        "id": "E",
+        "text": "Indeks bias core (n1) harus selalu lebih besar daripada indeks bias cladding (n2)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Cahaya hanya dapat memantul total jika merambat di medium dengan indeks bias lebih tinggi (core, n1 ~ 1.47) yang dikelilingi medium indeks bias lebih rendah (cladding, n2 ~ 1.45).",
+    "quickTip": "Syarat pantulan total: Indeks bias Core (n1) > Cladding (n2)."
+  },
+  {
+    "id": "s09_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Penampang melintang sehelai serat optik terdiri dari beberapa lapisan konsentris.",
+    "question": "Lapisan terluar dari kaca serat optik yang berfungsi memantulkan kembali berkas cahaya ke dalam inti inti adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Outer Jacket Polyethylene"
+      },
+      {
+        "id": "B",
+        "text": "Aramid Yarn (Kevlar)"
+      },
+      {
+        "id": "C",
+        "text": "Thixotropic Jelly Compound"
+      },
+      {
+        "id": "D",
+        "text": "Cladding"
+      },
+      {
+        "id": "E",
+        "text": "Central Strength Member"
+      }
+    ],
+    "key": "D",
+    "explanation": "Cladding adalah lapisan kaca pembungkus yang mengelilingi core dengan indeks bias lebih rendah, bertugas menjaga cahaya tetap terperangkap di dalam core.",
+    "quickTip": "Lapisan kaca pemantul cahaya = Cladding."
+  },
+  {
+    "id": "s09_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Standar internasional industri telekomunikasi (ITU-T) menetapkan ukuran diameter lapisan cladding pada serat optik telekomunikasi.",
+    "question": "Ukuran standar diameter luar lapisan cladding untuk serat optik kaca telekomunikasi (baik Single-Mode maupun Multi-Mode) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "125 mikrometer (µm)"
+      },
+      {
+        "id": "B",
+        "text": "50 mikrometer (µm)"
+      },
+      {
+        "id": "C",
+        "text": "9 mikrometer (µm)"
+      },
+      {
+        "id": "D",
+        "text": "900 mikrometer (µm)"
+      },
+      {
+        "id": "E",
+        "text": "250 mikrometer (µm)"
+      }
+    ],
+    "key": "A",
+    "explanation": "Standar diameter cladding serat optik telekomunikasi adalah 125 µm. Yang membedakan SMF dan MMF adalah diameter core-nya.",
+    "quickTip": "Diameter Cladding standar serat optik selalu 125 µm."
+  },
+  {
+    "id": "s09_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Lapisan pelindung primer berbahan plastik polimer akrilat yang langsung melapisi permukaan kaca cladding setelah penarikan serat di pabrik disebut...",
+    "question": "Nama lapisan pelindung primer yang memiliki diameter luar standar 250 mikrometer (µm) tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coating (Primary Buffer Coating)"
+      },
+      {
+        "id": "B",
+        "text": "Armor Baja Pita"
+      },
+      {
+        "id": "C",
+        "text": "Loose Tube Gel"
+      },
+      {
+        "id": "D",
+        "text": "Core Silika"
+      },
+      {
+        "id": "E",
+        "text": "Ripcord Benang Penarik"
+      }
+    ],
+    "key": "A",
+    "explanation": "Primary coating berdiameter 250 µm melindungi kaca rapuh dari goresan mekanis, kelembapan, dan gesekan saat proses manufaktur dan instalasi.",
+    "quickTip": "Pelindung primer kaca berukuran 250 µm = Coating (Primary Buffer)."
+  },
+  {
+    "id": "s09_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Serat optik menawarkan berbagai keunggulan signifikan dibandingkan media kabel tembaga twisted pair.",
+    "question": "Keunggulan utama fiber optik yang membuatnya sangat aman dipasang di dekat jalur listrik tegangan tinggi dan daerah rawan petir adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bisa disambung hanya dengan cara diplintir memakai tang"
+      },
+      {
+        "id": "B",
+        "text": "Dapat ditekuk patah hingga 180 derajat tanpa putus"
+      },
+      {
+        "id": "C",
+        "text": "Kebal terhadap interferensi gelombang elektromagnetik (EMI) dan tidak menghantarkan arus listrik"
+      },
+      {
+        "id": "D",
+        "text": "Harganya jauh lebih murah daripada seutas tali plastik"
+      },
+      {
+        "id": "E",
+        "text": "Memancarkan cahaya penerangan ruangan yang sangat terang"
+      }
+    ],
+    "key": "C",
+    "explanation": "Karena terbuat dari kaca murni dielektrik, serat optik tidak menghantarkan arus listrik dan sepenuhnya kebal terhadap interferensi elektromagnetik (EMI) serta induksi petir.",
+    "quickTip": "Fiber optik kebal terhadap induksi listrik dan derau elektromagnetik (EMI)."
+  },
+  {
+    "id": "s09_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Cahaya yang digunakan dalam transmisi serat optik telekomunikasi berada pada spektrum inframerah dekat (Near Infrared), bukan cahaya tampak.",
+    "question": "Alasan utama penggunaan panjang gelombang inframerah (1310 nm dan 1550 nm) pada serat optik silika adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Panjang gelombang tersebut dapat dilihat langsung oleh mata telanjang"
+      },
+      {
+        "id": "B",
+        "text": "Cahaya inframerah memiliki kecepatan rambat melebihi kecepatan cahaya"
+      },
+      {
+        "id": "C",
+        "text": "Harga perangkat pemancar inframerah paling murah dibanding lampu senter"
+      },
+      {
+        "id": "D",
+        "text": "Inframerah tidak membutuhkan sumber daya listrik sama sekali"
+      },
+      {
+        "id": "E",
+        "text": "Kaca silika memiliki tingkat atenuasi (redaman kehilangan daya) paling rendah pada panjang gelombang tersebut"
+      }
+    ],
+    "key": "E",
+    "explanation": "Silika murni memiliki jendela transmisi (transmission windows) dengan redaman optik minimal di rentang inframerah (terendah pada 1550 nm ~0.2 dB/km).",
+    "quickTip": "Inframerah (1310/1550 nm) digunakan karena redaman atenuasi kaca silika paling minimal."
+  },
+  {
+    "id": "s09_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Kabel fiber optik outdoor yang dipasang di bawah tanah atau di udara membutuhkan komponen penguat untuk menahan beban tarikan mekanis.",
+    "question": "Bahan serat sintetis sintetis berdaya tahan tarik sangat tinggi yang digunakan sebagai pelindung beban tarik kabel optik adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karet Gelang Sintetis"
+      },
+      {
+        "id": "B",
+        "text": "Kawat Tembaga Lunak"
+      },
+      {
+        "id": "C",
+        "text": "Serat Sabut Kelapa"
+      },
+      {
+        "id": "D",
+        "text": "Benang Wol Rajut"
+      },
+      {
+        "id": "E",
+        "text": "Aramid Yarn (Kevlar)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Aramid yarn (Kevlar) memiliki kekuatan tarik sangat tinggi (tensile strength) dan bobot ringan, melindungi serat kaca dari regangan saat ditarik di tiang atau pipa duct.",
+    "quickTip": "Serat sintetis penahan beban tarik kabel fiber = Aramid Yarn (Kevlar)."
+  },
+  {
+    "id": "s09_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Pada kabel fiber optik tipe Loose Tube, di dalam pipa longgar yang berisi serat optik diisi senyawa zat khusus.",
+    "question": "Fungsi dari cairan jeli pelindung (Thixotropic Jelly) di dalam tabung loose tube adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebagai bahan bakar cadangan jika terjadi pemadaman listrik"
+      },
+      {
+        "id": "B",
+        "text": "Sebagai pelumas agar serat kaca bisa berputar kencang"
+      },
+      {
+        "id": "C",
+        "text": "Mencegah masuknya rembesan air/kelembapan dan meredam getaran mekanis"
+      },
+      {
+        "id": "D",
+        "text": "Untuk mendinginkan kaca agar tidak meleleh kepanasan"
+      },
+      {
+        "id": "E",
+        "text": "Sebagai zat pewarna untuk membedakan urutan kabel"
+      }
+    ],
+    "key": "C",
+    "explanation": "Jeli gel bersifat water-blocking, mencegah rembesan air yang dapat membekukan dan mematahkan serat kaca (microbending) saat suhu dingin.",
+    "quickTip": "Gel jeli di dalam loose tube berfungsi memblokir air dan kelembapan."
+  },
+  {
+    "id": "s09_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Saat melakukan penarikan kabel fiber optik di lapangan, teknisi harus memperhatikan batas radius pembengkokan kabel.",
+    "question": "Akibat fisik yang terjadi pada sinyal transmisi jika kabel fiber optik dibengkokkan secara berlebihan melebihi batas minimum kelengkungannya adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cahaya di dalam kabel akan berbalik arah menabrak pemancar laser"
+      },
+      {
+        "id": "B",
+        "text": "Terjadi rugi-rugi redaman tinggi (Bending Loss) akibat cahaya bocor menembus cladding"
+      },
+      {
+        "id": "C",
+        "text": "Kecepatan sinyal cahaya melambat menjadi setara arus listrik"
+      },
+      {
+        "id": "D",
+        "text": "Sinyal data berubah menjadi sinyal radio analog FM"
+      },
+      {
+        "id": "E",
+        "text": "Kabel akan langsung meledak mengeluarkan percikan api"
+      }
+    ],
+    "key": "B",
+    "explanation": "Tekukan ekstrem (macrobending) membuat sudut datang cahaya menjadi lebih kecil daripada sudut kritis, menyebabkan cahaya bocor keluar dari core ke cladding.",
+    "quickTip": "Tekukan kabel melebihi batas memicu kebocoran cahaya (Bending Loss)."
+  },
+  {
+    "id": "s09_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Kabel fiber optik luar ruangan (Outdoor Cable) memiliki berbagai macam jenis konstruksi sesuai metode pemasangannya.",
+    "question": "Kabel udara yang dirancang menyatu dengan kawat baja penggantung berkekuatan tinggi membentuk penampang angka 8 disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indoor Simplex Patch Cord"
+      },
+      {
+        "id": "B",
+        "text": "Ribbon Cable Data Center"
+      },
+      {
+        "id": "C",
+        "text": "Figure-8 Aerial Cable (dengan Steel Messenger Wire)"
+      },
+      {
+        "id": "D",
+        "text": "Submarine Underwater Cable"
+      },
+      {
+        "id": "E",
+        "text": "Armored Direct Buried Cable"
+      }
+    ],
+    "key": "C",
+    "explanation": "Kabel Figure-8 memiliki kawat baja penggantung (messenger wire) terintegrasi pada jaketnya untuk menahan bentangan kabel antar-tiang.",
+    "quickTip": "Kabel udara dengan kawat penggantung berbentuk angka 8 = Kabel Figure-8."
+  },
+  {
+    "id": "s09_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Dalam kabel tanah tanam langsung (Direct Buried Cable), kabel rentan terhadap gigitan hewan pengerat (tikus) dan tekanan beban batu/tanah.",
+    "question": "Lapisan pelindung logam baja bergelombang yang disematkan di dalam jaket kabel tanah disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lapisan Foil Timah Makanan"
+      },
+      {
+        "id": "B",
+        "text": "Armored Steel Tape (Pelindung Lapis Baja)"
+      },
+      {
+        "id": "C",
+        "text": "Busa Spons Peredam"
+      },
+      {
+        "id": "D",
+        "text": "Kain Kassa Katun"
+      },
+      {
+        "id": "E",
+        "text": "Lem Silikon Transparan"
+      }
+    ],
+    "key": "B",
+    "explanation": "Armoring berupa pita baja bergelombang (corrugated steel tape) memberikan ketahanan mekanis terhadap kompresi beban tanah dan gigitan hewan pengerat.",
+    "quickTip": "Kabel tanam tanah dilindungi lapisan baja anti-tikus = Armored Cable."
+  },
+  {
+    "id": "s09_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Dalam sehelai tabung loose tube terdapat kode warna internasional standar TIA/EIA-598 untuk mengidentifikasi urutan nomor serat optik.",
+    "question": "Warna serat optik nomor 1 dan nomor 2 menurut standar urutan warna TIA/EIA-598 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Merah dan Hitam"
+      },
+      {
+        "id": "B",
+        "text": "Kuning dan Ungu"
+      },
+      {
+        "id": "C",
+        "text": "Abu-abu dan Putih"
+      },
+      {
+        "id": "D",
+        "text": "Hijau dan Cokelat"
+      },
+      {
+        "id": "E",
+        "text": "Biru dan Oranye"
+      }
+    ],
+    "key": "E",
+    "explanation": "Urutan standar 12 warna TIA/EIA-598: 1-Biru, 2-Oranye, 3-Hijau, 4-Cokelat, 5-Abu-abu, 6-Putih, 7-Merah, 8-Hitam, 9-Kuning, 10-Ungu, 11-Pink, 12-Toska.",
+    "quickTip": "Kode warna fiber 1-4: Biru, Oranye, Hijau, Cokelat (BOH Cok)."
+  },
+  {
+    "id": "s09_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Mengacu pada urutan kode warna internasional TIA/EIA-598 yang terdiri dari 12 warna baku.",
+    "question": "Warna serat optik pada urutan nomor 3 dan nomor 4 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Merah dan Hitam"
+      },
+      {
+        "id": "B",
+        "text": "Biru dan Oranye"
+      },
+      {
+        "id": "C",
+        "text": "Hijau dan Cokelat"
+      },
+      {
+        "id": "D",
+        "text": "Kuning dan Ungu"
+      },
+      {
+        "id": "E",
+        "text": "Putih dan Abu-abu"
+      }
+    ],
+    "key": "C",
+    "explanation": "Serat optik nomor 3 berwarna Hijau dan nomor 4 berwarna Cokelat.",
+    "quickTip": "Serat nomor 3 = Hijau, Serat nomor 4 = Cokelat."
+  },
+  {
+    "id": "s09_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Serat optik nomor 12 (terakhir dalam satu tabung loose tube standar 12-core) memiliki warna penanda khas.",
+    "question": "Warna serat optik pada nomor urut ke-12 menurut standar TIA/EIA-598 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hitam (Nomor 8)"
+      },
+      {
+        "id": "B",
+        "text": "Pink / Merah Muda (Nomor 11)"
+      },
+      {
+        "id": "C",
+        "text": "Violet / Ungu (Nomor 10)"
+      },
+      {
+        "id": "D",
+        "text": "Aqua / Toska (Turquoise)"
+      },
+      {
+        "id": "E",
+        "text": "Kuning (Nomor 9)"
+      }
+    ],
+    "key": "D",
+    "explanation": "Urutan 9: Kuning, 10: Violet/Ungu, 11: Rose/Pink, 12: Aqua/Toska.",
+    "quickTip": "Warna serat nomor 11 = Pink, nomor 12 = Toska/Aqua."
+  },
+  {
+    "id": "s09_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Dalam penanganan kabel fiber optik, terdapat benang kuat di bawah lapisan jaket yang dapat ditarik untuk membelah jaket tanpa merusak serat di dalamnya.",
+    "question": "Nama komponen benang pembelah jaket kabel tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ripcord"
+      },
+      {
+        "id": "B",
+        "text": "Buffer Tube"
+      },
+      {
+        "id": "C",
+        "text": "Messenger Wire"
+      },
+      {
+        "id": "D",
+        "text": "Central Strength Member"
+      },
+      {
+        "id": "E",
+        "text": "Patch Cord"
+      }
+    ],
+    "key": "A",
+    "explanation": "Ripcord adalah benang nilon/poliester berkekuatan tinggi yang ditarik untuk memotong membujur jaket kabel luar secara rapi saat proses pengupasan.",
+    "quickTip": "Benang pembelah jaket kabel optik = Ripcord."
+  },
+  {
+    "id": "s09_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Batang padat non-konduktif di bagian pusat sumbu kabel fiber optik (sering terbuat dari Fiber Reinforced Plastic / FRP) disebut...",
+    "question": "Fungsi dari Central Strength Member (CSM) pada konstruksi kabel optik adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Untuk menyalurkan gelombang radio antena FM"
+      },
+      {
+        "id": "B",
+        "text": "Sebagai tempat penyimpanan file data darurat"
+      },
+      {
+        "id": "C",
+        "text": "Mengalirkan daya listrik 220V untuk menyalakan router"
+      },
+      {
+        "id": "D",
+        "text": "Menjaga kekakuan struktural kabel agar tidak menekuk patah dan menahan beban tarik aksial"
+      },
+      {
+        "id": "E",
+        "text": "Sebagai saluran pembuangan air hujan di dalam kabel"
+      }
+    ],
+    "key": "D",
+    "explanation": "Central Strength Member (CSM) memberikan kekakuan struktural pada inti kabel multi-tube dan menahan gaya regang sepanjang kabel.",
+    "quickTip": "Inti pengaku di pusat kabel optik = Central Strength Member (CSM / FRP)."
+  },
+  {
+    "id": "s09_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Bahan dasar utama yang digunakan untuk membuat kaca core dan cladding serat optik telekomunikasi modern adalah...",
+    "question": "Senyawa kimia kemurnian tinggi pembentuk kaca serat optik tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tembaga Murni (Cu)"
+      },
+      {
+        "id": "B",
+        "text": "Baja Karbon Tinggi (Fe-C)"
+      },
+      {
+        "id": "C",
+        "text": "Silika (Silikon Dioksida / SiO2)"
+      },
+      {
+        "id": "D",
+        "text": "Polivinil Klorida (PVC)"
+      },
+      {
+        "id": "E",
+        "text": "Aluminium Oksida (Al2O3)"
+      }
+    ],
+    "key": "C",
+    "explanation": "Kaca optik terbuat dari silika ultra-murni (SiO2) yang didoping dengan germanium dioksida (GeO2) pada bagian core untuk menaikkan indeks biasnya.",
+    "quickTip": "Bahan pembuat kaca serat optik = Silika murni (SiO2)."
+  },
+  {
+    "id": "s09_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Perbedaan waktu kedatangan berbagai berkas cahaya di ujung penerima akibat menempuh lintasan jarak yang berbeda di dalam core disebut...",
+    "question": "Nama fenomena pelebaran pulsa cahaya yang membatasi bandwidth transmisi serat optik tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polarisasi Faraday"
+      },
+      {
+        "id": "B",
+        "text": "Refleksi Fresnel"
+      },
+      {
+        "id": "C",
+        "text": "Dispersi Modal (Modal Dispersion)"
+      },
+      {
+        "id": "D",
+        "text": "Atenuasi Radiasi"
+      },
+      {
+        "id": "E",
+        "text": "Crosstalk Kapasitif"
+      }
+    ],
+    "key": "C",
+    "explanation": "Dispersi modal terjadi pada serat berinti besar (multi-mode) karena cahaya merambat lewat ratusan sudut mode berbeda yang sampai ke ujung dalam waktu tidak bersamaan.",
+    "quickTip": "Pelebaran pulsa cahaya akibat variasi lintasan mode = Dispersi Modal."
+  },
+  {
+    "id": "s09_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Pada transmisi optik jarak jauh, terjadi pelebaran pulsa akibat kecepatan rambat cahaya berbeda untuk setiap spektrum panjang gelombang yang dipancarkan sumber optik.",
+    "question": "Nama jenis dispersi yang terjadi baik pada serat Single-Mode maupun Multi-Mode tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Return Loss"
+      },
+      {
+        "id": "B",
+        "text": "Polarization Loss"
+      },
+      {
+        "id": "C",
+        "text": "Dispersi Modal"
+      },
+      {
+        "id": "D",
+        "text": "Dispersi Kromatik (Chromatic Dispersion)"
+      },
+      {
+        "id": "E",
+        "text": "Insertion Loss"
+      }
+    ],
+    "key": "D",
+    "explanation": "Dispersi kromatik timbul karena sumber cahaya memancarkan spektrum dengan panjang gelombang berbeda-beda yang merambat dengan kecepatan sedikit berbeda di dalam silika.",
+    "quickTip": "Pelebaran pulsa akibat spektrum panjang gelombang berbeda = Dispersi Kromatik."
+  },
+  {
+    "id": "s09_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Serat optik memiliki struktur berlapis untuk menjaga integritas transmisi cahaya dan kekuatan mekanis.",
+    "question": "Manakah lapisan yang TERMASUK dalam struktur anatomi dasar sehelai serat optik kaca? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Core (inti kaca tempat merambatnya gelombang cahaya)"
+      },
+      {
+        "id": "B",
+        "text": "RJ-45 Copper Pin (konektor 8-pin tembaga)"
+      },
+      {
+        "id": "C",
+        "text": "Cladding (lapisan kaca pembungkus pemantul cahaya)"
+      },
+      {
+        "id": "D",
+        "text": "Twisted Conductor Pair (pasangan kawat terpelintir)"
+      },
+      {
+        "id": "E",
+        "text": "Primary Coating / Buffer (pelindung permukaan kaca)"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explanation": "Anatomi dasar serat optik terdiri dari Core, Cladding, dan Coating. Pin RJ-45 dan twisted pair adalah bagian dari kabel tembaga LAN.",
+    "quickTip": "Tiga lapisan utama serat optik: Core, Cladding, dan Coating."
+  },
+  {
+    "id": "s09_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Jendela transmisi optik (Optical Transmission Windows) dipilih berdasarkan tingkat redaman (atenuasi) terendah silika.",
+    "question": "Manakah panjang gelombang yang UMUM digunakan sebagai jendela transmisi komunikasi serat optik inframerah? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1550 nm (redaman paling terendah ~0.2 dB/km untuk jarak jauh)"
+      },
+      {
+        "id": "B",
+        "text": "10.000 nm (spektrum radiasi termal panas tinggi)"
+      },
+      {
+        "id": "C",
+        "text": "100 nm (spektrum radiasi sinar ultraviolet berbahaya)"
+      },
+      {
+        "id": "D",
+        "text": "850 nm (digunakan pada jaringan Multi-Mode jarak pendek)"
+      },
+      {
+        "id": "E",
+        "text": "1310 nm (redaman rendah dan dispersi mendekati nol pada SMF)"
+      }
+    ],
+    "key": [
+      "A",
+      "D",
+      "E"
+    ],
+    "explanation": "Tiga jendela transmisi standar telekomunikasi adalah 850 nm (MMF), 1310 nm (SMF), dan 1550 nm (SMF jarak jauh / DWDM).",
+    "quickTip": "Tiga jendela optik utama: 850 nm, 1310 nm, dan 1550 nm."
+  },
+  {
+    "id": "s09_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Standar kode warna 12 serat optik TIA/EIA-598 digunakan teknisi saat melakukan penyambungan.",
+    "question": "Manakah pasangan nomor dan warna serat optik yang BENAR menurut standar TIA/EIA-598? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nomor 3 = Hitam (Black)"
+      },
+      {
+        "id": "B",
+        "text": "Nomor 1 = Biru (Blue)"
+      },
+      {
+        "id": "C",
+        "text": "Nomor 5 = Abu-abu (Slate / Grey)"
+      },
+      {
+        "id": "D",
+        "text": "Nomor 2 = Oranye (Orange)"
+      },
+      {
+        "id": "E",
+        "text": "Nomor 4 = Kuning (Yellow)"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Urutan TIA/EIA-598: 1-Biru, 2-Oranye, 3-Hijau, 4-Cokelat, 5-Abu-abu. Hitam adalah nomor 8 dan Kuning adalah nomor 9.",
+    "quickTip": "1: Biru, 2: Oranye, 3: Hijau, 4: Cokelat, 5: Abu-abu."
+  },
+  {
+    "id": "s09_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Fiber optik memiliki keunggulan fisis yang jauh melampaui kabel tembaga.",
+    "question": "Manakah dari faktor berikut yang merupakan KEUNGGULAN serat optik dibandingkan kabel tembaga UTP? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jangkauan transmisi sinyal sangat jauh puluhan kilometer tanpa repeater"
+      },
+      {
+        "id": "B",
+        "text": "Kapasitas bandwidth data yang sangat tinggi (hingga Terabits per detik)"
+      },
+      {
+        "id": "C",
+        "text": "Kabel sangat tahan dan elastis jika ditarik dengan traktor alat berat"
+      },
+      {
+        "id": "D",
+        "text": "Dapat disambung dengan mudah menggunakan lem kertas biasa"
+      },
+      {
+        "id": "E",
+        "text": "Kabel dapat berfungsi menyalurkan tenaga listrik 220V ke rumah tangga"
+      }
+    ],
+    "key": [
+      "A",
+      "B"
+    ],
+    "explanation": "Keunggulan utama fiber optik adalah kapasitas transmisi bandwidth yang masif dan kemampuan jangkauan puluhan kilometer dengan redaman sangat kecil.",
+    "quickTip": "Keunggulan fiber optik: Bandwidth masif dan jangkauan puluhan km tanpa repeater."
+  },
+  {
+    "id": "s09_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Konstruksi kabel serat optik luar ruangan (outdoor) dirancang tahan terhadap kondisi alam ekstrem.",
+    "question": "Manakah komponen perlindungan fisik yang TERDAPAT pada kabel fiber optik outdoor jenis Loose Tube? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Water-blocking Jelly / Water-swellable Yarn (penahan masuknya air)"
+      },
+      {
+        "id": "B",
+        "text": "Corrugated Steel Armor (pelindung pita baja tahan benturan/hewan)"
+      },
+      {
+        "id": "C",
+        "text": "Central Strength Member (batang pengaku FRP di pusat kabel)"
+      },
+      {
+        "id": "D",
+        "text": "RJ-45 Modular Plug (konektor jepit komputer)"
+      },
+      {
+        "id": "E",
+        "text": "Ferrite Core Toroid Ring (cincin peredam frekuensi radio)"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Kabel outdoor memiliki jelly anti-air, CSM (pengaku), dan steel tape armor (baja pelindung). RJ-45 adalah konektor kabel tembaga.",
+    "quickTip": "Perlindungan kabel outdoor: Jeli anti-air, Central Strength Member, dan Steel Armor."
+  },
+  {
+    "id": "s09_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Prinsip pemantulan internal total (Total Internal Reflection) dalam transmisi serat optik.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai penjalaran cahaya dalam serat optik!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Pemantulan internal total terjadi karena indeks bias lapisan core dibuat lebih besar dibanding lapisan cladding.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Sudut datang berkas cahaya ke dinding cladding harus lebih besar daripada sudut kritis agar tidak terjadi pembiasan keluar.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Cahaya di dalam fiber optik merambat dengan cara memantul pada lapisan jaket plastik hitam terluar kabel.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Cahaya memantul pada batas antara Core dan Cladding kaca, bukan pada jaket plastik luar kabel.",
+    "quickTip": "Cahaya memantul pada batas Core dan Cladding kaca."
+  },
+  {
+    "id": "s09_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Dimensi fisik standar serat optik telekomunikasi.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai ukuran diameter lapisan serat optik!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Diameter lapisan cladding serat optik standar telekomunikasi adalah 125 mikron (µm).",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Diameter pelindung primer (primary coating) yang melindungi kaca adalah sekitar 250 mikron (µm).",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Diameter inti (core) serat optik Single-Mode berukuran 125 mikron (µm).",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Diameter core Single-Mode sangat kecil yaitu sekitar 8 hingga 10 µm (standar 9 µm). Yang berukuran 125 µm adalah diameter cladding.",
+    "quickTip": "Core SMF = 9 µm; Cladding = 125 µm; Coating = 250 µm."
+  },
+  {
+    "id": "s09_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Kode warna urutan 12 serat optik berdasarkan standar TIA/EIA-598.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang urutan warna serat optik!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Serat optik nomor 1 selalu diawali dengan warna Biru.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Serat optik nomor 2 berwarna Oranye dan nomor 3 berwarna Hijau.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Serat optik nomor 4 berwarna Hitam.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Serat nomor 4 berwarna Cokelat. Warna Hitam berada pada urutan nomor 8.",
+    "quickTip": "Urutan 1-4: Biru, Oranye, Hijau, Cokelat."
+  },
+  {
+    "id": "s09_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Karakteristik kebal interferensi gelombang elektromagnetik serat optik.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai sifat isolator listrik serat optik!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Kabel serat optik tidak memancarkan radiasi elektromagnetik sehingga sangat sulit disadap secara nirkabel.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Kabel serat optik bebas dari masalah ground loop dan aman digelar berdampingan dengan jalur transmisi tegangan tinggi PLN.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Jika terkena induksi medan magnet trafo besar, kecepatan internet pada fiber optik akan turun drastis.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Sinyal cahaya di dalam silika tidak terpengaruh sama sekali oleh medan magnet trafo maupun induksi listrik.",
+    "quickTip": "Fiber optik 100% imun terhadap interferensi elektromagnetik dan medan magnet."
+  },
+  {
+    "id": "s09_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Ketahanan mekanis dan batas kelengkungan (bending) kabel optik.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai penanganan fisik kabel serat optik!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Menekuk kabel fiber optik melebihi radius batas lengkung minimum akan menyebabkan lonjakan redaman macrobending.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Serat kaca yang terlipat hingga patah harus disambung ulang menggunakan fusion splicer atau konektor mekanik.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Kabel fiber optik boleh diikat kencang dengan kawat bendrat menggunakan tang hingga jaket kabel berlekuk tajam.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Mengikat fiber optik terlalu kencang dengan kawat bendrat akan menimbulkan microbending dan berisiko mematahkan inti kaca.",
+    "quickTip": "Gunakan kabel ties dengan kekencangan wajar; jangan mengikat kawat tajam pada fiber."
+  }
+]

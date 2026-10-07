@@ -1,0 +1,950 @@
+[
+  {
+    "id": "s08_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Standar pengkabelan TIA/EIA 568B banyak digunakan di Indonesia untuk terminasi kabel UTP RJ-45.",
+    "question": "Urutan warna kabel pada pin 1 hingga pin 8 menurut standar TIA/EIA 568B adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Putih Biru, Biru, Putih Oranye, Hijau, Putih Hijau, Oranye, Putih Cokelat, Cokelat"
+      },
+      {
+        "id": "B",
+        "text": "Putih Oranye, Oranye, Putih Hijau, Biru, Putih Biru, Hijau, Putih Cokelat, Cokelat"
+      },
+      {
+        "id": "C",
+        "text": "Putih Hijau, Hijau, Putih Oranye, Biru, Putih Biru, Oranye, Putih Cokelat, Cokelat"
+      },
+      {
+        "id": "D",
+        "text": "Putih Cokelat, Cokelat, Putih Hijau, Hijau, Putih Oranye, Oranye, Putih Biru, Biru"
+      },
+      {
+        "id": "E",
+        "text": "Oranye, Putih Oranye, Hijau, Putih Hijau, Biru, Putih Biru, Cokelat, Putih Cokelat"
+      }
+    ],
+    "key": "B",
+    "explanation": "Standar TIA/EIA 568B diawali dengan pasangan warna oranye: Putih Oranye (pin 1), Oranye (pin 2), Putih Hijau (pin 3), Biru (pin 4), Putih Biru (pin 5), Hijau (pin 6), Putih Cokelat (pin 7), Cokelat (pin 8).",
+    "quickTip": "568B: Putih Oranye - Oranye di awal, Hijau terbelah oleh Biru."
+  },
+  {
+    "id": "s08_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Pada standar TIA/EIA 568A, susunan warna memiliki perbedaan pasangan warna utama dengan 568B.",
+    "question": "Urutan warna kabel pada pin 1 dan pin 2 menurut standar TIA/EIA 568A adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Putih Hijau dan Hijau"
+      },
+      {
+        "id": "B",
+        "text": "Putih Biru dan Biru"
+      },
+      {
+        "id": "C",
+        "text": "Putih Oranye dan Oranye"
+      },
+      {
+        "id": "D",
+        "text": "Putih Cokelat dan Cokelat"
+      },
+      {
+        "id": "E",
+        "text": "Hijau dan Putih Hijau"
+      }
+    ],
+    "key": "A",
+    "explanation": "Standar 568A menukar posisi pasangan hijau dan oranye dari 568B. Pin 1-2 pada 568A adalah Putih Hijau dan Hijau.",
+    "quickTip": "568A diawali oleh pasangan Hijau (Putih Hijau, Hijau)."
+  },
+  {
+    "id": "s08_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Teknisi menghubungkan sebuah komputer kerja (PC) langsung ke port access pada switch jaringan menggunakan kabel UTP.",
+    "question": "Tipe pengkabelan yang tepat digunakan untuk menghubungkan dua perangkat berbeda fungsi (PC ke Switch) tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Straight-Through Cable"
+      },
+      {
+        "id": "B",
+        "text": "Rollover Console Cable"
+      },
+      {
+        "id": "C",
+        "text": "Crossover Cable"
+      },
+      {
+        "id": "D",
+        "text": "Null Modem Cable"
+      },
+      {
+        "id": "E",
+        "text": "Loopback Cable"
+      }
+    ],
+    "key": "A",
+    "explanation": "Kabel Straight-Through (kedua ujung sama, misal 568B ke 568B) digunakan untuk menghubungkan perangkat berbeda jenis seperti PC ke Switch atau Switch ke Router.",
+    "quickTip": "Perangkat beda layer (PC ke Switch) = Kabel Straight-Through."
+  },
+  {
+    "id": "s08_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Dua switch lawas yang belum mendukung fitur otomatisasi port akan dihubungkan secara cascade satu sama lain.",
+    "question": "Tipe pengkabelan yang harus digunakan jika kedua ujung perangkat sejenis (Switch ke Switch) belum memiliki Auto-MDIX adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel Fiber Optik Simplex"
+      },
+      {
+        "id": "B",
+        "text": "Straight-Through Cable"
+      },
+      {
+        "id": "C",
+        "text": "Kabel Telepon RJ-11"
+      },
+      {
+        "id": "D",
+        "text": "Coaxial 50 Ohm"
+      },
+      {
+        "id": "E",
+        "text": "Crossover Cable"
+      }
+    ],
+    "key": "E",
+    "explanation": "Kabel Crossover (ujung satu 568A, ujung lain 568B) menukar pin Transmit (1,2) dan Receive (3,6) agar dua perangkat sejenis dapat berkomunikasi.",
+    "quickTip": "Perangkat sejenis tanpa Auto-MDIX = Kabel Crossover."
+  },
+  {
+    "id": "s08_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Port switch modern masa kini dapat otomatis mendeteksi apakah kabel yang dicolokkan bertipe Straight-Through atau Crossover.",
+    "question": "Nama fitur kecerdasan antarmuka port jaringan yang menangani penyesuaian otomatis polaritas pin TX/RX tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Power over Ethernet (PoE)"
+      },
+      {
+        "id": "B",
+        "text": "Quality of Service (QoS)"
+      },
+      {
+        "id": "C",
+        "text": "Auto-Negotiation Speed 100/1000"
+      },
+      {
+        "id": "D",
+        "text": "Spanning Tree Protocol (STP)"
+      },
+      {
+        "id": "E",
+        "text": "Auto-MDIX (Automatic Medium-Dependent Interface Crossover)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Auto-MDIX secara otomatis mendeteksi pasangan kabel transmit dan receive serta membalik fungsi pin internal switch jika diperlukan.",
+    "quickTip": "Deteksi otomatis tipe kabel Straight/Cross = Auto-MDIX."
+  },
+  {
+    "id": "s08_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Saat memasang konektor RJ-45, seorang teknisi mengurai lilitan kawat tembaga terlalu panjang (lebih dari 3 cm) sebelum memasukkannya ke pin.",
+    "question": "Dampak teknis buruk yang timbul pada transmisi sinyal data akibat penguraian lilitan yang terlalu panjang tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kabel tidak bisa dialiri data sama sekali secara permanen"
+      },
+      {
+        "id": "B",
+        "text": "Kabel menjadi meleleh karena panas lilitan"
+      },
+      {
+        "id": "C",
+        "text": "Meningkatnya derau interferensi silang (Near-End Crosstalk / NEXT) dan penurunan kualitas sinyal"
+      },
+      {
+        "id": "D",
+        "text": "Bandwidth jaringan otomatis bertambah dua kali lipat"
+      },
+      {
+        "id": "E",
+        "text": "Arus listrik PLN masuk membakar switch"
+      }
+    ],
+    "key": "C",
+    "explanation": "Standar TIA mensyaratkan lilitan kawat tidak boleh diurai lebih dari 0.5 inci (13 mm) dari konektor untuk mempertahankan kekebalan terhadap crosstalk.",
+    "quickTip": "Uraian kawat terlalu panjang memicu lonjakan Crosstalk (NEXT)."
+  },
+  {
+    "id": "s08_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Alat tangan mekanik khusus yang berfungsi menjepit pin tembaga konektor RJ-45 ke kawat inti kabel UTP sekaligus mengunci kabel jaket disebut...",
+    "question": "Nama perkakas tangan wajib bagi teknisi jaringan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Impact Punch Down Tool"
+      },
+      {
+        "id": "B",
+        "text": "Crimping Tool (Tang Crimping)"
+      },
+      {
+        "id": "C",
+        "text": "Solder Listrik 40 Watt"
+      },
+      {
+        "id": "D",
+        "text": "Obeng Plus Presisi"
+      },
+      {
+        "id": "E",
+        "text": "Tang Buaya Pemotong Pipa"
+      }
+    ],
+    "key": "B",
+    "explanation": "Crimping tool menekan bilah kontak emas RJ-45 agar menembus isolator kawat tembaga dan mengunci selongsong plastik penahan kabel.",
+    "quickTip": "Menjepit konektor RJ-45 ke kabel UTP = Tang Crimping (Crimping Tool)."
+  },
+  {
+    "id": "s08_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Pada instalasi rack server gedung, kabel solid UTP diterminasi di bagian belakang Patch Panel menggunakan konektor blok IDC (Insulation Displacement Connector).",
+    "question": "Alat penekan kawat berpegas yang memotong sisa ujung kawat tembaga sekaligus menancapkannya ke blok IDC adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cutter Pisau Lipat"
+      },
+      {
+        "id": "B",
+        "text": "Punch Down Tool (Impact Tool)"
+      },
+      {
+        "id": "C",
+        "text": "Tang Kombinasi 8 Inci"
+      },
+      {
+        "id": "D",
+        "text": "Kunci Inggris Baja"
+      },
+      {
+        "id": "E",
+        "text": "Heat Gun Pemanas"
+      }
+    ],
+    "key": "B",
+    "explanation": "Punch Down Tool (sering disebut krone tool) menekan kawat ke celah pisau IDC dan memotong kelebihan kabel dalam satu gerakan tekan berpegas.",
+    "quickTip": "Terminasi kabel ke Patch Panel / Keystone = Punch Down Tool."
+  },
+  {
+    "id": "s08_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Setelah membuat kabel LAN, teknisi menggunakan Wiremap LAN Cable Tester yang terdiri dari unit Master dan unit Remote.",
+    "question": "Kondisi urutan nyala lampu indikator LED 1 sampai 8 pada Master dan Remote yang menunjukkan kabel straight-through berfungsi sempurna adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seluruh lampu padam total saat kabel ditancapkan"
+      },
+      {
+        "id": "B",
+        "text": "Lampu menyala acak berkedip cepat tanpa urutan"
+      },
+      {
+        "id": "C",
+        "text": "Lampu 1 hingga 8 menyala berurutan secara serempak dan beriringan antara Master dan Remote"
+      },
+      {
+        "id": "D",
+        "text": "Hanya lampu pin 1 dan 8 yang menyala"
+      },
+      {
+        "id": "E",
+        "text": "Lampu Master menyala 1-8 tetapi Remote padam semua"
+      }
+    ],
+    "key": "C",
+    "explanation": "Kabel straight yang benar akan menyalakan LED 1 s.d. 8 secara sinkron dan berurutan dari pin 1 sampai pin 8 di kedua unit tester.",
+    "quickTip": "LAN Tester normal Straight = LED 1 s.d. 8 menyala berurutan bersamaan."
+  },
+  {
+    "id": "s08_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Pada pengetesan kabel LAN dengan tester, lampu LED nomor 3 pada remote tidak menyala sama sekali sementara pin lainnya menyala berurutan.",
+    "question": "Jenis kerusakan fisik kabel yang terjadi pada pin nomor 3 tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reversed Pair (Kawat Terbalik)"
+      },
+      {
+        "id": "B",
+        "text": "Split Pair (Pasangan Terbelah)"
+      },
+      {
+        "id": "C",
+        "text": "Crossed Over (Kabel Silang)"
+      },
+      {
+        "id": "D",
+        "text": "Open Circuit (Kawat Putus / Tidak Terhubung)"
+      },
+      {
+        "id": "E",
+        "text": "Short Circuit (Hubung Singkat)"
+      }
+    ],
+    "key": "D",
+    "explanation": "Lampu LED yang mati menandakan jalur konduktor kawat terputus (open pair), bisa karena kawat putus di tengah atau pin konektor belum tertancap sempurna.",
+    "quickTip": "Lampu LED pin mati = Open (Kawat putus / tidak kontak)."
+  },
+  {
+    "id": "s08_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Saat kabel LAN diuji, lampu LED nomor 1 dan nomor 2 menyala bersamaan di saat nomor 1 aktif, menandakan terjadi kebocoran arus antar-kawat.",
+    "question": "Istilah untuk gangguan di mana dua konduktor kawat saling bersentuhan tanpa hambatan adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dispersion"
+      },
+      {
+        "id": "B",
+        "text": "Crosstalk"
+      },
+      {
+        "id": "C",
+        "text": "Attenuation Loss"
+      },
+      {
+        "id": "D",
+        "text": "Open Circuit"
+      },
+      {
+        "id": "E",
+        "text": "Short Circuit (Hubung Singkat)"
+      }
+    ],
+    "key": "E",
+    "explanation": "Short circuit terjadi ketika tembaga dari dua kawat berbeda saling bersentuhan akibat isolasi terkelupas atau pin konektor terjepit miring.",
+    "quickTip": "Dua lampu LED menyala bersamaan = Short (Korsleting kawat)."
+  },
+  {
+    "id": "s08_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Pada pengujian kabel UTP Cat5e untuk koneksi Fast Ethernet 100 Mbps (100BASE-TX), hanya 4 pin yang aktif digunakan mentransmisikan data.",
+    "question": "Nomor-nomor pin pada soket RJ-45 yang aktif membawa sinyal transmit dan receive pada Fast Ethernet adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pin 4, 5, 6, dan 7"
+      },
+      {
+        "id": "B",
+        "text": "Pin 1, 2, 7, dan 8"
+      },
+      {
+        "id": "C",
+        "text": "Pin 1, 2, 3, dan 6"
+      },
+      {
+        "id": "D",
+        "text": "Pin 1, 3, 5, dan 7"
+      },
+      {
+        "id": "E",
+        "text": "Pin 2, 4, 6, dan 8"
+      }
+    ],
+    "key": "C",
+    "explanation": "Fast Ethernet 100BASE-TX menggunakan pin 1 dan 2 sebagai TX (+/-) serta pin 3 dan 6 sebagai RX (+/-). Pin 4, 5, 7, dan 8 tidak digunakan untuk data.",
+    "quickTip": "Fast Ethernet 100 Mbps hanya menggunakan pin 1, 2, 3, dan 6."
+  },
+  {
+    "id": "s08_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Pada teknologi Gigabit Ethernet (1000BASE-T), seluruh pasang kawat di dalam kabel UTP Cat5e/Cat6 difungsikan penuh.",
+    "question": "Jumlah pasang kawat (pairs) yang bekerja mentransmisikan data secara simultan pada kecepatan Gigabit Ethernet adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 pasang kawat (seluruh 8 kawat tembaga)"
+      },
+      {
+        "id": "B",
+        "text": "2 pasang kawat saja"
+      },
+      {
+        "id": "C",
+        "text": "5 pasang kawat tembaga"
+      },
+      {
+        "id": "D",
+        "text": "3 pasang kawat saja"
+      },
+      {
+        "id": "E",
+        "text": "1 pasang kawat saja"
+      }
+    ],
+    "key": "A",
+    "explanation": "1000BASE-T menggunakan ke-4 pasang kawat secara full duplex (250 Mbps per pasangan kawat x 4 pasangan = 1000 Mbps = 1 Gbps).",
+    "quickTip": "Gigabit Ethernet (1 Gbps) membutuhkan ke-4 pasang kawat (8 pin) aktif."
+  },
+  {
+    "id": "s08_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Seorang teknisi melakukan konfigurasi kabel konsol rollover RJ-45 ke DB-9 serial untuk mengonfigurasi router Cisco secara langsung melalui port AUX/Console.",
+    "question": "Karakteristik penyusunan kawat pada kabel tipe Rollover adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya menukar pin 1 dengan pin 2"
+      },
+      {
+        "id": "B",
+        "text": "Hanya menggunakan kawat tanpa pembungkus jaket"
+      },
+      {
+        "id": "C",
+        "text": "Urutan pin di ujung pertama dibalik persis secara terbalik di ujung kedua (Pin 1 ke Pin 8, Pin 2 ke Pin 7, dst.)"
+      },
+      {
+        "id": "D",
+        "text": "Menyambungkan seluruh pin ganjil saja"
+      },
+      {
+        "id": "E",
+        "text": "Mengikuti standar TIA/EIA 568A di kedua sisinya"
+      }
+    ],
+    "key": "C",
+    "explanation": "Kabel rollover membalik urutan secara simetris: 1 ke 8, 2 ke 7, 3 ke 6, 4 ke 5, 5 ke 4, 6 ke 3, 7 ke 2, 8 ke 1.",
+    "quickTip": "Kabel Rollover (Console) = Urutan pin dibalik persis 1 ke 8, 2 ke 7, dst."
+  },
+  {
+    "id": "s08_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Sertifikasi kelayakan instalasi kabel tembaga gedung memerlukan alat ukur canggih yang mampu mengukur parameter NEXT, Return Loss, dan Propagation Delay.",
+    "question": "Perangkat ukur profesional berstandar industri untuk sertifikasi kelayakan kabel LAN tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tang ampere AC/DC"
+      },
+      {
+        "id": "B",
+        "text": "Tespen listrik rumah tangga"
+      },
+      {
+        "id": "C",
+        "text": "Cable Analyzer / Cable Certifier (contoh: Fluke DSX CableAnalyzer)"
+      },
+      {
+        "id": "D",
+        "text": "Termometer inframerah"
+      },
+      {
+        "id": "E",
+        "text": "LAN Tester baterai 9V sederhana"
+      }
+    ],
+    "key": "C",
+    "explanation": "Cable Certifier menguji seluruh parameter elektrikal frekuensi tinggi kabel (NEXT, FEXT, Return Loss, Insertion Loss, Panjang) untuk sertifikasi standar ISO/TIA.",
+    "quickTip": "Sertifikasi kelayakan kabel komprehensif = Fluke Cable Analyzer."
+  },
+  {
+    "id": "s08_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Fenomena di mana sebagian energi sinyal listrik memantul kembali ke arah pengirim akibat ketidakcocokan impedansi (impedance mismatch) pada kabel disebut...",
+    "question": "Nama parameter pengujian kualitas transmisi tembaga tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Optical Attenuation"
+      },
+      {
+        "id": "B",
+        "text": "Grounding Resistance"
+      },
+      {
+        "id": "C",
+        "text": "Jitter Delay"
+      },
+      {
+        "id": "D",
+        "text": "Bending Radius"
+      },
+      {
+        "id": "E",
+        "text": "Return Loss"
+      }
+    ],
+    "key": "E",
+    "explanation": "Return Loss mengukur rasio daya pantul sinyal terhadap daya yang dikirimkan. Semakin besar nilai return loss (dalam dB), semakin baik kabel tersebut.",
+    "quickTip": "Pantulan energi sinyal akibat ketidaksesuaian impedansi = Return Loss."
+  },
+  {
+    "id": "s08_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Komponen pasif berupa stopkontak modular jaringan dinding tempat pengguna menancapkan kabel patch cord komputer menuju rack server disebut...",
+    "question": "Nama komponen modul antarmuka dinding tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wallplate dengan Modular Keystone Jack RJ-45"
+      },
+      {
+        "id": "B",
+        "text": "Fitting Lampu Plafon"
+      },
+      {
+        "id": "C",
+        "text": "Saklar Ganda AC"
+      },
+      {
+        "id": "D",
+        "text": "MCB Box Sekring"
+      },
+      {
+        "id": "E",
+        "text": "Sleeve Protection Tabung"
+      }
+    ],
+    "key": "A",
+    "explanation": "Keystone Jack RJ-45 dipasang pada bingkai wallplate di dinding ruangan untuk menyediakan titik koneksi jaringan permanen bagi pengguna.",
+    "quickTip": "Konektor RJ-45 dinding ruangan = Keystone Jack pada Wallplate."
+  },
+  {
+    "id": "s08_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Dalam struktur perkabelan horizontal terstruktur gedung (Structured Cabling System), terdapat batas panjang maksimal saluran Channel Link.",
+    "question": "Distribusi alokasi panjang kabel maksimal 100 meter yang dianjurkan oleh standar TIA/EIA adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "50 meter kabel solid + 50 meter kabel patch cord"
+      },
+      {
+        "id": "B",
+        "text": "90 meter kabel solid permanen (Horizontal Cable) + 10 meter total kabel patch cord fleksibel"
+      },
+      {
+        "id": "C",
+        "text": "10 meter kabel solid + 90 meter kabel patch cord"
+      },
+      {
+        "id": "D",
+        "text": "100 meter kabel solid tanpa boleh ada patch cord"
+      },
+      {
+        "id": "E",
+        "text": "70 meter kabel solid + 30 meter kabel patch cord"
+      }
+    ],
+    "key": "B",
+    "explanation": "Standar TIA menetapkan Permanent Link maksimal 90 meter ditambah total 10 meter patch cord (5m di area kerja, 5m di ruang telekomunikasi) = 100 meter Channel.",
+    "quickTip": "Struktur 100m Channel = 90 meter kabel permanen + 10 meter patch cord."
+  },
+  {
+    "id": "s08_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Kabel UTP yang dipasang di dalam instalasi dinding permanen menggunakan jenis konduktor kawat padat (Solid Core), sedangkan kabel patch cord menggunakan jenis serabut (Stranded Core).",
+    "question": "Alasan utama penggunaan kawat konduktor serabut (Stranded) pada kabel patch cord adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membuat kabel menjadi anti air tanpa pembungkus jaket"
+      },
+      {
+        "id": "B",
+        "text": "Dapat mengalirkan data dengan kecepatan cahaya laser"
+      },
+      {
+        "id": "C",
+        "text": "Memiliki hambatan listrik jauh lebih rendah dari tembaga padat"
+      },
+      {
+        "id": "D",
+        "text": "Memiliki fleksibilitas tinggi sehingga tidak mudah patah saat sering ditekuk dan dipindah-pindah"
+      },
+      {
+        "id": "E",
+        "text": "Dapat menahan tegangan petir jutaan volt"
+      }
+    ],
+    "key": "D",
+    "explanation": "Stranded conductor terdiri dari untaian kawat tembaga tipis yang sangat lentur, ideal untuk patch cord yang sering bergerak, meskipun memiliki redaman sedikit lebih tinggi.",
+    "quickTip": "Patch cord pakai Stranded Core agar lentur dan tidak gampang patah."
+  },
+  {
+    "id": "s08_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Saat memasang jack RJ-45, selubung jaket luar kabel (outer jacket) harus ikut masuk ke dalam badan konektor sebelum dicrimping.",
+    "question": "Tujuan teknis memasukkan jaket kabel ke dalam konektor hingga terjepit baji pengunci (strain relief) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mencegah tarikan mekanik kabel membebani langsung sambungan kawat kecil pada pin pin konektor"
+      },
+      {
+        "id": "B",
+        "text": "Menghindari kebocoran arus listrik ke casing komputer"
+      },
+      {
+        "id": "C",
+        "text": "Mencegah konektor terkena debu ruangan"
+      },
+      {
+        "id": "D",
+        "text": "Membuat warna kabel tidak terlihat dari luar"
+      },
+      {
+        "id": "E",
+        "text": "Agar konektor bertambah berat"
+      }
+    ],
+    "key": "A",
+    "explanation": "Baji pengunci (strain relief clip) pada konektor RJ-45 menjepit jaket kabel agar tekanan tarik fisik ditahan oleh jaket luar, bukan oleh kawat tembaga halus di pin.",
+    "quickTip": "Jaket kabel wajib terjepit di dalam RJ-45 sebagai strain relief pelindung tarikan."
+  },
+  {
+    "id": "s08_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Teknisi jaringan hendak memilih perkabelan yang tepat untuk menghubungkan perangkat-perangkat di laboratorium komputer sekolah.",
+    "question": "Manakah kombinasi koneksi berikut yang secara standar membutuhkan kabel Straight-Through (pada port non-auto MDIX)? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Koneksi dari PC Client menuju Port Switch Access"
+      },
+      {
+        "id": "B",
+        "text": "Koneksi dari Port FastEthernet Switch menuju Port Router"
+      },
+      {
+        "id": "C",
+        "text": "Koneksi langsung dari PC Client ke PC Client lain"
+      },
+      {
+        "id": "D",
+        "text": "Koneksi langsung dari Router ke Router lain"
+      },
+      {
+        "id": "E",
+        "text": "Koneksi langsung dari Switch lama ke Switch lama lain"
+      }
+    ],
+    "key": [
+      "A",
+      "B"
+    ],
+    "explanation": "Straight-Through menghubungkan perangkat beda layer: PC ke Switch, dan Switch ke Router. Hubungan PC ke PC, Switch ke Switch, dan Router ke Router membutuhkan Crossover.",
+    "quickTip": "Straight-Through = PC ke Switch dan Switch ke Router."
+  },
+  {
+    "id": "s08_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Seorang teknisi memeriksa kerusakan kabel LAN menggunakan Cable Wiremap Tester.",
+    "question": "Manakah dari indikasi berikut yang tergolong gangguan fisik pada kabel twisted pair? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reversed Pair (urutan kawat pada pasangan tertentu tertukar)"
+      },
+      {
+        "id": "B",
+        "text": "Full Duplex Connection (transmisi kirim dan terima berjalan serentak)"
+      },
+      {
+        "id": "C",
+        "text": "Gigabit Link Established (koneksi sukses beroperasi 1000 Mbps)"
+      },
+      {
+        "id": "D",
+        "text": "Open Circuit (salah satu kawat putus di tengah jalur)"
+      },
+      {
+        "id": "E",
+        "text": "Short Circuit (kawat tembaga beda pin saling bersentuhan)"
+      }
+    ],
+    "key": [
+      "A",
+      "D",
+      "E"
+    ],
+    "explanation": "Gangguan fisik kabel mencakup Open (terputus), Short (korsleting), dan Reversed/Crossed (urutan pin tertukar). Full duplex dan Gigabit link adalah kondisi operasional normal.",
+    "quickTip": "Gangguan kabel = Open, Short, dan Reversed/Crossed pair."
+  },
+  {
+    "id": "s08_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Standarisasi TIA/EIA 568A dan 568B menetapkan pemetaan warna kabel twisted pair 8-pin.",
+    "question": "Manakah pernyataan yang BENAR mengenai urutan warna pin pada kabel LAN? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pada standar 568B, pin 4 dan 5 adalah Hijau dan Putih Hijau"
+      },
+      {
+        "id": "B",
+        "text": "Pada kedua standar (568A dan 568B), pin 7 dan 8 selalu Putih Cokelat dan Cokelat"
+      },
+      {
+        "id": "C",
+        "text": "Pin 3 pada standar 568B adalah Putih Oranye"
+      },
+      {
+        "id": "D",
+        "text": "Pada standar 568B, pin 1 dan 2 adalah Putih Oranye dan Oranye"
+      },
+      {
+        "id": "E",
+        "text": "Pada standar 568A, pin 1 dan 2 adalah Putih Biru dan Biru"
+      }
+    ],
+    "key": [
+      "B",
+      "D"
+    ],
+    "explanation": "Pada 568B, pin 1-2 adalah Putih Oranye - Oranye. Pada kedua standar 568A maupun 568B, pin 7-8 tidak pernah berubah posisinya (selalu Putih Cokelat - Cokelat) dan pin 4-5 selalu Biru - Putih Biru.",
+    "quickTip": "Pin 4,5 (Biru/Putih Biru) dan pin 7,8 (Putih Cokelat/Cokelat) identik di 568A & 568B."
+  },
+  {
+    "id": "s08_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Alat pengujian kabel jaringan memiliki tingkatan fungsi yang berbeda dari yang paling sederhana hingga level sertifikasi.",
+    "question": "Manakah alat yang umum digunakan dalam pengujian dan terminasi kabel UTP di lapangan? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Optical Power Meter (mengukur daya laser kabel serat optik)"
+      },
+      {
+        "id": "B",
+        "text": "Wiremap Continuity Tester (memeriksa kontinuitas jalur pin 1-8)"
+      },
+      {
+        "id": "C",
+        "text": "Crimping Tool (mengepres konektor RJ-45 ke kabel)"
+      },
+      {
+        "id": "D",
+        "text": "Fusion Splicer (melebur serat kaca dengan busur api listrik)"
+      },
+      {
+        "id": "E",
+        "text": "Punch Down Tool (menancapkan kabel ke patch panel)"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "E"
+    ],
+    "explanation": "Wiremap tester, Crimping tool, dan Punch down tool adalah alat kerja kabel tembaga UTP. OPM dan Fusion Splicer adalah alat khusus untuk fiber optik.",
+    "quickTip": "Alat kabel tembaga: Wiremap Tester, Crimping Tool, Punch Down Tool."
+  },
+  {
+    "id": "s08_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Dalam instalasi terstruktur, kabel horizontal Cat6 menghubungkan rak server ke meja pengguna.",
+    "question": "Manakah ketentuan teknis yang HARUS dipatuhi saat menggelar kabel UTP di gedung? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Panjang total Channel Link dari switch ke komputer maksimal 100 meter"
+      },
+      {
+        "id": "B",
+        "text": "Uraian lilitan kawat saat terminasi konektor boleh mencapai 10 cm"
+      },
+      {
+        "id": "C",
+        "text": "Jalur kabel harus menjaga jarak pemisah dari kabel listrik tegangan tinggi PLN"
+      },
+      {
+        "id": "D",
+        "text": "Kabel UTP harus diikat kawat besi telanjang sekencang mungkin hingga gepeng"
+      },
+      {
+        "id": "E",
+        "text": "Kabel tidak boleh ditekuk melebihi batas kelengkungan minimal (bend radius)"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explanation": "Ketentuan instalasi UTP: jarak maks 100m, menjaga bend radius (min 4x diameter kabel), dan menjaga jarak dari kabel listrik untuk mencegah induksi EMI. Mengikat terlalu kencang atau mengurai lilitan terlalu panjang akan merusak kualitas transmisi.",
+    "quickTip": "SOP UTP: Max 100m, jaga bend radius, jauhkan dari medan listrik tegangan tinggi."
+  },
+  {
+    "id": "s08_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Penerapan standar warna kabel Straight-Through dan Crossover.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai pengkabelan TIA/EIA!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Kabel Straight-Through dibuat dengan kedua ujung kabel menggunakan standar yang sama (misal 568B di kedua ujung).",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Kabel Crossover dibuat dengan satu ujung berstandar 568A dan ujung lainnya berstandar 568B.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Jika kedua ujung kabel dipasang dengan standar 568A, kabel tersebut menjadi kabel Crossover.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Kedua ujung 568A tetap merupakan Straight-Through. Kabel Crossover mensyaratkan satu ujung 568A dan ujung satunya 568B.",
+    "quickTip": "Ujung sama (568B-568B atau 568A-568A) = Straight; Beda (568A-568B) = Cross."
+  },
+  {
+    "id": "s08_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Karakteristik teknis port jaringan modern dengan dukungan Auto-MDIX.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai teknologi Auto-MDIX!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Auto-MDIX memungkinkan dua switch modern saling terhubung normal menggunakan kabel Straight-Through.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Dengan Auto-MDIX aktif, switch dapat otomatis menukar jalur transmisi TX dan RX di level sirkuit port.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Auto-MDIX hanya dapat berfungsi jika kabel yang digunakan adalah kabel fiber optik.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Auto-MDIX adalah teknologi port Ethernet berbasis kabel tembaga twisted pair (RJ-45) yang mendeteksi konfigurasi pin secara otomatis.",
+    "quickTip": "Auto-MDIX bekerja pada port Ethernet kabel tembaga RJ-45."
+  },
+  {
+    "id": "s08_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Pengujian kontinuitas kabel LAN menggunakan LAN Tester LED.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang pembacaan indikator LAN Tester!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Jika lampu LED nomor 5 pada master menyala tetapi pada remote mati, maka jalur kawat nomor 5 mengalami open circuit.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Kondisi di mana lampu remote menyala dengan urutan 3, 6, 1, 4, 5, 2, 7, 8 menunjukkan kabel memiliki crossed pin.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "LAN tester murah baterai 9V mampu mengukur bandwidth kecepatan kabel dalam satuan Gigabits per second.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "LAN tester LED sederhana hanya menguji kontinuitas elektrik dan pemetaan pin (wiremap), bukan mengukur kecepatan bandwidth atau data rate kabel.",
+    "quickTip": "LAN tester sederhana hanya menguji jalur koneksi fisik (wiremap continuity)."
+  },
+  {
+    "id": "s08_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "SOP pemasangan konektor RJ-45 menggunakan crimping tool.",
+    "question": "Tentukan kebenaran dari pernyataan berikut tentang teknik crimping kabel UTP!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Kawat tembaga harus dipotong rata sebelum dimasukkan ke dalam lubang pin konektor RJ-45.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Jaket pelindung luar kabel harus ikut terjepit di dalam badan konektor RJ-45.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Kawat tembaga harus dikupas isolator per warnanya dengan korek api sebelum dicrimping ke RJ-45.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Pisau kontak RJ-45 didesain menusuk menembus isolator warna kawat (insulation piercing), sehingga kawat tidak boleh dikupas manual.",
+    "quickTip": "Kawat warna tidak boleh dikupas; pin RJ-45 otomatis menusuk isolator saat dicrimp."
+  },
+  {
+    "id": "s08_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Spesifikasi panjang kabel LAN dan batas toleransi transmisi sinyal.",
+    "question": "Tentukan kebenaran dari pernyataan berikut mengenai batasan bentangan kabel UTP!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Standar TIA/EIA 568 menetapkan batas bentangan kabel horisontal permanen maksimal 90 meter.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Jika kabel UTP ditarik melebihi panjang 100 meter, atenuasi sinyal akan meningkat dan memicu packet loss.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Menambah panjang kabel UTP hingga 300 meter dapat dilakukan tanpa membutuhkan repeater atau switch tambahan.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Kabel tembaga UTP Ethernet dibatasi 100 meter total. Melebihi 100 meter membutuhkan switch/repeater penguat sinyal.",
+    "quickTip": "Batas maksimal kabel UTP = 100 meter tanpa repeater."
+  }
+]

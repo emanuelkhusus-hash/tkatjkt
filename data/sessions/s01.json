@@ -1,0 +1,952 @@
+[
+  {
+    "id": "s01_q1",
+    "number": 1,
+    "type": "pg",
+    "stimulus": "Sebuah perusahaan ISP skala nasional sedang membuka lowongan untuk posisi yang bertugas merancang rute kabel backbone, menghitung optical link budget, dan memetakan penempatan ODC serta ODP di kawasan residensial baru.",
+    "question": "Nama jabatan kerja yang paling tepat untuk deskripsi tugas perancangan infrastruktur jaringan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "IT Helpdesk Tier 1"
+      },
+      {
+        "id": "B",
+        "text": "Database Administrator"
+      },
+      {
+        "id": "C",
+        "text": "Staf Administrasi Pergudangan"
+      },
+      {
+        "id": "D",
+        "text": "Network Planner / Fiber Optic Planner"
+      },
+      {
+        "id": "E",
+        "text": "Frontend Developer"
+      }
+    ],
+    "key": "D",
+    "explanation": "Network Planner bertanggung jawab dalam perencanaan teknis, survei rute, perhitungan redaman kabel (optical link budget), serta pemetaan perangkat pasif ODC/ODP.",
+    "quickTip": "Merancang rute kabel & menghitung link budget = Network Planner."
+  },
+  {
+    "id": "s01_q2",
+    "number": 2,
+    "type": "pg",
+    "stimulus": "Di ruang Network Operation Center (NOC), layar monitor menunjukkan grafik lonjakan latensi dan indikasi putusnya interkoneksi utama ke salah satu POP regional.",
+    "question": "Tugas pokok seorang NOC Engineer pada tingkat awal dalam menangani insiden jaringan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menganalisis log perangkat, menerbitkan trouble ticket, dan mengoordinasikan teknisi lapangan terdekat"
+      },
+      {
+        "id": "B",
+        "text": "Menutup layanan internet pelanggan secara sepihak tanpa pemberitahuan"
+      },
+      {
+        "id": "C",
+        "text": "Mengganti seluruh modul router inti tanpa diagnosa awal"
+      },
+      {
+        "id": "D",
+        "text": "Menghapus seluruh tabel routing BGP pada router core"
+      },
+      {
+        "id": "E",
+        "text": "Mematikan suplai daya genset gedung pusat"
+      }
+    ],
+    "key": "A",
+    "explanation": "SOP NOC Engineer adalah memantau alarm, menganalisis log, membuka trouble ticket sistem, dan mengarahkan personel lapangan untuk pengecekan fisik.",
+    "quickTip": "NOC Engineer = Memantau dashboard, menganalisis log, dan membuka trouble ticket."
+  },
+  {
+    "id": "s01_q3",
+    "number": 3,
+    "type": "pg",
+    "stimulus": "Instansi pemerintah memerlukan tenaga ahli yang bertanggung jawab mengelola sistem operasi Linux, konfigurasi hak akses berkas, manajemen direktori pengguna, dan penjadwalan pencadangan (backup) data server.",
+    "question": "Profesi di bidang teknologi informasi yang memegang peranan utama tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Digital Content Creator"
+      },
+      {
+        "id": "B",
+        "text": "Hardware Assembler Manufaktur"
+      },
+      {
+        "id": "C",
+        "text": "Operator Entry Data"
+      },
+      {
+        "id": "D",
+        "text": "System Administrator (SysAdmin)"
+      },
+      {
+        "id": "E",
+        "text": "UI/UX Designer"
+      }
+    ],
+    "key": "D",
+    "explanation": "System Administrator bertugas memelihara kelangsungan operasional sistem operasi server, manajemen user/privilege, serta backup data berkala.",
+    "quickTip": "Mengelola server OS, user privileges & backup = System Administrator."
+  },
+  {
+    "id": "s01_q4",
+    "number": 4,
+    "type": "pg",
+    "stimulus": "Seorang lulusan SMK TJKT mendirikan unit usaha mandiri yang melayani jasa perancangan jaringan Wi-Fi voucher perumahan, instalasi CCTV berbasis IP, dan perawatan berkala jaringan warnet/kantor.",
+    "question": "Peran profil kerja mandiri berbasis teknologi yang dijalankan oleh lulusan tersebut dinamakan...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Technopreneur Bidang Jaringan & Telekomunikasi"
+      },
+      {
+        "id": "B",
+        "text": "Buruh Fabrikasi Perangkat"
+      },
+      {
+        "id": "C",
+        "text": "Broker Properti Perumahan"
+      },
+      {
+        "id": "D",
+        "text": "Kurir Ekspedisi Logistik"
+      },
+      {
+        "id": "E",
+        "text": "Reseller Pakaian Daring"
+      }
+    ],
+    "key": "A",
+    "explanation": "Technopreneur adalah wirausahawan yang memanfaatkan keahlian teknologi (dalam hal ini TJKT) untuk menciptakan solusi dan layanan bernilai ekonomi.",
+    "quickTip": "Wirausaha mandiri berbasis keahlian teknologi IT = Technopreneur."
+  },
+  {
+    "id": "s01_q5",
+    "number": 5,
+    "type": "pg",
+    "stimulus": "Sebuah bank komersial mempekerjakan profesional keamanan siber untuk menguji ketahanan sistem transaksi mereka dengan cara mensimulasikan serangan peretasan legal sesuai izin resmi.",
+    "question": "Sebutan jabatan spesifik untuk penguji celah keamanan legal tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Customer Care Officer"
+      },
+      {
+        "id": "B",
+        "text": "Script Kiddie"
+      },
+      {
+        "id": "C",
+        "text": "Social Media Specialist"
+      },
+      {
+        "id": "D",
+        "text": "Penetration Tester / Ethical Hacker"
+      },
+      {
+        "id": "E",
+        "text": "Graphic Illustrator"
+      }
+    ],
+    "key": "D",
+    "explanation": "Penetration Tester (Ethical Hacker) bertugas menguji kelemahan keamanan sistem jaringan secara legal dengan metodologi teruji dan izin tertulis.",
+    "quickTip": "Simulasi serangan legal menguji kerentanan sistem = Penetration Tester."
+  },
+  {
+    "id": "s01_q6",
+    "number": 6,
+    "type": "pg",
+    "stimulus": "Dalam proyek penggelaran kabel fiber optik bawah tanah (ducting), terdapat personil yang mengoperasikan mesin splicer dan memotong serat optik dengan cleaver presisi tinggi.",
+    "question": "Spesialisasi teknisi lapangan yang mengerjakan penyambungan inti serat kaca tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desainer Grafis Percetakan"
+      },
+      {
+        "id": "B",
+        "text": "Fiber Optic Splicer / Teknisi Splicing"
+      },
+      {
+        "id": "C",
+        "text": "Pemasang Tiang Pancang"
+      },
+      {
+        "id": "D",
+        "text": "Civil Surveyor Geodesi"
+      },
+      {
+        "id": "E",
+        "text": "Operator Excavator Jalan"
+      }
+    ],
+    "key": "B",
+    "explanation": "Fiber Splicer adalah teknisi spesialis yang melakukan pengupasan, pemotongan sudut presisi, dan penyambungan peleburan core optik.",
+    "quickTip": "Spesialis menyambung inti serat kaca optik = Fiber Splicer."
+  },
+  {
+    "id": "s01_q7",
+    "number": 7,
+    "type": "pg",
+    "stimulus": "Di lingkungan penyedia layanan cloud (Cloud Service Provider), arsitektur server fisik telah dialihkan ke instans virtual yang diatur secara otomatis menggunakan kode script.",
+    "question": "Profesi yang menjembatani kolaborasi antara pengembang aplikasi dan operasional infrastruktur jaringan/server otomatis disebut...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Akuntan Pajak TI"
+      },
+      {
+        "id": "B",
+        "text": "Surveyor Lokasi Tanah"
+      },
+      {
+        "id": "C",
+        "text": "Staf Resepsionis Kantor"
+      },
+      {
+        "id": "D",
+        "text": "Technical Writer"
+      },
+      {
+        "id": "E",
+        "text": "DevOps Engineer / Site Reliability Engineer (SRE)"
+      }
+    ],
+    "key": "E",
+    "explanation": "DevOps Engineer mengintegrasikan proses development dan operations melalui otomatisasi infrastruktur, CI/CD, dan manajemen kontainer/cloud.",
+    "quickTip": "Kolaborasi pengembangan aplikasi & infrastruktur otomatis = DevOps Engineer."
+  },
+  {
+    "id": "s01_q8",
+    "number": 8,
+    "type": "pg",
+    "stimulus": "Ketika pengguna rumahan mengeluhkan koneksi internet rumahnya mati (lampu indikator LOS merah berkedip), pengguna tersebut pertama kali menghubungi pusat layanan via telepon atau aplikasi chat.",
+    "question": "Petugas yang melayani keluhan pertama kali, mencatat nomor pelanggan, dan memandu langkah troubleshooting dasar (reboot modem) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chief Technology Officer (CTO)"
+      },
+      {
+        "id": "B",
+        "text": "Data Center Facility Manager"
+      },
+      {
+        "id": "C",
+        "text": "Helpdesk Tier 1 / Customer Service Representative"
+      },
+      {
+        "id": "D",
+        "text": "Security Operations Director"
+      },
+      {
+        "id": "E",
+        "text": "Core Network Architect"
+      }
+    ],
+    "key": "C",
+    "explanation": "Helpdesk Tier 1 merupakan titik kontak pertama (First Line Support) yang bertugas menangani keluhan dasar dan mencatat tiket gangguan.",
+    "quickTip": "First contact penanganan gangguan via telepon/chat = Helpdesk Tier 1."
+  },
+  {
+    "id": "s01_q9",
+    "number": 9,
+    "type": "pg",
+    "stimulus": "Sebuah perusahaan tambang di area terpencil di pedalaman hutan membutuhkan komunikasi data menggunakan stasiun bumi satelit berantena parabola.",
+    "question": "Tenaga ahli yang melakukan pointing antena ke satelit geostasioner, mengatur modem satelit IDU dan unit ODU (BUC/LNB) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "VSAT Engineer / Teknisi Komunikasi Satelit"
+      },
+      {
+        "id": "B",
+        "text": "Broadcasting Cameraman"
+      },
+      {
+        "id": "C",
+        "text": "Mekanik Truk Tambang"
+      },
+      {
+        "id": "D",
+        "text": "Pilot Drone Pemetaan Hutan"
+      },
+      {
+        "id": "E",
+        "text": "Teknisi Pendingin Ruangan (AC)"
+      }
+    ],
+    "key": "A",
+    "explanation": "VSAT Engineer bertugas memasang, melakukan pointing sudut azimut-elevasi, serta mengonfigurasi modem komunikasi satelit stasiun bumi.",
+    "quickTip": "Instalasi pointing antena parabola & komunikasi satelit = VSAT Engineer."
+  },
+  {
+    "id": "s01_q10",
+    "number": 10,
+    "type": "pg",
+    "stimulus": "Seorang Network Engineer ditugaskan mengonfigurasi perangkat router perbatasan (Border Router) untuk menghubungkan sistem otonom (Autonomous System) ISP ke jaringan global dunia.",
+    "question": "Kompetensi utama yang wajib dikuasai oleh insinyur jaringan tersebut pada level routing antarsistem otonom adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Instalasi Driver Printer USB"
+      },
+      {
+        "id": "B",
+        "text": "Editing Video YouTube Channel"
+      },
+      {
+        "id": "C",
+        "text": "Perakitan Komputer Gaming"
+      },
+      {
+        "id": "D",
+        "text": "Pembuatan Desain Brosur Promosi"
+      },
+      {
+        "id": "E",
+        "text": "Protokol Routing BGP (Border Gateway Protocol) dan Peering IXP"
+      }
+    ],
+    "key": "E",
+    "explanation": "Routing antar Autonomous System (AS) di tingkat global internet menggunakan protokol standar BGP (Border Gateway Protocol).",
+    "quickTip": "Routing antar Autonomous System global = Protokol BGP."
+  },
+  {
+    "id": "s01_q11",
+    "number": 11,
+    "type": "pg",
+    "stimulus": "Penyedia menara telekomunikasi (Tower Provider) mempekerjakan teknisi yang memiliki sertifikasi khusus memanjat menara monopole dan four-leg untuk memasang perangkat antena microwave dan radio RRU.",
+    "question": "Jabatan teknisi pemanjat menara yang terlatih dalam keselamatan ketinggian tersebut dikenal sebagai...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Operator Genset Cadangan"
+      },
+      {
+        "id": "B",
+        "text": "Pemasang Keramik Gardu"
+      },
+      {
+        "id": "C",
+        "text": "Security Guard Pos Menara"
+      },
+      {
+        "id": "D",
+        "text": "Pembersih Kaca Gedung Bertingkat"
+      },
+      {
+        "id": "E",
+        "text": "Tower Rigger / Tower Climber Technician"
+      }
+    ],
+    "key": "E",
+    "explanation": "Rigger adalah teknisi spesialis pemanjat struktur tinggi (menara/tiang) yang memasang dan menyetel perangkat radio serta kabel feeder.",
+    "quickTip": "Teknisi spesialis memanjat menara BTS = Tower Rigger."
+  },
+  {
+    "id": "s01_q12",
+    "number": 12,
+    "type": "pg",
+    "stimulus": "Di lingkungan perusahaan multinasional, terdapat pimpinan yang bertanggung jawab merancang strategi adopsi teknologi informasi jangka panjang, keamanan data, dan anggaran infrastruktur TI.",
+    "question": "Jabatan level eksekutif tertinggi yang mengomandoi seluruh divisi teknologi informasi tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Internship Student"
+      },
+      {
+        "id": "B",
+        "text": "Warehouse Packer"
+      },
+      {
+        "id": "C",
+        "text": "Chief Information Officer (CIO) / Chief Technology Officer (CTO)"
+      },
+      {
+        "id": "D",
+        "text": "Junior Desktop Support"
+      },
+      {
+        "id": "E",
+        "text": "Field Maintenance Helper"
+      }
+    ],
+    "key": "C",
+    "explanation": "CIO atau CTO adalah pimpinan eksekutif yang merumuskan visi teknologi, strategi infrastruktur, serta alokasi anggaran TI perusahaan.",
+    "quickTip": "Pimpinan eksekutif tertinggi bidang teknologi = CIO / CTO."
+  },
+  {
+    "id": "s01_q13",
+    "number": 13,
+    "type": "pg",
+    "stimulus": "Sebuah perusahaan jasa integrasi sistem (System Integrator) membutuhkan staf yang bertugas mengukur kekuatan sinyal radio Wi-Fi gedung, menganalisis spektrum interferensi, dan membuat heatmap jangkauan sinyal.",
+    "question": "Peran fungsional yang dijalankan oleh staf tersebut dalam proyek nirkabel adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pemasang Wallpaper Ruangan"
+      },
+      {
+        "id": "B",
+        "text": "Audio Mixing Specialist"
+      },
+      {
+        "id": "C",
+        "text": "Operator Mesin Cetak Banner"
+      },
+      {
+        "id": "D",
+        "text": "Wireless Site Survey Specialist / RF Engineer"
+      },
+      {
+        "id": "E",
+        "text": "Penyiar Radio Komersial"
+      }
+    ],
+    "key": "D",
+    "explanation": "Wireless/RF Site Surveyor mengukur propagasi gelombang elektromagnetik, interferensi, serta membuat peta jangkauan sinyal (heatmap).",
+    "quickTip": "Pengukuran heatmap sinyal radio & interferensi = Wireless/RF Surveyor."
+  },
+  {
+    "id": "s01_q14",
+    "number": 14,
+    "type": "pg",
+    "stimulus": "Dalam struktur eskalasi bantuan teknis (Technical Support Hierarchy) di ISP, tiket masalah yang gagal diselesaikan oleh Tier 1 akan dilanjutkan ke tingkatan yang lebih ahli.",
+    "question": "Tingkatan teknis yang melakukan konfigurasi ulang router pelanggan dari jarak jauh, reset port switch, dan analisis statistik trafik adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Technical Support Tier 2 / Tier 2 Network Support"
+      },
+      {
+        "id": "B",
+        "text": "Tukang Kebun Kantor Pusat"
+      },
+      {
+        "id": "C",
+        "text": "Driver Pengantar Surat Tagihan"
+      },
+      {
+        "id": "D",
+        "text": "Satpam Kantor Pelayanan"
+      },
+      {
+        "id": "E",
+        "text": "Petugas Loket Pembayaran Tagihan"
+      }
+    ],
+    "key": "A",
+    "explanation": "Support Tier 2 menangani troubleshooting tingkat menengah yang memerlukan akses konfigurasi perangkat dan analisis teknis lanjutan.",
+    "quickTip": "Penanganan gangguan teknis eskalasi lanjutan = Support Tier 2."
+  },
+  {
+    "id": "s01_q15",
+    "number": 15,
+    "type": "pg",
+    "stimulus": "Sebuah pusat data (Data Center) besar memiliki fasilitas fisik yang memerlukan pemantauan terus-menerus terhadap pasokan daya UPS, genset cadangan, dan unit pendingin presisi (CRAC).",
+    "question": "Jabatan yang bertanggung jawab memastikan keandalan lingkungan fisik dan kelistrikan ruang server tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data Center Facility Engineer"
+      },
+      {
+        "id": "B",
+        "text": "Front Office Receptionist"
+      },
+      {
+        "id": "C",
+        "text": "Petugas Kebersihan Koridor Luar"
+      },
+      {
+        "id": "D",
+        "text": "Kurir Makanan Karyawan"
+      },
+      {
+        "id": "E",
+        "text": "Desainer Seragam Kerja"
+      }
+    ],
+    "key": "A",
+    "explanation": "Data Center Facility Engineer mengawasi infrastruktur kritis pendukung data center seperti kelistrikan (UPS/PDU), pendingin presisi, dan pencegah kebakaran.",
+    "quickTip": "Pengelola keandalan daya listrik & pendingin data center = Data Center Facility Engineer."
+  },
+  {
+    "id": "s01_q16",
+    "number": 16,
+    "type": "pg",
+    "stimulus": "Seorang insinyur jaringan ditugaskan mendesain sistem pencegahan intrusi (IPS) dan kebijakan penyaringan paket data antar zona jaringan perbankan menggunakan firewall generasi terbaru (NGFW).",
+    "question": "Fokus keahlian spesifik yang dijalankan insinyur tersebut berada pada bidang...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Videografi Dokumenter"
+      },
+      {
+        "id": "B",
+        "text": "Animasi Karakter 3D"
+      },
+      {
+        "id": "C",
+        "text": "Network Security Engineer"
+      },
+      {
+        "id": "D",
+        "text": "Penyusun Laporan Neraca Keuangan"
+      },
+      {
+        "id": "E",
+        "text": "Pemasang Kanopi Gedung"
+      }
+    ],
+    "key": "C",
+    "explanation": "Network Security Engineer mengkhususkan diri pada proteksi lalu lintas jaringan, penerapan firewall NGFW, VPN, dan sistem IPS/IDS.",
+    "quickTip": "Penerapan firewall NGFW & keamanan lalu lintas data = Network Security Engineer."
+  },
+  {
+    "id": "s01_q17",
+    "number": 17,
+    "type": "pg",
+    "stimulus": "Perusahaan telekomunikasi menggelar proyek kabel serat optik bawah laut (Submarine Cable) yang menghubungkan antarpulau besar di Indonesia.",
+    "question": "Organisasi industri telekomunikasi yang mengatur standar teknis internasional dalam bidang transmisi kabel optik dan frekuensi radio global adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "WHO (World Health Organization)"
+      },
+      {
+        "id": "B",
+        "text": "ITU (International Telecommunication Union)"
+      },
+      {
+        "id": "C",
+        "text": "UNICEF"
+      },
+      {
+        "id": "D",
+        "text": "FIFA (Federation Internationale de Football Association)"
+      },
+      {
+        "id": "E",
+        "text": "OPEC"
+      }
+    ],
+    "key": "B",
+    "explanation": "ITU adalah badan khusus PBB yang meregulasikan standarisasi telekomunikasi internasional, alokasi spektrum frekuensi, dan orbit satelit.",
+    "quickTip": "Badan standarisasi telekomunikasi internasional PBB = ITU."
+  },
+  {
+    "id": "s01_q18",
+    "number": 18,
+    "type": "pg",
+    "stimulus": "Seorang teknisi bertugas di lapangan mengendarai mobil operasional dengan membawa tangga, fusion splicer, OPM, dan kabel drop optik untuk memasang jaringan internet di rumah pelanggan baru.",
+    "question": "Sebutan peran teknisi yang berinteraksi langsung dengan instalasi fisik di sisi pelanggan (CPE) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Audit Internal Finansial"
+      },
+      {
+        "id": "B",
+        "text": "Staf Penggajian Personalia"
+      },
+      {
+        "id": "C",
+        "text": "Field Technician / Teknisi Pasang Baru (PSB)"
+      },
+      {
+        "id": "D",
+        "text": "General Manager Marketing"
+      },
+      {
+        "id": "E",
+        "text": "Legal Officer Perusahaan"
+      }
+    ],
+    "key": "C",
+    "explanation": "Field Technician (Teknisi Lapangan / PSB) bertugas mengeksekusi instalasi fisik penarikan kabel drop dan aktivasi modem di rumah pelanggan.",
+    "quickTip": "Teknisi instalasi kabel drop & aktivasi modem di rumah = Field Technician."
+  },
+  {
+    "id": "s01_q19",
+    "number": 19,
+    "type": "pg",
+    "stimulus": "Dalam suatu tim kerja rekayasa jaringan, ada personil yang khusus bertugas memetakan aset jaringan fisik (tiang, kabel, ODP) ke dalam aplikasi Sistem Informasi Geografis (GIS) dan AutoCAD.",
+    "question": "Nama jabatan kerja untuk pembuat gambar teknis jalur jaringan tersebut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "CAD / GIS Drafter Telekomunikasi"
+      },
+      {
+        "id": "B",
+        "text": "Art Painter Pameran"
+      },
+      {
+        "id": "C",
+        "text": "Penerjemah Bahasa Sastra"
+      },
+      {
+        "id": "D",
+        "text": "Editor Naskah Cerpen"
+      },
+      {
+        "id": "E",
+        "text": "Fotografer Model Studio"
+      }
+    ],
+    "key": "A",
+    "explanation": "CAD/GIS Drafter bertanggung jawab memvisualisasikan rute kabel, posisi tiang, dan rincian konstruksi telekomunikasi ke format peta digital.",
+    "quickTip": "Pembuat gambar teknis peta rute jaringan & CAD = Drafter Telekomunikasi."
+  },
+  {
+    "id": "s01_q20",
+    "number": 20,
+    "type": "pg",
+    "stimulus": "Lulusan TJKT yang bekerja di industri wajib memiliki sikap profesional dalam menjaga data kredensial akses perangkat (password router, switch, database) milik perusahaan.",
+    "question": "Prinsip etika profesi yang mewajibkan tenaga kerja tidak membocorkan informasi rahasia konfigurasi jaringan kepada pihak luar diikat dalam dokumen...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Surat Tanda Nomor Kendaraan (STNK)"
+      },
+      {
+        "id": "B",
+        "text": "Kuitansi Pembelian ATK Kantor"
+      },
+      {
+        "id": "C",
+        "text": "Non-Disclosure Agreement (NDA) / Perjanjian Kerahasiaan Informasi"
+      },
+      {
+        "id": "D",
+        "text": "Kartu Iuran Asuransi"
+      },
+      {
+        "id": "E",
+        "text": "Brosur Promosi Produk Paket"
+      }
+    ],
+    "key": "C",
+    "explanation": "NDA adalah perjanjian hukum yang mengikat karyawan untuk tidak menyebarkan rahasia teknologi, konfigurasi sistem, dan data privasi perusahaan.",
+    "quickTip": "Perjanjian hukum menjaga kerahasiaan informasi = NDA (Non-Disclosure Agreement)."
+  },
+  {
+    "id": "s01_q21",
+    "number": 21,
+    "type": "pgk_mcma",
+    "stimulus": "Pengembangan infrastruktur jaringan telekomunikasi modern menuntut pembagian tugas kerja yang terstruktur antara tim perencana, tim implementasi, dan tim pemeliharaan.",
+    "question": "Manakah peran kerja di bawah ini yang tergolong dalam kelompok tenaga pelaksana instalasi dan pemeliharaan fisik lapangan (Field Operations)? (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fiber Optic Splicer Technician"
+      },
+      {
+        "id": "B",
+        "text": "Tower Climber / Rigger"
+      },
+      {
+        "id": "C",
+        "text": "Teknisi Pasang Baru (PSB / IKR)"
+      },
+      {
+        "id": "D",
+        "text": "Chief Financial Officer (CFO)"
+      },
+      {
+        "id": "E",
+        "text": "Software Frontend React Developer"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Splicer, Rigger, dan Teknisi PSB/IKR merupakan tenaga lapangan (Field Operations) yang bersentuhan langsung dengan media transmisi fisik.",
+    "quickTip": "Tenaga lapangan fisik = Splicer, Rigger, dan Teknisi PSB."
+  },
+  {
+    "id": "s01_q22",
+    "number": 22,
+    "type": "pgk_mcma",
+    "stimulus": "Pusat Operasi Jaringan (Network Operation Center / NOC) beroperasi 24 jam sehari dalam memantau performa ribuan elemen jaringan ISP.",
+    "question": "Tugas dan fungsi harian yang menjadi tanggung jawab utama seorang NOC Engineer meliputi... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Melakukan koordinasi dengan tim lapangan untuk investigasi gangguan di lokasi"
+      },
+      {
+        "id": "B",
+        "text": "Menjual paket kuota internet langsung secara door-to-door ke perumahan"
+      },
+      {
+        "id": "C",
+        "text": "Memantau sistem monitoring NMS terhadap event alert gangguan jaringan"
+      },
+      {
+        "id": "D",
+        "text": "Membuka trouble ticket dan mencatat riwayat eskalasi penanganan insiden"
+      },
+      {
+        "id": "E",
+        "text": "Membuat desain interior gedung perkantoran pusat"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "Tugas utama tim NOC berpusat pada monitoring dashboard NMS, trouble ticket management, dan koordinasi dispatching tim lapangan.",
+    "quickTip": "Fungsi NOC: Monitoring NMS, Trouble Ticketing, dan Dispatch Lapangan."
+  },
+  {
+    "id": "s01_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Dalam struktur organisasi divisi IT perusahaan perbankan, keamanan data nasabah menjadi prioritas mutlak.",
+    "question": "Kualifikasi dan peran profesi yang fokus pada ranah perlindungan aset jaringan dan penanggulangan insiden siber adalah... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "SOC (Security Operations Center) Analyst"
+      },
+      {
+        "id": "B",
+        "text": "Petugas Operator Mesin Cuci Seragam"
+      },
+      {
+        "id": "C",
+        "text": "Penetration Tester / Vulnerability Assessor"
+      },
+      {
+        "id": "D",
+        "text": "Network Security Engineer"
+      },
+      {
+        "id": "E",
+        "text": "Staf Resepsionis Lobi Kantor"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "SOC Analyst, Penetration Tester, dan Network Security Engineer adalah pilar profesi keamanan siber (Cybersecurity) industri IT.",
+    "quickTip": "Profesi keamanan informasi = SOC Analyst, Pen Tester, Network Security Engineer."
+  },
+  {
+    "id": "s01_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Lulusan SMK TJKT yang berjiwa wirausaha (Technopreneur) dapat membangun layanan bernilai tambah secara mandiri di lingkungannya.",
+    "question": "Bidang usaha jasa mandiri yang sangat relevan dengan kompetensi kejuruan TJKT adalah... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Konsultasi perakitan dan konfigurasi server Linux untuk kantor UMKM"
+      },
+      {
+        "id": "B",
+        "text": "Budidaya tanaman hias langka hidroponik"
+      },
+      {
+        "id": "C",
+        "text": "Instalasi dan integrasi kamera keamanan IP-CCTV jaringan"
+      },
+      {
+        "id": "D",
+        "text": "Pabrik peleburan bijih besi berskala berat"
+      },
+      {
+        "id": "E",
+        "text": "Jasa perancangan dan pemasangan sistem Wi-Fi terkelola (Hotspot Voucher)"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explanation": "Wirausaha TJKT berfokus pada solusi teknologi jaringan seperti hotspot Wi-Fi, IP-CCTV, dan pemeliharaan server/jaringan kantor UMKM.",
+    "quickTip": "Usaha mandiri TJKT: Hotspot Wi-Fi, IP-CCTV, dan Administrasi Jaringan UMKM."
+  },
+  {
+    "id": "s01_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "System Administrator bertugas mengelola siklus hidup server agar layanan perusahaan tetap dapat diakses tanpa henti.",
+    "question": "Aktivitas teknis yang rutin dilaksanakan oleh seorang System Administrator meliputi... (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengelola hak izin akses berkas dan direktori pengguna di server"
+      },
+      {
+        "id": "B",
+        "text": "Mengatur jadwal pencadangan (automated backup) basis data secara berkala"
+      },
+      {
+        "id": "C",
+        "text": "Memasak hidangan katering makan siang karyawan"
+      },
+      {
+        "id": "D",
+        "text": "Mengemudikan truk pengantar tiang beton ke luar kota"
+      },
+      {
+        "id": "E",
+        "text": "Melakukan pembaruan keamanan (security patch) pada sistem operasi"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "E"
+    ],
+    "explanation": "SysAdmin bertanggung jawab atas user permissions, OS security patch, dan automated backup berkala.",
+    "quickTip": "Tugas SysAdmin: Manajemen hak akses, security update OS, dan backup data."
+  },
+  {
+    "id": "s01_q26",
+    "number": 26,
+    "type": "pgk_tf",
+    "stimulus": "Profesi Network Planner bertugas merancang topologi, menghitung redaman transmisi, dan memilih spesifikasi perangkat sebelum proyek penggelaran kabel fiber optik dimulai.",
+    "question": "Tentukan kebenaran dari masing-masing pernyataan berikut terkait peran Network Planner!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Network Planner bekerja menghitung Optical Link Budget sebelum konstruksi fisik dimulai.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Network Planner bertugas memanjat tiang kabel secara langsung untuk menyambung serat optik setiap hari.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Dokumen hasil rancangan Network Planner menjadi acuan kerja bagi tim penggelaran kabel di lapangan.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Network Planner fokus pada perancangan teknis dan kalkulasi sebelum konstruksi, bukan pelaksana manual splicing tiang harian.",
+    "quickTip": "Planner merancang & menghitung; teknisi lapangan yang memasang fisik."
+  },
+  {
+    "id": "s01_q27",
+    "number": 27,
+    "type": "pgk_tf",
+    "stimulus": "Petugas Helpdesk Tier 1 bertindak sebagai gerbang terdepan (first point of contact) penanganan aduan pelanggan pada penyedia layanan internet (ISP).",
+    "question": "Tentukan kebenaran dari masing-masing pernyataan berikut mengenai tugas Helpdesk Tier 1!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Helpdesk Tier 1 wajib mendokumentasikan keluhan pelanggan dan menerbitkan nomor tiket gangguan.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Jika terjadi kabel serat optik bawah laut putus, Helpdesk Tier 1 bertugas menyelam ke dasar laut untuk memperbaikinya.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Helpdesk Tier 1 memandu pelanggan melakukan verifikasi fisik dasar seperti status lampu indikator pada modem.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Helpdesk Tier 1 bertugas mencatat tiket dan memandu troubleshooting dasar, perbaikan fisik bawah laut dilakukan kapal kabel khusus.",
+    "quickTip": "Helpdesk melayani komunikasi pelanggan & panduan awal, bukan penyelam perbaikan fisik."
+  },
+  {
+    "id": "s01_q28",
+    "number": 28,
+    "type": "pgk_tf",
+    "stimulus": "Seorang Network Engineer bertanggung jawab atas perancangan konfigurasi perutean (routing) dan pensaklaran (switching) jaringan komputer.",
+    "question": "Tentukan kebenaran dari masing-masing pernyataan berikut mengenai peran Network Engineer!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Network Engineer bertugas mengonfigurasi protokol routing dinamis seperti OSPF dan BGP pada router.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Network Engineer bertugas merancang pembagian segmen Virtual LAN (VLAN) untuk membatasi domain siaran.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Network Engineer bertanggung jawab menulis artikel berita gosip selebriti di majalah cetak kantor.",
+        "correct": "S"
+      }
+    ],
+    "explanation": "Routing, VLAN switching, dan optimasi arsitektur jaringan adalah kompetensi inti dari Network Engineer.",
+    "quickTip": "Network Engineer ahli dalam protokol routing, VLAN, dan konfigurasi jaringan."
+  },
+  {
+    "id": "s01_q29",
+    "number": 29,
+    "type": "pgk_tf",
+    "stimulus": "Technopreneurship di bidang teknologi informasi membuka peluang kemandirian finansial bagi lulusan SMK kejuruan TJKT.",
+    "question": "Tentukan kebenaran dari masing-masing pernyataan berikut tentang Technopreneur TJKT!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Technopreneur TJKT menggabungkan kecakapan teknis jaringan dengan kemampuan mengelola peluang bisnis.",
+        "correct": "B"
+      },
+      {
+        "id": "st2",
+        "text": "Technopreneur di bidang TJKT dilarang membuat nota kesepakatan tertulis saat melayani pelanggan kantor.",
+        "correct": "S"
+      },
+      {
+        "id": "st3",
+        "text": "Penyediaan solusi Wi-Fi terintegrasi sistem autentikasi voucher merupakan contoh produk layanan technopreneur TJKT.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Technopreneur menggabungkan keahlian teknologi dan bisnis, serta selalu menerapkan administrasi profesional seperti nota kontrak kerja.",
+    "quickTip": "Technopreneur = Keahlian teknologi + wirausaha profesional."
+  },
+  {
+    "id": "s01_q30",
+    "number": 30,
+    "type": "pgk_tf",
+    "stimulus": "Perjanjian Kerahasiaan (Non-Disclosure Agreement / NDA) merupakan standar hukum dalam etika profesi teknologi informasi.",
+    "question": "Tentukan kebenaran dari masing-masing pernyataan berikut tentang kepatuhan etika profesi dan NDA!",
+    "statements": [
+      {
+        "id": "st1",
+        "text": "Teknisi jaringan diperbolehkan menjual data pribadi pelanggan ISP kepada pihak ketiga demi keuntungan pribadi.",
+        "correct": "S"
+      },
+      {
+        "id": "st2",
+        "text": "Menjaga kerahasiaan diagram topologi dan password perangkat jaringan adalah kewajiban profesional beretika.",
+        "correct": "B"
+      },
+      {
+        "id": "st3",
+        "text": "Pelanggaran terhadap dokumen NDA dapat berakibat pada sanksi hukum pemutusan hubungan kerja hingga pidana.",
+        "correct": "B"
+      }
+    ],
+    "explanation": "Membocorkan data pelanggan adalah pelanggaran hukum dan etika berat; dokumen NDA mengikat secara hukum kerahasiaan data perusahaan.",
+    "quickTip": "Etika profesi & NDA melarang keras pembocoran data rahasia konfigurasi/pelanggan."
+  }
+]
