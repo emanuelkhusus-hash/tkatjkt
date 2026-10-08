@@ -32,10 +32,11 @@ Aplikasi web simulasi Tes Kompetensi Akademik (TKA) kejuruan **Teknik Jaringan K
 4. **15 Hari • 2 Sesi / Hari • 30 Soal / Sesi:**
    - Total **30 Sesi Terstruktur** mencakup 4 pilar BSKAP 046/2025 (Wawasan Profesi, K3LH Ketinggian & 5R, Transmisi Fiber & Tembaga, IP/Subnetting, Server/Linux VirtualBox, Alat Ukur OTDR/OPM, hingga Grand Final Boss Tryout).
 
-5. **KKM 70% & Fitur Remedial:**
-   - Nilai dihitung otomatis dalam skala 0 - 100.
-   - **Jika Nilai < 70%**: Muncul tombol **"Kerjakan Ulang (Remedial Sesi Ini)"** dan sesi selanjutnya tetap terkunci.
-   - **Jika Nilai >= 70%**: Sesi dinyatakan lolos (bintang 1–3) dan membuka sesi berikutnya.
+5. **Akses Bebas Fleksibel & KKM 70%:**
+   - **Bebas Pilih Sesi**: Siswa dapat memilih hari apapun (Hari 1 s.d. 15) atau sesi manapun secara langsung tanpa harus menyelesaikan sesi sebelumnya terlebih dahulu.
+   - Nilai dihitung otomatis dalam skala 0 - 100 dengan standar KKM 70%.
+   - **Jika Nilai < 70%**: Nilai ditandai remedial dan siswa dapat mengulang sesi atau melanjutkan belajar ke sesi lain.
+   - **Jika Nilai >= 70%**: Sesi dinyatakan tuntas (bintang 1–3) dan siswa berhak mencetak sertifikat kelulusan sesi.
 
 6. **Sertifikat Kelulusan Digital (Bisa Dicetak / PDF):**
    - Siswa yang lulus KKM berhak membuka dan mencetak Sertifikat Kelulusan resmi lengkap dengan nama, NISN, skor, nomor registrasi unik, dan cap stempel kelulusan.

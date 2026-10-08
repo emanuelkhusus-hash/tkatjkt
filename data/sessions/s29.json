@@ -8,11 +8,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Paket ICMP Echo Request dan Echo Reply"
+        "text": "Paket ICMP Echo Request dan balasan ICMP Echo Reply"
       },
       {
         "id": "B",
-        "text": "Paket [FIN], [ACK], [RST]"
+        "text": "Paket [FIN], diikuti [ACK], dan diakhiri [RST] dari server"
       },
       {
         "id": "C",
@@ -20,11 +20,11 @@
       },
       {
         "id": "D",
-        "text": "Paket DHCP Discover dan DHCP Offer"
+        "text": "Paket DHCP Discover dari klien dan DHCP Offer dari server"
       },
       {
         "id": "E",
-        "text": "Paket ARP Request dan ARP Reply"
+        "text": "Paket ARP Request broadcast dan balasan unicast ARP Reply"
       }
     ],
     "key": "C",
@@ -40,15 +40,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Semua server di internet sedang melakukan pencadangan data serentak"
+        "text": "Window size TCP klien mengalami kenaikan hingga batas maksimum"
       },
       {
         "id": "B",
-        "text": "Kartu jaringan komputer pengirim menghasilkan energi listrik gratis"
+        "text": "Mode transmisi kartu jaringan beralih otomatis ke half-duplex"
       },
       {
         "id": "C",
-        "text": "Kabel fiber optik diubah menjadi kabel tembaga secara otomatis"
+        "text": "Nilai MTU paket data diubah otomatis menjadi 9000 byte jumbo frame"
       },
       {
         "id": "D",
@@ -56,7 +56,7 @@
       },
       {
         "id": "E",
-        "text": "Kecepatan jaringan sedang berada pada kondisi puncak maksimal"
+        "text": "Kecepatan throughput jaringan sedang berada pada kondisi puncak kapasitas"
       }
     ],
     "key": "D",
@@ -72,7 +72,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Kabel listrik monitor komputer pengirim terlepas dari stopkontak"
+        "text": "Kartu jaringan pengirim mengalami kerusakan fisik pada port RJ-45"
       },
       {
         "id": "B",
@@ -80,15 +80,15 @@
       },
       {
         "id": "C",
-        "text": "Sistem operasi komputer tujuan sedang mengunduh video game"
+        "text": "Switch perantara mengalami badai broadcast loop Layer 2"
       },
       {
         "id": "D",
-        "text": "Komputer pengirim tidak memiliki kartu jaringan fisik"
+        "text": "Komputer pengirim tidak memiliki kartu jaringan fisik aktif"
       },
       {
         "id": "E",
-        "text": "Paket berhasil sampai ke tujuan dan dibalas dalam 0 milidetik"
+        "text": "Paket ICMP berhasil sampai ke host tujuan dan dibalas dalam 0 milidetik"
       }
     ],
     "key": "B",
@@ -108,7 +108,7 @@
       },
       {
         "id": "B",
-        "text": "Komputer pengirim kehabisan memori RAM"
+        "text": "Kartu grafis komputer pengirim mengalami crash driver"
       },
       {
         "id": "C",
@@ -116,11 +116,11 @@
       },
       {
         "id": "D",
-        "text": "Layar monitor komputer pengirim mengalami mati lampu"
+        "text": "Nilai TTL paket IP awal diatur sebesar 255"
       },
       {
         "id": "E",
-        "text": "Protokol TCP/IP lokal di komputer pengirim rusak total"
+        "text": "Tabel routing lokal komputer pengirim terhapus seluruhnya"
       }
     ],
     "key": "A",
@@ -140,19 +140,19 @@
       },
       {
         "id": "B",
-        "text": "Kabel serat optik bawah tanah mengalami patah total"
+        "text": "Alamat MAC address Access Point terblokir oleh DHCP Snooping"
       },
       {
         "id": "C",
-        "text": "Antena Access Point harus diarahkan menghadap ke arah kiblat"
+        "text": "Nilai MTU antarmuka nirkabel terlalu kecil untuk frame 802.11"
       },
       {
         "id": "D",
-        "text": "Kabel listrik Access Point terbalik kutub positif dan negatifnya"
+        "text": "Kabel serat optik uplink OLT mengalami tekukan macrobending"
       },
       {
         "id": "E",
-        "text": "Pengguna harus menghapus seluruh file dokumen di komputer"
+        "text": "Protokol Spanning Tree memblokir port Ethernet Access Point"
       }
     ],
     "key": "A",
@@ -168,11 +168,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Mematikan pasokan listrik seluruh gedung kantor"
+        "text": "Menghapus berkas konfigurasi default `/etc/mysql/my.cnf`"
       },
       {
         "id": "B",
-        "text": "Mengganti seluruh kabel power supply genset gedung"
+        "text": "Mengubah konfigurasi firewall iptables untuk memblokir port 80"
       },
       {
         "id": "C",
@@ -180,7 +180,7 @@
       },
       {
         "id": "D",
-        "text": "Membeli 10 unit server baru dari toko komputer"
+        "text": "Memasang modul kernel Apache MPM event pada server web"
       },
       {
         "id": "E",
@@ -200,19 +200,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Mematikan komputer staf administrasi selamanya"
+        "text": "Mengubah kabel UTP printer menjadi kabel crossover"
       },
       {
         "id": "B",
-        "text": "Mengubah warna kertas printer menjadi merah"
+        "text": "Menurunkan kecepatan port switch printer menjadi 10 Mbps"
       },
       {
         "id": "C",
-        "text": "Mengganti kabel printer dengan kabel telepon tipis"
+        "text": "Mengatur default gateway printer ke alamat loopback 127.0.0.1"
       },
       {
         "id": "D",
-        "text": "Membuang printer jaringan ke tempat sampah"
+        "text": "Mengganti kartu jaringan komputer staf dengan modem dial-up"
       },
       {
         "id": "E",
@@ -232,11 +232,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Kabel UTP harus dibasahi dengan air sebelum dicolokkan"
+        "text": "Nilai MTU switch diatur secara default pada ukuran 1500 byte"
       },
       {
         "id": "B",
-        "text": "Warna konektor RJ-45 tidak cocok dengan warna casing switch"
+        "text": "Kartu jaringan komputer mengalami tabrakan domain collision"
       },
       {
         "id": "C",
@@ -244,7 +244,7 @@
       },
       {
         "id": "D",
-        "text": "Komputer pengguna kekurangan kapasitas memori hard disk"
+        "text": "Protokol Spanning Tree membatasi throughput port menjadi Fast Ethernet"
       },
       {
         "id": "E",
@@ -264,15 +264,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Serangan Malware Ransomware enkripsi file"
+        "text": "Serangan Malware Ransomware enkripsi direktori berkas"
       },
       {
         "id": "B",
-        "text": "Serangan Phishing pencurian email"
+        "text": "Serangan Phishing rekayasa sosial pencurian kredensial"
       },
       {
         "id": "C",
-        "text": "Kerusakan mekanis kabel serat optik bawah tanah"
+        "text": "Terjadinya loop fisik Layer 2 pada antarmuka trunk router"
       },
       {
         "id": "D",
@@ -280,7 +280,7 @@
       },
       {
         "id": "E",
-        "text": "Korsleting arus listrik pada baterai UPS"
+        "text": "Serangan Man-in-the-Middle melalui ARP Cache Poisoning"
       }
     ],
     "key": "D",
@@ -300,19 +300,19 @@
       },
       {
         "id": "B",
-        "text": "Menghapus seluruh file sistem operasi router"
+        "text": "Menonaktifkan fitur stateful inspection firewall filter"
       },
       {
         "id": "C",
-        "text": "Menurunkan kecepatan kipas casing server"
+        "text": "Menyetel Administrative Distance static route ke nilai 255"
       },
       {
         "id": "D",
-        "text": "Mengganti seluruh monitor komputer dengan layar sentuh"
+        "text": "Menghapus seluruh tabel routing dinamis OSPF"
       },
       {
         "id": "E",
-        "text": "Mencabut seluruh kabel grounding penangkal petir"
+        "text": "Menutup seluruh port antarmuka WAN dan mematikan protokol IP"
       }
     ],
     "key": "A",
@@ -328,15 +328,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Satelit di orbit luar angkasa mengalami gangguan cuaca"
+        "text": "Seluruh konektor SC di ruang ODF sentral kotor berdebu"
       },
       {
         "id": "B",
-        "text": "Panjang gelombang 1310 nm tidak bisa digunakan untuk core nomor 5"
+        "text": "Mesin OTDR mengalami kesalahan perhitungan Indeks Bias (IOR)"
       },
       {
         "id": "C",
-        "text": "Instrumen OTDR mengalami kerusakan layar LCD"
+        "text": "Kabel optik mengalami kenaikan redaman dispersi polarisasi (PMD)"
       },
       {
         "id": "D",
@@ -344,7 +344,7 @@
       },
       {
         "id": "E",
-        "text": "Seluruh kabel 12 core terputus total ditebang orang di 850 meter"
+        "text": "Seluruh kabel 12 core terputus total ditebang di jarak 850 meter"
       }
     ],
     "key": "D",
@@ -360,11 +360,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Server sedang melakukan sinkronisasi jam otomatis NTP"
+        "text": "Server sedang melakukan sinkronisasi jam otomatis berkala via NTP"
       },
       {
         "id": "B",
-        "text": "Kabel keyboard komputer server sedang macet"
+        "text": "Switch jaringan sedang memperbarui tabel CAM address"
       },
       {
         "id": "C",
@@ -372,11 +372,11 @@
       },
       {
         "id": "D",
-        "text": "Sistem Linux sedang mengunduh pembaruan kernel resmi"
+        "text": "Layanan BIND9 DNS sedang memperbarui zona reverse PTR"
       },
       {
         "id": "E",
-        "text": "Pengguna yang sah sedang lupa password laptop"
+        "text": "Protokol DHCP sedang memperbarui masa sewa lease time klien"
       }
     ],
     "key": "C",
@@ -456,19 +456,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Router akan secara cerdas menebak jalur terbaik ke internet"
+        "text": "Router akan secara otomatis membungkus paket internet ke dalam frame broadcast Layer 2"
       },
       {
         "id": "B",
-        "text": "Seluruh komputer karyawan otomatis mati listrik"
+        "text": "Router otomatis beralih ke mode bridge unmanaged transparan"
       },
       {
         "id": "C",
-        "text": "Koneksi internet justru menjadi dua kali lipat lebih cepat"
+        "text": "Koneksi internet diarahkan otomatis ke port serial auxiliary"
       },
       {
         "id": "D",
-        "text": "Router akan menyiarkan paket data melalui speaker audio"
+        "text": "Router akan meneruskan seluruh paket ke alamat loopback 127.0.0.1"
       },
       {
         "id": "E",
@@ -488,11 +488,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Menambahkan lem alteco di luar kabel untuk menurunkan redaman"
+        "text": "Memasang loopback attenuator 10 dB pada konektor ODF"
       },
       {
         "id": "B",
-        "text": "Mengganti seluruh kabel sepanjang 2 kilometer"
+        "text": "Menaikkan pulse width OTDR untuk menutupi undakan loss"
       },
       {
         "id": "C",
@@ -504,7 +504,7 @@
       },
       {
         "id": "E",
-        "text": "Mengabaikan hasil ukur karena 0.85 dB tidak berpengaruh apa-apa"
+        "text": "Mengubah pengaturan IOR pada OTDR agar redaman tampak turun"
       }
     ],
     "key": "C",
@@ -524,19 +524,19 @@
       },
       {
         "id": "B",
-        "text": "Membeli antena radio pemancar FM komersial"
+        "text": "Menaikkan daya pancar TX power AP ke level maksimal pada Kanal 6"
       },
       {
         "id": "C",
-        "text": "Ikut menyetel AP sekolah pada Kanal 6 agar kompak dengan tetangga"
+        "text": "Ikut menyetel AP sekolah pada Kanal 6 agar frekuensi seimbang"
       },
       {
         "id": "D",
-        "text": "Menyetel AP sekolah pada Kanal 5 atau Kanal 7"
+        "text": "Menyetel AP pada Kanal 3 atau Kanal 9 yang tumpang tindih"
       },
       {
         "id": "E",
-        "text": "Mematikan password keamanan Wi-Fi sekolah"
+        "text": "Mematikan fitur WPA3-SAE dan beralih ke WEP terbuka"
       }
     ],
     "key": "A",
@@ -556,19 +556,19 @@
       },
       {
         "id": "B",
-        "text": "rm -rf /etc/apache2"
+        "text": "systemctl mask apache2"
       },
       {
         "id": "C",
-        "text": "ping apache2"
+        "text": "netstat -tulnp | grep apache"
       },
       {
         "id": "D",
-        "text": "cat /etc/passwd"
+        "text": "traceroute localhost"
       },
       {
         "id": "E",
-        "text": "chmod 777 /var/log"
+        "text": "iptables -F apache"
       }
     ],
     "key": "A",
@@ -588,7 +588,7 @@
       },
       {
         "id": "B",
-        "text": "Kartu grafis VGA komputer mengalami kehabisan memori"
+        "text": "Kartu jaringan komputer mengalami kerusakan duplikasi MAC Address"
       },
       {
         "id": "C",
@@ -596,11 +596,11 @@
       },
       {
         "id": "D",
-        "text": "Sistem operasi Windows sedang terkunci oleh ransomware"
+        "text": "Router gateway memblokir akses internet dengan access list"
       },
       {
         "id": "E",
-        "text": "Kabel serat optik di motherboard komputer mengalami kebocoran laser"
+        "text": "Terjadi kegagalan resolusi nama domain pada DNS Server"
       }
     ],
     "key": "C",
@@ -656,11 +656,11 @@
       },
       {
         "id": "C",
-        "text": "Suhu udara ruangan server terlalu dingin di bawah standar"
+        "text": "Nilai resistansi grounding rack server melampaui 5 Ohm"
       },
       {
         "id": "D",
-        "text": "Kabel tembaga di dalam dinding kekurangan tegangan oli pelumas"
+        "text": "Terjadinya degradasi fisik kabel optik akibat penuaan silika"
       },
       {
         "id": "E",
@@ -672,7 +672,7 @@
       "B",
       "E"
     ],
-    "explanation": "Wireshark mendeteksi retransmisi paket (loss), kegagalan ARP (host mati), dan badai broadcast (switching loop). Wireshark tidak mengukur oli atau suhu fisik ruangan.",
+    "explanation": "Wireshark mendeteksi retransmisi paket (loss), kegagalan ARP (host mati), dan badai broadcast (switching loop). Wireshark tidak mengukur parameter kelistrikan grounding atau penuaan silika.",
     "quickTip": "Wireshark mendeteksi: TCP Retransmission (packet loss), kegagalan ARP, dan badai broadcast loop."
   },
   {
@@ -684,7 +684,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Mengganti monitor komputer dengan layar proyektor bioskop"
+        "text": "Memasang kartu grafis VGA tambahan pada motherboard"
       },
       {
         "id": "B",
@@ -692,11 +692,11 @@
       },
       {
         "id": "C",
-        "text": "Menghapus seluruh file sistem di direktori C:\\Windows\\System32"
+        "text": "Memformat ulang partisi hard disk sistem operasi komputer"
       },
       {
         "id": "D",
-        "text": "Mematikan sambungan kabel LAN dari komputer"
+        "text": "Mengganti kabel UTP dengan kabel coaxial RG-6"
       },
       {
         "id": "E",
@@ -719,11 +719,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Membagikan akun username dan password router ke forum terbuka"
+        "text": "Mengizinkan seluruh paket ICMP Echo Request tanpa batas"
       },
       {
         "id": "B",
-        "text": "Menonaktifkan seluruh sistem pengamanan firewall router"
+        "text": "Mengubah seluruh alamat IP komputer klien menjadi IP publik statis"
       },
       {
         "id": "C",
@@ -759,15 +759,15 @@
       },
       {
         "id": "B",
-        "text": "Kabel UTP ditarik di dalam pipa konduit PVC tertutup"
+        "text": "Kabel UTP Cat6 ditarik berdampingan dengan kabel fiber optik"
       },
       {
         "id": "C",
-        "text": "Warna jaket pelindung kabel UTP berwarna abu-abu"
+        "text": "Kartu jaringan komputer menggunakan driver versi terbaru"
       },
       {
         "id": "D",
-        "text": "Kabel LAN dicolokkan ke stopkontak listrik PLN 220 Volt"
+        "text": "Konektor RJ-45 terpasang menggunakan urutan standar TIA/EIA 568A"
       },
       {
         "id": "E",
@@ -794,7 +794,7 @@
       },
       {
         "id": "B",
-        "text": "`shutdown -h now` untuk mempercepat pemrosesan data paket"
+        "text": "`route add` untuk mempercepat pemrosesan data paket"
       },
       {
         "id": "C",
@@ -802,11 +802,11 @@
       },
       {
         "id": "D",
-        "text": "`cat /dev/null` untuk menambah kapasitas bandwidth internet provider"
+        "text": "`arp -d` untuk menambah kapasitas bandwidth internet provider"
       },
       {
         "id": "E",
-        "text": "`rm -rf *` untuk menghitung jumlah port jaringan yang terbuka"
+        "text": "`traceroute` untuk menghitung jumlah port jaringan yang terbuka"
       }
     ],
     "key": [
@@ -835,11 +835,11 @@
       },
       {
         "id": "st3",
-        "text": "'Request timed out' membuktikan bahwa seluruh jaringan internet dunia sedang kiamat.",
+        "text": "'Request timed out' membuktikan bahwa seluruh kabel bawah laut dunia putus secara serentak.",
         "correct": "S"
       }
     ],
-    "explanation": "RTO sering kali hanya karena firewall memblokir ICMP atau host tujuan sibuk/putus lokal, bukan kiamat internet global.",
+    "explanation": "RTO sering kali hanya karena firewall memblokir ICMP atau host tujuan sibuk/putus lokal, bukan putus kabel global.",
     "quickTip": "Unreachable = Rute tidak ada; Timed Out = Tidak ada balasan dalam batas waktu."
   },
   {
@@ -861,7 +861,7 @@
       },
       {
         "id": "st3",
-        "text": "Dua komputer dengan IP yang sama persis dapat browsing internet bersamaan dengan kecepatan dua kali lipat.",
+        "text": "Dua komputer dengan IP yang sama persis akan memperoleh kecepatan internet berlipat ganda karena beban dibagi rata.",
         "correct": "S"
       }
     ],
@@ -887,7 +887,7 @@
       },
       {
         "id": "st3",
-        "text": "Sistem Linux akan meledak jika ada pengguna yang salah mengetikkan password 3 kali.",
+        "text": "Sistem operasi Linux akan menghapus seluruh data hard disk jika salah password 3 kali berturut-turut.",
         "correct": "S"
       }
     ],
@@ -913,11 +913,11 @@
       },
       {
         "id": "st3",
-        "text": "Port berstatus err-disabled dapat diperbaiki dengan cara memukul switch menggunakan palu besi.",
+        "text": "Switch harus diganti baru karena port err-disabled tidak bisa diaktifkan kembali secara konfigurasi.",
         "correct": "S"
       }
     ],
-    "explanation": "Memukul switch akan merusak perangkat keras; pemulihan err-disabled dilakukan melalui perintah CLI `shutdown` lalu `no shutdown`.",
+    "explanation": "Port err-disabled dapat dipulihkan dengan mudah lewat perintah CLI antarmuka `shutdown` kemudian `no shutdown` setelah perangkat pelanggar dilepas.",
     "quickTip": "Pulihkan err-disabled via CLI: shutdown lalu no shutdown."
   },
   {
@@ -939,11 +939,11 @@
       },
       {
         "id": "st3",
-        "text": "Alamat APIPA 169.254.x.x adalah alamat IP publik berkecepatan tinggi yang diberikan gratis oleh Google.",
+        "text": "Alamat APIPA 169.254.x.x adalah alamat IP publik berkecepatan tinggi yang dialokasikan oleh penyedia ISP internasional.",
         "correct": "S"
       }
     ],
-    "explanation": "APIPA adalah alamat link-local darurat otomatis komputer Windows saat DHCP gagal, bukan IP publik dari Google.",
+    "explanation": "APIPA adalah alamat link-local darurat otomatis komputer Windows saat DHCP gagal, bukan IP publik dari ISP.",
     "quickTip": "APIPA 169.254.x.x adalah alamat darurat kegagalan DHCP tanpa akses gateway internet."
   }
 ]

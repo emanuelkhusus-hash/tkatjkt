@@ -3,7 +3,7 @@
     "id": "s16_q1",
     "number": 1,
     "type": "pg",
-    "stimulus": "Sistem pengalamatan modern menggunakan Classless Inter-Domain Routing (CIDR) dengan tanda garis miring (slash notation).",
+    "stimulus": "Notasi Classless Inter-Domain Routing (CIDR) menggunakan garis miring diikuti angka (slash notation) untuk menyatakan panjang porsi network.",
     "question": "Arti dari notasi prefix /26 pada alamat IP 192.168.10.0/26 adalah...",
     "options": [
       {
@@ -12,7 +12,7 @@
       },
       {
         "id": "B",
-        "text": "Kabel LAN yang digunakan harus memiliki 26 pasang kawat tembaga"
+        "text": "Terdapat 26 bit biner bernilai angka 0 pada bagian host mask"
       },
       {
         "id": "C",
@@ -20,22 +20,22 @@
       },
       {
         "id": "D",
-        "text": "Alamat IP tersebut dibuat pada tanggal 26"
+        "text": "Alamat IP tersebut hanya berlaku untuk interface port nomor 26"
       },
       {
         "id": "E",
-        "text": "Kecepatan transfer data dibatasi maksimal 26 Megabits per detik"
+        "text": "Subnet mask yang digunakan bernilai desimal 255.255.255.240"
       }
     ],
     "key": "A",
-    "explanation": "Prefix /26 berarti 26 bit pertama dari 32 bit subnet mask bernilai biner 1 (11111111.11111111.11111111.11000000 = 255.255.255.192).",
-    "quickTip": "Notasi /26 = 26 bit bernilai 1 pada subnet mask (255.255.255.192)."
+    "explanation": "Notasi /26 menunjukkan ada 26 bit bernilai '1' berturut-turut pada subnet mask (11111111.11111111.11111111.11000000 = 255.255.255.192) dan 6 bit bernilai '0' untuk porsi host.",
+    "quickTip": "Prefix /26 berarti ada 26 bit '1' pada subnet mask (255.255.255.192)."
   },
   {
     "id": "s16_q2",
     "number": 2,
     "type": "pg",
-    "stimulus": "Konversi notasi CIDR prefix ke nilai desimal subnet mask merupakan keahlian dasar penting teknisi jaringan.",
+    "stimulus": "Seorang administrator jaringan mengonfigurasikan interface router dengan prefix CIDR /28 pada subnet server lokal.",
     "question": "Nilai desimal subnet mask yang setara dengan prefix CIDR /28 adalah...",
     "options": [
       {
@@ -60,14 +60,14 @@
       }
     ],
     "key": "D",
-    "explanation": "Prefix /28 memiliki 4 bit host (11110000 pada oktet ke-4). Nilai desimal oktet ke-4 adalah 128 + 64 + 32 + 16 = 240.",
+    "explanation": "Prefix /28 berarti oktet terakhir memiliki 4 bit '1' dan 4 bit '0' (11110000 biner = 128 + 64 + 32 + 16 = 240). Maka netmask-nya adalah 255.255.255.240.",
     "quickTip": "Prefix /28 = 255.255.255.240."
   },
   {
     "id": "s16_q3",
     "number": 3,
     "type": "pg",
-    "stimulus": "Untuk menghitung jumlah alamat IP host valid yang dapat digunakan (usable host) pada suatu subnet, digunakan rumus 2^y - 2.",
+    "stimulus": "Rumus matematis untuk menghitung jumlah komputer (host) yang dapat dipasang pada sebuah subnet adalah 2^y - 2, di mana y adalah jumlah bit host yang tersisa.",
     "question": "Alasan mengapa pada rumus perhitungan jumlah host harus dikurangi 2 (angka -2) adalah...",
     "options": [
       {
@@ -76,30 +76,30 @@
       },
       {
         "id": "B",
-        "text": "Aturan acak tanpa alasan teknis"
+        "text": "Karena spesifikasi switch menyerap 2 bit alamat MAC hardware"
       },
       {
         "id": "C",
-        "text": "Sebagai cadangan jika ada dua kabel LAN yang putus"
+        "text": "Untuk mencadangkan antarmuka loopback virtual lokal router"
       },
       {
         "id": "D",
-        "text": "Untuk mencadangkan alamat server Windows dan server Linux"
+        "text": "Untuk mencadangkan alamat default gateway utama dan gateway sekunder"
       },
       {
         "id": "E",
-        "text": "Dipotong untuk biaya pajak lisensi perangkat jaringan"
+        "text": "Dipotong otomatis oleh router untuk alokasi protokol ARP dan ICMP"
       }
     ],
     "key": "A",
-    "explanation": "Alamat pertama (semua bit host 0) adalah Network ID dan alamat terakhir (semua bit host 1) adalah Broadcast ID, keduanya tidak boleh dipasang pada perangkat pengguna.",
-    "quickTip": "Dikurangi 2 karena alamat pertama = Network ID dan alamat terakhir = Broadcast ID."
+    "explanation": "Dua alamat selalu dikurangi karena tidak boleh dipasang pada antarmuka host: alamat paling awal (seluruh bit host = 0) adalah Network ID, dan alamat paling akhir (seluruh bit host = 1) adalah Broadcast ID.",
+    "quickTip": "Dikurangi 2 karena dicadangkan untuk Network ID dan Broadcast ID."
   },
   {
     "id": "s16_q4",
     "number": 4,
     "type": "pg",
-    "stimulus": "Sebuah laboratorium komputer baru membutuhkan alokasi subnet yang dapat menampung tepat 28 unit komputer siswa dan 1 printer jaringan (total 29 host).",
+    "stimulus": "Sebuah laboratorium multimedia memiliki 29 unit komputer dan membutuhkan satu segmen subnet IP baru yang paling hemat.",
     "question": "Prefix subnet mask terkecil yang paling efisien dan mencukupi untuk kebutuhan 29 host tersebut adalah...",
     "options": [
       {
@@ -124,14 +124,14 @@
       }
     ],
     "key": "D",
-    "explanation": "/27 memiliki 5 bit host (2^5 - 2 = 32 - 2 = 30 usable host), sangat pas dan paling efisien untuk menampung 29 host.",
-    "quickTip": "29 host butuh minimal 30 usable host = Prefix /27."
+    "explanation": "Kebutuhan 29 host: 2^y - 2 ≥ 29. Nilai y=5 menghasilkan 2^5 - 2 = 30 usable host. Panjang prefix = 32 - 5 = /27.",
+    "quickTip": "Untuk 29 host, gunakan prefix /27 (kapasitas 30 usable host)."
   },
   {
     "id": "s16_q5",
     "number": 5,
     "type": "pg",
-    "stimulus": "Dua router kantor dihubungkan secara langsung melalui sambungan serial kabel Point-to-Point (hanya membutuhkan tepat 2 alamat IP host).",
+    "stimulus": "Dua buah router core dihubungkan secara langsung melalui kabel serial atau kabel optik Point-to-Point tanpa ada perangkat komputer lain di segmen tersebut.",
     "question": "Prefix CIDR standar yang paling hemat dan paling tepat digunakan untuk tautan Point-to-Point antar-router adalah...",
     "options": [
       {
@@ -156,14 +156,14 @@
       }
     ],
     "key": "D",
-    "explanation": "/30 memiliki 2 bit host (2^2 = 4 total IP, 4 - 2 = 2 usable host), sempurna untuk link Point-to-Point antar dua router tanpa membuang IP.",
-    "quickTip": "Link Point-to-Point antar 2 router = Prefix /30 (2 usable host)."
+    "explanation": "Tautan Point-to-Point hanya membutuhkan tepat 2 alamat host (satu untuk router A dan satu untuk router B). Prefix /30 menyediakan tepat 2 usable host (2^2 - 2 = 2) dengan netmask 255.255.255.252.",
+    "quickTip": "Link point-to-point 2 router menggunakan prefix /30 (2 host usable)."
   },
   {
     "id": "s16_q6",
     "number": 6,
     "type": "pg",
-    "stimulus": "Diberikan sebuah alamat IP: 192.168.10.75 dengan subnet mask 255.255.255.224 (/27).",
+    "stimulus": "Sebuah komputer klien memiliki konfigurasi alamat IP 192.168.10.70 dengan subnet mask 255.255.255.224 (/27).",
     "question": "Berapakah alamat Network ID dari subnet tempat alamat IP tersebut berada?",
     "options": [
       {
@@ -188,14 +188,14 @@
       }
     ],
     "key": "A",
-    "explanation": "Subnet mask /27 memiliki magic number kelipatan = 256 - 224 = 32. Kelipatan blok subnet: 0, 32, 64, 96... Karena 75 berada di antara 64 dan 95, maka Network ID-nya adalah 192.168.10.64.",
-    "quickTip": "Magic number /27 adalah 32. Blok: 0, 32, 64, 96. Angka 75 masuk di blok 192.168.10.64."
+    "explanation": "Subnet mask /27 memiliki Magic Number = 256 - 224 = 32. Kelipatan subnet: 0, 32, 64, 96, dst. Karena IP 192.168.10.70 berada di antara 64 dan 95, maka Network ID-nya adalah 192.168.10.64.",
+    "quickTip": "Magic number /27 adalah 32. Kelipatan: 0, 32, 64, 96. Angka 70 masuk blok 64."
   },
   {
     "id": "s16_q7",
     "number": 7,
     "type": "pg",
-    "stimulus": "Melanjutkan analisis subnet pada alamat IP 192.168.10.75/27 dengan Network ID 192.168.10.64.",
+    "stimulus": "Mengacu pada subnet tempat komputer 192.168.10.70/27 berada (Network ID 192.168.10.64).",
     "question": "Berapakah alamat Broadcast ID untuk blok subnet tersebut?",
     "options": [
       {
@@ -220,15 +220,15 @@
       }
     ],
     "key": "E",
-    "explanation": "Subnet berikutnya dimulai pada 192.168.10.96. Maka alamat Broadcast dari subnet sebelumnya adalah tepat 1 angka sebelum subnet berikutnya, yaitu 192.168.10.95.",
-    "quickTip": "Broadcast ID adalah angka tepat sebelum blok subnet berikutnya: 96 - 1 = 95."
+    "explanation": "Subnet berikutnya dimulai pada 192.168.10.96. Maka alamat Broadcast dari subnet 192.168.10.64 adalah satu angka tepat sebelum subnet berikutnya, yaitu 192.168.10.95.",
+    "quickTip": "Broadcast ID adalah satu angka sebelum network berikutnya (96 - 1 = 95)."
   },
   {
     "id": "s16_q8",
     "number": 8,
     "type": "pg",
-    "stimulus": "Pada subnet 192.168.10.64/27 dengan Broadcast ID 192.168.10.95.",
-    "question": "Rentang alamat IP yang sah (usable IP range) yang dapat dikonfigurasikan ke komputer pengguna adalah...",
+    "stimulus": "Teknisi ingin menetapkan alamat IP statis untuk workstation pada subnet 192.168.10.64/27.",
+    "question": "Rentang alamat IP yang sah (usable IP range) yang dapat dikonfigurasikan ke antarmuka komputer pengguna adalah...",
     "options": [
       {
         "id": "A",
@@ -252,31 +252,31 @@
       }
     ],
     "key": "E",
-    "explanation": "Rentang host usable berada di antara Network ID (+1) dan Broadcast ID (-1), yaitu dari 192.168.10.65 hingga 192.168.10.94 (total 30 host).",
-    "quickTip": "Rentang usable = Network + 1 s.d. Broadcast - 1 (65 s.d. 94)."
+    "explanation": "Usable IP range dimulai satu angka setelah Network ID (.64 + 1 = .65) hingga satu angka sebelum Broadcast ID (.95 - 1 = .94), yaitu 192.168.10.65 s.d. 192.168.10.94 (total 30 host).",
+    "quickTip": "Usable range /27 pada blok 64 adalah .65 hingga .94."
   },
   {
     "id": "s16_q9",
     "number": 9,
     "type": "pg",
-    "stimulus": "Sebuah blok IP 192.168.1.0/24 akan dipecah menjadi beberapa subnet menggunakan prefix /26.",
+    "stimulus": "Sebuah blok alamat jaringan kelas C standar 192.168.1.0/24 dipecah menjadi beberapa subnet berukuran /26.",
     "question": "Berapa banyak subnet baru yang terbentuk dari pemecahan blok /24 menjadi /26 tersebut?",
     "options": [
       {
         "id": "A",
-        "text": "64 subnet"
+        "text": "64 subnet baru"
       },
       {
         "id": "B",
-        "text": "16 subnet"
+        "text": "16 subnet baru"
       },
       {
         "id": "C",
-        "text": "8 subnet"
+        "text": "8 subnet baru"
       },
       {
         "id": "D",
-        "text": "2 subnet"
+        "text": "2 subnet baru"
       },
       {
         "id": "E",
@@ -284,19 +284,19 @@
       }
     ],
     "key": "E",
-    "explanation": "Bit subnet yang dipinjam = 26 - 24 = 2 bit. Jumlah subnet = 2^2 = 4 subnet (blok .0, .64, .128, .192).",
-    "quickTip": "Pinjam 2 bit (24 ke 26) = 2^2 = 4 subnet baru."
+    "explanation": "Jumlah bit subnet yang dipinjam (x) = 26 - 24 = 2 bit. Jumlah subnet yang terbentuk = 2^x = 2^2 = 4 subnet baru (blok .0, .64, .128, .192).",
+    "quickTip": "Dari /24 ke /26 pinjam 2 bit: 2^2 = 4 subnet baru."
   },
   {
     "id": "s16_q10",
     "number": 10,
     "type": "pg",
-    "stimulus": "Teknik pembagian subnet dengan menggunakan panjang subnet mask yang bervariasi (berbeda-beda) sesuai kebutuhan riil tiap departemen disebut...",
-    "question": "Nama metodologi penghematan alokasi IP bertingkat tersebut adalah...",
+    "stimulus": "Sebuah perusahaan memiliki beberapa departemen dengan kebutuhan jumlah host yang sangat berbeda: Divisi IT butuh 60 host, Divisi Sales butuh 25 host, dan Divisi Gudang butuh 10 host.",
+    "question": "Nama metodologi penghematan alokasi IP bertingkat yang menggunakan panjang prefix berbeda dalam satu jaringan tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "DHCP Relay Agent"
+        "text": "DHCP Relay Agent Forwarding"
       },
       {
         "id": "B",
@@ -312,23 +312,23 @@
       },
       {
         "id": "E",
-        "text": "BGP Autonomous System"
+        "text": "NAT (Network Address Translation)"
       }
     ],
     "key": "D",
-    "explanation": "VLSM memungkinkan administrator membagi ruang alamat IP menjadi beberapa subnet dengan ukuran prefix berbeda-beda guna memaksimalkan efisiensi alokasi.",
-    "quickTip": "Subnetting dengan prefix bervariasi sesuai kebutuhan = VLSM."
+    "explanation": "VLSM (Variable Length Subnet Masking) memungkinkan subnetting dengan prefix subnet mask yang bervariasi sesuai kebutuhan tiap segmen, menghindari pemborosan alokasi IP.",
+    "quickTip": "VLSM memungkinkan subnet mask berbeda-beda untuk tiap departemen."
   },
   {
     "id": "s16_q11",
     "number": 11,
     "type": "pg",
-    "stimulus": "Dalam merancang skema VLSM untuk beberapa departemen dengan kebutuhan jumlah host yang berbeda-beda.",
+    "stimulus": "Dalam merancang skema pengalamatan jaringan menggunakan metode Variable Length Subnet Masking (VLSM).",
     "question": "Aturan urutan alokasi terbaik yang harus diterapkan administrator jaringan agar alokasi subnet terstruktur rapi dan tidak tumpang tindih adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Memberikan seluruh IP ke satu departemen saja"
+        "text": "Memberikan seluruh ruang IP ke satu departemen pertama saja"
       },
       {
         "id": "B",
@@ -340,31 +340,31 @@
       },
       {
         "id": "D",
-        "text": "Mengalokasikan secara acak tanpa memperhatikan jumlah host"
+        "text": "Mengalokasikan secara acak tanpa memperhatikan jumlah kebutuhan host"
       },
       {
         "id": "E",
-        "text": "Menggunakan prefix /30 untuk seluruh komputer kantor"
+        "text": "Menggunakan prefix /30 untuk seluruh komputer workstation kantor"
       }
     ],
     "key": "C",
-    "explanation": "Best practice VLSM mewajibkan alokasi blok dimulai dari kebutuhan host terbesar guna menghindari fragmentasi ruang alamat IP.",
-    "quickTip": "Urutan pengerjaan VLSM: Mulai dari kebutuhan host TERBESAR ke terkecil."
+    "explanation": "Prinsip dasar VLSM adalah mengurutkan kebutuhan host dari yang terbesar ke yang terkecil (Descending Order) untuk mencegah terjadinya overlap (tumpang tindih) blok jaringan.",
+    "quickTip": "Urutan VLSM: Selalu alokasikan dari kebutuhan host TERBESAR ke terkecil."
   },
   {
     "id": "s16_q12",
     "number": 12,
     "type": "pg",
-    "stimulus": "Sebuah kantor membutuhkan alokasi subnet untuk 50 komputer staf. Administrator memilih subnet mask /26 (255.255.255.192).",
+    "stimulus": "Sebuah subnet memiliki spesifikasi Network ID 10.10.1.0/26 yang dialokasikan untuk 50 unit komputer.",
     "question": "Berapa banyak alamat IP usable yang tersisa (cadangan ekspansi) pada subnet tersebut setelah 50 komputer terpasang?",
     "options": [
       {
         "id": "A",
-        "text": "14 alamat IP"
+        "text": "14 alamat IP cadangan"
       },
       {
         "id": "B",
-        "text": "25 alamat IP"
+        "text": "25 alamat IP cadangan"
       },
       {
         "id": "C",
@@ -372,7 +372,7 @@
       },
       {
         "id": "D",
-        "text": "2 alamat IP"
+        "text": "2 alamat IP cadangan"
       },
       {
         "id": "E",
@@ -380,23 +380,23 @@
       }
     ],
     "key": "C",
-    "explanation": "Prefix /26 menyediakan 2^6 - 2 = 64 - 2 = 62 usable host. Jika 50 IP dipakai, tersisa 62 - 50 = 12 IP cadangan.",
-    "quickTip": "Usable /26 adalah 62. Dikurangi 50 terpakai = sisa 12 IP."
+    "explanation": "Prefix /26 memiliki 2^6 - 2 = 62 usable host. Jika 50 IP telah terpasang ke komputer, sisa IP usable yang tersedia adalah 62 - 50 = 12 IP.",
+    "quickTip": "/26 menyediakan 62 usable IP. Sisa cadangan = 62 - 50 = 12 IP."
   },
   {
     "id": "s16_q13",
     "number": 13,
     "type": "pg",
-    "stimulus": "Diberikan alamat IP: 10.50.120.10/29 pada port antarmuka router.",
+    "stimulus": "Dalam arsitektur perutean WAN, teknisi membuat subnetting dengan prefix /29.",
     "question": "Berapa jumlah total IP address (termasuk network dan broadcast) dalam satu blok subnet /29?",
     "options": [
       {
         "id": "A",
-        "text": "32 alamat IP"
+        "text": "32 alamat IP (30 usable host)"
       },
       {
         "id": "B",
-        "text": "16 alamat IP"
+        "text": "16 alamat IP (14 usable host)"
       },
       {
         "id": "C",
@@ -404,23 +404,23 @@
       },
       {
         "id": "D",
-        "text": "64 alamat IP"
+        "text": "64 alamat IP (62 usable host)"
       },
       {
         "id": "E",
-        "text": "4 alamat IP"
+        "text": "4 alamat IP (2 usable host)"
       }
     ],
     "key": "C",
-    "explanation": "/29 menyisakan 3 bit host (32 - 29 = 3 bit host). Total IP = 2^3 = 8 IP, dengan usable host = 8 - 2 = 6 host.",
-    "quickTip": "Prefix /29 = Total 8 IP, dengan 6 host yang bisa dipakai."
+    "explanation": "Prefix /29 memiliki 32 - 29 = 3 bit host. Jumlah total IP = 2^3 = 8 IP (dengan 2^3 - 2 = 6 usable host).",
+    "quickTip": "Prefix /29 memiliki 8 total IP (6 usable host)."
   },
   {
     "id": "s16_q14",
     "number": 14,
     "type": "pg",
-    "stimulus": "Subnet mask 255.255.255.248 (/29) memiliki nilai 'Magic Number' kelipatan interval antar-subnet.",
-    "question": "Nilai interval lompatan (Magic Number) untuk subnet mask 255.255.255.248 adalah...",
+    "stimulus": "Dalam metode subnetting cepat, interval lompatan antar-subnet dihitung menggunakan konsep 'Magic Number'.",
+    "question": "Nilai interval lompatan (Magic Number) untuk subnet mask 255.255.255.248 (/29) adalah...",
     "options": [
       {
         "id": "A",
@@ -444,14 +444,14 @@
       }
     ],
     "key": "E",
-    "explanation": "Magic Number dihitung dari 256 dikurangi nilai oktet mask terakhir: 256 - 248 = 8.",
-    "quickTip": "Magic number /29 = 256 - 248 = 8."
+    "explanation": "Magic Number dihitung dengan rumus: 256 dikurangi nilai oktet subnet mask aktif (256 - 248 = 8).",
+    "quickTip": "Magic number untuk 255.255.255.248 adalah 256 - 248 = 8."
   },
   {
     "id": "s16_q15",
     "number": 15,
     "type": "pg",
-    "stimulus": "Pada alamat IP 172.16.5.0/28, berapa alamat Broadcast ID dari blok subnet tersebut?",
+    "stimulus": "Diberikan blok subnet 172.16.5.0/28.",
     "question": "Alamat broadcast yang benar untuk subnet 172.16.5.0/28 adalah...",
     "options": [
       {
@@ -476,27 +476,27 @@
       }
     ],
     "key": "E",
-    "explanation": "Magic number /28 = 16 (256 - 240 = 16). Blok pertama: Network 172.16.5.0, Subnet berikutnya 172.16.5.16. Maka Broadcast ID = 172.16.5.15.",
-    "quickTip": "Network 172.16.5.0/28 memiliki Broadcast ID 172.16.5.15."
+    "explanation": "Subnet /28 memiliki magic number 16 (256 - 240). Subnet pertama dimulai pada 172.16.5.0, subnet berikutnya pada 172.16.5.16. Maka alamat broadcast subnet pertama adalah 172.16.5.15.",
+    "quickTip": "Subnet .0/28 berakhir pada broadcast .15 (16 - 1 = 15)."
   },
   {
     "id": "s16_q16",
     "number": 16,
     "type": "pg",
-    "stimulus": "Seorang teknisi memasang IP 192.168.1.127 dengan subnet mask 255.255.255.128 (/25) pada kartu jaringan komputer Windows.",
+    "stimulus": "Seorang teknisi pemula mencoba mengonfigurasikan alamat IP 192.168.1.127 dengan subnet mask 255.255.255.128 (/25) pada laptop pengguna.",
     "question": "Respon yang diberikan oleh sistem operasi saat konfigurasi tersebut disimpan adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Komputer langsung merestart secara otomatis"
+        "text": "Sistem operasi mengonversi alamat tersebut menjadi IP versi IPv6 link-local"
       },
       {
         "id": "B",
-        "text": "Sistem operasi menerima dan koneksi berjalan lancar"
+        "text": "Sistem operasi menerima dan otomatis mengaktifkan fitur NAT loopback"
       },
       {
         "id": "C",
-        "text": "Layar monitor berubah menjadi hitam putih"
+        "text": "Sistem operasi mengubah netmask secara sepihak menjadi 255.255.255.0"
       },
       {
         "id": "D",
@@ -504,19 +504,19 @@
       },
       {
         "id": "E",
-        "text": "Subnet mask otomatis berubah menjadi /24"
+        "text": "Sistem operasi menerima namun membatasi kecepatan download menjadi 1 Kbps"
       }
     ],
     "key": "D",
-    "explanation": "Pada /25, blok pertama adalah .0 s.d. .127. Angka .127 adalah Broadcast ID dari subnet tersebut sehingga dilarang dipasang pada host.",
-    "quickTip": "192.168.1.127/25 adalah Broadcast ID, ditolak oleh OS jika dipasang ke PC."
+    "explanation": "Pada subnet 192.168.1.0/25 (range 0 - 127), alamat 192.168.1.127 adalah alamat Broadcast ID. Sistem operasi akan menolak menetapkan alamat broadcast sebagai IP host interface.",
+    "quickTip": "Sistem operasi menolak alamat Broadcast ID (.127 pada /25) dipasang ke kartu jaringan."
   },
   {
     "id": "s16_q17",
     "number": 17,
     "type": "pg",
-    "stimulus": "Berapa banyak subnet yang dapat dibuat dari satu blok jaringan Kelas C (/24) jika disubnetting menggunakan subnet mask 255.255.255.240 (/28)?",
-    "question": "Jumlah subnet baru yang terbentuk adalah...",
+    "stimulus": "Sebuah blok IP /24 dibagi rata menggunakan prefix /28 untuk beberapa kantor cabang.",
+    "question": "Jumlah subnet baru yang terbentuk dari pembagian blok /24 menjadi /28 adalah...",
     "options": [
       {
         "id": "A",
@@ -540,14 +540,14 @@
       }
     ],
     "key": "A",
-    "explanation": "Dari /24 ke /28 meminjam 4 bit (28 - 24 = 4). Jumlah subnet = 2^4 = 16 subnet.",
-    "quickTip": "Meminjam 4 bit (/24 ke /28) = 2^4 = 16 subnet."
+    "explanation": "Jumlah bit yang dipinjam = 28 - 24 = 4 bit. Jumlah subnet baru = 2^4 = 16 subnet.",
+    "quickTip": "/24 ke /28 meminjam 4 bit: 2^4 = 16 subnet baru."
   },
   {
     "id": "s16_q18",
     "number": 18,
     "type": "pg",
-    "stimulus": "Berapa jumlah host usable per subnet pada hasil subnetting /28 tersebut?",
+    "stimulus": "Setiap kantor cabang pada skenario pembagian subnet /28 di atas memiliki subnet mask 255.255.255.240.",
     "question": "Jumlah komputer yang dapat dipasang pada setiap subnet /28 adalah...",
     "options": [
       {
@@ -572,31 +572,31 @@
       }
     ],
     "key": "B",
-    "explanation": "Sisa bit host = 32 - 28 = 4 bit. Jumlah usable host = 2^4 - 2 = 16 - 2 = 14 host.",
-    "quickTip": "Usable host /28 = 2^4 - 2 = 14 host."
+    "explanation": "Jumlah host usable per subnet /28 dihitung dengan rumus: 2^(32-28) - 2 = 2^4 - 2 = 16 - 2 = 14 host usable.",
+    "quickTip": "Subnet /28 menampung 14 host usable (16 - 2 = 14)."
   },
   {
     "id": "s16_q19",
     "number": 19,
     "type": "pg",
-    "stimulus": "Pada standar RFC 3021, diperkenalkan penggunaan subnet mask /31 (255.255.255.254) khusus untuk tautan Point-to-Point antar-router.",
+    "stimulus": "Standar RFC 3021 memperkenalkan penggunaan prefix /31 untuk tautan Point-to-Point antar-router guna menghemat ruang alamat IPv4 secara ekstrem.",
     "question": "Keuntungan teknis utama dari implementasi prefix /31 pada link Point-to-Point router adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Menaikkan kecepatan transfer kabel menjadi 10 kali lipat"
+        "text": "Menaikkan throughput antarmuka router secara fisik menjadi dua kali lipat"
       },
       {
         "id": "B",
-        "text": "Dapat menghubungkan hingga 100 router sekaligus"
+        "text": "Menghubungkan hingga 31 router sekaligus dalam satu segmen broadcast"
       },
       {
         "id": "C",
-        "text": "Memungkinkan router bekerja tanpa listrik"
+        "text": "Memungkinkan router berkomunikasi tanpa memerlukan modul transceiver optik"
       },
       {
         "id": "D",
-        "text": "Menghilangkan kebutuhan kabel fiber optik"
+        "text": "Menghilangkan kebutuhan enkripsi IPsec pada link antar-gedung"
       },
       {
         "id": "E",
@@ -604,19 +604,19 @@
       }
     ],
     "key": "E",
-    "explanation": "RFC 3021 memungkinkan link point-to-point hanya menggunakan tepat 2 alamat IP (misal .0 dan .1) tanpa membuang IP untuk network dan broadcast.",
-    "quickTip": "RFC 3021 (/31) menghemat IP pada link Point-to-Point (hanya butuh 2 IP)."
+    "explanation": "RFC 3021 mengizinkan penggunaan prefix /31 (hanya 2 alamat IP) pada tautan Point-to-Point langsung tanpa membuang alamat untuk Network dan Broadcast ID, menghemat 2 alamat IP per tautan dibanding /30.",
+    "quickTip": "Prefix /31 (RFC 3021) menghemat IP pada link point-to-point tanpa network/broadcast ID."
   },
   {
     "id": "s16_q20",
     "number": 20,
     "type": "pg",
-    "stimulus": "Sebuah host komputer memiliki konfigurasi IP: 10.10.10.10/32.",
+    "stimulus": "Dalam tabel routing router modern, sering ditemukan entri rute dengan prefix /32 (contoh: 10.255.255.1/32).",
     "question": "Arti dari konfigurasi prefix /32 (subnet mask 255.255.255.255) adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Subnet yang rusak dan tidak dapat membaca data"
+        "text": "Indikasi interface jaringan yang mengalami kerusakan hardware fisik"
       },
       {
         "id": "B",
@@ -624,146 +624,110 @@
       },
       {
         "id": "C",
-        "text": "Alamat jaringan internet dunia internasional"
+        "text": "Rute default yang mewakili seluruh alamat jaringan internet global"
       },
       {
         "id": "D",
-        "text": "Subnet yang dapat menampung 32 unit komputer"
+        "text": "Subnet yang dapat menampung tepat 32 unit workstation komputer"
       },
       {
         "id": "E",
-        "text": "Alamat gateway darurat modem"
+        "text": "Alamat penugasan multicast dinamis untuk router tetangga"
       }
     ],
     "key": "B",
-    "explanation": "Prefix /32 memiliki seluruh bit bernilai 1 (255.255.255.255), mewakili tepat satu alamat host tunggal (host route / loopback IP router).",
-    "quickTip": "Prefix /32 = Host tunggal (Single Host Route / Loopback IP)."
+    "explanation": "Prefix /32 memiliki seluruh 32 bit bernilai '1' (mask 255.255.255.255), mewakili rute ke satu host spesifik tunggal (host route), sering dipakai untuk interface Loopback router yang stabil.",
+    "quickTip": "Prefix /32 = Host route tunggal (biasa dipakai untuk Loopback interface router)."
   },
   {
     "id": "s16_q21",
     "number": 21,
     "type": "pgk_mcma",
-    "stimulus": "Perhitungan subnetting berbasis Classless Inter-Domain Routing (CIDR).",
-    "question": "Manakah pasangan antara notasi prefix CIDR dan nilai desimal subnet mask yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "stimulus": "Penerapan Variable Length Subnet Masking (VLSM) membutuhkan pemahaman karakteristik protokol routing.",
+    "question": "Manakah pernyataan yang BENAR mengenai metodologi VLSM? (Pilihlah DUA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "/27 setara dengan subnet mask 255.255.255.254"
+        "text": "VLSM hanya didukung oleh protokol routing classful lama seperti RIPv1 dan IGRP"
       },
       {
         "id": "B",
-        "text": "/25 setara dengan subnet mask 255.255.255.128"
+        "text": "VLSM memungkinkan penggunaan panjang prefix yang berbeda-beda dalam satu sistem jaringan yang sama"
       },
       {
         "id": "C",
-        "text": "/29 setara dengan subnet mask 255.255.255.240"
+        "text": "VLSM mengharuskan setiap subnet memiliki jumlah host yang persis kelipatan 256"
       },
       {
         "id": "D",
-        "text": "/26 setara dengan subnet mask 255.255.255.192"
+        "text": "VLSM membutuhkan protokol routing dinamis jenis Classless (seperti OSPF atau EIGRP) yang menyertakan informasi subnet mask"
       },
       {
         "id": "E",
-        "text": "/30 setara dengan subnet mask 255.255.255.252"
+        "text": "VLSM mewajibkan seluruh ruangan kantor menggunakan subnet mask /24 yang seragam"
       }
     ],
     "key": [
       "B",
-      "D",
-      "E"
+      "D"
     ],
-    "explanation": "/25 = .128, /26 = .192, /27 = .224 (bukan .254), /29 = .248 (bukan .240), /30 = .252.",
-    "quickTip": "/25=.128, /26=.192, /27=.224, /28=.240, /29=.248, /30=.252."
+    "explanation": "VLSM sangat fleksibel, menghemat IP dengan menyesuaikan prefix tiap subnet, dan wajib didukung protokol routing classless (OSPF, RIPv2, EIGRP, BGP) yang mengirimkan subnet mask dalam pembaruan rutenya.",
+    "quickTip": "VLSM menghemat IP dengan prefix fleksibel; butuh protokol routing classless."
   },
   {
     "id": "s16_q22",
     "number": 22,
-    "type": "pgk_mcma",
-    "stimulus": "Karakteristik subnetting menggunakan Variable Length Subnet Masking (VLSM).",
-    "question": "Manakah pernyataan yang BENAR mengenai keunggulan dan metode VLSM? (Pilihlah DUA jawaban yang benar!)",
-    "options": [
-      {
-        "id": "A",
-        "text": "VLSM mengurangi pemborosan alamat IP dengan menyesuaikan ukuran subnet sesuai kebutuhan nyata"
-      },
-      {
-        "id": "B",
-        "text": "Perancangan VLSM sebaiknya dimulai dari alokasi subnet dengan kebutuhan host terbanyak terlebih dahulu"
-      },
-      {
-        "id": "C",
-        "text": "VLSM tidak mendukung penggunaan router Cisco"
-      },
-      {
-        "id": "D",
-        "text": "VLSM mewajibkan seluruh ruangan kantor menggunakan subnet mask /24 yang seragam"
-      },
-      {
-        "id": "E",
-        "text": "VLSM hanya bisa diterapkan jika semua komputer menggunakan sistem operasi Mac OS"
-      }
-    ],
-    "key": [
-      "A",
-      "B"
-    ],
-    "explanation": "VLSM sangat fleksibel, menghemat IP dengan menyesuaikan prefix tiap subnet, dan harus dirancang mulai dari kebutuhan host terbesar.",
-    "quickTip": "VLSM menghemat IP dengan prefix fleksibel; alokasikan dari kebutuhan terbesar."
-  },
-  {
-    "id": "s16_q23",
-    "number": 23,
     "type": "pgk_mcma",
     "stimulus": "Diberikan blok subnet: 192.168.1.128/26.",
     "question": "Manakah parameter jaringan yang BENAR mengenai blok subnet 192.168.1.128/26? (Pilihlah TIGA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "Alamat 192.168.1.191 boleh dipasang pada kartu jaringan PC siswa"
-      },
-      {
-        "id": "B",
         "text": "Alamat Network ID adalah 192.168.1.128"
       },
       {
-        "id": "C",
-        "text": "Rentang host usable adalah dari 192.168.1.129 hingga 192.168.1.190"
+        "id": "B",
+        "text": "Alamat Broadcast ID adalah 192.168.1.191"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Kapasitas host usable pada subnet ini adalah tepat 128 komputer"
       },
       {
+        "id": "D",
+        "text": "Rentang host usable adalah dari 192.168.1.129 hingga 192.168.1.190"
+      },
+      {
         "id": "E",
-        "text": "Alamat Broadcast ID adalah 192.168.1.191"
+        "text": "Alamat 192.168.1.191 boleh dipasang pada kartu jaringan PC siswa"
       }
     ],
     "key": [
+      "A",
       "B",
-      "C",
-      "E"
+      "D"
     ],
-    "explanation": "/26 memiliki magic number 64. Blok .128 s.d. .191: Network .128, Broadcast .191, Usable .129 s.d. .190 (62 host). .191 adalah Broadcast sehingga tidak boleh dipasang ke PC.",
+    "explanation": "/26 memiliki magic number 64. Blok .128 s.d. .191: Network .128, Broadcast .191, Usable .129 s.d. .190 (62 host). .191 adalah Broadcast sehingga dilarang dipasang ke PC.",
     "quickTip": "192.168.1.128/26: Network=.128, Broadcast=.191, Usable=.129-.190 (62 host)."
   },
   {
-    "id": "s16_q24",
-    "number": 24,
+    "id": "s16_q23",
+    "number": 23,
     "type": "pgk_mcma",
     "stimulus": "Kebutuhan perancangan subnetting untuk kantor cabang dengan berbagai tipe tautan.",
     "question": "Manakah pemilihan prefix CIDR yang TEPAT dan efisien untuk skenario berikut? (Pilihlah DUA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "Ruang server berisi 10 unit server menggunakan prefix /28 (14 usable host)"
-      },
-      {
-        "id": "B",
         "text": "Jaringan 2 unit printer menggunakan prefix /24 (254 usable host, sangat boros)"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Link Point-to-Point antar-dua router menggunakan prefix /30 (2 usable host)"
+      },
+      {
+        "id": "C",
+        "text": "Ruang meeting berisi 50 laptop menggunakan prefix /29 (6 usable host)"
       },
       {
         "id": "D",
@@ -771,19 +735,19 @@
       },
       {
         "id": "E",
-        "text": "Ruang meeting berisi 50 laptop menggunakan prefix /29 (6 usable host)"
+        "text": "Ruang server berisi 10 unit server menggunakan prefix /28 (14 usable host)"
       }
     ],
     "key": [
-      "A",
-      "C"
+      "B",
+      "E"
     ],
     "explanation": "2 router pas pakai /30 (2 host); 10 server pas pakai /28 (14 host). 50 laptop tidak muat di /29 (cuma 6 host). 100 PC tidak muat di /27 (cuma 30 host).",
     "quickTip": "Link 2 router = /30; 10 host = /28."
   },
   {
-    "id": "s16_q25",
-    "number": 25,
+    "id": "s16_q24",
+    "number": 24,
     "type": "pgk_mcma",
     "stimulus": "Rumus matematis dasar dalam kalkulasi subnetting IPv4.",
     "question": "Manakah formula matematis yang BENAR dalam konsep subnetting? (Pilihlah DUA jawaban yang benar!)",
@@ -794,27 +758,63 @@
       },
       {
         "id": "B",
-        "text": "Subnet mask /24 selalu memiliki 1000 host usable"
+        "text": "Subnet mask /24 selalu menyediakan 1000 host usable"
       },
       {
         "id": "C",
-        "text": "Jumlah subnet yang terbentuk = 2 * x"
-      },
-      {
-        "id": "D",
         "text": "Jumlah total IP dalam subnet = 2^y (di mana y adalah jumlah bit host yang tersisa)"
       },
       {
+        "id": "D",
+        "text": "Jumlah host usable selalu bernilai bilangan ganjil pada setiap subnet"
+      },
+      {
         "id": "E",
-        "text": "Jumlah host usable selalu ganjil pada setiap subnet"
+        "text": "Jumlah subnet yang terbentuk dihitung dengan rumus 2 dikali jumlah bit subnet"
       }
     ],
     "key": [
       "A",
+      "C"
+    ],
+    "explanation": "Total IP = 2^y, Usable host = 2^y - 2. Jumlah subnet adalah 2^x (eksponen, bukan perkalian 2*x). Usable host selalu bernilai genap.",
+    "quickTip": "Rumus dasar: Total IP = 2^y; Usable host = 2^y - 2."
+  },
+  {
+    "id": "s16_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Subnet mask membatasi jumlah host dan memecah ruang alamat IP menjadi beberapa broadcast domain terpisah.",
+    "question": "Manakah pasangan prefix CIDR dan jumlah host usable yang BENAR? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prefix /26 menyediakan 62 host usable"
+      },
+      {
+        "id": "B",
+        "text": "Prefix /28 menyediakan 28 host usable"
+      },
+      {
+        "id": "C",
+        "text": "Prefix /27 menyediakan 30 host usable"
+      },
+      {
+        "id": "D",
+        "text": "Prefix /25 menyediakan 126 host usable"
+      },
+      {
+        "id": "E",
+        "text": "Prefix /29 menyediakan 14 host usable"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
       "D"
     ],
-    "explanation": "Total IP = 2^y, Usable host = 2^y - 2. Jumlah subnet adalah 2^x (bukan 2*x). Usable host selalu bernilai genap.",
-    "quickTip": "Rumus dasar: Total IP = 2^y; Usable host = 2^y - 2."
+    "explanation": "/25 = 2^7 - 2 = 126 host; /26 = 2^6 - 2 = 62 host; /27 = 2^5 - 2 = 30 host. /28 adalah 14 host (bukan 28), dan /29 adalah 6 host (bukan 14).",
+    "quickTip": "Usable host: /25 = 126, /26 = 62, /27 = 30, /28 = 14, /29 = 6."
   },
   {
     "id": "s16_q26",
@@ -861,7 +861,7 @@
       },
       {
         "id": "st3",
-        "text": "Komputer diizinkan menggunakan alamat Broadcast ID sebagai alamat IP asalkan koneksinya cepat.",
+        "text": "Komputer diizinkan menggunakan alamat Broadcast ID sebagai alamat IP antarmuka asalkan koneksinya cepat.",
         "correct": "S"
       }
     ],
@@ -887,7 +887,7 @@
       },
       {
         "id": "st3",
-        "text": "VLSM hanya bisa digunakan pada jaringan yang tidak memiliki router.",
+        "text": "VLSM adalah metode yang hanya dapat digunakan pada switch unmanaged tanpa melibatkan router.",
         "correct": "S"
       }
     ],
@@ -939,7 +939,7 @@
       },
       {
         "id": "st3",
-        "text": "Link antar dua router wajib menggunakan subnet mask /16 agar paket data tidak hilang.",
+        "text": "Link antar dua router Point-to-Point wajib menggunakan subnet mask /16 agar paket data tidak mengalami buffer overflow.",
         "correct": "S"
       }
     ],

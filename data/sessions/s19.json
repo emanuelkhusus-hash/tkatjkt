@@ -3,24 +3,24 @@
     "id": "s19_q1",
     "number": 1,
     "type": "pg",
-    "stimulus": "Switch jaringan bekerja dengan cara membaca dan mencatat alamat perangkat yang terhubung ke setiap port fisiknya.",
+    "stimulus": "Ketika frame Ethernet memasuki port switch, switch membaca header frame untuk memetakan lokasi fisik komputer pengirim.",
     "question": "Tabel memori internal tempat switch menyimpan pemetaan antara port fisik dan alamat fisik kartu jaringan disebut...",
     "options": [
       {
         "id": "A",
-        "text": "Routing Table (Tabel Rute IP)"
+        "text": "Routing Table (Tabel Rute Protokol IP Layer 3)"
       },
       {
         "id": "B",
-        "text": "DNS Cache Table"
+        "text": "DNS Cache Table (Pemetaan Nama Domain)"
       },
       {
         "id": "C",
-        "text": "DHCP Lease Table"
+        "text": "DHCP Binding Lease Table"
       },
       {
         "id": "D",
-        "text": "ARP Cache Table Komputer"
+        "text": "ARP Cache Table Komputer Klien"
       },
       {
         "id": "E",
@@ -28,14 +28,14 @@
       }
     ],
     "key": "E",
-    "explanation": "Switch menyimpan asosiasi antara MAC Address perangkat dan port fisik tempat frame tersebut masuk ke dalam MAC Address Table (CAM Table).",
-    "quickTip": "Tabel pemetaan port dan MAC address di switch = CAM Table / MAC Address Table."
+    "explanation": "Switch menyimpan pemetaan antara MAC address dan nomor port fisik di dalam CAM Table (Content Addressable Memory), yang sering disebut juga sebagai MAC Address Table.",
+    "quickTip": "Switch menyimpan pemetaan MAC ke port di dalam CAM Table (MAC Address Table)."
   },
   {
     "id": "s19_q2",
     "number": 2,
     "type": "pg",
-    "stimulus": "Ketika sebuah switch baru pertama kali dinyalakan dan menerima frame unicast dengan alamat tujuan MAC yang belum tercatat di dalam tabel MAC-nya.",
+    "stimulus": "Sebuah frame unicast tiba di port 1 switch dengan alamat MAC tujuan 00:1A:2B:3C:4D:5E yang belum terdaftar di tabel CAM switch.",
     "question": "Tindakan yang dilakukan oleh switch terhadap frame unicast yang tujuannya belum dikenal (Unknown Unicast) tersebut adalah...",
     "options": [
       {
@@ -44,30 +44,30 @@
       },
       {
         "id": "B",
-        "text": "Mengubah alamat tujuan menjadi alamat MAC switch"
+        "text": "Mengubah alamat MAC tujuan menjadi alamat broadcast FF:FF:FF:FF:FF:FF"
       },
       {
         "id": "C",
-        "text": "Mematikan daya listrik switch secara otomatis"
+        "text": "Menyimpan frame secara permanen di NVRAM hingga host tujuan mengirim paket baru"
       },
       {
         "id": "D",
-        "text": "Mengirimkan frame hanya ke port nomor 1 saja"
+        "text": "Mengirimkan frame hanya ke port nomor 1 tempat frame tersebut pertama kali masuk"
       },
       {
         "id": "E",
-        "text": "Langsung membuang (drop) frame tersebut ke tempat sampah memori"
+        "text": "Langsung membuang (drop) frame tersebut dan mengirimkan pesan ICMP Port Unreachable"
       }
     ],
     "key": "A",
-    "explanation": "Jika MAC tujuan belum ada di tabel (unknown unicast), switch melakukan flooding ke semua port lain dalam broadcast domain yang sama untuk menemukan tujuannya.",
-    "quickTip": "MAC tujuan belum ada di tabel = Switch melakukan Flooding ke semua port."
+    "explanation": "Jika alamat MAC tujuan tidak ada di CAM Table (Unknown Unicast), switch akan membanjiri (flooding) frame tersebut ke semua port aktif dalam VLAN yang sama kecuali port penerima asal.",
+    "quickTip": "Unknown Unicast akan di-flooding ke seluruh port dalam VLAN yang sama kecuali port asal."
   },
   {
     "id": "s19_q3",
     "number": 3,
     "type": "pg",
-    "stimulus": "Pemisahan domain jaringan menjadi faktor penting dalam menganalisis kinerja dan potensi tabrakan data.",
+    "stimulus": "Penggunaan switch menggantikan hub lawas membawa perubahan mendasar pada pembagian collision domain dan broadcast domain.",
     "question": "Pernyataan yang BENAR mengenai Collision Domain dan Broadcast Domain pada sebuah switch unmanaged 24-port standar adalah...",
     "options": [
       {
@@ -76,7 +76,7 @@
       },
       {
         "id": "B",
-        "text": "Tidak memiliki Collision Domain maupun Broadcast Domain"
+        "text": "Tidak memiliki Collision Domain maupun Broadcast Domain sama sekali"
       },
       {
         "id": "C",
@@ -84,22 +84,22 @@
       },
       {
         "id": "D",
-        "text": "Memiliki 24 Collision Domain dan 24 Broadcast Domain"
+        "text": "Memiliki 24 Collision Domain terpisah dan 24 Broadcast Domain terpisah"
       },
       {
         "id": "E",
-        "text": "Memiliki 1 Collision Domain dan 1 Broadcast Domain saja"
+        "text": "Memiliki 1 Collision Domain tunggal dan 1 Broadcast Domain tunggal"
       }
     ],
     "key": "A",
-    "explanation": "Setiap port switch memisahkan collision domain (24 collision domain), namun secara default seluruh port berada dalam satu broadcast domain yang sama.",
-    "quickTip": "Switch 24-port = 24 Collision Domain terpisah dan 1 Broadcast Domain bersama."
+    "explanation": "Setiap port switch adalah collision domain mandiri (microsegmentation, 24 collision domain), namun secara default seluruh port switch berada dalam satu broadcast domain tunggal.",
+    "quickTip": "Switch 24-port default: 24 Collision Domain, 1 Broadcast Domain."
   },
   {
     "id": "s19_q4",
     "number": 4,
     "type": "pg",
-    "stimulus": "Untuk memecah satu broadcast domain fisik menjadi beberapa broadcast domain logis pada switch yang sama digunakan teknologi Virtual LAN.",
+    "stimulus": "Agar beberapa VLAN dapat melintasi satu kabel trunk antarswitch, frame Ethernet harus disisipkan penanda identitas VLAN 4-byte.",
     "question": "Standar protokol internasional IEEE untuk penandaan identitas VLAN (VLAN Tagging) pada frame Ethernet adalah...",
     "options": [
       {
@@ -108,30 +108,30 @@
       },
       {
         "id": "B",
-        "text": "IEEE 802.11ax"
+        "text": "IEEE 802.11ax (Wi-Fi 6)"
       },
       {
         "id": "C",
-        "text": "IEEE 802.3af"
+        "text": "IEEE 802.3af (Power over Ethernet)"
       },
       {
         "id": "D",
-        "text": "IEEE 802.3ad"
+        "text": "IEEE 802.3ad (Link Aggregation LACP)"
       },
       {
         "id": "E",
-        "text": "IEEE 802.1D"
+        "text": "IEEE 802.1D (Classic Spanning Tree)"
       }
     ],
     "key": "A",
-    "explanation": "IEEE 802.1Q adalah standar industri untuk VLAN tagging yang menyisipkan 4-byte tag field ke dalam frame header Ethernet asli.",
-    "quickTip": "Standar VLAN Tagging = IEEE 802.1Q (Dot1Q)."
+    "explanation": "Standar internasional terbuka untuk VLAN tagging adalah IEEE 802.1Q (sering disingkat Dot1Q), yang menyisipkan tag 4-byte ke dalam header frame Ethernet.",
+    "quickTip": "VLAN Tagging berstandar IEEE 802.1Q (Dot1Q)."
   },
   {
     "id": "s19_q5",
     "number": 5,
     "type": "pg",
-    "stimulus": "Dalam header penandaan IEEE 802.1Q, dialokasikan sejumlah bit biner untuk field VLAN ID (VID).",
+    "stimulus": "Di dalam header tag IEEE 802.1Q terdapat field VLAN Identifier (VID) yang menentukan batasan jumlah VLAN maksimum yang dapat dibuat.",
     "question": "Jumlah bit yang dialokasikan untuk VLAN ID dan rentang nilai ID VLAN yang valid adalah...",
     "options": [
       {
@@ -156,27 +156,27 @@
       }
     ],
     "key": "A",
-    "explanation": "Field VID terdiri dari 12 bit (2^12 = 4096 nilai). ID 0 dan 4095 dicadangkan, sehingga rentang VLAN yang dapat digunakan adalah 1 hingga 4094.",
-    "quickTip": "VLAN ID = 12 bit (rentang nilai 1 s.d. 4094)."
+    "explanation": "VLAN ID berukuran 12 bit (2^12 = 4096 nilai). ID 0 dan 4095 dicadangkan, sehingga rentang ID VLAN yang valid dan dapat digunakan adalah 1 hingga 4094.",
+    "quickTip": "VLAN ID berukuran 12 bit, rentang nilai valid: 1 s.d. 4094."
   },
   {
     "id": "s19_q6",
     "number": 6,
     "type": "pg",
-    "stimulus": "Port switch yang dihubungkan langsung ke perangkat akhir pengguna (seperti PC, laptop siswa, atau printer kantor) diatur pada mode port tertentu.",
+    "stimulus": "Port switch yang terhubung langsung ke komputer workstation pengguna hanya boleh menerima dan mengirim data dalam satu VLAN tanpa tag.",
     "question": "Tipe mode antarmuka port switch yang hanya membawa data dari tepat satu VLAN tanpa menyertakan tag 802.1Q ke komputer adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Mode Mirror Port"
+        "text": "Mode Mirror Port SPAN"
       },
       {
         "id": "B",
-        "text": "Mode Stacking Port"
+        "text": "Mode Stacking Fabric Port"
       },
       {
         "id": "C",
-        "text": "Mode Trunk"
+        "text": "Mode Trunk Multiplexing"
       },
       {
         "id": "D",
@@ -188,19 +188,19 @@
       }
     ],
     "key": "D",
-    "explanation": "Access Port hanya menjadi anggota dari 1 VLAN dan mengirimkan frame untagged standar ke perangkat akhir yang tidak mengerti tag 802.1Q.",
-    "quickTip": "Port switch menuju komputer pengguna = Port Mode Access."
+    "explanation": "Port mode Access hanya menjadi anggota satu VLAN tunggal dan mengirimkan frame standar tanpa tag (untagged) ke perangkat endpoint.",
+    "quickTip": "Port Access membawa 1 VLAN tunggal tanpa tag ke perangkat pengguna."
   },
   {
     "id": "s19_q7",
     "number": 7,
     "type": "pg",
-    "stimulus": "Untuk menghubungkan dua switch yang membawa beberapa traffic VLAN berbeda melalui satu bentangan kabel patch cord tunggal.",
+    "stimulus": "Dua switch di gedung berbeda dihubungkan dengan satu kabel serat optik yang harus membawa lalu lintas VLAN 10, VLAN 20, dan VLAN 30 sekaligus.",
     "question": "Tipe mode antarmuka port switch penghubung antar-switch tersebut harus diatur pada...",
     "options": [
       {
         "id": "A",
-        "text": "Mode Half Duplex"
+        "text": "Mode Promiscuous"
       },
       {
         "id": "B",
@@ -220,14 +220,14 @@
       }
     ],
     "key": "B",
-    "explanation": "Trunk Port berfungsi sebagai pipa pembawa banyak VLAN antar-switch (atau switch ke router) dengan menyematkan tag VLAN ID 802.1Q pada setiap frame.",
-    "quickTip": "Port penghubung antar-switch yang membawa multi-VLAN = Port Mode Trunk."
+    "explanation": "Port Trunk dirancang khusus untuk interkoneksi antarswitch atau switch-ke-router guna membawa frame dari banyak VLAN secara bersamaan menggunakan tag 802.1Q.",
+    "quickTip": "Port Trunk membawa banyak VLAN antar-switch secara bersamaan."
   },
   {
     "id": "s19_q8",
     "number": 8,
     "type": "pg",
-    "stimulus": "Pada port trunk IEEE 802.1Q, terdapat satu VLAN khusus di mana lalu lintas datanya dilewatkan tanpa disematkan tag identitas (Untagged Frame).",
+    "stimulus": "Pada port trunk IEEE 802.1Q, ada satu VLAN yang frame datanya tetap dikirimkan tanpa tag penanda (untagged).",
     "question": "Istilah untuk VLAN default tanpa tag pada tautan trunk tersebut adalah...",
     "options": [
       {
@@ -244,7 +244,7 @@
       },
       {
         "id": "D",
-        "text": "Super VLAN"
+        "text": "Super VLAN Dedicated"
       },
       {
         "id": "E",
@@ -252,31 +252,31 @@
       }
     ],
     "key": "B",
-    "explanation": "Native VLAN adalah VLAN pada trunk port yang frame-nya tidak diberi tag 802.1Q saat ditransmisikan (default-nya adalah VLAN 1).",
-    "quickTip": "VLAN yang lewat trunk tanpa tag = Native VLAN (default VLAN 1)."
+    "explanation": "Native VLAN adalah VLAN pada link trunk 802.1Q yang lalu lintasnya tidak diberi tag (untagged frame). Secara default, Native VLAN pada switch adalah VLAN 1.",
+    "quickTip": "Native VLAN = VLAN yang lalu lintasnya untagged pada link trunk (default: VLAN 1)."
   },
   {
     "id": "s19_q9",
     "number": 9,
     "type": "pg",
-    "stimulus": "Perangkat komputer pada VLAN 10 (Siswa) tidak dapat berkomunikasi langsung dengan komputer pada VLAN 20 (Guru) pada switch yang sama tanpa perangkat Layer 3.",
+    "stimulus": "VLAN memisahkan broadcast domain secara logis sehingga komputer di VLAN 10 tidak dapat berkomunikasi dengan komputer di VLAN 20.",
     "question": "Perangkat jaringan yang dibutuhkan untuk menghubungkan komunikasi antar-VLAN (Inter-VLAN Routing) adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Hub 8-port pasif"
+        "text": "Unmanaged Switch Access Layer 2"
       },
       {
         "id": "B",
-        "text": "Antena grid nirkabel"
+        "text": "Passive Optical Splitter 1:8"
       },
       {
         "id": "C",
-        "text": "Repeater penguat sinyal kabel"
+        "text": "Repeater Penguat Sinyal Kabel"
       },
       {
         "id": "D",
-        "text": "Modem ADSL eksternal"
+        "text": "Media Converter Fast Ethernet"
       },
       {
         "id": "E",
@@ -284,23 +284,23 @@
       }
     ],
     "key": "E",
-    "explanation": "Karena tiap VLAN merupakan subnet dan broadcast domain yang berbeda, komunikasi antar-VLAN memerlukan fungsi perutean Layer 3 (Router atau Switch L3).",
-    "quickTip": "Menghubungkan antar-VLAN yang berbeda butuh Router atau Switch Layer 3."
+    "explanation": "Komunikasi antar-VLAN adalah komunikasi antarsubnet logis yang berbeda, sehingga mutlak membutuhkan perangkat Layer 3 seperti Router atau Switch Multilayer (Layer 3 Switch).",
+    "quickTip": "Komunikasi antar-VLAN (Inter-VLAN routing) membutuhkan Router atau Switch Layer 3."
   },
   {
     "id": "s19_q10",
     "number": 10,
     "type": "pg",
-    "stimulus": "Metode routing antar-VLAN yang menggunakan satu router fisik tunggal dengan satu kabel fisik yang dihubungkan ke port trunk switch dinamakan...",
+    "stimulus": "Metode routing antar-VLAN klasik menggunakan sebuah router fisik yang terhubung ke switch melalui satu kabel trunk tunggal.",
     "question": "Nama metode inter-VLAN routing menggunakan sub-interface virtual pada router tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Default Route Gateway"
+        "text": "Default Route Fallback"
       },
       {
         "id": "B",
-        "text": "Point-to-Point Tunnel"
+        "text": "Point-to-Point GRE Tunnel"
       },
       {
         "id": "C",
@@ -316,19 +316,19 @@
       }
     ],
     "key": "E",
-    "explanation": "Router-on-a-Stick membagi satu antarmuka fisik router menjadi beberapa sub-interface logis (misal g0/0.10 dan g0/0.20) dengan enkapsulasi dot1q.",
-    "quickTip": "Inter-VLAN routing 1 kabel ke router via sub-interface = Router-on-a-Stick."
+    "explanation": "Router-on-a-Stick adalah arsitektur di mana satu interface fisik router dibagi menjadi beberapa sub-interface logis (misal g0/0.10, g0/0.20) untuk merutekan traffic antartrunk VLAN.",
+    "quickTip": "Router-on-a-Stick: 1 interface router fisik dibagi menjadi beberapa sub-interface trunk."
   },
   {
     "id": "s19_q11",
     "number": 11,
     "type": "pg",
-    "stimulus": "Pada konfigurasi sub-interface router Cisco untuk Router-on-a-Stick, perintah wajib untuk mengasosiasikan sub-interface dengan VLAN ID 10 adalah...",
+    "stimulus": "Saat mengonfigurasi sub-interface pada router untuk metode Router-on-a-Stick, administrator harus mengaitkan sub-interface tersebut dengan ID VLAN 10.",
     "question": "Sintaks perintah CLI yang tepat pada sub-interface router tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "vlan access 10"
+        "text": "switchport access vlan 10"
       },
       {
         "id": "B",
@@ -336,7 +336,7 @@
       },
       {
         "id": "C",
-        "text": "ip vlan route 10"
+        "text": "ip vlan route 10 dot1q"
       },
       {
         "id": "D",
@@ -348,14 +348,14 @@
       }
     ],
     "key": "D",
-    "explanation": "Perintah `encapsulation dot1Q 10` memberitahu router untuk memproses dan menandai frame yang keluar-masuk sub-interface tersebut dengan tag VLAN 10.",
-    "quickTip": "Sintaks sub-interface router: encapsulation dot1Q <vlan-id>."
+    "explanation": "Perintah pada sub-interface router (contoh: int g0/0.10) adalah 'encapsulation dot1Q <vlan-id>' untuk menentukan penandaan tag IEEE 802.1Q sebelum menetapkan IP address.",
+    "quickTip": "Perintah pada sub-interface router: encapsulation dot1Q <vlan-id>."
   },
   {
     "id": "s19_q12",
     "number": 12,
     "type": "pg",
-    "stimulus": "Pada Switch Multilayer (Layer 3 Switch), antarmuka logis IP gateway yang dibuat untuk mewakili tiap VLAN di dalam switch disebut...",
+    "stimulus": "Switch Layer 3 modern mampu merutekan paket antar-VLAN di tingkat perangkat keras menggunakan antarmuka virtual internal tanpa router luar.",
     "question": "Nama antarmuka virtual perutean internal switch layer 3 tersebut adalah...",
     "options": [
       {
@@ -380,14 +380,14 @@
       }
     ],
     "key": "D",
-    "explanation": "SVI dikonfigurasi dengan perintah `interface vlan 10` lalu diberi `ip address`, bertindak sebagai default gateway lokal tanpa butuh router eksternal.",
-    "quickTip": "Gateway VLAN di dalam Switch Layer 3 = SVI (Switched Virtual Interface)."
+    "explanation": "SVI (Switched Virtual Interface) adalah interface logis Layer 3 pada switch multilayer yang dikonfigurasikan dengan perintah 'interface vlan <id>' dan diberi IP default gateway.",
+    "quickTip": "SVI (Switched Virtual Interface) = Interface VLAN Layer 3 pada switch multilayer."
   },
   {
     "id": "s19_q13",
     "number": 13,
     "type": "pg",
-    "stimulus": "Fitur keamanan switch yang membatasi jumlah dan alamat MAC Address tertentu yang diizinkan terhubung ke sebuah port fisik disebut...",
+    "stimulus": "Untuk mencegah pengguna asing mencolokkan laptop pribadi ke stopkontak LAN kantor, administrator mengunci port switch hanya untuk satu MAC Address terdaftar.",
     "question": "Nama fitur penguncian MAC pada port switch tersebut adalah...",
     "options": [
       {
@@ -400,7 +400,7 @@
       },
       {
         "id": "C",
-        "text": "Storm Control"
+        "text": "Storm Control Broadcast"
       },
       {
         "id": "D",
@@ -412,14 +412,14 @@
       }
     ],
     "key": "D",
-    "explanation": "Port Security mengamankan port switch agar hanya dapat diakses oleh MAC address terdaftar (misal PC tertentu), dan memblokir port jika ada perangkat asing mencolokkan kabel.",
-    "quickTip": "Membatasi akses port hanya untuk MAC tertentu = Port Security."
+    "explanation": "Port Security pada switch Cisco membatasi perangkat yang boleh terhubung ke port access berdasarkan MAC Address yang diizinkan (statis atau sticky).",
+    "quickTip": "Port Security mengunci port switch berdasarkan MAC Address perangkat."
   },
   {
     "id": "s19_q14",
     "number": 14,
     "type": "pg",
-    "stimulus": "Saat terjadi pelanggaran (violation) pada Port Security di mana ada komputer asing tak dikenal dicolokkan ke port switch.",
+    "stimulus": "Ketika terjadi pelanggaran keamanan port di mana laptop asing dicolokkan ke port switch yang terproteksi Port Security.",
     "question": "Mode penanganan pelanggaran (violation mode) default pada switch Cisco yang langsung mematikan port (status err-disabled) dan mencatat log adalah...",
     "options": [
       {
@@ -444,15 +444,15 @@
       }
     ],
     "key": "E",
-    "explanation": "Mode `shutdown` langsung mematikan port (lampu port mati/oranye dan status err-disable), mengirim SNMP trap, dan mencatat pelanggaran di syslog.",
-    "quickTip": "Violation mode yang mematikan port seketika = Shutdown (err-disabled)."
+    "explanation": "Mode default Port Security violation adalah 'shutdown', yang langsung mematikan port ke status 'err-disabled', menaikkan counter pelanggaran, dan mengirimkan notifikasi SNMP trap/Syslog.",
+    "quickTip": "Mode default Port Security: Shutdown (port langsung err-disabled)."
   },
   {
     "id": "s19_q15",
     "number": 15,
     "type": "pg",
-    "stimulus": "Fitur keamanan switch Layer 2 yang membedakan port terpercaya (trusted) tempat DHCP Server resmi berada dengan port pengguna (untrusted) untuk mencegah Rogue DHCP Server adalah...",
-    "question": "Nama fitur perlindungan terhadap server DHCP palsu tersebut adalah...",
+    "stimulus": "Seorang penyerang memasang router nirkabel nakal (Rogue DHCP Server) di jaringan kantor yang membagikan IP dan gateway palsu kepada pengguna lain.",
+    "question": "Nama fitur keamanan switch Layer 2 yang memfilter pesan balasan DHCP hanya dari port yang tepercaya (trusted port) adalah...",
     "options": [
       {
         "id": "A",
@@ -476,27 +476,27 @@
       }
     ],
     "key": "D",
-    "explanation": "DHCP Snooping memblokir pesan DHCP Offer dari port 'untrusted', memastikan klien hanya mendapatkan IP dari DHCP server sah di port 'trusted'.",
-    "quickTip": "Mencegah DHCP Server palsu di jaringan switch = DHCP Snooping."
+    "explanation": "DHCP Snooping mengelompokkan port switch menjadi 'trusted' (terhubung ke server DHCP resmi) dan 'untrusted' (port pengguna), serta memblokir paket DHCP Offer/ACK dari port untrusted.",
+    "quickTip": "DHCP Snooping menangkal serangan server DHCP palsu (rogue DHCP)."
   },
   {
     "id": "s19_q16",
     "number": 16,
     "type": "pg",
-    "stimulus": "Untuk mengamati dan menganalisis paket data yang lewat pada port tertentu menggunakan software Wireshark tanpa memutus koneksi.",
+    "stimulus": "Untuk menganalisis lalu lintas jaringan yang mencurigakan menggunakan aplikasi Wireshark tanpa memutus koneksi pengguna.",
     "question": "Fitur switch yang menggandakan seluruh traffic dari port sumber ke port monitor tujuan disebut...",
     "options": [
       {
         "id": "A",
-        "text": "Port Forwarding"
+        "text": "Port Forwarding NAT"
       },
       {
         "id": "B",
-        "text": "Port Aggregation"
+        "text": "Port Aggregation EtherChannel"
       },
       {
         "id": "C",
-        "text": "Port Security"
+        "text": "Port Security Sticky"
       },
       {
         "id": "D",
@@ -504,18 +504,18 @@
       },
       {
         "id": "E",
-        "text": "Port Triggering"
+        "text": "Port Triggering Application"
       }
     ],
     "key": "D",
-    "explanation": "Port Mirroring (SPAN) menyalin seluruh frame yang masuk/keluar dari port target ke port lain yang terhubung ke laptop teknisi penganalisis paket.",
-    "quickTip": "Menggandakan traffic port untuk analisa Wireshark = Port Mirroring (SPAN)."
+    "explanation": "Port Mirroring (pada Cisco disebut SPAN / Switched Port Analyzer) menyalin seluruh paket yang masuk atau keluar dari satu atau beberapa port ke port khusus tempat sniffer/Wireshark terpasang.",
+    "quickTip": "Port Mirroring (SPAN) menyalin lalu lintas data port ke port analisis/Wireshark."
   },
   {
     "id": "s19_q17",
     "number": 17,
     "type": "pg",
-    "stimulus": "Protokol manajemen VLAN Cisco lawas yang menyinkronkan penambahan dan penghapusan database VLAN ke seluruh switch dalam satu domain VTP adalah...",
+    "stimulus": "Pada jaringan skala besar dengan puluhan switch, administrator ingin menyinkronkan pembuatan dan penghapusan VLAN dari satu switch sentral.",
     "question": "Nama protokol manajemen basis data VLAN tersebut adalah...",
     "options": [
       {
@@ -540,19 +540,19 @@
       }
     ],
     "key": "B",
-    "explanation": "VTP mendistribusikan informasi konfigurasi VLAN (VLAN database) di seluruh switch dalam domain VTP yang sama melalui port trunk.",
-    "quickTip": "Sinkronisasi database VLAN antar-switch = VTP (VLAN Trunking Protocol)."
+    "explanation": "VTP (VLAN Trunking Protocol) adalah protokol proprietary Cisco yang menyinkronkan konfigurasi database VLAN (tambah, edit, hapus) di seluruh switch dalam satu domain VTP.",
+    "quickTip": "VTP menyinkronkan database VLAN di seluruh switch dalam satu domain."
   },
   {
     "id": "s19_q18",
     "number": 18,
     "type": "pg",
-    "stimulus": "Sebuah port switch disetel pada mode Trunk. Namun administrator ingin membatasi hanya VLAN 10 dan VLAN 20 saja yang boleh melintasi kabel tersebut.",
+    "stimulus": "Untuk menghemat bandwidth dan meningkatkan keamanan pada link trunk antarswitch, administrator membatasi hanya VLAN 10 dan VLAN 20 yang boleh melintas.",
     "question": "Perintah CLI switch Cisco yang digunakan untuk membatasi VLAN pada trunk adalah...",
     "options": [
       {
         "id": "A",
-        "text": "vlan filter 10 20"
+        "text": "vlan filter 10 20 permit"
       },
       {
         "id": "B",
@@ -564,27 +564,27 @@
       },
       {
         "id": "D",
-        "text": "no switchport vlan all"
+        "text": "no switchport vlan all except 10 20"
       },
       {
         "id": "E",
-        "text": "traffic-filter vlan 10 20"
+        "text": "traffic-filter vlan 10 20 inbound"
       }
     ],
     "key": "C",
-    "explanation": "Perintah `switchport trunk allowed vlan` membatasi lalu lintas pada trunk sehingga hanya VLAN yang ditentukan yang diizinkan lewat.",
-    "quickTip": "Membatasi VLAN pada trunk: switchport trunk allowed vlan <daftar-vlan>."
+    "explanation": "Perintah 'switchport trunk allowed vlan 10,20' membatasi link trunk agar hanya meneruskan frame milik VLAN 10 dan 20.",
+    "quickTip": "Gunakan 'switchport trunk allowed vlan <daftar-vlan>' untuk memfilter traffic trunk."
   },
   {
     "id": "s19_q19",
     "number": 19,
     "type": "pg",
-    "stimulus": "Teknisi ingin memeriksa tabel MAC address yang sedang aktif dipelajari oleh switch Cisco melalui console.",
+    "stimulus": "Teknisi ingin memeriksa alamat MAC perangkat apa saja yang saat ini terdeteksi aktif pada setiap port switch Cisco.",
     "question": "Perintah privileged EXEC mode yang tepat untuk menampilkan tabel MAC tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "show ip route"
+        "text": "show ip route static"
       },
       {
         "id": "B",
@@ -604,14 +604,14 @@
       }
     ],
     "key": "D",
-    "explanation": "Perintah `show mac address-table` menampilkan daftar alamat MAC yang dipelajari, port asosiasinya, dan VLAN masing-masing.",
-    "quickTip": "Melihat tabel MAC di switch Cisco = show mac address-table."
+    "explanation": "Perintah 'show mac address-table' menampilkan seluruh entri tabel CAM switch, mencakup VLAN, MAC address, tipe (dinamis/statis), dan nomor port fisik.",
+    "quickTip": "Tampilkan tabel MAC switch dengan perintah: show mac address-table."
   },
   {
     "id": "s19_q20",
     "number": 20,
     "type": "pg",
-    "stimulus": "Teknisi ingin memverifikasi daftar VLAN yang sudah dibuat pada switch Cisco beserta port-port yang menjadi anggotanya.",
+    "stimulus": "Administrator ingin memverifikasi VLAN apa saja yang telah dibuat di switch dan port mana saja yang telah dialokasikan ke masing-masing VLAN.",
     "question": "Perintah CLI ringkas yang paling tepat untuk melihat status ringkasan VLAN adalah...",
     "options": [
       {
@@ -620,7 +620,7 @@
       },
       {
         "id": "B",
-        "text": "show version"
+        "text": "show version hardware"
       },
       {
         "id": "C",
@@ -636,141 +636,141 @@
       }
     ],
     "key": "A",
-    "explanation": "Perintah `show vlan brief` menyajikan tabel ringkas seluruh VLAN ID, nama VLAN, status aktif, dan daftar port access anggota masing-masing VLAN.",
-    "quickTip": "Melihat ringkasan seluruh VLAN dan anggotanya = show vlan brief."
+    "explanation": "Perintah 'show vlan brief' menampilkan tabel ringkas berisi nomor ID VLAN, nama VLAN, status aktif, dan daftar port access yang terpasang pada VLAN tersebut.",
+    "quickTip": "Tampilkan ringkasan status VLAN dengan perintah: show vlan brief."
   },
   {
     "id": "s19_q21",
     "number": 21,
     "type": "pgk_mcma",
-    "stimulus": "Karakteristik dan manfaat penerapan Virtual LAN (VLAN) pada switch terkelola.",
-    "question": "Manakah yang MERUPAKAN keuntungan utama dari penerapan VLAN? (Pilihlah TIGA jawaban yang benar!)",
+    "stimulus": "Perbedaan fungsi antarmuka mode Access dan Trunk pada switch VLAN.",
+    "question": "Manakah pernyataan yang BENAR mengenai port Access dan port Trunk? (Pilihlah DUA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "Menghemat biaya pengadaan switch fisik untuk membedakan departemen kantor"
+        "text": "Port Access dirancang khusus untuk interkoneksi backbone antarswitch core"
       },
       {
         "id": "B",
-        "text": "Menghilangkan kebutuhan kabel fiber optik di seluruh dunia"
+        "text": "Port Trunk menghapus seluruh isi data pada paket sebelum diteruskan"
       },
       {
         "id": "C",
-        "text": "Meningkatkan keamanan dengan mengisolasi traffic antar-kelompok pengguna secara logis"
+        "text": "Port Trunk membawa frame dengan tag 802.1Q dan dapat mengalirkan banyak VLAN sekaligus"
       },
       {
         "id": "D",
-        "text": "Menambah kapasitas daya listrik baterai laptop pengguna"
+        "text": "Port Access dapat membawa hingga 1000 VLAN sekaligus ke komputer pengguna"
       },
       {
         "id": "E",
-        "text": "Membatasi luas penyebaran badai broadcast (memecah Broadcast Domain)"
+        "text": "Port Access membawa frame tanpa tag (untagged) dan hanya menjadi anggota satu VLAN"
       }
     ],
     "key": [
-      "A",
       "C",
       "E"
-    ],
-    "explanation": "Keuntungan VLAN: Memecah broadcast domain, meningkatkan keamanan segmen, dan efisiensi biaya infrastruktur fisik.",
-    "quickTip": "Manfaat VLAN: Memperkecil broadcast domain, isolasi keamanan, dan hemat hardware."
-  },
-  {
-    "id": "s19_q22",
-    "number": 22,
-    "type": "pgk_mcma",
-    "stimulus": "Perbedaan konfigurasi antara Port Access dan Port Trunk pada switch.",
-    "question": "Manakah pernyataan yang BENAR mengenai Port Access dan Port Trunk? (Pilihlah DUA jawaban yang benar!)",
-    "options": [
-      {
-        "id": "A",
-        "text": "Port Trunk digunakan untuk koneksi antar-switch atau switch ke router dan membawa banyak VLAN bertag 802.1Q"
-      },
-      {
-        "id": "B",
-        "text": "Port Access dapat membawa hingga 50 VLAN sekaligus ke satu kartu jaringan komputer standar"
-      },
-      {
-        "id": "C",
-        "text": "Port Trunk selalu mematikan seluruh aliran data jaringan"
-      },
-      {
-        "id": "D",
-        "text": "Port Access biasanya dihubungkan ke perangkat akhir pengguna dan tidak menambahkan tag 802.1Q pada frame"
-      },
-      {
-        "id": "E",
-        "text": "Port Trunk wajib selalu dihubungkan langsung ke printer cetak kertas"
-      }
-    ],
-    "key": [
-      "A",
-      "D"
     ],
     "explanation": "Port Access untuk end-device (untagged, 1 VLAN); Port Trunk untuk interkoneksi switch/router (tagged multi-VLAN).",
     "quickTip": "Access = 1 VLAN untagged ke PC; Trunk = Multi-VLAN tagged antar-switch."
   },
   {
-    "id": "s19_q23",
-    "number": 23,
+    "id": "s19_q22",
+    "number": 22,
     "type": "pgk_mcma",
     "stimulus": "Metode Inter-VLAN Routing untuk menghubungkan komunikasi antar-VLAN yang berbeda.",
     "question": "Manakah metode resmi yang dapat digunakan untuk melakukan routing antar-VLAN? (Pilihlah DUA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "Memasang konektor BNC pada port USB komputer"
-      },
-      {
-        "id": "B",
-        "text": "Router-on-a-Stick menggunakan sub-interface virtual pada router dan trunk port switch"
-      },
-      {
-        "id": "C",
         "text": "Switch Multilayer Layer 3 menggunakan Switched Virtual Interface (SVI)"
       },
       {
-        "id": "D",
+        "id": "B",
         "text": "Menghubungkan dua port access switch yang berbeda dengan kabel patch cord tanpa router"
       },
       {
+        "id": "C",
+        "text": "Menonaktifkan protokol Spanning Tree pada seluruh switch access"
+      },
+      {
+        "id": "D",
+        "text": "Router-on-a-Stick menggunakan sub-interface virtual pada router dan trunk port switch"
+      },
+      {
         "id": "E",
-        "text": "Menyalakan fitur Bluetooth pada seluruh ponsel ruangan"
+        "text": "Mengubah subnet mask komputer menjadi 255.255.255.255 (/32)"
       }
     ],
     "key": [
-      "B",
-      "C"
+      "A",
+      "D"
     ],
     "explanation": "Inter-VLAN routing resmi dilakukan via Router-on-a-Stick atau Switch Multilayer L3 dengan SVI. Menyambung dua port beda VLAN dengan kabel fisik adalah praktik buruk yang merusak segmentasi.",
     "quickTip": "Dua metode inter-VLAN routing: Router-on-a-Stick dan SVI Switch Layer 3."
   },
   {
-    "id": "s19_q24",
-    "number": 24,
+    "id": "s19_q23",
+    "number": 23,
     "type": "pgk_mcma",
     "stimulus": "Mode pelanggaran (Violation Mode) pada fitur Port Security switch Cisco.",
     "question": "Manakah opsi mode violation yang TERSEDIA pada konfigurasi Port Security? (Pilihlah TIGA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "Restrict (membuang paket asing, menaikkan violation counter, dan mengirim log trap)"
+        "text": "Block (memblokir seluruh port switch secara permanen)"
       },
       {
         "id": "B",
-        "text": "Destroy (meledakkan kartu jaringan asing)"
-      },
-      {
-        "id": "C",
         "text": "Shutdown (mematikan port secara total ke status err-disabled dan mencatat log)"
       },
       {
+        "id": "C",
+        "text": "Restrict (membuang paket asing, menaikkan violation counter, dan mengirim log trap)"
+      },
+      {
         "id": "D",
-        "text": "Format (menghapus sistem operasi komputer penyusup)"
+        "text": "Protect (membuang paket asing tanpa mencatat log violation)"
       },
       {
         "id": "E",
-        "text": "Protect (membuang paket asing tanpa mencatat log violation)"
+        "text": "Mirror (mengirimkan salinan frame ke port console)"
+      }
+    ],
+    "key": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Tiga mode violation port security adalah: Shutdown (default), Restrict, dan Protect.",
+    "quickTip": "Tiga mode Port Security: Shutdown, Restrict, dan Protect."
+  },
+  {
+    "id": "s19_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Mekanisme kerja internal switch jaringan saat memproses frame Ethernet.",
+    "question": "Manakah proses yang DILAKUKAN oleh switch jaringan Layer 2? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meneruskan (forwarding) frame langsung ke port tertentu jika destination MAC ada di tabel"
+      },
+      {
+        "id": "B",
+        "text": "Mengubah alamat IP pengirim secara otomatis menjadi IP Publik internet (NAT)"
+      },
+      {
+        "id": "C",
+        "text": "Mempelajari (learning) source MAC address dari frame yang masuk untuk memperbarui tabel CAM"
+      },
+      {
+        "id": "D",
+        "text": "Menerjemahkan nama domain website menjadi IP Address (DNS Resolving)"
+      },
+      {
+        "id": "E",
+        "text": "Melakukan flooding frame broadcast ke seluruh port aktif dalam VLAN yang sama"
       }
     ],
     "key": [
@@ -778,35 +778,35 @@
       "C",
       "E"
     ],
-    "explanation": "Tiga mode violation port security adalah: Shutdown (default), Restrict, dan Protect.",
-    "quickTip": "Tiga mode Port Security: Shutdown, Restrict, dan Protect."
+    "explanation": "Fungsi dasar switch: Learning (mencatat source MAC), Forwarding (meneruskan jika ada di tabel), Flooding (jika unknown atau broadcast), dan Filtering. NAT dan DNS adalah fungsi router/server.",
+    "quickTip": "Aktivitas dasar switch: Learning, Forwarding, Filtering, dan Flooding."
   },
   {
     "id": "s19_q25",
     "number": 25,
     "type": "pgk_mcma",
-    "stimulus": "Mekanisme kerja internal switch jaringan saat memproses frame Ethernet.",
-    "question": "Manakah proses yang DILAKUKAN oleh switch jaringan Layer 2? (Pilihlah TIGA jawaban yang benar!)",
+    "stimulus": "Keuntungan implementasi Virtual Local Area Network (VLAN) pada jaringan kampus.",
+    "question": "Manakah manfaat utama dari segmentasi jaringan menggunakan VLAN? (Pilihlah TIGA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "Melakukan flooding frame broadcast ke seluruh port aktif dalam VLAN yang sama"
+        "text": "Mempermudah manajemen pengelompokan pengguna berdasarkan fungsi kerja tanpa memindahkan kabel fisik"
       },
       {
         "id": "B",
-        "text": "Mengubah alamat IP pengirim secara otomatis menjadi IP Publik internet"
+        "text": "Menghilangkan kebutuhan kartu antarmuka jaringan (NIC) pada komputer"
       },
       {
         "id": "C",
-        "text": "Mengkompresi isi dokumen PDF yang dikirimkan oleh pengguna"
+        "text": "Menambah kecepatan transmisi kabel tembaga melampaui kecepatan cahaya"
       },
       {
         "id": "D",
-        "text": "Meneruskan (forwarding) frame langsung ke port tertentu jika destination MAC ada di tabel"
+        "text": "Meningkatkan keamanan dengan mengisolasi departemen sensitif secara logis"
       },
       {
         "id": "E",
-        "text": "Mempelajari (learning) source MAC address dari frame yang masuk untuk memperbarui tabel CAM"
+        "text": "Memperkecil ukuran broadcast domain sehingga menghemat penggunaan bandwidth"
       }
     ],
     "key": [
@@ -814,8 +814,8 @@
       "D",
       "E"
     ],
-    "explanation": "Fungsi dasar switch: Learning (mencatat source MAC), Forwarding (meneruskan jika ada di tabel), Flooding (jika unknown atau broadcast), dan Filtering.",
-    "quickTip": "Aktivitas dasar switch: Learning, Forwarding, Filtering, dan Flooding."
+    "explanation": "Manfaat VLAN: Mereduksi broadcast domain, meningkatkan keamanan antardepartemen, efisiensi biaya, dan fleksibilitas manajemen pengguna.",
+    "quickTip": "Manfaat VLAN: Reduksi broadcast domain, isolasi keamanan, dan manajemen fleksibel."
   },
   {
     "id": "s19_q26",
@@ -914,11 +914,11 @@
       },
       {
         "id": "st3",
-        "text": "Cukup dengan mengganti warna kabel LAN, komputer beda VLAN otomatis bisa langsung berkomunikasi tanpa router.",
+        "text": "Komputer pada VLAN berbeda dapat berkomunikasi langsung hanya dengan memasang switch unmanaged tambahan di antara kedua port access.",
         "correct": "S"
       }
     ],
-    "explanation": "Perbedaan VLAN adalah perbedaan logis Layer 3 subnet yang mutlak membutuhkan mekanisme routing.",
+    "explanation": "Perbedaan VLAN adalah perbedaan logis Layer 3 subnet yang mutlak membutuhkan mekanisme perutean Layer 3.",
     "quickTip": "Beda VLAN wajib lewat routing Layer 3 (Router atau Switch L3 SVI)."
   },
   {
@@ -940,11 +940,11 @@
       },
       {
         "id": "st3",
-        "text": "Port Security secara otomatis akan menghapus seluruh data di hard disk pengguna penyusup.",
+        "text": "Port Security bekerja dengan cara memodifikasi tabel routing statis pada router gateway.",
         "correct": "S"
       }
     ],
-    "explanation": "Port Security hanya mematikan/membatasi port fisik switch jaringan, tidak memiliki akses ke hard disk komputer pengguna.",
-    "quickTip": "Port Security mengunci akses port switch, bukan memformat hard disk."
+    "explanation": "Port Security hanya mematikan/membatasi port fisik switch jaringan di Layer 2, tidak mengubah tabel routing router Layer 3.",
+    "quickTip": "Port Security mengunci akses port switch di Layer 2."
   }
 ]

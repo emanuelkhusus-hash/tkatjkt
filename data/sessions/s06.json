@@ -8,11 +8,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Kabel optik tidak dialiri tegangan listrik PLN"
+        "text": "Ketidaksesuaian nilai redaman transmisi optik dengan batas sensitivitas receiver OLT"
       },
       {
         "id": "B",
-        "text": "Kabel optik tidak dicat dengan warna merah menyala"
+        "text": "Kegagalan fungsi lapisan pelindung anti-rodent pada jaket kabel drop optik"
       },
       {
         "id": "C",
@@ -20,11 +20,11 @@
       },
       {
         "id": "D",
-        "text": "Truk dilarang melintas di jalan raya manapun"
+        "text": "Kesalahan pemilihan jenis konektor SC/APC pada kotak terminasi distribusi ODP"
       },
       {
         "id": "E",
-        "text": "Kabel optik seharusnya dipasang setinggi 50 meter"
+        "text": "Kelemahan sistem pentanahan (grounding) pada kawat baja penegang tiang distribusi"
       }
     ],
     "key": "C",
@@ -40,19 +40,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Menyuruh anak magang menuangkan minyak goreng"
+        "text": "Mengganti air dengan cairan deterjen berbusa untuk mempercepat pemadaman api"
       },
       {
         "id": "B",
-        "text": "Membiarkan air disiramkan agar api cepat padam"
+        "text": "Membiarkan penyiraman air asalkan suhu ruangan data center telah diturunkan ke 18°C"
       },
       {
         "id": "C",
-        "text": "Mengunci pintu data center dari luar"
+        "text": "Menutup pintu kabinet rak rapat-rapat tanpa menggunakan media pemadam apapun"
       },
       {
         "id": "D",
-        "text": "Menambahkan sabun cuci ke dalam ember air"
+        "text": "Menyuruh teknisi mematikan pendingin udara presisi sebelum menyiramkan air"
       },
       {
         "id": "E",
@@ -72,19 +72,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Kecepatan mobil dinas yang terlalu lambat"
+        "text": "Keterbatasan kapasitas daya simpan baterai pada unit power meter optik"
       },
       {
         "id": "B",
-        "text": "Harga tangga yang terlalu mahal"
+        "text": "Keterlambatan penerbitan izin pemanfaatan jalur jalan (Right of Way)"
       },
       {
         "id": "C",
-        "text": "Kondisi jalan raya yang terlalu mulus"
+        "text": "Kesalahan penghitungan optical link budget pada tahap perencanaan jaringan"
       },
       {
         "id": "D",
-        "text": "Warna tangga yang kurang cerah"
+        "text": "Ketidaksesuaian spesifikasi kawat penegang kabel drop dengan clamp tiang"
       },
       {
         "id": "E",
@@ -104,11 +104,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Menolak memberikan penjelasan teknis"
+        "text": "Menolak menerbitkan tiket gangguan karena durasi mati listrik di bawah 24 jam"
       },
       {
         "id": "B",
-        "text": "Memblokir nomor telepon pimpinan perusahaan pelanggan"
+        "text": "Menjelaskan detail perubahan konfigurasi routing BGP internal kepada staf administrasi pelanggan"
       },
       {
         "id": "C",
@@ -116,11 +116,11 @@
       },
       {
         "id": "D",
-        "text": "Mengirimkan tagihan denda tambahan kepada pelanggan"
+        "text": "Menyalahkan penyedia upstream internasional secara lisan tanpa melampirkan bukti teknis tertulis"
       },
       {
         "id": "E",
-        "text": "Menyalahkan pelanggan karena menggunakan internet terlalu banyak"
+        "text": "Menawarkan penggantian perangkat router pelanggan secara sepihak tanpa analisis log gangguan"
       }
     ],
     "key": "C",
@@ -140,19 +140,19 @@
       },
       {
         "id": "B",
-        "text": "Langsung mengecat dinding tanpa membersihkan sampah"
+        "text": "Seiso (Bersihkan) -> Seiketsu (Bakukan SOP) -> Seiton (Tata rapi) -> Seiri (Pilah barang) -> Shitsuke (Disiplin)"
       },
       {
         "id": "C",
-        "text": "Shitsuke -> Seiso -> Seiton -> Seiri -> Seiketsu"
+        "text": "Seiton (Tata rapi) -> Seiri (Pilah barang) -> Seiso (Bersihkan) -> Shitsuke (Disiplin) -> Seiketsu (Bakukan SOP)"
       },
       {
         "id": "D",
-        "text": "Membakar seluruh laboratorium"
+        "text": "Seiri (Singkirkan sampah) -> Seiketsu (Bakukan SOP) -> Seiton (Tata rapi) -> Shitsuke (Disiplin) -> Seiso (Bersihkan)"
       },
       {
         "id": "E",
-        "text": "Menutup semua kabel dengan terpal hitam"
+        "text": "Shitsuke (Disiplin) -> Seiketsu (Bakukan SOP) -> Seiso (Bersihkan) -> Seiton (Tata rapi) -> Seiri (Pilah barang)"
       }
     ],
     "key": "A",
@@ -172,19 +172,19 @@
       },
       {
         "id": "B",
-        "text": "Teknisi menggunakan sepatu keselamatan bersol karet"
+        "text": "Pemilihan material tangga fiberglass yang memiliki bobot terlalu ringan terhadap beban"
       },
       {
         "id": "C",
-        "text": "Tangga terbuat dari material yang terlalu kuat"
+        "text": "Kesalahan penggunaan tali lanyard ganda yang terlalu kencang pada pinggang teknisi"
       },
       {
         "id": "D",
-        "text": "Cuaca di lokasi terlalu cerah dan hangat"
+        "text": "Kelemahan struktur tiang beton yang memiliki diameter terlalu besar untuk tangga"
       },
       {
         "id": "E",
-        "text": "Tiang telepon terlalu tegak lurus"
+        "text": "Penggunaan sepatu keselamatan bersol karet tebal saat menaiki anak tangga"
       }
     ],
     "key": "A",
@@ -200,19 +200,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Efisiensi pemakaian kuota data NMS"
+        "text": "Keterlambatan pengiriman sinyal Keepalive pada antarmuka OLT serat optik"
       },
       {
         "id": "B",
-        "text": "Kepatuhan terhadap jam istirahat normal"
+        "text": "Kegagalan sistem pendingin lorong panas (Hot Aisle) di ruang NOC pusat"
       },
       {
         "id": "C",
-        "text": "Penerapan jam tidur sehat karyawan"
+        "text": "Ketidaksesuaian protokol pemantauan SNMPv3 yang digunakan pada dashboard NMS"
       },
       {
         "id": "D",
-        "text": "Penghematan daya listrik monitor NOC"
+        "text": "Kelebihan alokasi kapasitas bandwidth pada router agregasi regional saat dini hari"
       },
       {
         "id": "E",
@@ -236,19 +236,19 @@
       },
       {
         "id": "B",
-        "text": "Membiarkan siswa berjalan tanpa alas kaki"
+        "text": "Menyemprotkan cairan alkohol konsentrasi rendah ke seluruh permukaan lantai praktikum"
       },
       {
         "id": "C",
-        "text": "Menyiram lantai dengan air sabun"
+        "text": "Mengeringkan serpihan serat kaca menggunakan alat pemanas udara industri (heat gun)"
       },
       {
         "id": "D",
-        "text": "Meniup serpihan kaca ke sudut ruangan"
+        "text": "Menyapu serpihan kaca serat optik menggunakan sapu ijuk kasar ke sudut ruangan"
       },
       {
         "id": "E",
-        "text": "Menyapu serpihan kaca dengan sapu lidi kasar"
+        "text": "Mengganti media transmisi serat optik dengan kabel twisted-pair UTP tanpa pelindung"
       }
     ],
     "key": "A",
@@ -264,15 +264,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Kabel audio jack 3.5mm"
+        "text": "Kabel Koaksial RG-11 Berimpedansi 75 Ohm dengan converter"
       },
       {
         "id": "B",
-        "text": "Kabel antena televisi koaksial tua"
+        "text": "Kabel Serial RS-232 Multidrop Berkecepatan Rendah"
       },
       {
         "id": "C",
-        "text": "Kabel UTP Cat5e tanpa pelindung"
+        "text": "Kabel Unshielded Twisted Pair (UTP Cat6) dengan repeater pasif"
       },
       {
         "id": "D",
@@ -280,7 +280,7 @@
       },
       {
         "id": "E",
-        "text": "Kabel telepon tembaga 2 kawat"
+        "text": "Kabel Shielded Foiled Twisted Pair (S/FTP Cat7) tanpa proteksi petir"
       }
     ],
     "key": "D",
@@ -296,19 +296,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Menyalin data bisnis klien dan menjualnya ke kompetitor"
+        "text": "Mengarahkan penggunaan perangkat bekas rekondisi tanpa garansi resmi demi menekan penawaran"
       },
       {
         "id": "B",
-        "text": "Mengharuskan klien membeli server mainframe miliaran rupiah"
+        "text": "Menyarankan pembelian perangkat enterprise berharga fantastis demi mengejar margin komisi vendor"
       },
       {
         "id": "C",
-        "text": "Menjual perangkat rongsokan yang rusak agar sering diservis"
+        "text": "Merekomendasikan instalasi sistem operasi bajakan tanpa lisensi resmi untuk memangkas biaya awal"
       },
       {
         "id": "D",
-        "text": "Menolak melayani klien yang memiliki modal kecil"
+        "text": "Menyembunyikan spesifikasi perangkat keras agar klien bergantung penuh pada jasa konsultan"
       },
       {
         "id": "E",
@@ -328,7 +328,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Mengabaikan getaran dan tetap memanjat"
+        "text": "Mengoleskan cairan grease pelumas pada seluruh tiang besi sebelum tangga disandarkan"
       },
       {
         "id": "B",
@@ -336,15 +336,15 @@
       },
       {
         "id": "C",
-        "text": "Menyiram tiang dengan air garam"
+        "text": "Melilitkan kabel drop optik pada pangkal tiang untuk meredam getaran mekanik"
       },
       {
         "id": "D",
-        "text": "Memeluk tiang besi dengan kedua tangan kosong"
+        "text": "Mengeringkan dasar tiang menggunakan kain lap lalu segera memanjat dengan cepat"
       },
       {
         "id": "E",
-        "text": "Menempelkan lidah ke tiang untuk mengetes listrik"
+        "text": "Menyandarkan tangga aluminium langsung pada tiang untuk menguji daya hantar listrik"
       }
     ],
     "key": "B",
@@ -364,19 +364,19 @@
       },
       {
         "id": "B",
-        "text": "Nomor rekening bank pribadi teknisi"
+        "text": "Rincian harga pokok pembelian perangkat keras dari pabrik prinsipal"
       },
       {
         "id": "C",
-        "text": "Surat izin sakit teknisi"
+        "text": "Kuitansi pembelian konsumsi bahan bakar kendaraan operasional teknisi"
       },
       {
         "id": "D",
-        "text": "Daftar film favorit supervisor"
+        "text": "Rangkuman slip gaji bulanan staf penagihan kantor cabang ISP"
       },
       {
         "id": "E",
-        "text": "Foto makanan saat makan siang"
+        "text": "Daftar riwayat panggilan telepon pribadi teknisi selama perjalanan proyek"
       }
     ],
     "key": "A",
@@ -392,7 +392,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Menyembunyikan kabel di dalam tas teman"
+        "text": "Mengikat kawat tembaga terbuka tersebut ke kabel grounding casing komputer"
       },
       {
         "id": "B",
@@ -400,15 +400,15 @@
       },
       {
         "id": "C",
-        "text": "Menyentuh tembaga kabel untuk mengetes apakah ada listriknya"
+        "text": "Menutup kawat tembaga yang terkelupas menggunakan lakban kertas pembungkus paket"
       },
       {
         "id": "D",
-        "text": "Mencolokkan kabel kembali ke stop kontak"
+        "text": "Tetap menyalakan monitor dengan menurunkan tingkat kecerahan layar untuk mengurangi arus"
       },
       {
         "id": "E",
-        "text": "Menutup kabel yang terkelupas dengan tisu basah"
+        "text": "Menyelipkan kawat tembaga yang terbuka ke sela-sela casing komputer agar tersembunyi"
       }
     ],
     "key": "B",
@@ -428,19 +428,19 @@
       },
       {
         "id": "B",
-        "text": "Menghapus seluruh file hasil ukur dari memori alat OTDR"
+        "text": "Menghapus seluruh file riwayat pengujian asli dari memori internal perangkat OTDR"
       },
       {
         "id": "C",
-        "text": "Menuruti perintah atasan dan mengubah angka hasil ukur di Excel"
+        "text": "Menuruti instruksi atasan dengan mengubah tabel log angka redaman di lembar kerja Excel"
       },
       {
         "id": "D",
-        "text": "Menyalahkan alat ukur yang dianggap terlalu jujur"
+        "text": "Mengalihkan tanggung jawab pelaporan data ukur kepada teknisi junior tanpa penjelasan"
       },
       {
         "id": "E",
-        "text": "Meminta bayaran uang suap lebih besar untuk memalsukan data"
+        "text": "Meminta kompensasi kenaikan upah lembur sebelum menyetujui manipulasi data uji"
       }
     ],
     "key": "A",
@@ -456,11 +456,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Memarahi pemilik toko dan mengancam memutus jaringan teleponnya"
+        "text": "Mengabaikan komplain pemilik toko dan mempercepat pemasangan tanpa komunikasi lisan"
       },
       {
         "id": "B",
-        "text": "Melempar material kotoran ke teras toko"
+        "text": "Mengancam akan memutuskan sambungan telekomunikasi area pertokoan tersebut secara sepihak"
       },
       {
         "id": "C",
@@ -468,11 +468,11 @@
       },
       {
         "id": "D",
-        "text": "Memasang tiang tepat di tengah pintu masuk toko dengan sengaja"
+        "text": "Memperlihatkan surat izin kepolisian dengan nada menantang kepada pemilik ruko"
       },
       {
         "id": "E",
-        "text": "Mengabaikan pemilik toko dan menyalakan musik speaker kencang"
+        "text": "Memindahkan posisi tiang ke tengah badan jalan raya tanpa persetujuan perencana teknis"
       }
     ],
     "key": "C",
@@ -492,19 +492,19 @@
       },
       {
         "id": "B",
-        "text": "Adu fisik antar anggota tim di lapangan"
+        "text": "Menentukan metode berdasarkan keputusan voting terbanyak tanpa melihat spesifikasi kabel"
       },
       {
         "id": "C",
-        "text": "Membatalkan seluruh proyek seketika"
+        "text": "Menghentikan proyek secara permanen dan mengembalikan material kabel ke gudang pusat"
       },
       {
         "id": "D",
-        "text": "Melakukan lempar koin secara acak"
+        "text": "Memilih metode yang paling murah tanpa mempertimbangkan risiko putusnya inti kaca serat"
       },
       {
         "id": "E",
-        "text": "Memutuskan berdasarkan siapa yang memiliki suara paling keras"
+        "text": "Mengabaikan batasan beban tarik dan menarik kabel sekuat tenaga dengan kendaraan mobil"
       }
     ],
     "key": "A",
@@ -520,11 +520,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Menuangkan bensin ke dalam manhole"
+        "text": "Mengandalkan indera penciuman teknisi untuk memastikan udara di dalam manhole aman"
       },
       {
         "id": "B",
-        "text": "Menutup lubang manhole rapat-rapat saat ada orang di dalam"
+        "text": "Menutup pintu manhole sebagian agar debu jalan raya tidak mengotori kabel fiber optik"
       },
       {
         "id": "C",
@@ -532,11 +532,11 @@
       },
       {
         "id": "D",
-        "text": "Menyalakan korek api di dalam manhole untuk melihat isi ruangan"
+        "text": "Menyalakan lilin penerangan di dasar manhole untuk memeriksa keberadaan gas oksigen"
       },
       {
         "id": "E",
-        "text": "Langsung melompat ke dalam manhole tanpa penerangan"
+        "text": "Menyemprotkan pewangi ruangan ke dalam manhole sebelum teknisi mulai masuk bekerja"
       }
     ],
     "key": "C",
@@ -552,11 +552,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Membiarkannya karena itu urusan pribadi masing-masing"
+        "text": "Menjaga jarak dari tiang agar tidak terkena dampak jika rekan tersebut jatuh tergelincir"
       },
       {
         "id": "B",
-        "text": "Menyemangati rekannya untuk memanjat lebih tinggi lagi"
+        "text": "Membantu memegangi kabel dari bawah tanpa menegur ketiadaan sabuk pengaman rekan"
       },
       {
         "id": "C",
@@ -564,11 +564,11 @@
       },
       {
         "id": "D",
-        "text": "Merekam video rekannya untuk ditertawakan di media sosial"
+        "text": "Membiarkan rekan bekerja karena meyakini pengalamannya memanjat sudah bertahun-tahun"
       },
       {
         "id": "E",
-        "text": "Menggoyangkan tangga agar rekannya cepat selesai"
+        "text": "Mencatat pelanggaran rekan secara diam-diam untuk dilaporkan saat rapat akhir bulan"
       }
     ],
     "key": "C",
@@ -588,19 +588,19 @@
       },
       {
         "id": "B",
-        "text": "Tidak memiliki fungsi teknis sama sekali"
+        "text": "Mengunci akses fisik gembok kotak ODP melalui sinyal pemancar posisi satelit"
       },
       {
         "id": "C",
-        "text": "Sebagai syarat untuk menjual tiang ke pedagang barang bekas"
+        "text": "Menghitung beban tarikan kawat messenger secara digital melalui satelit navigasi"
       },
       {
         "id": "D",
-        "text": "Agar tiang bisa dipantau oleh teleskop antariksa"
+        "text": "Memenuhi persyaratan registrasi frekuensi radio nirkabel ke kementerian komunikasi"
       },
       {
         "id": "E",
-        "text": "Agar tiang terlihat indah di layar peta game"
+        "text": "Mendeteksi secara otomatis apabila terjadi penurunan redaman optik pada splitter ODP"
       }
     ],
     "key": "A",
@@ -616,15 +616,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Merusak kunci pintu dengan palu besi"
+        "text": "Mengikat pintu menggunakan kabel ties nilon sementara tanpa mengunci gembok resmi"
       },
       {
         "id": "B",
-        "text": "Mengambil kabel di dalamnya untuk dibawa pulang"
+        "text": "Menyelipkan ganjalan batu pada pintu ODC agar sirkulasi udara di dalam kabinet tetap dingin"
       },
       {
         "id": "C",
-        "text": "Membiarkan pintu terbuka agar terkena angin malam"
+        "text": "Membiarkan pintu terbuka dengan asumsi petugas shift malam akan memeriksa lokasi"
       },
       {
         "id": "D",
@@ -632,7 +632,7 @@
       },
       {
         "id": "E",
-        "text": "Mengabaikannya karena jam kerja sudah selesai"
+        "text": "Meninggalkan lokasi dan baru melaporkan kondisi kunci keesokan harinya saat apel pagi"
       }
     ],
     "key": "D",
@@ -684,7 +684,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Menyalakan rokok di dalam manhole untuk menghangatkan badan"
+        "text": "Menyalakan api pembakar sampah di sekitar lubang manhole"
       },
       {
         "id": "B",
@@ -732,11 +732,11 @@
       },
       {
         "id": "D",
-        "text": "Menjual password router pelanggan kepada pesaing bisnis"
+        "text": "Menjual file backup database klien kepada pihak ketiga tanpa izin"
       },
       {
         "id": "E",
-        "text": "Memasang program virus perusak pada komputer klien"
+        "text": "Memasang program backdoor tersembunyi pada router kantor klien"
       }
     ],
     "key": [
@@ -764,11 +764,11 @@
       },
       {
         "id": "C",
-        "text": "Melumuri webbing harness dengan cairan asam sulfat"
+        "text": "Membersihkan webbing harness menggunakan pelarut tiner atau bensin"
       },
       {
         "id": "D",
-        "text": "Menjemur harness di atas api unggun agar cepat kering"
+        "text": "Menjemur harness di bawah terik matahari ekstrem seharian penuh"
       },
       {
         "id": "E",
@@ -792,7 +792,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Tiket nonton bioskop pimpinan proyek"
+        "text": "Daftar menu makanan katering makan siang teknisi harian"
       },
       {
         "id": "B",
@@ -800,7 +800,7 @@
       },
       {
         "id": "C",
-        "text": "Kuitansi pembelian pakaian santai akhir pekan"
+        "text": "Kuitansi pembelian tiket hiburan akhir pekan karyawan lapangan"
       },
       {
         "id": "D",

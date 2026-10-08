@@ -3,7 +3,7 @@
     "id": "s12_q1",
     "number": 1,
     "type": "pg",
-    "stimulus": "Komunikasi transmisi radio gelombang mikro (Microwave Link) bekerja pada rentang frekuensi gigahertz (GHz) dan merambat lurus melalui atmosfer.",
+    "stimulus": "Perambatan gelombang radio gelombang mikro (microwave) pada frekuensi gigahertz memiliki sifat propagasi optik lurus di atmosfer bumi.",
     "question": "Syarat fisis mutlak perambatan gelombang radio microwave antar-antena pemancar dan penerima tanpa penghalang visual adalah...",
     "options": [
       {
@@ -12,7 +12,7 @@
       },
       {
         "id": "B",
-        "text": "Ground Wave Troposcatter"
+        "text": "Tropospheric Scatter Over-the-Horizon"
       },
       {
         "id": "C",
@@ -20,7 +20,7 @@
       },
       {
         "id": "D",
-        "text": "Subsea Acoustic Reflection"
+        "text": "Ground Wave Surface Diffraction"
       },
       {
         "id": "E",
@@ -28,23 +28,23 @@
       }
     ],
     "key": "C",
-    "explanation": "Gelombang mikro membutuhkan kondisi Line of Sight (LoS) bebas halangan karena panjang gelombangnya yang pendek tidak mampu membelok atau menembus rintangan besar.",
-    "quickTip": "Transmisi gelombang mikro (Microwave Link) mutlak membutuhkan Line of Sight (LoS)."
+    "explanation": "Gelombang mikro (di atas 1 GHz) merambat secara garis lurus dan membutuhkan kondisi Line of Sight (LoS) bebas halangan antara pemancar dan penerima.",
+    "quickTip": "Komunikasi microwave membutuhkan kondisi Line of Sight (LoS) tanpa penghalang."
   },
   {
     "id": "s12_q2",
     "number": 2,
     "type": "pg",
-    "stimulus": "Dalam perencanaan link radio microwave Point-to-Point, area elips di sekitar garis lurus LoS tidak boleh terhalang pohon atau bangunan.",
+    "stimulus": "Meskipun garis pandang optik tampak lurus antar-menara, energi gelombang radio microwave menyebar membentuk ruang elips di sepanjang lintasan.",
     "question": "Nama daerah elipsoid teoritis di sekitar garis bebas pandang yang wajib bersih minimal 60% dari rintangan disebut...",
     "options": [
       {
         "id": "A",
-        "text": "Tropospheric Duct"
+        "text": "Fraunhofer Diffraction Limit"
       },
       {
         "id": "B",
-        "text": "Dead Zone OTDR"
+        "text": "Dead Zone OTDR Silika"
       },
       {
         "id": "C",
@@ -52,23 +52,23 @@
       },
       {
         "id": "D",
-        "text": "Zona Ozon Stratosfer"
+        "text": "Tropospheric Boundary Layer"
       },
       {
         "id": "E",
-        "text": "Collision Domain"
+        "text": "Collision Domain Carrier"
       }
     ],
     "key": "C",
-    "explanation": "Zona Fresnel Pertama (First Fresnel Zone) harus bebas dari rintangan minimal 60% agar sinyal yang sampai tidak mengalami pelemahan akibat interferensi destruktif fase pantulan.",
-    "quickTip": "Area elips bebas halangan minimal 60% pada link radio = Fresnel Zone Pertama."
+    "explanation": "Zona Fresnel (Fresnel Zone) pertama adalah ruang elipsoid di sekitar garis lurus LoS yang harus memiliki ruang bebas (clearance) minimal 60% agar tidak terjadi interferensi fase destruktif.",
+    "quickTip": "Fresnel Zone pertama wajib bebas hambatan minimal 60% dari jari-jarinya."
   },
   {
     "id": "s12_q3",
     "number": 3,
     "type": "pg",
-    "stimulus": "Struktur menara telekomunikasi mandiri berkaki tiga atau empat yang kokoh tanpa kawat penopang baja banyak digunakan di area perkotaan yang lahannya terbatas.",
-    "question": "Tipe menara baja berkaki mandiri tersebut dikenal dengan istilah...",
+    "stimulus": "Untuk memasang beban antena transmisi berat dan banyak perangkat radio pada lahan yang terbatas tanpa kawat rentang, operator memilih struktur menara baja berkaki mandiri.",
+    "question": "Tipe menara baja berkaki mandiri (tiga kaki atau empat kaki rangka baja) tersebut dikenal dengan istilah...",
     "options": [
       {
         "id": "A",
@@ -76,35 +76,35 @@
       },
       {
         "id": "B",
-        "text": "Guyed Mast Tower (Menara Rentang Kawat)"
+        "text": "Guyed Mast Tower (Menara Rentang Kawat Pancang)"
       },
       {
         "id": "C",
-        "text": "Tiang Kayu Telepon Kuno"
+        "text": "Cantenna Waveguide Cylinder"
       },
       {
         "id": "D",
-        "text": "Tiang Bambu Ikat"
+        "text": "Rooftop Mini Mast Pole"
       },
       {
         "id": "E",
-        "text": "Monopole Pole Tunggal"
+        "text": "Monopole Pole Tubular"
       }
     ],
     "key": "A",
-    "explanation": "SST (Self-Supporting Tower) berdiri tegak dengan kekuatan rangka baja berkaki 3 atau 4 tanpa membutuhkan kawat tarikan (guyed wires).",
-    "quickTip": "Menara rangka baja mandiri tanpa kawat tarikan = Self-Supporting Tower (SST)."
+    "explanation": "Self-Supporting Tower (SST) adalah struktur menara rangka baja (lattice) mandiri berkaki 3 atau 4 yang mampu berdiri kokoh menahan beban angin dan antena tanpa memerlukan kawat tarikan (guy wire).",
+    "quickTip": "Menara rangka baja mandiri tanpa kawat penahan = Self-Supporting Tower (SST)."
   },
   {
     "id": "s12_q4",
     "number": 4,
     "type": "pg",
-    "stimulus": "Menara telekomunikasi berpenampang tiang silinder tunggal ramping yang sering dipasang di median jalan kota atau taman disebut...",
+    "stimulus": "Di area perkotaan padat dengan ruang lahan yang sangat terbatas dan regulasi estetika ketat, operator seluler mendirikan menara berbentuk pipa silindris tunggal.",
     "question": "Jenis menara telekomunikasi tiang tunggal tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Rig Pengeboran Lepas Pantai"
+        "text": "Guyed Lattice Triangular Tower"
       },
       {
         "id": "B",
@@ -112,11 +112,11 @@
       },
       {
         "id": "C",
-        "text": "Pylon Sutet PLN"
+        "text": "Gantry Portal Tower"
       },
       {
         "id": "D",
-        "text": "SST 4-Leg Tower"
+        "text": "SST 4-Leg Lattice Tower"
       },
       {
         "id": "E",
@@ -124,14 +124,14 @@
       }
     ],
     "key": "B",
-    "explanation": "Monopole berbentuk pipa baja tunggal meruncing, sangat hemat tempat dan estetik untuk penempatan seluler mikro di perkotaan.",
-    "quickTip": "Menara tiang tunggal ramping = Monopole Tower."
+    "explanation": "Monopole Tower adalah menara telekomunikasi bertiang tunggal dari baja tubular dengan tapak lahan kecil (footprint sempit), sangat ideal untuk kawasan perkotaan.",
+    "quickTip": "Menara tiang tunggal kompak untuk lahan sempit = Monopole Tower."
   },
   {
     "id": "s12_q5",
     "number": 5,
     "type": "pg",
-    "stimulus": "Pada sistem komunikasi seluler generasi ke-4 (4G LTE), menara BTS yang melayani komunikasi radio dengan ponsel pelanggan disebut...",
+    "stimulus": "Arsitektur jaringan seluler generasi keempat (4G LTE) menyederhanakan kontroler radio dengan menempatkan fungsi kontrol radio langsung di stasiun pemancar terdistribusi.",
     "question": "Nama stasiun pemancar radio seluler pada arsitektur jaringan 4G LTE adalah...",
     "options": [
       {
@@ -152,27 +152,27 @@
       },
       {
         "id": "E",
-        "text": "gNodeB (5G NR)"
+        "text": "gNodeB (5G New Radio)"
       }
     ],
     "key": "C",
-    "explanation": "4G LTE menggunakan eNodeB, 2G menggunakan BTS, 3G menggunakan NodeB, dan 5G menggunakan gNodeB.",
-    "quickTip": "Stasiun radio seluler: 2G = BTS, 3G = NodeB, 4G = eNodeB, 5G = gNodeB."
+    "explanation": "Pada 4G LTE, stasiun pemancar radio dinamakan eNodeB (Evolved Node B). BTS digunakan pada 2G, NodeB pada 3G, dan gNodeB pada 5G NR.",
+    "quickTip": "Pemancar 4G = eNodeB; Pemancar 5G = gNodeB."
   },
   {
     "id": "s12_q6",
     "number": 6,
     "type": "pg",
-    "stimulus": "Teknologi seluler generasi ke-5 (5G New Radio) dirancang untuk melayani tiga pilar skenario penggunaan industri utama.",
+    "stimulus": "Standar telekomunikasi 5G mendefinisikan tiga skenario use case utama sesuai rekomendasi ITU-R M.2083.",
     "question": "Pilar 5G yang berfokus pada kecepatan data super tinggi hingga puluhan gigabit per detik untuk pengguna massal disebut...",
     "options": [
       {
         "id": "A",
-        "text": "SMS (Short Message Service)"
+        "text": "VoNR (Voice over New Radio Baremetal)"
       },
       {
         "id": "B",
-        "text": "GPRS (General Packet Radio Service)"
+        "text": "CS-Voice (Circuit Switched Fallback)"
       },
       {
         "id": "C",
@@ -188,23 +188,23 @@
       }
     ],
     "key": "C",
-    "explanation": "Tiga pilar 5G: eMBB (kecepatan data masif), URLLC (latensi super rendah untuk operasi bedah/mobil otonom), dan mMTC (miliaran sensor IoT).",
-    "quickTip": "Pilar 5G kecepatan gigabit = eMBB (Enhanced Mobile Broadband)."
+    "explanation": "eMBB (Enhanced Mobile Broadband) adalah pilar 5G yang berfokus pada kecepatan transfer data ekstrem, kapasitas jaringan masif, dan streaming video definisi ultra-tinggi.",
+    "quickTip": "eMBB = Kecepatan data super kencang pada teknologi 5G."
   },
   {
     "id": "s12_q7",
     "number": 7,
     "type": "pg",
-    "stimulus": "Sistem komunikasi satelit geostasioner (GEO) mengorbit bumi pada posisi tetap terhadap permukaan bumi sepanjang waktu.",
+    "stimulus": "Satelit komunikasi Geostasioner (GEO) mengorbit bumi dengan periode rotasi yang sama persis dengan kecepatan rotasi bumi.",
     "question": "Ketinggian lintasan orbit satelit Geostasioner di atas garis khatulistiwa bumi adalah sekitar...",
     "options": [
       {
         "id": "A",
-        "text": "400 kilometer (Orbit Stasiun Luar Angkasa ISS)"
+        "text": "400 kilometer (Orbit Stasiun Antariksa LEO)"
       },
       {
         "id": "B",
-        "text": "100.000 kilometer"
+        "text": "64.000 kilometer (Orbit Elliptical Molniya)"
       },
       {
         "id": "C",
@@ -212,31 +212,31 @@
       },
       {
         "id": "D",
-        "text": "100 kilometer (Batas Atmosfer Karman)"
+        "text": "20.200 kilometer (Orbit Konstelasi GPS MEO)"
       },
       {
         "id": "E",
-        "text": "2.000 kilometer (Orbit Rendah LEO)"
+        "text": "1.200 kilometer (Orbit Satelit Kutub Polar)"
       }
     ],
     "key": "C",
-    "explanation": "Satelit GEO berada di ketinggian ~36.000 km dengan periode orbit 24 jam persis menyamai putaran rotasi bumi sehingga tampak diam di langit.",
-    "quickTip": "Ketinggian satelit Geostasioner (GEO) = sekitar 36.000 km di atas khatulistiwa."
+    "explanation": "Orbit Geostasioner (GEO) terletak pada ketinggian tepat 35.786 km (dibulatkan menjadi 36.000 km) di atas ekuator bumi.",
+    "quickTip": "Ketinggian orbit satelit GEO adalah ~36.000 km di atas ekuator."
   },
   {
     "id": "s12_q8",
     "number": 8,
     "type": "pg",
-    "stimulus": "Akibat jarak tempuh sinyal radio bolak-balik dari stasiun bumi ke satelit GEO di luar angkasa (jarak tempuh ~72.000 km), timbul jeda waktu.",
+    "stimulus": "Jarak orbit satelit GEO yang mencapai 36.000 km di antariksa mengakibatkan waktu tempuh gelombang radio pergi-pulang memiliki batas fisika kecepatan cahaya.",
     "question": "Karakteristik latensi waktu tempuh bolak-balik (Round Trip Time / RTT) rata-rata pada transmisi internet satelit GEO adalah sekitar...",
     "options": [
       {
         "id": "A",
-        "text": "Sekitar 10 menit per paket data"
+        "text": "Mencapai 15 hingga 20 detik"
       },
       {
         "id": "B",
-        "text": "Tepat 10 mikrodetik (µs)"
+        "text": "Sekitar 20 hingga 40 milidetik (ms)"
       },
       {
         "id": "C",
@@ -248,18 +248,18 @@
       },
       {
         "id": "E",
-        "text": "Nol detik tanpa delay sama sekali"
+        "text": "Tepat 10 mikrodetik (µs)"
       }
     ],
     "key": "D",
-    "explanation": "Kecepatan cahaya 300.000 km/s menempuh jarak bumi-satelit-bumi dua kali (~144.000 km) menghasilkan delay propagasi teoritis minimal ~500 ms RTT.",
-    "quickTip": "Latensi transmisi satelit GEO tinggi = rata-rata 500 s.d. 700 ms RTT."
+    "explanation": "Karena gelombang radio harus menempuh jarak sekitar 4 x 36.000 km (bumi-satelit-hub-satelit-bumi) dengan kecepatan cahaya (~300.000 km/s), latensi bolak-balik inheren satelit GEO berkisar 500-700 ms.",
+    "quickTip": "Latensi satelit GEO inherently tinggi: ~500–700 ms (akibat jarak tempuh 36.000 km)."
   },
   {
     "id": "s12_q9",
     "number": 9,
     "type": "pg",
-    "stimulus": "Sistem komunikasi stasiun bumi satelit berukuran kecil yang banyak dipasang di daerah terpencil atau pulau terluar dikenal dengan singkatan VSAT.",
+    "stimulus": "Sistem komunikasi satelit menggunakan stasiun bumi berantena parabola relatif kecil untuk melayani kantor cabang perbankan dan daerah terpencil.",
     "question": "Kepanjangan dari akronim teknologi komunikasi satelit VSAT adalah...",
     "options": [
       {
@@ -276,7 +276,7 @@
       },
       {
         "id": "D",
-        "text": "Voice Streaming Audio Transmitter"
+        "text": "Voice Streaming Audio Terminal"
       },
       {
         "id": "E",
@@ -284,14 +284,14 @@
       }
     ],
     "key": "A",
-    "explanation": "VSAT singkatan dari Very Small Aperture Terminal, merujuk pada stasiun bumi dengan antena parabola berdiameter kecil (biasanya 0.9 hingga 2.4 meter).",
+    "explanation": "VSAT merupakan singkatan dari Very Small Aperture Terminal, yaitu sistem stasiun bumi satelit dengan antena piringan berdiameter kecil (biasanya 0.9 m hingga 3.8 m).",
     "quickTip": "VSAT = Very Small Aperture Terminal."
   },
   {
     "id": "s12_q10",
     "number": 10,
     "type": "pg",
-    "stimulus": "Peralatan terminal antena VSAT dibagi menjadi dua bagian utama: unit luar ruangan (ODU) dan unit dalam ruangan (IDU).",
+    "stimulus": "Pada sistem antena luar ruang (ODU) VSAT, sinyal frekuensi menengah (IF) dari modem stasiun dalam harus diproses sebelum dipancarkan ke antariksa.",
     "question": "Komponen pemancar pada ODU yang berfungsi menaikkan frekuensi sinyal modem ke frekuensi radio satelit sekaligus menguatkan dayanya adalah...",
     "options": [
       {
@@ -300,31 +300,31 @@
       },
       {
         "id": "B",
-        "text": "LNB (Low Noise Block)"
+        "text": "LNB (Low Noise Block Downconverter)"
       },
       {
         "id": "C",
-        "text": "Kabel Coaxial RG-6"
+        "text": "Bandpass Diplexer Filter"
       },
       {
         "id": "D",
-        "text": "Feedhorn"
+        "text": "OMT (Orthomode Transducer)"
       },
       {
         "id": "E",
-        "text": "Modem Satelit IDU"
+        "text": "Satellite Modem IDU"
       }
     ],
     "key": "A",
-    "explanation": "BUC (Block Up Converter) menerima sinyal frekuensi menengah (IF, L-band) dari modem lalu mengubahnya ke frekuensi kirim satelit (C/Ku band) dan memancarkannya.",
-    "quickTip": "Pemancar pada antena VSAT = BUC (Block Up Converter)."
+    "explanation": "BUC (Block Up Converter) bertugas mengonversi frekuensi menengah (L-Band 950–1450 MHz) menjadi frekuensi radio satelit (seperti C-Band atau Ku-Band) dan menguatkan dayanya untuk dipancarkan ke satelit.",
+    "quickTip": "BUC (Block Up Converter) = Pengubah frekuensi naik dan penguat daya pancar TX satelit."
   },
   {
     "id": "s12_q11",
     "number": 11,
     "type": "pg",
-    "stimulus": "Komponen penerima pada unit luar ruangan (ODU) antena VSAT yang menangkap sinyal lemah dari satelit dan menurunkan frekuensinya adalah...",
-    "question": "Nama perangkat penangkap sinyal satelit dengan derau rendah tersebut adalah...",
+    "stimulus": "Sinyal radio gelombang mikro yang diterima dari satelit di orbit luar angkasa mengalami pelemahan ruang bebas yang sangat masif sehingga level dayanya sangat lemah.",
+    "question": "Nama perangkat penerima ODU yang memperkuat sinyal mikro sangat lemah dengan derau rendah sekaligus menurunkan frekuensinya adalah...",
     "options": [
       {
         "id": "A",
@@ -332,15 +332,15 @@
       },
       {
         "id": "B",
-        "text": "OMT (Orthomode Transducer)"
+        "text": "High Power Travelling Wave Tube (TWT)"
       },
       {
         "id": "C",
-        "text": "Reflector Dish"
+        "text": "Signal Attenuator Step-Down"
       },
       {
         "id": "D",
-        "text": "Inverter Daya Listrik"
+        "text": "Coaxial Power Splitter"
       },
       {
         "id": "E",
@@ -348,31 +348,31 @@
       }
     ],
     "key": "A",
-    "explanation": "LNB (Low Noise Block) menguatkan sinyal satelit mikrovolt yang sangat lemah dan menurunkannya ke frekuensi L-band agar dapat dihantarkan lewat kabel ke modem.",
-    "quickTip": "Penerima sinyal satelit pada piringan antena = LNB (Low Noise Block)."
+    "explanation": "LNB (Low Noise Block Downconverter) berfungsi menangkap sinyal microwave yang sangat lemah dari reflektor parabola, memperkuatnya dengan noise minimal (Low Noise), dan menurunkan frekuensinya ke L-Band.",
+    "quickTip": "LNB = Penguat derau rendah dan penurun frekuensi terima (RX) satelit."
   },
   {
     "id": "s12_q12",
     "number": 12,
     "type": "pg",
-    "stimulus": "Komponen corong pemandu gelombang di ujung tiang penyangga antena parabola VSAT yang mengarahkan gelombang ke permukaan piringan disebut...",
+    "stimulus": "Di bagian depan titik fokus piringan antena parabola terdapat corong logam yang bertugas mengumpulkan gelombang elektromagnetik dari reflektor.",
     "question": "Nama komponen corong pengarah gelombang radio tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Switch Hub"
+        "text": "Waveguide Transition Flange"
       },
       {
         "id": "B",
-        "text": "Subnet Router"
+        "text": "Orthomode Transducer (OMT)"
       },
       {
         "id": "C",
-        "text": "Grounding Rod"
+        "text": "Directional Coupler Isolator"
       },
       {
         "id": "D",
-        "text": "Patch Cord"
+        "text": "Polarization Phase Shifter"
       },
       {
         "id": "E",
@@ -380,27 +380,27 @@
       }
     ],
     "key": "E",
-    "explanation": "Feedhorn berfungsi sebagai tanduk pemandu gelombang yang memfokuskan transmisi elektromagnetik antara BUC/LNB dengan cermin parabola.",
-    "quickTip": "Corong pengarah gelombang antena parabola = Feedhorn."
+    "explanation": "Feedhorn adalah corong pemandu gelombang radio yang diletakkan di titik fokus antena parabola untuk mengumpulkan gelombang pantulan dari dish dan meneruskannya ke OMT/LNB.",
+    "quickTip": "Feedhorn = Corong pengumpul/pengarah gelombang di titik fokus antena parabola."
   },
   {
     "id": "s12_q13",
     "number": 13,
     "type": "pg",
-    "stimulus": "Pita frekuensi satelit C-Band (Uplink ~6 GHz, Downlink ~4 GHz) sangat banyak digunakan di wilayah beriklim tropis seperti Indonesia.",
+    "stimulus": "Wilayah Indonesia berada di garis khatulistiwa dengan tingkat curah hujan dan kelembapan udara tropis yang sangat tinggi sepanjang tahun.",
     "question": "Keunggulan utama pita frekuensi C-Band dibanding Ku-Band di kawasan tropis Indonesia adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Membutuhkan ukuran piringan parabola sangat kecil seukuran koin"
+        "text": "Membutuhkan ukuran piringan parabola sangat kecil di bawah 60 cm"
       },
       {
         "id": "B",
-        "text": "Tidak memerlukan izin spektrum frekuensi pemerintah"
+        "text": "Bebas sepenuhnya dari interferensi radar teresterial dan microwave link"
       },
       {
         "id": "C",
-        "text": "Memiliki kecepatan bandwidth data hingga 100 Terabits"
+        "text": "Menyediakan alokasi lebar bandwidth spektrum hingga puluhan GHz"
       },
       {
         "id": "D",
@@ -408,31 +408,31 @@
       },
       {
         "id": "E",
-        "text": "Bisa beroperasi tanpa menggunakan sumber daya listrik"
+        "text": "Mampu memancarkan sinyal tanpa memerlukan perangkat BUC"
       }
     ],
     "key": "D",
-    "explanation": "Frekuensi C-Band yang relatif rendah memiliki panjang gelombang lebih besar dari butiran air hujan, sehingga sinyal tidak diserap/dihamburkan hujan lebat.",
-    "quickTip": "C-Band unggul di wilayah tropis Indonesia karena tahan gangguan hujan (Rain Fade)."
+    "explanation": "Panjang gelombang C-Band (4–6 GHz) lebih besar daripada butiran air hujan, sehingga sinyalnya tidak mudah terhambur atau diserap oleh hujan badai (tahan rain fade).",
+    "quickTip": "C-Band sangat tahan terhadap redaman hujan tropis (anti rain-fade)."
   },
   {
     "id": "s12_q14",
     "number": 14,
     "type": "pg",
-    "stimulus": "Pita frekuensi satelit Ku-Band (Uplink ~14 GHz, Downlink ~12 GHz) menawarkan bandwidth besar dengan ukuran antena piringan yang lebih kompak (di bawah 1 meter).",
+    "stimulus": "Pita frekuensi Ku-Band (11–14 GHz) menawarkan bandwidth besar dengan ukuran antena parabola yang lebih ringkas, namun memiliki kelemahan di wilayah tropis.",
     "question": "Kelemahan teknis utama dari frekuensi Ku-Band di negara bercurah hujan tinggi adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Harga modem satelitnya seribu kali lebih mahal dari satelit lain"
+        "text": "Membutuhkan diameter piringan antena parabola minimal 5 meter"
       },
       {
         "id": "B",
-        "text": "Menghasilkan radiasi nuklir berbahaya bagi teknisi"
+        "text": "Dilarang oleh regulasi ITU untuk digunakan pada stasiun VSAT komersial"
       },
       {
         "id": "C",
-        "text": "Hanya bisa digunakan oleh satu komputer saja di dunia"
+        "text": "Tidak dapat digunakan untuk mentransmisikan paket protokol IP TCP/UDP"
       },
       {
         "id": "D",
@@ -440,31 +440,31 @@
       },
       {
         "id": "E",
-        "text": "Tidak bisa memancarkan sinyal internet di malam hari"
+        "text": "Menghasilkan latensi transmisi sepuluh kali lipat lebih tinggi dari C-Band"
       }
     ],
     "key": "D",
-    "explanation": "Butiran air hujan memiliki ukuran sebanding dengan panjang gelombang Ku-Band (12-14 GHz), mengakibatkan penyerapan dan hamburan daya gelombang saat badai.",
-    "quickTip": "Kelemahan Ku-Band di Indonesia = Rentan redaman hujan lebat (Rain Fade)."
+    "explanation": "Panjang gelombang Ku-Band sebanding dengan ukuran butir air hujan lebat, sehingga gelombangnya terserap dan terhambur kuat oleh partikel air (rain fade), menyebabkan penurunan sinyal hingga putus sesaat saat hujan deras.",
+    "quickTip": "Ku-Band rentan mengalami Rain Fade (redaman saat hujan lebat)."
   },
   {
     "id": "s12_q15",
     "number": 15,
     "type": "pg",
-    "stimulus": "Untuk mengarahkan antena parabola VSAT ke arah orbit satelit di luar angkasa secara akurat, teknisi mengatur dua sudut koordinat utama.",
-    "question": "Dua sudut koordinat arah penunjukan antena tersebut adalah...",
+    "stimulus": "Ketika melakukan instalasi antena stasiun bumi VSAT, teknisi harus membidik posisi satelit secara tepat menggunakan kompas dan inklinometer.",
+    "question": "Dua sudut koordinat arah penunjukan antena parabola tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Impedansi dan Resistansi Kabel"
+        "text": "Frekuensi Harmonik dan Kedalaman Modulasi"
       },
       {
         "id": "B",
-        "text": "Refraksi dan Difraksi Gelombang"
+        "text": "Impedansi Saluran dan VSWR Antena"
       },
       {
         "id": "C",
-        "text": "Latitude dan Longitude koordinat GPS"
+        "text": "Latitude (Garis Lintang) dan Longitude (Garis Bujur)"
       },
       {
         "id": "D",
@@ -472,35 +472,35 @@
       },
       {
         "id": "E",
-        "text": "Panjang Gelombang dan Amplitudo"
+        "text": "Refraksi Atmosfer dan Difraksi Fresnel"
       }
     ],
     "key": "D",
-    "explanation": "Pointing antena parabola melibatkan pengaturan sudut Azimuth (derajat kompas horizontal) dan sudut Elevasi (kemiringan sudut vertikal mendongak ke langit).",
-    "quickTip": "Pointing antena VSAT = Mengatur sudut Azimuth (horizontal) dan Elevasi (vertikal)."
+    "explanation": "Dua sudut utama pengarah antena parabola adalah Azimuth (arah mata angin horizontal 0°–360° dari utara) dan Elevasi (sudut kemiringan vertikal 0°–90° terhadap bidang datar).",
+    "quickTip": "Pointing antena parabola memerlukan sudut Azimuth (horizontal) dan Elevasi (vertikal)."
   },
   {
     "id": "s12_q16",
     "number": 16,
     "type": "pg",
-    "stimulus": "Selain Azimuth dan Elevasi, penyesuaian sudut putar posisi LNB/feedhorn pada poros sumbu antena parabola disebut...",
-    "question": "Nama penyetelan sudut putaran polarisasi gelombang radio tersebut adalah...",
+    "stimulus": "Selain sudut Azimuth dan Elevasi, antena parabola juga harus mencocokkan bidang vektor medan listrik gelombang radio dengan transponder satelit.",
+    "question": "Nama penyetelan sudut putaran bidang gelombang radio pada feedhorn tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Resonansi Frekuensi"
+        "text": "Resonansi Saluran Waveguide"
       },
       {
         "id": "B",
-        "text": "Atenuasi Sudut"
+        "text": "Atenuasi Sudut Apertur"
       },
       {
         "id": "C",
-        "text": "Modulasi Fase"
+        "text": "Modulasi QAM Offset"
       },
       {
         "id": "D",
-        "text": "Refleksi Optik"
+        "text": "Fase Refleksi Konformal"
       },
       {
         "id": "E",
@@ -508,31 +508,31 @@
       }
     ],
     "key": "E",
-    "explanation": "Polarization Skew menyesuaikan sudut polarisasi elektromagnetik antena stasiun bumi agar sejajar persis dengan polarisasi transponder satelit.",
-    "quickTip": "Penyesuaian sudut putar LNB agar sejajar transponder = Polarisasi (Skew)."
+    "explanation": "Polarization Skew adalah penyesuaian sudut putar fisik feedhorn/LNB untuk mengompensasi kelengkungan bumi agar polarisasi antena tepat sejajar dengan transponder satelit.",
+    "quickTip": "Polarisasi (Polarization Skew) = Penyetelan sudut putar medan polarisasi feedhorn."
   },
   {
     "id": "s12_q17",
     "number": 17,
     "type": "pg",
-    "stimulus": "Peristiwa alam musiman di mana posisi matahari berada sejajar persis di belakang satelit dan antena penerima stasiun bumi disebut...",
-    "question": "Fenomena alam yang menyebabkan pemadaman sinyal satelit selama beberapa menit akibat radiasi termal matahari tersebut adalah...",
+    "stimulus": "Dua kali dalam setahun (saat ekuinoks musim semi dan musim gugur), matahari berada tepat di belakang satelit geostasioner sejajar dengan garis bidik stasiun bumi.",
+    "question": "Fenomena alam yang menyebabkan gangguan atau pemadaman sinyal satelit selama beberapa menit akibat radiasi termal derau matahari tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Efek Rumah Kaca Global"
+        "text": "Solar Cell Overheating Breakdown"
       },
       {
         "id": "B",
-        "text": "Gerhana Bulan Total"
+        "text": "Coronal Mass Ejection Geomagnetic Blackout"
       },
       {
         "id": "C",
-        "text": "Tsunami Gelombang Pasang"
+        "text": "Atmospheric Ionospheric Scintillation"
       },
       {
         "id": "D",
-        "text": "Badai Magnet Bumi Aurora"
+        "text": "Tropospheric Thermal Inversion"
       },
       {
         "id": "E",
@@ -540,51 +540,51 @@
       }
     ],
     "key": "E",
-    "explanation": "Sun Outage terjadi saat matahari, satelit, dan antena stasiun bumi berada dalam satu garis lurus, membanjiri feedhorn dengan radiasi derau termal matahari.",
-    "quickTip": "Matahari tepat di belakang satelit membuat sinyal hilang sementara = Sun Outage."
+    "explanation": "Sun Outage terjadi ketika posisi matahari, satelit, dan antena stasiun bumi berada dalam satu garis lurus, menyebabkan radiasi derau termal matahari menenggelamkan sinyal satelit selama 5-15 menit.",
+    "quickTip": "Sun Outage = Gangguan sinyal satelit akibat radiasi derau matahari saat posisi sejajar."
   },
   {
     "id": "s12_q18",
     "number": 18,
     "type": "pg",
-    "stimulus": "Unit perangkat keras yang berada di dalam ruangan (Indoor Unit / IDU) pada instalasi VSAT berfungsi sebagai...",
+    "stimulus": "Di dalam ruangan stasiun bumi (IDU) terdapat perangkat pemrosesan sinyal yang menghubungkan jaringan LAN lokal dengan peralatan radio luar ruang.",
     "question": "Fungsi utama dari Satellite Modem pada sistem VSAT adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Memutar piringan antena parabola luar ruangan"
+        "text": "Menghitung kalkulasi posisi orbit konstelasi satelit GPS militer"
       },
       {
         "id": "B",
-        "text": "Memodulasi sinyal data digital komputer menjadi sinyal frekuensi radio dan mendemodulasi sinyal satelit penerima"
+        "text": "Memodulasi sinyal data digital komputer menjadi sinyal frekuensi radio (L-Band) dan mendemodulasi sinyal satelit penerima"
       },
       {
         "id": "C",
-        "text": "Menyalakan genset listrik secara otomatis"
+        "text": "Mengalirkan daya listrik arus bolak-balik 220V langsung ke reflektor parabola"
       },
       {
         "id": "D",
-        "text": "Menghitung tagihan pulsa telepon pelanggan"
+        "text": "Mengontrol otomatis sudut rotasi mekanik parabola setiap detik"
       },
       {
         "id": "E",
-        "text": "Mendinginkan udara ruangan server"
+        "text": "Mendinginkan sirkuit semikonduktor ODU menggunakan freon cair"
       }
     ],
     "key": "B",
-    "explanation": "Modem satelit (IDU) bertugas memodulasi paket IP digital menjadi sinyal frekuensi IF (L-band) ke arah pemancar BUC dan mendemodulasi sinyal balik dari LNB.",
-    "quickTip": "IDU Satellite Modem = Modulasi dan demodulasi sinyal data digital dengan sinyal radio satelit."
+    "explanation": "Satellite modem (IDU) memodulasi paket data digital dari router/switch menjadi sinyal Intermediate Frequency (L-Band) untuk BUC, serta mendemodulasi sinyal dari LNB menjadi data digital.",
+    "quickTip": "Satellite Modem (IDU) memodulasi data digital ke sinyal IF dan sebaliknya."
   },
   {
     "id": "s12_q19",
     "number": 19,
     "type": "pg",
-    "stimulus": "Komunikasi microwave terrestrial sering mengalami pemudaran sinyal (fading) akibat pembiasan atmosfer dan pantulan permukaan tanah/air.",
-    "question": "Metode pemasangan dua antena penerima dengan ketinggian berbeda pada satu menara untuk menanggulangi multipath fading disebut...",
+    "stimulus": "Pada lintasan transmisi microwave jarak jauh di atas permukaan air laut, gelombang radio sering terpantul dan tiba di penerima dengan fase berlawanan (multipath fading).",
+    "question": "Metode mitigasi dengan memasang dua antena penerima pada ketinggian berbeda di menara yang sama disebut...",
     "options": [
       {
         "id": "A",
-        "text": "Time Domain Reflectometry"
+        "text": "Polarization Multiplexing"
       },
       {
         "id": "B",
@@ -592,138 +592,102 @@
       },
       {
         "id": "C",
-        "text": "Port Mirroring"
+        "text": "Time Domain Diversity"
       },
       {
         "id": "D",
-        "text": "Subnetting VLSM"
+        "text": "Carrier Aggregation"
       },
       {
         "id": "E",
-        "text": "Frequency Division Multiplexing"
+        "text": "Frequency Diversity"
       }
     ],
     "key": "B",
-    "explanation": "Space Diversity menempatkan dua antena secara vertikal di satu menara; jika sinyal di salah satu antena melemah akibat pantulan, antena lain tetap menerima sinyal kuat.",
-    "quickTip": "Dua antena pada menara untuk mengatasi multipath fading = Space Diversity."
+    "explanation": "Space Diversity memanfaatkan dua antena terpisah secara vertikal sehingga jika satu antena mengalami pembatalan sinyal akibat multipath fading, antena lain tetap menerima sinyal kuat.",
+    "quickTip": "Space Diversity = Menggunakan dua antena dengan jarak vertikal berbeda untuk menangkal multipath fading."
   },
   {
     "id": "s12_q20",
     "number": 20,
     "type": "pg",
-    "stimulus": "Penangkal petir dan sistem pentanahan (grounding) pada menara telekomunikasi dan antena parabola merupakan syarat keselamatan kerja wajib.",
+    "stimulus": "Sistem grounding dan penyalur petir pada menara telekomunikasi harus memiliki nilai hambatan sebaran ke tanah yang sangat rendah untuk melindungi perangkat aktif dari sambaran kilat.",
     "question": "Nilai resistansi pentanahan (grounding resistance) maksimal yang dipersyaratkan standar industri telekomunikasi untuk instalasi menara dan radio adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Maksimal 1.000 Ohm"
+        "text": "Maksimal 100 Ohm hingga 200 Ohm"
       },
       {
         "id": "B",
-        "text": "Maksimal 500 Ohm"
+        "text": "Maksimal 50 Ohm hingga 75 Ohm"
       },
       {
         "id": "C",
-        "text": "Maksimal di bawah 5 Ohm (idealnya di bawah 1-2 Ohm)"
+        "text": "Maksimal di bawah 5 Ohm (idealnya di bawah 1 hingga 2 Ohm)"
       },
       {
         "id": "D",
-        "text": "Tidak terbatas bebas hambatan"
+        "text": "Bebas tanpa batasan resistansi sebaran"
       },
       {
         "id": "E",
-        "text": "Harus tepat 50 Ohm"
+        "text": "Harus tepat 500 Ohm konstan"
       }
     ],
     "key": "C",
-    "explanation": "Standar grounding perangkat telekomunikasi (ITU-T dan PUIL) mensyaratkan resistansi tanah maksimal di bawah 5 Ohm agar arus sambaran petir dapat langsung dibuang aman ke bumi.",
-    "quickTip": "Resistansi grounding telekomunikasi = Maksimal di bawah 5 Ohm."
+    "explanation": "Standar industri telekomunikasi (seperti IEEE dan Telkom/SNI) mewajibkan nilai resistansi grounding menara tidak boleh melebihi 5 Ohm, dengan target ideal di bawah 1–2 Ohm.",
+    "quickTip": "Standar grounding menara telekomunikasi wajib < 5 Ohm (ideal < 1-2 Ohm)."
   },
   {
     "id": "s12_q21",
     "number": 21,
     "type": "pgk_mcma",
-    "stimulus": "Sistem komunikasi satelit VSAT memiliki komponen yang terpasang di luar ruangan (Outdoor Unit / ODU).",
-    "question": "Manakah komponen yang TERPASANG pada bagian Outdoor Unit (ODU) antena VSAT? (Pilihlah TIGA jawaban yang benar!)",
+    "stimulus": "Karakteristik pita frekuensi C-Band dan Ku-Band memiliki perbedaan mendasar dalam aplikasi satelit komunikasi.",
+    "question": "Manakah pernyataan yang BENAR mengenai perbandingan pita frekuensi C-Band dan Ku-Band? (Pilihlah DUA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "BUC (Block Up Converter sebagai pemancar sinyal)"
+        "text": "C-Band lebih tahan terhadap redaman hujan (rain fade) sehingga sangat ideal untuk daerah tropis"
       },
       {
         "id": "B",
-        "text": "LNB (Low Noise Block sebagai penerima sinyal)"
+        "text": "Ku-Band menggunakan frekuensi lebih tinggi sehingga memungkinkan penggunaan ukuran antena parabola yang lebih kompak"
       },
       {
         "id": "C",
-        "text": "Server Database Linux Rackmount"
+        "text": "C-Band membutuhkan piringan antena yang jauh lebih kecil daripada Ku-Band untuk gain yang sama"
       },
       {
         "id": "D",
-        "text": "Core Switch Layer 3"
+        "text": "C-Band tidak dapat digunakan untuk transmisi layanan data internet"
       },
       {
         "id": "E",
-        "text": "Reflector Dish & Feedhorn (piringan parabola pemantul)"
+        "text": "Ku-Band kebal sepenuhnya dari gangguan cuaca badai tropis"
       }
     ],
     "key": [
       "A",
-      "B",
-      "E"
+      "B"
     ],
-    "explanation": "ODU antena VSAT terdiri dari Dish Reflector, Feedhorn, BUC (pemancar), dan LNB (penerima). Server dan Switch terpasang di ruang server dalam gedung.",
-    "quickTip": "Komponen ODU VSAT: Dish Parabola, Feedhorn, BUC, dan LNB."
+    "explanation": "C-Band sangat tahan terhadap redaman hujan lebat di wilayah tropis, sedangkan Ku-Band menggunakan frekuensi lebih tinggi (11-14 GHz) sehingga antena dapat dibuat lebih kecil namun rentan rain fade.",
+    "quickTip": "C-Band tahan hujan; Ku-Band antena lebih kompak namun sensitif rain fade."
   },
   {
     "id": "s12_q22",
     "number": 22,
-    "type": "pgk_mcma",
-    "stimulus": "Pita frekuensi satelit C-Band dan Ku-Band memiliki keunggulan dan kelemahan masing-masing.",
-    "question": "Manakah pernyataan yang BENAR mengenai karakteristik C-Band dan Ku-Band? (Pilihlah DUA jawaban yang benar!)",
-    "options": [
-      {
-        "id": "A",
-        "text": "Ku-Band sama sekali tidak terpengaruh oleh badai hujan lebat"
-      },
-      {
-        "id": "B",
-        "text": "C-Band hanya bisa digunakan di luar angkasa dan tidak bisa diterima di bumi"
-      },
-      {
-        "id": "C",
-        "text": "Ku-Band menggunakan diameter piringan antena yang lebih kecil dibanding C-Band untuk memperoleh gain yang setara"
-      },
-      {
-        "id": "D",
-        "text": "Ku-Band membutuhkan piringan antena minimal 10 meter untuk setiap rumah"
-      },
-      {
-        "id": "E",
-        "text": "C-Band memiliki ketahanan sangat tinggi terhadap gangguan hujan tropis (rain fade)"
-      }
-    ],
-    "key": [
-      "C",
-      "E"
-    ],
-    "explanation": "C-Band tahan terhadap hujan lebat di wilayah tropis. Ku-Band frekuensinya lebih tinggi sehingga ukuran piringan antenanya lebih kecil (kompak) namun sensitif terhadap hujan.",
-    "quickTip": "C-Band tahan hujan; Ku-Band antena lebih kecil tapi rentan rain fade."
-  },
-  {
-    "id": "s12_q23",
-    "number": 23,
     "type": "pgk_mcma",
     "stimulus": "Transmisi gelombang mikro (Microwave Link) membutuhkan perencanaan propagasi yang matang antar-menara.",
     "question": "Manakah parameter penting yang HARUS diperhitungkan dalam perencanaan link radio microwave? (Pilihlah TIGA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "Line of Sight (LoS) bebas halangan pandang antar-menara"
+        "text": "Ketinggian menara terhadap kelengkungan permukaan bumi dan kontur tanah"
       },
       {
         "id": "B",
-        "text": "Warna cat mobil teknisi yang melakukan survei lapangan"
+        "text": "Tingkat kelembapan relatif pendingin AC ruang server di lantai dasar"
       },
       {
         "id": "C",
@@ -731,11 +695,47 @@
       },
       {
         "id": "D",
-        "text": "Ketinggian menara terhadap kelengkungan permukaan bumi dan rintangan alam"
+        "text": "Jumlah core kabel UTP patch cord pada switch access lokal"
       },
       {
         "id": "E",
-        "text": "Kecepatan kipas pendingin laptop di kantor pusat"
+        "text": "Line of Sight (LoS) bebas halangan pandang antar-menara"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explanation": "Perencanaan radio link memperhitungkan Line of Sight, kebebasan Zona Fresnel minimal 60%, ketinggian menara terhadap kelengkungan bumi (earth curvature), redaman atmosfer, dan fade margin.",
+    "quickTip": "Parameter microwave link: LoS, Fresnel Zone clearance, dan tinggi menara terhadap kelengkungan bumi."
+  },
+  {
+    "id": "s12_q23",
+    "number": 23,
+    "type": "pgk_mcma",
+    "stimulus": "Menara telekomunikasi memiliki jenis struktur yang disesuaikan dengan kondisi geografis, beban antena, dan ketersediaan lahan.",
+    "question": "Manakah tipe struktur menara telekomunikasi berstandar industri? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Self-Supporting Tower (SST 3-Leg atau 4-Leg)"
+      },
+      {
+        "id": "B",
+        "text": "Unshielded Twisted Mast Tower"
+      },
+      {
+        "id": "C",
+        "text": "Guyed Mast Tower (menara rangka dengan kawat penahan tarikan)"
+      },
+      {
+        "id": "D",
+        "text": "Monopole Tower (menara tiang baja tubular tunggal)"
+      },
+      {
+        "id": "E",
+        "text": "Waveguide Duct Modular Stand"
       }
     ],
     "key": [
@@ -743,63 +743,27 @@
       "C",
       "D"
     ],
-    "explanation": "Perencanaan radio link memperhitungkan LoS, kebebasan Fresnel Zone, ketinggian menara terhadap kelengkungan bumi, redaman atmosfer, dan radio link budget.",
-    "quickTip": "Parameter microwave link: LoS, Fresnel Zone, dan kelengkungan bumi / tinggi menara."
+    "explanation": "Tiga tipe utama menara telekomunikasi standar adalah SST (Self-Supporting Tower), Guyed Mast (dengan kawat spanner), dan Monopole.",
+    "quickTip": "Tiga tipe menara telko utama: SST, Guyed Mast, dan Monopole."
   },
   {
     "id": "s12_q24",
     "number": 24,
     "type": "pgk_mcma",
-    "stimulus": "Menara telekomunikasi memiliki jenis struktur yang disesuaikan dengan kondisi geografis dan ketersediaan lahan.",
-    "question": "Manakah tipe struktur menara telekomunikasi berstandar industri? (Pilihlah TIGA jawaban yang benar!)",
-    "options": [
-      {
-        "id": "A",
-        "text": "Monopole Tower (menara tiang tunggal kompak)"
-      },
-      {
-        "id": "B",
-        "text": "Guyed Mast Tower (menara dengan kawat penahan tarikan)"
-      },
-      {
-        "id": "C",
-        "text": "Pipa Paralon PVC 2 Inci"
-      },
-      {
-        "id": "D",
-        "text": "Self-Supporting Tower (SST 3-Leg atau 4-Leg)"
-      },
-      {
-        "id": "E",
-        "text": "Pagar Kawat Harmonika Taman"
-      }
-    ],
-    "key": [
-      "A",
-      "B",
-      "D"
-    ],
-    "explanation": "Tiga tipe menara telekomunikasi standar adalah SST (Self-Supporting Tower), Guyed Mast (dengan kawat spanner), dan Monopole.",
-    "quickTip": "Tiga jenis menara telko utama: SST, Guyed Mast, dan Monopole."
-  },
-  {
-    "id": "s12_q25",
-    "number": 25,
-    "type": "pgk_mcma",
-    "stimulus": "Evolusi jaringan seluler telah membawa peningkatan signifikan dalam kecepatan dan fungsionalitas.",
+    "stimulus": "Evolusi jaringan seluler telah membawa peningkatan signifikan dalam penamaan dan arsitektur stasiun pemancar.",
     "question": "Manakah istilah komponen stasiun pemancar seluler yang SESUAI dengan generasinya? (Pilihlah DUA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "gNodeB digunakan pada jaringan seluler generasi 5G NR"
+        "text": "BTS digunakan pada jaringan komunikasi satelit antariksa"
       },
       {
         "id": "B",
-        "text": "NodeB adalah pemancar radio walkie-talkie analog"
+        "text": "gNodeB digunakan pada jaringan seluler generasi 5G NR"
       },
       {
         "id": "C",
-        "text": "BTS digunakan pada jaringan satelit antariksa NASA"
+        "text": "NodeB adalah sebutan pemancar pada jaringan radio trunking analog"
       },
       {
         "id": "D",
@@ -807,15 +771,51 @@
       },
       {
         "id": "E",
-        "text": "eNodeB adalah nama protokol kabel LAN tembaga"
+        "text": "eNodeB adalah protokol enkripsi data layer link kabel serat optik"
+      }
+    ],
+    "key": [
+      "B",
+      "D"
+    ],
+    "explanation": "4G LTE menggunakan pemancar eNodeB (Evolved Node B), dan 5G New Radio menggunakan pemancar gNodeB (Next Generation Node B). BTS adalah stasiun pemancar 2G GSM, dan NodeB adalah pemancar 3G UMTS.",
+    "quickTip": "4G = eNodeB; 5G = gNodeB."
+  },
+  {
+    "id": "s12_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Peralatan luar ruangan (ODU) sistem satelit VSAT terdiri dari beberapa komponen terpadu pada piringan antena parabola.",
+    "question": "Manakah komponen ODU yang TERPASANG pada antena parabola stasiun bumi VSAT? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "LNB (Low Noise Block sebagai penerima RX)"
+      },
+      {
+        "id": "B",
+        "text": "Core Switch Layer 3 berpendingin kipas"
+      },
+      {
+        "id": "C",
+        "text": "Feedhorn dan OMT (Orthomode Transducer pemisah polarisasi)"
+      },
+      {
+        "id": "D",
+        "text": "BUC (Block Up Converter sebagai pemancar TX)"
+      },
+      {
+        "id": "E",
+        "text": "Server RADIUS Autentikasi Pengguna"
       }
     ],
     "key": [
       "A",
+      "C",
       "D"
     ],
-    "explanation": "4G LTE menggunakan pemancar eNodeB (Evolved Node B), dan 5G New Radio menggunakan pemancar gNodeB (Next Generation Node B).",
-    "quickTip": "4G = eNodeB; 5G = gNodeB."
+    "explanation": "Komponen ODU VSAT meliputi reflektor dish, feedhorn, OMT, BUC (TX), dan LNB (RX). Core Switch dan Server RADIUS adalah perangkat jaringan indoor (IDU/data center).",
+    "quickTip": "Komponen ODU VSAT: Dish, Feedhorn, OMT, BUC, dan LNB."
   },
   {
     "id": "s12_q26",
@@ -836,12 +836,12 @@
       },
       {
         "id": "st3",
-        "text": "Gelombang mikro dapat menembus pegunungan granit padat tanpa kehilangan daya sama sekali.",
+        "text": "Gelombang mikro dapat menembus pegunungan bebatuan padat tanpa mengalami pelemahan daya sama sekali.",
         "correct": "S"
       }
     ],
-    "explanation": "Gelombang mikro tidak dapat menembus gunung atau tanah; rintangan fisik memblokir total transmisi microwave.",
-    "quickTip": "Microwave link butuh LoS dan Fresnel Zone bebas rintangan; tidak tembus gunung."
+    "explanation": "Gelombang mikro tidak dapat menembus rintangan tanah atau gunung; material padat akan memblokir dan menyerap gelombang microwave sepenuhnya.",
+    "quickTip": "Microwave link butuh LoS dan Fresnel Zone bebas rintangan; tidak dapat menembus gunung."
   },
   {
     "id": "s12_q27",
@@ -862,12 +862,12 @@
       },
       {
         "id": "st3",
-        "text": "Antena parabola VSAT di bumi harus terus berputar cepat 360 derajat mengikuti satelit GEO yang berpindah tempat setiap jam.",
+        "text": "Antena parabola VSAT di bumi harus terus berputar mekanik mengikuti satelit GEO yang mengelilingi kutub setiap jam.",
         "correct": "S"
       }
     ],
-    "explanation": "Satelit GEO tampak diam (stasioner) di langit terhadap bumi, sehingga antena parabola stasiun bumi cukup diarahkan tetap (fixed pointing).",
-    "quickTip": "Satelit GEO posisinya tetap di langit; antena parabola cukup diarahkan statis."
+    "explanation": "Satelit GEO tampak diam (stasioner) di langit terhadap pengamat di bumi, sehingga antena parabola stasiun bumi cukup diarahkan tetap (fixed pointing).",
+    "quickTip": "Satelit GEO posisinya stasioner di langit; antena parabola stasiun bumi cukup diarahkan statis."
   },
   {
     "id": "s12_q28",
@@ -888,12 +888,12 @@
       },
       {
         "id": "st3",
-        "text": "Hujan badai tidak memiliki pengaruh sama sekali terhadap daya pancar Ku-Band di wilayah Indonesia.",
+        "text": "Hujan badai tropis tidak memiliki pengaruh redaman sama sekali terhadap sinyal frekuensi Ku-Band di Indonesia.",
         "correct": "S"
       }
     ],
-    "explanation": "Ku-Band sangat sensitif terhadap hujan badai tropis, sering memicu redaman parah (rain fade) hingga sinyal putus sementara.",
-    "quickTip": "Ku-Band sangat terpengaruh hujan badai (rain fade); C-Band tahan hujan."
+    "explanation": "Frekuensi Ku-Band sangat sensitif terhadap hujan badai tropis, sering memicu redaman parah (rain fade) hingga sinyal putus sementara.",
+    "quickTip": "Ku-Band sangat terpengaruh hujan lebat (rain fade); C-Band tahan hujan."
   },
   {
     "id": "s12_q29",
@@ -914,12 +914,12 @@
       },
       {
         "id": "st3",
-        "text": "Penyesuaian sudut polarisasi LNB tidak berpengaruh apa-apa terhadap kualitas sinyal yang diterima.",
+        "text": "Penyetelan sudut polarisasi feedhorn tidak berpengaruh apa-apa terhadap kualitas penerimaan sinyal LNB.",
         "correct": "S"
       }
     ],
-    "explanation": "Ketidaktepatan sudut polarisasi (skew) membuat sinyal drop drastis dan memicu interferensi silang antar-polarisasi.",
-    "quickTip": "Pointing butuh ketepatan sudut Azimuth, Elevasi, dan Polarisasi (Skew) LNB."
+    "explanation": "Ketidaktepatan sudut polarisasi (skew) membuat sinyal drop drastis dan memicu interferensi silang (cross-polarization interference).",
+    "quickTip": "Pointing butuh ketepatan sudut Azimuth, Elevasi, dan Polarisasi (Skew) feedhorn."
   },
   {
     "id": "s12_q30",
@@ -940,7 +940,7 @@
       },
       {
         "id": "st3",
-        "text": "Semakin besar nilai hambatan Ohm pentanahan tanah, maka perlindungan terhadap petir akan semakin baik.",
+        "text": "Semakin besar nilai hambatan Ohm pentanahan tanah, maka proteksi terhadap lonjakan petir akan semakin baik.",
         "correct": "S"
       }
     ],

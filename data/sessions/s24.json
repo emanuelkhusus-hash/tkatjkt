@@ -3,20 +3,20 @@
     "id": "s24_q1",
     "number": 1,
     "type": "pg",
-    "stimulus": "Visual Fault Locator (VFL) merupakan instrumen optik genggam berbentuk senter pena yang sangat sering digunakan oleh teknisi fiber optik di lapangan.",
+    "stimulus": "Teknisi menggunakan alat senter laser merah berdaya beberapa miliwatt yang dihubungkan ke salah satu ujung konektor serat optik untuk memeriksa kabel drop yang terpasang.",
     "question": "Fungsi utama dari Visual Fault Locator (VFL Laser Senter Merah) adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Melebur dua serat kaca menggunakan busur api listrik"
+        "text": "Melebur dua serat kaca menggunakan busur api listrik elektroda"
       },
       {
         "id": "B",
-        "text": "Menghitung alamat IP yang lewat di dalam serat optik"
+        "text": "Mengukur dispersi kromatik pada kabel serat optik Single-Mode"
       },
       {
         "id": "C",
-        "text": "Menyolder kawat tembaga kabel LAN ke konektor RJ-45"
+        "text": "Memotong serat optik dengan sudut kemiringan presisi di bawah 1 derajat"
       },
       {
         "id": "D",
@@ -28,31 +28,31 @@
       }
     ],
     "key": "E",
-    "explanation": "VFL memancarkan laser merah tampak (panjang gelombang ~650 nm) yang akan berpendar keluar menembus jaket kabel jika terdapat serat kaca yang patah atau tertekuk tajam.",
-    "quickTip": "VFL = Laser merah tampak (650 nm) untuk melacak kontinuitas dan titik retak/patah pada serat."
+    "explanation": "VFL memancarkan cahaya laser merah tampak (spektrum visible) yang merambat di dalam core. Jika terjadi tekukan tajam, retakan, atau patahan kaca, cahaya akan bocor keluar dan berpendar merah terang sehingga lokasi kerusakan mudah terlihat mata.",
+    "quickTip": "VFL (Laser Merah) = Melacak kontinuitas dan menemukan titik bending/patah kabel optik."
   },
   {
     "id": "s24_q2",
     "number": 2,
     "type": "pg",
-    "stimulus": "Laser yang dipancarkan oleh Visual Fault Locator (VFL) berada pada spektrum cahaya tampak yang dapat dilihat langsung oleh mata telanjang.",
+    "stimulus": "Senter laser VFL beroperasi pada spektrum cahaya tampak agar dapat dilihat langsung oleh mata teknisi saat mendeteksi kebocoran cahaya pada kabel.",
     "question": "Panjang gelombang cahaya tampak yang dipancarkan oleh VFL standar adalah...",
     "options": [
       {
         "id": "A",
-        "text": "10 nanometer (nm) sinar X-ray"
+        "text": "1490 nanometer (nm) inframerah downstream"
       },
       {
         "id": "B",
-        "text": "850 nanometer (nm) inframerah dekat"
+        "text": "850 nanometer (nm) inframerah pendek"
       },
       {
         "id": "C",
-        "text": "1550 nanometer (nm) inframerah"
+        "text": "1550 nanometer (nm) inframerah jauh"
       },
       {
         "id": "D",
-        "text": "1310 nanometer (nm) inframerah"
+        "text": "1310 nanometer (nm) inframerah dekat"
       },
       {
         "id": "E",
@@ -60,27 +60,27 @@
       }
     ],
     "key": "E",
-    "explanation": "VFL menggunakan dioda laser merah tampak pada panjang gelombang ~650 nm (cahaya merah) sehingga kebocoran cahaya pada serat kaca dapat dilihat langsung oleh mata.",
-    "quickTip": "Panjang gelombang laser VFL = 650 nm (cahaya merah tampak)."
+    "explanation": "VFL menggunakan dioda laser merah tampak dengan panjang gelombang tipikal sekitar 650 nm (±10 nm), berada dalam spektrum yang dapat dilihat langsung oleh mata manusia.",
+    "quickTip": "Panjang gelombang VFL laser merah adalah ~650 nm."
   },
   {
     "id": "s24_q3",
     "number": 3,
     "type": "pg",
-    "stimulus": "Meskipun cahaya VFL berada pada spektrum tampak, terdapat aturan keselamatan kerja K3 optik yang mutlak dilarang dilakukan oleh teknisi.",
+    "stimulus": "Peralatan laser optik telekomunikasi memancarkan berkas foton koheren berdensitas energi tinggi.",
     "question": "Larangan keselamatan kerja utama saat mengoperasikan laser VFL maupun sumber cahaya optik lainnya adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Dilarang menyalakan VFL jika teknisi mengenakan safety helmet"
+        "text": "Dilarang menghubungkan VFL ke konektor ferrule bertipe APC hijau"
       },
       {
         "id": "B",
-        "text": "Dilarang menggunakan baterai alkaline pada VFL"
+        "text": "Dilarang menyalakan mode pulsed modulation pada kabel Single-Mode"
       },
       {
         "id": "C",
-        "text": "Dilarang menyalakan VFL pada siang hari"
+        "text": "Dilarang membersihkan ujung ferrule adaptor VFL dengan alkohol isopropil 99%"
       },
       {
         "id": "D",
@@ -88,18 +88,18 @@
       },
       {
         "id": "E",
-        "text": "Dilarang membawa VFL ke luar ruangan kantor"
+        "text": "Dilarang menggunakan VFL pada kabel optik yang memiliki panjang di bawah 10 meter"
       }
     ],
     "key": "D",
-    "explanation": "Energi laser yang terfokus ke retina mata dapat menyebabkan kebutaan permanen seketika tanpa rasa sakit karena retina tidak memiliki saraf perasa panas.",
-    "quickTip": "K3 Laser: Jangan pernah menatap langsung ke ujung konektor serat optik yang aktif!"
+    "explanation": "Berkas radiasi laser dapat memfokus pada retina mata dan membakar sel reseptor penglihatan secara permanen tanpa rasa sakit, sehingga mutlak dilarang menatap langsung ke sumber pancaran serat optik.",
+    "quickTip": "Dilarang menatap langsung ke ujung serat optik yang memancarkan laser (bahaya kebutaan)."
   },
   {
     "id": "s24_q4",
     "number": 4,
     "type": "pg",
-    "stimulus": "Alat ukur Optical Power Meter (OPM) digunakan untuk mengukur kekuatan daya sinyal optik yang diterima.",
+    "stimulus": "Pada layar instrumen Optical Power Meter (OPM), teknisi membaca kekuatan sinyal optik yang diterima dari kabel feeder.",
     "question": "Satuan logaritmik mutlak yang digunakan pada layar OPM untuk menampilkan daya pancar cahaya terhadap referensi 1 miliwatt adalah...",
     "options": [
       {
@@ -124,14 +124,14 @@
       }
     ],
     "key": "B",
-    "explanation": "dBm mengukur daya mutlak berbasis 1 mW (0 dBm = 1 mW). dB (tanpa huruf m) digunakan untuk menyatakan perbandingan redaman relatif (loss).",
-    "quickTip": "Satuan daya mutlak optik pada OPM = dBm; Satuan redaman relatif = dB."
+    "explanation": "dBm adalah satuan logaritmik mutlak daya dengan titik acuan 1 miliwatt (0 dBm = 1 mW). Satuan dB murni menyatakan perbandingan (redaman atau penguatan relatif) antara dua nilai daya.",
+    "quickTip": "Daya mutlak diukur dalam satuan dBm (referensi 1 mW); redaman/loss diukur dalam dB."
   },
   {
     "id": "s24_q5",
     "number": 5,
     "type": "pg",
-    "stimulus": "Pada skala logaritmik daya mutlak optik (dBm), nilai 0 dBm setara dengan daya fisik dalam satuan miliwatt sebesar...",
+    "stimulus": "Dalam kalibrasi instrumen optik, pemahaman skala logaritmik decibel terhadap besaran daya fisik linear sangat penting.",
     "question": "Nilai daya fisik yang setara dengan 0 dBm adalah...",
     "options": [
       {
@@ -144,7 +144,7 @@
       },
       {
         "id": "C",
-        "text": "0,001 miliwatt"
+        "text": "0,001 miliwatt (1 µW)"
       },
       {
         "id": "D",
@@ -156,19 +156,19 @@
       }
     ],
     "key": "A",
-    "explanation": "Rumus dBm = 10 * log10 (P / 1 mW). Jika P = 1 mW, maka 10 * log10(1) = 0 dBm.",
-    "quickTip": "0 dBm setara dengan daya fisik tepat 1 mW."
+    "explanation": "Rumus daya dBm adalah 10 * log10(P / 1 mW). Ketika P = 1 mW, maka 10 * log10(1) = 0 dBm. Nilai 0 dBm BUKAN berarti tidak ada daya, melainkan daya tepat sebesar 1 mW.",
+    "quickTip": "0 dBm = 1 miliwatt (1 mW)."
   },
   {
     "id": "s24_q6",
     "number": 6,
     "type": "pg",
-    "stimulus": "Jika daya sinyal cahaya yang diukur pada OPM mengalami kenaikan sebesar +10 dBm.",
+    "stimulus": "Jika daya sumber cahaya optik dinaikkan dari 0 dBm menjadi +10 dBm pada pemancar OLS.",
     "question": "Berapa kali lipat kenaikan daya fisik cahaya dalam skala linear miliwatt dari kenaikan +10 dBm tersebut?",
     "options": [
       {
         "id": "A",
-        "text": "Sama saja tidak berubah"
+        "text": "Sama saja tidak mengalami kenaikan daya"
       },
       {
         "id": "B",
@@ -176,26 +176,26 @@
       },
       {
         "id": "C",
-        "text": "100 kali lipat"
+        "text": "100 kali lipat lebih besar"
       },
       {
         "id": "D",
-        "text": "2 kali lipat"
+        "text": "2 kali lipat lebih besar"
       },
       {
         "id": "E",
-        "text": "1.000 kali lipat"
+        "text": "1.000 kali lipat lebih besar"
       }
     ],
     "key": "B",
-    "explanation": "Dalam skala logaritmik 10 log: penambahan +10 dB berarti daya dikali 10 (10 dBm = 10 mW; 20 dBm = 100 mW; 30 dBm = 1000 mW = 1 Watt).",
-    "quickTip": "Kenaikan +10 dB = Daya naik 10 kali lipat; Penurunan -3 dB = Daya berkurang separuh (50%)."
+    "explanation": "Setiap penambahan +10 dBm setara dengan peningkatan daya fisik 10 kali lipat (0 dBm = 1 mW, +10 dBm = 10 mW, +20 dBm = 100 mW).",
+    "quickTip": "Penambahan +10 dBm = Daya naik 10 kali lipat."
   },
   {
     "id": "s24_q7",
     "number": 7,
     "type": "pg",
-    "stimulus": "Pada pengukuran di sisi pelanggan FTTH (roset / ONT), teknisi menggunakan Optical Power Meter untuk mengukur daya terima (Rx Power).",
+    "stimulus": "Teknisi melakukan pengujian daya terima optik pada roset pelanggan FTTH GPON menggunakan Optical Power Meter.",
     "question": "Rentang nilai daya terima (Rx Power) yang optimal dan memenuhi standar kualitas layanan FTTH GPON adalah sekitar...",
     "options": [
       {
@@ -204,7 +204,7 @@
       },
       {
         "id": "B",
-        "text": "0 dBm tepat"
+        "text": "0 dBm tepat tanpa toleransi"
       },
       {
         "id": "C",
@@ -220,27 +220,27 @@
       }
     ],
     "key": "A",
-    "explanation": "Standar daya terima ONT GPON yang baik adalah antara -15 dBm hingga -24 dBm. Di bawah -27 dBm koneksi rentan putus (LOS), sedangkan di atas -8 dBm receiver bisa rusak terbakar.",
-    "quickTip": "Daya terima normal ONT FTTH = antara -15 dBm s.d. -24 dBm."
+    "explanation": "Rentang ideal daya terima (Rx Power) pada ONT pelanggan GPON standar berkisar antara -15 dBm hingga -24 dBm (batas sensitivitas minimum umumnya sekitar -27 dBm).",
+    "quickTip": "Daya terima normal ONT GPON berada di rentang -15 dBm s.d. -24 dBm."
   },
   {
     "id": "s24_q8",
     "number": 8,
     "type": "pg",
-    "stimulus": "Pada pengukuran di sisi modem ONT pelanggan FTTH, layar OPM menunjukkan nilai daya terima sebesar -32,5 dBm, dan lampu indikator LOS pada modem berkedip merah.",
+    "stimulus": "Sebuah perangkat ONT pelanggan mengalami gangguan di mana lampu indikator bertuliskan 'LOS' (Loss of Signal) berkedip merah dan internet terputus.",
     "question": "Analisis teknis yang paling tepat mengenai penyebab lampu LOS berkedip merah tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Daya terima sinyal cahaya optik terlalu kuat dan merusak ONT"
+        "text": "Daya terima sinyal cahaya optik terlalu kuat dan membakar fotodioda"
       },
       {
         "id": "B",
-        "text": "Komputer pelanggan terkena virus trojan berbahaya"
+        "text": "Tabel MAC address pada switch access mengalami kondisi MAC flapping"
       },
       {
         "id": "C",
-        "text": "Kabel listrik PLN pelanggan mengalami korsleting tegangan tinggi"
+        "text": "Alamat IP dinamis pada komputer pengguna mengalami masa sewa kadaluarsa"
       },
       {
         "id": "D",
@@ -248,27 +248,27 @@
       },
       {
         "id": "E",
-        "text": "Koneksi internet sedang berjalan pada kecepatan 10 Gbps"
+        "text": "Port Ethernet kabel LAN UTP mengalami kegagalan proses negosiasi duplex"
       }
     ],
     "key": "D",
-    "explanation": "Sensitivitas penerima ONT GPON adalah sekitar -27 dBm. Nilai -32.5 dBm berada jauh di bawah ambang batas deteksi sehingga terjadi Loss of Signal (LOS).",
-    "quickTip": "Daya terima -32 dBm memicu alarm LOS (Loss of Signal) karena sinyal terlalu redup."
+    "explanation": "Lampu LOS (Loss of Signal) berkedip merah menandakan modul optik ONT tidak mendeteksi sinyal cahaya yang cukup kuat (Rx power di bawah batas sensitivitas, misalnya -30 dBm atau kabel putus).",
+    "quickTip": "Lampu LOS merah = Daya optik putus atau drop di bawah batas sensitivitas ONT."
   },
   {
     "id": "s24_q9",
     "number": 9,
     "type": "pg",
-    "stimulus": "Optical Light Source (OLS) merupakan perangkat pasangan kerja dari Optical Power Meter.",
+    "stimulus": "Untuk mengukur besarnya redaman (loss) total pada sebuah bentangan kabel serat optik baru secara akurat, dibutuhkan pemancar cahaya kalibrasi.",
     "question": "Fungsi utama dari Optical Light Source (OLS) adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Mengubah sinyal optik menjadi tegangan listrik 220 Volt"
+        "text": "Mengonversi sinyal optik menjadi paket data frame Ethernet"
       },
       {
         "id": "B",
-        "text": "Membersihkan ujung ferrule konektor dari butiran debu"
+        "text": "Mendeteksi titik bending kabel melalui pendaran cahaya merah"
       },
       {
         "id": "C",
@@ -276,27 +276,27 @@
       },
       {
         "id": "D",
-        "text": "Merekam video kondisi fisik kabel optik di bawah tanah"
+        "text": "Mengukur waktu tempuh pulsa cahaya pada serat kaca silika"
       },
       {
         "id": "E",
-        "text": "Memotong serat kaca menjadi serpihan kecil"
+        "text": "Menyambung dua ujung core serat kaca dengan leburan elektroda"
       }
     ],
     "key": "C",
-    "explanation": "OLS memancarkan cahaya dengan daya keluaran yang sangat stabil (misal -5 dBm konstan) pada 1310/1550 nm untuk dijadikan sumber referensi ukur.",
-    "quickTip": "OLS memancarkan sinyal cahaya laser stabil dengan daya konstan."
+    "explanation": "OLS (Optical Light Source) berfungsi sebagai sumber pemancar gelombang cahaya inframerah yang dayanya sangat stabil (konstan) pada panjang gelombang baku (1310 nm, 1490 nm, atau 1550 nm).",
+    "quickTip": "OLS memancarkan cahaya laser berdaya stabil untuk menguji redaman bersama OPM."
   },
   {
     "id": "s24_q10",
     "number": 10,
     "type": "pg",
-    "stimulus": "Metode standar industri untuk mengukur total redaman penyisipan (Insertion Loss) sebuah bentangan jalur kabel optik menggunakan kombinasi dua alat disebut...",
+    "stimulus": "Pengujian redaman insersi (Insertion Loss) dari titik ODC ke ODP menggunakan metode Optical Loss Test Set (OLTS).",
     "question": "Pasangan alat ukur yang digunakan dalam pengujian Insertion Loss tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Fiber Cleaver dan Tang Buaya"
+        "text": "Tone Generator and Probe dengan Multimeter"
       },
       {
         "id": "B",
@@ -308,22 +308,22 @@
       },
       {
         "id": "D",
-        "text": "Fusion Splicer dan Obeng Plus"
+        "text": "Fusion Splicer dan Optical Fiber Cleaver"
       },
       {
         "id": "E",
-        "text": "Visual Fault Locator dan LAN Tester LED"
+        "text": "Visual Fault Locator dan LAN Cable Tester LED"
       }
     ],
     "key": "B",
-    "explanation": "Metode OLTS (Optical Loss Test Set) memanfaatkan OLS memancarkan daya konstan di satu ujung dan OPM mengukur sisa daya yang sampai di ujung lainnya.",
-    "quickTip": "Uji redaman total jalur (Insertion Loss) = Pasangan OLS dan OPM."
+    "explanation": "Pengujian Insertion Loss kabel optik mutlak memerlukan OLS di salah satu ujung sebagai pemancar daya stabil dan OPM di ujung lain sebagai pengukur daya terima.",
+    "quickTip": "Pengukuran redaman optik (OLTS) menggunakan pasangan OLS (pemancar) dan OPM (penerima)."
   },
   {
     "id": "s24_q11",
     "number": 11,
     "type": "pg",
-    "stimulus": "Sebelum memulai pengukuran redaman kabel optik di lapangan dengan OLS dan OPM, teknisi menghubungkan kedua alat dengan satu kabel patch cord pendek lalu menekan tombol [REF] / [ZERO].",
+    "stimulus": "Sebelum mengukur kabel jaringan lapangan, teknisi menghubungkan OLS dan OPM menggunakan kabel patch cord referensi pendek dan menekan tombol 'Zero' atau 'Ref'.",
     "question": "Tujuan dari prosedur kalibrasi 'Set Reference' (Zeroing) tersebut adalah...",
     "options": [
       {
@@ -332,30 +332,30 @@
       },
       {
         "id": "B",
-        "text": "Menyalakan lampu senter penerangan darurat"
+        "text": "Menghapus tabel routing statis pada modul transceiver optik"
       },
       {
         "id": "C",
-        "text": "Mengisi ulang daya baterai OLS dari baterai OPM"
+        "text": "Mengatur panjang gelombang laser pemancar ke spektrum cahaya tampak"
       },
       {
         "id": "D",
-        "text": "Menghapus seluruh memori konfigurasi pabrik alat ukur"
+        "text": "Mengaktifkan modulasi frekuensi 1 kHz atau 2 kHz pada pemancar OLS"
       },
       {
         "id": "E",
-        "text": "Mengunci tombol alat agar tidak bisa ditekan lagi"
+        "text": "Menyetel nilai resistansi pembumian kabel menjadi 0 Ohm"
       }
     ],
     "key": "A",
-    "explanation": "Set Reference menetapkan titik acuan 0.00 dB dengan mengurangkan redaman patch cord uji awal, sehingga hasil pembacaan berikutnya murni mewakili redaman kabel jaringan.",
-    "quickTip": "Set Reference pada OPM/OLS bertujuan menolkan redaman kabel jumper uji (titik 0 dB)."
+    "explanation": "Set Reference menyimpan nilai daya awal kabel jumper uji sebagai acuan 0.00 dB, sehingga saat kabel lapangan disisipkan, layar OPM langsung menampilkan murni nilai redaman (insertion loss) kabel uji dalam dB.",
+    "quickTip": "Prosedur 'Set Reference' mengeliminasi redaman patch cord uji agar hasil ukur murni."
   },
   {
     "id": "s24_q12",
     "number": 12,
     "type": "pg",
-    "stimulus": "Pada pengukuran OPM, teknisi harus memilih kalibrasi panjang gelombang (wavelength calibration, tombol λ) yang sesuai dengan sumber cahaya yang diukur.",
+    "stimulus": "Sistem FTTH GPON menggunakan panjang gelombang berbeda untuk transmisi hulu (upstream) dan transmisi hilir (downstream).",
     "question": "Panjang gelombang standar yang harus dipilih pada OPM saat mengukur sinyal data hilir (downstream data) pada jaringan GPON FTTH adalah...",
     "options": [
       {
@@ -380,14 +380,14 @@
       }
     ],
     "key": "D",
-    "explanation": "Standar ITU-T G.984 GPON menggunakan 1490 nm untuk downstream data, 1310 nm untuk upstream data, dan 1550 nm untuk RF video broadcast.",
-    "quickTip": "Panjang gelombang downstream data GPON pada OPM = 1490 nm."
+    "explanation": "Standar GPON (ITU-T G.984) menggunakan 1490 nm untuk downstream data, 1310 nm untuk upstream data, dan 1550 nm dialokasikan untuk video RF overlay (TV kabel).",
+    "quickTip": "Downstream data GPON beroperasi pada panjang gelombang 1490 nm."
   },
   {
     "id": "s24_q13",
     "number": 13,
     "type": "pg",
-    "stimulus": "Teknisi mengukur daya keluaran pemancar OLS sebesar -5,0 dBm pada satu ujung kabel. Di ujung penerima, OPM membaca daya sebesar -12,0 dBm.",
+    "stimulus": "Teknisi menyetel OLS pada daya keluaran -10.0 dBm. Ketika diukur di ujung kabel serat optik sejauh 15 km menggunakan OPM, daya terima terbaca -17.0 dBm.",
     "question": "Berapakah total redaman (Total Insertion Loss) dari bentangan kabel optik tersebut?",
     "options": [
       {
@@ -404,7 +404,7 @@
       },
       {
         "id": "D",
-        "text": "60,0 dB"
+        "text": "27,0 dB"
       },
       {
         "id": "E",
@@ -412,14 +412,14 @@
       }
     ],
     "key": "B",
-    "explanation": "Redaman Loss = Daya Masuk (Pin) - Daya Keluar (Pout) = (-5.0 dBm) - (-12.0 dBm) = +7.0 dB.",
-    "quickTip": "Loss = Pin - Pout: -5 dBm dikurangi -12 dBm = 7 dB."
+    "explanation": "Total Insertion Loss dihitung dari selisih daya masuk (Pin) dikurangi daya keluar (Pout): Loss = Pin - Pout = (-10.0 dBm) - (-17.0 dBm) = 7.0 dB.",
+    "quickTip": "Total Loss = Daya Kirim - Daya Terima = (-10) - (-17) = 7.0 dB."
   },
   {
     "id": "s24_q14",
     "number": 14,
     "type": "pg",
-    "stimulus": "Komponen pasif Optical Splitter 1:8 digunakan di dalam kotak ODP FTTH untuk membagi satu serat masukan menjadi 8 serat keluaran ke pelanggan.",
+    "stimulus": "Pada kotak Optical Distribution Point (ODP), sebuah sinyal optik tunggal dipecah menjadi 8 jalur kabel drop pelanggan menggunakan optical splitter pasif.",
     "question": "Besarnya redaman teoritis yang dihasilkan oleh sebuah Optical Splitter pasif rasio 1:8 adalah sekitar...",
     "options": [
       {
@@ -444,14 +444,14 @@
       }
     ],
     "key": "A",
-    "explanation": "Tiap pembagian 1:2 menghasilkan redaman ~3 dB. Maka 1:8 (tiga tahap 1:2) menghasilkan redaman teoritis 3 x 3.5 dB = ~10.5 dB.",
-    "quickTip": "Redaman Optical Splitter: 1:2 ~ 3.5 dB; 1:4 ~ 7 dB; 1:8 ~ 10.5 dB; 1:16 ~ 14 dB."
+    "explanation": "Setiap pembagian 1:2 menghasilkan redaman ~3 dB. Maka rasio 1:8 (2^3) memiliki redaman pembagian teoritis 3 x 3 dB = 9 dB, ditambah insertion loss pabrikan menjadi sekitar 9.5 s.d. 10.5 dB.",
+    "quickTip": "Redaman Optical Splitter 1:8 adalah sekitar 10.0 s.d. 10.5 dB."
   },
   {
     "id": "s24_q15",
     "number": 15,
     "type": "pg",
-    "stimulus": "Komponen pasif Optical Splitter 1:16 digunakan pada jaringan distribusi fiber optik perumahan padat.",
+    "stimulus": "Di dalam perangkat Optical Distribution Cabinet (ODC), sinyal didistribusikan menggunakan splitter pasif bertingkat dengan rasio 1:16.",
     "question": "Besarnya redaman teoritis yang dihasilkan oleh Optical Splitter rasio 1:16 adalah sekitar...",
     "options": [
       {
@@ -476,19 +476,19 @@
       }
     ],
     "key": "D",
-    "explanation": "Splitter 1:16 adalah empat tingkat pembagian 1:2 (2^4 = 16), menghasilkan redaman rata-rata sekitar 14 dB.",
-    "quickTip": "Redaman Optical Splitter 1:16 = sekitar 14 dB."
+    "explanation": "Splitter 1:16 (2^4) menghasilkan redaman teoritis 4 x 3 dB = 12 dB, ditambah loss material internal pabrikan sehingga total redamannya berada di kisaran 13.5 s.d. 14.5 dB.",
+    "quickTip": "Redaman Optical Splitter 1:16 adalah sekitar 13.5 s.d. 14.5 dB."
   },
   {
     "id": "s24_q16",
     "number": 16,
     "type": "pg",
-    "stimulus": "Teknisi mengukur sinyal laser yang keluar langsung dari modul transceiver SFP OLT di sentral CO sebelum masuk ke kabel distribusi.",
+    "stimulus": "Saat mengukur langsung daya pancar modul transceiver OLT GPON (SFP GPON Class B+) pada port OLT sebelum masuk ke jaringan distribusi.",
     "question": "Nilai daya pancar keluaran (Tx Power) modul SFP GPON Class B+ yang normal terbaca pada OPM adalah sekitar...",
     "options": [
       {
         "id": "A",
-        "text": "+50,0 dBm sampai +100,0 dBm"
+        "text": "+20,0 dBm sampai +35,0 dBm"
       },
       {
         "id": "B",
@@ -508,27 +508,27 @@
       }
     ],
     "key": "C",
-    "explanation": "Modul SFP GPON OLT Class B+ memancarkan daya positif sebesar +1.5 dBm hingga +5.0 dBm (Class C+ mencapai +3 hingga +7 dBm).",
-    "quickTip": "Tx Power modul SFP GPON OLT bernilai positif = sekitar +1.5 dBm s.d. +5 dBm."
+    "explanation": "Standar modul OLT SFP Class B+ memancarkan daya positif di kisaran +1.5 dBm hingga +5.0 dBm (Class C+ berkisar +3.0 dBm hingga +7.0 dBm).",
+    "quickTip": "Tx Power pemancar OLT GPON Class B+ bernilai positif sekitar +1.5 dBm s.d. +5.0 dBm."
   },
   {
     "id": "s24_q17",
     "number": 17,
     "type": "pg",
-    "stimulus": "Pada ujung konektor serat optik terdapat penutup pelindung plastik kecil (Dust Cap) yang selalu terpasang dari pabrik.",
+    "stimulus": "Konektor serat optik yang tidak sedang terhubung ke perangkat wajib dipasangi tutup pelindung karet/plastik putih.",
     "question": "Fungsi utama dari pemasangan Dust Cap pada ujung ferrule konektor optik adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Mencegah kabel mengeluarkan arus listrik tegangan tinggi"
+        "text": "Mencegah kabel memancarkan interferensi gelombang elektromagnetik ke udara"
       },
       {
         "id": "B",
-        "text": "Mengubah warna cahaya laser menjadi warna pelangi"
+        "text": "Mengurangi redaman kromatik kabel optik secara kimiawi"
       },
       {
         "id": "C",
-        "text": "Membuat kabel menjadi tahan terhadap air mendidih"
+        "text": "Mengunci mekanisme bayonet pengait agar tidak longgar"
       },
       {
         "id": "D",
@@ -536,18 +536,18 @@
       },
       {
         "id": "E",
-        "text": "Meningkatkan kecepatan transfer data saat terpasang"
+        "text": "Menstabilkan suhu dingin pendingin ferrule keramik"
       }
     ],
     "key": "D",
-    "explanation": "Partikel debu berukuran 1 mikron pada ferrule dapat menutupi core 9 mikron atau menggores kaca saat ditancapkan, memicu redaman tinggi. Dust cap wajib dipasang saat konektor tidak dicolokkan.",
-    "quickTip": "Dust Cap melindungi permukaan ujung konektor dari partikel debu dan goresan."
+    "explanation": "Partikel debu berukuran 1-5 mikron di udara dapat menutupi core serat kaca (9 µm) dan menyebabkan lonjakan insertion loss tinggi serta goresan saat konektor ditancapkan, sehingga penutup debu (dust cap) wajib selalu dipasang.",
+    "quickTip": "Dust Cap melindungi ujung ferrule dari debu mikro, kontaminasi minyak, dan goresan."
   },
   {
     "id": "s24_q18",
     "number": 18,
     "type": "pg",
-    "stimulus": "Alat pembersih mekanik berbentuk pena (One-Click Fiber Cleaner) digunakan sebelum menancapkan konektor ke port adapter.",
+    "stimulus": "Sebelum menancapkan patch cord ke port OPM atau adaptor ODF, teknisi membersihkan ujung ferrule konektor menggunakan alat berbentuk pena pembersih.",
     "question": "Mekanisme kerja dari alat pembersih One-Click Cleaner tersebut adalah...",
     "options": [
       {
@@ -556,30 +556,30 @@
       },
       {
         "id": "B",
-        "text": "Menyemprotkan air sabun cair bertekanan tinggi"
+        "text": "Menyemprotkan cairan deterjen pembersih kaca bertekanan tinggi"
       },
       {
         "id": "C",
-        "text": "Membakar kotoran menggunakan api lilin"
+        "text": "Membakar partikel kotoran menggunakan busur listrik mikro"
       },
       {
         "id": "D",
-        "text": "Mengikis kaca ferrule dengan amplas besi kasar"
+        "text": "Mengikis kerak ferrule dengan ujung jarum amplas logam"
       },
       {
         "id": "E",
-        "text": "Menyedot debu dengan motor vacuum cleaner mini"
+        "text": "Mengalirkan arus listrik statis bertegangan tinggi untuk membunuh kuman"
       }
     ],
     "key": "A",
-    "explanation": "One-Click Cleaner memutar untaian benang pembersih mikrofiber kering (dry cleaning) dengan satu dorongan klik lembut tanpa merusak permukaan ferrule keramik.",
-    "quickTip": "One-Click Cleaner membersihkan ujung ferrule dengan putaran kain mikrofiber khusus."
+    "explanation": "One-Click Cleaner menggunakan pita benang/kain mikrofiber bebas serat (lint-free) yang berputar otomatis sejauh 180° saat ditekan untuk menyapu debu dan residu minyak pada permukaan ferrule.",
+    "quickTip": "One-Click Cleaner memutar pita mikrofiber bebas serat untuk membersihkan ferrule."
   },
   {
     "id": "s24_q19",
     "number": 19,
     "type": "pg",
-    "stimulus": "Mikroskop inspeksi serat optik digital (Fiber Video Microscope / Fiber Probe) digunakan untuk memeriksa kondisi permukaan ujung ferrule.",
+    "stimulus": "Di ruang laboratorium telekomunikasi, teknisi menggunakan mikroskop fiber optik (Fiber Inspection Probe) untuk memeriksa kondisi konektor.",
     "question": "Tujuan teknisi memeriksa ujung ferrule konektor menggunakan mikroskop serat optik sebelum penyambungan adalah...",
     "options": [
       {
@@ -588,39 +588,39 @@
       },
       {
         "id": "B",
-        "text": "Mengetahui merk pabrik pembuat kabel"
+        "text": "Melihat arah polarisasi medan magnetik di dalam cladding"
       },
       {
         "id": "C",
-        "text": "Menghitung jumlah bit data yang mengalir di kabel"
+        "text": "Menghitung jumlah paket frame data yang tersimpan di dalam ferrule"
       },
       {
         "id": "D",
-        "text": "Melihat apakah ada bakteri atau kuman yang menempel"
+        "text": "Mengukur kecepatan rambat sinyal cahaya di dalam silika"
       },
       {
         "id": "E",
-        "text": "Melihat warna cat jaket luar kabel"
+        "text": "Memeriksa warna kode isolasi jaket luar kabel drop"
       }
     ],
     "key": "A",
-    "explanation": "Standar IEC 61300-3-35 mensyaratkan inspeksi visual mikroskop (Inspect Before You Connect) untuk memastikan core zona A bebas dari goresan dan kotoran.",
-    "quickTip": "Inspeksi mikroskop optik memastikan ferrule bersih dari goresan dan debu."
+    "explanation": "Fiber Inspection Probe memperbesar permukaan ferrule 200x hingga 400x untuk memverifikasi kebersihan ujung ferrule (standar IEC 61300-3-35) agar bebas dari kontaminasi yang memicu loss.",
+    "quickTip": "Mikroskop optik digunakan untuk menginspeksi kebersihan dan fisik ujung core ferrule."
   },
   {
     "id": "s24_q20",
     "number": 20,
     "type": "pg",
-    "stimulus": "Dalam penanganan limbah potongan serat kaca halus (fiber shards) sisa pemotongan konektor di meja kerja pengujian optik.",
+    "stimulus": "Saat mengupas dan memotong ujung kabel optik menggunakan fiber cleaver, serpihan pecahan kaca halus yang sangat tajam dan transparan akan terlepas.",
     "question": "SOP K3 yang BENAR dalam memperlakukan pecahan serat kaca optik adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Meniup pecahan kaca menggunakan hembusan napas ke udara ruangan"
+        "text": "Menyapu serpihan kaca menggunakan sapu ijuk biasa tanpa wadah khusus"
       },
       {
         "id": "B",
-        "text": "Membuang pecahan kaca ke dalam kotak makanan atau cangkir minuman"
+        "text": "Membungkus serpihan kaca dengan tisu dan menyimpannya di saku rompi teknisi"
       },
       {
         "id": "C",
@@ -628,99 +628,27 @@
       },
       {
         "id": "D",
-        "text": "Membiarkan pecahan kaca berserakan di atas karpet laboratorium"
+        "text": "Membilas serpihan kaca ke wastafel air pembuangan laboratorium"
       },
       {
         "id": "E",
-        "text": "Menyapu pecahan kaca ke lantai dengan telapak tangan telanjang"
+        "text": "Membuang serpihan potongan kaca ke tempat sampah kertas terbuka biasa"
       }
     ],
     "key": "C",
-    "explanation": "Serpihan kaca serat optik sangat tipis dan tajam; jika menembus kulit dapat masuk ke aliran darah atau terhirup ke paru-paru. Wajib dibuang ke wadah tertutup khusus limbah tajam.",
-    "quickTip": "Pecahan serat kaca wajib dibuang ke wadah tertutup khusus limbah tajam (Sharps Container)."
+    "explanation": "Serpihan kaca optik sangat tipis, transparan, dan getas; jika tertusuk ke kulit atau terhirup dapat masuk ke aliran darah. Pecahan kaca harus selalu ditampung di wadah tertutup khusus limbah tajam (Sharps Disposal Container).",
+    "quickTip": "Serpihan serat kaca wajib dibuang ke wadah tertutup khusus limbah tajam (Sharps Container)."
   },
   {
     "id": "s24_q21",
     "number": 21,
-    "type": "pgk_mcma",
-    "stimulus": "Karakteristik dan fungsi instrumen Visual Fault Locator (VFL).",
-    "question": "Manakah pernyataan yang BENAR mengenai Visual Fault Locator? (Pilihlah TIGA jawaban yang benar!)",
-    "options": [
-      {
-        "id": "A",
-        "text": "Sangat efektif untuk mendeteksi titik tekukan ekstrem (macrobending) dan serat retak di dalam patch cord"
-      },
-      {
-        "id": "B",
-        "text": "Digunakan untuk mengepres konektor RJ-45 ke kabel UTP"
-      },
-      {
-        "id": "C",
-        "text": "Dilarang keras menatap langsung ke sumber pancaran sinar laser VFL dengan mata telanjang"
-      },
-      {
-        "id": "D",
-        "text": "Memancarkan sinar laser merah tampak pada panjang gelombang sekitar 650 nm"
-      },
-      {
-        "id": "E",
-        "text": "Dapat mengukur besarnya redaman kabel dalam satuan desibel (dB) secara presisi"
-      }
-    ],
-    "key": [
-      "A",
-      "C",
-      "D"
-    ],
-    "explanation": "VFL memancarkan laser merah tampak 650 nm untuk pelacakan visual tekukan/retak. VFL tidak mengukur angka dB (yang mengukur dB adalah OPM).",
-    "quickTip": "VFL: Laser merah 650 nm, mendeteksi tekukan/retakan visual, bahaya ditatap langsung."
-  },
-  {
-    "id": "s24_q22",
-    "number": 22,
-    "type": "pgk_mcma",
-    "stimulus": "Penggunaan Optical Power Meter (OPM) dalam pemeliharaan jaringan optik.",
-    "question": "Manakah parameter dan fungsi yang TEPAT pada pengoperasian OPM? (Pilihlah TIGA jawaban yang benar!)",
-    "options": [
-      {
-        "id": "A",
-        "text": "Dapat digunakan bersama OLS untuk mengukur total insertion loss pada suatu bentangan kabel"
-      },
-      {
-        "id": "B",
-        "text": "Mengukur daya mutlak sinyal optik yang diterima dalam satuan dBm"
-      },
-      {
-        "id": "C",
-        "text": "Menyediakan pilihan kalibrasi panjang gelombang (seperti 850, 1310, 1490, dan 1550 nm)"
-      },
-      {
-        "id": "D",
-        "text": "Menghitung jumlah paket ping yang hilang secara otomatis"
-      },
-      {
-        "id": "E",
-        "text": "Mampu menyambung dua ujung serat kaca yang terputus di dalam tanah"
-      }
-    ],
-    "key": [
-      "A",
-      "B",
-      "C"
-    ],
-    "explanation": "OPM mengukur daya optik (dBm), menyediakan pilihan panjang gelombang, dan berpasangan dengan OLS untuk mengukur loss. OPM bukan alat penyambung serat.",
-    "quickTip": "Fungsi OPM: Mengukur daya dBm, kalibrasi panjang gelombang, dan mengukur loss bersama OLS."
-  },
-  {
-    "id": "s24_q23",
-    "number": 23,
     "type": "pgk_mcma",
     "stimulus": "Nilai redaman tipikal pada komponen pasif jaringan FTTH GPON.",
     "question": "Manakah estimasi nilai redaman pasif berikut yang SESUAI dengan standar industri? (Pilihlah DUA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "Optical Splitter 1:8 memiliki redaman rata-rata sekitar 10.5 dB"
+        "text": "Optical Splitter 1:16 memiliki redaman rata-rata sekitar 14.0 dB"
       },
       {
         "id": "B",
@@ -732,30 +660,30 @@
       },
       {
         "id": "D",
-        "text": "Kabel fiber Single-Mode 1 km pada 1310 nm memiliki redaman 50 dB"
+        "text": "Optical Splitter 1:8 memiliki redaman rata-rata sekitar 10.5 dB"
       },
       {
         "id": "E",
-        "text": "Optical Splitter 1:16 memiliki redaman rata-rata sekitar 14.0 dB"
+        "text": "Kabel fiber Single-Mode 1 km pada 1310 nm memiliki redaman 50 dB"
       }
     ],
     "key": [
       "A",
-      "E"
+      "D"
     ],
     "explanation": "Splitter 1:8 ~ 10.5 dB; Splitter 1:16 ~ 14 dB. Sambungan fusion yang baik redamannya < 0.05 dB (bukan 15 dB). Kabel SMF 1 km redamannya ~0.35 dB.",
     "quickTip": "Redaman splitter: 1:8 ~ 10.5 dB; 1:16 ~ 14 dB."
   },
   {
-    "id": "s24_q24",
-    "number": 24,
+    "id": "s24_q22",
+    "number": 22,
     "type": "pgk_mcma",
     "stimulus": "SOP pembersihan dan perawatan konektor serat optik sebelum pengukuran.",
     "question": "Manakah prosedur pembersihan konektor optik yang BENAR menurut standar K3? (Pilihlah TIGA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "Meniup ujung ferrule konektor dengan ludah untuk melumasi kaca"
+        "text": "Selalu menutup ujung konektor dengan Dust Cap bersih saat tidak terpasang ke adapter"
       },
       {
         "id": "B",
@@ -763,28 +691,28 @@
       },
       {
         "id": "C",
-        "text": "Selalu menutup ujung konektor dengan Dust Cap bersih saat tidak terpasang ke adapter"
-      },
-      {
-        "id": "D",
         "text": "Menggunakan alkohol isopropil dengan kemurnian tinggi 99% (IPA) jika menggunakan pembersih basah"
       },
       {
+        "id": "D",
+        "text": "Membersihkan ferrule menggunakan larutan pelarut aseton berkonsentrasi tinggi"
+      },
+      {
         "id": "E",
-        "text": "Membersihkan ujung konektor dengan cara mengusapnya pada celana jeans atau kaos kerja"
+        "text": "Mengikis kotoran ferrule menggunakan kertas amplas logam halus"
       }
     ],
     "key": [
+      "A",
       "B",
-      "C",
-      "D"
+      "C"
     ],
-    "explanation": "Pembersihan optik wajib memakai alat khusus mikrofiber/One-Click cleaner, alkohol isopropil 99%, dan dust cap. Mengusap ke baju atau meniup akan mengotori kaca dengan minyak dan air liur.",
-    "quickTip": "Pembersihan konektor: One-Click cleaner, alkohol 99%, dan pasang dust cap."
+    "explanation": "Pembersihan optik wajib memakai alat khusus mikrofiber/One-Click cleaner, alkohol isopropil 99%, dan dust cap. Menggunakan amplas kasar atau aseton akan merusak/menggores permukaan keramik ferrule.",
+    "quickTip": "Pembersihan konektor: One-Click cleaner, alkohol IPA 99%, dan pasang dust cap."
   },
   {
-    "id": "s24_q25",
-    "number": 25,
+    "id": "s24_q23",
+    "number": 23,
     "type": "pgk_mcma",
     "stimulus": "Keselamatan kerja (K3) penanganan laser dan pecahan kaca serat optik.",
     "question": "Manakah tindakan K3 yang WAJIB dipatuhi oleh teknisi fiber optik? (Pilihlah DUA jawaban yang benar!)",
@@ -795,15 +723,15 @@
       },
       {
         "id": "B",
-        "text": "Menggosok mata dengan tangan setelah memegang serpihan kaca serat optik"
+        "text": "Menatap langsung ke lubang port laser pemancar untuk memastikan radiasinya aktif"
       },
       {
         "id": "C",
-        "text": "Makan dan minum sambil memotong serat kaca di atas meja kerja yang sama"
+        "text": "Mengonsumsi makanan dan minuman ringan tepat di atas meja area kerja pemotongan serat kaca"
       },
       {
         "id": "D",
-        "text": "Menatap langsung ke lubang laser pemancar untuk memastikan lampunya hidup"
+        "text": "Mengusap kelopak mata dengan tangan setelah memegang potongan inti kaca serat optik"
       },
       {
         "id": "E",
@@ -814,8 +742,79 @@
       "A",
       "E"
     ],
-    "explanation": "SOP K3 optik: Gunakan kacamata safety, buang serpihan kaca ke wadah khusus, dilarang makan/minum di area kerja potong kaca, dan jangan menatap laser.",
+    "explanation": "SOP K3 optik: Gunakan kacamata safety, buang serpihan kaca ke wadah khusus, dilarang makan/minum di area kerja potong kaca, dan jangan pernah menatap sumber laser.",
     "quickTip": "K3 optik: Kacamata pelindung & wadah pembuangan serpihan kaca khusus."
+  },
+  {
+    "id": "s24_q24",
+    "number": 24,
+    "type": "pgk_mcma",
+    "stimulus": "Penerapan satuan pengukuran decibel (dB dan dBm) pada instrumen optik.",
+    "question": "Manakah pernyataan yang BENAR mengenai satuan ukur dB dan dBm? (Pilihlah DUA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Satuan dB dan dBm memiliki nilai dan makna fisis yang sama persis tanpa perbedaan"
+      },
+      {
+        "id": "B",
+        "text": "Satuan dBm menunjukkan nilai daya mutlak yang terukur dengan referensi 1 miliwatt"
+      },
+      {
+        "id": "C",
+        "text": "Nilai 0 dBm berarti kabel serat optik mengalami putus total tanpa ada cahaya sama sekali"
+      },
+      {
+        "id": "D",
+        "text": "Satuan dB menunjukkan rasio perbandingan redaman kehilangan daya antara daya kirim dan daya terima"
+      },
+      {
+        "id": "E",
+        "text": "Nilai +3 dBm setara dengan daya listrik tegangan bolak-balik PLN 220 Volt"
+      }
+    ],
+    "key": [
+      "B",
+      "D"
+    ],
+    "explanation": "dBm menyatakan daya mutlak (referensi 1 mW, 0 dBm = 1 mW), sedangkan dB menyatakan perbandingan relatif (redaman atau penguatan). Keduanya memiliki definisi matematis yang berbeda.",
+    "quickTip": "dBm = Nilai daya mutlak (0 dBm = 1 mW); dB = Nilai redaman relatif."
+  },
+  {
+    "id": "s24_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Peralatan pengujian serat optik dasar yang wajib dibawa teknisi instalasi FTTH.",
+    "question": "Manakah alat yang TERMASUK instrumen pengujian optik dasar di lapangan? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Visual Fault Locator (VFL laser senter merah)"
+      },
+      {
+        "id": "B",
+        "text": "Tang Crimping Modular RJ-45"
+      },
+      {
+        "id": "C",
+        "text": "Optical Light Source (OLS sumber cahaya laser stabil)"
+      },
+      {
+        "id": "D",
+        "text": "Solder Listrik 40 Watt"
+      },
+      {
+        "id": "E",
+        "text": "Optical Power Meter (OPM pengukur daya terima)"
+      }
+    ],
+    "key": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explanation": "Tiga instrumen optik dasar adalah VFL (senter laser pelacak), OPM (pengukur daya optik), dan OLS (sumber cahaya stabil). Crimping tool dan solder listrik adalah alat kabel tembaga.",
+    "quickTip": "Tiga alat ukur optik dasar: VFL, OPM, dan OLS."
   },
   {
     "id": "s24_q26",
@@ -836,7 +835,7 @@
       },
       {
         "id": "st3",
-        "text": "Sinar laser VFL aman ditatap langsung dari jarak 1 cm karena cahayanya sama seperti senter mainan biasa.",
+        "text": "Sinar laser VFL aman ditatap langsung dari jarak dekat karena dayanya setara lampu senter bohlam biasa.",
         "correct": "S"
       }
     ],
@@ -940,11 +939,11 @@
       },
       {
         "id": "st3",
-        "text": "Sisa serpihan kaca optik aman dibuang bebas di atas karpet lantai ruangan kelas.",
+        "text": "Serpihan potongan inti kaca serat optik dapat larut secara alami dengan air keran biasa.",
         "correct": "S"
       }
     ],
-    "explanation": "Membuang serpihan kaca ke karpet sangat berbahaya karena dapat menusuk kaki atau terhirup siswa/teknisi lain.",
+    "explanation": "Kaca serat optik terbuat dari silika murni yang tidak larut dalam air dan berbahaya jika tertusuk atau masuk ke tubuh.",
     "quickTip": "Limbah serpihan kaca serat optik wajib dikumpulkan dan dibuang di wadah khusus limbah tajam."
   }
 ]

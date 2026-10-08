@@ -8,7 +8,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Mengikat kedua serat kaca menggunakan benang nilon aramid"
+        "text": "Mengikat benang aramid penguat (Kevlar yarn) menggunakan crimp ring konektor"
       },
       {
         "id": "B",
@@ -16,15 +16,15 @@
       },
       {
         "id": "C",
-        "text": "Memanaskan kabel menggunakan korek api gas manual"
+        "text": "Memanaskan pelindung jaket luar menggunakan heat gun udara panas bersuhu 300°C"
       },
       {
         "id": "D",
-        "text": "Menjepit kedua serat menggunakan tang buaya bertekanan tinggi"
+        "text": "Menekan ferrule konektor menggunakan tang crimping hidrolik heksagonal bertekanan tinggi"
       },
       {
         "id": "E",
-        "text": "Merekatkan kedua ujung kaca menggunakan lem super glue silikon"
+        "text": "Menyelaraskan kedua ujung inti menggunakan gel penyesuai indeks (index matching gel) dalam klem mekanik"
       }
     ],
     "key": "B",
@@ -44,19 +44,19 @@
       },
       {
         "id": "B",
-        "text": "Analog Alignment dan Digital Alignment"
+        "text": "Loose Tube Alignment dan Central Strength Member Alignment"
       },
       {
         "id": "C",
-        "text": "Jacket Alignment dan Buffer Alignment"
+        "text": "Active Core Alignment dan Passive Magnetic Alignment"
       },
       {
         "id": "D",
-        "text": "Laser Alignment dan LED Alignment"
+        "text": "Mechanical Ferrule Alignment dan Epoxy Polish Alignment"
       },
       {
         "id": "E",
-        "text": "USB Alignment dan Serial Alignment"
+        "text": "Outer Jacket Alignment dan Tight Buffer Alignment"
       }
     ],
     "key": "A",
@@ -72,11 +72,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Mengupas selongsong pipa loose tube plastik"
+        "text": "Mengupas selongsong pipa pelindung loose tube plastik berdiameter 2 mm"
       },
       {
         "id": "B",
-        "text": "Menjepit pin konektor tembaga RJ-45"
+        "text": "Memotong benang penguat aramid yarn (Kevlar) di dalam jaket kabel"
       },
       {
         "id": "C",
@@ -84,11 +84,11 @@
       },
       {
         "id": "D",
-        "text": "Memotong kawat baja penggantung messenger wire"
+        "text": "Mengupas lapisan tight buffer sekunder berdiameter 900 µm pada pigtail"
       },
       {
         "id": "E",
-        "text": "Mengupas kulit jaket luar kabel hitam tebal (2-3 mm)"
+        "text": "Mengupas kulit jaket luar kabel drop cable atau patch cord (diameter 2-3 mm)"
       }
     ],
     "key": "C",
@@ -104,7 +104,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Air mineral kemasan biasa"
+        "text": "Cairan pembersih flux berbasis aseton volatil"
       },
       {
         "id": "B",
@@ -112,15 +112,15 @@
       },
       {
         "id": "C",
-        "text": "Minyak goreng kelapa sawit"
+        "text": "Pelarut minyak petroleum ether / thinner nitrocellulose"
       },
       {
         "id": "D",
-        "text": "Bensin pertalite atau solar"
+        "text": "Etanol teknis 70% dengan kandungan air dan pengotor 30%"
       },
       {
         "id": "E",
-        "text": "Cairan pembersih lantai beraroma wangi"
+        "text": "Larutan pembersih lensa kacamata berbahan detergen netral"
       }
     ],
     "key": "B",
@@ -136,7 +136,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Tisu toilet kamar mandi"
+        "text": "Kain katun majun penyerap minyak dan pelumas mekanik"
       },
       {
         "id": "B",
@@ -144,15 +144,15 @@
       },
       {
         "id": "C",
-        "text": "Kertas koran bekas"
+        "text": "Kertas saring selulosa laboratorium berkepadatan tinggi"
       },
       {
         "id": "D",
-        "text": "Kain lap pel basah"
+        "text": "Spons busa poliuretan berpori terbuka pembersih debu"
       },
       {
         "id": "E",
-        "text": "Kertas amplas kayu kasar"
+        "text": "Kertas pemoles lapping film grit 0.5 mikron aluminium oksida"
       }
     ],
     "key": "B",
@@ -168,15 +168,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Gergaji besi mini"
+        "text": "Rotary Armored Cable Slitter"
       },
       {
         "id": "B",
-        "text": "Gunting kawat seng"
+        "text": "Kevlar Shears / Aramid Cutting Shears"
       },
       {
         "id": "C",
-        "text": "Tang potong tembaga diagonal"
+        "text": "Loose Tube Buffer Tube Slitter"
       },
       {
         "id": "D",
@@ -184,7 +184,7 @@
       },
       {
         "id": "E",
-        "text": "Pisau cutter bangunan"
+        "text": "Fiber Optic Drop Cable Stripper"
       }
     ],
     "key": "D",
@@ -200,7 +200,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Sudut kemiringan 45 derajat"
+        "text": "Sudut kemiringan antara 5,0 hingga 8,0 derajat"
       },
       {
         "id": "B",
@@ -208,15 +208,15 @@
       },
       {
         "id": "C",
-        "text": "Tidak ada batas toleransi sudut potongan"
+        "text": "Sudut kemiringan tepat 8,0 derajat miring menyerupai ferrule APC"
       },
       {
         "id": "D",
-        "text": "Sudut kemiringan 90 derajat miring"
+        "text": "Sudut kemiringan antara 10,0 hingga 15,0 derajat"
       },
       {
         "id": "E",
-        "text": "Sudut kemiringan 15 derajat"
+        "text": "Sudut kemiringan antara 2,5 hingga 4,0 derajat"
       }
     ],
     "key": "B",
@@ -232,19 +232,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Boot Connector Karet"
+        "text": "Rubber Connector Boot Pelindung Tekukan"
       },
       {
         "id": "B",
-        "text": "Spiral Wrapping Band"
+        "text": "Heat Shrink Tubing poliolefin tanpa batang penguat baja"
       },
       {
         "id": "C",
-        "text": "Keystone Modular Jack"
+        "text": "Mechanical Splice Joint Holder"
       },
       {
         "id": "D",
-        "text": "Cable Tie Nilon"
+        "text": "Fiber Fusion Splice Tray Clip"
       },
       {
         "id": "E",
@@ -268,19 +268,19 @@
       },
       {
         "id": "B",
-        "text": "Dimasukkan setelah kedua serat selesai dilebur menyatu"
+        "text": "Dimasukkan setelah kedua serat selesai dilebur menyatu di ruang elektroda"
       },
       {
         "id": "C",
-        "text": "Hanya dimasukkan jika hasil sambungan jelek"
+        "text": "Dimasukkan setelah proses tension test dan pengukuran OLS selesai"
       },
       {
         "id": "D",
-        "text": "Protection sleeve tidak perlu dimasukkan sama sekali"
+        "text": "Dimasukkan sesaat sebelum kabel diletakkan di dalam alur Splice Tray"
       },
       {
         "id": "E",
-        "text": "Dimasukkan setelah kabel dipasang di rumah pelanggan"
+        "text": "Dimasukkan bersamaan dengan kabel saat ditarik ke dalam pipa subduct"
       }
     ],
     "key": "A",
@@ -296,19 +296,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Wind Protector Cover"
+        "text": "Wind Protector Cover Pelindung Angin"
       },
       {
         "id": "B",
-        "text": "V-Groove Holder"
+        "text": "V-Groove Holder Landasan Serat"
       },
       {
         "id": "C",
-        "text": "Mikroskop Kamera Lensa"
+        "text": "Mikroskop Dual-Axis Camera Lens"
       },
       {
         "id": "D",
-        "text": "Electrode Spark Gap"
+        "text": "Electrode Spark Gap Chamber"
       },
       {
         "id": "E",
@@ -328,19 +328,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Stripper Notch"
+        "text": "Stripper Notch Guide"
       },
       {
         "id": "B",
-        "text": "Cleaver Blade"
+        "text": "Cleaver Blade Anvil"
       },
       {
         "id": "C",
-        "text": "Battery Pack"
+        "text": "Fiber Retention Clamp / Fiber Holder"
       },
       {
         "id": "D",
-        "text": "Oven Heater"
+        "text": "Heater Oven Chamber"
       },
       {
         "id": "E",
@@ -360,15 +360,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Obeng minus tajam"
+        "text": "Kertas pemoles diamond grit halus kering tanpa pelarut"
       },
       {
         "id": "B",
-        "text": "Sikat kawat baja"
+        "text": "Kuas bulu sintetis tanpa pelarut pembersih khusus"
       },
       {
         "id": "C",
-        "text": "Jarum peniti besi berkarat"
+        "text": "Jarum pembersih baja runcing berkekerasan tinggi"
       },
       {
         "id": "D",
@@ -376,7 +376,7 @@
       },
       {
         "id": "E",
-        "text": "Ampelas besi kasar"
+        "text": "Semprotan udara bertekanan pelarut aseton klorin"
       }
     ],
     "key": "D",
@@ -392,19 +392,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Lensa Kamera CMOS"
+        "text": "Lensa Kamera CMOS Pembesar Serat"
       },
       {
         "id": "B",
-        "text": "Laser Diode Module"
+        "text": "Laser Diode Module Pemancar Sinyal"
       },
       {
         "id": "C",
-        "text": "Heater Element"
+        "text": "Heater Element Selongsong Panas"
       },
       {
         "id": "D",
-        "text": "Mata Pisau Cleaver"
+        "text": "Mata Pisau Cleaver Tungsten Carbide"
       },
       {
         "id": "E",
@@ -424,7 +424,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Mengasah elektroda menggunakan batu asah kasar"
+        "text": "Mengikis ujung elektroda menggunakan kikir plat baja mikron"
       },
       {
         "id": "B",
@@ -432,15 +432,15 @@
       },
       {
         "id": "C",
-        "text": "Mencuci elektroda dengan air sabun di bawah kran"
+        "text": "Mencelupkan elektroda ke dalam larutan asam penghilang jelaga"
       },
       {
         "id": "D",
-        "text": "Menempelkan lem alteco pada ujung jarum elektroda"
+        "text": "Melapisi ujung jarum elektroda dengan pasta konduktif termal tembaga"
       },
       {
         "id": "E",
-        "text": "Membiarkan elektroda terus dipakai selamanya"
+        "text": "Meningkatkan tegangan arc discharge ke tingkat maksimum secara permanen"
       }
     ],
     "key": "B",
@@ -456,11 +456,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Maksimal 10,0 dB per sambungan"
+        "text": "Maksimal 1,50 dB per sambungan"
       },
       {
         "id": "B",
-        "text": "Harus tepat bernilai 0,0000 dB tanpa rugi sama sekali"
+        "text": "Maksimal 0,75 dB per sambungan sesuai standar insertion loss konektor mekanik"
       },
       {
         "id": "C",
@@ -472,7 +472,7 @@
       },
       {
         "id": "E",
-        "text": "Maksimal 50,0 dB per sambungan"
+        "text": "Maksimal 0,20 dB per sambungan sesuai batas konektor lapangan"
       }
     ],
     "key": "C",
@@ -488,19 +488,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Bending Radius Test"
+        "text": "Bending Radius Dynamic Test"
       },
       {
         "id": "B",
-        "text": "Optical Reflection Test"
+        "text": "Optical Reflection Return Loss Test"
       },
       {
         "id": "C",
-        "text": "Voltage Drop Test"
+        "text": "Torsional Fatigue Test"
       },
       {
         "id": "D",
-        "text": "Thermal Burn Test"
+        "text": "Proof Stress Bending Test"
       },
       {
         "id": "E",
@@ -520,19 +520,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Sumbu Utara dan Sumbu Selatan"
+        "text": "Sumbu Pitch dan Sumbu Roll"
       },
       {
         "id": "B",
-        "text": "Sumbu Frekuensi dan Sumbu Amplitudo"
+        "text": "Sumbu Transversal dan Sumbu Longitudinal"
       },
       {
         "id": "C",
-        "text": "Sumbu Positif dan Sumbu Negatif"
+        "text": "Sumbu Polaritas Horizontal dan Vertikal"
       },
       {
         "id": "D",
-        "text": "Sumbu Alpha dan Sumbu Beta"
+        "text": "Sumbu Laju Azimuth dan Elevasi"
       },
       {
         "id": "E",
@@ -556,19 +556,19 @@
       },
       {
         "id": "B",
-        "text": "Tegangan listrik baterai laptop teknisi terlalu tinggi"
+        "text": "Arus arc discharge elektroda terlalu rendah di bawah ambang lebur silika"
       },
       {
         "id": "C",
-        "text": "Warna cat jaket kabel yang disambung berbeda"
+        "text": "Diameter cladding kedua serat berbeda antara 125 µm dan 250 µm"
       },
       {
         "id": "D",
-        "text": "Kecepatan kipas angin di ruangan terlalu pelan"
+        "text": "Mode alignment tertukar antara Singlemode dan Multimode pada software"
       },
       {
         "id": "E",
-        "text": "Kabel fiber optik ditarik di bawah sinar matahari"
+        "text": "Protection sleeve dimasukkan terbalik dari arah masuk kabel"
       }
     ],
     "key": "A",
@@ -588,19 +588,19 @@
       },
       {
         "id": "B",
-        "text": "Cable Trunking Duct"
+        "text": "Drop Cable Slack Bracket"
       },
       {
         "id": "C",
-        "text": "Distribution Transformer"
+        "text": "Fiber Optic Joint Closure (FOJC) Outer Dome"
       },
       {
         "id": "D",
-        "text": "Patch Panel RJ-45"
+        "text": "Optical Distribution Frame (ODF) Sub-Rack"
       },
       {
         "id": "E",
-        "text": "Server Rack Rail"
+        "text": "Optical Termination Box (OTB) Adapter Plate"
       }
     ],
     "key": "A",
@@ -616,19 +616,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Menaikkan kecepatan transmisi laser menjadi dua kali lipat"
+        "text": "Mencegah peningkatan dispersi mode polarisasi (PMD) pada core"
       },
       {
         "id": "B",
-        "text": "Membuat kabel terlihat rapi seperti obat nyamuk bakar"
+        "text": "Mengurangi interferensi gelombang elektromagnetik antar serat bersebelahan"
       },
       {
         "id": "C",
-        "text": "Mencegah kabel dimakan serangga rayap"
+        "text": "Mempertahankan polaritas pantulan Fresnel pada ujung konektor"
       },
       {
         "id": "D",
-        "text": "Mengurangi pemakaian arus listrik baterai splicer"
+        "text": "Menyamakan kecepatan rambat pulsa cahaya antar core yang berbeda"
       },
       {
         "id": "E",
@@ -648,7 +648,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Tang Crimping RJ-45 tembaga"
+        "text": "Punch Down Tool IDC Krone"
       },
       {
         "id": "B",
@@ -664,7 +664,7 @@
       },
       {
         "id": "E",
-        "text": "Gergaji besi pemotong pipa paralon"
+        "text": "Wiremap Tone Generator RJ-11"
       }
     ],
     "key": [
@@ -688,7 +688,7 @@
       },
       {
         "id": "B",
-        "text": "Kipas radiator pendingin mesin mobil"
+        "text": "Step-Down Transformer 220V ke 12V Induktif"
       },
       {
         "id": "C",
@@ -696,7 +696,7 @@
       },
       {
         "id": "D",
-        "text": "Port RJ-11 kabel telepon analog"
+        "text": "Laser Pulsed Magnetron Tube"
       },
       {
         "id": "E",
@@ -728,7 +728,7 @@
       },
       {
         "id": "C",
-        "text": "Protection sleeve meleleh hangus terbakar di dalam oven pemanas"
+        "text": "Hasil leburan membentuk gumpalan bola silika (fiber balling) akibat arus arc berlebih"
       },
       {
         "id": "D",
@@ -763,15 +763,15 @@
       },
       {
         "id": "C",
-        "text": "Protection sleeve boleh dihilangkan dan diganti dengan lakban kertas biasa"
+        "text": "Protection sleeve hanya dipasang pada kabel multi-mode dan dilarang pada single-mode"
       },
       {
         "id": "D",
-        "text": "Protection sleeve terbuat dari kaca silika murni yang mudah pecah"
+        "text": "Protection sleeve berfungsi sebagai penguat sinyal optik aktif di titik leburan"
       },
       {
         "id": "E",
-        "text": "Protection sleeve hanya boleh dipanaskan menggunakan korek api gas manual"
+        "text": "Protection sleeve dirancang meleleh menyatu tanpa memerlukan pemanasan oven"
       }
     ],
     "key": [
@@ -790,11 +790,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Menggunakan alkohol isopropil berkemurnian tinggi 99%"
+        "text": "Melakukan kalibrasi arc discharge otomatis sesuai tekanan udara lingkungan"
       },
       {
         "id": "B",
-        "text": "Teknisi mengenakan kacamata pelindung keselamatan kerja"
+        "text": "Menggunakan kabel serat optik dengan diameter cladding standar 125 µm"
       },
       {
         "id": "C",
@@ -836,11 +836,11 @@
       },
       {
         "id": "st3",
-        "text": "Dua serat optik dapat disambung permanen hanya dengan cara diikat simpul mati menggunakan tangan.",
+        "text": "Dua serat optik dapat disambung permanen dengan hasil redaman di bawah 0.05 dB cukup menggunakan solder timah listrik biasa.",
         "correct": "S"
       }
     ],
-    "explanation": "Serat kaca tidak bisa diikat simpul manual; kaca akan patah jika disimpul dan membutuhkan peleburan busur api presisi mikroskopis.",
+    "explanation": "Serat kaca tidak bisa disolder dengan timah; kaca silika membutuhkan peleburan busur api plasma pada suhu ribuan derajat Celsius.",
     "quickTip": "Serat kaca silika disambung permanen via peleburan busur api listrik mikroskopis."
   },
   {
@@ -862,11 +862,11 @@
       },
       {
         "id": "st3",
-        "text": "Fiber Cleaver dapat digantikan fungsinya dengan gunting kuku biasa tanpa mempengaruhi hasil redaman.",
+        "text": "Fiber Cleaver dapat digantikan fungsinya dengan tang potong kawat diagonal standar tanpa menaikkan sudut kemiringan (cleave angle).",
         "correct": "S"
       }
     ],
-    "explanation": "Gunting kuku akan meremukkan kaca silika menjadi serpihan hancur yang mustahil disambung di mesin splicer.",
+    "explanation": "Tang potong kawat akan meremukkan kaca silika menjadi serpihan hancur yang mustahil disambung di mesin splicer.",
     "quickTip": "Hanya Fiber Cleaver yang mampu memotong kaca dengan sudut presisi tegak lurus."
   },
   {
@@ -888,7 +888,7 @@
       },
       {
         "id": "st3",
-        "text": "Protection Sleeve dapat dimasukkan dengan mudah setelah kedua ujung serat dilebur menyatu di splicer.",
+        "text": "Protection Sleeve dapat diselipkan menyusul setelah kedua ujung serat dilebur tanpa perlu memotong ulang sambungan.",
         "correct": "S"
       }
     ],
@@ -914,12 +914,12 @@
       },
       {
         "id": "st3",
-        "text": "Nilai redaman sambungan sebesar 5.0 dB adalah hasil yang sangat sempurna dan harus dipertahankan.",
+        "text": "Nilai redaman sambungan sebesar 1.50 dB sudah memenuhi standar kelulusan fusion splice jaringan backbone telko.",
         "correct": "S"
       }
     ],
-    "explanation": "Redaman 5.0 dB adalah sambungan yang sangat buruk/rusak (seratus kali lebih buruk dari standar toleransi 0.05 dB) dan wajib dipotong sambung ulang.",
-    "quickTip": "Redaman 5.0 dB sangat buruk; sambungan wajib < 0.05 dB."
+    "explanation": "Redaman 1.50 dB adalah sambungan yang buruk/rusak (tiga puluh kali lebih buruk dari standar toleransi 0.05 dB) dan wajib dipotong sambung ulang.",
+    "quickTip": "Redaman > 0.05 dB tidak lulus standar backbone; sambungan wajib < 0.05 dB."
   },
   {
     "id": "s25_q30",
@@ -940,11 +940,11 @@
       },
       {
         "id": "st3",
-        "text": "Alur V-groove dianjurkan dikerik menggunakan ujung pisau cutter besi tajam setiap pagi.",
+        "text": "Alur V-groove dianjurkan dikerik menggunakan kikir logam kasar untuk meratakan permukaannya setiap hari.",
         "correct": "S"
       }
     ],
-    "explanation": "Mengerik V-groove dengan pisau logam akan menggores permukaan presisi alur V secara permanen dan merusak splicer.",
+    "explanation": "Mengerik V-groove dengan kikir logam akan menggores permukaan presisi alur V secara permanen dan merusak splicer.",
     "quickTip": "Dilarang mengerik V-groove dengan benda logam tajam; gunakan cotton bud lembut."
   }
 ]

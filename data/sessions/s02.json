@@ -8,19 +8,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Maksimal 10 jam kerja"
+        "text": "Maksimal sekitar 432 menit"
       },
       {
         "id": "B",
-        "text": "Maksimal 7 hari kalender"
+        "text": "Maksimal sekitar 8,64 jam"
       },
       {
         "id": "C",
-        "text": "Maksimal 120 detik saja"
+        "text": "Maksimal sekitar 14,4 menit"
       },
       {
         "id": "D",
-        "text": "Maksimal 24 jam penuh"
+        "text": "Maksimal sekitar 4,32 jam"
       },
       {
         "id": "E",
@@ -40,19 +40,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Tahap Audit Pajak"
+        "text": "Tahap Penghentian Layanan (Decommissioning)"
       },
       {
         "id": "B",
-        "text": "Tahap Pemusnahan Aset"
+        "text": "Tahap Operasi & Pemeliharaan (O&M)"
       },
       {
         "id": "C",
-        "text": "Tahap Penagihan Invoice"
+        "text": "Tahap Uji Terima (Testing & Commissioning)"
       },
       {
         "id": "D",
-        "text": "Tahap Decommissioning"
+        "text": "Tahap Implementasi & Deployment"
       },
       {
         "id": "E",
@@ -72,11 +72,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Kuitansi Pembelian BBM"
+        "text": "Bill of Quantity (BoQ) Proyek"
       },
       {
         "id": "B",
-        "text": "Surat Izin Mengemudi"
+        "text": "Low-Level Design (LLD) Rencana Awal"
       },
       {
         "id": "C",
@@ -84,11 +84,11 @@
       },
       {
         "id": "D",
-        "text": "Brosur Penawaran Sales"
+        "text": "High-Level Design (HLD) Diagram"
       },
       {
         "id": "E",
-        "text": "Katalog Produk Toko"
+        "text": "Acceptance Test Procedure (ATP) Sheet"
       }
     ],
     "key": "C",
@@ -104,7 +104,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Return on Investment (ROI)"
+        "text": "Mean Time to Detect (MTTD)"
       },
       {
         "id": "B",
@@ -116,11 +116,11 @@
       },
       {
         "id": "D",
-        "text": "Gross Domestic Product (GDP)"
+        "text": "Mean Time to Acknowledge (MTTA)"
       },
       {
         "id": "E",
-        "text": "Net Present Value (NPV)"
+        "text": "Recovery Point Objective (RPO)"
       }
     ],
     "key": "B",
@@ -136,11 +136,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Hanya bisa mentransfer pesan teks SMS"
+        "text": "Menghilangkan kebutuhan Base Transceiver Station (BTS) fisik di lapangan"
       },
       {
         "id": "B",
-        "text": "Memerlukan antena pemancar sebesar lapangan bola"
+        "text": "Membatasi transmisi data hanya untuk protokol enkripsi proprietary tertutup"
       },
       {
         "id": "C",
@@ -148,11 +148,11 @@
       },
       {
         "id": "D",
-        "text": "Menggunakan kabel tembaga analog"
+        "text": "Hanya mendukung komunikasi frekuensi rendah di bawah 900 MHz"
       },
       {
         "id": "E",
-        "text": "Jarak jangkau satu antena mencapai seluruh benua"
+        "text": "Menggunakan modulasi analog frekuensi tunggal tanpa multiplexing"
       }
     ],
     "key": "C",
@@ -172,19 +172,19 @@
       },
       {
         "id": "B",
-        "text": "NetBEUI Microsoft"
+        "text": "Border Gateway Protocol 128 (BGP-128)"
       },
       {
         "id": "C",
-        "text": "AppleTalk Phase 2"
+        "text": "Multiprotocol Label Switching (MPLS)"
       },
       {
         "id": "D",
-        "text": "IPv4 Class D"
+        "text": "IPv4 Class E (Reserved Class)"
       },
       {
         "id": "E",
-        "text": "IPX/SPX Novell"
+        "text": "IPX/SPX Protocol Novell"
       }
     ],
     "key": "A",
@@ -200,11 +200,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Dial-Up Networking"
+        "text": "Network Function Virtualization (NFV)"
       },
       {
         "id": "B",
-        "text": "Coaxial Bus Architecture"
+        "text": "Software as a Service (SaaS)"
       },
       {
         "id": "C",
@@ -212,11 +212,11 @@
       },
       {
         "id": "D",
-        "text": "Token Ring Topology"
+        "text": "Dynamic Host Configuration Architecture"
       },
       {
         "id": "E",
-        "text": "Manual Hub Switching"
+        "text": "Multiprotocol Label Switching (MPLS)"
       }
     ],
     "key": "C",
@@ -232,7 +232,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Telegraf Sandi Morse"
+        "text": "Virtual Local Area Network (VLAN)"
       },
       {
         "id": "B",
@@ -240,15 +240,15 @@
       },
       {
         "id": "C",
-        "text": "Paging System Konvensional"
+        "text": "Content Delivery Network (CDN)"
       },
       {
         "id": "D",
-        "text": "Radio Antar Penduduk"
+        "text": "Cloud Computing Infrastructure"
       },
       {
         "id": "E",
-        "text": "Mesin Fax Kantor"
+        "text": "Storage Area Network (SAN)"
       }
     ],
     "key": "B",
@@ -264,19 +264,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Desktop as a Service (DaaS)"
+        "text": "Backend as a Service (BaaS)"
       },
       {
         "id": "B",
-        "text": "Software as a Service (SaaS)"
+        "text": "Platform as a Service (PaaS)"
       },
       {
         "id": "C",
-        "text": "Network as a Cable (NaaC)"
+        "text": "Function as a Service (FaaS)"
       },
       {
         "id": "D",
-        "text": "Platform as a Service (PaaS)"
+        "text": "Software as a Service (SaaS)"
       },
       {
         "id": "E",
@@ -300,19 +300,19 @@
       },
       {
         "id": "B",
-        "text": "Free For All Network"
+        "text": "Role-Based Access Control (RBAC)"
       },
       {
         "id": "C",
-        "text": "Static Perimeter Only"
+        "text": "Demilitarized Zone (DMZ) Architecture"
       },
       {
         "id": "D",
-        "text": "Open Door Policy"
+        "text": "Perimeter-Based Security (Castle-and-Moat)"
       },
       {
         "id": "E",
-        "text": "Blind Faith Security"
+        "text": "Defense in Depth (DiD)"
       }
     ],
     "key": "A",
@@ -328,7 +328,7 @@
     "options": [
       {
         "id": "A",
-        "text": "UU Pertambangan Batu Bara"
+        "text": "UU No. 28 Tahun 2014 tentang Hak Cipta Perangkat Lunak"
       },
       {
         "id": "B",
@@ -336,15 +336,15 @@
       },
       {
         "id": "C",
-        "text": "UU Hak Cipta Musik Tradisional"
+        "text": "UU No. 36 Tahun 1999 tentang Telekomunikasi"
       },
       {
         "id": "D",
-        "text": "UU Kepabeanan Barang Impor"
+        "text": "UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik"
       },
       {
         "id": "E",
-        "text": "UU Lalu Lintas Jalan Raya"
+        "text": "UU No. 1 Tahun 2024 tentang Perubahan Kedua UU ITE"
       }
     ],
     "key": "B",
@@ -360,7 +360,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Pemblokiran Nomor Pelanggan"
+        "text": "Penutupan Tiket Resmi (Ticket Closure)"
       },
       {
         "id": "B",
@@ -368,15 +368,15 @@
       },
       {
         "id": "C",
-        "text": "Penundaan Pekerjaan Otomatis"
+        "text": "Audit Kepuasan Layanan (Service Review)"
       },
       {
         "id": "D",
-        "text": "Penghapusan Tiket Permanen"
+        "text": "Registrasi Awal Tiket (Ticket Dispatching)"
       },
       {
         "id": "E",
-        "text": "Pengabaian Keluhan Klien"
+        "text": "Resolusi Masalah Tiket (Ticket Resolution)"
       }
     ],
     "key": "B",
@@ -392,7 +392,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Batch Punch Card"
+        "text": "Quantum Computing"
       },
       {
         "id": "B",
@@ -400,15 +400,15 @@
       },
       {
         "id": "C",
-        "text": "Centralized Mainframe 1970"
+        "text": "Centralized Cloud Computing"
       },
       {
         "id": "D",
-        "text": "Single Core Computing"
+        "text": "High-Performance Computing (HPC)"
       },
       {
         "id": "E",
-        "text": "Floppy Disk Sharing"
+        "text": "Grid Computing Architecture"
       }
     ],
     "key": "B",
@@ -424,19 +424,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Kabel Audio Aux"
+        "text": "Customer Premises Equipment (CPE) Link"
       },
       {
         "id": "B",
-        "text": "Tethering Ponsel Pribadi"
+        "text": "Last-Mile Distribution"
       },
       {
         "id": "C",
-        "text": "Bluetooth File Sharing"
+        "text": "Broadband Remote Access Server (BRAS)"
       },
       {
         "id": "D",
-        "text": "Voucher Wi-Fi Warnet"
+        "text": "Local Loop Connection"
       },
       {
         "id": "E",
@@ -460,19 +460,19 @@
       },
       {
         "id": "B",
-        "text": "Berat Kabel Tembaga"
+        "text": "Packet Loss Ratio (PLR)"
       },
       {
         "id": "C",
-        "text": "Ketinggian Tiang Listrik"
+        "text": "Mean Time Between Failures (MTBF)"
       },
       {
         "id": "D",
-        "text": "Kecepatan Putaran Harddisk"
+        "text": "First Contact Resolution (FCR) Rate"
       },
       {
         "id": "E",
-        "text": "Voltase Arus Petir"
+        "text": "Bandwidth Utilization Percentage"
       }
     ],
     "key": "A",
@@ -492,19 +492,19 @@
       },
       {
         "id": "B",
-        "text": "Izin Usaha Restoran Cepat Saji"
+        "text": "Sertifikasi Uji Layak Operasi (ULO Telekomunikasi)"
       },
       {
         "id": "C",
-        "text": "Izin Trayek Bus Kota"
+        "text": "Surat Izin Penyelenggaraan Jaringan Tetap Lokal (Izin Jartaplok)"
       },
       {
         "id": "D",
-        "text": "Sertifikat Tanah Pertanian"
+        "text": "Sertifikasi Tipe Perangkat Telekomunikasi (Postel SDPPI)"
       },
       {
         "id": "E",
-        "text": "Surat Izin Menembak"
+        "text": "Izin Stasiun Radio Spektrum Frekuensi (ISR Kominfo)"
       }
     ],
     "key": "A",
@@ -536,7 +536,7 @@
       },
       {
         "id": "E",
-        "text": "IPsec"
+        "text": "IPsec Tunnel"
       }
     ],
     "key": "B",
@@ -552,19 +552,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Morse Code Audio"
+        "text": "Public Switched Telephone Network (PSTN Analog)"
       },
       {
         "id": "B",
-        "text": "Short Message Service (SMS)"
+        "text": "Circuit Switched Fallback (CSFB)"
       },
       {
         "id": "C",
-        "text": "AM Radio Broadcast"
+        "text": "Session Initiation Protocol Trunking Data"
       },
       {
         "id": "D",
-        "text": "Gramophone Recording"
+        "text": "Integrated Services Digital Network (ISDN PRI)"
       },
       {
         "id": "E",
@@ -584,7 +584,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Tempat Parkir Bawah Tanah"
+        "text": "Demilitarized Zone (DMZ) Subnet"
       },
       {
         "id": "B",
@@ -592,15 +592,15 @@
       },
       {
         "id": "C",
-        "text": "Gudang Kardus Bekas"
+        "text": "Edge Data Distribution Hub"
       },
       {
         "id": "D",
-        "text": "Pusat Kebugaran Karyawan"
+        "text": "Point of Presence (PoP) Regional"
       },
       {
         "id": "E",
-        "text": "Kantin Bersama Lantai 1"
+        "text": "Network Operation Center (NOC)"
       }
     ],
     "key": "B",
@@ -648,7 +648,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Warna casing luar router pelanggan"
+        "text": "Jumlah klik tombol power switch di ruang kantor pelanggan"
       },
       {
         "id": "B",
@@ -664,7 +664,7 @@
       },
       {
         "id": "E",
-        "text": "Merk sepatu yang dipakai direktur ISP"
+        "text": "Tipe merk pendingin AC yang terpasang di kamar tidur pengguna"
       }
     ],
     "key": [
@@ -688,7 +688,7 @@
       },
       {
         "id": "B",
-        "text": "Hanya mendukung komunikasi teks hitam putih"
+        "text": "Mewajibkan transmisi suara berbasis modulasi analog AM konvensional"
       },
       {
         "id": "C",
@@ -696,7 +696,7 @@
       },
       {
         "id": "D",
-        "text": "Wajib menggunakan kabel koaksial analog tebal ke ponsel"
+        "text": "Menggunakan kabel tembaga unshielded twisted-pair (UTP) langsung ke smartphone"
       },
       {
         "id": "E",
@@ -720,7 +720,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Daftar menu makanan favorit teknisi selama proyek"
+        "text": "Daftar slip gaji bulanan staf administrasi kantor cabang"
       },
       {
         "id": "B",
@@ -728,7 +728,7 @@
       },
       {
         "id": "C",
-        "text": "Koleksi foto selfie pribadi tanpa kaitan teknis"
+        "text": "Rekapitulasi bukti kuitansi pembelian bensin operasional teknisi"
       },
       {
         "id": "D",
@@ -760,7 +760,7 @@
       },
       {
         "id": "B",
-        "text": "Cable as a Service (CaaS Hardware Tembaga)"
+        "text": "Hardware as a Cable (HaC Fisik)"
       },
       {
         "id": "C",
@@ -772,7 +772,7 @@
       },
       {
         "id": "E",
-        "text": "Electricity as a Service (EaaS Trafo Gardu)"
+        "text": "Power Battery as a Service (PBaaS Gardu)"
       }
     ],
     "key": [
@@ -800,7 +800,7 @@
       },
       {
         "id": "C",
-        "text": "Menghapus riwayat tiket dari database untuk menyembunyikan keterlambatan"
+        "text": "Menutup status tiket secara sepihak sebelum dilakukan konfirmasi pemulihan sinyal"
       },
       {
         "id": "D",
@@ -808,7 +808,7 @@
       },
       {
         "id": "E",
-        "text": "Mematikan sambungan telepon pelanggan yang mengajukan komplain"
+        "text": "Menghapus log alarm dari sistem NMS tanpa mencatat tindakan perbaikan"
       }
     ],
     "key": [

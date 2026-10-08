@@ -8,7 +8,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Meningkatkan daya tahan terhadap gigitan rayap"
+        "text": "Mencegah peningkatan suhu panas konduktor saat dialiri tegangan listrik PoE"
       },
       {
         "id": "B",
@@ -16,15 +16,15 @@
       },
       {
         "id": "C",
-        "text": "Membuat kabel tahan terhadap air hujan lebat"
+        "text": "Menurunkan hambatan jenis resistansi kawat tembaga secara proporsional"
       },
       {
         "id": "D",
-        "text": "Mengurangi pemakaian bahan tembaga pabrikan"
+        "text": "Memperpanjang jarak jangkau sinyal tembaga hingga melampaui 500 meter"
       },
       {
         "id": "E",
-        "text": "Agar kabel terlihat lebih artistik dan fleksibel"
+        "text": "Meningkatkan fleksibilitas mekanik agar kabel dapat ditekuk hingga sudut nol derajat"
       }
     ],
     "key": "B",
@@ -40,15 +40,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Maksimal 25 meter saja"
+        "text": "Maksimal 50 meter (batas transmisi modulasi sinyal frekuensi tinggi)"
       },
       {
         "id": "B",
-        "text": "Maksimal 1.000 meter (1 km)"
+        "text": "Maksimal 500 meter (sesuai spesifikasi jaringan 10BASE5 Thicknet)"
       },
       {
         "id": "C",
-        "text": "Maksimal 2.000 meter"
+        "text": "Maksimal 250 meter (batas toleransi waktu rambat propagation delay)"
       },
       {
         "id": "D",
@@ -56,7 +56,7 @@
       },
       {
         "id": "E",
-        "text": "Maksimal 500 meter"
+        "text": "Maksimal 185 meter (sesuai spesifikasi jaringan 10BASE2 Thinnet)"
       }
     ],
     "key": "D",
@@ -72,11 +72,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Mencapai 1.000 GHz untuk sinar laser"
+        "text": "Mencapai 500 MHz dan mendukung kecepatan 10 Gbps hingga 100 meter penuh"
       },
       {
         "id": "B",
-        "text": "Mencapai 500 Terahertz"
+        "text": "Mencapai 16 MHz dan hanya kompatibel untuk jaringan Token Ring 16 Mbps"
       },
       {
         "id": "C",
@@ -84,11 +84,11 @@
       },
       {
         "id": "D",
-        "text": "Hanya mencapai 16 MHz untuk kecepatan 10 Mbps"
+        "text": "Mencapai 100 MHz dan dibatasi hanya untuk kecepatan Fast Ethernet 100 Mbps"
       },
       {
         "id": "E",
-        "text": "Hanya mencapai 100 kHz untuk telegraf"
+        "text": "Mencapai 600 MHz dengan pelindung foil individual tiap pasang kawat"
       }
     ],
     "key": "C",
@@ -104,19 +104,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Kabel telepon pipih 2 kawat"
+        "text": "Kabel Koaksial RG-59 Berimpedansi 75 Ohm"
       },
       {
         "id": "B",
-        "text": "Kabel pita kelabu komputer lama"
+        "text": "Kabel Twinaxial Pasif Tanpa Pelindung Grounding"
       },
       {
         "id": "C",
-        "text": "Kabel speaker audio tipis"
+        "text": "Kabel Tembaga Unshielded Cat6 Indoor Standar"
       },
       {
         "id": "D",
-        "text": "UTP (Unshielded Twisted Pair)"
+        "text": "UTP (Unshielded Twisted Pair) Kategori 5e Standar"
       },
       {
         "id": "E",
@@ -140,19 +140,19 @@
       },
       {
         "id": "B",
-        "text": "Untuk mengalirkan arus listrik cadangan"
+        "text": "Menyalurkan arus daya listrik DC bertegangan 48 Volt pada teknologi PoE"
       },
       {
         "id": "C",
-        "text": "Sebagai sumbu kompor minyak darurat"
+        "text": "Sebagai kawat tiris (Drain Wire) penyalur muatan elektrostatis ke ground"
       },
       {
         "id": "D",
-        "text": "Sebagai tempat menyuntikkan lem perekat"
+        "text": "Melindungi tembaga dari rembesan air kelembaban di dalam pipa conduit"
       },
       {
         "id": "E",
-        "text": "Hanya sebagai pengisi ruang kosong tanpa fungsi"
+        "text": "Memperkuat daya pantul sinyal balik untuk menurunkan nilai Return Loss"
       }
     ],
     "key": "A",
@@ -168,19 +168,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Modulasi Digital"
+        "text": "Delay Skew (Propagation Time Difference)"
       },
       {
         "id": "B",
-        "text": "Refraksi Optik"
+        "text": "Return Loss (Signal Reflection Ratio)"
       },
       {
         "id": "C",
-        "text": "Amplifikasi Sinyal"
+        "text": "Crosstalk Intermodulasi (Cross-Coupling Noise)"
       },
       {
         "id": "D",
-        "text": "Resonansi Bunyi"
+        "text": "Resonansi Harmonik Frekuensi Tinggi"
       },
       {
         "id": "E",
@@ -204,19 +204,19 @@
       },
       {
         "id": "B",
-        "text": "Konektor HDMI (Video)"
+        "text": "Konektor LC / SC Duplex"
       },
       {
         "id": "C",
-        "text": "Konektor RJ-11 (Telepon 4-pin)"
+        "text": "Konektor RJ-11 (Modular 6P4C Telepon)"
       },
       {
         "id": "D",
-        "text": "Konektor BNC (Coaxial)"
+        "text": "Konektor BNC (Bayonet Neill-Concelman)"
       },
       {
         "id": "E",
-        "text": "Konektor USB Type-C"
+        "text": "Konektor D-Sub DB-9 Serial"
       }
     ],
     "key": "A",
@@ -232,19 +232,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Carbon Powder Cable (Bubuk)"
+        "text": "Multi-Strand Tinned Copper Cable"
       },
       {
         "id": "B",
-        "text": "Optic Hollow Cable (Kosong)"
+        "text": "Copper Clad Aluminium (CCA) Wire"
       },
       {
         "id": "C",
-        "text": "Liquid Core Cable (Cairan)"
+        "text": "Shielded Braided Flexible Conductor"
       },
       {
         "id": "D",
-        "text": "Stranded Cable (Serabut Lentur)"
+        "text": "Stranded Core Conductor Cable (Kawat Serabut)"
       },
       {
         "id": "E",
@@ -264,11 +264,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Pipa aluminium tebal"
+        "text": "Rigid Grounding Rod Conductor"
       },
       {
         "id": "B",
-        "text": "Batang besi cor"
+        "text": "Coaxial Solid Center Conductor"
       },
       {
         "id": "C",
@@ -276,11 +276,11 @@
       },
       {
         "id": "D",
-        "text": "Kawat tembaga solid getas"
+        "text": "Single Wire Copper Clad Steel"
       },
       {
         "id": "E",
-        "text": "Kawat baja tunggal kaku"
+        "text": "Solid Core Conductor Cable (Kawat Tunggal Kaku)"
       }
     ],
     "key": "C",
@@ -296,19 +296,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Capacitance Farad"
+        "text": "Return Loss Ratio (RLR)"
       },
       {
         "id": "B",
-        "text": "Resistance Ohm"
+        "text": "Insertion Loss Deviation (ILD)"
       },
       {
         "id": "C",
-        "text": "Return Loss"
+        "text": "Power Sum Equal-Level Far-End Crosstalk (PS-ELFEXT)"
       },
       {
         "id": "D",
-        "text": "Bit Error Rate"
+        "text": "Near-End Crosstalk (NEXT)"
       },
       {
         "id": "E",
@@ -332,19 +332,19 @@
       },
       {
         "id": "B",
-        "text": "500 meter"
+        "text": "Mencapai 55 meter dengan bandwidth operasional 350 MHz"
       },
       {
         "id": "C",
-        "text": "1 kilometer"
+        "text": "Mencapai 185 meter dengan bandwidth operasional 100 MHz"
       },
       {
         "id": "D",
-        "text": "Hanya 10 meter"
+        "text": "Hanya mencapai 37 meter dengan bandwidth operasional 250 MHz"
       },
       {
         "id": "E",
-        "text": "15 meter saja"
+        "text": "Mencapai 300 meter dengan bandwidth operasional 600 MHz"
       }
     ],
     "key": "A",
@@ -360,11 +360,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Thermal Noise"
+        "text": "Near-End Crosstalk Internal (NEXT)"
       },
       {
         "id": "B",
-        "text": "Ground Loop"
+        "text": "Electromagnetic Atmospheric Noise"
       },
       {
         "id": "C",
@@ -372,11 +372,11 @@
       },
       {
         "id": "D",
-        "text": "Cosmic Ray Noise"
+        "text": "Far-End Crosstalk Internal (FEXT)"
       },
       {
         "id": "E",
-        "text": "Harmonic Audio"
+        "text": "Harmonic Induction Loop Ground"
       }
     ],
     "key": "C",
@@ -392,7 +392,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Kertas tisu pembungkus"
+        "text": "Fluorinated Ethylene Propylene (FEP) Plenum Indoor"
       },
       {
         "id": "B",
@@ -400,15 +400,15 @@
       },
       {
         "id": "C",
-        "text": "PVC tipis dalam ruangan"
+        "text": "Polyvinyl Chloride (PVC) General Purpose Indoor"
       },
       {
         "id": "D",
-        "text": "Kain katun tipis"
+        "text": "Silikon Karet Sintetis Berpori Halus"
       },
       {
         "id": "E",
-        "text": "Karet spons empuk"
+        "text": "Termoplastik Elastomer (TPE) Fleksibel Tanpa Pelindung UV"
       }
     ],
     "key": "B",
@@ -424,7 +424,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Crosstalk Margin"
+        "text": "Propagation Velocity (NVP)"
       },
       {
         "id": "B",
@@ -432,15 +432,15 @@
       },
       {
         "id": "C",
-        "text": "Wiremap Continuity"
+        "text": "Loop Resistance (Resistansi Loop)"
       },
       {
         "id": "D",
-        "text": "Resistance Ratio"
+        "text": "Capacitance Unbalance (Kapasitansi Asimetris)"
       },
       {
         "id": "E",
-        "text": "Insertion Loss"
+        "text": "Insertion Loss (Atenuasi Total)"
       }
     ],
     "key": "B",
@@ -456,19 +456,19 @@
     "options": [
       {
         "id": "A",
-        "text": "50 Ohm (kabel koaksial tipis radio)"
+        "text": "50 Ohm (standar kabel koaksial transmisi radio RF)"
       },
       {
         "id": "B",
-        "text": "1.000 Ohm"
+        "text": "120 Ohm (standar komunikasi serial industri RS-485)"
       },
       {
         "id": "C",
-        "text": "0 Ohm"
+        "text": "600 Ohm (standar saluran seimbang audio telepon analog)"
       },
       {
         "id": "D",
-        "text": "75 Ohm (kabel antena TV)"
+        "text": "75 Ohm (standar kabel video koaksial CCTV/CATV)"
       },
       {
         "id": "E",
@@ -488,15 +488,15 @@
     "options": [
       {
         "id": "A",
-        "text": "CMR (Riser biasa)"
+        "text": "CMR (Communications Riser) untuk lorong vertikal antar-lantai"
       },
       {
         "id": "B",
-        "text": "CM (General Purpose)"
+        "text": "CM (Communications General Purpose) untuk penggunaan meja terbuka"
       },
       {
         "id": "C",
-        "text": "Flammable Plastic"
+        "text": "CMX (Communications Limited Use) untuk residensial terbatas"
       },
       {
         "id": "D",
@@ -504,7 +504,7 @@
       },
       {
         "id": "E",
-        "text": "Kertas lilin bakar"
+        "text": "OFNP (Optical Fiber Nonconductive Plenum) khusus serat optik"
       }
     ],
     "key": "D",
@@ -520,11 +520,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Ungu, Emas, Perak, dan Abu-abu"
+        "text": "Abu-abu, Ungu, Merah Muda, dan Toska"
       },
       {
         "id": "B",
-        "text": "Pink, Cyan, Magenta, dan Kuning"
+        "text": "Biru, Kuning, Merah, dan Hitam"
       },
       {
         "id": "C",
@@ -536,7 +536,7 @@
       },
       {
         "id": "E",
-        "text": "Hitam, Cokelat, Merah, dan Oranye"
+        "text": "Cokelat, Hitam, Merah, dan Oranye"
       }
     ],
     "key": "C",
@@ -552,15 +552,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Daya listrik 0 Watt"
+        "text": "Hingga 250 Watt pada tegangan listrik bolak-balik AC 220V"
       },
       {
         "id": "B",
-        "text": "Hanya 0.1 Watt baterai kancing"
+        "text": "Hingga 5 Watt (standar USB 2.0) pada tegangan nominal 5V DC"
       },
       {
         "id": "C",
-        "text": "100 Kilowatt gardu listrik"
+        "text": "Hingga 100 Watt (standar USB Type-C PD) pada tegangan 20V DC"
       },
       {
         "id": "D",
@@ -568,7 +568,7 @@
       },
       {
         "id": "E",
-        "text": "Hingga 10.000 Watt tegangan AC 220V"
+        "text": "Hingga 60 Watt (802.3bt Type 3) dan hingga 90 Watt (802.3bt Type 4)"
       }
     ],
     "key": "D",
@@ -584,15 +584,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Pisau daging dapur tumpul"
+        "text": "Fiber Optic Miller Stripper (Pengupas Akrilik Serat)"
       },
       {
         "id": "B",
-        "text": "Gunting kuku jari"
+        "text": "Crimping Tool 8P8C (Tang Pengepres Pin Konektor)"
       },
       {
         "id": "C",
-        "text": "Gergaji kayu"
+        "text": "Fiber Cleaver Presisi Tinggi (Pemotong Sudut Serat)"
       },
       {
         "id": "D",
@@ -600,7 +600,7 @@
       },
       {
         "id": "E",
-        "text": "Palu pemecah batu"
+        "text": "Punch Down Impact Tool (Alat Terminasi Keystone)"
       }
     ],
     "key": "D",
@@ -616,15 +616,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Hanya 1 pasang kawat (2 pin)"
+        "text": "Hanya 2 pasang kawat (Pin 1, 2, 3, dan 6) secara terpisah transmisi-terima"
       },
       {
         "id": "B",
-        "text": "Hanya 3 pasang kawat"
+        "text": "3 pasang kawat untuk data dan 1 pasang kawat khusus ground sirkuit"
       },
       {
         "id": "C",
-        "text": "Tidak menggunakan kawat sama sekali"
+        "text": "2 pasang kawat untuk sinyal jam (clock) dan 2 pasang kawat untuk data mentah"
       },
       {
         "id": "D",
@@ -632,7 +632,7 @@
       },
       {
         "id": "E",
-        "text": "Hanya 2 pasang kawat (4 pin)"
+        "text": "Hanya 1 pasang kawat (Pin 4 dan 5) secara bergantian (Half Duplex)"
       }
     ],
     "key": "D",
@@ -648,7 +648,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Flat Ribbon Cable komputer lama"
+        "text": "Flat Ribbon Cable komputer internal"
       },
       {
         "id": "B",
@@ -720,7 +720,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Genset diesel pembangkit listrik"
+        "text": "Genset diesel otomatis pembangkit daya cadangan"
       },
       {
         "id": "B",
@@ -728,7 +728,7 @@
       },
       {
         "id": "C",
-        "text": "Mesin pendingin udara gedung (AC 5 PK)"
+        "text": "Mesin pendingin udara presisi gedung (CRAC Unit)"
       },
       {
         "id": "D",
@@ -796,11 +796,11 @@
       },
       {
         "id": "B",
-        "text": "Mesin pelebur kaca laser fusi"
+        "text": "Optical Time Domain Reflectometer (OTDR)"
       },
       {
         "id": "C",
-        "text": "Antena parabola satelit diameter 3 meter"
+        "text": "Antena parabola satelit transceiver stasiun bumi"
       },
       {
         "id": "D",

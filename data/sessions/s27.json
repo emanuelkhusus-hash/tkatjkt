@@ -12,19 +12,19 @@
       },
       {
         "id": "B",
-        "text": "Staff Keuangan Payroll"
+        "text": "Cloud Infrastructure DevOps Engineer"
       },
       {
         "id": "C",
-        "text": "Operator Perakitan Mesin"
+        "text": "Data Center Facility Specialist"
       },
       {
         "id": "D",
-        "text": "Digital Content Strategist"
+        "text": "IT Service Desk Tier-1 Support"
       },
       {
         "id": "E",
-        "text": "Frontend UI Designer"
+        "text": "Core Network Systems Architect"
       }
     ],
     "key": "A",
@@ -40,7 +40,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Sandal jepit santai dan sarung tangan kain basah"
+        "text": "Safety belt pinggang tunggal (single waist belt) tanpa suspensi dada dan helm ventilasi"
       },
       {
         "id": "B",
@@ -48,15 +48,15 @@
       },
       {
         "id": "C",
-        "text": "Tali tambang rami pengikat tanpa tali pengaman"
+        "text": "Full body harness dengan single lanyard non-absorber dan tangga baja konduktif"
       },
       {
         "id": "D",
-        "text": "Jas hujan plastik tipis dan topi koboi kain"
+        "text": "Tangga bambu tradisional dengan tali pengikat tambang rami tanpa shock absorber"
       },
       {
         "id": "E",
-        "text": "Tangga lipat aluminium tipis tanpa sepatu karet"
+        "text": "Tangga geser aluminium berkaki karet tanpa tali pengaman lanyard"
       }
     ],
     "key": "B",
@@ -76,19 +76,19 @@
       },
       {
         "id": "B",
-        "text": "Mengganti seluruh kabel dengan kabel telepon 2-kawat"
+        "text": "Memasang inline coupler RJ-45 unshielded di tengah bentangan kabel"
       },
       {
         "id": "C",
-        "text": "Mencuci kabel di dalam larutan air deterjen"
+        "text": "Menambahkan ferrite core noise suppressor pada kedua ujung kabel UTP"
       },
       {
         "id": "D",
-        "text": "Menarik kabel sekencang mungkin hingga kawat menegang"
+        "text": "Mengupas jaket luar kabel sepanjang 50 mm agar kawat lebih leluasa diatur"
       },
       {
         "id": "E",
-        "text": "Menyambung kabel dengan cara diplintir isolasi kabel"
+        "text": "Membalik urutan susunan pin dari standar T568B menjadi T568A pada salah satu sisi"
       }
     ],
     "key": "A",
@@ -200,7 +200,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Frame broadcast langsung dikirim ke internet publik"
+        "text": "Hanya port yang terkonfigurasi pada Native VLAN 1 default switch"
       },
       {
         "id": "B",
@@ -212,7 +212,7 @@
       },
       {
         "id": "D",
-        "text": "Tidak ada port yang menerima sama sekali"
+        "text": "Seluruh port access dan trunk kecuali port 1 dan port default VLAN"
       },
       {
         "id": "E",
@@ -232,15 +232,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Mode Loopback"
+        "text": "Mode Promiscuous Span"
       },
       {
         "id": "B",
-        "text": "Mode Console"
+        "text": "Mode Dynamic Auto"
       },
       {
         "id": "C",
-        "text": "Mode Shutdown"
+        "text": "Mode Tunneling QinQ"
       },
       {
         "id": "D",
@@ -264,7 +264,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Perangkat OPM mengalami kerusakan internal"
+        "text": "Daya terima optik berada pada kondisi saturasi photodiode APD penerima"
       },
       {
         "id": "B",
@@ -280,7 +280,7 @@
       },
       {
         "id": "E",
-        "text": "Kabel serat optik terputus di tengah jalan"
+        "text": "Nilai redaman berada di batas ambang kritis marjin daya (Marginal Power Budget)"
       }
     ],
     "key": "D",
@@ -296,11 +296,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Kabel mengalami korsleting tegangan tinggi"
+        "text": "Tekukan tajam macrobending pada buffer tube"
       },
       {
         "id": "B",
-        "text": "Kabel ditarik melintasi medan magnet trafo"
+        "text": "Mechanical splice dengan index matching gel yang mengering"
       },
       {
         "id": "C",
@@ -456,19 +456,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Bandwidth jaringan otomatis berlipat ganda 100 kali lipat"
+        "text": "Switch otomatis mematikan daya internal (Power Overload Shutdown)"
       },
       {
         "id": "B",
-        "text": "Komputer klien langsung berubah alamat menjadi IPv6"
+        "text": "Frame unicast otomatis dikonversi menjadi paket multicast IGMP"
       },
       {
         "id": "C",
-        "text": "Switch otomatis mengunduh update software terbaru"
+        "text": "Seluruh antarmuka switch beralih ke mode err-disabled seketika"
       },
       {
         "id": "D",
-        "text": "Kabel patch cord otomatis meleleh terbakar api"
+        "text": "Tabel MAC address (CAM table) terkunci permanen pada satu port"
       },
       {
         "id": "E",
@@ -520,7 +520,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Dimasukkan setelah kabel ditarik melintasi jalan raya"
+        "text": "Setelah proses tension test otomatis 2N diselesaikan oleh mesin"
       },
       {
         "id": "B",
@@ -532,11 +532,11 @@
       },
       {
         "id": "D",
-        "text": "Setelah kabel dipasang di dinding rumah pelanggan"
+        "text": "Setelah pengujian kontinuitas laser VFL dinyatakan berhasil"
       },
       {
         "id": "E",
-        "text": "Protection sleeve tidak wajib dipasang jika kabel tebal"
+        "text": "Saat serat optik diletakkan di atas V-groove penjajaran"
       }
     ],
     "key": "B",
@@ -552,15 +552,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Ceiling Fan Exhaust"
+        "text": "In-Row Heat Exchanger Chilled Water"
       },
       {
         "id": "B",
-        "text": "Cross Flow Air Duct"
+        "text": "Direct Expansion CRAC Row System"
       },
       {
         "id": "C",
-        "text": "Submerged Water Cooling"
+        "text": "Free Air Economizer Ventilation"
       },
       {
         "id": "D",
@@ -568,7 +568,7 @@
       },
       {
         "id": "E",
-        "text": "Open Room Cooling"
+        "text": "Underfloor Plenum Pressurization"
       }
     ],
     "key": "D",
@@ -592,7 +592,7 @@
       },
       {
         "id": "C",
-        "text": "Kabel salah standar pengkabelan"
+        "text": "Kabel mengalami split pair pada pasangan 3-6 dan 4-5"
       },
       {
         "id": "D",
@@ -616,15 +616,15 @@
     "options": [
       {
         "id": "A",
-        "text": "sudo traceroute 80"
+        "text": "sudo ip route show port 80"
       },
       {
         "id": "B",
-        "text": "sudo rm -rf /var/www"
+        "text": "sudo ifconfig eth0 up :80"
       },
       {
         "id": "C",
-        "text": "sudo ping localhost:80"
+        "text": "sudo iptables -L INPUT :80"
       },
       {
         "id": "D",
@@ -632,7 +632,7 @@
       },
       {
         "id": "E",
-        "text": "sudo chmod 777 :80"
+        "text": "sudo route add default gw :80"
       }
     ],
     "key": "D",
@@ -652,11 +652,11 @@
       },
       {
         "id": "B",
-        "text": "Kabel fiber optik menghantarkan arus listrik DC untuk menyalakan komputer"
+        "text": "Kabel fiber optik single-mode dapat dipasangi konektor RJ-45 langsung"
       },
       {
         "id": "C",
-        "text": "Kabel UTP harus selalu disambung menggunakan mesin Fusion Splicer"
+        "text": "Kabel UTP memiliki redaman per kilometer yang jauh lebih rendah daripada serat optik"
       },
       {
         "id": "D",
@@ -664,7 +664,7 @@
       },
       {
         "id": "E",
-        "text": "Kabel UTP dapat menyalurkan sinyal cahaya laser berdaya tinggi"
+        "text": "Kabel UTP mampu mentransmisikan data berkecepatan 100 Gbps pada jarak 40 km"
       }
     ],
     "key": [
@@ -683,11 +683,11 @@
     "options": [
       {
         "id": "A",
-        "text": "One-Click Cleaner digunakan untuk memotong kabel fiber optik"
+        "text": "Visual Fault Locator (VFL) digunakan untuk melebur kaca silika pada suhu 2000°C"
       },
       {
         "id": "B",
-        "text": "Fusion Splicer digunakan untuk menjepit konektor RJ-45 tembaga"
+        "text": "Optical Time Domain Reflectometer (OTDR) digunakan untuk mencetak stiker barcode kabel"
       },
       {
         "id": "C",
@@ -735,7 +735,7 @@
       },
       {
         "id": "E",
-        "text": "Port Trunk hanya boleh digunakan untuk kabel telepon kabel tembaga analog"
+        "text": "VLAN ID nomor 0 dan 4095 dapat dialokasikan bebas untuk komputer siswa"
       }
     ],
     "key": [
@@ -771,7 +771,7 @@
       },
       {
         "id": "E",
-        "text": "Alamat IP 127.0.0.1 adalah alamat publik router gateway internet dunia"
+        "text": "Alamat IP 192.168.1.255 dapat dipasang sebagai IP statis kartu jaringan PC"
       }
     ],
     "key": [
@@ -790,11 +790,11 @@
     "options": [
       {
         "id": "A",
-        "text": "`ip a` digunakan untuk menghapus seluruh hard disk server"
+        "text": "`ls -la` digunakan untuk memformat partisi sistem Linux"
       },
       {
         "id": "B",
-        "text": "`pwd` digunakan untuk mematikan komputer server seketika"
+        "text": "`userdel` digunakan untuk menambah hak akses administrator root"
       },
       {
         "id": "C",
@@ -835,7 +835,7 @@
       },
       {
         "id": "st3",
-        "text": "Hub pasif mampu memisahkan broadcast domain menjadi 8 bagian berbeda.",
+        "text": "Hub pasif mampu memisahkan collision domain pada setiap port fisiknya.",
         "correct": "S"
       }
     ],
@@ -861,11 +861,11 @@
       },
       {
         "id": "st3",
-        "text": "Serpihan kaca serat optik aman ditelan jika tercampur dengan makanan di ruang lab.",
+        "text": "Serpihan kaca serat optik aman dibuang di atas lantai meja kerja karena akan larut sendiri di udara.",
         "correct": "S"
       }
     ],
-    "explanation": "Serpihan kaca serat optik sangat berbahaya jika tertelan atau menusuk organ dalam tubuh; dilarang makan/minum di area kerja potong serat.",
+    "explanation": "Serpihan kaca serat optik silika tidak larut dan sangat berbahaya jika menusuk kulit atau organ dalam tubuh.",
     "quickTip": "Patuhi K3 optik: Jangan menatap laser dan amankan limbah serpihan kaca tajam."
   },
   {
@@ -887,11 +887,11 @@
       },
       {
         "id": "st3",
-        "text": "Subnet mask /26 dapat menampung hingga 500 komputer pengguna.",
+        "text": "Subnet mask /26 menyediakan hingga 126 host usable untuk perangkat pengguna.",
         "correct": "S"
       }
     ],
-    "explanation": "Prefix /26 menyisakan 6 bit host, kapasitasnya maksimal 2^6 - 2 = 62 host, tidak bisa menampung 500 komputer.",
+    "explanation": "Prefix /26 menyisakan 6 bit host, kapasitasnya maksimal 2^6 - 2 = 62 host, bukan 126 host (126 host adalah prefix /25).",
     "quickTip": "/26 = mask 255.255.255.192 dengan kapasitas 62 host usable."
   },
   {
@@ -913,11 +913,11 @@
       },
       {
         "id": "st3",
-        "text": "VLAN hanya bisa dibuat jika kabel yang digunakan adalah kabel listrik bertegangan 380 Volt.",
+        "text": "VLAN membutuhkan router perangkat keras terpisah untuk membagi setiap port fisik switch unmanaged.",
         "correct": "S"
       }
     ],
-    "explanation": "VLAN adalah fitur logis software switch pada kabel Ethernet data standar, bukan kabel listrik tegangan tinggi.",
+    "explanation": "VLAN dikonfigurasikan pada switch terkelola (managed switch), bukan switch unmanaged, dan switch L3 dapat melakukan routing inter-VLAN internal.",
     "quickTip": "VLAN adalah segmentasi logis Layer 2 switch; komunikasi antar-VLAN butuh Layer 3."
   },
   {
@@ -939,11 +939,11 @@
       },
       {
         "id": "st3",
-        "text": "OTDR bekerja dengan cara memancarkan gelombang suara ultrasonik ke dalam kabel pipa air.",
+        "text": "OTDR bekerja dengan cara mengukur resistansi loop arus DC kawat tembaga kabel jaringan.",
         "correct": "S"
       }
     ],
-    "explanation": "OTDR memancarkan pulsa laser optik ke dalam inti serat kaca silika, bukan gelombang suara ke pipa air.",
+    "explanation": "OTDR memancarkan pulsa laser optik ke dalam inti serat kaca silika, bukan mengukur resistansi DC kawat tembaga.",
     "quickTip": "OTDR menganalisis pulsa laser optik: Spike (Konektor), Undakan turun (Splice/Bending)."
   }
 ]

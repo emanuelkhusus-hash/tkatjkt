@@ -8,11 +8,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Memanaskan kabel optik dengan oven hingga suhu mendidih"
+        "text": "Mengalirkan arus listrik loopback DC kontinu untuk mendeteksi titik hubung singkat tembaga"
       },
       {
         "id": "B",
-        "text": "Merekam suara percakapan telepon yang lewat di kabel"
+        "text": "Menghitung tingkat distorsi harmonik total (THD) dari sinyal modulasi analog"
       },
       {
         "id": "C",
@@ -20,11 +20,11 @@
       },
       {
         "id": "D",
-        "text": "Menghubungkan kabel ke sumber listrik arus bolak-balik 220V"
+        "text": "Menginjeksi sinyal RF pembawa modulasi frekuensi tinggi untuk mengukur impedansi karakteristik kabel"
       },
       {
         "id": "E",
-        "text": "Mengukur berat fisik kabel optik menggunakan neraca pegas"
+        "text": "Mengukur resistansi loop kawat konduktor menggunakan jembatan Wheatstone"
       }
     ],
     "key": "C",
@@ -40,7 +40,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Pantulan Cermin Datar"
+        "text": "Hamburan Raman Terstimulasi (Stimulated Raman Scattering)"
       },
       {
         "id": "B",
@@ -48,15 +48,15 @@
       },
       {
         "id": "C",
-        "text": "Efek Doppler Bunyi"
+        "text": "Hamburan Brillouin Terstimulasi (Stimulated Brillouin Scattering)"
       },
       {
         "id": "D",
-        "text": "Radiasi Benda Hitam"
+        "text": "Dispersi Kecepatan Grup (Chromatic Dispersion)"
       },
       {
         "id": "E",
-        "text": "Induksi Elektromagnetik"
+        "text": "Atenuasi Penyerapan Molekul Hidroksil (OH Absorption Peak)"
       }
     ],
     "key": "B",
@@ -72,11 +72,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Dispersi Kromatik"
+        "text": "Dispersi Kromatik Material"
       },
       {
         "id": "B",
-        "text": "Hamburan Rayleigh"
+        "text": "Hamburan Rayleigh Balik"
       },
       {
         "id": "C",
@@ -84,11 +84,11 @@
       },
       {
         "id": "D",
-        "text": "Atenuasi Macrobending"
+        "text": "Atenuasi Macrobending Silika"
       },
       {
         "id": "E",
-        "text": "Absorption Loss"
+        "text": "Absorption Loss Molekuler"
       }
     ],
     "key": "C",
@@ -104,11 +104,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Latency Delay"
+        "text": "Dispersion Limit Area"
       },
       {
         "id": "B",
-        "text": "Active Zone"
+        "text": "Dynamic Range Margin"
       },
       {
         "id": "C",
@@ -116,11 +116,11 @@
       },
       {
         "id": "D",
-        "text": "Collision Domain"
+        "text": "Ghost Event Region"
       },
       {
         "id": "E",
-        "text": "Bandwidth Gap"
+        "text": "Noise Floor Threshold"
       }
     ],
     "key": "C",
@@ -136,15 +136,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Waktu yang dibutuhkan teknisi untuk menyalakan OTDR"
+        "text": "Jarak minimum setelah titik reflektif hingga kurva kembali stabil pada batas 0.5 dB dari garis Rayleigh"
       },
       {
         "id": "B",
-        "text": "Jarak maksimum kabel optik bisa dipasang di dalam tanah"
+        "text": "Jarak maksimum jangkauan pulsa optik sebelum sinyal menyentuh batas noise floor"
       },
       {
         "id": "C",
-        "text": "Batas kedalaman galian tanah kabel bawah tanah"
+        "text": "Selisih jarak antara titik injeksi laser dan titik penerimaan daya maksimum pada detektor APD"
       },
       {
         "id": "D",
@@ -152,7 +152,7 @@
       },
       {
         "id": "E",
-        "text": "Jarak antara tiang telepon pertama ke kantor pusat"
+        "text": "Jarak total bentangan kabel dari titik peluncuran hingga ujung akhir kabel (fiber end)"
       }
     ],
     "key": "D",
@@ -168,15 +168,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Daya baterai OTDR saat digunakan di lapangan"
+        "text": "Jarak perambatan pulsa laser saat daya optik berkurang menjadi setengah dari nilai awal (-3 dB)"
       },
       {
         "id": "B",
-        "text": "Panjang maksimal kabel patch cord di ruang server"
+        "text": "Rentang jarak di mana kurva pantulan Fresnel mengalami saturasi amplitudo maksimum"
       },
       {
         "id": "C",
-        "text": "Jumlah sambungan yang diizinkan dalam 1 kilometer"
+        "text": "Panjang minimum kabel peluncur dummy fiber yang dibutuhkan untuk meredam lonjakan laser"
       },
       {
         "id": "D",
@@ -184,7 +184,7 @@
       },
       {
         "id": "E",
-        "text": "Jarak kabel yang rusak terbakar petir"
+        "text": "Jarak minimum di mana dua konektor bersebelahan dapat dibedakan sebagai dua puncak reflektif terpisah"
       }
     ],
     "key": "D",
@@ -200,7 +200,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Kabel Coaxial RG-6"
+        "text": "Optical Coupler Splitter 1:2 Unbalanced"
       },
       {
         "id": "B",
@@ -208,15 +208,15 @@
       },
       {
         "id": "C",
-        "text": "Kabel Listrik Rol Steker"
+        "text": "Variable Optical Attenuator (VOA) Box"
       },
       {
         "id": "D",
-        "text": "Patch Cord Simplex 1 Meter"
+        "text": "Mode Conditioning Patch Cord MMF-to-SMF"
       },
       {
         "id": "E",
-        "text": "Drop Cable FTTH 1-Core"
+        "text": "Loopback Attenuator LC/UPC 10 dB"
       }
     ],
     "key": "B",
@@ -232,7 +232,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Menghilangkan semua data di memori internal alat"
+        "text": "Mengakibatkan kurva pantulan Fresnel mengalami over-saturasi pada detektor APD"
       },
       {
         "id": "B",
@@ -240,15 +240,15 @@
       },
       {
         "id": "C",
-        "text": "Membuat layar OTDR menjadi mati seketika"
+        "text": "Menghilangkan seluruh efek hamburan Rayleigh pada kurva jejak pengukuran"
       },
       {
         "id": "D",
-        "text": "Mengubah kabel single-mode menjadi kabel multi-mode"
+        "text": "Memperlebar Dead Zone hingga menutupi seluruh kejadian sambungan jarak dekat"
       },
       {
         "id": "E",
-        "text": "Menghasilkan jangkauan jarak sangat jauh hingga 200 km"
+        "text": "Menghasilkan jangkauan dinamik (dynamic range) maksimum hingga 45 dB pada jarak backbone"
       }
     ],
     "key": "B",
@@ -268,19 +268,19 @@
       },
       {
         "id": "B",
-        "text": "Pulse Width paling pendek 3 ns"
+        "text": "Pulse Width ultra-pendek (misalnya 3 ns hingga 5 ns)"
       },
       {
         "id": "C",
-        "text": "Menyalakan mode VFL senter"
+        "text": "Mengaktifkan mode continuous wave (CW) tanpa modulasi pulsa"
       },
       {
         "id": "D",
-        "text": "Pulse Width 0 ns"
+        "text": "Pulse Width menengah pendek (misalnya 10 ns hingga 20 ns)"
       },
       {
         "id": "E",
-        "text": "Tidak menyetel pulse width sama sekali"
+        "text": "Pulse Width konstan 50 ns dengan attenuator optik 20 dB terpasang"
       }
     ],
     "key": "A",
@@ -296,7 +296,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Pengisian Daya Baterai"
+        "text": "Atenuasi Penyerapan Bahan Silika (Absorption Loss)"
       },
       {
         "id": "B",
@@ -304,7 +304,7 @@
       },
       {
         "id": "C",
-        "text": "Atenuasi Alami Kaca Serat Optik"
+        "text": "Atenuasi Alami Kaca Serat Optik Sepanjang Jalur"
       },
       {
         "id": "D",
@@ -312,7 +312,7 @@
       },
       {
         "id": "E",
-        "text": "Hubung Singkat Arus Listrik"
+        "text": "Tekukan Macrobending pada Splice Tray"
       }
     ],
     "key": "D",
@@ -328,11 +328,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Kecepatan Internet Meningkat"
+        "text": "Pantulan Fresnel pada ujung konektor UPC"
       },
       {
         "id": "B",
-        "text": "Adaptor Power Supply Rusak"
+        "text": "Mechanical Splice dengan celah udara (Air Gap)"
       },
       {
         "id": "C",
@@ -340,11 +340,11 @@
       },
       {
         "id": "D",
-        "text": "Konektor Mekanik SC yang terlepas"
+        "text": "Konektor Mekanik SC yang terlepas atau renggang"
       },
       {
         "id": "E",
-        "text": "Ujung Terbuka Serat Optik (Fiber End)"
+        "text": "Ujung Terbuka Serat Optik Terpotong Udara (Fiber End)"
       }
     ],
     "key": "C",
@@ -360,7 +360,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Modul SFP Pemancar Aktif"
+        "text": "Titik Bending Ekstrem di Saluran Subduct"
       },
       {
         "id": "B",
@@ -368,15 +368,15 @@
       },
       {
         "id": "C",
-        "text": "Konektor Patch Panel Pertama"
+        "text": "Konektor Patch Panel Pertama pada Launch Cable"
       },
       {
         "id": "D",
-        "text": "Kabel Grounding Tanah"
+        "text": "Optical Splitter 1:8 Pasif di Rumah Kabel"
       },
       {
         "id": "E",
-        "text": "Sambungan Fusion Splice Pertama"
+        "text": "Sambungan Fusion Splice Pertama di Ruang ODF"
       }
     ],
     "key": "B",
@@ -396,19 +396,19 @@
       },
       {
         "id": "B",
-        "text": "Mencuci kabel optik dengan air panas"
+        "text": "Menurunkan nilai Indeks Bias (IOR) sebesar 0.5 pada menu konfigurasi instrumen"
       },
       {
         "id": "C",
-        "text": "Mengganti kabel serat optik dengan kabel tembaga"
+        "text": "Mengukur nilai dispersi kromatik menggunakan instrumen CD/PMD Analyzer terpisah"
       },
       {
         "id": "D",
-        "text": "Mematikan OTDR dan meniup kabel optik"
+        "text": "Membandingkan kurva pada 850 nm dan 1300 nm menggunakan sumber cahaya Multimode"
       },
       {
         "id": "E",
-        "text": "Menghubungkan kabel ke soket stopkontak listrik"
+        "text": "Mengubah lebar pulsa dari 10 ns menjadi 10.000 ns pada panjang gelombang yang sama"
       }
     ],
     "key": "A",
@@ -424,15 +424,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Terdapat penguat amplifier tenaga nuklir di dalam kabel"
+        "text": "Terjadinya fenomena dispersi kromatik negatif pada panjang gelombang 1550 nm"
       },
       {
         "id": "B",
-        "text": "Kabel terkena sambaran petir saat diuji"
+        "text": "Ketidaksesuaian indeks bias (IOR) yang disetel pada menu utama OTDR"
       },
       {
         "id": "C",
-        "text": "Mesin splicer menambahkan daya baterai ke dalam kaca"
+        "text": "Adanya pantulan Fresnel berulang akibat celah udara pada sambungan mekanik"
       },
       {
         "id": "D",
@@ -440,7 +440,7 @@
       },
       {
         "id": "E",
-        "text": "Cahaya laser memantul kembali dari masa depan"
+        "text": "Terjadinya saturasi fotodioda avalanche (APD) akibat pulse width terlalu sempit"
       }
     ],
     "key": "D",
@@ -460,19 +460,19 @@
       },
       {
         "id": "B",
-        "text": "Mengganti OTDR dengan LAN tester baterai 9V"
+        "text": "Menaikkan pulse width ke level maksimum untuk mengaburkan undakan kurva"
       },
       {
         "id": "C",
-        "text": "Mengurangi nilai pembacaan dengan angka 100 secara acak"
+        "text": "Mengganti panjang gelombang pengujian dari 1310 nm ke 850 nm secara sepihak"
       },
       {
         "id": "D",
-        "text": "Menonaktifkan layar monitor OTDR"
+        "text": "Mengurangi nilai indeks bias inti (IOR) hingga kurva gainer terlihat menurun"
       },
       {
         "id": "E",
-        "text": "Memotong kabel di titik gainer dan membuangnya"
+        "text": "Memasang optical attenuator 5 dB di depan port peluncur OTDR"
       }
     ],
     "key": "A",
@@ -488,7 +488,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Panjang gelombang laser otomatis berubah menjadi sinar rontgen"
+        "text": "Kemiringan garis Rayleigh terbalik menjadi garis menanjak ke atas"
       },
       {
         "id": "B",
@@ -496,15 +496,15 @@
       },
       {
         "id": "C",
-        "text": "Kabel serat optik akan meleleh terbakar"
+        "text": "Tingkat redaman total link kabel (total loss) melonjak menjadi puluhan desibel"
       },
       {
         "id": "D",
-        "text": "Baterai OTDR akan habis dalam hitungan detik"
+        "text": "Panjang gelombang laser bergeser dari 1310 nm menuju 1550 nm secara otomatis"
       },
       {
         "id": "E",
-        "text": "OTDR tidak dapat memancarkan cahaya laser sama sekali"
+        "text": "Detektor penerima optik (APD) mengalami kerusakan saturasi permanen"
       }
     ],
     "key": "B",
@@ -520,15 +520,15 @@
     "options": [
       {
         "id": "A",
-        "text": "1,0000 (Indeks bias ruang hampa)"
+        "text": "1,3330 (Indeks bias air murni)"
       },
       {
         "id": "B",
-        "text": "2,4200 (Indeks bias intan berlian)"
+        "text": "1,5500 (Indeks bias kaca optik padat flin)"
       },
       {
         "id": "C",
-        "text": "10,500"
+        "text": "1,7500 (Indeks bias kristal safir optik)"
       },
       {
         "id": "D",
@@ -536,7 +536,7 @@
       },
       {
         "id": "E",
-        "text": "0,5000"
+        "text": "1,2500 (Indeks bias fluoropolimer rendah)"
       }
     ],
     "key": "D",
@@ -552,15 +552,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Mengubah konfigurasi alamat IP router menjadi IPv6"
+        "text": "Mengonfigurasi ulang routing protocol OSPF untuk mem-bypass redaman"
       },
       {
         "id": "B",
-        "text": "Mengganti server komputer pelanggan"
+        "text": "Memasang patch cord baru antara port ODF dan port optical switch"
       },
       {
         "id": "C",
-        "text": "Menyalakan AC pendingin di ruang sentral lebih dingin"
+        "text": "Melakukan kalibrasi ulang OLS dan OPM di kedua sentral ujung kabel"
       },
       {
         "id": "D",
@@ -568,7 +568,7 @@
       },
       {
         "id": "E",
-        "text": "Mengganti seluruh kabel dari kilometer 0 hingga kilometer 15"
+        "text": "Mengganti modul SFP pemancar di switch core sentral karena dicurigai rusak"
       }
     ],
     "key": "D",
@@ -588,19 +588,19 @@
       },
       {
         "id": "B",
-        "text": "Menurun 20,0 dB per kilometer"
+        "text": "Menurun konstan 0,50 dB per 100 meter kabel"
       },
       {
         "id": "C",
-        "text": "Garis mendatar lurus sempurna tanpa penurunan (0 dB/km)"
+        "text": "Menurun sekitar 1,00 sampai 1,50 dB per kilometer"
       },
       {
         "id": "D",
-        "text": "Menurun 5,0 dB per kilometer"
+        "text": "Menurun sekitar 0,18 sampai 0,22 dB per kilometer (karakteristik 1550 nm)"
       },
       {
         "id": "E",
-        "text": "Garis menanjak naik ke atas"
+        "text": "Menurun sekitar 2,50 sampai 3,00 dB per kilometer (karakteristik Multimode 850 nm)"
       }
     ],
     "key": "A",
@@ -616,11 +616,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Format Audio Lagu (.MP3)"
+        "text": "Format Konfigurasi Router Script (.CFG)"
       },
       {
         "id": "B",
-        "text": "Format Gambar JPEG (.JPG)"
+        "text": "Format Basis Data Relasional SQL (.MDF)"
       },
       {
         "id": "C",
@@ -628,11 +628,11 @@
       },
       {
         "id": "D",
-        "text": "Format Eksekusi Aplikasi (.EXE)"
+        "text": "Format Rekaman Paket Jaringan (.PCAP)"
       },
       {
         "id": "E",
-        "text": "Format Dokumen Teks (.TXT)"
+        "text": "Format Dokumen Teks Terbuka (.TXT)"
       }
     ],
     "key": "C",
@@ -652,11 +652,11 @@
       },
       {
         "id": "B",
-        "text": "Induksi Gelombang Radio FM"
+        "text": "Dispersi Kromatik Material Silika"
       },
       {
         "id": "C",
-        "text": "Radiasi Nuklir Peluruhan Uranium"
+        "text": "Interferensi Polarisasi Modus Antarmuka"
       },
       {
         "id": "D",
@@ -664,7 +664,7 @@
       },
       {
         "id": "E",
-        "text": "Pemanasan Termal Gesekan Angin"
+        "text": "Atenuasi Pandu Gelombang (Waveguide Loss)"
       }
     ],
     "key": [
@@ -683,7 +683,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Layar berkedip warna warni = Virus komputer sedang menyerang"
+        "text": "Spike tajam berulang teratur = Adanya serangan DoS pada paket optik"
       },
       {
         "id": "B",
@@ -691,7 +691,7 @@
       },
       {
         "id": "C",
-        "text": "Garis landai menurun = Tabrakan paket data Layer 2"
+        "text": "Garis landai menurun = Terjadinya loop bridging pada switch jaringan"
       },
       {
         "id": "D",
@@ -727,11 +727,11 @@
       },
       {
         "id": "C",
-        "text": "Kecepatan Mengetik Keyboard"
+        "text": "Nilai Subnet Mask IPv4 Port Manajemen"
       },
       {
         "id": "D",
-        "text": "Tinggi Badan Teknisi Penguji"
+        "text": "Konfigurasi BGP Autonomous System Number"
       },
       {
         "id": "E",
@@ -755,7 +755,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Menghilangkan kebutuhan baterai pada OTDR"
+        "text": "Mencegah terjadinya dispersi mode polarisasi pada link jarak jauh"
       },
       {
         "id": "B",
@@ -763,11 +763,11 @@
       },
       {
         "id": "C",
-        "text": "Mengubah kabel single-mode menjadi kabel tembaga LAN"
+        "text": "Mengonversi sinyal optik Single-Mode menjadi Multimode tanpa splitter"
       },
       {
         "id": "D",
-        "text": "Menambah kecepatan internet pelanggan menjadi tidak terbatas"
+        "text": "Menggandakan kapasitas bandwidth DWDM secara optis"
       },
       {
         "id": "E",
@@ -790,7 +790,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Tekukan macrobending tidak akan terdeteksi sama sekali pada panjang gelombang 1550 nm"
+        "text": "Tekukan macrobending hanya menghasilkan lonjakan redaman pada panjang gelombang 850 nm"
       },
       {
         "id": "B",
@@ -798,11 +798,11 @@
       },
       {
         "id": "C",
-        "text": "Sambungan fusion splice normal akan selalu menghasilkan redaman 50 dB pada 1310 nm"
+        "text": "Sambungan fusion splice berkualitas normal memiliki redaman lebih besar pada 1310 nm dibanding 1550 nm"
       },
       {
         "id": "D",
-        "text": "Cahaya 1550 nm kebal terhadap semua jenis tekukan kabel"
+        "text": "Panjang gelombang 1550 nm memiliki ketahanan tekukan lebih baik dibanding 1310 nm"
       },
       {
         "id": "E",
@@ -835,11 +835,11 @@
       },
       {
         "id": "st3",
-        "text": "OTDR bekerja dengan cara memancarkan gelombang suara ultrasonik ke dalam kabel tembaga.",
+        "text": "OTDR bekerja dengan cara mengukur resistansi loop tembaga menggunakan prinsip pantulan sinyal audio analog.",
         "correct": "S"
       }
     ],
-    "explanation": "OTDR adalah instrumen optik berbasis pulsa cahaya laser ke dalam serat kaca, bukan gelombang ultrasonik tembaga.",
+    "explanation": "OTDR adalah instrumen optik berbasis pulsa cahaya laser ke dalam serat kaca, bukan pengukur resistansi loop sinyal audio.",
     "quickTip": "OTDR adalah instrumen radar pulsa laser optik ke dalam serat kaca."
   },
   {
@@ -887,7 +887,7 @@
       },
       {
         "id": "st3",
-        "text": "Ujung akhir kabel yang putus ditandai dengan kurva yang terus menanjak naik ke atas tanpa henti.",
+        "text": "Ujung akhir kabel yang putus ditandai dengan garis kurva horizontal lurus mendatar tanpa perubahan redaman.",
         "correct": "S"
       }
     ],
@@ -913,7 +913,7 @@
       },
       {
         "id": "st3",
-        "text": "Fenomena Gainer membuktikan bahwa kabel serat optik dapat menghasilkan energi listrik gratis.",
+        "text": "Fenomena Gainer membuktikan bahwa sambungan fusion splice menghasilkan penguatan daya optik riil di dalam serat.",
         "correct": "S"
       }
     ],
@@ -939,7 +939,7 @@
       },
       {
         "id": "st3",
-        "text": "Mengubah nilai IOR pada menu OTDR akan merubah panjang fisik kabel di lapangan secara otomatis.",
+        "text": "Mengubah nilai IOR pada menu OTDR akan mengubah panjang fisik bentangan kabel serat optik di lapangan secara mekanis.",
         "correct": "S"
       }
     ],

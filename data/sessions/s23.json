@@ -3,24 +3,24 @@
     "id": "s23_q1",
     "number": 1,
     "type": "pg",
-    "stimulus": "Wiremap LAN Cable Tester portabel yang terdiri dari unit Master dan Remote banyak digunakan untuk verifikasi kabel UTP setelah pemasangan konektor RJ-45.",
+    "stimulus": "Setelah melakukan terminasi konektor RJ-45 pada kedua ujung kabel UTP, teknisi menggunakan Wiremap LAN Cable Tester untuk memverifikasi sambungan kabel.",
     "question": "Fungsi utama dari Wiremap LAN Cable Tester adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Mengukur kecepatan browsing internet dalam Gigabits per second"
+        "text": "Mengukur throughput bandwidth data Layer 7 dalam Gigabits per second"
       },
       {
         "id": "B",
-        "text": "Menghitung biaya pemakaian kuota data internet bulanan"
+        "text": "Menganalisis spektrum frekuensi radio nirkabel pada kanal 2.4 GHz"
       },
       {
         "id": "C",
-        "text": "Menghapus virus dan malware di dalam hard disk komputer"
+        "text": "Mengukur nilai redaman optik dalam satuan decibel per kilometer"
       },
       {
         "id": "D",
-        "text": "Menyambungkan kabel fiber optik menggunakan busur api listrik"
+        "text": "Menguji tegangan riak AC pada catu daya switching rak server"
       },
       {
         "id": "E",
@@ -28,51 +28,51 @@
       }
     ],
     "key": "E",
-    "explanation": "LAN Cable Tester memverifikasi kontinuitas elektrik dan pemetaan pin kawat 1-8 untuk mendeteksi kabel putus, korsleting, atau salah urutan pin.",
-    "quickTip": "Wiremap LAN Tester menguji kontinuitas fisik dan urutan pin 1-8 kabel UTP."
+    "explanation": "LAN Cable Tester (Wiremap) berfungsi menguji kontinuitas fisik 8 pin konduktor kawat tembaga kabel twisted pair, memastikan tidak ada kawat yang putus, tertukar, atau terhubung singkat (short).",
+    "quickTip": "Wiremap tester menguji kontinuitas kelistrikan dan urutan pin 1-8 kabel LAN."
   },
   {
     "id": "s23_q2",
     "number": 2,
     "type": "pg",
-    "stimulus": "Saat menguji kabel UTP straight-through dengan LAN tester, lampu nomor 1 pada Master menyala namun lampu nomor 1 dan 2 pada Remote menyala bersamaan.",
+    "stimulus": "Saat kabel UTP diuji dengan LAN tester, lampu LED nomor 3 dan nomor 6 menyala redup secara bersamaan pada unit receiver ketika urutan pin 3 aktif.",
     "question": "Jenis kerusakan fisik kabel yang ditunjukkan oleh indikasi dua lampu menyala serentak tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Split Pair (Pasangan terbelah)"
+        "text": "Split Pair (Pasangan kawat terpisah lilitan)"
       },
       {
         "id": "B",
-        "text": "Good Cable (Kabel normal)"
+        "text": "Transposition Wiremap Match (Kabel normal)"
       },
       {
         "id": "C",
-        "text": "Short Circuit (Hubung Singkat / Korsleting antar-kawat)"
+        "text": "Short Circuit (Hubung Singkat / Korsleting antar-kawat konduktor)"
       },
       {
         "id": "D",
-        "text": "Open Circuit (Kawat terputus)"
+        "text": "Open Circuit (Kawat konduktor terputus)"
       },
       {
         "id": "E",
-        "text": "Reversed Pair (Pasangan terbalik)"
+        "text": "Reversed Pair (Polaritas positif-negatif terbalik)"
       }
     ],
     "key": "C",
-    "explanation": "Lampu LED yang menyala bersamaan menandakan konduktor tembaga antar-pin saling bersentuhan (short circuit) akibat isolator terkelupas atau terjepit.",
-    "quickTip": "Dua lampu LED menyala bersamaan di satu pin = Short Circuit (Korsleting)."
+    "explanation": "Lampu LED yang menyala serentak pada dua pin menandakan adanya hubungan listrik singkat (Short Circuit / korsleting) di antara kedua konduktor kawat tersebut, biasanya akibat kabel terjepit atau kesalahan crimping.",
+    "quickTip": "Dua lampu LED menyala bersamaan menandakan Short Circuit (korsleting antar-kawat)."
   },
   {
     "id": "s23_q3",
     "number": 3,
     "type": "pg",
-    "stimulus": "Pada pengetesan kabel UTP, lampu LED pada Remote menyala dengan urutan: 1, 2, 6, 4, 5, 3, 7, 8 saat Master berjalan 1 sampai 8 berurutan.",
+    "stimulus": "Hasil pengujian kabel straight-through menunjukkan pola urutan lampu LED: pada master menyala 1-2-3-4-5-6-7-8, namun pada remote menyala 1-2-6-4-5-3-7-8.",
     "question": "Jenis kesalahan terminasi kabel yang terjadi pada pin 3 dan pin 6 tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Grounding Error pada kabel"
+        "text": "Grounding Fault pada pelindung kabel STP"
       },
       {
         "id": "B",
@@ -80,39 +80,39 @@
       },
       {
         "id": "C",
-        "text": "Open Circuit pada pin 3 dan 6"
+        "text": "Open Circuit pada jalur pin 3 dan pin 6"
       },
       {
         "id": "D",
-        "text": "Tegangan listrik petir masuk ke kabel"
+        "text": "Induksi tegangan liar akibat sambaran petir"
       },
       {
         "id": "E",
-        "text": "Short Circuit pada pin 3 dan 6"
+        "text": "Short Circuit antara jalur pin 3 dan pin 6"
       }
     ],
     "key": "B",
-    "explanation": "Urutan pin yang melompat (3 dan 6 tertukar posisi nyala) menunjukkan kawat terpasang silang (miswired/crossed) pada konektor RJ-45.",
-    "quickTip": "Lampu LED menyala tidak berurutan menandakan pin tertukar (Crossed/Miswired)."
+    "explanation": "Pola di mana lampu menyala tidak berurutan pada receiver (posisi 3 dan 6 bertukar) menandakan kesalahan urutan susunan kawat (Crossed Pin / Miswire) saat krimp ke konektor RJ-45.",
+    "quickTip": "Lampu menyala bertukar urutan menandakan kondisi Miswire / Crossed Pin."
   },
   {
     "id": "s23_q4",
     "number": 4,
     "type": "pg",
-    "stimulus": "Kondisi kesalahan pengkabelan di mana kontinuitas 1-8 menyala lurus sempurna pada tester LED biasa, namun terjadi lonjakan crosstalk (NEXT) parah akibat kawat dari pasangan pelintiran yang berbeda dipasangkan bersama disebut...",
-    "question": "Nama jenis gangguan terminasi tersembunyi tersebut adalah...",
+    "stimulus": "Kabel UTP memiliki pengujian wiremap lurus 1-8 yang sempurna, namun saat digunakan pada jaringan 1 Gbps terjadi packet loss parah dan error NEXT tinggi karena kawat dipasangkan dari lilitan pasangan yang salah.",
+    "question": "Nama jenis gangguan terminasi tersembunyi yang tidak terdeteksi oleh tester LED sederhana tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Short Circuit"
+        "text": "Short Circuit Korsleting"
       },
       {
         "id": "B",
-        "text": "Reversed Pin"
+        "text": "Reversed Pin Polarity"
       },
       {
         "id": "C",
-        "text": "Open Circuit"
+        "text": "Open Circuit Discontinuity"
       },
       {
         "id": "D",
@@ -120,18 +120,18 @@
       },
       {
         "id": "E",
-        "text": "Ground Fault"
+        "text": "Ground Shield Continuity Fault"
       }
     ],
     "key": "D",
-    "explanation": "Split Pair terjadi saat kawat dari dua pasangan lilitan berbeda dipasangkan ke pin transmit/receive. Kontinuitas pin cocok 1-to-1 tetapi pembatalan derau hilang sehingga NEXT sangat tinggi.",
-    "quickTip": "Kontinuitas lolos tapi crosstalk parah karena salah pasang lilitan = Split Pair."
+    "explanation": "Split Pair terjadi saat kawat dari dua pasangan lilitan berbeda dipasangkan pada pin transmisi yang sama (misal pin 3 dan 6 memakai kawat dari dua pasang berbeda). Kontinuitas pin tetap 1-1, namun pembatalan interferensi lilitan hilang, memicu crosstalk parah.",
+    "quickTip": "Split Pair: Pin lurus elektrik tetapi pasangan lilitan terbelah, memicu crosstalk parah."
   },
   {
     "id": "s23_q5",
     "number": 5,
     "type": "pg",
-    "stimulus": "Teknisi ingin melacak satu kabel LAN tertentu di antara ratusan kabel kusut di dalam rak patch panel tanpa harus menarik satu per satu kabel.",
+    "stimulus": "Seorang teknisi harus menemukan satu kabel spesifik yang menuju meja direktur dari antara ratusan bundel kabel kusut di ruang rack patch panel tanpa label.",
     "question": "Alat bantu pelacak rute kabel jaringan berbasis sinyal nada audio induksi tersebut adalah...",
     "options": [
       {
@@ -144,39 +144,39 @@
       },
       {
         "id": "C",
-        "text": "Multimeter Digital jarum"
+        "text": "Digital Multimeter Jarum"
       },
       {
         "id": "D",
-        "text": "Tang Crimping RJ-45"
+        "text": "Loopback Plug Tester RJ-45"
       },
       {
         "id": "E",
-        "text": "Solder Listrik 60 Watt"
+        "text": "Optical Power Meter Handheld"
       }
     ],
     "key": "B",
-    "explanation": "Tone Generator menginjeksi sinyal frekuensi radio/audio ke kabel, dan probe induktif mendengarkan nada dengung saat didekatkan ke kabel target di patch panel.",
-    "quickTip": "Melacak kabel di antara bundel kusut = Tone Generator & Probe (Cable Tracer)."
+    "explanation": "Tone Generator (menginjeksi nada frekuensi audio ke kawat kabel) dan Probe (alat pelacak tanpa sentuh berantena induksi) digunakan untuk melacak dan mengidentifikasi seutas kabel di antara bundel perkabelan.",
+    "quickTip": "Tone Generator & Probe digunakan untuk melacak dan mencari kabel di antara tumpukan kabel."
   },
   {
     "id": "s23_q6",
     "number": 6,
     "type": "pg",
-    "stimulus": "Fitur penguji kabel profesional canggih yang mampu mengukur jarak lokasi kawat putus (misal: putus tepat di meter ke-42) menggunakan pantulan gelombang listrik adalah...",
-    "question": "Nama teknologi pengujian jarak refleksi domain waktu pada tembaga tersebut adalah...",
+    "stimulus": "Teknisi menggunakan alat certifier kabel canggih yang mampu mengukur jarak lokasi fisik putusnya kawat tembaga di dalam konduit dinding beton.",
+    "question": "Nama teknologi pengujian jarak refleksi domain waktu pada kabel tembaga tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "PoE Detection Circuit"
+        "text": "PoE Detection Sensing Circuit"
       },
       {
         "id": "B",
-        "text": "Auto-MDIX Circuit"
+        "text": "Auto-MDIX Crossover Sensing"
       },
       {
         "id": "C",
-        "text": "Carrier Sense Multiple Access"
+        "text": "Carrier Sense Multiple Access Logic"
       },
       {
         "id": "D",
@@ -188,27 +188,27 @@
       }
     ],
     "key": "D",
-    "explanation": "TDR mengirim pulsa listrik ke kabel tembaga dan mengukur waktu pantulannya untuk menghitung jarak presisi titik putus (open) atau korsleting (short).",
-    "quickTip": "Mengukur jarak lokasi kabel tembaga putus = TDR (Time Domain Reflectometer)."
+    "explanation": "TDR (Time Domain Reflectometer) mengirimkan pulsa sinyal listrik ke kabel tembaga dan mengukur waktu pantulan kembali akibat diskontinuitas impedansi untuk menghitung jarak presisi titik putus (open/short).",
+    "quickTip": "TDR (Time Domain Reflectometer) mengukur jarak titik kabel tembaga yang putus."
   },
   {
     "id": "s23_q7",
     "number": 7,
     "type": "pg",
-    "stimulus": "Perangkat Access Point nirkabel dan kamera IP CCTV modern sering ditenagai listrik langsung melalui kabel LAN menggunakan teknologi PoE.",
+    "stimulus": "Kamera CCTV IP dan Access Point Wi-Fi di plafon gedung dapat menyala tanpa membutuhkan kabel colokan listrik terpisah dengan memanfaatkan kabel jaringan UTP.",
     "question": "Kepanjangan dari akronim teknologi penyaluran daya listrik lewat kabel data tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Port of Execution"
+        "text": "Port of Execution Layer"
       },
       {
         "id": "B",
-        "text": "Packet over Ethernet"
+        "text": "Packet over Ethernet Protocol"
       },
       {
         "id": "C",
-        "text": "Protocol of Encapsulation"
+        "text": "Protocol of Encapsulation Stream"
       },
       {
         "id": "D",
@@ -216,23 +216,23 @@
       },
       {
         "id": "E",
-        "text": "Point of Entry"
+        "text": "Point of Entry Distribution"
       }
     ],
     "key": "D",
-    "explanation": "PoE (Power over Ethernet) mengalirkan daya listrik arus searah (DC) bersamaan dengan sinyal data pada kabel twisted pair Ethernet standar.",
-    "quickTip": "PoE = Power over Ethernet."
+    "explanation": "PoE singkatan dari Power over Ethernet, teknologi berstandar IEEE 802.3 yang menyalurkan daya listrik DC bersama sinyal data melalui seutas kabel twisted pair.",
+    "quickTip": "PoE = Power over Ethernet (daya listrik DC dan data dalam satu kabel UTP)."
   },
   {
     "id": "s23_q8",
     "number": 8,
     "type": "pg",
-    "stimulus": "Sebelum mencolokkan laptop teknisi ke port kabel jaringan di dinding yang dicurigai dialiri daya listrik PoE aktif.",
+    "stimulus": "Sebelum menyambungkan Access Point baru ke port switch wall outlet, teknisi ingin memastikan apakah port tersebut aktif menyuplai daya listrik PoE dan mengetahui tipe watt-nya.",
     "question": "Alat ukur praktis yang digunakan untuk mendeteksi keberadaan tegangan listrik PoE dan mengidentifikasi tipe standar PoE (802.3af/at/bt) adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Tespen Listrik AC 220V biasa"
+        "text": "Digital Clamp Meter Ampere"
       },
       {
         "id": "B",
@@ -240,11 +240,11 @@
       },
       {
         "id": "C",
-        "text": "Fiber Cleaver"
+        "text": "Fiber Cleaver Presisi"
       },
       {
         "id": "D",
-        "text": "Obeng Plus Magnet"
+        "text": "Loopback Interface Adapter"
       },
       {
         "id": "E",
@@ -252,23 +252,23 @@
       }
     ],
     "key": "E",
-    "explanation": "PoE Tester mendeteksi voltase DC pada kabel LAN, mengidentifikasi mode pengiriman daya (Mode A / Mode B), dan memastikan port aman dicolokkan.",
-    "quickTip": "Mendeteksi tegangan daya listrik pada port kabel LAN = PoE Tester / Detector."
+    "explanation": "PoE Tester/Detector ditancapkan ke port RJ-45 untuk mendeteksi keberadaan tegangan PoE, polaritas, dan kelas daya PoE (IEEE 802.3af/at/bt) tanpa membahayakan perangkat penguji.",
+    "quickTip": "PoE Tester mendeteksi keberadaan dan tipe standar daya PoE pada port RJ-45."
   },
   {
     "id": "s23_q9",
     "number": 9,
     "type": "pg",
-    "stimulus": "Standar daya Power over Ethernet IEEE 802.3af (PoE Standar) mampu menyalurkan daya listrik maksimal dari switch (PSE) sebesar...",
+    "stimulus": "Standar awal Power over Ethernet disahkan oleh IEEE pada tahun 2003 dengan spesifikasi daya untuk perangkat bertenaga rendah seperti telepon VoIP.",
     "question": "Daya maksimum per port pada standar PoE IEEE 802.3af adalah...",
     "options": [
       {
         "id": "A",
-        "text": "500 Watt per port"
+        "text": "500 Watt per port kapasitas industri"
       },
       {
         "id": "B",
-        "text": "60-90 Watt per port (IEEE 802.3bt PoE++)"
+        "text": "60 hingga 90 Watt per port (IEEE 802.3bt PoE++)"
       },
       {
         "id": "C",
@@ -276,7 +276,7 @@
       },
       {
         "id": "D",
-        "text": "1 Watt per port"
+        "text": "1 Watt per port daya sensor mikro"
       },
       {
         "id": "E",
@@ -284,14 +284,14 @@
       }
     ],
     "key": "C",
-    "explanation": "IEEE 802.3af (PoE Tipe 1) menyediakan daya maksimal 15.4W pada sumber (PSE) dan minimal 12.95W pada perangkat penerima (PD).",
-    "quickTip": "Standar PoE 802.3af = 15.4 Watt per port."
+    "explanation": "Standar PoE generasi pertama (IEEE 802.3af) menyediakan daya maksimal 15,4 Watt pada port PSE (sekitar 12,95 Watt di perangkat penerima PD setelah rugi daya kabel).",
+    "quickTip": "PoE standar (802.3af) menyediakan daya hingga 15,4 Watt per port."
   },
   {
     "id": "s23_q10",
     "number": 10,
     "type": "pg",
-    "stimulus": "Standar PoE+ (IEEE 802.3at) dirancang untuk memberi daya pada perangkat dengan konsumsi listrik lebih besar seperti kamera CCTV PTZ (Pan-Tilt-Zoom).",
+    "stimulus": "Access Point berkinerja tinggi Wi-Fi 6 modern dan kamera PTZ berputar membutuhkan pasokan daya yang lebih tinggi sehingga memerlukan switch PoE+.",
     "question": "Daya maksimum yang mampu disalurkan oleh port switch berstandar PoE+ (IEEE 802.3at) adalah...",
     "options": [
       {
@@ -316,14 +316,14 @@
       }
     ],
     "key": "B",
-    "explanation": "IEEE 802.3at (PoE+) menggandakan kapasitas daya menjadi 30.0W pada PSE (minimal 25.5W di perangkat penerima).",
-    "quickTip": "Standar PoE+ 802.3at = 30 Watt per port."
+    "explanation": "Standar PoE+ (IEEE 802.3at) menyediakan daya hingga 30 Watt pada port switch (sekitar 25,5 Watt pada perangkat PD yang terhubung).",
+    "quickTip": "PoE+ (802.3at) menyalurkan daya hingga 30 Watt per port."
   },
   {
     "id": "s23_q11",
     "number": 11,
     "type": "pg",
-    "stimulus": "Teknisi menggunakan Multimeter Digital untuk mengukur tegangan adaptor power supply switch jaringan yang tertulis 'Output 12V DC'.",
+    "stimulus": "Seorang teknisi ingin mengukur tegangan keluaran dari adaptor power supply router 12V menggunakan Multimeter Digital.",
     "question": "Posisi selektor putar pada Multimeter yang tepat untuk mengukur tegangan catu daya DC tersebut adalah...",
     "options": [
       {
@@ -348,14 +348,14 @@
       }
     ],
     "key": "D",
-    "explanation": "Tegangan adaptor searah diukur pada selektor DCV (V⎓) dengan batas ukur di atas 12V (skala 20V DC) untuk akurasi pembacaan.",
-    "quickTip": "Mengukur adaptor 12V = Selektor DC Voltage (V⎓) skala 20V."
+    "explanation": "Tegangan adaptor DC diukur pada mode DC Voltage (dilambangkan simbol V dengan garis lurus dan putus-putus V⎓) pada skala batas ukur yang lebih tinggi dari 12V (yaitu skala 20V).",
+    "quickTip": "Ukur adaptor power supply pada posisi DC Voltage (V⎓)."
   },
   {
     "id": "s23_q12",
     "number": 12,
     "type": "pg",
-    "stimulus": "Sebelum menyalakan rack server baru, teknisi memeriksa tegangan jala-jala listrik PLN pada stopkontak dinding di ruang server.",
+    "stimulus": "Teknisi memeriksa stopkontak dinding di ruang server untuk memastikan pasokan tegangan listrik bolak-balik dari PLN berada di level 220V yang aman.",
     "question": "Posisi selektor putar Multimeter yang tepat untuk mengukur tegangan listrik PLN 220V adalah...",
     "options": [
       {
@@ -368,7 +368,7 @@
       },
       {
         "id": "C",
-        "text": "V⎓ (DC Voltage 20V)"
+        "text": "V⎓ (DC Voltage skala 20V)"
       },
       {
         "id": "D",
@@ -380,31 +380,31 @@
       }
     ],
     "key": "E",
-    "explanation": "Listrik PLN adalah arus bolak-balik (AC 220V) sehingga wajib diukur pada selektor ACV (V~) dengan batas ukur di atas 220V (misal skala 750V AC).",
-    "quickTip": "Mengukur listrik PLN 220V = Selektor AC Voltage (V~) skala >250V."
+    "explanation": "Tegangan PLN adalah arus bolak-balik (AC), sehingga harus diukur pada posisi AC Voltage (V~) dengan skala selektor di atas 220V (misalnya skala 600V atau 750V AC).",
+    "quickTip": "Ukur listrik PLN stopkontak pada posisi AC Voltage (V~) skala > 250V."
   },
   {
     "id": "s23_q13",
     "number": 13,
     "type": "pg",
-    "stimulus": "Fitur pada Multimeter Digital yang mengeluarkan bunyi nada 'Bip' nyaring ketika kedua jarum probe dihubungkan (hambatan mendekati 0 Ohm) disebut...",
+    "stimulus": "Untuk memastikan apakah seutas kawat tembaga putus di tengah jalan atau tersambung utuh tanpa harus membaca angka hambatan rumit, teknisi menggunakan fitur buzzer suara.",
     "question": "Nama fitur pengujian keterhubungan jalur kabel tersebut adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Capacitance Test"
+        "text": "Capacitance Dielectric Test"
       },
       {
         "id": "B",
-        "text": "Frequency Counter"
+        "text": "Frequency Counter Analysis"
       },
       {
         "id": "C",
-        "text": "Transistor HFE Test"
+        "text": "Transistor HFE Gain Test"
       },
       {
         "id": "D",
-        "text": "Temperature Probe"
+        "text": "Temperature Thermocouple Probe"
       },
       {
         "id": "E",
@@ -412,23 +412,23 @@
       }
     ],
     "key": "E",
-    "explanation": "Continuity test dengan buzzer berbunyi jika hambatan di bawah ~30-50 Ohm, sangat praktis untuk menguji kabel putus atau grounding tanpa melihat layar.",
-    "quickTip": "Uji keterhubungan kabel bersuara 'bip' = Continuity Test (Buzzer)."
+    "explanation": "Mode Continuity (Uji Kontinuitas, bersimbol gelombang suara/dioda) membunyikan nada bip (buzzer) jika hambatan antara kedua probe mendekati 0 Ohm (tersambung utuh).",
+    "quickTip": "Continuity Test membunyikan nada bip (buzzer) jika kawat tersambung utuh."
   },
   {
     "id": "s23_q14",
     "number": 14,
     "type": "pg",
-    "stimulus": "Teknisi ingin memastikan bahwa rangka besi kabinet Rack Server terhubung dengan baik ke sistem pentanahan (Grounding Rod) gedung.",
+    "stimulus": "Setelah memasang rack server data center, teknisi harus memastikan badan logam rak terhubung sempurna ke sistem pembumian gedung untuk membuang listrik statis.",
     "question": "Pengujian cepat menggunakan multimeter digital yang dapat memastikan rangka rak terhubung ke ground adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Mengukur suhu udara ruangan dengan termometer"
+        "text": "Menguji redaman return loss pada kabel patch cord optik"
       },
       {
         "id": "B",
-        "text": "Menghitung jumlah kabel LAN yang terpasang"
+        "text": "Mengukur arus beban pemakaian switch access di lantai dua"
       },
       {
         "id": "C",
@@ -436,22 +436,22 @@
       },
       {
         "id": "D",
-        "text": "Mengukur tegangan baterai CMOS motherboard"
+        "text": "Mengukur tegangan fase ke netral pada stopkontak AC dinding"
       },
       {
         "id": "E",
-        "text": "Menghubungkan probe ke layar monitor LCD"
+        "text": "Memeriksa nilai impedansi karakteristik kabel UTP Cat6"
       }
     ],
     "key": "C",
-    "explanation": "Jika buzzer berbunyi saat probe diletakkan di bodi rak dan terminal grounding, berarti jalur pentanahan tersambung utuh (kontinu).",
-    "quickTip": "Uji sambungan grounding rak server = Mode Continuity Buzzer Multimeter."
+    "explanation": "Uji kontinuitas (buzzer) antara badan rak server dan batang tembaga grounding utama gedung memastikan adanya koneksi resistansi rendah (di bawah 1 Ohm) untuk pembuangan arus petir dan statis.",
+    "quickTip": "Gunakan Continuity Buzzer untuk memverifikasi sambungan grounding fisik rak server."
   },
   {
     "id": "s23_q15",
     "number": 15,
     "type": "pg",
-    "stimulus": "Saat menggunakan multimeter digital jarum probe, colokan probe warna hitam dan warna merah memiliki posisi standar pada soket terminal multimeter.",
+    "stimulus": "Multimeter memiliki beberapa lubang soket terminal colokan probe kabel dengan fungsi proteksi arus yang berbeda.",
     "question": "Soket terminal standar tempat menancapkan probe kabel hitam pada multimeter adalah...",
     "options": [
       {
@@ -460,43 +460,43 @@
       },
       {
         "id": "B",
-        "text": "V/Ω/mA"
+        "text": "V/Ω/mA (Voltage/Resistance/Current)"
       },
       {
         "id": "C",
-        "text": "10A High Current"
+        "text": "10A High Current Fused"
       },
       {
         "id": "D",
-        "text": "Output Audio"
+        "text": "Output Audio Frequency"
       },
       {
         "id": "E",
-        "text": "Ext Probe"
+        "text": "External Transistor Socket"
       }
     ],
     "key": "A",
-    "explanation": "Probe hitam selalu ditancapkan ke terminal COM (Common/Ground), sedangkan probe merah ditancapkan ke terminal V/Ω/Hz.",
-    "quickTip": "Probe hitam selalu di soket COM; probe merah di soket V/Ω."
+    "explanation": "Kabel probe hitam selalu ditancapkan ke terminal port COM (Common), yang merupakan titik referensi negatif/ground pada semua jenis pengukuran multimeter.",
+    "quickTip": "Probe hitam multimeter selalu dicolokkan ke soket COM (Common)."
   },
   {
     "id": "s23_q16",
     "number": 16,
     "type": "pg",
-    "stimulus": "Alat ukur sertifikasi kabel LAN profesional (seperti Fluke DSX-8000) mampu mengukur parameter Insertion Loss dan NEXT hingga frekuensi 2 GHz.",
+    "stimulus": "Kontraktor jaringan diwajibkan menyerahkan laporan hasil uji komprehensif (mencakup NEXT, Return Loss, Insertion Loss, Attenuation) menggunakan alat sekelas Fluke Networks DSX-8000.",
     "question": "Tingkatan pengujian kabel jaringan tembaga yang paling tinggi dan diakui secara legal untuk garansi pabrik kabel 25 tahun adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Cable Qualification (hanya uji ping paket)"
+        "text": "Cable Qualification (hanya uji transmisi bit error)"
       },
       {
         "id": "B",
-        "text": "Physical Weighting timbangan kabel"
+        "text": "Continuity Beep Testing"
       },
       {
         "id": "C",
-        "text": "Cable Verification (hanya cek lampu LED)"
+        "text": "Cable Verification (hanya cek lampu LED pin 1-8)"
       },
       {
         "id": "D",
@@ -504,23 +504,23 @@
       },
       {
         "id": "E",
-        "text": "Visual Inspection mata telanjang"
+        "text": "Loopback Interface Echo Testing"
       }
     ],
     "key": "D",
-    "explanation": "Tiga tingkatan uji kabel tembaga: 1. Verification (LAN tester LED), 2. Qualification (throughput tester), 3. Certification (Fluke CableAnalyzer standar TIA/ISO).",
-    "quickTip": "Tingkatan uji tertinggi berstandar industri = Cable Certification."
+    "explanation": "Sertifikasi Kabel (Cable Certification) menguji parameter fisik dan frekuensi transmisi kabel sesuai standar ketat TIA-568/ISO 11801, mutlak disyaratkan untuk klaim garansi vendor sistem perkabelan.",
+    "quickTip": "Uji paling komprehensif berstandar garansi pabrik adalah Cable Certification."
   },
   {
     "id": "s23_q17",
     "number": 17,
     "type": "pg",
-    "stimulus": "Pada pengetesan kontinuitas kabel UTP, jika kabel terputus di tengah jalan, nilai resistansi (Ohm) yang terbaca pada multimeter digital adalah...",
-    "question": "Indikasi pembacaan layar multimeter saat jalur konduktor terbuka/putus adalah...",
+    "stimulus": "Saat melakukan pengukuran nilai resistansi kawat pada kabel yang putus menggunakan multimeter digital pada mode Ohm (Ω).",
+    "question": "Indikasi pembacaan layar multimeter saat jalur konduktor terbuka/putus (hambatan tak terhingga) adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Nilai minus (-10 Ohm)"
+        "text": "Nilai minus (-10.0 Ohm)"
       },
       {
         "id": "B",
@@ -528,7 +528,7 @@
       },
       {
         "id": "C",
-        "text": "50.0 Ohm"
+        "text": "50.0 Ohm impedansi"
       },
       {
         "id": "D",
@@ -536,18 +536,18 @@
       },
       {
         "id": "E",
-        "text": "100.0 Ohm"
+        "text": "100.0 Ohm impedansi"
       }
     ],
     "key": "D",
-    "explanation": "'OL' pada multimeter berarti hambatan tak terhingga (open loop), menandakan sirkuit terbuka (kawat putus).",
-    "quickTip": "Kabel putus terbaca 'OL' (Open Loop / Tak Terhingga) pada multimeter."
+    "explanation": "Layar multimeter menampilkan 'OL' (Open Loop atau Over Limit) yang menandakan hambatan tak terhingga (jalur rangkaian terbuka atau kawat terputus total).",
+    "quickTip": "Tampilan 'OL' pada mode Ohm multimeter menandakan jalur terbuka / putus (open circuit)."
   },
   {
     "id": "s23_q18",
     "number": 18,
     "type": "pg",
-    "stimulus": "Dalam pengoperasian kabel LAN, PoE dapat disalurkan melalui mode Alternative A atau Alternative B pada kabel UTP 4-pair.",
+    "stimulus": "Pada transmisi Ethernet 10/100 Mbps (Fast Ethernet), hanya pin 1, 2, 3, dan 6 yang digunakan untuk data, sehingga 4 pin lainnya dapat dimanfaatkan oleh PoE.",
     "question": "Pada mode PoE Alternative B (Midspan), pasangan pin kabel yang digunakan untuk menyalurkan arus listrik DC adalah...",
     "options": [
       {
@@ -572,27 +572,27 @@
       }
     ],
     "key": "C",
-    "explanation": "PoE Mode B (Alternative B) menggunakan pasangan kawat kosong (spare pairs) pada Fast Ethernet, yaitu pin 4, 5 (positif) dan pin 7, 8 (negatif).",
-    "quickTip": "PoE Mode B menyalurkan daya pada pin 4, 5 dan pin 7, 8."
+    "explanation": "Mode PoE Alternative B menggunakan kawat pasangan cadangan (spare pairs): pin 4 dan 5 untuk kutub positif (+), serta pin 7 dan 8 untuk kutub negatif (-).",
+    "quickTip": "PoE Mode B memanfaatkan pin 4, 5 (+) dan pin 7, 8 (-) untuk daya DC."
   },
   {
     "id": "s23_q19",
     "number": 19,
     "type": "pg",
-    "stimulus": "Perangkat injektor daya PoE eksternal yang dipasang di antara switch non-PoE dan perangkat Access Point disebut...",
-    "question": "Nama perangkat penyuntik daya listrik kabel LAN tersebut adalah...",
+    "stimulus": "Sebuah Access Point PoE harus dipasang di plafon, tetapi switch yang ada di ruang server adalah switch biasa non-PoE.",
+    "question": "Nama perangkat penyuntik daya listrik tambahan yang dipasang di antara switch non-PoE dan kabel LAN adalah...",
     "options": [
       {
         "id": "A",
-        "text": "PoE Extender"
+        "text": "PoE Extender Repeater"
       },
       {
         "id": "B",
-        "text": "Keystone Jack"
+        "text": "Keystone Jack Modular"
       },
       {
         "id": "C",
-        "text": "Crimping Tool"
+        "text": "Crimping Tool RJ-45"
       },
       {
         "id": "D",
@@ -604,19 +604,19 @@
       }
     ],
     "key": "D",
-    "explanation": "PoE Injector menerima data dari switch non-PoE dan menyuntikkan daya listrik DC ke kabel LAN menuju Access Point atau IP Phone.",
-    "quickTip": "Penyuntik daya listrik ke kabel LAN = PoE Injector."
+    "explanation": "PoE Injector menyuntikkan daya listrik DC dari adaptor ke kabel UTP yang berasal dari switch non-PoE agar perangkat PD (seperti Access Point) dapat menyala.",
+    "quickTip": "PoE Injector menyuntikkan daya listrik ke kabel LAN dari switch non-PoE."
   },
   {
     "id": "s23_q20",
     "number": 20,
     "type": "pg",
-    "stimulus": "Perangkat yang dipasang di sisi penerima untuk memisahkan kembali antara sinyal data LAN dan kabel daya DC untuk menyalakan perangkat non-PoE disebut...",
-    "question": "Nama perangkat pemisah daya tersebut adalah...",
+    "stimulus": "Sebuah kamera CCTV lama membutuhkan daya 12V DC melalui soket jack bundar DC dan kabel LAN data RJ-45 biasa, namun switch di ruang server sudah berstandar PoE.",
+    "question": "Nama perangkat pemisah daya yang memecah kabel PoE menjadi kabel data RJ-45 dan colokan daya DC di ujung perangkat adalah...",
     "options": [
       {
         "id": "A",
-        "text": "Patch Panel"
+        "text": "Patch Panel Cat6"
       },
       {
         "id": "B",
@@ -624,11 +624,11 @@
       },
       {
         "id": "C",
-        "text": "LAN Tester"
+        "text": "LAN Tester Wiremap"
       },
       {
         "id": "D",
-        "text": "PoE Switch"
+        "text": "PoE Managed Switch"
       },
       {
         "id": "E",
@@ -636,126 +636,89 @@
       }
     ],
     "key": "B",
-    "explanation": "PoE Splitter memisahkan kabel PoE menjadi satu colokan kabel data RJ-45 dan satu colokan power jack DC untuk perangkat yang belum mendukung PoE bawaan.",
-    "quickTip": "Pemisah daya dan data di sisi perangkat = PoE Splitter."
+    "explanation": "PoE Splitter menerima satu kabel PoE dari switch lalu memisahkannya kembali di ujung menjadi kabel data RJ-45 dan kabel daya DC (misal jack 12V) untuk perangkat non-PoE.",
+    "quickTip": "PoE Splitter memisahkan kabel PoE menjadi konektor data LAN dan colokan daya DC."
   },
   {
     "id": "s23_q21",
     "number": 21,
     "type": "pgk_mcma",
-    "stimulus": "Jenis-jenis kesalahan fisik yang dapat dideteksi oleh Wiremap Cable Tester pada kabel twisted pair.",
-    "question": "Manakah yang TERMASUK jenis kegagalan terminasi kabel yang dapat diidentifikasi? (Pilihlah TIGA jawaban yang benar!)",
+    "stimulus": "Karakteristik jenis kesalahan pengkabelan tembaga twisted pair (UTP/STP).",
+    "question": "Manakah pasangan jenis kesalahan kabel dan definisinya yang BENAR? (Pilihlah DUA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "Crossed / Reversed Pair (urutan kawat terbalik/tertukar antar-pin)"
+        "text": "Split Pair = Kabel terbakar dan meleleh menjadi cairan tembaga"
       },
       {
         "id": "B",
-        "text": "Radio Frequency Modulation Error"
+        "text": "Open Circuit = Kawat dialiri daya listrik melebihi 10.000 Volt"
       },
       {
         "id": "C",
-        "text": "Laser Beam Attenuation Loss"
+        "text": "Reversed Pair = Kabel ditarik melebihi batas kecepatan cahaya"
       },
       {
         "id": "D",
-        "text": "Short Circuit (kawat konduktor saling bersentuhan korslet)"
+        "text": "Short Circuit = Kondisi dua atau lebih konduktor kawat bersentuhan fisik memicu korsleting"
       },
       {
         "id": "E",
-        "text": "Open Circuit (salah satu kawat terputus)"
+        "text": "Open Circuit = Kondisi konduktor kawat terputus di tengah jalan sehingga arus listrik tidak mengalir"
       }
     ],
     "key": [
-      "A",
       "D",
       "E"
     ],
-    "explanation": "Wiremap mendeteksi Open, Short, Crossed, Reversed, dan Split pair pada kabel tembaga. Laser dan RF adalah domain optik dan radio.",
-    "quickTip": "Kegagalan kabel tembaga: Open, Short, Reversed, Crossed, dan Split Pair."
+    "explanation": "Open Circuit adalah kawat putus (discontinuity), sedangkan Short Circuit adalah kawat korslet (bersentuhan). Split pair adalah pasangan lilitan terbelah, dan reversed pair adalah polaritas pin terbalik.",
+    "quickTip": "Open = Kawat putus; Short = Kawat korsleting bersentuhan."
   },
   {
     "id": "s23_q22",
     "number": 22,
-    "type": "pgk_mcma",
-    "stimulus": "Penggunaan Multimeter Digital dalam instalasi dan perawatan perangkat jaringan.",
-    "question": "Manakah pengukuran yang DAPAT DILAKUKAN menggunakan Multimeter Digital? (Pilihlah TIGA jawaban yang benar!)",
-    "options": [
-      {
-        "id": "A",
-        "text": "Membaca alamat IP address laptop siswa secara otomatis"
-      },
-      {
-        "id": "B",
-        "text": "Mengukur tegangan listrik PLN AC 220V pada stopkontak ruang server (skala V~)"
-      },
-      {
-        "id": "C",
-        "text": "Menguji kontinuitas keterhubungan kabel dan jalur grounding (fitur Buzzer Beep)"
-      },
-      {
-        "id": "D",
-        "text": "Mengukur tegangan DC power supply adaptor router (skala V⎓)"
-      },
-      {
-        "id": "E",
-        "text": "Mengukur kekuatan sinyal cahaya laser serat optik dalam satuan dBm"
-      }
-    ],
-    "key": [
-      "B",
-      "C",
-      "D"
-    ],
-    "explanation": "Multimeter mengukur besaran listrik (Tegangan AC/DC, Hambatan Ohm, Kontinuitas, Arus). Cahaya laser diukur dengan OPM, bukan multimeter.",
-    "quickTip": "Multimeter mengukur tegangan listrik AC/DC, hambatan, dan kontinuitas jalur."
-  },
-  {
-    "id": "s23_q23",
-    "number": 23,
     "type": "pgk_mcma",
     "stimulus": "Teknologi Power over Ethernet (PoE) pada jaringan komputer.",
     "question": "Manakah pernyataan yang BENAR mengenai teknologi PoE? (Pilihlah DUA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "Kabel PoE dialiri arus listrik tegangan tinggi 10.000 Volt yang mematikan"
+        "text": "PoE hanya dapat aktif jika kabel LAN memiliki panjang minimal 100 meter"
       },
       {
         "id": "B",
-        "text": "PoE memungkinkan pengiriman daya listrik DC dan data secara bersamaan melalui satu kabel UTP"
+        "text": "Standar IEEE 802.3at (PoE+) mampu menyalurkan daya hingga 30 Watt per port"
       },
       {
         "id": "C",
-        "text": "PoE hanya dapat digunakan pada kabel serat optik kaca"
+        "text": "PoE menyalurkan arus bolak-balik (AC) berfrekuensi radio 2.4 GHz"
       },
       {
         "id": "D",
-        "text": "Semua laptop di dunia wajib dicas menggunakan kabel PoE LAN"
+        "text": "PoE memungkinkan pengiriman daya listrik DC dan data secara bersamaan melalui satu kabel UTP"
       },
       {
         "id": "E",
-        "text": "Standar IEEE 802.3at (PoE+) mampu menyalurkan daya hingga 30 Watt per port"
+        "text": "PoE hanya dapat digunakan pada kabel serat optik silika"
       }
     ],
     "key": [
       "B",
-      "E"
+      "D"
     ],
     "explanation": "PoE mengalirkan daya DC (biasanya ~48V, aman) bersama data di kabel UTP tembaga, dengan daya hingga 30W pada PoE+ (802.3at).",
     "quickTip": "PoE menyalurkan daya listrik DC dan data via kabel UTP (PoE+ hingga 30W)."
   },
   {
-    "id": "s23_q24",
-    "number": 24,
+    "id": "s23_q23",
+    "number": 23,
     "type": "pgk_mcma",
     "stimulus": "Alat bantu kerja teknisi jaringan tembaga profesional di lapangan.",
     "question": "Manakah pasangan alat kerja tembaga dan fungsinya yang BENAR? (Pilihlah DUA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "TDR (Time Domain Reflectometer) berfungsi mendeteksi jarak lokasi kabel yang putus"
+        "text": "Fusion Splicer berfungsi menjepit konektor RJ-45"
       },
       {
         "id": "B",
@@ -763,34 +726,34 @@
       },
       {
         "id": "C",
-        "text": "Crimping Tool berfungsi mengukur tegangan listrik PLN 220V"
+        "text": "LAN Tester LED berfungsi menyambung serat kaca dengan api listrik"
       },
       {
         "id": "D",
-        "text": "Fusion Splicer berfungsi menjepit konektor RJ-45"
+        "text": "Crimping Tool berfungsi mengukur tegangan listrik PLN 220V"
       },
       {
         "id": "E",
-        "text": "LAN Tester LED berfungsi menyambung serat kaca dengan api listrik"
+        "text": "TDR (Time Domain Reflectometer) berfungsi mendeteksi jarak lokasi kabel yang putus"
       }
     ],
     "key": [
-      "A",
-      "B"
+      "B",
+      "E"
     ],
     "explanation": "Tone Generator melacak kabel via nada audio, dan TDR mengukur jarak titik kabel putus. Fusion splicer adalah alat fiber optik, dan crimping tool adalah alat mekanik jepit RJ-45.",
     "quickTip": "Tone Generator melacak kabel; TDR menghitung jarak titik putus."
   },
   {
-    "id": "s23_q25",
-    "number": 25,
+    "id": "s23_q24",
+    "number": 24,
     "type": "pgk_mcma",
     "stimulus": "Penyebab kegagalan uji kelayakan kabel LAN pada instalasi gedung.",
     "question": "Manakah kesalahan pengerjaan yang DAPAT MENYEBABKAN kabel LAN gagal uji tester? (Pilihlah TIGA jawaban yang benar!)",
     "options": [
       {
         "id": "A",
-        "text": "Kabel terjepit pintu besi atau tertusuk paku hingga konduktor tembaga di dalamnya putus"
+        "text": "Urutan warna kawat tertukar antara pin 1 dan pin 2 saat terminasi"
       },
       {
         "id": "B",
@@ -798,15 +761,15 @@
       },
       {
         "id": "C",
-        "text": "Menjaga batas panjang bentangan kabel di bawah 90 meter"
+        "text": "Mengikuti standar warna TIA/EIA 568B di kedua ujung kabel"
       },
       {
         "id": "D",
-        "text": "Urutan warna kawat tertukar antara pin 1 dan pin 2 saat terminasi"
+        "text": "Kabel terjepit pintu besi atau tertusuk paku hingga konduktor tembaga di dalamnya putus"
       },
       {
         "id": "E",
-        "text": "Mengikuti standar warna TIA/EIA 568B di kedua ujung kabel"
+        "text": "Menjaga batas panjang bentangan kabel di bawah 90 meter"
       }
     ],
     "key": [
@@ -816,6 +779,42 @@
     ],
     "explanation": "Crimping longgar, urutan pin tertukar, dan kabel terjepit putus adalah penyebab utama kegagalan uji LAN tester.",
     "quickTip": "Penyebab gagal uji: Crimping tidak tembus, pin tertukar, atau kawat putus terjepit."
+  },
+  {
+    "id": "s23_q25",
+    "number": 25,
+    "type": "pgk_mcma",
+    "stimulus": "Pengoperasian Multimeter Digital untuk pengukuran parameter listrik.",
+    "question": "Manakah prosedur pengukuran multimeter digital yang BENAR dan aman? (Pilihlah TIGA jawaban yang benar!)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uji kontinuitas (Buzzer) hanya boleh dilakukan pada sirkuit kabel yang TIDAK dialiri daya listrik (bebas tegangan)"
+      },
+      {
+        "id": "B",
+        "text": "Probe hitam selalu dihubungkan ke soket COM (Common)"
+      },
+      {
+        "id": "C",
+        "text": "Mengukur stopkontak PLN 220V pada mode pengukuran Ohm resistansi"
+      },
+      {
+        "id": "D",
+        "text": "Untuk mengukur stopkontak listrik PLN 220V, selektor wajib diputar ke AC Voltage (V~) pada skala > 250V"
+      },
+      {
+        "id": "E",
+        "text": "Mengukur arus ampere 10A dengan mencolokkan probe ke soket audio"
+      }
+    ],
+    "key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Prosedur keselamatan: Probe hitam di COM, ukur AC pada posisi V~ skala tinggi, dan uji kontinuitas/resistansi wajib pada sirkuit mati tanpa tegangan agar multimeter tidak rusak.",
+    "quickTip": "Ukur AC pada V~ skala tinggi; uji kontinuitas wajib pada sirkuit bebas tegangan."
   },
   {
     "id": "s23_q26",
@@ -940,11 +939,11 @@
       },
       {
         "id": "st3",
-        "text": "Rack server data center tidak memerlukan kabel grounding sama sekali jika kabel LAN berwarna biru.",
+        "text": "Rack server data center tidak memerlukan sambungan grounding jika seluruh switch menggunakan catu daya ganda (redundant power supply).",
         "correct": "S"
       }
     ],
-    "explanation": "Seluruh rack server wajib terhubung ke grounding rod gedung demi keselamatan nyawa teknisi dan perlindungan dari lonjakan arus liar.",
+    "explanation": "Seluruh rack server wajib terhubung ke busbar grounding gedung terlepas dari jenis power supply demi keselamatan teknisi dan pembuangan muatan statis.",
     "quickTip": "Grounding rack server wajib terpasang sempurna untuk keselamatan dan proteksi induksi."
   }
 ]

@@ -8,11 +8,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Membiarkan barang tersebut hingga bertambah banyak"
+        "text": "Menempelkan poster slogan budaya kerja 5R di dinding pintu gudang"
       },
       {
         "id": "B",
-        "text": "Menyembunyikan sampah di bawah meja rak switch baru"
+        "text": "Menata rapi letak switch baru pada rak penyimpanan berdasarkan nomor seri"
       },
       {
         "id": "C",
@@ -20,11 +20,11 @@
       },
       {
         "id": "D",
-        "text": "Menumpuk semua barang ke dalam lemari terkunci"
+        "text": "Membuat kartu kendali inventaris dan jadwal audit kebersihan berkala"
       },
       {
         "id": "E",
-        "text": "Mengecat kardus yang rusak agar terlihat menarik"
+        "text": "Membersihkan debu pada kardus kemasan switch menggunakan kuas pembersih"
       }
     ],
     "key": "C",
@@ -40,19 +40,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Mencabut seluruh kabel saat server sedang melayani transaksi"
+        "text": "Mengelap seluruh permukaan rak server dari debu menggunakan kain mikrofiber"
       },
       {
         "id": "B",
-        "text": "Memotong semua kabel yang melintang secara paksa"
+        "text": "Memilah kabel patch cord yang putus untuk dipindahkan ke tempat pembuangan limbah"
       },
       {
         "id": "C",
-        "text": "Menutup pintu rak server rapat-rapat agar tidak terlihat"
+        "text": "Mengesahkan formulir standar audit kerapian tata kelola kabel bulanan"
       },
       {
         "id": "D",
-        "text": "Mengikat kabel menggunakan kawat tembaga terbuka tanpa pelindung"
+        "text": "Mengadakan evaluasi kedisiplinan kerja tim teknisi pemeliharaan jaringan"
       },
       {
         "id": "E",
@@ -72,11 +72,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Membiarkan meja kotor karena nanti akan kotor lagi"
+        "text": "Menyusun form checklist pemeriksaan kebersihan meja kerja sebelum praktikum"
       },
       {
         "id": "B",
-        "text": "Menyemprotkan air bertekanan tinggi ke arah perangkat elektronik"
+        "text": "Membiasakan teknisi menandatangani komitmen kerja bersih sebelum bekerja"
       },
       {
         "id": "C",
@@ -84,11 +84,11 @@
       },
       {
         "id": "D",
-        "text": "Meniup debu ke arah mesin fusion splicer yang terbuka"
+        "text": "Membuang sisa kupasan serat optik yang tidak terpakai ke wadah limbah khusus"
       },
       {
         "id": "E",
-        "text": "Mengelap meja menggunakan kain basah berminyak pelumas"
+        "text": "Menyusun alat pemotong cleaver dan alkohol dispenser pada baki bertanda nama"
       }
     ],
     "key": "C",
@@ -104,7 +104,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Rusak"
+        "text": "Ringkas (Seiri)"
       },
       {
         "id": "B",
@@ -112,15 +112,15 @@
       },
       {
         "id": "C",
-        "text": "Rombak"
+        "text": "Rajin (Shitsuke)"
       },
       {
         "id": "D",
-        "text": "Ragu-ragu"
+        "text": "Resik (Seiso)"
       },
       {
         "id": "E",
-        "text": "Revisi"
+        "text": "Rapi (Seiton)"
       }
     ],
     "key": "B",
@@ -136,7 +136,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Santai"
+        "text": "Ringkas (Seiri)"
       },
       {
         "id": "B",
@@ -144,15 +144,15 @@
       },
       {
         "id": "C",
-        "text": "Sementara"
+        "text": "Resik (Seiso)"
       },
       {
         "id": "D",
-        "text": "Sekilas"
+        "text": "Rawat (Seiketsu)"
       },
       {
         "id": "E",
-        "text": "Spontan"
+        "text": "Rapi (Seiton)"
       }
     ],
     "key": "B",
@@ -168,19 +168,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Menyuruh pelanggan berganti ke provider internet lain"
+        "text": "Menyarankan pelanggan beralih ke penyedia jasa internet lain jika tidak sabar menunggu proses perbaikan"
       },
       {
         "id": "B",
-        "text": "Membalas membentak pelanggan dengan nada tinggi"
+        "text": "Langsung menjanjikan ganti rugi uang tunai tanpa melakukan verifikasi riwayat tiket gangguan"
       },
       {
         "id": "C",
-        "text": "Memutus sambungan telepon secara sepihak"
+        "text": "Memotong pembicaraan pelanggan untuk menjelaskan rumitnya konfigurasi BGP router backbone ISP"
       },
       {
         "id": "D",
-        "text": "Menyalahkan cuaca dan pihak ketiga tanpa memeriksa sistem"
+        "text": "Menyalahkan vendor pihak ketiga dan operator kabel bawah laut secara terbuka di depan pelanggan"
       },
       {
         "id": "E",
@@ -200,19 +200,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Menyembunyikan informasi progres harian dari ketua tim"
+        "text": "Menyerahkan seluruh tanggung jawab kendala kepada anggota tim termuda"
       },
       {
         "id": "B",
-        "text": "Bekerja sendiri-sendiri tanpa mempedulikan anggota tim lain"
+        "text": "Bekerja secara terisolasi tanpa membagikan informasi perkembangan harian"
       },
       {
         "id": "C",
-        "text": "Mengabaikan jadwal briefing pagi sebelum memulai pekerjaan"
+        "text": "Membatasi komunikasi hanya ketika terjadi eskalasi komplain dari pihak eksternal"
       },
       {
         "id": "D",
-        "text": "Saling menyalahkan ketika terjadi kendala di lapangan"
+        "text": "Mengandalkan intuisi individu tanpa mengikuti rancangan teknis bersama"
       },
       {
         "id": "E",
@@ -232,11 +232,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Tebak-tebakan Acak"
+        "text": "Single Point of Failure (SPoF) Analysis"
       },
       {
         "id": "B",
-        "text": "Peramalan Cuaca Ekstrem"
+        "text": "Network Performance Benchmark"
       },
       {
         "id": "C",
@@ -244,11 +244,11 @@
       },
       {
         "id": "D",
-        "text": "Trial and Error Spontan"
+        "text": "Failure Mode and Effects Analysis (FMEA)"
       },
       {
         "id": "E",
-        "text": "Survei Minat Pelanggan"
+        "text": "Acceptance Test Procedure (ATP)"
       }
     ],
     "key": "C",
@@ -264,15 +264,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Mendatangi lokasi secara acak tanpa melihat peta"
+        "text": "Mengunjungi lokasi terjauh terlebih dahulu pada saat jam sibuk lalu lintas pagi hari"
       },
       {
         "id": "B",
-        "text": "Menghabiskan waktu setengah hari di kantor untuk mengobrol santai"
+        "text": "Menyelesaikan tugas termudah terlebih dahulu tanpa mempertimbangkan urgensi SLA pelanggan"
       },
       {
         "id": "C",
-        "text": "Menunda semua tugas hingga sore hari menjelang jam pulang"
+        "text": "Mengikuti urutan nomor tiket acak tanpa memetakan rute lokasi di aplikasi navigasi"
       },
       {
         "id": "D",
@@ -280,7 +280,7 @@
       },
       {
         "id": "E",
-        "text": "Memilih lokasi yang paling jauh terlebih dahulu saat jam macet"
+        "text": "Menunggu instruksi tambahan dari kantor sebelum berpindah ke lokasi berikutnya"
       }
     ],
     "key": "D",
@@ -296,11 +296,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Memasang keylogger untuk mencuri password pribadi rekan kantor"
+        "text": "Menyimpan rekaman riwayat browsing karyawan di flashdisk pribadi tanpa enkripsi"
       },
       {
         "id": "B",
-        "text": "Menyebarkan rekaman riwayat browsing rekan kerja ke grup WhatsApp"
+        "text": "Membagikan log trafik web karyawan kepada rekan kerja untuk bahan diskusi informal"
       },
       {
         "id": "C",
@@ -308,11 +308,11 @@
       },
       {
         "id": "D",
-        "text": "Mengunduh dan menjual data perusahaan ke forum publik"
+        "text": "Menghapus seluruh log server tanpa cadangan agar tidak diperiksa auditor keamanan"
       },
       {
         "id": "E",
-        "text": "Memeras rekan kerja dengan rekaman data yang ditemukan"
+        "text": "Memanfaatkan riwayat pencarian pengguna untuk kepentingan riset pemasaran produk pribadi"
       }
     ],
     "key": "C",
@@ -332,19 +332,19 @@
       },
       {
         "id": "B",
-        "text": "Nota kuitansi pembelian makanan ringan"
+        "text": "Purchase Order (PO) pengadaan perangkat keras cadangan"
       },
       {
         "id": "C",
-        "text": "Katalog belanja daring pribadi"
+        "text": "Formulir permohonan cuti tahunan personel NOC"
       },
       {
         "id": "D",
-        "text": "Daftar putar lagu favorit staf piket"
+        "text": "Acceptance Test Procedure (ATP) hasil instalasi router cabang baru"
       },
       {
         "id": "E",
-        "text": "Jadwal pertandingan sepak bola akhir pekan"
+        "text": "Dokumen tagihan invoice pemakaian daya listrik data center"
       }
     ],
     "key": "A",
@@ -360,19 +360,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Memecat seketika tanpa memberikan kesempatan belajar"
+        "text": "Membebankan biaya penggantian kabel konektor sepenuhnya kepada pemotongan gaji junior"
       },
       {
         "id": "B",
-        "text": "Membiarkan kesalahan tersebut agar proyek mengalami kegagalan"
+        "text": "Membiarkan kesalahan tersebut tanpa koreksi agar junior menyadari sendiri kelak"
       },
       {
         "id": "C",
-        "text": "Menyuruh junior mengganti kabel dengan memotong gajinya 100%"
+        "text": "Melaporkan kelalaian junior ke grup publik perusahaan agar menjadi contoh sanksi terbuka"
       },
       {
         "id": "D",
-        "text": "Memaki-maki junior di depan pelanggan dengan kata kasar"
+        "text": "Melarang junior menyentuh alat crimping selama masa kontrak kerja berlangsung"
       },
       {
         "id": "E",
@@ -392,19 +392,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Membuat pekerjaan menjadi sangat lambat dan berbelit-belit"
+        "text": "Menghapuskan keharusan dokumentasi dan pengawasan dalam setiap pekerjaan teknis"
       },
       {
         "id": "B",
-        "text": "Membuat teknisi tidak perlu berpikir lagi sama sekali"
+        "text": "Menjamin pekerjaan selesai instan tanpa memerlukan kehati-hatian teknis"
       },
       {
         "id": "C",
-        "text": "Menambah biaya operasional tanpa ada manfaat nyata"
+        "text": "Membebaskan personel teknis dari tanggung jawab kepatuhan aturan keselamatan kerja"
       },
       {
         "id": "D",
-        "text": "Menghilangkan kreativitas positif siswa dalam belajar"
+        "text": "Membatasi akses teknisi junior agar tidak dapat mempelajari konfigurasi sistem mandiri"
       },
       {
         "id": "E",
@@ -424,19 +424,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Menyalahkan rekan kerja lain atas rusaknya alat tersebut"
+        "text": "Menyesuaikan hasil pencatatan proyek resmi agar cocok dengan pembacaan alat yang melenceng"
       },
       {
         "id": "B",
-        "text": "Menyimpan kembali alat rusak ke lemari tanpa memberitahu siapapun"
+        "text": "Tetap menggunakan alat tersebut dengan memperkirakan offset angka secara manual di lapangan"
       },
       {
         "id": "C",
-        "text": "Menggunakan alat tersebut untuk pengujian akhir proyek resmi"
+        "text": "Menyimpan alat kembali ke lemari tanpa catatan agar digunakan oleh giliran shift berikutnya"
       },
       {
         "id": "D",
-        "text": "Membuang alat ukur mahal tersebut ke tempat sampah sembunyi-sembunyi"
+        "text": "Membongkar sensor optik internal secara mandiri tanpa sertifikasi dari pihak pabrikan"
       },
       {
         "id": "E",
@@ -456,11 +456,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Menolak menjelaskan fungsi teknis perangkat kepada manajemen"
+        "text": "Menolak mendiskusikan biaya karena menganggap manajemen non-IT tidak memahami teknologi"
       },
       {
         "id": "B",
-        "text": "Mengancam bahwa perusahaan akan bangkrut besok jika tidak disetujui"
+        "text": "Menyerahkan berkas log konfigurasi CLI setebal ratusan halaman secara mentah"
       },
       {
         "id": "C",
@@ -468,11 +468,11 @@
       },
       {
         "id": "D",
-        "text": "Menggunakan istilah teknis bahasa asing rumit agar manajemen bingung"
+        "text": "Menggunakan istilah teknis telekomunikasi bahasa asing tanpa analogi sederhana"
       },
       {
         "id": "E",
-        "text": "Menyerahkan dokumen tebal 1000 halaman tanpa ringkasan eksekutif"
+        "text": "Menekankan spesifikasi teknis chipset internal switch tanpa mengaitkannya dengan kestabilan layanan kantor"
       }
     ],
     "key": "C",
@@ -488,15 +488,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Teknisi lain mendapatkan bonus berlibur ke luar negeri"
+        "text": "Mengurangi volume pencatatan log tiket pada sistem Helpdesk pusat"
       },
       {
         "id": "B",
-        "text": "Perusahaan mendapatkan pujian dari pelanggan"
+        "text": "Memberikan peluang penghematan anggaran lembur bagi perusahaan penyedia jasa"
       },
       {
         "id": "C",
-        "text": "Pelanggan merasa senang karena tidak diganggu"
+        "text": "Memperpanjang masa sewa perangkat uji yang belum sempat digunakan di lapangan"
       },
       {
         "id": "D",
@@ -504,7 +504,7 @@
       },
       {
         "id": "E",
-        "text": "Biaya operasional perusahaan langsung menurun drastis"
+        "text": "Meningkatkan kepuasan klien karena memiliki waktu lebih lama untuk menyiapkan ruangan"
       }
     ],
     "key": "D",
@@ -524,19 +524,19 @@
       },
       {
         "id": "B",
-        "text": "Langsung memotong kabel dan memasang semaunya sendiri"
+        "text": "Mengubah jalur kabel secara sepihak mengikuti perkiraan sendiri tanpa izin pimpinan"
       },
       {
         "id": "C",
-        "text": "Meninggalkan lokasi pekerjaan dan pulang ke rumah tanpa izin"
+        "text": "Membatalkan seluruh kontrak instalasi gedung secara sepihak di lokasi pelanggan"
       },
       {
         "id": "D",
-        "text": "Menebak-nebak ukuran kabel berdasarkan perasaan pribadi"
+        "text": "Memasang kabel melewati jalur darurat yang dilarang oleh pengelola gedung"
       },
       {
         "id": "E",
-        "text": "Menyuruh kuli bangunan setempat yang memutuskan spesifikasinya"
+        "text": "Menunda seluruh pekerjaan instalasi hingga waktu yang tidak ditentukan tanpa koordinasi"
       }
     ],
     "key": "A",
@@ -556,19 +556,19 @@
       },
       {
         "id": "B",
-        "text": "Menolak memberikan penjelasan spesifikasi teknis"
+        "text": "Menyembunyikan rincian biaya pemeliharaan berkala agar penawaran awal terlihat sangat murah"
       },
       {
         "id": "C",
-        "text": "Memaksa sekolah membeli perangkat termahal yang tidak dibutuhkan demi komisi pribadi"
+        "text": "Merekomendasikan perangkat jaringan berspesifikasi paling mahal demi meningkatkan komisi penjualan"
       },
       {
         "id": "D",
-        "text": "Menyalin rancangan sekolah lain tanpa memikirkan denah fisik lokal"
+        "text": "Menyarankan penggunaan perangkat lunak bajakan untuk menghemat biaya lisensi sekolah"
       },
       {
         "id": "E",
-        "text": "Menyarankan perangkat rusak agar sering dipanggil servis kembali"
+        "text": "Mengarahkan sekolah membeli perangkat rekondisi tanpa jaminan garansi resmi demi memotong anggaran"
       }
     ],
     "key": "A",
@@ -584,7 +584,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Pemborosan waktu yang tidak ada gunanya"
+        "text": "Prosedur formalitas administrasi yang tidak berpengaruh pada kepuasan pelanggan"
       },
       {
         "id": "B",
@@ -592,15 +592,15 @@
       },
       {
         "id": "C",
-        "text": "Tanda bahwa teknisi kekurangan pekerjaan di kantor"
+        "text": "Tanggung jawab pihak petugas kebersihan gedung klien tanpa melibatkan teknisi"
       },
       {
         "id": "D",
-        "text": "Pekerjaan tambahan yang boleh diabaikan begitu saja"
+        "text": "Pelanggaran batas waktu kerja teknisi karena menambah durasi di lokasi klien"
       },
       {
         "id": "E",
-        "text": "Hukuman karena teknisi bekerja terlalu lambat"
+        "text": "Bentuk tindakan mitigasi kegagalan konfigurasi jaringan logical"
       }
     ],
     "key": "B",
@@ -616,19 +616,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Mengaktifkan otentikasi dua faktor (2FA) pada portal administrasi"
+        "text": "Mengaktifkan otentikasi dua faktor (2FA) berbasis token hardware pada server"
       },
       {
         "id": "B",
-        "text": "Menggunakan kata sandi kombinasi huruf besar, kecil, angka, dan simbol"
+        "text": "Menyimpan berkas kata sandi dalam brankas Password Manager terenkripsi AES-256"
       },
       {
         "id": "C",
-        "text": "Mengganti password berkala sesuai kebijakan keamanan"
+        "text": "Menerapkan kebijakan rotasi kata sandi berkala setiap 90 hari sesuai standar audit"
       },
       {
         "id": "D",
-        "text": "Membatasi hak akses dokumen konfigurasi hanya untuk tim berwenang"
+        "text": "Membatasi hak akses direktori konfigurasi hanya untuk grup akun administrator"
       },
       {
         "id": "E",
@@ -660,11 +660,11 @@
       },
       {
         "id": "D",
-        "text": "Menimbun sisa tembaga kabel bekas di dalam rak server utama"
+        "text": "Menyimpan alat ukur OPM bercampur dengan baut dan paku besi tanpa wadah pelindung"
       },
       {
         "id": "E",
-        "text": "Membiarkan kabel UTP dan kabel power terurai acak di lantai koridor lalu lintas orang"
+        "text": "Menumpuk sisa potongan kabel ties dan isolasi di lantai bawah meja kerja"
       }
     ],
     "key": [
@@ -696,11 +696,11 @@
       },
       {
         "id": "D",
-        "text": "Gosip kehidupan pribadi pimpinan teknisi lapangan"
+        "text": "Rincian nomor rekening pribadi teknisi yang sedang bertugas di lapangan"
       },
       {
         "id": "E",
-        "text": "Daftar harga makanan katering di ruang teknisi"
+        "text": "Daftar merek busana kerja yang dikenakan manajemen perusahaan penyedia jasa"
       }
     ],
     "key": [
@@ -720,11 +720,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Teknisi datang 15 menit lebih awal dari jadwal yang disepakati"
+        "text": "Pemeriksaan fungsi dan daya baterai alat ukur pada malam hari sebelum bertugas"
       },
       {
         "id": "B",
-        "text": "Peralatan kerja dalam kondisi bersih, baterai terisi penuh, dan terkalibrasi"
+        "text": "Pelaksanaan briefing keselamatan kerja 10 menit sebelum memulai pekerjaan proyek"
       },
       {
         "id": "C",
@@ -756,7 +756,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Menjual seluruh alat ukur lab untuk keperluan rekreasi pribadi"
+        "text": "Mengabaikan penumpukan debu pada perangkat switch hingga timbul gangguan teknis"
       },
       {
         "id": "B",
@@ -764,7 +764,7 @@
       },
       {
         "id": "C",
-        "text": "Menghapus semua aturan lab dan membiarkan siswa bebas membuang sampah sembarangan"
+        "text": "Membiarkan setiap regu siswa membuat aturan penataan alat sendiri tanpa standar baku"
       },
       {
         "id": "D",
@@ -796,7 +796,7 @@
       },
       {
         "id": "B",
-        "text": "Menginstal software bajakan ilegal pada server produksi perbankan klien"
+        "text": "Menyalahkan kualitas perangkat keras ketika terjadi kesalahan pengetikan perintah konfigurasi"
       },
       {
         "id": "C",
@@ -808,7 +808,7 @@
       },
       {
         "id": "E",
-        "text": "Menyalahkan orang lain saat konfigurasi router yang dibuatnya sendiri mengalami error"
+        "text": "Mengunggah cuplikan topologi dan password server klien ke forum publik untuk meminta bantuan"
       }
     ],
     "key": [

@@ -8,11 +8,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Staff Entri Data Pergudangan"
+        "text": "Linux System Administrator"
       },
       {
         "id": "B",
-        "text": "Database Administrator"
+        "text": "IT Helpdesk Support Specialist"
       },
       {
         "id": "C",
@@ -20,11 +20,11 @@
       },
       {
         "id": "D",
-        "text": "Frontend Web Developer"
+        "text": "Network Security Penetration Tester"
       },
       {
         "id": "E",
-        "text": "Graphic Animator 3D"
+        "text": "Cloud Infrastructure Architect"
       }
     ],
     "key": "C",
@@ -40,15 +40,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Menelepon seluruh pelanggan untuk meminta uang kompensasi"
+        "text": "Mengikat tangga kerja pada tiang listrik PLN tegangan menengah"
       },
       {
         "id": "B",
-        "text": "Mematikan seluruh lampu penerangan jalan raya kota"
+        "text": "Memotong kabel drop optik yang masih aktif memancarkan laser daya tinggi"
       },
       {
         "id": "C",
-        "text": "Menyalakan rokok di samping tangki bensin mobil operasional"
+        "text": "Membawa mesin fusion splicer ke atas puncak tiang tanpa wadah gantung"
       },
       {
         "id": "D",
@@ -56,7 +56,7 @@
       },
       {
         "id": "E",
-        "text": "Langsung memanjat tiang tanpa memasang rambu pengaman jalan"
+        "text": "Menarik kabel melintang jalan tanpa menghentikan arus lalu lintas"
       }
     ],
     "key": "D",
@@ -104,11 +104,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Difraksi Celah Sempit Fresnel"
+        "text": "Polarisasi Gelombang Elektromagnetik Transversal"
       },
       {
         "id": "B",
-        "text": "Efek Fotolistrik Logam Silika"
+        "text": "Atenuasi Penyerapan Resonansi Puncak Air"
       },
       {
         "id": "C",
@@ -116,11 +116,11 @@
       },
       {
         "id": "D",
-        "text": "Polarisasi Sinar X-Ray Ruang Hampa"
+        "text": "Hamburan Raman Terstimulasi Silika"
       },
       {
         "id": "E",
-        "text": "Induksi Medan Elektromagnetik Kawat Faraday"
+        "text": "Dispersi Kecepatan Grup Pandu Gelombang Silika"
       }
     ],
     "key": "C",
@@ -136,7 +136,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Core berdiameter 50 mikron (µm) dengan jaket berwarna Aqua"
+        "text": "Core berdiameter 50 mikron (µm) dengan jaket berwarna Aqua (OM3/OM4)"
       },
       {
         "id": "B",
@@ -144,15 +144,15 @@
       },
       {
         "id": "C",
-        "text": "Core berdiameter 62.5 mikron (µm) dengan jaket berwarna Oranye"
+        "text": "Core berdiameter 62.5 mikron (µm) dengan jaket berwarna Oranye (OM1)"
       },
       {
         "id": "D",
-        "text": "Core berdiameter 125 mikron (µm) dengan jaket berwarna Hitam"
+        "text": "Core berdiameter 125 mikron (µm) dengan jaket pelindung berwarna Hitam"
       },
       {
         "id": "E",
-        "text": "Core berdiameter 250 mikron (µm) dengan jaket berwarna Merah"
+        "text": "Core berdiameter 250 mikron (µm) dengan jaket pelindung berwarna Merah"
       }
     ],
     "key": "B",
@@ -168,7 +168,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Warna Hitam, dengan keunggulan tidak membutuhkan perawatan"
+        "text": "Warna Merah, dengan ferrule miring 45 derajat untuk kabel multimode"
       },
       {
         "id": "B",
@@ -176,15 +176,15 @@
       },
       {
         "id": "C",
-        "text": "Warna Biru, dengan keunggulan harga jauh lebih murah"
+        "text": "Warna Biru, dengan nilai return loss lebih rendah sekitar 50 dB (UPC)"
       },
       {
         "id": "D",
-        "text": "Warna Oranye, dengan keunggulan bisa dipakai untuk kabel tembaga"
+        "text": "Warna Putih, dengan ferrule datar flat polish (PC) tanpa sudut miring"
       },
       {
         "id": "E",
-        "text": "Warna Kuning, dengan keunggulan tahan api 1000 derajat"
+        "text": "Warna Abu-abu, dirancang khusus untuk kabel tembaga twisted pair"
       }
     ],
     "key": "B",
@@ -236,11 +236,11 @@
       },
       {
         "id": "B",
-        "text": "Kabel serat optik di bumi harus diputus seluruhnya"
+        "text": "Sinyal satelit GEO kebal terhadap badai hujan lebat (rain fade)"
       },
       {
         "id": "C",
-        "text": "Kecepatan transfer data dibatasi maksimal 1 bit per jam"
+        "text": "Tidak memerlukan perangkat stasiun bumi (VSAT BUC/LNB)"
       },
       {
         "id": "D",
@@ -248,7 +248,7 @@
       },
       {
         "id": "E",
-        "text": "Sinyal internet hanya bisa menyala di siang hari"
+        "text": "Bandwidth frekuensi otomatis terbagi menjadi 10 GHz per pengguna"
       }
     ],
     "key": "A",
@@ -616,11 +616,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Ujung Kabel Tembaga Terbuka"
+        "text": "Atenuasi Penyerapan Material Silika (Absorption Loss)"
       },
       {
         "id": "B",
-        "text": "Kabel Listrik Hubung Singkat"
+        "text": "Tekukan Macrobending pada Serat Optik"
       },
       {
         "id": "C",
@@ -652,7 +652,7 @@
       },
       {
         "id": "B",
-        "text": "Kabel serat optik menghantarkan arus listrik 220V untuk menyalakan monitor"
+        "text": "Kabel serat optik single-mode dapat dipasangi konektor tembaga BNC RG-59"
       },
       {
         "id": "C",
@@ -660,7 +660,7 @@
       },
       {
         "id": "D",
-        "text": "Kabel UTP Cat6 dapat digunakan menghubungkan antar-benua sejauh 5.000 km tanpa repeater"
+        "text": "Kabel UTP Cat6 mampu menyalurkan sinyal transmisi laser berkecepatan 100 Gbps"
       },
       {
         "id": "E",
@@ -672,7 +672,7 @@
       "C",
       "E"
     ],
-    "explanation": "568B diawali putih oranye/oranye, SMF core 9µm berjaket kuning, SC/APC berwarna hijau miring 8°. UTP dibatasi 100m dan fiber optik tidak menghantarkan listrik.",
+    "explanation": "568B diawali putih oranye/oranye, SMF core 9µm berjaket kuning, SC/APC berwarna hijau miring 8°. UTP dibatasi 100m sinyal listrik dan fiber optik menggunakan konektor optik khusus (SC/LC/FC/ST).",
     "quickTip": "568B (Putih Oranye/Oranye), SMF (9µm/Kuning), SC/APC (Hijau/8 derajat)."
   },
   {
@@ -692,7 +692,7 @@
       },
       {
         "id": "C",
-        "text": "VLAN ID valid berkisar antara angka 10.000 hingga 99.000"
+        "text": "VLAN ID nomor 100 hanya dapat dibuat pada switch unmanaged tanpa konfigurasi"
       },
       {
         "id": "D",
@@ -700,7 +700,7 @@
       },
       {
         "id": "E",
-        "text": "Port Mode Access wajib digunakan untuk menghubungkan dua switch core backbone"
+        "text": "Port Mode Access membawa banyak VLAN sekaligus menggunakan penandaan tag 802.1Q"
       }
     ],
     "key": [
@@ -708,7 +708,7 @@
       "B",
       "D"
     ],
-    "explanation": "VLAN memecah broadcast domain, trunk membawa multi-VLAN tagged 802.1Q, inter-VLAN butuh Layer 3. Range VID hanya 1-4094.",
+    "explanation": "VLAN memecah broadcast domain, trunk membawa multi-VLAN tagged 802.1Q, inter-VLAN butuh Layer 3. Access port hanya membawa 1 VLAN untagged dan switch unmanaged tidak mendukung konfigurasi VLAN.",
     "quickTip": "VLAN memecah broadcast domain; Trunk membawa tagged multi-VLAN; Inter-VLAN butuh L3."
   },
   {
@@ -794,7 +794,7 @@
       },
       {
         "id": "B",
-        "text": "`chown` digunakan untuk mengubah panjang kabel LAN secara otomatis"
+        "text": "`chown` digunakan untuk mengonfigurasi IP address antarmuka secara statis"
       },
       {
         "id": "C",
@@ -806,7 +806,7 @@
       },
       {
         "id": "E",
-        "text": "`nano` adalah program untuk menghapus partisi hard disk secara paksa"
+        "text": "`grep` digunakan untuk memformat hard disk server secara cepat"
       }
     ],
     "key": [
@@ -836,7 +836,7 @@
       },
       {
         "id": "st3",
-        "text": "Hub pasif mampu memecah broadcast domain menjadi 24 subnet yang terisolasi.",
+        "text": "Hub pasif mampu memisahkan collision domain pada tiap port fisiknya secara mandiri.",
         "correct": "S"
       }
     ],
@@ -862,11 +862,11 @@
       },
       {
         "id": "st3",
-        "text": "Sinar laser serat optik telekomunikasi aman ditatap langsung dari jarak dekat tanpa pelindung mata.",
+        "text": "Laser optik aman ditatap langsung jika teknisi tidak menggunakan kacamata minus.",
         "correct": "S"
       }
     ],
-    "explanation": "Dilarang keras menatap ujung laser optik secara langsung karena dapat menyebabkan kebutaan permanen seketika.",
+    "explanation": "Dilarang keras menatap ujung laser optik secara langsung dalam kondisi apapun karena dapat menyebabkan kebutaan permanen seketika.",
     "quickTip": "Patuhi K3 laser optik: Jangan pernah menatap langsung ke ujung serat aktif!"
   },
   {
@@ -888,11 +888,11 @@
       },
       {
         "id": "st3",
-        "text": "Subnet mask /30 dapat menampung hingga 100 komputer pengguna sekaligus.",
+        "text": "Subnet mask /30 dapat menampung hingga 14 host usable untuk komputer klien.",
         "correct": "S"
       }
     ],
-    "explanation": "Prefix /30 hanya menyediakan tepat 2 usable host untuk link point-to-point.",
+    "explanation": "Prefix /30 hanya menyediakan tepat 2 usable host untuk link point-to-point. Kapasitas 14 host adalah prefix /28.",
     "quickTip": "Prefix /30 menyediakan tepat 2 host usable untuk link Point-to-Point."
   },
   {
@@ -914,7 +914,7 @@
       },
       {
         "id": "st3",
-        "text": "Port Trunk hanya boleh digunakan untuk kabel pengisi daya ponsel USB.",
+        "text": "Port Trunk hanya boleh digunakan untuk menghubungkan printer analog ke komputer.",
         "correct": "S"
       }
     ],
@@ -940,7 +940,7 @@
       },
       {
         "id": "st3",
-        "text": "Ujung kabel yang putus ditandai dengan garis kurva yang terus menanjak naik ke atas tanpa henti.",
+        "text": "Ujung kabel yang putus ditandai dengan garis kurva horizontal mendatar tanpa redaman.",
         "correct": "S"
       }
     ],

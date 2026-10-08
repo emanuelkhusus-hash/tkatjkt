@@ -430,6 +430,26 @@ body.font-size-large { font-size: 18px; }
   font-family: var(--font-heading);
 }
 
+.btn-toggle-all-days {
+  background: #ffffff;
+  color: var(--pm-blue-primary);
+  border: 1px solid var(--pm-blue-primary);
+  padding: 6px 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn-toggle-all-days:hover {
+  background: var(--pm-blue-light);
+  transform: translateY(-1px);
+}
+
 .sessions-legend {
   display: flex;
   gap: 12px;

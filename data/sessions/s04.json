@@ -8,11 +8,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Menyambung kabel listrik basah tanpa isolator"
+        "text": "Memasang transformator step-up tambahan untuk menaikkan tegangan suplai pada setiap rak"
       },
       {
         "id": "B",
-        "text": "Menggunakan sekring yang diganti kawat tembaga tebal sembarangan"
+        "text": "Membiarkan kabel grounding mengambang (floating ground) untuk mencegah induksi balik"
       },
       {
         "id": "C",
@@ -20,11 +20,11 @@
       },
       {
         "id": "D",
-        "text": "Mematikan grounding agar tegangan listrik lebih hemat"
+        "text": "Mengganti pemutus sirkuit utama dengan sakelar manual tanpa proteksi beban lebih"
       },
       {
         "id": "E",
-        "text": "Menumpuk kabel listrik telanjang di atas saluran air AC"
+        "text": "Menghubungkan kabel netral listrik langsung ke sasis casing perangkat tanpa pemutus arus"
       }
     ],
     "key": "C",
@@ -40,11 +40,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Mencampur udara panas dan dingin di dalam satu ruangan terbuka"
+        "text": "Meniupkan udara dingin dari plafon langsung ke bagian belakang server yang bersuhu panas"
       },
       {
         "id": "B",
-        "text": "Meniupkan udara panas langsung ke arah prosesor server"
+        "text": "Menghisap udara panas dari bagian depan server untuk didinginkan kembali di bawah lantai"
       },
       {
         "id": "C",
@@ -52,11 +52,11 @@
       },
       {
         "id": "D",
-        "text": "Mendinginkan lantai koridor luar gedung perkantoran"
+        "text": "Membiarkan aliran sirkulasi udara bebas berputar tanpa pembatas lorong isolasi"
       },
       {
         "id": "E",
-        "text": "Menutup rapat ventilasi server menggunakan plastik perekat"
+        "text": "Mengalirkan udara dingin dan udara panas secara simultan melalui kisi-kisi samping rak server"
       }
     ],
     "key": "C",
@@ -72,23 +72,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Ember Berisi Lumpur dan Air Kotor"
+        "text": "APAR Cairan Kimia Basah Khusus Lemak Dapur (Wet Chemical Class K)"
       },
       {
         "id": "B",
-        "text": "APAR Busa Kimia Basah (Foam)"
+        "text": "APAR Busa Kimia Mekanikal Berbasis Air (AFFF)"
       },
       {
         "id": "C",
-        "text": "APAR Karbon Dioksida (CO2) atau Clean Agent Gas (FM-200 / Novec)"
+        "text": "APAR Karbon Dioksida (CO2) atau Clean Agent Gas (FM-200 / Novec 1230)"
       },
       {
         "id": "D",
-        "text": "APAR Air Bertekanan (Water)"
+        "text": "APAR Bubuk Kimia Kering Serbaguna (Dry Chemical Powder ABC)"
       },
       {
         "id": "E",
-        "text": "Karung Goni Basah Berlumpur"
+        "text": "APAR Bertekanan Air Murni (Water Mist Berbutir Basah)"
       }
     ],
     "key": "C",
@@ -104,23 +104,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Pecahan kaca mikroskopis yang sangat tajam dapat menembus kulit, masuk ke pembuluh darah, atau terhirup ke paru-paru"
+        "text": "Pecahan kaca mikroskopis yang sangat tajam dapat menembus kulit, masuk ke pembuluh darah, atau mencederai kornea mata"
       },
       {
         "id": "B",
-        "text": "Mengeluarkan racun gas sianida cair"
+        "text": "Menghasilkan percikan bunga api statis yang memicu korsleting panel listrik"
       },
       {
         "id": "C",
-        "text": "Mengandung aliran radiasi nuklir radioaktif"
+        "text": "Melepaskan uap gas beracun yang dapat mengikis lapisan pelindung kabel UTP"
       },
       {
         "id": "D",
-        "text": "Dapat meledak jika terkena sinar matahari"
+        "text": "Menimbulkan medan magnet residu tinggi yang merusak harddisk mekanik server"
       },
       {
         "id": "E",
-        "text": "Dapat menarik sambaran petir di dalam ruangan"
+        "text": "Menyebabkan reaksi alergi kulit akibat zat pewarna sintetis pada jaket kabel"
       }
     ],
     "key": "A",
@@ -136,11 +136,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Wajib melihat ujung serat dari jarak 1 cm untuk mengecek cahaya"
+        "text": "Wajib melihat langsung ujung konektor dari jarak dekat untuk memastikan ada pendaran cahaya"
       },
       {
         "id": "B",
-        "text": "Meniup ujung konektor dengan hembusan nafas basah"
+        "text": "Mengarahkan ujung serat optik ke telapak tangan untuk merasakan sensasi hangat radiasi laser"
       },
       {
         "id": "C",
@@ -148,11 +148,11 @@
       },
       {
         "id": "D",
-        "text": "Menerangi ujung serat menggunakan api korek gas"
+        "text": "Menggunakan kaca pembesar optik langsung pada ujung kabel yang sedang memancarkan sinyal"
       },
       {
         "id": "E",
-        "text": "Mencelupkan ujung kabel ke dalam air mineral"
+        "text": "Meniup lubang konektor aktif dengan hembusan nafas sebelum menyambungkannya ke coupler"
       }
     ],
     "key": "C",
@@ -172,19 +172,19 @@
       },
       {
         "id": "B",
-        "text": "Lantai akan meleleh menjadi cairan panas"
+        "text": "Mengubah frekuensi sinyal data menjadi sinyal radio interferensi tak terarah"
       },
       {
         "id": "C",
-        "text": "Kabel akan berubah menjadi kawat berduri"
+        "text": "Menyebabkan penumpukan muatan statis yang menghapus data di dalam SSD server"
       },
       {
         "id": "D",
-        "text": "Suhu ruangan seketika turun menjadi minus 50 derajat"
+        "text": "Meningkatkan konsumsi daya listrik pendingin ruangan secara signifikan"
       },
       {
         "id": "E",
-        "text": "Kabel akan memancarkan gelombang suara bising"
+        "text": "Menurunkan kecepatan bandwidth internet dari tingkat gigabit ke kilobit per detik"
       }
     ],
     "key": "A",
@@ -200,11 +200,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Suhu mendidih 100°C"
+        "text": "Sekitar 0°C hingga 10°C dengan kelembaban tanpa batas toleransi"
       },
       {
         "id": "B",
-        "text": "Di atas 45°C hingga 60°C"
+        "text": "Sekitar 5°C hingga 12°C dengan kelembaban relatif di bawah 20%"
       },
       {
         "id": "C",
@@ -212,11 +212,11 @@
       },
       {
         "id": "D",
-        "text": "Bebas berapapun suhunya tanpa pendingin"
+        "text": "Sekitar 32°C hingga 45°C dengan kelembaban relatif 10% - 30%"
       },
       {
         "id": "E",
-        "text": "Minus 10°C hingga 0°C"
+        "text": "Sekitar 28°C hingga 38°C dengan kelembaban relatif 70% - 90%"
       }
     ],
     "key": "C",
@@ -232,19 +232,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Menempatkan monitor di lantai sehingga leher menunduk tajam"
+        "text": "Menggunakan kursi statis tanpa penopang lengan dan bekerja nonstop tanpa jeda peregangan"
       },
       {
         "id": "B",
-        "text": "Bekerja sambil tengkurap di lantai tanpa alas"
+        "text": "Menempatkan monitor di bawah garis pandang dan duduk condong ke depan tanpa sandaran"
       },
       {
         "id": "C",
-        "text": "Duduk membungkuk tanpa sandaran kursi selama 8 jam nonstop"
+        "text": "Menaruh keyboard lebih tinggi dari posisi siku tangan sehingga pergelangan selalu tertekuk ke atas"
       },
       {
         "id": "D",
-        "text": "Mengetik dengan posisi pergelangan tangan tertekuk ekstrem"
+        "text": "Bekerja di ruangan gelap total dengan kontras layar maksimal tanpa pencahayaan lingkungan"
       },
       {
         "id": "E",
@@ -264,15 +264,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Mencari laptop pribadi yang tertinggal di bawah meja"
+        "text": "Mencoba mematikan sensor alarm secara manual dari panel distribusi ruang server"
       },
       {
         "id": "B",
-        "text": "Mengunci diri di dalam lemari rak server"
+        "text": "Menunggu di dalam lorong dingin hingga gas pemadam selesai disemprotkan secara otomatis"
       },
       {
         "id": "C",
-        "text": "Merekam video kebakaran untuk diunggah ke media sosial"
+        "text": "Menutup semua ventilasi server satu per satu sebelum meninggalkan ruangan"
       },
       {
         "id": "D",
@@ -280,7 +280,7 @@
       },
       {
         "id": "E",
-        "text": "Menghirup gas pemadam secara sengaja"
+        "text": "Mengambil perangkat server cadangan di lemari penyimpanan sebelum menuju pintu keluar"
       }
     ],
     "key": "D",
@@ -296,23 +296,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Cat minyak warna-warni"
+        "text": "Cairan asam cuka encer, baking soda pembersih, dan kapas kasar non-medis"
       },
       {
         "id": "B",
-        "text": "Gunting pemotong dahan pohon"
+        "text": "Salep pemanas otot, balsem gosok, dan minyak angin aroma terapi"
       },
       {
         "id": "C",
-        "text": "Povidone iodine (antiseptik), perban steril, plester cepat, dan pinset penjepit medis"
+        "text": "Povidone iodine (antiseptik), perban steril, plester cepat, dan pinset medis"
       },
       {
         "id": "D",
-        "text": "Palu godam pemecah batu"
+        "text": "Bubuk belerang, alkohol teknis pembersih kaca, dan lem perekat kabel"
       },
       {
         "id": "E",
-        "text": "Gergaji besi mesin"
+        "text": "Obat tetes telinga antibiotik keras dan jarum suntik sekali pakai"
       }
     ],
     "key": "C",
@@ -328,19 +328,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Menarik korban dengan tangan telanjang yang basah berkeringat"
+        "text": "Langsung menarik pergelangan tangan korban dengan tangan telanjang secepat mungkin"
       },
       {
         "id": "B",
-        "text": "Memeluk korban agar aliran listrik terbagi dua"
+        "text": "Menyentuh bagian logam sasis yang dipegang korban untuk merasakan besar tegangan"
       },
       {
         "id": "C",
-        "text": "Menyiram korban dengan seember air garam"
+        "text": "Menyiramkan air ke tubuh korban agar aliran arus listrik segera dinetralkan"
       },
       {
         "id": "D",
-        "text": "Menunggu hingga korban terlepas dengan sendirinya"
+        "text": "Memegang kaki korban yang beralas sepatu kulit basah untuk menariknya menjauh"
       },
       {
         "id": "E",
@@ -360,23 +360,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Laci meja belajar siswa"
+        "text": "Baki wadah perkakas logam terbuka di atas meja kerja"
       },
       {
         "id": "B",
-        "text": "Fiber Disposal Unit / Fiber Trash Can bertutup pengaman"
+        "text": "Fiber Disposal Unit / Fiber Trash Can bertutup pengaman khusus"
       },
       {
         "id": "C",
-        "text": "Kotak bekal makan siang karyawan"
+        "text": "Wadah plastik pencuci komponen elektronik berpelarut thinner"
       },
       {
         "id": "D",
-        "text": "Kantong plastik belanjaan tipis terbuka"
+        "text": "Tempat sampah terbuka daur ulang kertas dan kardus"
       },
       {
         "id": "E",
-        "text": "Wadah tempat sendok garpu kantin"
+        "text": "Kantong kresek limbah domestik umum tanpa penanda khusus"
       }
     ],
     "key": "B",
@@ -392,7 +392,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Menambah beban bobot plafon agar cepat runtuh"
+        "text": "Meningkatkan daya hantar listrik kawat tembaga kabel jaringan secara induktif"
       },
       {
         "id": "B",
@@ -400,15 +400,15 @@
       },
       {
         "id": "C",
-        "text": "Membuat kabel tidak bisa dialiri sinyal data"
+        "text": "Mengubah kabel UTP biasa menjadi kabel berstandar serat optik tahan cuaca"
       },
       {
         "id": "D",
-        "text": "Sebagai tempat sarang burung di plafon"
+        "text": "Menghubungkan jalur ground rangka gedung langsung ke kartu LAN komputer klien"
       },
       {
         "id": "E",
-        "text": "Menghangatkan kabel agar cepat panas"
+        "text": "Mencegah kebocoran sinyal data digital keluar menembus dinding bangunan"
       }
     ],
     "key": "B",
@@ -424,23 +424,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Air sabun deterjen berbusa"
+        "text": "Methanol bahan bakar industri berkadar kemurnian rendah"
       },
       {
         "id": "B",
-        "text": "Alkohol Isopropil (IPA) dengan kemurnian 99% atau lebih tinggi"
+        "text": "Alkohol Isopropil (IPA) dengan tingkat kemurnian 99% atau lebih tinggi"
       },
       {
         "id": "C",
-        "text": "Alkohol medis 70% yang mengandung banyak kadar air"
+        "text": "Alkohol medis antiseptik 70% yang memiliki kandungan air tinggi"
       },
       {
         "id": "D",
-        "text": "Minyak goreng kelapa sawit"
+        "text": "Etanol teknis 50% yang dicampur zat pewangi aromatik"
       },
       {
         "id": "E",
-        "text": "Cairan pembersih lantai beraroma wangi"
+        "text": "Cairan pelarut aseton berkonsentrasi tinggi pengikis plastik"
       }
     ],
     "key": "B",
@@ -456,23 +456,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Gas helium yang membuat suara melengking"
+        "text": "Pelepasan gas karbon monoksida dari proses pendinginan udara refrigeran"
       },
       {
         "id": "B",
-        "text": "Pancaran gelombang radio FM komersial"
+        "text": "Pancaran gas ozon konsentrasi tinggi dari sakelar relai otomatis"
       },
       {
         "id": "C",
-        "text": "Potensi pelepasan gas hidrogen yang mudah terbakar dan tumpahan asam sulfat korosif"
+        "text": "Potensi pelepasan gas hidrogen yang mudah meledak dan tumpahan asam sulfat korosif"
       },
       {
         "id": "D",
-        "text": "Udara membeku menjadi es kristal"
+        "text": "Emisi gas klorin berbahaya dari reaksi elektrostatik busbar tembaga"
       },
       {
         "id": "E",
-        "text": "Tumpahan air sirup manis mengundang semut"
+        "text": "Kebocoran cairan pelumas hidrolik yang dapat melarutkan tembaga kabel"
       }
     ],
     "key": "C",
@@ -488,15 +488,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Kecepatan transfer data internet meningkat 10 kali lipat"
+        "text": "Frekuensi tegangan AC berubah dari 50Hz menjadi sinyal DC bertegangan tinggi"
       },
       {
         "id": "B",
-        "text": "Tagihan listrik otomatis menjadi gratis"
+        "text": "Kapasitas bandwidth switch jaringan mengalami penurunan secara drastis"
       },
       {
         "id": "C",
-        "text": "Lampu indikator server berubah menjadi warna pelangi"
+        "text": "Komponen transformator server otomatis mengunci seluruh port sistem operasi"
       },
       {
         "id": "D",
@@ -504,7 +504,7 @@
       },
       {
         "id": "E",
-        "text": "Server menjadi kebal terhadap virus komputer"
+        "text": "Resistansi kawat tembaga kabel listrik menurun hingga bernilai nol ohm"
       }
     ],
     "key": "D",
@@ -520,23 +520,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Membuat kaki terasa dingin di lantai"
+        "text": "Mengalirkan arus listrik statis dari tubuh langsung ke rangka sasis rak server"
       },
       {
         "id": "B",
-        "text": "Sebagai hiasan mode pakaian sekolah"
+        "text": "Menetralkan muatan radiasi gelombang frekuensi radio di ruang transmisi"
       },
       {
         "id": "C",
-        "text": "Sebagai bahan isolator penahan arus listrik dan pelindung kaki dari kejatuhan perkakas berat"
+        "text": "Sebagai bahan isolator penahan arus bocor ke tanah dan pelindung kaki dari benturan benda berat"
       },
       {
         "id": "D",
-        "text": "Menghasilkan suara langkah kaki yang nyaring"
+        "text": "Membantu mempercepat pembuangan panas tubuh teknisi ke lantai ruang server"
       },
       {
         "id": "E",
-        "text": "Agar bisa berlari kencang saat jam istirahat"
+        "text": "Meningkatkan konduktivitas tubuh teknisi saat melakukan pengukuran kabel"
       }
     ],
     "key": "C",
@@ -552,11 +552,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Kabel data bisa menyedot daya listrik menjadi nol"
+        "text": "Menghindari perubahan warna fisik pada jaket pelindung luar kabel UTP"
       },
       {
         "id": "B",
-        "text": "Agar teknisi mudah mengingat warna kabel saja"
+        "text": "Menjaga agar resistansi isolasi kabel listrik tidak meningkat menjadi terlalu tinggi"
       },
       {
         "id": "C",
@@ -564,11 +564,11 @@
       },
       {
         "id": "D",
-        "text": "Kabel listrik bisa menyerap kuota internet kabel data"
+        "text": "Mencegah kabel data UTP mengalirkan arus listrik DC kembali ke gardu PLN"
       },
       {
         "id": "E",
-        "text": "Agar kabel data tidak merasa kepanasan oleh kabel listrik"
+        "text": "Mencegah kabel listrik menarik kuota bandwidth internet dari kabel data UTP"
       }
     ],
     "key": "C",
@@ -584,15 +584,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Menumpuk kardus bekas komputer setinggi 2 meter"
+        "text": "Kursi putar kantor beroda yang memiliki sandaran fleksibel"
       },
       {
         "id": "B",
-        "text": "Menginjak kabel bundel yang menjuntai"
+        "text": "Pijakan pada rangka pintu kaca rak server yang sedang terbuka"
       },
       {
         "id": "C",
-        "text": "Berdiri di atas kursi putar beroda licin"
+        "text": "Tangga sorong tunggal bersandar tanpa bantalan pengaman dinding"
       },
       {
         "id": "D",
@@ -600,7 +600,7 @@
       },
       {
         "id": "E",
-        "text": "Memanjat pintu rak server yang tipis"
+        "text": "Tumpukan casing server kosong yang disusun bertingkat di lantai"
       }
     ],
     "key": "D",
@@ -616,19 +616,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Bahan untuk menghentikan seluruh kegiatan belajar selamanya"
+        "text": "Menyembunyikan kelemahan prosedur K3 dari pengawasan auditor eksternal"
       },
       {
         "id": "B",
-        "text": "Mempermalukan korban di hadapan teman sekelasnya"
+        "text": "Memenuhi formalitas dokumen audit tanpa perlu tindak lanjut perbaikan sistem"
       },
       {
         "id": "C",
-        "text": "Menambah koleksi tumpukan kertas laporan tak terbaca"
+        "text": "Menghitung kerugian finansial yang belum sempat terjadi di pembukuan kas"
       },
       {
         "id": "D",
-        "text": "Mencari siswa yang bersalah untuk diberi hukuman fisik"
+        "text": "Mencari personil yang lalai untuk dijatuhi sanksi pemotongan upah lembur"
       },
       {
         "id": "E",
@@ -652,7 +652,7 @@
       },
       {
         "id": "B",
-        "text": "APAR Cairan Busa Basah Kimia (Foam)"
+        "text": "APAR Cairan Busa Basah Kimia (Foam AFFF)"
       },
       {
         "id": "C",
@@ -664,7 +664,7 @@
       },
       {
         "id": "E",
-        "text": "Selang Air Hidran Bertekanan Tinggi"
+        "text": "Selang Air Hidran Pemadam Bertekanan Tinggi"
       }
     ],
     "key": [
@@ -684,7 +684,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Pelampung rompi penyelamat air laut"
+        "text": "Masker gas respirator khusus uap timbal peleburan"
       },
       {
         "id": "B",
@@ -732,11 +732,11 @@
       },
       {
         "id": "D",
-        "text": "Menghubungkan kabel ground langsung ke pipa gas elpiji dapur"
+        "text": "Menghubungkan kabel ground pengaman ke pipa saluran air ledeng besi"
       },
       {
         "id": "E",
-        "text": "Mengganti sakelar otomatis MCB dengan paku besi berkarat"
+        "text": "Mengganti sakelar otomatis MCB dengan kawat tembaga langsung tanpa proteksi"
       }
     ],
     "key": [
@@ -756,11 +756,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Suhu udara dingin ekstrem pada lorong dingin (Cold Aisle) jika terpapar lama"
+        "text": "Suhu udara dingin pada lorong dingin (Cold Aisle) jika terpapar dalam durasi lama"
       },
       {
         "id": "B",
-        "text": "Gelombang pasang tsunami di dalam rak server tertutup"
+        "text": "Kadar kelembaban udara jenuh 100% yang memicu embun lebat di lantai"
       },
       {
         "id": "C",
@@ -772,7 +772,7 @@
       },
       {
         "id": "E",
-        "text": "Serangan binatang buas harimau di dalam ruang tertutup"
+        "text": "Paparan radiasi sinar gamma tingkat tinggi dari transformator UPS"
       }
     ],
     "key": [
@@ -796,11 +796,11 @@
       },
       {
         "id": "B",
-        "text": "Mengubah kabel tembaga biasa menjadi kabel emas murni secara kimiawi"
+        "text": "Menghilangkan kebutuhan catu daya listrik AC pada seluruh switch distribusi"
       },
       {
         "id": "C",
-        "text": "Membuat seluruh server tidak memerlukan daya listrik sama sekali"
+        "text": "Meningkatkan daya tahan server terhadap serangan malware dan peretasan"
       },
       {
         "id": "D",
@@ -833,12 +833,12 @@
       },
       {
         "id": "st2",
-        "text": "Melihat langsung ke dalam serat optik aktif selama beberapa detik sangat aman dan menyehatkan mata.",
+        "text": "Melihat langsung ke dalam serat optik aktif diperbolehkan jika durasinya kurang dari 10 detik.",
         "correct": "S"
       },
       {
         "id": "st3",
-        "text": "Kamera sensor digital ponsel kadang dapat mendeteksi pendar cahaya inframerah sebagai alat bantu visual tak langsung.",
+        "text": "Kamera sensor digital tertentu kadang dapat mendeteksi pendar cahaya inframerah sebagai alat bantu visual tak langsung.",
         "correct": "B"
       }
     ],
@@ -859,7 +859,7 @@
       },
       {
         "id": "st2",
-        "text": "Kabel grounding boleh dipotong dan disambungkan ke rangka kayu kusen pintu ruangan.",
+        "text": "Kabel grounding boleh disambungkan ke rangka kusen pintu aluminium tanpa elektroda tembaga tanah.",
         "correct": "S"
       },
       {
@@ -868,7 +868,7 @@
         "correct": "B"
       }
     ],
-    "explanation": "Grounding harus terhubung ke batang tembaga bumi dengan resistansi < 1 ohm, bukan ke kayu isolator.",
+    "explanation": "Grounding harus terhubung ke batang tembaga bumi dengan resistansi < 1 ohm, bukan ke kusen.",
     "quickTip": "Grounding data center: Hambatan < 1 ohm, lindungi peralatan dari ESD & arus bocor."
   },
   {
@@ -880,22 +880,22 @@
     "statements": [
       {
         "id": "st1",
-        "text": "Makan dan minum diperbolehkan di atas keyboard server yang sedang beroperasi penuh.",
-        "correct": "S"
+        "text": "Membawa makanan dan minuman ke dekat rak server yang sedang beroperasi penuh sangat dilarang.",
+        "correct": "B"
       },
       {
         "id": "st2",
-        "text": "Setiap tumpahan cairan di dekat perangkat kelistrikan harus segera dimatikan dayanya dan dibersihkan.",
+        "text": "Setiap tumpahan cairan di dekat perangkat kelistrikan harus segera dibersihkan setelah mematikan sumber arus.",
         "correct": "B"
       },
       {
         "id": "st3",
-        "text": "Peralatan perkakas yang memiliki isolasi pegangan rusak atau retak harus segera ditarik dari penggunaan.",
-        "correct": "B"
+        "text": "Peralatan perkakas yang memiliki isolasi pegangan rusak atau retak tetap boleh digunakan jika memakai sarung tangan kain.",
+        "correct": "S"
       }
     ],
-    "explanation": "Makan/minum di dekat server dilarang keras karena risiko tumpahan cairan memicu korsleting fatal.",
-    "quickTip": "Dilarang makan/minum di area server; tarik perkakas isolasi retak dari lab."
+    "explanation": "Makan/minum di dekat server dilarang keras; perkakas berisolasi rusak harus ditarik dari penggunaan.",
+    "quickTip": "Dilarang makan/minum di area server; tarik perkakas isolasi rusak dari lab."
   },
   {
     "id": "s04_q29",
@@ -916,11 +916,11 @@
       },
       {
         "id": "st3",
-        "text": "Diperbolehkan melompat dari atas tangga ke lantai untuk menghemat waktu kerja.",
+        "text": "Penggunaan kursi kantor beroda diperbolehkan sebagai pengganti tangga darurat jika pekerjaan kurang dari 5 menit.",
         "correct": "S"
       }
     ],
-    "explanation": "Berdiri di top step menghilangkan tumpuan keseimbangan tubuh; melompat dari tangga sangat berbahaya.",
+    "explanation": "Berdiri di top step menghilangkan tumpuan keseimbangan tubuh; dilarang menggunakan kursi kantor beroda.",
     "quickTip": "Aturan tangga: Jangan berdiri di anak tangga paling atas, pastikan kaki karet anti-selip."
   },
   {
@@ -932,26 +932,21 @@
     "statements": [
       {
         "id": "st1",
-        "text": "Korban sengatan listrik yang tidak bernafas harus segera diberikan tindakan Resusitasi Jantung Paru (RJP/CPR) oleh personil terlatih.",
+        "text": "Sebelum menolong korban sengatan listrik, penolong harus memastikan sumber arus telah dimatikan atau menggunakan isolator.",
         "correct": "B"
       },
       {
         "id": "st2",
-        "text": "Sebelum menolong korban, penolong harus memastikan situasi di sekeliling korban telah aman dari sumber bahaya listrik aktif.",
-        "correct": "B"
-      },
-      {
-        "id": "st3",
-        "text": "Jika terjadi luka bakar akibat listrik, luka tersebut harus segera diolesi dengan pasta gigi tebal dan kecap.",
+        "text": "Luka bakar listrik pada kulit harus segera diolesi pasta gigi atau mentega tebal untuk mendinginkan jaringan.",
         "correct": "S"
       },
       {
-        "id": "st4",
-        "text": "Mengoleskan pasta gigi pada luka bakar adalah mitos berbahaya yang dapat memicu infeksi jaringan kulit.",
+        "id": "st3",
+        "text": "Korban sengatan listrik yang tidak bernafas harus segera diberikan tindakan Resusitasi Jantung Paru (RJP/CPR) oleh personil terlatih.",
         "correct": "B"
       }
     ],
-    "explanation": "Amankan lokasi terlebih dahulu sebelum menolong; jangan oleskan pasta gigi/kecap pada luka bakar listrik.",
+    "explanation": "Amankan lokasi sebelum menolong; jangan oleskan pasta gigi/mentega pada luka bakar listrik karena memperparah infeksi.",
     "quickTip": "Pertolongan listrik: Amankan area, lakukan CPR jika terlatih, jangan beri pasta gigi pada luka."
   }
 ]

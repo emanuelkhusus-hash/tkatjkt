@@ -111,8 +111,9 @@ class AppController {
     this.modalSystemUpdate = document.getElementById("systemUpdateModal");
     this.btnAckSystemUpdate = document.getElementById("btnAckSystemUpdate");
 
-    // Days Container
+    // Days Container & Actions
     this.daysContainer = document.getElementById("daysListContainer");
+    this.btnToggleAllDays = document.getElementById("btnToggleAllDays");
 
     // Konfirmasi Screen elements
     this.elGeneratedToken = document.getElementById("displayGeneratedToken");
@@ -153,6 +154,11 @@ class AppController {
   }
 
   bindEvents() {
+    // Toggle Buka/Tutup Semua Hari
+    if (this.btnToggleAllDays) {
+      this.btnToggleAllDays.addEventListener("click", () => this.toggleAllDaysAccordion());
+    }
+
     // System Update Modal Acknowledge
     if (this.btnAckSystemUpdate) {
       this.btnAckSystemUpdate.addEventListener("click", () => this.acknowledgeSystemUpdate());
@@ -466,11 +472,24 @@ class AppController {
   }
 
   checkIsSessionLocked(session) {
-    // Sesi 1 selalu terbuka
-    if (!session.prerequisiteId) return false;
-    // Cek apakah prasyarat sudah lulus KKM
-    const prereq = this.userHistory[session.prerequisiteId];
-    return !(prereq && prereq.isPassed);
+    // Mode Bebas: Seluruh sesi dan hari terbuka bebas tanpa harus menyelesaikan tahap sebelumnya
+    return false;
+  }
+
+  toggleAllDaysAccordion() {
+    const dayCards = this.daysContainer ? this.daysContainer.querySelectorAll(".day-group-card") : [];
+    if (!dayCards.length) return;
+    const anyClosed = Array.from(dayCards).some(c => !c.classList.contains("open"));
+    dayCards.forEach(c => {
+      if (anyClosed) {
+        c.classList.add("open");
+      } else {
+        c.classList.remove("open");
+      }
+    });
+    if (this.btnToggleAllDays) {
+      this.btnToggleAllDays.textContent = anyClosed ? "📁 Tutup Semua Hari" : "📂 Buka Semua Hari";
+    }
   }
 
   findNextSession(currentSessionId) {
@@ -662,12 +681,12 @@ class AppController {
     } else {
       this.elScoreCircle.classList.add("circle-fail");
       this.elResultVerdict.classList.add("fail");
-      this.elResultVerdict.textContent = `NILAI BELUM MENCAPAI KKM 70% (REMEDIAL DIBUTUHKAN)`;
+      this.elResultVerdict.textContent = `NILAI BELUM MENCAPAI KKM 70% (REMEDIAL OPSIONAL)`;
 
       this.btnRemedial.style.display = "inline-flex";
       this.btnRemedial.textContent = "🔄 Kerjakan Ulang (Remedial Sesi Ini)";
       this.btnOpenCert.style.display = "none";
-      this.btnNextSession.style.display = "none";
+      this.btnNextSession.style.display = isReviewMode ? "none" : "inline-flex";
     }
 
     // Update Counter Filter Pembahasan

@@ -12,7 +12,7 @@
       },
       {
         "id": "B",
-        "text": "Tercapai, asalkan teknisi meminta maaf secara tertulis"
+        "text": "Tercapai, karena persentase ketersediaan riil masih berada di angka 99.12%"
       },
       {
         "id": "C",
@@ -20,11 +20,11 @@
       },
       {
         "id": "D",
-        "text": "SLA tidak ada hubungannya dengan durasi waktu gangguan"
+        "text": "Tercapai, karena downtime 8 jam dihitung sebagai pemeliharaan terencana (scheduled maintenance)"
       },
       {
         "id": "E",
-        "text": "Tercapai, karena gangguan terjadi di malam hari"
+        "text": "Tercapai, karena batas toleransi downtime pada SLA 99.5% adalah 12 jam per bulan"
       }
     ],
     "key": "A",
@@ -44,7 +44,7 @@
       },
       {
         "id": "B",
-        "text": "Membuka seluruh pakaian dan helm pengaman"
+        "text": "Menunggu badai reda sambil duduk di platform bordes menara"
       },
       {
         "id": "C",
@@ -52,11 +52,11 @@
       },
       {
         "id": "D",
-        "text": "Berlindung di bawah payung besi di atas puncak menara"
+        "text": "Memutuskan kabel grounding tembaga menara untuk mencegah rambatan petir"
       },
       {
         "id": "E",
-        "text": "Berpegangan erat pada ujung tiang penangkal petir menara"
+        "text": "Mengikatkan lanyard ke lightning rod penangkal petir menara"
       }
     ],
     "key": "C",
@@ -72,7 +72,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Komputer klien terlalu banyak membuka file Microsoft Excel"
+        "text": "Nilai MTU radio mengalami fragmentasi paket Layer 2"
       },
       {
         "id": "B",
@@ -80,15 +80,15 @@
       },
       {
         "id": "C",
-        "text": "Warna cat antena radio pudar terkena sinar matahari"
+        "text": "Polaritas antena radio otomatis berubah dari vertikal menjadi sirkular"
       },
       {
         "id": "D",
-        "text": "Ketinggian menara radio berkurang akibat gravitasi bumi"
+        "text": "Impedansi kabel coaxial pigtail bergeser dari 50 Ohm menjadi 75 Ohm"
       },
       {
         "id": "E",
-        "text": "Kabel listrik PLN di gedung mengalami kenaikan voltase"
+        "text": "Terjadi fenomena dispersi kromatik pada kabel Ethernet PoE radio"
       }
     ],
     "key": "B",
@@ -104,7 +104,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Warna jaket hitam kabel drop menyerap terlalu banyak panas"
+        "text": "Panjang gelombang 1490 nm mengalami dispersi kecepatan grup tinggi"
       },
       {
         "id": "B",
@@ -112,15 +112,15 @@
       },
       {
         "id": "C",
-        "text": "Modem ONT pelanggan belum dibayar biaya langganannya"
+        "text": "Nilai Indeks Bias Inti (IOR) kabel drop mengalami penurunan drastis"
       },
       {
         "id": "D",
-        "text": "Panjang kabel 120 meter terlalu panjang melebihi kapasitas optik"
+        "text": "Panjang kabel 120 meter terlalu panjang melebihi kapasitas transmisi laser"
       },
       {
         "id": "E",
-        "text": "Kabel drop terkena hembusan angin sepoi-sepoi di tiang"
+        "text": "Diameter core serat optik mengecil akibat perbedaan suhu lingkungan"
       }
     ],
     "key": "B",
@@ -136,11 +136,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Sistem operasi Windows kadaluarsa; solusinya menginstal ulang semua PC"
+        "text": "Access Point sekolah terkena deauthentication attack; solusinya mengganti SSID"
       },
       {
         "id": "B",
-        "text": "Konektor RJ-45 kotor; solusinya mencuci switch dengan air sabun"
+        "text": "Tabel routing router gateway penuh; solusinya mereset protokol OSPF"
       },
       {
         "id": "C",
@@ -148,11 +148,11 @@
       },
       {
         "id": "D",
-        "text": "Server Linux sekolah terkena petir; solusinya mematikan genset"
+        "text": "Terjadi loop STP pada switch distribusi; solusinya mengaktifkan BPDU Guard"
       },
       {
         "id": "E",
-        "text": "Kabel backbone fiber optik putus; solusinya mengganti kabel dengan tembaga"
+        "text": "Terjadi MAC Flooding pada switch; solusinya menyetel Port Security mode protect"
       }
     ],
     "key": "C",
@@ -168,7 +168,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Menghubungkan seluruh 200 komputer menggunakan satu kabel coaxial bus"
+        "text": "Menggunakan konfigurasi bridging tunggal tanpa subnet mask pada router"
       },
       {
         "id": "B",
@@ -180,7 +180,7 @@
       },
       {
         "id": "D",
-        "text": "Mematikan seluruh komputer karyawan dan beralih ke mesin tik manual"
+        "text": "Menerapkan classful routing Class A tanpa segmentasi port pada switch"
       },
       {
         "id": "E",
@@ -200,19 +200,19 @@
     "options": [
       {
         "id": "A",
-        "text": "RSTP tidak membutuhkan daya listrik untuk beroperasi"
+        "text": "Mengenkripsi seluruh frame data yang melintasi port trunk switch"
       },
       {
         "id": "B",
-        "text": "RSTP menghilangkan kebutuhan alamat IP pada router"
+        "text": "Menggandakan kapasitas buffer memori frame pada antarmuka access"
       },
       {
         "id": "C",
-        "text": "Kecepatan transfer data switch otomatis naik menjadi 1 Terabits"
+        "text": "Meningkatkan daya transmisi PoE hingga 100 Watt per port"
       },
       {
         "id": "D",
-        "text": "Kabel yang putus otomatis menyambung kembali secara fisik"
+        "text": "Mengeliminasi kebutuhan penomoran VLAN pada seluruh switch"
       },
       {
         "id": "E",
@@ -232,15 +232,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Kabel optik bekerja dengan performa transfer data 100% sempurna"
+        "text": "Konektor SC sedang mengalami pantulan Fresnel reflektansi tinggi"
       },
       {
         "id": "B",
-        "text": "Cahaya laser sedang mengisi daya baterai modem ONT"
+        "text": "Terjadi fenomena hamburan Raman terstimulasi di dalam serat"
       },
       {
         "id": "C",
-        "text": "Kabel optik terlindung dari gangguan elektromagnetik"
+        "text": "Lapisan cladding serat membiaskan cahaya normal pada sudut kritis"
       },
       {
         "id": "D",
@@ -248,7 +248,7 @@
       },
       {
         "id": "E",
-        "text": "Konektor optik sedang melakukan negosiasi kecepatan link"
+        "text": "Indeks bias inti kaca sedang menyesuaikan dengan udara luar"
       }
     ],
     "key": "D",
@@ -264,7 +264,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Mencegah teknisi melihat isi komponen di dalam server"
+        "text": "Meningkatkan kapasitas daya listrik UPS yang masuk ke rak server"
       },
       {
         "id": "B",
@@ -272,15 +272,15 @@
       },
       {
         "id": "C",
-        "text": "Menambah berat rak server agar tidak terbang tertiup angin"
+        "text": "Meredam gelombang elektromagnetik radio frekuensi dari switch"
       },
       {
         "id": "D",
-        "text": "Menyerap radiasi suara bising kipas pendingin"
+        "text": "Menurunkan kelembapan udara relatif (RH) di sekitar rak server"
       },
       {
         "id": "E",
-        "text": "Sebagai tempat menempelkan stiker hiasan dinding"
+        "text": "Menstabilkan tegangan grounding rak dari sambaran petir"
       }
     ],
     "key": "B",
@@ -296,19 +296,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Kabel fiber optik bawah tanah dimakan tikus"
+        "text": "Server DNS mengalami kegagalan resolusi zona forward"
       },
       {
         "id": "B",
-        "text": "Sistem operasi komputer klien meminta ganti password"
+        "text": "Koneksi WAN ISP mengalami packet loss pada Layer 1"
       },
       {
         "id": "C",
-        "text": "Suhu processor router terlalu dingin di bawah 0°C"
+        "text": "Protokol Spanning Tree memblokir port trunk uplink router"
       },
       {
         "id": "D",
-        "text": "Lampu indikator power switch mati total"
+        "text": "Kabel UTP gateway mengalami atenuasi insertion loss tinggi"
       },
       {
         "id": "E",
@@ -332,19 +332,19 @@
       },
       {
         "id": "B",
-        "text": "Komputer server akan otomatis menginstal aplikasi game"
+        "text": "Switch otomatis beralih ke mode half-duplex 10 Mbps secara permanen"
       },
       {
         "id": "C",
-        "text": "Kabel UTP akan berubah warna menjadi kuning keemasan"
+        "text": "Terjadinya pergeseran frekuensi sinyal data menjadi gelombang mikro"
       },
       {
         "id": "D",
-        "text": "Kecepatan transfer data otomatis turun menjadi 1 bit per detik"
+        "text": "Kehilangan data akibat saturasi photodiode pada port switch"
       },
       {
         "id": "E",
-        "text": "Data internet akan mengalir terlalu cepat hingga meledak"
+        "text": "Meningkatnya redaman chromatic dispersion hingga melumpuhkan link"
       }
     ],
     "key": "A",
@@ -392,7 +392,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Konektor harus langsung dibuang ke tempat sampah karena sudah cacat"
+        "text": "Cukup ditiup menggunakan udara mulut sebelum ditancapkan ke port"
       },
       {
         "id": "B",
@@ -400,11 +400,11 @@
       },
       {
         "id": "C",
-        "text": "Ujung konektor harus dijilat dengan air liur"
+        "text": "Cukup dilap menggunakan sarung tangan kain kerja teknisi"
       },
       {
         "id": "D",
-        "text": "Ferrule harus diamplas dengan amplas besi kasar"
+        "text": "Ujung ferrule dibersihkan menggunakan kain majun bengkel kering"
       },
       {
         "id": "E",
@@ -424,11 +424,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Port FastEthernet 0/24 rusak dan mati total"
+        "text": "Port FastEthernet 0/24 beroperasi dalam mode Access pada VLAN 1"
       },
       {
         "id": "B",
-        "text": "Port FastEthernet 0/24 hanya bisa digunakan oleh 1 unit komputer saja"
+        "text": "Port FastEthernet 0/24 mengalami tabrakan frame (collision) Layer 2"
       },
       {
         "id": "C",
@@ -436,11 +436,11 @@
       },
       {
         "id": "D",
-        "text": "Port FastEthernet 0/24 sedang terserang virus trojan"
+        "text": "Port FastEthernet 0/24 memblokir seluruh paket data bertag 802.1Q"
       },
       {
         "id": "E",
-        "text": "Port FastEthernet 0/24 menolak seluruh paket internet"
+        "text": "Port FastEthernet 0/24 aktif sebagai port routed Layer 3 dengan IP 192.168.1.1"
       }
     ],
     "key": "C",
@@ -488,7 +488,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Menulis di laporan bahwa kabel memiliki daya tak terbatas"
+        "text": "Mengubah panjang gelombang pengukuran dari 1310 nm menjadi 850 nm"
       },
       {
         "id": "B",
@@ -496,15 +496,15 @@
       },
       {
         "id": "C",
-        "text": "Mematikan mesin OTDR dan menggantinya dengan tespen"
+        "text": "Memasang Optical Attenuator 3 dB pada konektor peluncur OTDR"
       },
       {
         "id": "D",
-        "text": "Memotong kabel dan membuangnya ke sungai"
+        "text": "Menurunkan nilai Indeks Bias (IOR) sebesar 0.1 pada instrumen OTDR"
       },
       {
         "id": "E",
-        "text": "Menganggap kabel tersebut menghasilkan energi listrik gratis"
+        "text": "Mengganti lebar pulsa (pulse width) dari 10 ns ke 1000 ns pada arah yang sama"
       }
     ],
     "key": "B",
@@ -520,19 +520,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Seluruh jaringan internet dunia sedang padam"
+        "text": "Tabel ARP di komputer pengguna mengalami tabrakan alamat IP"
       },
       {
         "id": "B",
-        "text": "Kabel LAN di komputer pengguna putus total"
+        "text": "Default gateway router mengalami kerusakan hardware Layer 3"
       },
       {
         "id": "C",
-        "text": "Router gateway kantor mati kehabisan daya listrik"
+        "text": "Kabel backbone serat optik ISP terputus total (Fiber Cut)"
       },
       {
         "id": "D",
-        "text": "Kartu jaringan komputer pengguna rusak terbakar"
+        "text": "Switch jaringan mengalami loop fisik dan badai broadcast storm"
       },
       {
         "id": "E",
@@ -552,15 +552,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Menebang seluruh hutan kota tanpa izin dinas lingkungan"
+        "text": "Melumasi jaket kabel drop dengan minyak pelumas oli mesin"
       },
       {
         "id": "B",
-        "text": "Melapisi kabel dengan lem kertas kantor"
+        "text": "Menyambung ulang kabel di atas dahan pohon menggunakan mechanical splice"
       },
       {
         "id": "C",
-        "text": "Membiarkan kabel tetap bergesekan hingga putus dengan sendirinya"
+        "text": "Mengganti kabel drop optik dengan kabel tembaga UTP tanpa pelindung"
       },
       {
         "id": "D",
@@ -568,7 +568,7 @@
       },
       {
         "id": "E",
-        "text": "Mengikat kabel drop optik ke kabel listrik PLN telanjang"
+        "text": "Menarik kabel drop lebih kencang hingga menegang lurus tanpa lendutan"
       }
     ],
     "key": "D",
@@ -588,19 +588,19 @@
       },
       {
         "id": "B",
-        "text": "Membaca nomor seri kartu garansi router"
+        "text": "Menganalisis tabel routing BGP global di setiap internet exchange"
       },
       {
         "id": "C",
-        "text": "Mengukur arus listrik kabel menggunakan multimeter"
+        "text": "Mengirim frame broadcast ARP secara kontinu ke seluruh subnet"
       },
       {
         "id": "D",
-        "text": "Mengirimkan virus perusak ke setiap router"
+        "text": "Mengirim paket TCP SYN dengan nomor port acak ke switch Layer 2"
       },
       {
         "id": "E",
-        "text": "Menyalakan kamera CCTV di setiap persimpangan jalan"
+        "text": "Mengukur redaman kabel menggunakan pulsa laser pantul balik"
       }
     ],
     "key": "A",
@@ -616,19 +616,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Kwitansi pembayaran makan siang tim teknisi"
+        "text": "Brosur spesifikasi kabel dari katalog pabrikan pembuat kabel"
       },
       {
         "id": "B",
-        "text": "Struk nota pembelian konektor RJ-45 dari toko material"
+        "text": "Hasil ping 4 kali ke gateway dengan respon latency 1 ms"
       },
       {
         "id": "C",
-        "text": "Daftar nomor telepon seluruh karyawan gedung"
+        "text": "Denah instalasi kabel tanpa data pengujian kelayakan teknis"
       },
       {
         "id": "D",
-        "text": "Foto selfie teknisi memegang tang crimping di depan rak"
+        "text": "Foto lampu LED menyala hijau pada LAN tester baterai 9V"
       },
       {
         "id": "E",
@@ -664,7 +664,7 @@
       },
       {
         "id": "E",
-        "text": "Menaruh cangkir kopi panas di atas switch core yang sedang menyala"
+        "text": "Menumpuk limbah potongan serat kaca di atas kardus terbuka dekat kipas angin"
       }
     ],
     "key": [
@@ -672,7 +672,7 @@
       "B",
       "C"
     ],
-    "explanation": "Penerapan 5R: Ringkas (singkirkan yang tidak perlu), Rapi (manajemen kabel & labeling), Resik (bersihkan limbah serpihan kaca). Menaruh kopi di atas switch atau kabel melintang melanggar K3.",
+    "explanation": "Penerapan 5R: Ringkas (singkirkan yang tidak perlu), Rapi (manajemen kabel & labeling), Resik (bersihkan limbah serpihan kaca). Menumpuk limbah kaca di dekat kipas angin atau kabel melintang melanggar K3.",
     "quickTip": "Penerapan 5R & K3: Labeling rapi, buang limbah kaca ke wadah khusus, dan singkirkan barang rusak."
   },
   {
@@ -692,11 +692,11 @@
       },
       {
         "id": "C",
-        "text": "`format c:` digunakan untuk mempercepat koneksi Wi-Fi"
+        "text": "`ip link set dev eth0 down` digunakan untuk mempercepat koneksi Wi-Fi"
       },
       {
         "id": "D",
-        "text": "`cd` digunakan untuk mengukur daya laser optik dalam dBm"
+        "text": "`cat /proc/cpuinfo` digunakan untuk mengukur daya laser optik dalam dBm"
       },
       {
         "id": "E",
@@ -763,7 +763,7 @@
       },
       {
         "id": "C",
-        "text": "Kurva OTDR yang lurus mendatar menandakan kabel serat optik putus total"
+        "text": "Pantulan Fresnel pada konektor ditandai dengan garis undakan turun tanpa spike"
       },
       {
         "id": "D",
@@ -836,11 +836,11 @@
       },
       {
         "id": "st3",
-        "text": "SLA 100% menjamin bahwa petir tidak akan pernah menyambar menara telekomunikasi.",
+        "text": "SLA 99.5% memperbolehkan downtime hingga 48 jam per bulan tanpa penalti kompensasi.",
         "correct": "S"
       }
     ],
-    "explanation": "Petir adalah bencana alam (force majeure); SLA adalah komitmen waktu operasional sistem dan kompensasi penanganan insiden.",
+    "explanation": "SLA 99.5% hanya mengizinkan downtime maksimal 3.6 jam per bulan (720 jam x 0.5%). Downtime 48 jam adalah pelanggaran berat.",
     "quickTip": "SLA mengatur komitmen uptime operasional dan batas toleransi downtime layanan."
   },
   {
@@ -862,11 +862,11 @@
       },
       {
         "id": "st3",
-        "text": "Interferensi gelombang radio nirkabel dapat diatasi dengan cara mengecat antena radio dengan cat minyak.",
+        "text": "Interferensi Co-Channel dapat diatasi dengan cara menaikkan gain antena pemancar ke tingkat maksimal pada kanal yang sama.",
         "correct": "S"
       }
     ],
-    "explanation": "Mengecat antena tidak menghilangkan interferensi radio elektromagnetik; solusinya adalah berpindah ke kanal frekuensi yang bersih.",
+    "explanation": "Menaikkan gain pada kanal yang sama justru memperparah interferensi bagi diri sendiri dan radio sekitar; solusinya adalah berganti kanal.",
     "quickTip": "Interferensi radio diatasi dengan mengganti kanal frekuensi ke saluran yang bersih."
   },
   {
@@ -888,11 +888,11 @@
       },
       {
         "id": "st3",
-        "text": "Kabel serat optik Single-Mode dianjurkan ditekuk patah 90 derajat agar sinyal cahaya berputar lebih cepat.",
+        "text": "Tekukan macrobending pada kabel optik dapat diatasi dengan menaikkan daya pemancar OLS hingga +30 dBm.",
         "correct": "S"
       }
     ],
-    "explanation": "Menekuk kabel serat optik secara tajam merusak sudut pantulan total dan menyebabkan kebocoran sinyal cahaya yang parah.",
+    "explanation": "Menaikkan daya tidak menyelesaikan cacat fisik serat dan berisiko membakar fotodioda penerima; tekukan fisik harus diluruskan sesuai radius batas.",
     "quickTip": "Dilarang menekuk kabel serat optik secara tajam (cegah macrobending loss)."
   },
   {
@@ -914,11 +914,11 @@
       },
       {
         "id": "st3",
-        "text": "RSTP berfungsi memberikan alamat IP secara otomatis ke printer kantor.",
+        "text": "RSTP menggantikan fungsi routing Layer 3 dalam menghubungkan subnet yang berbeda.",
         "correct": "S"
       }
     ],
-    "explanation": "Pemberian IP otomatis adalah fungsi DHCP Server, bukan Rapid Spanning Tree Protocol (RSTP).",
+    "explanation": "RSTP beroperasi murni pada Layer 2 untuk mencegah loop switching; komunikasi antar-subnet tetap membutuhkan routing Layer 3.",
     "quickTip": "RSTP mencegah switching loop dan broadcast storm dengan konvergensi cepat."
   },
   {
@@ -940,11 +940,11 @@
       },
       {
         "id": "st3",
-        "text": "Traceroute hanya dapat berjalan jika seluruh kabel jaringan di dunia dilepas.",
+        "text": "Traceroute bekerja dengan cara menghitung resistansi loop tembaga kabel jaringan menggunakan sinyal audio.",
         "correct": "S"
       }
     ],
-    "explanation": "Traceroute mutlak membutuhkan koneksi jaringan aktif untuk mengirimkan probe paket ke router-router perantara.",
+    "explanation": "Traceroute adalah utilitas software jaringan Layer 3 berbasis paket IP dan ICMP, bukan pengukur resistansi loop tembaga.",
     "quickTip": "Traceroute melacak rute via manipulasi TTL dan pesan ICMP Time Exceeded."
   }
 ]

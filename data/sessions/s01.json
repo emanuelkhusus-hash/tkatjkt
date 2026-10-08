@@ -12,11 +12,11 @@
       },
       {
         "id": "B",
-        "text": "Database Administrator"
+        "text": "Fiber Optic Splicer / Teknisi Splicing"
       },
       {
         "id": "C",
-        "text": "Staf Administrasi Pergudangan"
+        "text": "Database Administrator"
       },
       {
         "id": "D",
@@ -24,7 +24,7 @@
       },
       {
         "id": "E",
-        "text": "Frontend Developer"
+        "text": "Network Administrator"
       }
     ],
     "key": "D",
@@ -40,27 +40,27 @@
     "options": [
       {
         "id": "A",
-        "text": "Menganalisis log perangkat, menerbitkan trouble ticket, dan mengoordinasikan teknisi lapangan terdekat"
+        "text": "Menganalisis log alarm perangkat, menerbitkan trouble ticket, dan mengoordinasikan teknisi lapangan terdekat"
       },
       {
         "id": "B",
-        "text": "Menutup layanan internet pelanggan secara sepihak tanpa pemberitahuan"
+        "text": "Menunggu laporan keluhan resmi dari pelanggan masuk ke helpdesk sebelum memeriksa status perangkat"
       },
       {
         "id": "C",
-        "text": "Mengganti seluruh modul router inti tanpa diagnosa awal"
+        "text": "Melakukan penarikan fisik kabel pengganti di lokasi POP secara mandiri"
       },
       {
         "id": "D",
-        "text": "Menghapus seluruh tabel routing BGP pada router core"
+        "text": "Merestart paksa seluruh router agregasi regional secara serentak tanpa analisis awal"
       },
       {
         "id": "E",
-        "text": "Mematikan suplai daya genset gedung pusat"
+        "text": "Mengubah arsitektur topologi routing core secara permanen tanpa prosedur change management"
       }
     ],
     "key": "A",
-    "explanation": "SOP NOC Engineer adalah memantau alarm, menganalisis log, membuka trouble ticket sistem, dan mengarahkan personel lapangan untuk pengecekan fisik.",
+    "explanation": "SOP NOC Engineer adalah memantau alarm secara proaktif, menganalisis log perangkat, membuka trouble ticket sistem, dan mengoordinasikan tim pemeliharaan lapangan.",
     "quickTip": "NOC Engineer = Memantau dashboard, menganalisis log, dan membuka trouble ticket."
   },
   {
@@ -72,15 +72,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Digital Content Creator"
+        "text": "Database Administrator (DBA)"
       },
       {
         "id": "B",
-        "text": "Hardware Assembler Manufaktur"
+        "text": "Network Cabling Technician"
       },
       {
         "id": "C",
-        "text": "Operator Entry Data"
+        "text": "IT Helpdesk Support Tier 1"
       },
       {
         "id": "D",
@@ -88,7 +88,7 @@
       },
       {
         "id": "E",
-        "text": "UI/UX Designer"
+        "text": "Network Security Administrator"
       }
     ],
     "key": "D",
@@ -108,19 +108,19 @@
       },
       {
         "id": "B",
-        "text": "Buruh Fabrikasi Perangkat"
+        "text": "Freelance Frontend Web Developer"
       },
       {
         "id": "C",
-        "text": "Broker Properti Perumahan"
+        "text": "IT Hardware Service Center Specialist"
       },
       {
         "id": "D",
-        "text": "Kurir Ekspedisi Logistik"
+        "text": "Data Center Facilities Inspector"
       },
       {
         "id": "E",
-        "text": "Reseller Pakaian Daring"
+        "text": "Digital SEO & Social Media Specialist"
       }
     ],
     "key": "A",
@@ -136,15 +136,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Customer Care Officer"
+        "text": "DevSecOps Engineer"
       },
       {
         "id": "B",
-        "text": "Script Kiddie"
+        "text": "Security Operations Center (SOC) Analyst Tier 1"
       },
       {
         "id": "C",
-        "text": "Social Media Specialist"
+        "text": "Network Security Administrator"
       },
       {
         "id": "D",
@@ -152,7 +152,7 @@
       },
       {
         "id": "E",
-        "text": "Graphic Illustrator"
+        "text": "Digital Forensic Investigator"
       }
     ],
     "key": "D",
@@ -168,7 +168,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Desainer Grafis Percetakan"
+        "text": "Tower Climber / Rigger"
       },
       {
         "id": "B",
@@ -176,15 +176,15 @@
       },
       {
         "id": "C",
-        "text": "Pemasang Tiang Pancang"
+        "text": "Outside Plant (OSP) Civil Supervisor"
       },
       {
         "id": "D",
-        "text": "Civil Surveyor Geodesi"
+        "text": "Optical Network Planner"
       },
       {
         "id": "E",
-        "text": "Operator Excavator Jalan"
+        "text": "CAD / GIS Drafter Telekomunikasi"
       }
     ],
     "key": "B",
@@ -200,19 +200,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Akuntan Pajak TI"
+        "text": "System Administrator On-Premise"
       },
       {
         "id": "B",
-        "text": "Surveyor Lokasi Tanah"
+        "text": "Desktop Support Specialist"
       },
       {
         "id": "C",
-        "text": "Staf Resepsionis Kantor"
+        "text": "Network Security Engineer"
       },
       {
         "id": "D",
-        "text": "Technical Writer"
+        "text": "Database Administrator (DBA)"
       },
       {
         "id": "E",
@@ -232,11 +232,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Chief Technology Officer (CTO)"
+        "text": "Field Maintenance Technician"
       },
       {
         "id": "B",
-        "text": "Data Center Facility Manager"
+        "text": "Core Network Routing Engineer"
       },
       {
         "id": "C",
@@ -244,11 +244,11 @@
       },
       {
         "id": "D",
-        "text": "Security Operations Director"
+        "text": "Network Security Auditor"
       },
       {
         "id": "E",
-        "text": "Core Network Architect"
+        "text": "NOC Incident Escalation Specialist"
       }
     ],
     "key": "C",
@@ -268,19 +268,19 @@
       },
       {
         "id": "B",
-        "text": "Broadcasting Cameraman"
+        "text": "Wireless Microwave Engineer"
       },
       {
         "id": "C",
-        "text": "Mekanik Truk Tambang"
+        "text": "Radio Access Network (RAN) Specialist"
       },
       {
         "id": "D",
-        "text": "Pilot Drone Pemetaan Hutan"
+        "text": "Fiber Optic Jointer / Splicer"
       },
       {
         "id": "E",
-        "text": "Teknisi Pendingin Ruangan (AC)"
+        "text": "Structured Cabling Installer"
       }
     ],
     "key": "A",
@@ -296,19 +296,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Instalasi Driver Printer USB"
+        "text": "Protokol Routing Dinamis OSPF Single-Area untuk IGP Lokal"
       },
       {
         "id": "B",
-        "text": "Editing Video YouTube Channel"
+        "text": "Konfigurasi Static Network Address Translation (NAT) SOHO"
       },
       {
         "id": "C",
-        "text": "Perakitan Komputer Gaming"
+        "text": "Konfigurasi Virtual LAN (VLAN 802.1Q) dan Port Trunking pada Switch"
       },
       {
         "id": "D",
-        "text": "Pembuatan Desain Brosur Promosi"
+        "text": "Manajemen Dynamic Host Configuration Protocol (DHCP) Server Klien"
       },
       {
         "id": "E",
@@ -328,19 +328,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Operator Genset Cadangan"
+        "text": "BTS Commissioning Engineer"
       },
       {
         "id": "B",
-        "text": "Pemasang Keramik Gardu"
+        "text": "Telecom Site Acquisition (SITAC) Officer"
       },
       {
         "id": "C",
-        "text": "Security Guard Pos Menara"
+        "text": "RF Optimization Specialist"
       },
       {
         "id": "D",
-        "text": "Pembersih Kaca Gedung Bertingkat"
+        "text": "Fiber Optic OSP Splicer"
       },
       {
         "id": "E",
@@ -360,11 +360,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Internship Student"
+        "text": "Lead Network Security Engineer"
       },
       {
         "id": "B",
-        "text": "Warehouse Packer"
+        "text": "Database Architecture Supervisor"
       },
       {
         "id": "C",
@@ -372,11 +372,11 @@
       },
       {
         "id": "D",
-        "text": "Junior Desktop Support"
+        "text": "IT Service Desk Manager"
       },
       {
         "id": "E",
-        "text": "Field Maintenance Helper"
+        "text": "Infrastructure Project Coordinator"
       }
     ],
     "key": "C",
@@ -392,15 +392,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Pemasang Wallpaper Ruangan"
+        "text": "Data Center Facilities Inspector"
       },
       {
         "id": "B",
-        "text": "Audio Mixing Specialist"
+        "text": "Structured Cabling Specialist"
       },
       {
         "id": "C",
-        "text": "Operator Mesin Cetak Banner"
+        "text": "Optical Distribution Network (ODN) Inspector"
       },
       {
         "id": "D",
@@ -408,7 +408,7 @@
       },
       {
         "id": "E",
-        "text": "Penyiar Radio Komersial"
+        "text": "Core IP Network Engineer"
       }
     ],
     "key": "D",
@@ -428,19 +428,19 @@
       },
       {
         "id": "B",
-        "text": "Tukang Kebun Kantor Pusat"
+        "text": "IT Procurement & Inventory Specialist"
       },
       {
         "id": "C",
-        "text": "Driver Pengantar Surat Tagihan"
+        "text": "Data Center Cabling Organizer"
       },
       {
         "id": "D",
-        "text": "Satpam Kantor Pelayanan"
+        "text": "Telecom Outside Plant (OSP) Surveyor"
       },
       {
         "id": "E",
-        "text": "Petugas Loket Pembayaran Tagihan"
+        "text": "Optical Fiber Cable Jointer"
       }
     ],
     "key": "A",
@@ -460,19 +460,19 @@
       },
       {
         "id": "B",
-        "text": "Front Office Receptionist"
+        "text": "Network Security Incident Responder"
       },
       {
         "id": "C",
-        "text": "Petugas Kebersihan Koridor Luar"
+        "text": "Cloud Infrastructure Architect"
       },
       {
         "id": "D",
-        "text": "Kurir Makanan Karyawan"
+        "text": "Optical Distribution Frame (ODF) Terminator"
       },
       {
         "id": "E",
-        "text": "Desainer Seragam Kerja"
+        "text": "Database Administrator (DBA)"
       }
     ],
     "key": "A",
@@ -488,11 +488,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Videografi Dokumenter"
+        "text": "Desktop Hardware Support Technician"
       },
       {
         "id": "B",
-        "text": "Animasi Karakter 3D"
+        "text": "Database Administrator"
       },
       {
         "id": "C",
@@ -500,11 +500,11 @@
       },
       {
         "id": "D",
-        "text": "Penyusun Laporan Neraca Keuangan"
+        "text": "Telecommunication Quality Assurance Specialist"
       },
       {
         "id": "E",
-        "text": "Pemasang Kanopi Gedung"
+        "text": "Network Cabling Drafter"
       }
     ],
     "key": "C",
@@ -520,7 +520,7 @@
     "options": [
       {
         "id": "A",
-        "text": "WHO (World Health Organization)"
+        "text": "IETF (Internet Engineering Task Force)"
       },
       {
         "id": "B",
@@ -528,15 +528,15 @@
       },
       {
         "id": "C",
-        "text": "UNICEF"
+        "text": "ISO (International Organization for Standardization)"
       },
       {
         "id": "D",
-        "text": "FIFA (Federation Internationale de Football Association)"
+        "text": "IEEE (Institute of Electrical and Electronics Engineers)"
       },
       {
         "id": "E",
-        "text": "OPEC"
+        "text": "ICANN (Internet Corporation for Assigned Names and Numbers)"
       }
     ],
     "key": "B",
@@ -552,23 +552,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Audit Internal Finansial"
+        "text": "Optical Network Route Planner"
       },
       {
         "id": "B",
-        "text": "Staf Penggajian Personalia"
+        "text": "Core Switch System Engineer"
       },
       {
         "id": "C",
-        "text": "Field Technician / Teknisi Pasang Baru (PSB)"
+        "text": "Field Technician / Teknisi Pasang Baru (PSB / IKR)"
       },
       {
         "id": "D",
-        "text": "General Manager Marketing"
+        "text": "IT Asset Inventory Controller"
       },
       {
         "id": "E",
-        "text": "Legal Officer Perusahaan"
+        "text": "NOC Surveillance Operator"
       }
     ],
     "key": "C",
@@ -588,19 +588,19 @@
       },
       {
         "id": "B",
-        "text": "Art Painter Pameran"
+        "text": "Outside Plant (OSP) Splicer Specialist"
       },
       {
         "id": "C",
-        "text": "Penerjemah Bahasa Sastra"
+        "text": "Telecom Field Maintenance Helper"
       },
       {
         "id": "D",
-        "text": "Editor Naskah Cerpen"
+        "text": "Network Project Manager"
       },
       {
         "id": "E",
-        "text": "Fotografer Model Studio"
+        "text": "Radio Frequency (RF) Optimization Engineer"
       }
     ],
     "key": "A",
@@ -616,11 +616,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Surat Tanda Nomor Kendaraan (STNK)"
+        "text": "Service Level Agreement (SLA) / Perjanjian Tingkat Layanan"
       },
       {
         "id": "B",
-        "text": "Kuitansi Pembelian ATK Kantor"
+        "text": "End User License Agreement (EULA) / Perjanjian Lisensi Pengguna"
       },
       {
         "id": "C",
@@ -628,11 +628,11 @@
       },
       {
         "id": "D",
-        "text": "Kartu Iuran Asuransi"
+        "text": "Acceptance Test Procedure (ATP) / Berita Acara Uji Terima"
       },
       {
         "id": "E",
-        "text": "Brosur Promosi Produk Paket"
+        "text": "Bill of Quantity (BoQ) / Rincian Kebutuhan Material"
       }
     ],
     "key": "C",
@@ -660,11 +660,11 @@
       },
       {
         "id": "D",
-        "text": "Chief Financial Officer (CFO)"
+        "text": "Database Administrator (DBA)"
       },
       {
         "id": "E",
-        "text": "Software Frontend React Developer"
+        "text": "Cloud Solutions Architect"
       }
     ],
     "key": [
@@ -688,7 +688,7 @@
       },
       {
         "id": "B",
-        "text": "Menjual paket kuota internet langsung secara door-to-door ke perumahan"
+        "text": "Melakukan penarikan fisik kabel drop optik dari tiang distribusi ke rumah pelanggan"
       },
       {
         "id": "C",
@@ -700,7 +700,7 @@
       },
       {
         "id": "E",
-        "text": "Membuat desain interior gedung perkantoran pusat"
+        "text": "Memasang dan mengelas dudukan tiang antena monopole di atap gedung"
       }
     ],
     "key": [
@@ -724,7 +724,7 @@
       },
       {
         "id": "B",
-        "text": "Petugas Operator Mesin Cuci Seragam"
+        "text": "CAD / GIS Cabling Drafter"
       },
       {
         "id": "C",
@@ -736,7 +736,7 @@
       },
       {
         "id": "E",
-        "text": "Staf Resepsionis Lobi Kantor"
+        "text": "UI/UX Front-End Designer"
       }
     ],
     "key": [
@@ -760,7 +760,7 @@
       },
       {
         "id": "B",
-        "text": "Budidaya tanaman hias langka hidroponik"
+        "text": "Jasa survei kontur topografi tanah proyek jalan raya"
       },
       {
         "id": "C",
@@ -768,7 +768,7 @@
       },
       {
         "id": "D",
-        "text": "Pabrik peleburan bijih besi berskala berat"
+        "text": "Jasa reparasi kompresor mesin pendingin dan tata udara AC gedung"
       },
       {
         "id": "E",
@@ -800,11 +800,11 @@
       },
       {
         "id": "C",
-        "text": "Memasak hidangan katering makan siang karyawan"
+        "text": "Mengoperasikan mesin fusion splicer untuk penyambungan joint closure optik"
       },
       {
         "id": "D",
-        "text": "Mengemudikan truk pengantar tiang beton ke luar kota"
+        "text": "Memanjat menara radio telekomunikasi untuk memasang bracket antena microwave"
       },
       {
         "id": "E",
@@ -859,7 +859,7 @@
       },
       {
         "id": "st2",
-        "text": "Jika terjadi kabel serat optik bawah laut putus, Helpdesk Tier 1 bertugas menyelam ke dasar laut untuk memperbaikinya.",
+        "text": "Helpdesk Tier 1 memiliki wewenang untuk mengubah topologi routing router core secara langsung saat menerima panggilan pertama pelanggan.",
         "correct": "S"
       },
       {
@@ -868,8 +868,8 @@
         "correct": "B"
       }
     ],
-    "explanation": "Helpdesk Tier 1 bertugas mencatat tiket dan memandu troubleshooting dasar, perbaikan fisik bawah laut dilakukan kapal kabel khusus.",
-    "quickTip": "Helpdesk melayani komunikasi pelanggan & panduan awal, bukan penyelam perbaikan fisik."
+    "explanation": "Helpdesk Tier 1 bertugas mencatat tiket dan memandu troubleshooting dasar, perubahan routing router core adalah wewenang Network Engineer / Core Team.",
+    "quickTip": "Helpdesk melayani komunikasi pelanggan & panduan awal, bukan pengubah routing core."
   },
   {
     "id": "s01_q28",
@@ -890,7 +890,7 @@
       },
       {
         "id": "st3",
-        "text": "Network Engineer bertanggung jawab menulis artikel berita gosip selebriti di majalah cetak kantor.",
+        "text": "Network Engineer bertanggung jawab merancang desain grafis poster promosi dan antarmuka halaman login media sosial perusahaan.",
         "correct": "S"
       }
     ],
@@ -911,7 +911,7 @@
       },
       {
         "id": "st2",
-        "text": "Technopreneur di bidang TJKT dilarang membuat nota kesepakatan tertulis saat melayani pelanggan kantor.",
+        "text": "Seorang Technopreneur TJKT dilarang membuat nota kontrak atau dokumen kesepakatan tertulis saat melayani instalasi kantor.",
         "correct": "S"
       },
       {
@@ -932,7 +932,7 @@
     "statements": [
       {
         "id": "st1",
-        "text": "Teknisi jaringan diperbolehkan menjual data pribadi pelanggan ISP kepada pihak ketiga demi keuntungan pribadi.",
+        "text": "Teknisi jaringan diperbolehkan membagikan file konfigurasi router dan password sistem internal perusahaan kepada pihak luar tanpa izin resmi.",
         "correct": "S"
       },
       {
@@ -946,7 +946,7 @@
         "correct": "B"
       }
     ],
-    "explanation": "Membocorkan data pelanggan adalah pelanggaran hukum dan etika berat; dokumen NDA mengikat secara hukum kerahasiaan data perusahaan.",
+    "explanation": "Membocorkan data konfigurasi dan password adalah pelanggaran hukum dan etika berat; dokumen NDA mengikat secara hukum kerahasiaan data perusahaan.",
     "quickTip": "Etika profesi & NDA melarang keras pembocoran data rahasia konfigurasi/pelanggan."
   }
 ]

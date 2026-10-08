@@ -8,7 +8,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Ketinggian 50 cm atau lebih"
+        "text": "Ketinggian 5,0 meter atau lebih di atas permukaan tanah/lantai"
       },
       {
         "id": "B",
@@ -16,15 +16,15 @@
       },
       {
         "id": "C",
-        "text": "Ketinggian 100 meter di atas awan"
+        "text": "Ketinggian 2,5 meter atau lebih di atas permukaan tanah/lantai"
       },
       {
         "id": "D",
-        "text": "Ketinggian 20 meter saja"
+        "text": "Ketinggian 1,0 meter atau lebih di atas permukaan tanah/lantai"
       },
       {
         "id": "E",
-        "text": "Ketinggian 10 meter atau lebih"
+        "text": "Ketinggian 3,0 meter atau lebih di atas permukaan tanah/lantai"
       }
     ],
     "key": "B",
@@ -40,19 +40,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Kacamata hitam gaya santai"
+        "text": "Safety Net Gantung portabel tanpa tali pengaman badan"
       },
       {
         "id": "B",
-        "text": "Sabuk pinggang kulit harian untuk celana"
+        "text": "Body Belt (Sabuk Pinggang Penahan Posisi Saja) tanpa penopang paha"
       },
       {
         "id": "C",
-        "text": "Rompi kain tanpa pengait tali"
+        "text": "Rompi Reflektif Pelindung Gesekan bertali pengait tunggal"
       },
       {
         "id": "D",
-        "text": "Jaket kain tebal biasa"
+        "text": "Chest Harness Tunggal tanpa pengikat tali selangkangan"
       },
       {
         "id": "E",
@@ -72,19 +72,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Rasio 1:4 (Tangga hampir rata dengan tanah)"
+        "text": "Rasio 1:1 (Sudut 45 derajat yang memicu selip tumpuan kaki tangga di tanah)"
       },
       {
         "id": "B",
-        "text": "Rasio 20:1 (Tangga menempel rapat vertikal tanpa kemiringan)"
+        "text": "Rasio 8:1 (Sudut hampir 90 derajat yang menghilangkan kestabilan tumpuan tubuh)"
       },
       {
         "id": "C",
-        "text": "Rasio 1:1 (Sudut 45 derajat terlalu landai)"
+        "text": "Rasio 2:1 (Sudut sekitar 60 derajat yang terlalu landai dan memicu lenturan patah)"
       },
       {
         "id": "D",
-        "text": "Rasio 10:1 (Tangga tegak lurus 90 derajat berisiko terjungkal ke belakang)"
+        "text": "Rasio 6:1 (Sudut sekitar 80 derajat yang terlalu tegak dan rawan terjungkal ke belakang)"
       },
       {
         "id": "E",
@@ -104,11 +104,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Menyuruh rekan kerja melempar batu ke kendaraan yang lewat"
+        "text": "Mengandalkan aba-aba lambaian tangan tanpa memasang kerucut pembatas fisik"
       },
       {
         "id": "B",
-        "text": "Menyalakan kembang api di tengah jalan raya"
+        "text": "Memasang spanduk promosi produk ISP di sepanjang trotoar pejalan kaki"
       },
       {
         "id": "C",
@@ -116,11 +116,11 @@
       },
       {
         "id": "D",
-        "text": "Menutup seluruh jalan tol provinsi tanpa izin"
+        "text": "Menempatkan lampu sorot halogen berkekuatan tinggi langsung ke arah pengemudi jalan"
       },
       {
         "id": "E",
-        "text": "Membiarkan area terbuka tanpa penanda agar tidak mencolok"
+        "text": "Memarkirkan kendaraan operasional melintang menutupi seluruh lajur jalan raya"
       }
     ],
     "key": "C",
@@ -136,15 +136,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Tangga berantai kawat tembaga"
+        "text": "Tangga pipa besi galvanis berlapis cat pelindung karat"
       },
       {
         "id": "B",
-        "text": "Tangga aluminium konduktor murni"
+        "text": "Tangga paduan aluminium ringan (Alloy Conductor)"
       },
       {
         "id": "C",
-        "text": "Tangga pelat seng tipis"
+        "text": "Tangga kawat baja gantung fleksibel (Wire Rope Ladder)"
       },
       {
         "id": "D",
@@ -152,7 +152,7 @@
       },
       {
         "id": "E",
-        "text": "Tangga pipa besi baja galvanis"
+        "text": "Tangga baja karbon berkekuatan mekanik tinggi (Carbon Steel)"
       }
     ],
     "key": "D",
@@ -172,19 +172,19 @@
       },
       {
         "id": "B",
-        "text": "Penutup telinga kedap suara musik"
+        "text": "Bantalan busa tambahan di sisi pelipis helm"
       },
       {
         "id": "C",
-        "text": "Kain penutup wajah cadar"
+        "text": "Brim pelindung samping pencegah cipratan air hujan"
       },
       {
         "id": "D",
-        "text": "Topi koboi bertepi lebar"
+        "text": "Pengatur ukuran lingkar kepala putar (Ratchet Knob) di bagian belakang"
       },
       {
         "id": "E",
-        "text": "Kaca mata renang"
+        "text": "Kancing ventilasi udara putar di bagian ubun-ubun helm"
       }
     ],
     "key": "A",
@@ -200,11 +200,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Menggantungkan tang pada layang-layang"
+        "text": "Membawa seluruh kotak perkakas besi berat di tangan saat menaiki tangga"
       },
       {
         "id": "B",
-        "text": "Menyuruh teknisi di atas tiang melompat turun mengambil tang lalu naik lagi"
+        "text": "Menyuruh teknisi di atas tiang melompat turun mengambil perkakas lalu naik kembali"
       },
       {
         "id": "C",
@@ -212,11 +212,11 @@
       },
       {
         "id": "D",
-        "text": "Melemparkan tang besi sekuat tenaga ke arah teknisi di atas tiang"
+        "text": "Melemparkan perkakas langsung dari bawah ke arah teknisi di atas tiang"
       },
       {
         "id": "E",
-        "text": "Menembakkan perkakas menggunakan ketapel panah"
+        "text": "Mengikat perkakas langsung pada kabel serat optik yang sedang terbentang"
       }
     ],
     "key": "C",
@@ -232,19 +232,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Minimal 50 meter di atas awan"
+        "text": "Minimal 4,2 hingga 4,5 meter setinggi pintu gerbang perumahan"
       },
       {
         "id": "B",
-        "text": "Cukup 1,5 meter setinggi dada orang dewasa"
+        "text": "Minimal 3,5 hingga 4,0 meter setinggi kendaraan mobil pribadi"
       },
       {
         "id": "C",
-        "text": "Cukup 2 meter setinggi atap mobil sedan pendek"
+        "text": "Minimal 7,5 hingga 8,5 meter setinggi kawat transmisi SUTT"
       },
       {
         "id": "D",
-        "text": "Dibiarkan menyentuh aspal jalan raya"
+        "text": "Minimal 2,5 hingga 3,0 meter setinggi pejalan kaki"
       },
       {
         "id": "E",
@@ -268,19 +268,19 @@
       },
       {
         "id": "B",
-        "text": "Menempelkan tangga menggunakan permen karet"
+        "text": "Mengunci engsel lipat tangga tanpa mengikatkan puncak tangga ke tiang tumpu"
       },
       {
         "id": "C",
-        "text": "Membiarkan tangga bersandar bebas tanpa diikat sama sekali"
+        "text": "Menahan tangga hanya dengan pijakan kaki groundman tanpa tali pengikat tiang"
       },
       {
         "id": "D",
-        "text": "Melumuri tiang dengan minyak pelumas agar licin"
+        "text": "Menyandarkan tangga secara bebas dengan memperbesar sudut kemiringan di tanah"
       },
       {
         "id": "E",
-        "text": "Mengganjal kaki tangga dengan sandal jepit bekas"
+        "text": "Mengikatkan tangga ke kabel drop optik yang membentang di samping tiang"
       }
     ],
     "key": "A",
@@ -296,7 +296,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Mengibarkan bendera logam tinggi di atas tiang"
+        "text": "Berlindung di bawah tiang beton sambil memegangi kawat penegang kabel"
       },
       {
         "id": "B",
@@ -304,15 +304,15 @@
       },
       {
         "id": "C",
-        "text": "Duduk santai di atas tiang sambil menunggu hujan reda"
+        "text": "Mematikan perangkat ponsel dan tetap melanjutkan penyambungan kabel di atas tiang"
       },
       {
         "id": "D",
-        "text": "Menantang petir untuk membuktikan keberanian teknisi"
+        "text": "Menghubungkan kabel messenger ke tanah untuk mengalirkan sambaran petir"
       },
       {
         "id": "E",
-        "text": "Terus memanjat tiang hingga ke ujung paling runcing sambil memegang besi"
+        "text": "Mempercepat pemasangan klem kabel di puncak tiang sebelum air hujan membasahi tangga"
       }
     ],
     "key": "B",
@@ -328,7 +328,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Untuk mendengarkan gelombang siaran radio FM"
+        "text": "Meningkatkan kecepatan rambat transmisi cahaya di dalam inti kaca optik"
       },
       {
         "id": "B",
@@ -336,15 +336,15 @@
       },
       {
         "id": "C",
-        "text": "Sebagai saluran pembuangan air hujan"
+        "text": "Melindungi inti serat optik dari bahaya penyadapan sinyal elektromagnetik"
       },
       {
         "id": "D",
-        "text": "Hanya sebagai hiasan agar kabel terlihat tebal"
+        "text": "Berfungsi sebagai kawat pembumian (grounding) induksi petir di rumah pelanggan"
       },
       {
         "id": "E",
-        "text": "Sebagai penghantar daya listrik 220V ke rumah pelanggan"
+        "text": "Menghantarkan arus listrik tegangan rendah untuk daya modem optik pelanggan"
       }
     ],
     "key": "B",
@@ -360,7 +360,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Karet gelang elastis"
+        "text": "Pole Band Stainless Steel Pengikat Kotak Distribusi"
       },
       {
         "id": "B",
@@ -368,15 +368,15 @@
       },
       {
         "id": "C",
-        "text": "Isolasi kertas bening"
+        "text": "Joint Closure Dome Pelindung Sambungan Inti"
       },
       {
         "id": "D",
-        "text": "Kawat bendrat berkarat"
+        "text": "Dead-End Grip Preformed Spiral Kawat Baja Besar"
       },
       {
         "id": "E",
-        "text": "Paku payung seng"
+        "text": "Suspension Clamp Berengsel Karet untuk Jalur Lurus"
       }
     ],
     "key": "B",
@@ -392,11 +392,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Mengeluarkan suara sirine ambulans otomatis"
+        "text": "Menghasilkan getaran peringatan dini saat teknisi mendekati batas tepi tiang"
       },
       {
         "id": "B",
-        "text": "Membuat teknisi memantul-mantul seperti mainan trampolin"
+        "text": "Menarik tubuh teknisi kembali ke atas tiang secara mekanik otomatis"
       },
       {
         "id": "C",
@@ -404,11 +404,11 @@
       },
       {
         "id": "D",
-        "text": "Menyimpan daya listrik baterai telepon pintar"
+        "text": "Mengurangi bobot tubuh teknisi saat menaiki anak tangga tiang"
       },
       {
         "id": "E",
-        "text": "Mengubah tali menjadi parasut terbang"
+        "text": "Mengunci posisi tali lanyard pada titik jangkar agar tidak memanjang"
       }
     ],
     "key": "C",
@@ -424,11 +424,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Meninggalkan lokasi untuk menonton bioskop"
+        "text": "Melakukan terminasi konektor SC/UPC pada kotak ODP di puncak tiang"
       },
       {
         "id": "B",
-        "text": "Mengemudikan mobil dinas jalan-jalan tanpa tujuan"
+        "text": "Menerbitkan nota penagihan pembayaran internet ke rumah-rumah warga sekitar"
       },
       {
         "id": "C",
@@ -436,11 +436,11 @@
       },
       {
         "id": "D",
-        "text": "Memejamkan mata agar tidak melihat teknisi di atas"
+        "text": "Mengukur redaman kabel backbone menggunakan perangkat OTDR portabel"
       },
       {
         "id": "E",
-        "text": "Membaca novel santai di warung kopi seberang jalan"
+        "text": "Mengatur konfigurasi logical VLAN pada router OLT dari laptop di pinggir jalan"
       }
     ],
     "key": "C",
@@ -460,19 +460,19 @@
       },
       {
         "id": "B",
-        "text": "Warna tali harness terlihat cerah dan bersih"
+        "text": "Terdapat debu tipis pada permukaan webbing yang dapat dibersihkan dengan lap kering"
       },
       {
         "id": "C",
-        "text": "Gesper logam mengunci dengan mulus dan presisi"
+        "text": "Label identitas pabrik sedikit terlipat namun nomor seri masih terbaca jelas"
       },
       {
         "id": "D",
-        "text": "Label sertifikasi pabrik masih terpasang rapi"
+        "text": "Warna webbing sedikit pudar akibat paparan sinar matahari namun jahitan utuh"
       },
       {
         "id": "E",
-        "text": "Jahitan benang terikat rapat dan kuat"
+        "text": "Gesper logam memiliki goresan halus pada lapisan cat pelindung luar"
       }
     ],
     "key": "A",
@@ -488,15 +488,15 @@
     "options": [
       {
         "id": "A",
-        "text": "Tali rafia plastik merah"
+        "text": "Kabel ties nilon tahan cuaca luar ruangan"
       },
       {
         "id": "B",
-        "text": "Lakban kertas cokelat"
+        "text": "Klem pelat besi berulir tanpa pengunci buckle"
       },
       {
         "id": "C",
-        "text": "Kawat kasa nyamuk"
+        "text": "Tali kur berkepang bahan serat sintetis poliester"
       },
       {
         "id": "D",
@@ -504,7 +504,7 @@
       },
       {
         "id": "E",
-        "text": "Benang jahit pakaian"
+        "text": "Kawat pengikat galvanis lilitan manual"
       }
     ],
     "key": "D",
@@ -520,11 +520,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Four Limb Flying (Kedua tangan dan kaki lepas bersamaan)"
+        "text": "Single Point Anchor Contact (Hanya Bertumpu pada Tali Lanyard Pinggang)"
       },
       {
         "id": "B",
-        "text": "One Point of Contact (Hanya bertumpu pada satu ujung jari)"
+        "text": "Four Points of Static Contact (Kedua Tangan dan Kaki Diam Tanpa Gerakan Naik)"
       },
       {
         "id": "C",
@@ -532,11 +532,11 @@
       },
       {
         "id": "D",
-        "text": "Zero Point of Contact (Melompat tanpa berpegangan)"
+        "text": "Two Points of Contact (Dua Kaki Bertumpu Bebas Tanpa Pegangan Tangan)"
       },
       {
         "id": "E",
-        "text": "Sleeping Contact (Memanjat sambil memejamkan mata)"
+        "text": "Dynamic Alternating Contact (Melangkah Cepat Tanpa Menahan Tumpuan Tangan)"
       }
     ],
     "key": "C",
@@ -552,11 +552,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Tiang 100 meter setinggi Monumen Nasional"
+        "text": "Tiang 12 meter dan tiang 15 meter (dengan kedalaman tanam 1/10 panjang tiang)"
       },
       {
         "id": "B",
-        "text": "Tiang 50 meter setinggi menara transmisi tegangan ekstra tinggi"
+        "text": "Tiang 5 meter dan tiang 6 meter (dengan kedalaman tanam 1/4 panjang tiang)"
       },
       {
         "id": "C",
@@ -564,11 +564,11 @@
       },
       {
         "id": "D",
-        "text": "Tiang 50 cm seukuran patok tanah pekarangan"
+        "text": "Tiang 18 meter dan tiang 24 meter (dengan kedalaman tanam 1/8 panjang tiang)"
       },
       {
         "id": "E",
-        "text": "Tiang 1 meter setinggi meja belajar"
+        "text": "Tiang 3 meter dan tiang 4 meter (dengan kedalaman tanam 1/2 panjang tiang)"
       }
     ],
     "key": "C",
@@ -584,19 +584,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Sakit gigi berlubang"
+        "text": "Compartment Syndrome Akut Otot Lengan"
       },
       {
         "id": "B",
-        "text": "Rabun jauh mata"
+        "text": "Decompression Sickness Penyelaman"
       },
       {
         "id": "C",
-        "text": "Flu burung musiman"
+        "text": "Deep Vein Thrombosis (DVT Kronis)"
       },
       {
         "id": "D",
-        "text": "Demam berdarah dengue"
+        "text": "Carpal Tunnel Syndrome (CTS)"
       },
       {
         "id": "E",
@@ -616,19 +616,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Sarung tangan tinju berbusa tebal"
+        "text": "Sarung tangan isolasi listrik kelas 4 tahan tegangan 36.000 Volt yang kaku"
       },
       {
         "id": "B",
-        "text": "Sarung tangan plastik tipis pembungkus makanan gorengan"
+        "text": "Sarung tangan kulit las tebal yang membatasi fleksibilitas pergerakan jari"
       },
       {
         "id": "C",
-        "text": "Sarung tangan besi perang abad pertengahan yang kaku"
+        "text": "Sarung tangan karet lateks medis yang tipis dan licin saat terkena debu"
       },
       {
         "id": "D",
-        "text": "Sarung tangan wol rajut longgar yang licin"
+        "text": "Sarung tangan katun rajut polos tanpa lapisan pelindung gesekan"
       },
       {
         "id": "E",
@@ -644,11 +644,11 @@
     "number": 21,
     "type": "pgk_mcma",
     "stimulus": "Pekerjaan penarikan kabel fiber optik di ketinggian tiang pinggir jalan raya memiliki risiko bahaya ganda (jatuh dari ketinggian dan tertabrak kendaraan).",
-    "question": "Manakah perlengkapan Alat Pelindudng Diri (APD) dan keselamatan kerja yang WAJIB digunakan oleh teknisi tiang? (Pilihlah DUA atau TIGA jawaban yang benar)",
+    "question": "Manakah perlengkapan Alat Pelindung Diri (APD) dan keselamatan kerja yang WAJIB digunakan oleh teknisi tiang? (Pilihlah DUA atau TIGA jawaban yang benar)",
     "options": [
       {
         "id": "A",
-        "text": "Sandal jepit santai karet tipis"
+        "text": "Sandal karet bertali tanpa pelindung jari kaki"
       },
       {
         "id": "B",
@@ -656,7 +656,7 @@
       },
       {
         "id": "C",
-        "text": "Jas hujan plastik kresek tanpa ventilasi"
+        "text": "Jas hujan plastik tipis tanpa ventilasi udara"
       },
       {
         "id": "D",
@@ -684,7 +684,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Memiliki anak tangga yang licin berlumur oli mesin"
+        "text": "Memiliki anak tangga yang dicat menggunakan cat minyak licin"
       },
       {
         "id": "B",
@@ -692,7 +692,7 @@
       },
       {
         "id": "C",
-        "text": "Terbuat dari logam aluminium murni yang menghantarkan arus listrik dengan cepat"
+        "text": "Terbuat dari logam aluminium murni yang berbobot sangat ringan"
       },
       {
         "id": "D",
@@ -728,7 +728,7 @@
       },
       {
         "id": "C",
-        "text": "Sebagai tempat membuang puntung rokok dan sampah makanan"
+        "text": "Menutup seluruh lajur jalan raya tanpa menyediakan jalur alternatif bagi publik"
       },
       {
         "id": "D",
@@ -736,7 +736,7 @@
       },
       {
         "id": "E",
-        "text": "Sebagai bahan mainan lempar tangkap saat jam kerja"
+        "text": "Sebagai penopang tambahan untuk mengikat tali bentangan kabel drop optik"
       }
     ],
     "key": [
@@ -800,7 +800,7 @@
       },
       {
         "id": "C",
-        "text": "Memotong tali penahan saat korban masih berada 7 meter di atas tanpa penopang bawah"
+        "text": "Memotong tali penahan saat korban masih berada di ketinggian tanpa sistem pendaratan"
       },
       {
         "id": "D",
@@ -808,7 +808,7 @@
       },
       {
         "id": "E",
-        "text": "Membiarkan korban tergantung hingga esok hari"
+        "text": "Menunggu korban sadar secara mandiri sebelum melakukan tindakan penurunan"
       }
     ],
     "key": [
@@ -833,7 +833,7 @@
       },
       {
         "id": "st2",
-        "text": "Harness boleh dipasang sangat longgar hingga gesper dada berada di bawah pusar.",
+        "text": "Harness boleh dipasang sangat longgar hingga gesper dada berada di bawah pusar demi kenyamanan bernapas.",
         "correct": "S"
       },
       {
@@ -854,7 +854,7 @@
     "statements": [
       {
         "id": "st1",
-        "text": "Tangga aluminium dapat menghantarkan arus listrik mematikan jika menyentuh kabel listrik kupas PLN.",
+        "text": "Tangga aluminium dapat menghantarkan arus listrik mematikan jika menyentuh kabel listrik terbuka PLN.",
         "correct": "B"
       },
       {
@@ -864,7 +864,7 @@
       },
       {
         "id": "st3",
-        "text": "Teknisi boleh menyentuh kabel listrik PLN asalkan menggunakan sandal jepit basah.",
+        "text": "Teknisi diperbolehkan menggunakan tangga aluminium di dekat kabel SUTR PLN jika memakai sarung tangan kain tipis.",
         "correct": "S"
       }
     ],
@@ -890,11 +890,11 @@
       },
       {
         "id": "st3",
-        "text": "Mengganjal salah satu kaki tangga yang timpang menggunakan batu bulat licin adalah tindakan yang aman.",
+        "text": "Mengganjal salah satu kaki tangga yang timpang menggunakan pecahan batu bata atau kayu lapuk diperbolehkan dalam kondisi darurat.",
         "correct": "S"
       }
     ],
-    "explanation": "Mengganjal kaki tangga dengan batu bulat sangat berbahaya dan memicu tangga roboh; ujung atas tangga harus lebih 1 meter.",
+    "explanation": "Mengganjal kaki tangga dengan batu bata/kayu lapuk sangat berbahaya dan memicu tangga roboh; ujung atas tangga harus lebih 1 meter.",
     "quickTip": "Tangga stabil: Tanah padat rata, ujung lebih 1 meter, dilarang ganjal dengan batu licin."
   },
   {
@@ -911,7 +911,7 @@
       },
       {
         "id": "st2",
-        "text": "Karabiner pengait boleh dibiarkan terbuka kuncinya tanpa diputar sekrup pengamannya.",
+        "text": "Karabiner pengait boleh dibiarkan terbuka kuncinya tanpa diputar sekrup pengamannya demi mempercepat pergerakan.",
         "correct": "S"
       },
       {
@@ -942,7 +942,7 @@
       },
       {
         "id": "st3",
-        "text": "Teknisi diwajibkan tetap memanjat tiang saat petir menggelegar demi mengejar bonus insentif cepat.",
+        "text": "Pekerjaan penarikan kabel di atas tiang tetap boleh dilanjutkan saat kilat petir menyambar asalkan mengenakan sepatu bersol karet.",
         "correct": "S"
       }
     ],
